@@ -62,7 +62,7 @@ extension_map = {'bcmdl': {'bsmat', 'bcskla', 'bmbls', 'bcptl'},
 #all_extensions = {'.apd','.bapd','.bccam','.bchkdat','.bclgt','.bcmdl','.bcptl','.bcskla','.bctex','.bcurv','.bcwav','.bfgrp','.bfont','.bfsar','.bgsnds','.bldef','.blsnd','.blut','.bmbls','.bmdefs','.bmmap','.bmmdef','.bmsact','.bmsad','.bmsas','.bmsat','.bmsbk','.bmscc','.bmscd','.bmscp','.bmscu','.bmsld','.bmslgroup','.bmslink','.bmsnav','.bmssd','.bmssh','.bmssk','.bmsss','.bmssv','.bmtre','.bnvib','.bpsi','.bptdat','.bptdef','.brem','.bres','.brev','.brfld','.brsa','.brspd','.bshdat','.bsmat','.btunda','.buct','.ccam','.chkdat','.clgt','.cmdl','.cptl','.cskla','.curv','.dds','.dspadpcm.bfstm','.fnt','.fspj','.gsh','.gsnds','.hdr','.imat','.lc','.ldef','.lsnd','.lua','.lut','.m4a','.mbls','.mblst','.mbtre','.mdefs','.mdei','.mdl','.mkv','.mmap','.mmdef','.mp4','.msact','.msad','.msaf','.msas','.msat','.msbk','.mscc','.mscd','.mscp','.mscu','.msld','.mslgroup','.mslink','.msnav','.mssd','.mssg','.mssh','.mssk','.mssl','.msss','.mtxc','.ogg','.pfg','.pkg','.psh','.psi','.ptdat','.ptdef','.rem','.res','.rev','.rfld','.rlei','.rsa','.rspd','.shdat','.smat','.tga','.tunda','.txt','.uct','.vib','.vsh','.wav','.webm'}
 all_extensions = ['bapd','bccam','bcmdl','bcptl','bcskla','bcurv','bldef','blsnd','bmbls','bmdefs','bmmap','bmsad','bmsas','bmsat','bmscc','bmscd','bmscu','bmslgroup','bmslink','bmsnav','bmssd','bmtre','bnvib','brem','bres','brev','brfld','brsa','brspd','bsmat','btunda','lc','ptdef','bptdef','ptdat','bptdat','.bcskla2']
 
-scratch = True
+scratch = False
 
 f2=open('confirmed_strings.bak','w')
 f=open('confirmed_strings.txt','r')
@@ -75,14 +75,14 @@ f2.close()
 
 if scratch:
 
-    #for filename in ['_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt']:
-    for filename in ['chozonew.txt','customstrings.txt']:
+    for filename in ['_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt']:
+    #for filename in ['chozonew.txt','customstrings.txt']:
         print(filename)
         f=open(filename,'r')
         filename_ = filename
         for line in f:
             filename = filename_
-            line=line.rstrip('\n').replace('\\','/')
+            line=line.rstrip('\n').replace('\\','/').lower()
 
             if '/' not in line:
                 continue

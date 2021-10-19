@@ -3,6 +3,7 @@ import pprint
 import re
 import glob
 import struct
+import os
 
 f=open('exefs_strings.txt')
 
@@ -31,14 +32,25 @@ for c1 in guess_chars:
 f.close()
 
 for filename in sorted(glob.glob('savedata/**/*.bmssv',recursive=True)):
-    #print(filename)
+#for filename in ['unpacked/maps/s010_cave/s010_cave/maps/levels/c10_samus/s010_cave/s010_cave.brfld']:
+#for filename in ['tunables.btunda']:
+#for filename in ['dread_exefs/main_uncompressed']:
+    print(filename)
+
+    if os.path.isdir(f):
+        continue
 
     f=open(filename,'rb')
     data = f.read()
     for i in range(len(data)):
         testhash = int.from_bytes(data[i:i+8], 'little')
         if testhash in all_hashes:
+            if i == 0:
+                print(filename)
             good_hashes[testhash] = all_hashes[testhash]
+        else:
+            if i == 0:
+                break
     f.close()
 
 for k in good_hashes:

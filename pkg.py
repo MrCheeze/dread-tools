@@ -62,7 +62,7 @@ extension_map = {'bcmdl': {'bsmat', 'bcskla', 'bmbls', 'bcptl'},
 #all_extensions = {'.apd','.bapd','.bccam','.bchkdat','.bclgt','.bcmdl','.bcptl','.bcskla','.bctex','.bcurv','.bcwav','.bfgrp','.bfont','.bfsar','.bgsnds','.bldef','.blsnd','.blut','.bmbls','.bmdefs','.bmmap','.bmmdef','.bmsact','.bmsad','.bmsas','.bmsat','.bmsbk','.bmscc','.bmscd','.bmscp','.bmscu','.bmsld','.bmslgroup','.bmslink','.bmsnav','.bmssd','.bmssh','.bmssk','.bmsss','.bmssv','.bmtre','.bnvib','.bpsi','.bptdat','.bptdef','.brem','.bres','.brev','.brfld','.brsa','.brspd','.bshdat','.bsmat','.btunda','.buct','.ccam','.chkdat','.clgt','.cmdl','.cptl','.cskla','.curv','.dds','.dspadpcm.bfstm','.fnt','.fspj','.gsh','.gsnds','.hdr','.imat','.lc','.ldef','.lsnd','.lua','.lut','.m4a','.mbls','.mblst','.mbtre','.mdefs','.mdei','.mdl','.mkv','.mmap','.mmdef','.mp4','.msact','.msad','.msaf','.msas','.msat','.msbk','.mscc','.mscd','.mscp','.mscu','.msld','.mslgroup','.mslink','.msnav','.mssd','.mssg','.mssh','.mssk','.mssl','.msss','.mtxc','.ogg','.pfg','.pkg','.psh','.psi','.ptdat','.ptdef','.rem','.res','.rev','.rfld','.rlei','.rsa','.rspd','.shdat','.smat','.tga','.tunda','.txt','.uct','.vib','.vsh','.wav','.webm'}
 all_extensions = ['bapd','bccam','bcmdl','bcptl','bcskla','bcurv','bldef','blsnd','bmbls','bmdefs','bmmap','bmsad','bmsas','bmsat','bmscc','bmscd','bmscu','bmslgroup','bmslink','bmsnav','bmssd','bmtre','bnvib','brem','bres','brev','brfld','brsa','brspd','bsmat','btunda','lc','ptdef','bptdef','ptdat','bptdat','.bcskla2']
 
-scratch = False
+scratch = True
 
 f2=open('confirmed_strings.bak','w')
 f=open('confirmed_strings.txt','r')
@@ -75,8 +75,8 @@ f2.close()
 
 if scratch:
 
-    for filename in ['_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt']:
-    #for filename in ['chozonew.txt','customstrings.txt']:
+    for filename in ['_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt','_wav2.txt','citra.txt','samusreturns_romfs.txt','samusreturns_romfs.txt']:
+    #for filename in ['samusreturns_romfs.txt']:
         print(filename)
         f=open(filename,'r')
         filename_ = filename
@@ -87,8 +87,8 @@ if scratch:
             if '/' not in line:
                 continue
 
-            if ':' in line:
-                line = line.split(':',1)[1]
+            if ':' in line[:15]:
+                line = line.split(':',1)[-1]
                 filename = filename+' noprotocol'
             
             checksums[crc64(line)] = line, '(%s)'%filename
@@ -106,21 +106,21 @@ if scratch:
             ext = line.split('.')[-1]
             if ext in extension_map:
                 for x in extension_map[ext]:
-                    line2 = line.replace(ext, x)
+                    line2 = line.replace('.'+ext, '.'+x)
                     checksums[crc64(line2)] = line2, '(%s %s->%s)'%(filename, ext, x)
             for x in all_extensions:
                 if ext != x:
-                    line2 = line.replace(ext, x)
+                    line2 = line.replace('.'+ext, '.'+x)
                     checksums[crc64(line2)] = line2, '(%s %s->%s)'%(filename, ext, x)
 
                     #line2 = 'vibrations/'+line2
                     #checksums[crc64(line2)] = line2, '(%s vib/ %s->%s)'%(filename, ext, x)
 
-            if ext.startswith('wav') or ext.startswith('vib'):
-                line2 = 'vibrations/'+line.replace(ext, 'bnvib')
+            if ext.endswith('wav') or ext.endswith('vib'):
+                line2 = 'vibrations/'+line.replace('.'+ext, '.bnvib')
                 checksums[crc64(line2)] = line2, '(%s vib/ %s->%s)'%(filename, ext, 'bnvib')
 
-                line2 = 'vibrations/'+line[1:].replace(ext, 'bnvib')
+                line2 = 'vibrations/'+line[1:].replace('.'+ext, '.bnvib')
                 checksums[crc64(line2)] = line2, '(%s[1:] vib/ %s->%s)'%(filename, ext, 'bnvib')
 
                 
@@ -160,7 +160,7 @@ for filename in glob.glob('packs/**/*.pkg', recursive=True):
         else:
             name = hex(crc)
             bonusinfo = '(?)'
-        print(name+' '+bonusinfo, hex(startpos), hex(endpos), hex(endpos-startpos), data, b'samusaura' in alldata, b'noisebig' in alldata)
+        print(name+' '+bonusinfo, hex(startpos), hex(endpos), hex(endpos-startpos), data)
 
         outfilename = 'unpacked/%s/%s'%(folder, name)
         os.makedirs(os.path.dirname(outfilename), exist_ok=True)

@@ -271,7 +271,7 @@ def readobject(f, indent):
         print()
         1/0
 
-for filename in glob.glob('savedata/**/samus.bmssv',recursive=True):
+for filename in glob.glob('savedata/**/userdata.bmssv',recursive=True):
     print(filename)
 
     f=open(filename,'rb')

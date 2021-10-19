@@ -4,5 +4,7 @@ __pycache__/
 *.DMP
 packs/
 unpacked/
+packs_samusreturns/
+unpacked_sr/
 dread_exefs/
 *.zip

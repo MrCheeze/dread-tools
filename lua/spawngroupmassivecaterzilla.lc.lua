@@ -1,0 +1,2 @@
+function SpawnGroupMassiveCaterzilla.main()
+end

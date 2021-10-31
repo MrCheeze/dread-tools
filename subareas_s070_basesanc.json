@@ -1,0 +1,1754 @@
+{
+  "pSubareaManager": {
+    "vSubareaSetups": [
+      {
+        "sId": "Default",
+        "vSubareaConfigs": [
+          {
+            "sId": "GLOBAL",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Global",
+            "asItemsIds": [
+              "",
+              "lg_GLOBAL_Default",
+              "ssg_GLOBAL_Default",
+              "sg_SubArea_GLOBAL",
+              "eg_GLOBAL_Default",
+              "bg_SubArea_GLOBAL",
+              "default",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_000",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_000_Default",
+              "ssg_collision_camera_000_Default",
+              "sg_SubArea_collision_camera_000",
+              "eg_collision_camera_000_Default",
+              "bg_SubArea_collision_camera_000",
+              "Santuary_Final_000_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_000"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_001",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_001_Default",
+              "ssg_collision_camera_001_Default",
+              "sg_SubArea_collision_camera_001",
+              "eg_collision_camera_001_Default",
+              "bg_SubArea_collision_camera_001",
+              "Santuary_Final_002_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_001"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_002",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_002_Default",
+              "ssg_collision_camera_002_Default",
+              "sg_SubArea_collision_camera_002",
+              "eg_collision_camera_002_Default",
+              "bg_SubArea_collision_camera_002",
+              "Santuary_Final_002_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_002"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_003",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_003_Default",
+              "ssg_collision_camera_003_Default",
+              "sg_SubArea_collision_camera_003",
+              "eg_collision_camera_003_Default",
+              "bg_SubArea_collision_camera_003",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_003"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_004",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "ChozoRobotSoldier_first",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_004_Default",
+              "ssg_collision_camera_004_Default",
+              "sg_SubArea_collision_camera_004",
+              "eg_collision_camera_004_Default",
+              "bg_SubArea_collision_camera_004",
+              "Santuary_Final_004_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_004"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_005",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "ChozoRobotSoldier_first",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_005_Default",
+              "ssg_collision_camera_005_Default",
+              "sg_SubArea_collision_camera_005",
+              "eg_collision_camera_005_Default",
+              "bg_SubArea_collision_camera_005",
+              "Santuary_Final_005",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_005"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_006",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_006_Default",
+              "ssg_collision_camera_006_Default",
+              "sg_SubArea_collision_camera_006",
+              "eg_collision_camera_006_Default",
+              "bg_SubArea_collision_camera_006",
+              "Santuary_Final_006_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_006"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_007",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_007_Default",
+              "ssg_collision_camera_007_Default",
+              "sg_SubArea_collision_camera_007",
+              "eg_collision_camera_007_Default",
+              "bg_SubArea_collision_camera_007",
+              "Santuary_Final_007_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_007"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_008",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_008_Default",
+              "ssg_collision_camera_008_Default",
+              "sg_SubArea_collision_camera_008",
+              "eg_collision_camera_008_Default",
+              "bg_SubArea_collision_camera_008",
+              "Santuary_Final_008_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_008"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_009",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_009_Default",
+              "ssg_collision_camera_009_Default",
+              "sg_SubArea_collision_camera_009",
+              "eg_collision_camera_009_Default",
+              "bg_SubArea_collision_camera_009",
+              "Santuary_Final_009_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_009"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_010",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_010_Default",
+              "ssg_collision_camera_010_Default",
+              "sg_SubArea_collision_camera_010",
+              "eg_collision_camera_010_Default",
+              "bg_SubArea_collision_camera_010",
+              "Ice_zone_010_Final",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_010"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_011",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_011_Default",
+              "ssg_collision_camera_011_Default",
+              "sg_SubArea_collision_camera_011",
+              "eg_collision_camera_011_Default",
+              "bg_SubArea_collision_camera_011",
+              "Santuary_Final_011_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_011"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_012",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_012_Default",
+              "ssg_collision_camera_012_Default",
+              "sg_SubArea_collision_camera_012",
+              "eg_collision_camera_012_Default",
+              "bg_SubArea_collision_camera_012",
+              "Santuary_Final_012",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_012"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_013",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_013_Default",
+              "ssg_collision_camera_013_Default",
+              "sg_SubArea_collision_camera_013",
+              "eg_collision_camera_013_Default",
+              "bg_SubArea_collision_camera_013",
+              "Santuary_Final_013",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_013"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_014",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_014_Default",
+              "ssg_collision_camera_014_Default",
+              "sg_SubArea_collision_camera_014",
+              "eg_collision_camera_014_Default",
+              "bg_SubArea_collision_camera_014",
+              "Santuary_Final_014",
+              "",
+              "trainstation"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_014"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_015",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_015_Default",
+              "ssg_collision_camera_015_Default",
+              "sg_SubArea_collision_camera_015",
+              "eg_collision_camera_015_Default",
+              "bg_SubArea_collision_camera_015",
+              "Santuary_Final_015_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_015"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_016",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_016_Default",
+              "ssg_collision_camera_016_Default",
+              "sg_SubArea_collision_camera_016",
+              "eg_collision_camera_016_Default",
+              "bg_SubArea_collision_camera_016",
+              "Comunication_room_016",
+              "",
+              "accesspoint"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_016"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_017",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_017_Default",
+              "ssg_collision_camera_017_Default",
+              "sg_SubArea_collision_camera_017",
+              "eg_collision_camera_017_Default",
+              "bg_SubArea_collision_camera_017",
+              "Santuary_Final_017_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_017"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_018",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_018_Default",
+              "ssg_collision_camera_018_Default",
+              "sg_SubArea_collision_camera_018",
+              "eg_collision_camera_018_Default",
+              "bg_SubArea_collision_camera_018",
+              "Ice_zone_018",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_018"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_019",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_019_Default",
+              "ssg_collision_camera_019_Default",
+              "sg_SubArea_collision_camera_019",
+              "eg_collision_camera_019_Default",
+              "bg_SubArea_collision_camera_019",
+              "Santuary_Final_019_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_019"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_020",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_020_Default",
+              "ssg_collision_camera_020_Default",
+              "sg_SubArea_collision_camera_020",
+              "eg_collision_camera_020_Default",
+              "bg_SubArea_collision_camera_020",
+              "Santuary_Final_019_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_020"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_021",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_021_Default",
+              "ssg_collision_camera_021_Default",
+              "sg_SubArea_collision_camera_021",
+              "eg_collision_camera_021_Default",
+              "bg_SubArea_collision_camera_021",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_021"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_022",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_022_Default",
+              "ssg_collision_camera_022_Default",
+              "sg_SubArea_collision_camera_022",
+              "eg_collision_camera_022_Default",
+              "bg_SubArea_collision_camera_022",
+              "Santuary_Final_022_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_022"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_023",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_023_Default",
+              "ssg_collision_camera_023_Default",
+              "sg_SubArea_collision_camera_023",
+              "eg_collision_camera_023_Default",
+              "bg_SubArea_collision_camera_023",
+              "MAP_ROOM_GENERIC",
+              "",
+              "mapstation"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_023"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_024",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_024_Default",
+              "ssg_collision_camera_024_Default",
+              "sg_SubArea_collision_camera_024",
+              "eg_collision_camera_024_Default",
+              "bg_SubArea_collision_camera_024",
+              "Santuary_Final_024_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_024"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_025",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": 3000.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_025_Default",
+              "ssg_collision_camera_025_Default",
+              "sg_SubArea_collision_camera_025",
+              "eg_collision_camera_025_Default",
+              "bg_SubArea_collision_camera_025",
+              "Santuary_Final_025_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_025"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_026",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": 3200.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_026_Default",
+              "ssg_collision_camera_026_Default",
+              "sg_SubArea_collision_camera_026",
+              "eg_collision_camera_026_Default",
+              "bg_SubArea_collision_camera_026",
+              "Santuary_Final_026_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_026"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_027",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Super Quetzoa",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_027_Default",
+              "ssg_collision_camera_027_Default",
+              "sg_SubArea_collision_camera_027",
+              "eg_collision_camera_027_Default",
+              "bg_SubArea_collision_camera_027",
+              "Santuary_basic_boss",
+              "",
+              "s_boss_mid_superquetzoa"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_027"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_028",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_028_Default",
+              "ssg_collision_camera_028_Default",
+              "sg_SubArea_collision_camera_028",
+              "eg_collision_camera_028_Default",
+              "bg_SubArea_collision_camera_028",
+              "Santuary_Final_028_F",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_028"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_029",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_029_Default",
+              "ssg_collision_camera_029_Default",
+              "sg_SubArea_collision_camera_029",
+              "eg_collision_camera_029_Default",
+              "bg_SubArea_collision_camera_029",
+              "Savestation_R",
+              "",
+              "savestation"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_029"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_030",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_030_Default",
+              "ssg_collision_camera_030_Default",
+              "sg_SubArea_collision_camera_030",
+              "eg_collision_camera_030_Default",
+              "bg_SubArea_collision_camera_030",
+              "Ice_zone_018",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_030"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_031",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_031_Default",
+              "ssg_collision_camera_031_Default",
+              "sg_SubArea_collision_camera_031",
+              "eg_collision_camera_031_Default",
+              "bg_SubArea_collision_camera_031",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_031"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_032",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_032_Default",
+              "ssg_collision_camera_032_Default",
+              "sg_SubArea_collision_camera_032",
+              "eg_collision_camera_032_Default",
+              "bg_SubArea_collision_camera_032",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_032"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_033",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_033_Default",
+              "ssg_collision_camera_033_Default",
+              "sg_SubArea_collision_camera_033",
+              "eg_collision_camera_033_Default",
+              "bg_SubArea_collision_camera_033",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_033"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_034",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_034_Default",
+              "ssg_collision_camera_034_Default",
+              "sg_SubArea_collision_camera_034",
+              "eg_collision_camera_034_Default",
+              "bg_SubArea_collision_camera_034",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_034"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_035",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Rinkas",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_035_Default",
+              "ssg_collision_camera_035_Default",
+              "sg_SubArea_collision_camera_035",
+              "eg_collision_camera_035_Default",
+              "bg_SubArea_collision_camera_035",
+              "ZEmmy_prod06_v2_CU",
+              "",
+              "no_music"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_035"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_038",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_038_Default",
+              "ssg_collision_camera_038_Default",
+              "sg_SubArea_collision_camera_038",
+              "eg_collision_camera_038_Default",
+              "bg_SubArea_collision_camera_038",
+              "ZEmmy_prod06_v2",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_038_A"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_040",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "ChozoRobotSoldier_first",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_040_Default",
+              "ssg_collision_camera_040_Default",
+              "sg_SubArea_collision_camera_040",
+              "eg_collision_camera_040_Default",
+              "bg_SubArea_collision_camera_040",
+              "ZEmmy_prod06_v2_000",
+              "",
+              "m_inside_emmy_zone"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_040"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_041",
+            "sSetupId": "Default",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_041_Default",
+              "ssg_collision_camera_041_Default",
+              "sg_SubArea_collision_camera_041",
+              "eg_collision_camera_041_Default",
+              "bg_SubArea_collision_camera_041",
+              "Savestation_R",
+              "",
+              "savestation"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_041"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "2ChozoRobots",
+        "vSubareaConfigs": [
+          {
+            "sId": "GLOBAL",
+            "sSetupId": "2ChozoRobots",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "",
+            "asItemsIds": [
+              "",
+              "lg_GLOBAL_2ChozoRobots",
+              "ssg_GLOBAL_2ChozoRobots",
+              "",
+              "",
+              "",
+              "default",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_017",
+            "sSetupId": "2ChozoRobots",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Chozo Robot Soldier",
+            "asItemsIds": [
+              "",
+              "lg_collision_camera_017_Default",
+              "ssg_collision_camera_017_2ChozoRobots",
+              "",
+              "eg_collision_camera_017_2ChozoRobots",
+              "",
+              "Santuary_Final_017_F",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_017"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostEmmy",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_003",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_003_PostEmmy",
+              "sg_SubArea_collision_camera_003",
+              "eg_collision_camera_003_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_003"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_021",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_021_PostEmmy",
+              "sg_SubArea_collision_camera_021",
+              "eg_collision_camera_021_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_021"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_031",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_031_PostEmmy",
+              "sg_SubArea_collision_camera_031",
+              "eg_collision_camera_031_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_031"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_032",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_032_PostEmmy",
+              "sg_SubArea_collision_camera_032",
+              "eg_collision_camera_032_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_032"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_033",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_033_PostEmmy",
+              "sg_SubArea_collision_camera_033",
+              "eg_collision_camera_033_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_033"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_034",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_034_PostEmmy",
+              "sg_SubArea_collision_camera_034",
+              "eg_collision_camera_034_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_034"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_035",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Rinkas",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_035_PostEmmy",
+              "sg_SubArea_collision_camera_035",
+              "eg_collision_camera_035_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_035"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_038",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_038_PostEmmy",
+              "sg_SubArea_collision_camera_038",
+              "eg_collision_camera_038_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_038_A"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_040",
+            "sSetupId": "PostEmmy",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_040_PostEmmy",
+              "sg_SubArea_collision_camera_040",
+              "eg_collision_camera_040_PostEmmy",
+              "",
+              "EmmyZone_Dead",
+              "",
+              "m_inside_emmy_zone_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_040"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostXRelease",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_000",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_000_PostXRelease",
+              "sg_SubArea_collision_camera_000",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_000"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_001",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_001_PostXRelease",
+              "sg_SubArea_collision_camera_001",
+              "eg_collision_camera_001_PostXRelease",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_001"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_002",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_002_PostXRelease",
+              "sg_SubArea_collision_camera_002",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_002"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_004",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_004_PostXRelease",
+              "sg_SubArea_collision_camera_004",
+              "eg_collision_camera_004_PostXRelease",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_004"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_005",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_005_PostXRelease",
+              "sg_SubArea_collision_camera_005",
+              "eg_collision_camera_005_PostXRelease",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_005"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_006",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_006_PostXRelease",
+              "sg_SubArea_collision_camera_006",
+              "eg_collision_camera_006_PostXRelease",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_006"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_008",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_008_PostXRelease",
+              "sg_SubArea_collision_camera_008",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_008"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_010",
+            "sSetupId": "PostXRelease",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_010_PostXRelease",
+              "sg_SubArea_collision_camera_010",
+              "eg_collision_camera_010_PostXRelease",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_010"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "SP_SuperQuetzoa_CoreX_core_x_superquetzoa_Boss_Defeated",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_027",
+            "sSetupId": "SP_SuperQuetzoa_CoreX_core_x_superquetzoa_Boss_Defeated",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Super Quetzoa",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_027_SP_SuperQuetzoa_CoreX_core_x_superquetzoa_Boss_Defeated",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "s_boss_defeated_delayed_basesanc"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_027"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostSuperQuetzoaDead",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_027",
+            "sSetupId": "PostSuperQuetzoaDead",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Super Quetzoa",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_027_PostSuperQuetzoaDead",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "s_boss_defeated_basesanc"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_027"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "AfterCUCombat",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_035",
+            "sSetupId": "AfterCUCombat",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Rinkas",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_035_AfterCUCombat",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "s_boss_defeated"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_035"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "SpaceJump",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_012",
+            "sSetupId": "SpaceJump",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_012_SpaceJump",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "statueroom"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_012"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "SpaceJumpWater",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_012",
+            "sSetupId": "SpaceJumpWater",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_012_SpaceJumpWater",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "no_music_space_jump_water"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_012"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostChozoRobotSoldier_Arena",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_005",
+            "sSetupId": "PostChozoRobotSoldier_Arena",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_005_PostChozoRobotSoldier_Arena",
+              "",
+              "eg_collision_camera_005_PostChozoRobotSoldier_Arena",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_005"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostChozoRobotSoldier",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_004",
+            "sSetupId": "PostChozoRobotSoldier",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_004_PostChozoRobotSoldier",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_004"
+            ],
+            "vsCutscenesIds": []
+          },
+          {
+            "sId": "collision_camera_040",
+            "sSetupId": "PostChozoRobotSoldier",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_040_PostChozoRobotSoldier",
+              "",
+              "eg_collision_camera_040_PostChozoRobotSoldier",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_040"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostSuperQuetzoa",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_026",
+            "sSetupId": "PostSuperQuetzoa",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": 3200.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_026_PostSuperQuetzoa",
+              "",
+              "eg_collision_camera_026_PostSuperQuetzoa",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_026"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "PostSuperQuetzoaArena",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_027",
+            "sSetupId": "PostSuperQuetzoaArena",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_027_PostSuperQuetzoaArena",
+              "",
+              "eg_collision_camera_027_PostSuperQuetzoaArena",
+              "",
+              "",
+              "",
+              "s_sanctuary_001"
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_027"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      },
+      {
+        "sId": "Post2ChozoRobots",
+        "vSubareaConfigs": [
+          {
+            "sId": "collision_camera_017",
+            "sSetupId": "Post2ChozoRobots",
+            "bDisableSubArea": 0,
+            "fCameraZDistance": -1.0,
+            "bIgnoreMetroidCameraOffsets": 0,
+            "sCharclassGroupId": "Enemies",
+            "asItemsIds": [
+              "",
+              "",
+              "ssg_collision_camera_017_Post2ChozoRobots",
+              "",
+              "eg_collision_camera_017_Post2ChozoRobots",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "vsCameraCollisionsIds": [
+              "collision_camera_017"
+            ],
+            "vsCutscenesIds": []
+          }
+        ]
+      }
+    ],
+    "vCharclassGroups": [
+      {
+        "sId": "No Enemies",
+        "vsCharClassesIds": []
+      },
+      {
+        "sId": "Global",
+        "vsCharClassesIds": [
+          "emmysanc"
+        ]
+      },
+      {
+        "sId": "Rinkas",
+        "vsCharClassesIds": [
+          "rinka",
+          "cucannon"
+        ]
+      },
+      {
+        "sId": "Enemies",
+        "vsCharClassesIds": [
+          "groundshocker",
+          "autector",
+          "gobbler_superquetzoa",
+          "sabotoru",
+          "specimen_x4a",
+          "chozozombiex",
+          "autsharp",
+          "shakernaut",
+          "takumaku",
+          "fulmite",
+          "blindfly",
+          "yojimbee",
+          "rodomithonx",
+          "rodotuk",
+          "gooshocker",
+          "quetzoa",
+          "quetshocker",
+          "autool",
+          "daivo",
+          "dizzeansprite",
+          "iceflea",
+          "autsniper",
+          "gooplot"
+        ]
+      },
+      {
+        "sId": "Super Quetzoa",
+        "vsCharClassesIds": [
+          "superquetzoa",
+          "core_x_superquetzoa"
+        ]
+      },
+      {
+        "sId": "Chozo Robot Soldier",
+        "vsCharClassesIds": [
+          "chozorobotsoldier",
+          "chozozombiex",
+          "groundshocker",
+          "quetshocker",
+          "sabotoru"
+        ]
+      },
+      {
+        "sId": "ChozoRobotSoldier_first",
+        "vsCharClassesIds": [
+          "chozorobotsoldier",
+          "autool",
+          "yojimbee"
+        ]
+      }
+    ]
+  }
+}

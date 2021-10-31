@@ -208,3 +208,63 @@ void UndefinedFunction_7100d83b60(void)
   FUN_7100000250(FUN_7100004b94,&DAT_7172760068,&PTR_LOOP_71019c3000);
   return;
 }
+
+
+
+
+
+serialized primitives:
+unsigned	4
+base::global::CRntString	0x30
+char	1
+base::global::CStrId	8
+float	4
+base::global::CFilePathStrId	8
+bool	1
+base::global::CName	8
+SCustomData	0x18
+unsigned long	8
+int	4
+long	8
+base::math::CVector2D	8
+base::math::CVector3D	0xc
+base::math::CVector4D	0x10
+base::color::CColor3F	0xc
+base::color::CColor4F	0x10
+base::reflection::CEnumRef	0x10
+base::reflection::CEnumConstRef	0x10
+base::reflection::CFlagsetRef	0x10
+base::reflection::CFlagsetConstRef	0x10
+base::reflection::CFunction	0xb8
+base::global::TRntString32	0x68
+base::global::TRntString64	0x88
+base::global::TRntString128	200
+base::global::TRntString256	0x148
+base::global::TRntString512	0x248
+void	0	??????
+double	8
+signed char	1
+short	2
+unsigned char	1
+unsigned short	2
+base::color::CColor4B	4
+base::color::CColor4B_SRGB	4
+unsigned long long	8
+long long	8
+gameeditor::CGameModelIndex	0x28
+luaGameObject	8
+luaDisplayObject	8
+
+
+
+
+for func in currentProgram.listing.getFunctions(True):
+	if 'fields' == func.getName():
+		print('---', func.entryPoint, func)
+		for calledFunc in func.getCalledFunctions(None):
+			print('------', calledFunc)
+
+for ref in getReferencesTo(toAddr(0x7100096234)):
+	refFunc = getFunctionBefore(ref.fromAddress)
+	if refFunc.getName() != 'fields':
+		print(refFunc.getName(), ref.fromAddress)

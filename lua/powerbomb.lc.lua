@@ -1,0 +1,2 @@
+function PowerBomb.main()
+end

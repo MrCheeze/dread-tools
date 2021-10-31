@@ -75,14 +75,18 @@ f2.close()
 
 if scratch:
 
-    for filename in ['_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt','_wav2.txt','citra.txt','samusreturns_romfs.txt','samusreturns_romfs.txt']:
-    #for filename in ['samusreturns_romfs.txt']:
+    #for filename in ['otherfiles2.txt','otherfiles.txt','bcskla.txt','custom_strings_cutscenes.txt','confirmed_strings.txt','UltiNaruto.txt','yuzu_log_dedup.txt', 'sr_filelist.txt', '_wav.txt', 'luastrings.txt', 'yuzuram5.txt', 'yuzuram4.txt', 'yuzuram3.txt', 'yuzuram2.txt', 'customstrings.txt','yuzu_ramdump.txt','allstrings.txt','exefs_strings.txt','systemstrings.txt','vibrationstrings.txt','samusstrings.txt', 'cavestrings.txt', 'commanderstrings.txt', 'skybasestrings.txt', 'packsets.txt','packsetsauto.txt','subchozo.txt','subenemies.txt','subglobal.txt','subrinkas.txt','subscorpius.txt','filelist.txt','magmastrings.txt','_wav2.txt','citra.txt','samusreturns_romfs.txt','samusreturns_romfs.txt']:
+    for filename in ['customstrings.txt']:
         print(filename)
         f=open(filename,'r')
         filename_ = filename
         for line in f:
             filename = filename_
-            line=line.rstrip('\n').replace('\\','/').lower()
+            line=line.rstrip('\n')
+            
+            checksums[crc64(line)] = line, '(%s)'%filename
+
+            line = line.replace('\\','/').lower().split('\t')[0].rstrip('.')
 
             if '/' not in line:
                 continue
@@ -126,8 +130,9 @@ if scratch:
                 
         f.close()
 
-
 print()
+
+letters = [chr(x) for x in range(ord('a'),ord('z')+1)]
 
 confirmed_strings = set()
 
@@ -160,10 +165,14 @@ for filename in glob.glob('packs/**/*.pkg', recursive=True):
         else:
             name = hex(crc)
             bonusinfo = '(?)'
-        print(name+' '+bonusinfo, hex(startpos), hex(endpos), hex(endpos-startpos), data)
+            data = alldata
+        print(name+' '+bonusinfo, hex(startpos), hex(endpos), hex(endpos-startpos), data, b'ash_small' in alldata and b'mp_fxmtl00_ashes' in alldata and b'dissolve_ashes' not in alldata)
 
         outfilename = 'unpacked/%s/%s'%(folder, name)
         os.makedirs(os.path.dirname(outfilename), exist_ok=True)
+
+        #if data == b'\x1bLua':
+        #    outfilename = 'lua/'+(name.split('/')[-1])
 
         f4=open(outfilename, 'wb')
         f4.write(alldata)

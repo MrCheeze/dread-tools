@@ -1,0 +1,4912 @@
+-----
+0x24df94 CActorComponent
+-----
+0x2fa820 CAbilityComponent::CTunableAbilityComponent
+0x2fa900 fSynchronizedBlockTime
+0x2fa9dc fSpecialEnergyConsumedOnBlock
+0x2faaa4 fMinTimeBetweenMeleeActions
+0x2fab78 fActivationHoldToStartDeactivateAll
+0x2fac48 fActivationHoldToCompleteDeactivateAll
+0x2fad14 fDashMeleeAutoLockOnMoveLockedTime
+0x2fadb4 bAllMeleeAutoLockOn
+0x2fae54 fDashMeleeExtraDistanceToEnemies
+0x2faef4 fDashMeleePowerSuitDamage
+0x2faf94 fDashMeleeVariaSuitDamage
+0x2fb030 fDashMeleeGravitySuitDamage
+-----
+0x2fb654 CAbilityComponent
+0x2fb718 _m_bAccurateAiming_GetterFunction
+0x2fb784 _m_bAccurateAiming_GetterFunction
+0x2fb80c _m_bAccurateAiming_SetterFunction
+0x2fb880 bAccurateAiming
+0x2fb950 SetAbilityUnlocked
+0x2fb9bc SetAbilityUnlocked
+0x2fba8c IsAbilityActive
+0x2fbb44 IsAnyAbilityUnlocked
+0x2fbba8 IsAnyAbilityUnlocked
+0x2fbc74 TrySetSelectedAbility
+0x2fbd2c DeactivateAllAbilities
+0x2fbd90 DeactivateAllAbilities
+0x2fbe60 sBlockSyncFX
+-----
+0x33f218 CCharClassAbilityComponent
+-----
+0x33f754 CAimComponent
+0x33f818 sLaserFX
+0x33f8f4 sAutoAimLaserFX
+0x33f9c4 _m_bAutoAimActive_GetterFunction
+0x33fa28 _m_bAutoAimActive_GetterFunction
+0x33fab0 _m_bAutoAimActive_SetterFunction
+0x33fbcc _m_bLockOnSoundAllowed_GetterFunction
+0x33fc30 _m_bLockOnSoundAllowed_GetterFunction
+0x33fcb8 _m_bLockOnSoundAllowed_SetterFunction
+0x33fdd4 _m_fCurrentAutoAimWidth_GetterFunction
+0x33fe38 _m_fCurrentAutoAimWidth_GetterFunction
+0x33fec0 _m_fCurrentAutoAimWidth_SetterFunction
+0x33ff34 fCurrentAutoAimWidth
+0x33ffd8 _m_fCurrentAutoAimConeLength_GetterFunction
+0x34003c _m_fCurrentAutoAimConeLength_GetterFunction
+0x3400c4 _m_fCurrentAutoAimConeLength_SetterFunction
+0x340138 fCurrentAutoAimConeLength
+0x3401dc ForceAimPressed
+0x340240 ForceAimPressed
+-----
+0x35949c CCharClassAimComponent
+0x359560 _m_fAutoAimWidth_GetterFunction
+0x3595cc _m_fAutoAimWidth_GetterFunction
+0x359654 _m_fAutoAimWidth_SetterFunction
+0x3596c8 fAutoAimWidth
+0x359770 _m_fAutoAimLength_GetterFunction
+0x3597d4 _m_fAutoAimLength_GetterFunction
+0x35985c _m_fAutoAimLength_SetterFunction
+0x3598d0 fAutoAimLength
+0x35997c _m_fAutoAimConeLength_GetterFunction
+0x3599e0 _m_fAutoAimConeLength_GetterFunction
+0x359a68 _m_fAutoAimConeLength_SetterFunction
+0x359adc fAutoAimConeLength
+0x359b84 _m_fAutoAimInterp_GetterFunction
+0x359be8 _m_fAutoAimInterp_GetterFunction
+0x359c70 _m_fAutoAimInterp_SetterFunction
+0x359ce4 fAutoAimInterp
+0x359d90 _m_fAutoAimLockOnInterp_GetterFunction
+0x359df4 _m_fAutoAimLockOnInterp_GetterFunction
+0x359e7c _m_fAutoAimLockOnInterp_SetterFunction
+0x359ef0 fAutoAimLockOnInterp
+0x359f98 _m_fAutoAimLockOnPredictionTime_GetterFunction
+0x359ffc _m_fAutoAimLockOnPredictionTime_GetterFunction
+0x35a084 _m_fAutoAimLockOnPredictionTime_SetterFunction
+0x35a0f8 fAutoAimLockOnPredictionTime
+0x35a1a4 _m_fAutoAimLockAfterDeadTime_GetterFunction
+0x35a208 _m_fAutoAimLockAfterDeadTime_GetterFunction
+0x35a290 _m_fAutoAimLockAfterDeadTime_SetterFunction
+0x35a304 fAutoAimLockAfterDeadTime
+0x35a3ac fMaxTimeMaintainingFront
+0x35a47c fLaserDeactivationTime
+0x35a550 fAnalogModeDefaultInterp
+0x35a620 fForcedFrontTimeAfterFire
+0x35a6c4 fForcedFrontTimeAfterFireOnAir
+0x35a764 fForcedFrontTimeAfterDiagonal
+0x35a80c fForcedFrontTimeAfterSecondaryWeapon
+0x35a8b0 fForcedFrontTimeAfterStealthRun
+0x35a950 fForcedFrontTimeAfterParkour
+0x35a9ec fForcedFrontTimeAfterFloorSlide45End
+-----
+0x35f1fc CAISmartObjectComponent
+0x35f2c0 fResetTime
+0x35f398 fUseTime
+0x35f460 iSpawnDirection
+-----
+0x3688bc CBehaviorTreeAIComponent
+-----
+0x3aad00 CBossAIComponent
+0x3aae80 sArenaRightLandmark
+0x3aaf1c fArenaLimitDist
+0x3ab0a0 wpBossCamera
+0x3ab134 wpBossCameraFloorLandmark
+0x3ab1d0 wpBossCameraCeilingLandmark
+0x3ab264 SetBossCamera
+0x3ab2c8 SetBossCamera
+0x3ab3a0 wpStartCombatCheckpointStartPoint
+0x3ab438 sStartCombatCheckpointSnapshotId
+0x3ab53c wpDeadCheckpointStartPoint
+-----
+0x3b0760 CCharClassAISmartObjectComponent
+0x3b081c fUseOffset
+-----
+0x3b0c20 CDummyAIComponent
+-----
+0x3b13c0 CArachnusAIComponent
+-----
+0x3b1828 CCharClassArachnusAIComponent
+-----
+0x3b7a40 CAutclastAIComponent
+-----
+0x3b81f8 CCharClassAutclastAIComponent::CTunableCharClassAutclastAIComponent
+0x3b847c fTimeBetweenExplosions
+0x3b86ac fMaxExplosionHeightOnGround
+0x3b874c fMaxExplosionHeightOnWall
+0x3b87ec fMaxExplosionHeightOnCeilling
+0x3b8888 fExplosionHeightStartAttackOffset
+0x3b8928 fMinExplosionHeight
+0x3b89c8 fAttackRecoveryTime
+0x3b8bf4 fExplosionDuration
+0x3b8e20 fMaxPropagationHeight
+0x3b8ec4 fMinDistToSlope
+0x3b8f64 fBaseRotationEffectFactor
+-----
+0x3b94f4 CCharClassAutclastAIComponent
+0x3b95ac oAutclastChargeAttackDef
+-----
+0x3ba46c CAutectorAIComponent
+0x3ba52c eJumpType
+-----
+0x3bb320 CAutectorLifeComponent
+-----
+0x3bb848 CCharClassAutectorAIComponent::CTunableCharClassAutectorAIComponent
+0x3bbad4 fTimeToExplosion
+0x3bbc60 fTimeAtMaxRadiusExplosion
+0x3bbde0 bCanBeSpawned
+-----
+0x3bc3e0 CCharClassAutectorAIComponent
+-----
+0x3bc8f8 CCharClassAutectorLifeComponent
+-----
+0x3bdec0 CAutomperAIComponent
+-----
+0x3be4e0 CCharClassAutomperAIComponent
+0x3be598 oAutomperAutomaticIrradiationAttackDef
+-----
+0x3c1f80 CAutoolAIComponent
+0x3c2040 vAISmartObjects
+-----
+0x3c6948 CCharClassAutoolAIComponent::CTunableCharClassAutoolAIComponent
+0x3c6b58 fExtraTimeAfterKill
+0x3c6ce8 fRandTimeFirstSpawnMin
+0x3c6e74 fRandTimeFirstSpawnMax
+0x3c6ff4 fBrakeDistance
+0x3c7098 fMinSpeed
+0x3c713c fMaxInclination
+0x3c71e4 fReachedDistance
+0x3c7280 fMaxAcceleration
+0x3c7324 fMinAcceleration
+-----
+0x3c7a48 CCharClassAutoolAIComponent
+-----
+0x3c7f68 CAutsharpAIComponent
+-----
+0x3d0280 CAutsharpLifeComponent
+-----
+0x3d06c0 CCharClassAutsharpAIComponent::CTunableCharClassAutsharpAIComponent
+0x3d0878 fDistanceToDetectMagnet
+0x3d0944 fTimeToPrepareExplosion
+0x3d0a14 fRotationInc
+0x3d0adc fRotationMultiplier
+-----
+0x3d1090 CCharClassAutsharpAIComponent
+0x3d1158 fExplosionRadius
+0x3d1204 fTimeToExplosion
+0x3d12a8 fTimeAtMaxRadiusExplosion
+0x3d1348 fDamageAutsharpExplosion
+0x3d13e4 fTimeToPrepareExplosion
+0x3d1488 fRotationAccelTime
+0x3d1524 fRotationMultiplier
+0x3d15c8 fAccelIncrementation
+0x3d1664 fTimeToDecelerate
+0x3d1708 fJumpUpImpulse
+0x3d17a8 fJumpFrontImpulse
+-----
+0x3d1dc8 CCharClassAutsharpLifeComponent
+-----
+0x3d978c CAutsniperAIComponent
+-----
+0x3dad88 CCharClassAutsniperAIComponent
+0x3dae4c oAutsniperShootAttackDef
+0x3daec4 fTimeToChangeLayer
+0x3daf68 fMovementFactor
+-----
+0x3dc890 CBatalloonAIComponent
+0x3dc950 bReceivingCall
+-----
+0x3dec38 CCharClassBatalloonAIComponent
+0x3decfc fCallDistMaxDelayTime
+0x3dedd4 fCallDistLimit
+0x3deea0 fCallRandMinDelayTime
+0x3def48 fCallRandMaxDelayTime
+0x3defec fRandMinTimeForPathUpdate
+0x3df08c fRandMaxTimeForPathUpdate
+0x3df130 fDotNegativeMaxTimeForPathUpdate
+0x3df1d0 fMovementShakeRadius
+0x3df270 fMovementShakeInterpolationSpeed
+0x3df314 fBrothersDist2Stop
+-----
+0x3e4870 CBaseBigFistAIComponent
+0x3e4a18 fMaxTimeBetweenDigs
+0x3e4ae0 fMinTimeDigging
+0x3e4bac fMaxTimeDigging
+-----
+0x3e6588 CBigFistAIComponent
+0x3e6648 timeForNextDig
+-----
+0x3e7e38 CCharClassBaseBigFistAIComponent
+0x3e7efc fMaxHeightAttackBehindDist
+0x3e7fd0 fMaxHeightAttackFrontalDist
+-----
+0x3e8610 CCharClassBigFistAIComponent
+0x3e86c8 oBigFistAttackDef
+-----
+0x3e88fc CCharClassBigFistAIComponent::CTunableCharClassBigFistAIComponent
+0x3e89dc fFleeTimeToReturnToPatrol
+0x3e8a88 fChaseMinDist
+0x3e8b2c fChaseMaxDist
+-----
+0x3f3900 CBigkranXAIComponent
+-----
+0x3f4ab0 CCharClassBigkranXAIComponent
+0x3f4b74 oBigkranXMagmaRainAttackDef
+0x3f4bec oBigkranXSpitAttackDef
+0x3f4c5c sLaunchConfig
+0x3f4ccc sLaunchConfig2
+0x3f4d3c sLaunchConfig3
+0x3f4dac fMaxDistance1
+0x3f4e54 fMaxDistance2
+0x3f4ef4 sMagmaBallCharClass
+0x3f4f9c fShotHeightOffset
+0x3f503c fReachableHeightBeforeAttack
+0x3f50e0 fReachableHeightOnAttack
+0x3f5180 fTimeBeforeWarningAttack
+-----
+0x3f5930 CCaterzillaAIComponent
+-----
+0x3f7b50 CCharClassCaterzillaAIComponent
+0x3f7c0c iNumOfCreatures
+-----
+0x3fa44c CCentralUnitCannonAIComponent
+-----
+0x3fdff0 CCharClassCentralUnitCannonAIComponent
+-----
+0x3fe24c CCharClassCentralUnitCannonAIComponent::CTunableCharClassCentralUnitCannonAIComponent
+0x3fe32c fAimAngleInterpolationSpeed
+0x3fe3d8 fAimAngleTolerance
+0x3fe47c fAttackPreparationTime
+0x3fe520 fAttackCooldownTime
+-----
+0x3fed28 CCentralUnitCannonBeamMovementComponent
+-----
+0x4001a0 CCharClassCentralUnitCannonBeamMovementComponent
+-----
+0x402590 CCentralUnitAIComponent
+0x402734 eType
+0x40286c wpDeadCutScenePlayer
+-----
+0x406f10 CCharClassCentralUnitAIComponent::CTunableCharClassCentralUnitAIComponent
+-----
+0x4075f4 CCharClassCentralUnitAIComponent
+0x4076b4 bPlaceholder
+0x40775c sArmorLifeTunableId
+-----
+0x407ee8 CCharClassAIComponent
+0x407fb4 sDefeatedEnemyClass
+0x408090 fChaseReachedDistance
+0x40815c fChaseMinDistance
+0x40822c fChaseMaxDistance
+0x4082f4 fChaseCenterDistance
+0x4083c0 fChaseMaxLaunchAngleDegs
+0x40848c fChaseProjectileRadius
+0x40855c fChaseDistanceToFreePoint
+0x408624 fMinSeparationFromPreviousRandomChaseCenter
+0x4086f0 _m_bUseElectricAreaAttackFX_GetterFunction
+0x408754 _m_bUseElectricAreaAttackFX_GetterFunction
+0x4087dc _m_bUseElectricAreaAttackFX_SetterFunction
+0x408850 bUseElectricAreaAttackFX
+0x408920 _m_fElectricAreaAttackMaxDist_GetterFunction
+0x408984 _m_fElectricAreaAttackMaxDist_GetterFunction
+0x408a0c _m_fElectricAreaAttackMaxDist_SetterFunction
+0x408a80 fElectricAreaAttackMaxDist
+0x408b50 _m_fShortDistance_GetterFunction
+0x408bb4 _m_fShortDistance_GetterFunction
+0x408c3c _m_fShortDistance_SetterFunction
+0x408cb0 fShortDistance
+0x408d54 _m_fLongDistance_GetterFunction
+0x408db8 _m_fLongDistance_GetterFunction
+0x408e40 _m_fLongDistance_SetterFunction
+0x408eb4 fLongDistance
+0x408f58 bUseTargetPos
+0x409020 _m_bSuspendIfNotInFrustum_GetterFunction
+0x409084 _m_bSuspendIfNotInFrustum_GetterFunction
+0x40910c _m_bSuspendIfNotInFrustum_SetterFunction
+0x409254 _m_eInFrustumMode_GetterFunction
+0x4092c0 _m_eInFrustumMode_GetterFunction
+0x409344 _m_eInFrustumMode_SetterFunction
+0x4093b8 eInFrustumMode
+0x409484 _m_bWantsAdjustHeightOnMelee_GetterFunction
+0x4094e8 _m_bWantsAdjustHeightOnMelee_GetterFunction
+0x409570 _m_bWantsAdjustHeightOnMelee_SetterFunction
+0x4095e4 bWantsAdjustHeightOnMelee
+0x4096b4 _m_bWantsMeleeCamera_GetterFunction
+0x409718 _m_bWantsMeleeCamera_GetterFunction
+0x4097a0 _m_bWantsMeleeCamera_SetterFunction
+0x4098bc _m_fMeleeCameraMinExtraZDist_GetterFunction
+0x409920 _m_fMeleeCameraMinExtraZDist_GetterFunction
+0x4099a8 _m_fMeleeCameraMinExtraZDist_SetterFunction
+0x409a1c fMeleeCameraMinExtraZDist
+0x409ac4 _m_fMeleeCameraTime_GetterFunction
+0x409b28 _m_fMeleeCameraTime_GetterFunction
+0x409bb0 _m_fMeleeCameraTime_SetterFunction
+0x409c24 fMeleeCameraTime
+0x409cc8 _m_fMeleeCounterCameraMinExtraZDist_GetterFunction
+0x409d2c _m_fMeleeCounterCameraMinExtraZDist_GetterFunction
+0x409db4 _m_fMeleeCounterCameraMinExtraZDist_SetterFunction
+0x409e28 fMeleeCounterCameraMinExtraZDist
+0x409ed0 sAutoLockOnColliderID
+0x409f6c bAutoLockOnColliderMissilesPredictEndPos
+0x40a00c bWantsCoordinateAttacks
+0x40a0a8 sCrazyEndAnim
+0x40a150 sCrazyFXNode
+0x40a1ec vCrazyFXPositionOffset
+0x40a290 vCrazyFXRotationOffset
+0x40a330 fTargetReachableWidth
+0x40a3d0 fTargetReachableHeight
+0x40a46c fTargetReachableRadius
+0x40a5ac bReachableUseRadius
+0x40a64c bCheckWeaponReachable
+0x40a6e8 fReachableMaxSegmentDotToCut
+0x40a788 fReachableSegmentCutDistance
+0x40a824 sNavMeshSmartLinksGroup
+0x40a928 sDynamicSmartLinkRulesFile
+0x40aa24 sDynamicNavigationRulesFile
+0x40ab20 _sNavMeshNavigationModes_GetterFunction
+0x40ab84 _sNavMeshNavigationModes_GetterFunction
+0x40ac10 _sNavMeshNavigationModes_SetterFunction
+0x40ac84 sNavMeshNavigationModes
+0x40ad84 _sNavMeshEnvironmentTypes_GetterFunction
+0x40ade8 _sNavMeshEnvironmentTypes_GetterFunction
+0x40ae74 _sNavMeshEnvironmentTypes_SetterFunction
+0x40aee8 sNavMeshEnvironmentTypes
+0x40afe8 _sForbiddenNavigateOverNavMeshPolygonLogicTypeFlags_GetterFunction
+0x40b04c _sForbiddenNavigateOverNavMeshPolygonLogicTypeFlags_GetterFunction
+0x40b0d8 _sForbiddenNavigateOverNavMeshPolygonLogicTypeFlags_SetterFunction
+0x40b14c sForbiddenNavigateOverNavMeshPolygonLogicTypeFlags
+0x40b24c _sForbiddenNavigateInsideNavMeshPolygonLogicTypeFlags_GetterFunction
+0x40b2b0 _sForbiddenNavigateInsideNavMeshPolygonLogicTypeFlags_GetterFunction
+0x40b33c _sForbiddenNavigateInsideNavMeshPolygonLogicTypeFlags_SetterFunction
+0x40b3b0 sForbiddenNavigateInsideNavMeshPolygonLogicTypeFlags
+0x40b4a0 bAwaitOnTargetTunnelEntrances
+0x40b56c _sNavMeshGlobalSmartLinkTypes_GetterFunction
+0x40b5d0 _sNavMeshGlobalSmartLinkTypes_GetterFunction
+0x40b65c _sNavMeshGlobalSmartLinkTypes_SetterFunction
+0x40b6d0 sNavMeshGlobalSmartLinkTypes
+0x40b7d0 _fVisitedNavMeshEdgesDistance_GetterFunction
+0x40b834 _fVisitedNavMeshEdgesDistance_GetterFunction
+0x40b8bc _fVisitedNavMeshEdgesDistance_SetterFunction
+0x40b930 fVisitedNavMeshEdgesDistance
+0x40b9d4 vNavMeshAStarExtraSize
+0x40ba70 eNavigablePathType
+0x40bb0c fMinYNormalInPath
+0x40bbb0 fNavigablePathCutDistance
+0x40bc50 fNavigablePathCutDistanceInPathLimits
+0x40bcec fNavigablePathCutDistanceWithWalls
+0x40bd8c vNavigablePathCharacterSize
+0x40bed8 bCanApplyMeleeReactionKinematicMovementModifier
+0x40bfa4 bWantsRotateOnMeleeCrazy
+0x40c070 bGeneratePathInOpenDoors
+0x40c13c eCutPathMode
+0x40c2a4 bAlwaysTargetDetected
+0x40c344 bRequiresActivationPerception
+0x40c3e0 oActivationPerceptionRuleSet
+0x40c450 oStartDetectionPerceptionRuleSet
+0x40c4c0 oExtendDetectionPerceptionRuleSet
+0x40c530 bStartDetectionRequiresLOS
+0x40c5fc bEndDetectionRequiresLOS
+0x40c790 bStartDetectionRequiresTargetInFront
+0x40c858 bEndDetectionRequiresTargetInFront
+0x40c924 fStartMaxDistForTargetDetection
+0x40c9f4 fEndMaxDistForTargetDetection
+0x40cac0 fTimeForTargetDetection
+0x40cb90 fTimeForTargetDetectionEnd
+0x40cd28 bEndShouldBeInFrustrumForTargetDetection
+0x40cdf8 bStartShouldCheckIfTargetIsInAreaOfInterest
+0x40cec0 bEndShouldCheckIfTargetIsInAreaOfInterest
+0x40d058 bUseAlwaysEndAreaOfInterestAfterFirstDetection
+0x40d124 bIsAreaOfInterestOptional
+0x40d1ec bStartShouldTargetBeReachableForDetection
+0x40d2b8 bEndShouldTargetBeReachableForDetection
+0x40d380 bStartCanSeeThroughOpticCamo
+0x40d420 bEndCanSeeThroughOpticCamo
+0x40d4bc bForceTargetDetectionByOtherSpawnGroupMember
+0x40d588 bResumeOtherSpawnGroupMembersOnTargetDetection
+0x40d6f4 bForceOnCollisionStayProcess
+0x40d7bc tTrespassCollidersIds
+0x40d82c tTrespassCollidersTags
+0x40d89c _m_bMeleeBigAIReaction_GetterFunction
+0x40d900 _m_bMeleeBigAIReaction_GetterFunction
+0x40d988 _m_bMeleeBigAIReaction_SetterFunction
+0x40d9fc bMeleeBigAIReaction
+0x40dacc _m_bAllowMultipleMeleeHits_GetterFunction
+0x40db30 _m_bAllowMultipleMeleeHits_GetterFunction
+0x40dbb8 _m_bAllowMultipleMeleeHits_SetterFunction
+0x40dc2c bAllowMultipleMeleeHits
+0x40dcd0 bUsingDCCenter
+0x40dd6c fTargetOnGroundDist
+0x40de10 fMinFlyngDistToFloor
+0x40deb0 fMotionSpeed
+0x40df7c bIsReskin
+0x40e044 bUpdatePathToTarget
+0x40e0e4 bTweakWalkCyclesBeforeSmartLink
+0x40e180 fMinNumWalkCyclesToTweak
+0x40e228 fMaxNumWalkCyclesToTweak
+0x40e2cc fMinWalkKinematicDeltaFactor
+0x40e370 fMaxWalkKinematicDeltaFactor
+0x40e4b8 bUseNavmeshPath
+0x40e5f8 fBlockableAttackWarningNoticeTime
+0x40e698 fBlockableAttackWarningRadius
+0x40e73c fBlockableAttackWarningVolume
+0x40e7d8 _m_sDefaultInvulnerableDamageMask_GetterFunction
+0x40e83c _m_sDefaultInvulnerableDamageMask_GetterFunction
+0x40e8c8 _m_sDefaultInvulnerableDamageMask_SetterFunction
+0x40e93c sDefaultInvulnerableDamageMask
+0x40ea68 _m_sArmoredInvulnerableDamageMask_GetterFunction
+0x40eacc _m_sArmoredInvulnerableDamageMask_GetterFunction
+0x40eb58 _m_sArmoredInvulnerableDamageMask_SetterFunction
+0x40ebcc sArmoredInvulnerableDamageMask
+0x40ecf8 sMorphingNode
+0x40edf4 v3MorphingOffset
+0x40ee98 eXpawnAngPolicy
+0x40ef30 fXCellMorphingEffectScale
+0x40efd4 sPushAnim
+0x40f054 push
+0x40f0bc sPushBackAnim
+0x40f1b8 bIgnoreRotateOnPush
+0x40f284 bInvertRotateOnPush
+0x40f34c fIgnoreShootsTime
+0x40f3ec fBackToNormalityTime
+0x40f48c fBackToNormalityInMoreShootsTime
+0x40f52c fDistanceToPathLimitInFlee
+0x40f5cc fDashMeleeLimitToAdd
+0x40f66c oDeathImpactDisplacementDefault
+0x40f720 oDeathImpactDisplacementStrong
+0x40f7d8 bWantsForceBarelyFrozenDeath
+0x40f8a0 bWantsForceScrewBounceOnDead
+0x40f96c bIgnoreFleeTime
+0x40faac fFleeSpeed
+0x40fb4c fFleeAcceleration
+0x40fbec fPatrolSpeed
+0x40fc8c fPatrolAcceleration
+0x40fdcc bCheckSLWhenAttackEnds
+0x40fe70 fDistToDestroyProjectile
+0x40ff14 bAllowBlindAttackOnPush
+0x40ffb4 sBlindAttackName
+0x41015c fMinBackSpaceToOverrideMeleeAction
+0x410224 fMinDist2TargetToOverrideMeleeAction
+-----
+0x415d70 CCharClassBehaviorTreeAIComponent
+0x415e34 sBehaviorTreePath
+0x415f10 fMaxCrazyTime
+-----
+0x417aa8 CCharClassBossAIComponent
+0x417b6c _m_bUseIsInFrustumForBossCamera_GetterFunction
+0x417bd8 _m_bUseIsInFrustumForBossCamera_GetterFunction
+0x417c60 _m_bUseIsInFrustumForBossCamera_SetterFunction
+0x417da8 _m_bUseAngry_GetterFunction
+0x417e0c _m_bUseAngry_GetterFunction
+0x417e94 _m_bUseAngry_SetterFunction
+0x417f08 bUseAngry
+0x417fd8 bManuallyRemoveFromTeamManager
+0x4180a0 _m_bWantsLifeFeedback_GetterFunction
+0x418104 _m_bWantsLifeFeedback_GetterFunction
+0x41818c _m_bWantsLifeFeedback_SetterFunction
+0x418200 bWantsLifeFeedback
+0x4182d0 _m_bRemovePlayerInputOnDeath_GetterFunction
+0x418334 _m_bRemovePlayerInputOnDeath_GetterFunction
+0x4183bc _m_bRemovePlayerInputOnDeath_SetterFunction
+0x418504 _m_bSetPlayerInvulnerableWithReactionOnDeath_GetterFunction
+0x418568 _m_bSetPlayerInvulnerableWithReactionOnDeath_GetterFunction
+0x4185f0 _m_bSetPlayerInvulnerableWithReactionOnDeath_SetterFunction
+0x418738 bOpenDoorWhenDie
+0x418804 sBossBattleLabel
+0x418910 sInventoryItemOnKilled
+0x418ae4 bPersistenBossDefeatedPushSetup
+-----
+0x419c10 CCharClassDummyAIComponent
+0x419ccc bWantsDrawModelPrimitiveSet
+-----
+0x41a0a0 CCharClassRobotAIComponent
+0x41a164 sBumpedFX
+0x41a240 sDeathTimeline
+-----
+0x44aeb0 CCharClassChozoCommanderAIComponent::CTunableCharClassChozoCommanderAIComponent
+0x44af94 fMotionSpeed
+0x44b0e0 bKiCounterShowMeleableFX
+0x44b184 bKiCounterUseZoomCamera
+0x44b220 iInitialStage
+0x44b2c0 fSentenceSphereSpeed
+0x44b404 KI_STRIKE
+0x44b4a4 SENTENCE_SPHERE
+0x44b544 POWER_PULSE
+0x44b5e4 AURA_SCRATCH
+0x44b684 KI_COUNTER
+0x44b724 LANDING_SLAM
+0x44b7c4 AIR_CHARGE
+0x44b864 ZERO_LASER
+0x44b904 BEAM_BURST
+0x44b9a4 HYPER_SPARK
+0x44ba44 ENERGY_SHARDS
+0x44bae4 ZERO_LASER_GROUNDED
+0x44bb84 HYPER_DASH
+0x44bc24 ULTIMATE_GRAB
+0x44bcc4 KI_GRAB
+-----
+0x44c24c CCharClassChozoCommanderAIComponent
+0x44c314 oChozoCommanderTriComboAttackDef
+0x44c38c oChozoCommanderKiStrikeAttackDef
+0x44c3fc oChozoCommanderSentenceSphereAttackDef
+0x44c46c oChozoCommanderPowerPulseAttackDef
+0x44c4dc oChozoCommanderAuraScratchAttackDef
+0x44c54c oChozoCommanderKiCounterAttackDef
+0x44c5bc oChozoCommanderLandingSlamAttackDef
+0x44c62c oChozoCommanderAirChargeAttackDef
+0x44c69c oChozoCommanderZeroLaserAttackDef
+0x44c70c oChozoCommanderBeamBurstAttackDef
+0x44c77c oChozoCommanderHypersparkAttackDef
+0x44c7ec oChozoCommanderEnergyShardsAttackDef
+0x44c85c oChozoCommanderZeroLaserGroundedAttackDef
+0x44c8cc oChozoCommanderHyperDashAttackDef
+0x44c93c oChozoCommanderUltimateGrabAttackDef
+0x44c9ac oChozoCommanderKiGrabAttackDef
+0x44ca1c fAuraLife
+0x44cac0 fLifeToRecoverAfterUltimateGrabStage1
+0x44cb60 fLifeToRecoverAfterUltimateGrabStage3
+0x44cc00 fUltimateGrabDamage
+0x44cca0 fTimeBetweenKiStrikeAttacks
+0x44cd44 fAttackWaitTimeBetweenPhases
+0x44cde8 fMinDistToHyperDash
+0x44ce8c fMaxVerticalDiffToAboveHyperDash
+0x44cf2c oDamageSourceFactorShortShootingGrab
+0x44cf9c oDamageSourceFactorLongShootingGrab
+-----
+0x44d894 CChozoCommanderAIComponent
+0x44da0c wpUltimateGrabLandmark
+0x44db48 wpPhase2CutscenePlayer
+0x44dbe0 wpPhase3CutscenePlayer
+0x44dc78 wpPhase3EndLeftCutscenePlayer
+0x44dd10 wpPhase3EndRightCutscenePlayer
+-----
+0x456914 CCharClassChozoCommanderSentenceSphereLifeComponent
+-----
+0x456d10 CCharClassChozoCommanderEnergyShardsFragmentMovementComponent
+-----
+0x457110 CCharClassChozoCommanderEnergyShardsSphereMovementComponent
+0x4571d4 fAngleDispersion
+0x45727c fPositionDispersion
+0x457318 iNumExplosions
+0x4573bc fTimeBetweenExplosions
+0x45745c fInitialTimeBetweenExplosions
+0x457500 fMaxLifeTime
+-----
+0x457930 CCharClassChozoCommanderSentenceSphereMovementComponent
+0x4579f4 _m_fRotationSpeedDeg_GetterFunction
+0x457a60 _m_fRotationSpeedDeg_GetterFunction
+0x457ae8 _m_fRotationSpeedDeg_SetterFunction
+0x457b5c fRotationSpeedDeg
+0x457c04 fInitialRadius
+0x457ca4 fMinRadius
+0x457d44 fMaxRadius
+0x457de4 fTimeToReachMinRadius
+0x457e88 fTimeToReachMaxRadius
+-----
+0x458510 CChozoCommanderEnergyShardsFragmentMovementComponent
+-----
+0x458b74 CChozoCommanderEnergyShardsSphereMovementComponent
+-----
+0x459d24 CChozoCommanderSentenceSphereLifeComponent
+-----
+0x45a430 CChozoCommanderSentenceSphereMovementComponent
+-----
+0x46bc00 CCharClassChozoRobotSoldierAIComponent::CTunableCharClassChozoRobotSoldierAIComponent
+0x46bce4 fMinTimeToStartChargeBeam
+0x46bd90 fMaxTimeToStartChargeBeam
+0x46be30 fTimeToChargeBeam
+0x46bed4 fExplosionRadius
+0x46bf74 fExplosionTimeToReachRadius
+0x46c01c fExplosionTimeAtMaxRadius
+0x46c0c0 fCoreDamageFactor
+0x46c164 fTimeBetweenAttackGoingToShootingPosition
+0x46c204 fTimeBetweenAttackInShootingPosition
+0x46c2a8 fRangedAttackAfterMeleeAttackProbability
+0x46c348 fMeleeAttackAfterRangedAttackProbability
+0x46c3e8 fChangeToRangedAttackOnSamePlatformProbability
+0x46c484 bAllCanUseChargeBeam
+-----
+0x46ca0c CCharClassChozoRobotSoldierAIComponent
+0x46cac8 oChozoRobotSoldierCannonShotAttackDef
+0x46cb40 oChozoRobotSoldierDashSlashAttackDef
+0x46cbb0 oChozoRobotSoldierDisruptionFieldAttackDef
+0x46cc20 oChozoRobotSoldierUppercutAttackDef
+0x46cc90 oRunningAnims
+0x46cd00 oShootingPositionQuerySystemDef
+0x46cd70 oSelectedShootingPositionQuerySystemDef
+0x46cde0 oNoPathFoundShootingPositionQuerySystemDef
+0x46ce50 oDamageSourceFactorElite
+0x46cec0 oDamageSourceFactorCrazy
+0x46cf30 oDamageSourceFactorCrazyElite
+-----
+0x46da58 CChozoRobotSoldierAIComponent
+0x46db1c bAlternativeSkin
+0x46dbd0 wpPatrolPath
+0x46dc70 tShootingPositions
+-----
+0x477980 CCharClassChozoRobotSoldierBeamMovementComponent
+0x477a3c fChargedSpeed
+-----
+0x477e50 CChozoRobotSoldierBeamMovementComponent
+-----
+0x478e08 CCharClassChozoWarriorEliteAIComponent
+-----
+0x4791c0 CChozoWarriorEliteAIComponent
+-----
+0x479680 CCharClassChozoWarriorXEliteAIComponent
+-----
+0x479a30 CChozoWarriorXEliteAIComponent
+-----
+0x48c2b0 CCharClassChozoWarriorXAIComponent
+0x48c36c oChozoWarriorXGlaiveSpinAttackDef
+0x48c3e4 oChozoWarriorXWallClimbAttackDef
+0x48c454 oChozoWarriorXLandAttackDef
+0x48c4c4 oChozoWarriorXChangeWallAttackDef
+0x48c534 oChozoWarriorXSpitAttackDef
+0x48c5a4 oChozoWarriorXUltimateGrabAttackDef
+-----
+0x48ca60 CChozoWarriorXAIComponent
+-----
+0x48eea8 CCharClassChozoWarriorXSpitMovementComponent
+-----
+0x48f2a0 CChozoWarriorXSpitMovementComponent
+-----
+0x495520 CCharClassChozoWarriorAIComponent::CTunableCharClassChozoWarriorAIComponent
+0x495600 fGrappleTime
+0x4956ac fShieldLife
+0x49574c fShieldDamagePerMissile
+0x4957f0 fShieldDamagePerMelee
+0x495934 fMinTimeBetweenShieldImpactAnim
+-----
+0x495eb8 CCharClassChozoWarriorAIComponent
+0x495f7c oChozoWarriorGlaiveSpinAttackDef
+0x495ff4 oChozoWarriorGlaiveWalljumpAttackDef
+0x496064 oChozoWarriorDeflectorShieldAttackDef
+0x496178 fTargetMinDistanceToFloorToForceGlaiveSpinAttack
+0x496218 fGlaiveSpinAttackOffsetDistanceIfTargetOnAir
+-----
+0x496e28 CChozoWarriorAIComponent
+-----
+0x49e550 CCharClassChozoZombieXAIComponent
+0x49e608 oChozoZombieXPoisonClawsAttackDef
+-----
+0x49ea60 CChozoZombieXAIComponent
+-----
+0x4cbd00 CCharClassCooldownXBossAIComponent::CTunableCharClassCooldownXBossAIComponent
+0x4cbde0 iInitialStage
+0x4cbf28 WIND_TUNNEL
+0x4cbfcc STRONG_WHIP
+0x4cc068 REAPER
+0x4cc10c LAVA_DROPS
+0x4cc1a8 LASER_BITE
+0x4cc24c fMinLifeRestored4Arms
+0x4cc2f0 fMaxLifeRestored4Arms
+0x4cc398 fMinLifeRestored3Arms
+0x4cc43c fMaxLifeRestored3Arms
+0x4cc4e4 fMinLifeRestored2Arms
+0x4cc588 fMaxLifeRestored2Arms
+0x4cc630 fMinLifeRestored1Arms
+0x4cc6d0 fMaxLifeRestored1Arms
+0x4cc778 fPhase2Timeout
+-----
+0x4cccfc CCharClassCooldownXBossAIComponent
+0x4ccdc0 oCooldownXBossLavaCarpetAttackDef
+0x4cce38 oCooldownXBossLavaDropsAttackDef
+0x4ccea8 oCooldownXBossReaperAttackDef
+0x4ccf18 oCooldownXBossStrongWhipAttackDef
+0x4ccf88 oCooldownXBossWindTunnelAttackDef
+0x4ccff8 oCooldownXBossLaserBiteAttackDef
+0x4cd10c fMinTimeToRelaxAction
+0x4cd1ac fMaxTimeToRelaxAction
+0x4cd250 fTimeToGoToPhase3After4WPDestroyed
+0x4cd2f4 oGrabDamageSourceFactor
+-----
+0x4cd97c CCharClassCooldownXBossWeakPointLifeComponent
+-----
+0x4ce214 CCooldownXBossAIComponent
+0x4ce390 wpLavaCarpetFloorFX
+0x4ce428 wpCoolShinesparkTrigger
+0x4ce4c0 wpDeathCutscenePlayer
+0x4ce584 wpDeathFromGrabCutscenePlayer
+-----
+0x4d5370 CCooldownXBossWeakPointLifeComponent
+-----
+0x4d5910 CCharClassCooldownXBossFireBallMovementComponent
+0x4d59d4 fPreparationTime
+0x4d5a80 fMovingSpeed
+-----
+0x4d5e90 CCooldownXBossFireBallMovementComponent
+-----
+0x4d6ca0 CCharClassCoreXAIComponent::CTunableCharClassCoreXAIComponent
+-----
+0x4d7250 CCharClassCoreXAIComponent
+0x4d7314 fAcceleration
+0x4d73c0 fTurningAcceleration
+0x4d7464 fMaxTurningAngle
+0x4d7508 fBrakeDistance
+0x4d75a8 fMinBrakeSpeed
+0x4d764c sBrakeCurve
+0x4d76cc 22
+0x4d7734 fImpactSpeed
+0x4d77d8 fImpactTime
+0x4d787c fImpactInvulnerableTime
+0x4d7924 fXParasiteDropCooldownTime
+0x4d79c4 iXParasiteMinDrop
+0x4d7a68 iXParasiteMaxDrop
+0x4d7b08 sInventoryItemOnBigXAbsorbed
+-----
+0x4d8288 CCoreXAIComponent
+-----
+0x4dd3e0 CCharClassDaivoAIComponent
+0x4dd498 oDaivoSpitAttackDef
+-----
+0x4dda00 CDaivoAIComponent
+0x4ddb74 wpSwarmAOIBegin
+0x4ddc08 wpSwarmAOIEnd
+0x4ddd94 fChaseForcedDistanceToWall
+-----
+0x4deb10 CCharClassDaivoSwarmControllerComponent
+0x4debcc fVomitSpeed
+-----
+0x4df100 CDaivoSwarmControllerComponent
+-----
+0x4e17c0 CCharClassDizzeanSwarmControllerComponent
+-----
+0x4e1bf0 CDizzeanSwarmControllerComponent
+-----
+0x4e54fc CCharClassDredhedAIComponent
+0x4e55c0 eSubspecies
+0x4e5668 fTimeBetweenCharges
+0x4e5704 oDredhedDiveAttackDef
+-----
+0x4e5cf4 CCharClassDredhedAttackComponent
+-----
+0x4e60e0 CDredhedAIComponent
+-----
+0x4e6e70 CDredhedAttackComponent
+-----
+0x4ea04c CCharClassDropterAIComponent
+0x4ea110 bWantsIceExplosion
+0x4ea1b8 fMaxFreezeTime
+0x4ea258 fMinFreezeTime
+0x4ea2fc fFreezeExplosionPreparationTime
+0x4ea39c fFreezeExplosionRadius
+0x4ea440 fFreezeExplosionDuration
+0x4ea4e4 fFreezeExplosionRemanentDuration
+0x4ea588 eSubspecies
+0x4ea624 oDropterDiveAttackDef
+-----
+0x4eac64 CDropterAIComponent
+-----
+0x4ee038 CCharClassEmmyCaveAIComponent
+-----
+0x4ee294 CCharClassEmmyCaveAIComponent::CTunableEmmyCaveAIComponent
+0x4ee374 rConfig
+0x4ee3ec fHeadHeatIncrementFactor
+0x4ee490 fTimeToStartHeatRecover
+0x4ee534 fHeadHeatRecoveredPerSecond
+-----
+0x4eede0 CEmmyCaveAIComponent
+0x4eee9c OnPresentationCutsceneEnd
+0x4eef08 OnPresentationCutsceneEnd
+-----
+0x4f06bc CCharClassEmmyForestAIComponent
+-----
+0x4f0918 CCharClassEmmyForestAIComponent::CTunableEmmyForestAIComponent
+0x4f09f8 rConfig
+0x4f0a70 fHeadHeatIncrementFactor
+0x4f0b18 fHeadHeatIncrementFactorForGround
+0x4f0bbc fTimeToStartHeatRecover
+0x4f0c60 fHeadHeatRecoveredPerSecond
+-----
+0x4f1488 CEmmyForestAIComponent
+0x4f1548 StartWeightedEdges
+0x4f15bc StartWeightedEdges
+0x4f1640 StopWeightedEdges
+0x4f16a4 StopWeightedEdges
+-----
+0x4f2e28 CCharClassEmmyLabAIComponent
+-----
+0x4f3084 CCharClassEmmyLabAIComponent::CTunableEmmyLabAIComponent
+0x4f316c rConfig
+0x4f31e4 fHeadHeatIncrementFactor
+0x4f3288 fTimeToStartHeatRecover
+0x4f332c fHeadHeatRecoveredPerSecond
+0x4f3568 fSpeedBoosterPhase1PatrolSearchSpeed
+0x4f36f4 fSpeedBoosterPhase1PatrolSearch2Speed
+0x4f3870 fSpeedBoosterPhase1SearchSpeed
+0x4f39f4 bSpeedBoosterPhase1ChaseSpeedModulation
+0x4f3b04 fSpeedBoosterPhase1ChaseSpeed
+0x4f3c90 fSpeedBoosterPhase1CloseChaseSpeed
+0x4f3e14 fSpeedBoosterPhase1FarDistChaseSpeed
+0x4f3fac fSpeedBoosterPhase1CloseDistChaseSpeed
+0x4f412c fSpeedBoosterPhase1OutOfCameraSpeed
+0x4f42b8 fSpeedBoosterPhase1Search2Speed
+0x4f443c fSpeedBoosterPhase2ProtectorOnChaseSpeed
+0x4f45c8 fSpeedBoosterPhase2ProtectorOnOutOfCameraSpeed
+0x4f4744 fSpeedBoosterPhase2ProtectorDestroyedChaseFarSpeed
+0x4f48d0 fSpeedBoosterPhase2ProtectorDestroyedChaseCloseSpeed
+0x4f4a54 fSpeedBoosterPhase2ProtectorDestroyedChase2FeetFarSpeed
+0x4f4be0 fSpeedBoosterPhase2ProtectorDestroyedChase2FeetCloseSpeed
+0x4f4d64 fSpeedBoosterPhase2ProtectorDestroyedOutOfCameraFarSpeed
+0x4f4ee8 fSpeedBoosterPhase2ProtectorDestroyedOutOfCameraCloseSpeed
+0x4f5064 fSpeedBoosterPhase2ProtectionHeadImpactedSpeedFactor
+0x4f51ec fSpeedBoosterAudioVolumeIncrease
+-----
+0x4f5b08 CEmmyLabAIComponent
+-----
+0x4f7050 CCharClassEmmyMagmaAIComponent
+-----
+0x4f72ac CCharClassEmmyMagmaAIComponent::CTunableEmmyMagmaAIComponent
+0x4f738c rConfig
+0x4f7404 fHeadHeatIncrementFactor
+0x4f74a8 fTimeToStartHeatRecover
+0x4f754c fHeadHeatRecoveredPerSecond
+-----
+0x4f7d78 CEmmyMagmaAIComponent
+-----
+0x4f8410 CCharClassEmmyProtoAIComponent
+-----
+0x4f866c CCharClassEmmyProtoAIComponent::CTunableEmmyProtoAIComponent
+0x4f8748 rConfig
+-----
+0x4f91b4 CEmmyProtoAIComponent
+0x4f9278 sDirtMaterialConstantId
+0x4f9358 StandStillFor
+0x4f93cc OnPresentationCutsceneEnd
+0x4f9430 OnPresentationCutsceneEnd
+-----
+0x4fc848 CCharClassEmmySancAIComponent
+-----
+0x4fcaa4 CCharClassEmmySancAIComponent::CTunableEmmySancAIComponent
+0x4fcb84 rConfig
+0x4fcbfc fHeadHeatIncrementFactor
+0x4fcca4 fHeadHeatIncrementFactorDuringPursuit
+0x4fcd48 fTimeToStartHeatRecover
+0x4fcdec fHeadHeatRecoveredPerSecond
+-----
+0x4fd618 CEmmySancAIComponent
+0x4fd6e0 StartSancShutterPerceptionModifier
+0x4fd754 StartSancShutterPerceptionModifier
+0x4fd7e0 StopSancShutterPerceptionModifier
+0x4fd844 StopSancShutterPerceptionModifier
+0x4fd970 wpForceEmmyPerceptionVisionConeOffShape
+0x4fda08 bZipLine004Behavior
+0x4fdaf0 wpPhase2HeatEnabledLogicShape
+-----
+0x500bd4 CCharClassEmmyWaveMovementComponent
+-----
+0x500fd0 CEmmyWaveMovementComponent
+-----
+0x5022f4 CCharClassEmmyShipyardAIComponent
+-----
+0x502550 CCharClassEmmyShipyardAIComponent::CTunableEmmyShipyardAIComponent
+0x502628 rConfig
+-----
+0x502eb8 CEmmyShipyardAIComponent
+-----
+0x51ccac CCharClassEmmyAIComponent
+0x51cd70 _m_bControlsEmmyZoneLight_GetterFunction
+0x51cddc _m_bControlsEmmyZoneLight_GetterFunction
+0x51ce64 _m_bControlsEmmyZoneLight_SetterFunction
+0x51ced8 bControlsEmmyZoneLight
+0x51cf7c _m_bCanUseTunnels_GetterFunction
+0x51cfe0 _m_bCanUseTunnels_GetterFunction
+0x51d068 _m_bCanUseTunnels_SetterFunction
+0x51d184 sInventoryItemOnKilled
+-----
+0x51def0 CCharClassEmmyAttackComponent
+-----
+0x536890 CEmmyAIComponent::CTunableEmmyAIComponent
+0x536a90 eMinimapMode
+0x536b8c eIceMode
+0x536c88 fChaseUnspawnEnemyDistance
+0x536d50 bCloseEmmyDoorsDuringChase
+0x536e14 fEmmyAutoFocusStartTime
+0x536ee0 fEmmyAutoFocusEndTime
+0x536fac fEmmyAutoFocusMaxZoomDistance
+0x537050 fFocusModeActivationRadius
+0x5370f4 fEmmyZoneChasePulseWaitTime
+0x537194 fEmmyZoneChasePulseSpeed
+0x537238 fEmmyZoneChasePhase2PulseWaitTime
+0x5372d8 fEmmyZoneChasePhase2PulseSpeed
+0x53737c fEmmyZoneSearch2PulseWaitTime
+0x53741c fEmmyZoneSearch2PulseSpeed
+0x5374c0 eEmmyOutsideRoomLowPassFilter
+0x537604 bAfterGrabGotoSearch
+0x5376a0 fGrab2Probability
+0x537740 fTimeTargetOutOfEmmyZoneToEndSearch
+0x537884 fTunnelWalkTransitionSpeedChasePhase1
+0x537924 fTunnelWalkTransitionSpeedChasePhase2ProtectorOn
+0x5379c4 fTunnelWalkTransitionSpeedChasePhase2ProtectorDestroyed
+0x537b0c _iMinimapMode_GetterFunction
+0x537b70 _iMinimapMode_GetterFunction
+0x537bf8 _iMinimapMode_SetterFunction
+0x537c6c iMinimapMode
+0x537ea8 bWaveInSearch
+0x537fe8 bWaveInWater
+0x538088 bWaveInPhase2ProtectorOn
+0x538244 fWaveTimeBetweenFire
+0x5383d0 fWaveChargeTime
+0x538554 bWaveMaxRadiusToFireDebug
+0x538788 fWaveTimeSinceWaveReactionToFire
+0x538940 fWaveProjectileInitialRadius
+0x538acc fWaveProjectileRadius
+0x538c50 fWaveIgnoreInputTime
+0x538dd8 fWaveProjectileSpeed
+0x538e80 fWaveProjectileWaterSpeed
+0x5390b0 fWaveMaxAtt
+0x539238 fWaveMinTimeInSpaceJumpToFire
+0x5392e4 fWaveMaxTimeInSpaceJumpToFire
+0x539384 fWaveInSpaceJumpFireProjectileMaxSpeed
+0x53942c bIceUseInPatrol
+0x53956c bIceInfiniteDetectionRadius
+0x539608 fIceIceConeRadius
+0x5396ac fIceIceConeAperture
+0x539748 fIceIceConeChargeTime
+0x5397e8 fIceTimeBetweenFire
+0x539888 fIceIgnoreInputTimeMax
+0x539928 fIceIgnoreInputTimeMin
+0x5399c4 fTimeSearchForcedToGoAway
+0x539a68 fTimeSearchForcedToGoAwayInSearch
+0x539b08 fStaggerTimeGrab
+0x539ba8 fStaggerTimeHeadProtectorDestroyed
+0x539c44 fStaggerTimeGrabTuto
+0x539ce8 bUseTurnsWithoutStopAndLook
+0x539d84 bAlwaysWinQTE1
+0x539e24 fCentralUnitAlarmVolumeOnGrab
+0x539ec4 fTimeInFrustumToMarkEmmySeen
+-----
+0x53a5d0 CEmmyAIComponent
+0x53a694 _sCurrentPatrol_GetterFunction
+0x53a700 _sCurrentPatrol_GetterFunction
+0x53a78c _sCurrentPatrol_SetterFunction
+0x53a800 sCurrentPatrol
+0x53a8d0 _bPerceptionFeedbackEnabled_GetterFunction
+0x53a934 _bPerceptionFeedbackEnabled_GetterFunction
+0x53a9bc _bPerceptionFeedbackEnabled_SetterFunction
+0x53aa30 bPerceptionFeedbackEnabled
+0x53aaf8 _bShowBehaviorDebug_GetterFunction
+0x53ab5c _bShowBehaviorDebug_GetterFunction
+0x53abe4 _bShowBehaviorDebug_SetterFunction
+0x53ac58 bShowBehaviorDebug
+0x53acf4 _fPhaseDisplacementFactor_GetterFunction
+0x53ad58 _fPhaseDisplacementFactor_GetterFunction
+0x53ade0 _fPhaseDisplacementFactor_SetterFunction
+0x53ae54 fPhaseDisplacementFactor
+0x53aef0 _fGrabQTEFailTime_GetterFunction
+0x53af54 _fGrabQTEFailTime_GetterFunction
+0x53afdc _fGrabQTEFailTime_SetterFunction
+0x53b050 fGrabQTEFailTime
+0x53b0ec _bPlayerNoiseEnabled_GetterFunction
+0x53b150 _bPlayerNoiseEnabled_GetterFunction
+0x53b1d8 _bPlayerNoiseEnabled_SetterFunction
+0x53b24c bPlayerNoiseEnabled
+0x53b2e8 _fPatrolSearchMaxTime_GetterFunction
+0x53b34c _fPatrolSearchMaxTime_GetterFunction
+0x53b3d4 _fPatrolSearchMaxTime_SetterFunction
+0x53b448 fPatrolSearchMaxTime
+0x53b4e4 _fGrabZoomOffset_GetterFunction
+0x53b548 _fGrabZoomOffset_GetterFunction
+0x53b5d0 _fGrabZoomOffset_SetterFunction
+0x53b644 fGrabZoomOffset
+0x53b6e0 _fGrabZoomTime_GetterFunction
+0x53b744 _fGrabZoomTime_GetterFunction
+0x53b7cc _fGrabZoomTime_SetterFunction
+0x53b840 fGrabZoomTime
+0x53b8dc _bTargetDetectionEnabled_GetterFunction
+0x53b940 _bTargetDetectionEnabled_GetterFunction
+0x53b9c8 _bTargetDetectionEnabled_SetterFunction
+0x53ba3c bTargetDetectionEnabled
+0x53bad8 _bTargetInsideEmmyZone_GetterFunction
+0x53bb3c _bTargetInsideEmmyZone_GetterFunction
+0x53bbc4 bTargetInsideEmmyZone
+0x53bc68 tOverrideGrabPosition
+0x53bcd8 tOverrideDeathPosition
+0x53bd48 tAutoForbiddenEdges
+0x53bdb8 tAutoGlobalSmartLinks
+0x53be28 AddLastTargetPerception
+0x53be94 AddLastTargetPerception
+0x53bf20 ForceStartChase
+0x53bf84 ForceStartChase
+0x53c008 ForceStopStagger
+0x53c06c ForceStopStagger
+0x53c0f0 tLogicShapesToAvoidCornerReposition
+-----
+0x568e58 CEmmyAttackComponent
+-----
+0x577a8c CCharClassFingSwarmControllerComponent
+-----
+0x577eb0 CFingSwarmControllerComponent
+-----
+0x578fac CCharClassFulmiteBellyMineAIComponent
+0x579078 fLifeTime
+0x579124 fExplosionRadius
+0x5791c4 fTimeToExplosion
+0x57926c fTimeAtMaxRadiusExplosion
+0x579310 fDamageFulmiteBellyMineExplosion
+0x5793b4 fNormalXFactor
+0x579458 fNormalYFactor
+0x579500 fUpsideDownXFactor
+0x57959c fUpsideDownYFactor
+0x579640 fInWallXFactor
+0x5796dc fInWallYFactor
+0x57981c fWallImpulseXFactor
+0x5798c0 fWallImpulseYFactor
+0x579960 fGroundImpulseXFactor
+0x579a04 fGroundImpulseYFactor
+0x579b44 fImpulseVelocityXLimit
+0x579be4 fImpulseVelocityYLimit
+0x579c84 fTimeToShowBeforeExplosionFX
+0x579d28 fMinTimeBetweenBeeps
+0x579dd0 fMaxTimeBetweenBeeps
+0x579e70 fMinBeepVolume
+0x579f10 fMaxBeepVolume
+0x579fb0 fMinBeepPitch
+0x57a058 fMaxBeepPitch
+-----
+0x57a430 CCharClassFulmiteBellyMineAttackComponent
+-----
+0x57a820 CCharClassFulmiteBellyMineMovementComponent
+-----
+0x57ac20 CFulmiteBellyMineAIComponent
+-----
+0x57dbdc CFulmiteBellyMineAttackComponent
+-----
+0x57e200 CFulmiteBellyMineMovementComponent
+-----
+0x57f2c8 CCharClassGobblerAIComponent
+0x57f38c oGobblerBiteAttackDef
+0x57f404 fMinImpulseFactorX
+0x57f4a8 fMinImpulseFactorY
+0x57f54c fMaxImpulseFactorX
+0x57f5f4 fMaxImpulseFactorY
+0x57f690 fDistForMaxImpulse
+0x57f734 fDistForMinImpulse
+0x57f7d4 fDistanceToBiteAttack
+0x57f878 fMinNervousnessDist
+0x57f918 fMaxNervousnessDist
+-----
+0x57fb88 CCharClassGobblerAIComponent::CTunableCharClassGobblerAIComponent
+-----
+0x580528 CGobblerAIComponent
+-----
+0x586418 CCharClassGoliathXAIComponent
+0x5864d4 oGoliathXBurstProjectionBombsAttackDef
+0x58654c oGoliathXSlamAttackDef
+-----
+0x5869c0 CGoliathXAIComponent
+0x586a7c wpCoreXSpawnPoint
+-----
+0x58e228 CCharClassGoliathAIComponent
+0x58e2e4 oGoliathAttackDef
+0x58e35c fAnimSpeedMultiplier
+-----
+0x58e5c0 CCharClassGoliathAIComponent::CTunableCharClassGoliathAIComponent
+0x58e6a0 fFleeTimeToReturnToPatrol
+0x58e74c fChaseMinDistance
+0x58e7f0 fChaseMaxDistance
+-----
+0x58f208 CGoliathAIComponent
+-----
+0x595c18 CCharClassGooplotAIComponent::CTunableCharClassGooplotAIComponent
+0x595ea4 fAttackRecoveryTime
+0x596028 iMaxJumps
+0x5961b0 fMaxSingleJumpTime
+0x5963d8 fAttackTrackingTime
+0x59655c fAttackAirSpeed
+0x5966e4 fExplosionRadius
+0x596784 fExplosionDamage
+0x5969ac fJumpTargetYOffset1
+0x596b40 fJumpTargetYOffset2
+0x596cbc fJumpTargetYOffset3
+-----
+0x5975fc CCharClassGooplotAIComponent
+0x5976c0 eSubspecies
+0x597768 fExplosionTime
+0x597808 oGooplotJumpAttackDef
+0x597878 oGooplotUndoJumpAttackDef
+-----
+0x597ffc CGooplotAIComponent
+-----
+0x59c33c CCharClassGooshockerAIComponent
+0x59c3f8 fShockAttackDuration
+-----
+0x59c970 CGooshockerAIComponent
+-----
+0x5a0b80 CBaseGroundShockerAIComponent
+-----
+0x5a12c0 CCharClassBaseGroundShockerAIComponent
+0x5a1384 fDefaultMotionSpeed
+0x5a1430 fCombatMotionSpeed
+0x5a14d0 fFleeMotionSpeed
+-----
+0x5a1920 CCharClassGroundShockerAIComponent::CTunableCharClassGroundShockerAIComponent
+0x5a1a00 fCombatMotionSpeed
+0x5a1aac fMotionSpeed
+-----
+0x5a2030 CCharClassGroundShockerAIComponent
+0x5a20e8 oGroundShockerAttackDef
+-----
+0x5a2960 CGroundShockerAIComponent
+-----
+0x5a4bec CCharClassHecathonAIComponent
+0x5a4cac eSubspecies
+-----
+0x5a4f18 CCharClassHecathonAIComponent::CTunableCharClassHecathoAIComponent
+0x5a4ffc fTimeToGoPatrol
+0x5a50a8 fPatrolEatPreparationTime
+0x5a5148 fFeedAnimPreparationTime
+0x5a51e8 fStopFeedAnimPreparationTime
+0x5a5288 fPatrolEatDurationMin
+0x5a532c fPatrolEatDurationMax
+0x5a53c8 fPatrolEatCooldownMin
+0x5a5468 fPatrolEatCooldownMax
+0x5a5504 fTimeToPlanktonDamage
+0x5a55a8 fExtraDistanceDamage
+0x5a5648 fDistanceToNoticeOtherHecathons
+0x5a56e8 fTimeToChangeBetweenModes
+0x5a578c fTimeToAdjustDir
+0x5a5830 fDistToEndPathToAttack
+0x5a58d0 fTimeToChangeSpeed
+0x5a5970 fSpeedFactor
+0x5a5a10 fTimeToEat
+-----
+0x5a63d4 CCharClassHecathonLifeComponent
+-----
+0x5a67d0 CHecathonAIComponent
+0x5a6948 ePatrolPathType
+0x5a69e4 wpHarassPath
+0x5a6a7c eHarassPathType
+0x5a6b18 _fTimeToGoPatrol_GetterFunction
+0x5a6b84 _fTimeToGoPatrol_GetterFunction
+0x5a6c04 _fTimeToGoPatrol_SetterFunction
+0x5a6c78 fTimeToGoPatrol
+0x5a6d40 _fSpeed_GetterFunction
+0x5a6da4 _fSpeed_GetterFunction
+0x5a6e24 _fSpeed_SetterFunction
+0x5a6e98 fSpeed
+0x5a6f58 _bIsEating_GetterFunction
+0x5a6fc4 _bIsEating_GetterFunction
+0x5a7044 _bIsEating_SetterFunction
+0x5a70b8 bIsEating
+0x5a7178 _bCanEat_GetterFunction
+0x5a71dc _bCanEat_GetterFunction
+0x5a725c _bCanEat_SetterFunction
+0x5a72d0 bCanEat
+0x5a7390 _fPatrolEatDuration_GetterFunction
+0x5a73f4 _fPatrolEatDuration_GetterFunction
+0x5a7474 _fPatrolEatDuration_SetterFunction
+0x5a74e8 fPatrolEatDuration
+0x5a75a8 _fPatrolEatCooldown_GetterFunction
+0x5a760c _fPatrolEatCooldown_GetterFunction
+0x5a768c _fPatrolEatCooldown_SetterFunction
+0x5a7700 fPatrolEatCooldown
+0x5a77c0 _uMask_GetterFunction
+0x5a7824 _uMask_GetterFunction
+0x5a78ac _uMask_SetterFunction
+0x5a7920 uMask
+-----
+0x5aaaa0 CHecathonLifeComponent
+-----
+0x5b6ad8 CCharClassHydrogigaAIComponent::CTunableCharClassHydrogigaAIComponent
+0x5b6c64 HYDROGIGA_MAELSTORM_ATTACK
+0x5b6d04 HYDROGIGA_POLYPS_ATTACK
+0x5b6da4 HYDROGIGA_TENTACLE_BASH_ATTACK
+0x5b6e44 HYDROGIGA_TONGUE_SWIRL_ATTACK
+-----
+0x5b73c8 CCharClassHydrogigaAIComponent
+0x5b7538 oHydrogigaBraidAttackDef
+0x5b75a8 oHydrogigaMaelstormAttackDef
+0x5b7618 oHydrogigaPolypsAttackDef
+0x5b7688 oHydrogigaTentacleBashAttackDef
+0x5b76f8 oHydrogigaTongueSwirlAttackDef
+0x5b7768 fTimeOpened
+0x5b780c fTimeDry
+0x5b78a8 fTimeStunned
+0x5b7948 fUnderwaterZipLineMultiplier
+0x5b79e8 fTurbineRestoreTime
+0x5b7b2c fMaxDamageDry
+0x5b7bd0 fMaxDamageStunned
+0x5b7c6c fDamageStage2
+0x5b7d10 fDamageFactorFillingPool
+0x5b7db4 oDamageSourceFactorClose
+0x5b7e24 oDamageSourceFactorOpen
+0x5b7e94 oDamageSourceFactorDry
+0x5b7f04 oDamageSourceFactorPolyps
+-----
+0x5b89b4 CHydrogigaAIComponent
+0x5b8b2c wpDeadCutScenePlayer
+-----
+0x5c853c CCharClassInfesterAIComponent
+0x5c8600 fTimeToReloadBeam
+0x5c86ac sProjectileModelName
+0x5c8750 oInfesterShootAttackDef
+0x5c87c0 oInfesterReloadAttackDef
+0x5c8830 eSubspecies
+-----
+0x5c8f64 CInfesterAIComponent
+-----
+0x5cbbec CCharClassInfesterBallAIComponent
+0x5cbcb4 fLifeTime
+0x5cbd60 fExplosionRadius
+0x5cbe00 fTimeToExplosion
+0x5cbea8 fTimeAtMaxRadiusExplosion
+0x5cbf4c fDamageInfesterBallExplosion
+0x5cc090 fXImpulseInWallSpawn
+0x5cc1d0 iNumCollisionsToExplode
+0x5cc274 iNumWallCollisions
+0x5cc314 bExplodeInVerticalTunnelCollision
+0x5cc3b4 fTunnelImpulseFactor
+0x5cc454 fReboundInWallFactor
+0x5cc4f4 fReboundInGroundFactor
+0x5cc594 fReboundInSlopeFactor
+-----
+0x5cc960 CCharClassInfesterBallAttackComponent
+-----
+0x5ccd50 CCharClassInfesterBallLifeComponent
+-----
+0x5cd290 CCharClassInfesterBallMovementComponent
+-----
+0x5cd690 CInfesterBallAIComponent
+-----
+0x5d1070 CInfesterBallAttackComponent
+-----
+0x5d16d0 CInfesterBallLifeComponent
+-----
+0x5d1b10 CInfesterBallMovementComponent
+-----
+0x5f6f48 CCharClassKraidAIComponent::CTunableCharClassKraidAIComponent
+0x5f71d8 fFlyingSpikeStickedWallTime
+0x5f7358 fZipLineDownTime
+0x5f74e0 iInitialStage
+0x5f757c uBombsToDieInMorphGrab
+0x5f76c0 BACK_SLAP
+0x5f7764 ACID_BLOBS
+0x5f7800 FLYING_SPIKES
+0x5f78a4 TRIPLE_FLYING_SPIKES
+0x5f7940 BOUNCING_CREATURES
+0x5f79e4 SHOCKER_SPLASH
+0x5f7a80 FIERCE_SWIPE
+-----
+0x5f8010 CCharClassKraidAIComponent
+0x5f80d4 oKraidSpinningNailsAttackDef
+0x5f814c oKraidBackSlapAttackDef
+0x5f81bc oKraidFierceSwipeAttackDef
+0x5f822c oKraidAcidBlobsAttackDef
+0x5f829c oKraidFlyingSpikesAttackDef
+0x5f830c oKraidTripleFlyingSpikesAttackDef
+0x5f837c oKraidBouncingCreaturesAttackDef
+0x5f83ec oKraidShockerSplashAttackDef
+0x5f845c fOpenMouthInterpolationSpeed
+0x5f8500 fDesiredTimeToCloseMouth
+0x5f85a0 fDamageToCloseMouth
+0x5f8644 fBellyLife
+0x5f86e4 fMinTimeToRelaxAction
+0x5f8788 fMaxTimeToRelaxAction
+0x5f8828 fTimeToUncoverBelly
+0x5f88cc fIgnoreOpenMouthTimeAfterCloseMouth
+0x5f8970 fTimeToBellyDamage
+0x5f8a14 _m_fBellyButtonRadius_GetterFunction
+0x5f8a78 _m_fBellyButtonRadius_GetterFunction
+0x5f8b00 _m_fBellyButtonRadius_SetterFunction
+0x5f8b74 fBellyButtonRadius
+0x5f8c1c oGrabDamageSourceFactor
+0x5f8c8c oFierceswipeActingDamageSourceFactor
+-----
+0x5f9550 CKraidAIComponent
+0x5f96cc wpStage2ArenaShape
+0x5f9760 ChangeKraidAnimToStage2
+0x5f9900 wpDeadCutScenePlayer
+0x5f9998 wpDeadFromZiplineOrMBCutscenePlayer
+-----
+0x600bdc CCharClassKraidAcidBlobsMovementComponent
+0x600c98 fRotationFactor
+-----
+0x6010a0 CCharClassKraidBouncingCreaturesMovementComponent
+0x60115c fRotationFactor
+-----
+0x601560 CCharClassKraidNailMovementComponent
+0x601628 fRotationFactor
+0x6016d4 fPhase1LeftHandCloseSpeed
+0x601774 fPhase1LeftHandFarSpeed
+0x60181c fPhase1RightHandCloseSpeed
+0x6018b8 fPhase1RightHandFarSpeed
+0x601958 fPhase2LeftHandSpeed
+0x6019f8 fPhase2RightHandSpeed
+-----
+0x601e10 CCharClassKraidShockerSplashMovementComponent
+-----
+0x602200 CCharClassKraidSpikeMovablePlatformComponent
+0x6022c8 fInitialMotionSpeed
+0x602374 fMotionSpeed
+0x602414 fInitialDisplacement
+0x6024b8 fPreparationTime
+0x602558 fShakeDisplacementX
+0x6025fc fShakeSpeedX
+0x602698 fShakeDisplacementY
+0x602738 fShakeSpeedY
+0x6027d4 fFlyingSpikeStickedWallTime
+-----
+0x602c00 CKraidAcidBlobsMovementComponent
+-----
+0x603770 CKraidBouncingCreaturesMovementComponent
+-----
+0x6049a0 CKraidNailMovementComponent
+-----
+0x6055c8 CKraidShockerSplashMovementComponent
+-----
+0x6069d0 CKraidSpikeMovablePlatformComponent
+-----
+0x612990 CCharClassNailongAIComponent
+0x612a5c oNailongThornsAttackDef
+0x612ad4 oNailuggerAcidBallsAttackDef
+0x612b44 fTimeBetweenThornsAttack
+0x612be8 fSteeringTargetReachDistance
+0x612c88 fSteeringCloseToTargetAccel
+0x612d2c fSteeringMaxDistToTurn
+0x612dcc fSteeringLookAheadDistance
+0x612e70 fSteeringAcceleration
+0x612f10 fMaxTargetDistanceToAccelerateCloseToTarget
+0x612fb0 fSlowSteeringTargetReachDistance
+0x61304c fSlowSteeringCloseToTargetAccel
+0x6130f0 fSlowSteeringMaxDistToTurn
+0x61318c fSlowSteeringLookAheadDistance
+0x61322c fSlowSteeringAcceleration
+0x6132c8 fSlowMaxTargetDistanceToAccelerateCloseToTarget
+0x613368 fSlowMotionSpeed
+0x6134ac tLaunchConfig
+-----
+0x61dc70 CNailongAIComponent
+0x61dde4 ePatrolPathType
+-----
+0x620fc8 CCharClassNailongThornMovementComponent
+0x62108c fAmplitude
+0x621138 fFrequency
+-----
+0x621540 CNailongThornMovementComponent
+-----
+0x624594 CCharClassNailuggerAcidBallMovementComponent
+-----
+0x624990 CNailuggerAcidBallMovementComponent
+-----
+0x629e80 CCharClassObsydomithonAIComponent::CTunableCharClassObsydomithonAIComponent
+0x629f58 fHeadAngleInterpolationSpeed
+-----
+0x62a4e0 CCharClassObsydomithonAIComponent
+0x62a598 oObsydomithonAttackDef
+-----
+0x62ad28 CObsydomithonAIComponent
+-----
+0x634fd0 CCharClassPoisonFlyAIComponent::CTunableCharClassPoisonFlyAIComponent
+0x63525c fVerticalMaxNoise
+0x6353dc fNoNoiseRadiusFromTarget
+0x63560c fPatrolSpeedMultiplier
+0x635790 fAttackAnticipationSpeedMultiplier
+0x635910 fFrontMinDistToTarget
+0x6359b4 fBackMinDistToTarget
+0x635a50 fOnHitRepositionDistance
+0x635af0 fMinOnHitRepositionAngle
+0x635d20 fYOffsetToCrossTarget
+0x635eac fWaitTimeToReturnPatrol
+0x636038 fMotionSpeed
+0x6361c8 fMinAnticipationRelocationDistance
+-----
+0x636a20 CCharClassPoisonFlyAIComponent
+0x636ae0 eSubspecies
+0x636b88 oPoisonFlyDiveAttackDef
+-----
+0x6373ec CPoisonFlyAIComponent
+0x6374ac AddAttackOffset
+0x637520 AddAttackOffset
+0x6375ac StopAddingAttackOffsets
+0x637610 StopAddingAttackOffsets
+-----
+0x63d190 CCharClassQuetzoaXAIComponent
+0x63d24c oQuetzoaXMultiTargetAttackDef
+0x63d2c4 fVulnerabilityTime
+-----
+0x63d7f0 CQuetzoaXAIComponent
+0x63d8ac wpCoreXSpawnPoint
+-----
+0x63f310 CCharClassQuetzoaMultiTargetProjectileMovementComponent
+0x63f3d4 fLaunchAngle
+0x63f480 fLaunchDist
+0x63f520 fSteeringSpeed
+0x63f5c4 fMaxDistanceFromGuide
+-----
+0x63f9d0 CQuetzoaMultiTargetProjectileMovementComponent
+-----
+0x646bc0 CCharClassQuetzoaAIComponent::CTunableCharClassQuetzoaAIComponent
+0x646c98 fDodgeTimeThreshold
+-----
+0x6474ec CCharClassQuetzoaAIComponent
+0x6475ac oQuetzoaChargeAttackDef
+0x647624 oQuetzoaEnergyWaveAttackDef
+0x647694 eSubspecies
+-----
+0x647e3c CQuetzoaAIComponent
+0x647fb4 eShortRangePathType
+0x648050 wpLongRangePath
+0x6480e8 eLongRangePathType
+-----
+0x64a788 CCharClassQuetzoaEnergyWaveMovementComponent
+-----
+0x64ab80 CQuetzoaEnergyWaveMovementComponent
+-----
+0x64b910 CCharClassRedenkiSwarmControllerComponent
+0x64b9d8 fDistToStartCharge
+0x64ba84 fDistToEndRecovery
+0x64bb24 bAlwaysForceRailMovement
+0x64bbc4 fPathRecalculationTime
+0x64bc64 fAttackPathLength
+0x64bd08 fDistToForceAttack
+0x64bda8 fMinChaos
+0x64be48 fMaxChaos
+0x64bee8 fMinMovementAnimSpeed
+0x64bf8c fMaxMovementAnimSpeed
+0x64c02c fWallChargeStunDuration
+0x64c0d4 sCombatSoundSmallGroup
+0x64c178 sCombatSoundMediumGroup
+0x64c218 sCombatSoundLargeGroup
+0x64c2b4 sPreparationSoundSmallGroup
+0x64c354 sPreparationSoundMediumGroup
+0x64c3f0 sPreparationSoundLargeGroup
+0x64c490 sStartChargeSoundSmallGroup
+0x64c52c sStartChargeSoundMediumGroup
+0x64c5cc sStartChargeSoundLargeGroup
+0x64c668 sCollisionWithWallSoundSmallGroup
+0x64c708 sCollisionWithWallSoundMediumGroup
+0x64c7a4 sCollisionWithWallSoundLargeGroup
+0x64c844 bPreparationBackAllowed
+0x64c8e0 fMinPreparationTime
+0x64c984 fBackDistanceLength
+0x64ca28 fBackDistanceWidth
+0x64cad0 fAttackCooldown
+0x64cb70 fAngleLimitDeg
+0x64cc14 fMinDistForAngleLimit
+-----
+0x64d5b0 CRedenkiSwarmControllerComponent
+-----
+0x65a204 CCharClassRinkaAIComponent::CTunableCharClassRinkaAIComponent
+0x65a494 fTimeToMaxScale
+0x65a620 fATypeMotionSpeed
+0x65a7f4 fBTypeMotionSpeed
+0x65a9c0 fCTypeMotionSpeed
+-----
+0x65b074 CCharClassRinkaAIComponent
+-----
+0x65b628 CCharClassRinkaUnitComponent::CTunableCharClassRinkaUnitComponent
+0x65b708 fPreparationTime
+0x65b7b4 fSpawnTime
+-----
+0x65bd3c CCharClassRinkaUnitComponent
+-----
+0x65c248 CRinkaAIComponent
+-----
+0x65cf50 CRinkaUnitComponent
+0x65d010 eRinkaType
+-----
+0x65fe08 CRobotAIComponent
+-----
+0x660c24 CCharClassRockDiverAIComponent
+0x660ce0 fCloseWingsStartDistance
+-----
+0x660f4c CCharClassRockDiverAIComponent::CTunableCharClassRockDiverAIComponent
+0x661024 fMotionSpeed
+-----
+0x661838 CRockDiverAIComponent
+-----
+0x663600 CCharClassRodomithonXAIComponent
+0x6636c4 fFireActiveTime
+0x663770 fRestTime
+0x663810 vFirePillarConfigs
+0x663880 oRodomithonXSuckAttackDef
+-----
+0x6672a0 CRodomithonXAIComponent
+0x667360 eFirePillarType
+-----
+0x66b4f0 CCharClassRodotukAIComponent
+0x66b5b4 fBiteAnticipationDistance
+0x66b660 fBombForceExplosionDistance
+0x66b700 vAbsorbConfigs
+0x66b770 oRodotukSuckAttackDef
+-----
+0x66b9a8 CCharClassRodotukAIComponent::CTunableCharClassRodotukAIComponent
+0x66ba8c fBaseAbsorbDistance
+0x66bb38 fAngryAbsorbDistance
+0x66bbd8 fMaxAbsorbAngle
+0x66bc7c fAbsorbBaseSpeed
+0x66bd1c fAbsorbMaxSpeed
+0x66bdc4 fAbsorbTimeToLoseControl
+0x66be64 fAbsorbAcceleration
+0x66bf08 fBombAbsorbBaseSpeed
+0x66bfa4 fBombAbsorbAcceleration
+0x66c044 fBiteAnticipationDistance
+-----
+0x670574 CRodotukAIComponent
+0x670634 eType
+-----
+0x674f4c CCharClassSabotoruAIComponent
+0x67500c eSubspecies
+0x6750b4 oSabotoruTurnInDoorAttackDef
+0x675124 fDoorPlayRate
+-----
+0x67538c CCharClassSabotoruAIComponent::CTunableCharClassSabotoruAIComponent
+0x67546c fDoorLife
+0x67551c fTimeToStopPanic
+-----
+0x675ff4 CCharClassSabotoruLifeComponent
+-----
+0x676550 CSabotoruAIComponent
+0x6766f4 fMaxTimeBetweenSearch
+0x6767c0 fMinTimeSearching
+0x676890 fMaxTimeSearching
+-----
+0x678e70 CSabotoruLifeComponent
+-----
+0x679310 CCharClassSclawkAIComponent
+0x6793d4 fMinHiddenTime
+0x679480 fMaxHiddenTime
+0x679520 fJumpPreparationTime
+0x6795c4 fJumpShortPreparationTime
+-----
+0x67982c CCharClassSclawkAIComponent::CTunableCharClassSclawkAIComponent
+0x67990c fMinHiddenTime
+0x6799b8 fMaxHiddenTime
+0x679a58 fJumpPreparationTime
+-----
+0x67a358 CCharClassSclawkLifeComponent
+-----
+0x67a8d0 CSclawkAIComponent
+-----
+0x67bf50 CSclawkLifeComponent
+-----
+0x68c78c CCharClassScorpiusAIComponent::CTunableCharClassScorpiusAIComponent
+0x68c98c iInitialStage
+0x68cc14 fHeadPosInterpolationSpeed
+0x68cda0 fHeadPosChangeMinTime
+0x68cf28 fHeadPosChangeMaxTime
+0x68d0ac fStartRegenerationWallDistance
+0x68d244 fRegenerationTime
+0x68d3c8 iForceOpticCamouflageDisabledMode
+0x68d46c fDamageToChangeHeadPos
+0x68d50c fChaseMinDistance
+0x68d5b0 fChaseMaxDistance
+0x68d650 fFrontMaxDistance
+0x68d6f0 fBackMaxDistance
+0x68d78c fDamageMultiplayerInPhase2
+0x68d830 fTailDamageToActivateCamouflage
+-----
+0x68ddb8 CCharClassScorpiusAIComponent
+0x68de80 oWhiplashAttackDef
+0x68def8 oSpikeBallPrickAttackDef
+0x68df68 oPoisonousSpitAttackDef
+0x68dfd8 oDefensiveSpikeBallPrickAttackDef
+0x68e048 oTailSmashAttackDef
+0x68e0b8 oPoisonousGasAttackDef
+0x68e128 oMovingPoisonousGasAttackDef
+0x68e198 oDraggedBallPrickAttackDef
+0x68e208 sHeadMovementFunction
+0x68e2bc sTailMovementFunction
+0x68e370 fTailMinTimeToChange
+0x68e410 fTailMaxTimeToChange
+0x68e4b4 fRegenTailMaxAnimSpeed
+0x68e554 sRegenTailAnimSpeedFunc
+0x68e608 fTimeRegenTailSlowMovement
+0x68e6ac fTimeRegenTailFastMovement
+0x68e754 fTimeRegenTailMovementTransitionFactor
+0x68e7f4 fTailHeightInterpolationSpeed
+0x68e898 oGrabDamageSourceFactor
+0x68e908 fHeadMaxSpeed
+0x68e9b0 fHeadMinSpeed
+-----
+0x68f3f0 CScorpiusAIComponent
+0x68f56c wpPhase3CutScenePlayer
+0x68f604 wpDeadCutScenePlayer
+0x68f69c NotifyAfterPresentation
+0x68f700 NotifyAfterPresentation
+-----
+0x696f44 CCharClassScorpiusPoisonousSpitMovementComponent
+-----
+0x697330 CScorpiusPoisonousSpitMovementComponent
+-----
+0x69c3e0 CCharClassScourgeAIComponent
+0x69c4a8 oScourgeTongueSlashAttackDef
+0x69c520 oTongue
+0x69c590 fTentacleWidth
+0x69c634 vTentacleZAxisThreshold
+0x69c6dc fTongueCheckWidth
+0x69c780 fTongueArcCheckBigWidth
+0x69c820 fTongueArcCheckSmallWidth
+0x69c8c4 fTongueScenarioCheckWidth
+0x69c960 fDefaultShootOffset
+0x69ca00 fCrouchingShootOffset
+0x69caa0 fHangingAboveVerticalShootOffset
+0x69cb44 fHangingHorizontalShootOffset
+-----
+0x69d068 CCharClassScourgeLifeComponent
+-----
+0x69d500 CScourgeAIComponent
+-----
+0x69fe4c CScourgeLifeComponent
+-----
+0x6aab60 CCharClassShakernautAIComponent
+0x6aac24 oShakernautDoubleGroundShockAttackDef
+0x6aac9c oShakernautPiercingLaserAttackDef
+0x6aad0c fMaxDistToMeleeAttack
+0x6aadb0 fTimeSinceLastRangedAttack
+0x6aae50 fExplosionDuration
+0x6aaef8 fExplosionWidth
+0x6aaf98 fExplosionHeight
+-----
+0x6ab610 CShakernautAIComponent
+0x6ab6cc SetNavigationDir
+-----
+0x6b6c10 CCharClassShelmitAIComponent
+0x6b6cd4 oShelmitPlasmaRayAttackDef
+0x6b6d4c fMinOpenGrappleTimeAfterAttack
+0x6b6df0 fMaxGrappledTime
+0x6b6e90 fMinGrapplePullTimeToBreak
+0x6b6f38 fMinPlatformRotationSpeed
+0x6b6fd4 fMaxPlatformRotationSpeed
+0x6b7078 fMinEntitySpeedForMinRotation
+0x6b7114 fMaxEntitySpeedForMaxRotation
+0x6b71b8 fCrystalMinAlbedoEmissiveFactor
+0x6b7254 fCrystalMaxAlbedoEmissiveFactor
+0x6b72f8 fTimeToDisableCrystal
+0x6b739c fChargeLoopTime
+0x6b7440 oRegularShelmitMeleeChargeShotDropProbabilities
+-----
+0x6b7d8c CShelmitAIComponent
+0x6b7e4c _m_eShellState_GetterFunction
+0x6b7ec0 _m_eShellState_GetterFunction
+0x6b7f44 _m_eShellState_SetterFunction
+0x6b7fb8 eShellState
+-----
+0x6bc260 CCharClassShineonAIComponent
+0x6bc324 fSteeringAcceleration
+0x6bc3d0 fSteeringSpeed
+0x6bc46c fMaxTargetDistanceToAccelerateCloseToTarget
+0x6bc510 fCloseToTargetAcceleration
+0x6bc5b0 fMaxDistanceToTurn
+-----
+0x6bc818 CCharClassShineonAIComponent::CTunableCharClassShineonAIComponent
+0x6bc8f0 fMotionSpeed
+-----
+0x6bd108 CShineonAIComponent
+-----
+0x6c3270 CCharClassSluggerAIComponent
+0x6c3334 oSluggerSpitAttackDef
+0x6c33ac sAcidBallCharClass
+0x6c3498 fAttackReachableHeight
+0x6c353c fBallTrajectoryCheckRadius
+-----
+0x6c3c08 CSluggerAIComponent
+-----
+0x6c5640 CCharClassSluggerAcidBallMovementComponent
+0x6c5704 fTimeMeleeable
+0x6c57b4 fTimeAbortable
+-----
+0x6c5bc0 CSluggerAcidBallMovementComponent
+-----
+0x6c6470 CCharClassSpitclawkAIComponent
+0x6c6534 fAcidRadius
+0x6c65e0 fAcidGrowthTime
+0x6c6680 fTimeAtMaxRadius
+0x6c6720 fWidthMax
+0x6c67c0 fWidthMin
+-----
+0x6c6b90 CSpitclawkAIComponent
+-----
+0x6c7cc4 CCharClassSpittailMagmaBallMovementComponent
+0x6c7d88 fWidthMax
+0x6c7e34 fWidthMin
+0x6c7ed4 fYOffset
+0x6c7f78 fTimeToGrow
+0x6c8018 fTimeAtMaxSize
+-----
+0x6c8420 CSpittailMagmaBallMovementComponent
+-----
+0x6c97f4 CCharClassSunnapAIComponent
+-----
+0x6c9ba0 CSunnapAIComponent
+-----
+0x6cac00 CCharClassSwifterAIComponent
+-----
+0x6cae5c CCharClassSwifterAIComponent::CTunableCharClassSwifterAIComponent
+0x6caf34 fMotionSpeed
+-----
+0x6cb748 CSwifterAIComponent
+-----
+0x6d05f0 CCharClassTakumakuAIComponent
+0x6d06bc oTakumakuDashAttackDef
+0x6d0734 eSubspecies
+0x6d07d4 fMinTimeBetweenDigs
+0x6d0874 fMaxTimeBetweenDigs
+0x6d0914 fMinTimeDigging
+0x6d09b0 fMaxTimeDigging
+0x6d0a50 fReachableHeightBeforeAttack
+0x6d0af0 fReachableHeightOnAttack
+0x6d0b94 fSpikeTime
+0x6d0c34 fSpikeActivationInterpolationSpeed
+0x6d0cd8 fSpikeDeactivationInterpolationSpeed
+0x6d0d78 fSpikeShakeActivationInterpolationSpeed
+0x6d0e18 fSpikeShakeDeactivationInterpolationSpeed
+0x6d0eb4 fMinChaseDistance
+0x6d0f58 fMaxChaseDistance
+0x6d0ffc iChaseMaxNumJumps
+0x6d10a0 fMinChargeTime
+0x6d11e8 bWantsAttackPreparationAfterDetection
+0x6d1284 fMaxTargetSeparationBehindToTurn
+0x6d1324 fMaxTimeDetectingBehindToTurn
+0x6d13c4 fMaxTimeMissingToStop
+-----
+0x6d2024 CTakumakuAIComponent
+-----
+0x6d6a30 CCharClassVulkranAIComponent
+0x6d6afc fFrenzyTime
+0x6d6ba8 fActivationTime
+0x6d6c48 fPatrolMinTimeBetweenBalls
+0x6d6cec fPatrolMaxTimeBetweenBalls
+0x6d6d88 fCombatMinTimeBetweenBalls
+0x6d6e30 fCombatMaxTimeBetweenBalls
+0x6d6ed4 fBallGravity
+0x6d6f7c fLaunchUpAngleRef
+0x6d701c fLaunchUpAngleLowerOffset
+0x6d70c0 fLaunchUpAngleUpperOffset
+0x6d7160 fLaunchRightAngleRef
+0x6d7204 fLaunchLeftAngleRef
+0x6d72a4 fLaunchSideAngleLowerOffset
+0x6d7344 fLaunchSideAngleUpperOffset
+0x6d73e0 fLaunchDownAngleRef
+0x6d7524 fLaunchDownAngleLowerOffset
+0x6d75c8 fLaunchDownAngleUpperOffset
+0x6d7664 fLaunchUpMinInitialSpeed
+0x6d7708 fLaunchUpMaxInitialSpeed
+0x6d77ac fLaunchSideMinInitialSpeed
+0x6d7850 fLaunchSideMaxInitialSpeed
+0x6d78f0 fLaunchDownMinInitialSpeed
+0x6d7990 fLaunchDownMaxInitialSpeed
+0x6d7a30 sWalkRightLaunchUpConfig
+0x6d7aa0 sWalkDownLaunchRightConfig
+0x6d7b10 sWalkLeftLaunchDownConfig
+0x6d7b80 sWalkUpLaunchLeftConfig
+0x6d7bf0 tLaunchConfigs
+0x6d7c60 fMinTimeBetweenAttacks
+0x6d7d04 fMaxTimeBetweenAttacks
+0x6d7da4 fMinTimeAttacking
+0x6d7e44 fMaxTimeAttacking
+0x6d7ee4 fShotHeightOffset
+0x6d7f88 fTimeInFrustumToStartAttack
+0x6d8028 fTimeOutOfFrustumToEndAttack
+0x6d80c8 fMaxLOSDistanceToChasePoint
+0x6d8164 sMagmaBallCharClass
+0x6d820c eSubspecies
+-----
+0x6d9734 CVulkranAIComponent
+-----
+0x6dd454 CCharClassVulkranMagmaBallMovementComponent
+-----
+0x6dd850 CVulkranMagmaBallMovementComponent
+-----
+0x6de2bc CCharClassWarLotusAIComponent
+0x6de380 fImpactToRelaxTime
+0x6de430 fBumpToRelaxTime
+0x6de4cc fImpactTime
+0x6de56c fBumpTime
+-----
+0x6de930 CWarLotusAIComponent
+-----
+0x6e2d70 CCharClassXParasiteAIComponent
+0x6e2e38 fAbsorptionDistance
+0x6e2ee4 uMaxSimultaneous
+0x6e2f84 fMaxSteeringAcceleration
+0x6e3028 fMaxSteeringBrake
+0x6e30c4 fMaxSteeringChangingDir
+0x6e3164 fBrakeDistance
+0x6e32a8 fMaxSteeringForceAngle
+0x6e334c fWanderRadius
+0x6e33ec fInitTime
+0x6e348c fWanderTime
+0x6e3530 fOffSetDisplacementNearPowerBomb
+0x6e35d0 fDistanceArriveEndAttract
+-----
+0x6e43a4 CXParasiteAIComponent
+-----
+0x6ecacc CCharClassYamplotXAIComponent
+0x6ecb8c oYamplotXBiteAttackDef
+0x6ecc04 oYamplotXStepAttackDef
+0x6ecc74 eSubspecies
+-----
+0x6ed480 CYamplotXAIComponent
+-----
+0x6f22bc CAINavigationComponent
+-----
+0x6f43d8 CCharClassAINavigationComponent
+0x6f449c eFollowPathRotationMode
+0x6f456c _m_fFollowPathVerticalRotationDist_GetterFunction
+0x6f45d0 _m_fFollowPathVerticalRotationDist_GetterFunction
+0x6f4658 _m_fFollowPathVerticalRotationDist_SetterFunction
+0x6f46cc fFollowPathVerticalRotationDist
+0x6f4774 _m_fFollowPathVerticalRotationFactor_GetterFunction
+0x6f47d8 _m_fFollowPathVerticalRotationFactor_GetterFunction
+0x6f4860 _m_fFollowPathVerticalRotationFactor_SetterFunction
+0x6f48d4 fFollowPathVerticalRotationFactor
+0x6f497c _m_fFollowPathTargetReachedDistance_GetterFunction
+0x6f49e0 _m_fFollowPathTargetReachedDistance_GetterFunction
+0x6f4a68 _m_fFollowPathTargetReachedDistance_SetterFunction
+0x6f4adc fFollowPathTargetReachedDistance
+0x6f4b84 _m_fFollowPathLookAhead_GetterFunction
+0x6f4be8 _m_fFollowPathLookAhead_GetterFunction
+0x6f4c70 _m_fFollowPathLookAhead_SetterFunction
+0x6f4ce4 fFollowPathLookAhead
+0x6f4d8c _m_bFollowPathUpdateDirWhenNotLookingAtDesiredViewDir_GetterFunction
+0x6f4df0 _m_bFollowPathUpdateDirWhenNotLookingAtDesiredViewDir_GetterFunction
+0x6f4e78 _m_bFollowPathUpdateDirWhenNotLookingAtDesiredViewDir_SetterFunction
+0x6f4f94 _m_fGotoPointReachedDistance_GetterFunction
+0x6f4ff8 _m_fGotoPointReachedDistance_GetterFunction
+0x6f5080 _m_fGotoPointReachedDistance_SetterFunction
+0x6f50f4 fGotoPointReachedDistance
+0x6f519c fTurnWeightPenalization
+-----
+0x70ea00 CCharClassAnimationComponent
+0x70eac4 _bOverrideDisableInEditor_GetterFunction
+0x70eb30 _bOverrideDisableInEditor_GetterFunction
+0x70ebb8 _bOverrideDisableInEditor_SetterFunction
+0x70ecd4 sInitialAction
+0x70ee04 sDefaultLoop
+0x70ef44 sAnimTree
+0x70f06c sInitialPrefix
+0x70f134 iDebugLine
+0x70f1d0 fInitialFrame
+-----
+0x70fa20 CAlternativeActionPlayerComponent
+-----
+0x710fa0 CSamusAlternativeActionPlayerComponent
+-----
+0x7116d0 CSamusAnimationComponent::CTunableSamusAnimationComponent
+0x7117b0 fToRecoilBlendTime
+0x711860 fFromRecoilBlendTime
+0x711904 fToAimBlendTime
+0x7119ac fToDefaultBlendTime
+0x711a48 fRecoilTime
+-----
+0x711fcc CSamusAnimationComponent
+-----
+0x7137f4 CAreaMusicComponent
+0x7138b8 fEnterFadeIn
+0x713960 fEnterFadeOut
+0x7139fc fExitFadeIn
+0x713a9c fExitFadeOut
+0x713b38 _sPreset_GetterFunction
+0x713b9c _sPreset_GetterFunction
+0x713c28 _sPreset_SetterFunction
+0x713c9c sPreset
+0x713df0 eExitFadeType
+-----
+0x71481c CCharClassAreaMusicComponent
+-----
+0x714c10 CCharClassAreaSoundEffectsComponent
+-----
+0x715010 CCharClassProtoEmmyChaseMusicTriggerComponent
+-----
+0x715290 CProtoEmmyChaseMusicTriggerComponent
+-----
+0x715994 CCharClassSoundTriggerComponent
+-----
+0x716b34 CAudioComponent
+-----
+0x71e384 CCharClassAudioComponent
+0x71e440 bDimSounds
+0x71e4b8 bMuteOutsideCamera
+-----
+0x721d30 CBillboardCollisionComponent
+-----
+0x724e20 CBillboardComponent
+0x724ee4 iNumGroups
+0x724f90 iMaxInhabitantsPerGroup
+0x72502c iMinInhabitantsPerGroup
+-----
+0x729a40 CBillboardLifeComponent
+-----
+0x72a240 CCharClassBillboardComponent
+0x72a308 _m_fGroupRadius_GetterFunction
+0x72a374 _m_fGroupRadius_GetterFunction
+0x72a3fc _m_fGroupRadius_SetterFunction
+0x72a470 fGroupRadius
+0x72a518 _m_fBillboardRadius_GetterFunction
+0x72a57c _m_fBillboardRadius_GetterFunction
+0x72a604 _m_fBillboardRadius_SetterFunction
+0x72a678 fBillboardRadius
+0x72a71c sPath
+0x72a7c0 sBgPath
+0x72a860 _m_iTextureWidth_GetterFunction
+0x72a8c4 _m_iTextureWidth_GetterFunction
+0x72a94c _m_iTextureWidth_SetterFunction
+0x72aa68 _m_iTextureHeight_GetterFunction
+0x72aacc _m_iTextureHeight_GetterFunction
+0x72ab54 _m_iTextureHeight_SetterFunction
+0x72ac70 _m_vInitialColor_GetterFunction
+0x72acd4 _m_vInitialColor_GetterFunction
+0x72ad60 _m_vInitialColor_SetterFunction
+0x72add4 vInitialColor
+0x72ae84 _m_fUniformColorOffset_GetterFunction
+0x72aee8 _m_fUniformColorOffset_GetterFunction
+0x72af70 _m_fUniformColorOffset_SetterFunction
+0x72afe4 fUniformColorOffset
+0x72b088 _m_vColorOffset_GetterFunction
+0x72b0ec _m_vColorOffset_GetterFunction
+0x72b178 _m_vColorOffset_SetterFunction
+0x72b1ec vColorOffset
+0x72b294 _m_fInitialAlpha_GetterFunction
+0x72b2f8 _m_fInitialAlpha_GetterFunction
+0x72b380 _m_fInitialAlpha_SetterFunction
+0x72b3f4 fInitialAlpha
+0x72b49c _m_fAlphaOffset_GetterFunction
+0x72b500 _m_fAlphaOffset_GetterFunction
+0x72b588 _m_fAlphaOffset_SetterFunction
+0x72b5fc fAlphaOffset
+0x72b6a0 sBillboardDefaultLoop
+0x72b744 sBillboardMotionDefaultLoop
+0x72b7e4 sGroupMotionDefaultLoop
+0x72b880 bUseRotation
+0x72b920 _m_fBillboardMotionDefaultScale_GetterFunction
+0x72b984 _m_fBillboardMotionDefaultScale_GetterFunction
+0x72ba0c _m_fBillboardMotionDefaultScale_SetterFunction
+0x72ba80 fBillboardMotionDefaultScale
+0x72bb24 _m_fGroupMotionDefaultScale_GetterFunction
+0x72bb88 _m_fGroupMotionDefaultScale_GetterFunction
+0x72bc10 _m_fGroupMotionDefaultScale_SetterFunction
+0x72bc84 fGroupMotionDefaultScale
+0x72bd28 sSoundLoopLot
+0x72bdc4 sSoundLoopLit
+0x72be64 fSoundLoopLotAmountPct
+0x72bf08 fSoundLoopAttMinDist
+0x72bfac fSoundLoopAttMaxDist
+0x72c050 sSoundImpactBase
+0x72c0f0 iSoundImpactCount
+0x72c190 fSoundImpactRadiusMinAtt
+0x72c230 fSoundImpactRadiusMaxAtt
+0x72c2d0 iPoolSize
+-----
+0x72fa7c CCharClassFlockingSwarmControllerComponent
+0x72fb40 fContaimentDist
+0x72fce0 fMaxAngularSpeed
+0x72fdb4 fCohesion
+0x72fe80 fSeparationFactor
+0x72ff50 fSeparation
+0x73001c fToTarget
+0x7300ec fContainment
+0x7301b8 bAllowSharpTurns
+0x730284 bCanFollowTarget
+0x73034c fPreferredRadius
+0x73041c fMinRadius
+0x7304e8 fPursuitSpeed
+0x7305b8 fRecoverySpeed
+0x73067c fAttackSpeed
+0x730750 fBillboardScale
+0x73081c bForceAllowTurn
+0x7308e8 fHareDistance
+0x730988 fMaxQueueSize
+-----
+0x731014 CCharClassSwarmAttackComponent
+0x7310d4 _m_fMaxDamage_GetterFunction
+0x731140 _m_fMaxDamage_GetterFunction
+0x7311c8 _m_fMaxDamage_SetterFunction
+0x73123c fMaxDamage
+-----
+0x731870 CCharClassSwarmControllerComponent
+0x73193c _m_fMinTimeInNode_GetterFunction
+0x7319a8 _m_fMinTimeInNode_GetterFunction
+0x731a30 _m_fMinTimeInNode_SetterFunction
+0x731aa4 fMinTimeInNode
+0x731b78 _m_fTimeInNodeRandomness_GetterFunction
+0x731bdc _m_fTimeInNodeRandomness_GetterFunction
+0x731c64 _m_fTimeInNodeRandomness_SetterFunction
+0x731cd8 fTimeInNodeRandomness
+0x731da4 _m_fTargetChangeProbability_GetterFunction
+0x731e08 _m_fTargetChangeProbability_GetterFunction
+0x731e90 _m_fTargetChangeProbability_SetterFunction
+0x731f04 fTargetChangeProbability
+0x731fdc sIndividualLife
+0x73210c _m_fAttackPathOffset_GetterFunction
+0x732170 _m_fAttackPathOffset_GetterFunction
+0x7321f8 _m_fAttackPathOffset_SetterFunction
+0x73226c fAttackPathOffset
+0x732340 _m_iMaxChangingTargetSimul_GetterFunction
+0x7323a4 _m_iMaxChangingTargetSimul_GetterFunction
+0x73242c _m_iMaxChangingTargetSimul_SetterFunction
+0x7324a0 iMaxChangingTargetSimul
+0x732680 bWantsJellyfishMovement
+0x732780 bWantsFishMovement
+0x732878 bWantsInternalFlocking
+0x73297c bWantsMigration
+0x732a18 fMaxDistToMigrate
+0x732b5c iTotalDrops
+0x732c2c fShakeAmplitude
+0x732cf8 fShakeSpeed
+0x732dc8 iMinHitsForMediumImpact
+0x732e68 iMinHitsForLargeImpact
+0x732f0c sImpactSoundSmallGroup
+0x732fb0 sImpactSoundMediumGroup
+0x733050 sImpactSoundLargeGroup
+0x7330ec sMoveSoundSmallGroup
+0x73318c sMoveSoundMediumGroup
+0x733228 sMoveSoundLargeGroup
+0x7332c8 iMaxPopulationForSmallGroup
+0x733368 iMaxPopulationForMediumGroup
+0x73340c fMaxTimeAlive
+0x7334ac fMinTimeAlive
+0x73354c fMaxDistToLinkNodes
+0x7335ec fMeleeRepelRadius
+0x73368c fMeleeKillRatio
+0x73372c iMeleeMinKills
+0x7337d0 iMeleeMaxKills
+0x73386c fMeleeMinRepelDistance
+0x733914 fMeleeMaxRepelDistance
+0x7339b8 fMissileRepelRadius
+0x733a5c fMissileKillRatio
+0x733b00 iMissileMinKills
+0x733ba4 iMissileMaxKills
+0x733c44 fMissileMinRepelDistance
+0x733ce4 fMissileMaxRepelDistance
+0x733d84 fMigrationCheckMinTime
+0x733e28 fMigrationCheckMaxTime
+0x733ec4 fDefaultDiversionTimer
+0x733f68 fMinStunTime
+0x73400c fMaxStunTime
+0x7340b0 fDefaultBeamsRadiusIncrement
+0x73414c fWideBeamRadiusIncrement
+0x7341ec fPlasmaBeamRadiusIncrement
+0x734288 oDamageSourceFactor
+0x73439c iLonelinessGroupSize
+0x7344e0 bWeakToSpinAttack
+0x73457c bIsWater
+-----
+0x735f00 CFlockingSwarmControllerComponent
+-----
+0x74448c CSwarmAttackComponent
+-----
+0x744dc0 CSwarmControllerComponent
+0x744e84 wpPathToFollow
+0x744f2c ePathType
+0x744fc8 fGroupVelocity
+-----
+0x74f144 CCharClassBreakableScenarioComponent
+-----
+0x74f504 CBreakableScenarioComponent
+0x74f5bc aVignettes
+-----
+0x75005c CBreakableHintComponent
+-----
+0x751920 CBreakableTileGroupComponent
+0x7519e8 _uGroupId_GetterFunction
+0x751a54 _uGroupId_GetterFunction
+0x751adc _uGroupId_SetterFunction
+0x751c1c aGridTiles
+0x751c9c CreateNewTile
+0x751d60 bFakeHusks
+0x751dfc _m_eCollisionMaterial_GetterFunction
+0x751e68 _m_eCollisionMaterial_GetterFunction
+0x751eec _m_eCollisionMaterial_SetterFunction
+0x751f60 eCollisionMaterial
+0x75202c CreateNewTile
+0x752090 CreateNewTile
+0x752220 eTileType
+0x752334 sHiddenSG
+0x75239c DeleteTileAt
+0x752410 AfterGridDeserialization
+0x752474 AfterGridDeserialization
+-----
+0x760788 CBreakableVignetteComponent
+0x76084c sVignetteSG
+0x760968 bPreventVisibilityOnly
+0x760a04 bForceNotVisible
+-----
+0x7664e0 CCaveCentralUnitComponent
+-----
+0x767c50 CCameraRailComponent
+0x767e04 AfterRailDeserialization
+0x767e6c AfterRailDeserialization
+0x767ed0 AfterRailDeserialization
+-----
+0x76b354 CCentralUnitComponent
+0x76b420 eMode
+0x76b4c4 bStartEnabled
+0x76b604 wpCentralUnitAI
+0x76b69c wpBossAlive
+0x76b77c wpBossDestroyed
+0x76b854 wpBossDoor
+0x76b8ec sBossCollisionCameraID
+0x76ba8c tEmmyStartPointsInfo
+0x76bafc wpEmmyZoneShape
+0x76bb98 wpDestroySearchLandmark
+0x76bc2c tEmmyForbiddenShapes
+0x76bcc8 tEmmyWeightedShapes
+0x76bde0 tEmmyLockedDoors
+0x76beb8 tEmmyPhase2DeactivatedActors
+0x76bf28 wpStartCombatCheckpointStartPoint
+0x76bfc0 sStartCombatCheckpointSnapshotId
+0x76c0bc wpDeadCheckpointStartPoint
+0x76c154 AddEmmySpawnPoint
+0x76c1c8 Activate
+0x76c234 Activate
+0x76c2b8 OnEnergyPickedUp
+0x76c31c OnEnergyPickedUp
+0x76c3a0 LockDoors
+0x76c404 LockDoors
+0x76c488 UnlockDoors
+0x76c4ec UnlockDoors
+0x76c570 StartCentralUnitCombat
+0x76c5d4 StartCentralUnitCombat
+0x76c658 ForceEmmyDeadState
+0x76c6bc ForceEmmyDeadState
+0x76c740 OnEmmyAbilityObtainedFadeOutCompleted
+0x76c7a4 OnEmmyAbilityObtainedFadeOutCompleted
+0x76c828 AllowAlarm
+-----
+0x77b23c CMagmaCentralUnitComponent
+-----
+0x77bd50 CProtoCentralUnitComponent
+-----
+0x77ccf0 CCharClassAIAttackComponent
+0x77cdac bAllowFloorSlideTunnel
+-----
+0x77d1e0 CCharClassAreaSoundComponent
+0x77d2a0 _bOverrideDisableInEditor_GetterFunction
+0x77d30c _bOverrideDisableInEditor_GetterFunction
+0x77d394 _bOverrideDisableInEditor_SetterFunction
+-----
+0x77da10 CCharClassAttackComponent::CTunableCharClassAttackComponent
+0x77daf8 fDamageArmadiggerDefault
+0x77dba4 fDamageArmadiggerDashAttack
+0x77dc44 fDamageAutclastDefault
+0x77dce4 fDamageAutclastExplosion
+0x77dd80 fDamageAutectorDefault
+0x77de24 fDamageAutectorExplosion
+0x77dec4 fDamageAutomperAutomaticIrradiation
+0x77df68 fDamageAutomperDefault
+0x77e008 fDamageAutoolDefault
+0x77e0a8 fDamageAutsharpDefault
+0x77e144 fDamageAutsharpExplosionDefault
+0x77e1e8 fDamageAutsniperDefault
+0x77e284 fDamageAutsniperLaserDefault
+0x77e324 fDamageBatalloonDefault
+0x77e3c0 fDamageBigfistDefault
+0x77e464 fDamageBigfistMelee
+0x77e500 fDamageBigkranXDefault
+0x77e5a0 fDamageBigkranXMagmaBall
+0x77e63c fDamageBlindFlyAttack
+0x77e6dc fDamageBlindFlyDefault
+0x77e778 fDamageCaterzillaDefault
+0x77e818 fDamageCentralUnitCannonDefault
+0x77e8b4 fDamageCentralUnitCannonBeamCaves
+0x77e954 fDamageCentralUnitCannonBeamMagma
+0x77e9f0 fDamageCentralUnitCannonBeamLab
+0x77ea90 fDamageCentralUnitCannonBeamForest
+0x77eb2c fDamageCentralUnitCannonBeamSanc
+0x77ebcc fDamageCentralUnitDefault
+0x77ec68 fDamageChozoCommanderAirCharge
+0x77ed08 fDamageChozoCommanderAuraScratch
+0x77eda4 fDamageChozoCommanderDefault
+0x77ee44 fDamageChozoCommanderEnergyShardsFragment
+0x77eee0 fDamageChozoCommanderEnergyShardsSphere
+0x77ef80 fDamageChozoCommanderHyperspark
+0x77f01c fDamageChozoCommanderKiStrike
+0x77f0bc fDamageChozoCommanderLandingSlam
+0x77f158 fDamageChozoCommanderLaserZero
+0x77f1f8 fDamageChozoCommanderLaserZeroGrounded
+0x77f294 fDamageChozoCommanderPowerPulse
+0x77f334 fDamageChozoCommanderSentenceSphere
+0x77f3d0 fDamageChozoCommanderTriCombo
+0x77f470 fDamageChozoCommanderTriComboNoDamage
+0x77f50c fDamageChozoRobotSoldierCannonShot
+0x77f5b0 fDamageChozoRobotSoldierCannonShotCharged
+0x77f650 fDamageChozoRobotSoldierDashSlash
+0x77f6f4 fDamageChozoRobotSoldierDefault
+0x77f794 fDamageChozoRobotSoldierDisruptionField
+0x77f834 fDamageChozoRobotSoldierExplosion
+0x77f8d4 fDamageChozoRobotSoldierUppercut
+0x77f974 fDamageChozoRobotSoldierCannonShotElite
+0x77fa14 fDamageChozoRobotSoldierCannonShotChargedElite
+0x77fab8 fDamageChozoRobotSoldierDashSlashElite
+0x77fb58 fDamageChozoRobotSoldierDefaultElite
+0x77fbfc fDamageChozoRobotSoldierDisruptionFieldElite
+0x77fc98 fDamageChozoRobotSoldierExplosionElite
+0x77fd3c fDamageChozoRobotSoldierUppercutElite
+0x77fdd8 fDamageChozoWarriorWeakDefault
+0x77fe7c fDamageChozoWarriorWeakGlaiveSpin
+0x77ff18 fDamageChozoWarriorWeakGlaiveWalljump
+0x77ffbc fDamageChozoWarriorWeakShieldPush
+0x780058 fDamageChozoWarriorXWeakDefault
+0x7800fc fDamageChozoWarriorXWeakChangeWall
+0x780198 fDamageChozoWarriorXWeakGlaiveSpin
+0x78023c fDamageChozoWarriorXWeakLandSplat
+0x7802d8 fDamageChozoWarriorXWeakLandSplatWaves
+0x78037c fDamageChozoWarriorXWeakSpit
+0x780418 fDamageChozoWarriorXWeakWallclimb
+0x7804bc fDamageChozoWarriorDefault
+0x780558 fDamageChozoWarriorGlaiveSpin
+0x7805f8 fDamageChozoWarriorGlaiveWalljump
+0x780694 fDamageChozoWarriorShieldPush
+0x780734 fDamageChozoWarriorXDefault
+0x7807d0 fDamageChozoWarriorXChangeWall
+0x780870 fDamageChozoWarriorXGlaiveSpin
+0x78090c fDamageChozoWarriorXLandSplat
+0x7809ac fDamageChozoWarriorXLandSplatWaves
+0x780a48 fDamageChozoWarriorXSpit
+0x780ae8 fDamageChozoWarriorXWallclimb
+0x780b84 fDamageChozoWarriorEliteDefault
+0x780c24 fDamageChozoWarriorEliteGlaiveSpin
+0x780cc0 fDamageChozoWarriorEliteGlaiveWalljump
+0x780d60 fDamageChozoWarriorEliteShieldPush
+0x780dfc fDamageChozoWarriorXEliteDefault
+0x780e9c fDamageChozoWarriorXEliteChangeWall
+0x780f38 fDamageChozoWarriorXEliteGlaiveSpin
+0x780fd8 fDamageChozoWarriorXEliteLandSplat
+0x781074 fDamageChozoWarriorXEliteLandSplatWaves
+0x781114 fDamageChozoWarriorXEliteSpit
+0x7811b0 fDamageChozoWarriorXEliteWallclimb
+0x781250 fDamageChozoZombieXDefault
+0x7812ec fDamageChozoZombieXPoisonClaws
+0x781390 fDamageCooldownXBossDefault
+0x78142c fDamageCooldownXBossFireBall
+0x7814cc fDamageCooldownXBossWindTunnelWall
+0x781568 fDamageCooldownXBossLavaCarpet
+0x781608 fDamageCooldownXBossLavaCarpetPuddles
+0x7816a4 fDamageCooldownXBossLavaDrop
+0x781744 fDamageCooldownXBossReaper
+0x7817e0 fDamageCooldownXBossStrongWhip
+0x781880 fDamageCooldownXBossLaserBite
+0x78191c fDamageCoreXDefault
+0x7819bc fDamageCoreXSuperQuetzoaDefault
+0x781a58 fDamageDizzeanIndividual
+0x781af8 fDamageDizzeanMax
+0x781b94 fDamageDizzeanMin
+0x781c34 fDamageDizzeanRadius
+0x781cd0 fDamageEmmyDefault
+0x781d78 fDamageEmmyIce
+0x781e14 fDamageEmmyWave
+0x781eb4 fDamageFingIndividual
+0x781f50 fDamageFingMax
+0x781ff0 fDamageFingMin
+0x78208c fDamageFingRadius
+0x78212c fDamageGobblerDefault
+0x7821c8 fDamageGobblerScorpiusDefault
+0x782268 fDamageGobblerKraidDefault
+0x782304 fDamageGobblerHydrogigaDefault
+0x7823a4 fDamageGobblerChozoWarriorXDefault
+0x782440 fDamageGobblerSuperQuetzoaDefault
+0x7824e0 fDamageGobblerCooldownXDefault
+0x78257c fDamageGobblerSuperGoliathDefault
+0x78261c fDamageGobblerBite
+0x7826b8 fDamageGobblerScorpiusBite
+0x782758 fDamageGobblerKraidBite
+0x7827f4 fDamageGobblerHydrogigaBite
+0x782894 fDamageGobblerChozoWarriorXBite
+0x782930 fDamageGobblerSuperQuetzoaBite
+0x7829d0 fDamageGobblerCooldownXBite
+0x782a6c fDamageGobblerSuperGoliathBite
+0x782b0c fDamageGoliathDefault
+0x782ba8 fDamageGoliathMelee
+0x782c48 fDamageGoliathShockWave
+0x782ce8 fDamageGooplotDefault
+0x782d88 fDamageGooplotJump
+0x782e24 fDamageGooshockerDefault
+0x782ec8 fDamageGooshockerShock
+0x782f64 fDamageGroundShockerDefault
+0x783004 fDamageGroundShockerElectric
+0x7830a0 fDamageHecathonDefault
+0x783140 fDamageHecathonPlanktonDefault
+0x7831dc fDamageHydrogigaBraid
+0x78327c fDamageHydrogigaDefault
+0x78331c fDamageHydrogigaMaelstorm
+0x7833bc fDamageHydrogigaPolyps
+0x783458 fDamageHydrogigaTongueSwirl
+0x7834f8 fDamageInfesterBallDefault
+0x783594 fDamageInfesterDefault
+0x783634 fDamageKlaidaDefault
+0x7836d0 fDamageKraidAcidBlobs
+0x783770 fDamageKraidBackSlap
+0x783810 fDamageKraidBouncingCreatures
+0x7838b0 fDamageKraidDefault
+0x78394c fDamageKraidFierceSwipe
+0x7839f0 fDamageKraidShockerSplash
+0x783a90 fDamageKraidSpikes
+0x783b30 fDamageKraidSpinningNails
+0x783bcc fDamageKraidInsideBelly
+0x783c6c fDamageNailongDefault
+0x783d08 fDamageNailongThorn
+0x783da8 fDamageObsydomithonAttack
+0x783e44 fDamageObsydomithonDefault
+0x783ee4 fDamageOmnithonDefault
+0x783f80 fDamageOmnithonPlanktonDefault
+0x784020 fDamagePoisonFlyAttack
+0x7840bc fDamagePoisonFlyDefault
+0x78415c fDamageQuetzoaDefault
+0x7841f8 fDamageQuetzoaCharge
+0x784298 fDamageQuetshockerDefault
+0x784334 fDamageQuetshockerCharge
+0x7843d4 fDamageQuetshockerEnergyWave
+0x784470 fDamageQuetshockerEnergyWaveElectrify
+0x784510 fDamageRedenkiIndividual
+0x7845ac fDamageRedenkiMax
+0x78464c fDamageRedenkiMin
+0x7846e8 fDamageRedenkiRadius
+0x784788 fDamageRinkaDefault
+0x784824 fDamageRinkaCaves
+0x7848c4 fDamageRinkaMagma
+0x784960 fDamageRinkaLab
+0x784a04 fDamageRinkaForest
+0x784aa0 fDamageRinkaSanc
+0x784b40 fDamageRockDiverDefault
+0x784bdc fDamageRodomithonXDefault
+0x784c7c fDamageRodomithonXFireCone
+0x784d1c fDamageRodotukDefault
+0x784dbc fDamageSunnapDefault
+0x784e58 fDamageSabotoruDefault
+0x784ef8 fDamageSclawkDefault
+0x784f94 fDamageScorpiusDefault
+0x785034 fDamageScorpiusDefensiveSpikeBallPrick
+0x7850d0 fDamageScorpiusDragSpikeBall
+0x785170 fDamageScorpiusPoisonousGas
+0x78520c fDamageScorpiusPoisonousSpit
+0x7852ac fDamageScorpiusSpikeBallPrick
+0x785348 fDamageScorpiusTailSmash
+0x7853e8 fDamageScorpiusWhiplash
+0x785484 fDamageScourgeDefault
+0x785524 fDamageScourgeTongueSlash
+0x7855c0 fDamageShakernautDefault
+0x785660 fDamageShelmitDefault
+0x785700 fDamageShelmitPlasmaRay
+0x7857a4 fDamageShelmitExplosion
+0x785840 fDamageShelmitNakedDefault
+0x7858e0 fDamageShelmitNakedExplosion
+0x78597c fDamageShineonDefault
+0x785a1c fDamageSlidleDefault
+0x785ab8 fDamageSluggerAcidBall
+0x785b58 fDamageSluggerDefault
+0x785bf4 fDamageSpitclawkAcid
+0x785c94 fDamageSpitclawkDefault
+0x785d30 fDamageSpittailDefault
+0x785dd0 fDamageSpittailAcidBall
+0x785e70 fDamageSpittailAcid
+0x785f10 fDamageSuperGoliathBurstProjectionBomb
+0x785fb4 fDamageSuperGoliathBurstProjectionTracker
+0x786058 fDamageSuperGoliathDefault
+0x7860f4 fDamageSuperGoliathMelee
+0x786194 fDamageSuperGoliathShockWave
+0x786230 fDamageSuperQuetzoaCharge
+0x7862d0 fDamageSuperQuetzoaDefault
+0x78636c fDamageSuperQuetzoaEnergyWave
+0x78640c fDamageSuperQuetzoaEnergyWaveElectrify
+0x7864a8 fDamageSuperQuetzoaMultiTarget
+0x786548 fDamageSwifterDefault
+0x7865e4 fDamageTakumakuDashAttack
+0x786684 fDamageTakumakuDefault
+0x786720 fDamageVulkranDefault
+0x7867c0 fDamageVulkranMagmaBall
+0x78685c fDamageWarLotusDefault
+0x7868fc fDamageYamplotXBite
+0x786998 fDamageYamplotXStep
+0x786a38 fDamageYamplotXDefault
+0x786ad4 fDamageShakernautLaserDefault
+0x786b74 fDamageShakernautGroundshockDefault
+0x786c10 fDamageKreepDefault
+0x786cb0 fDamageFulmiteDefault
+0x786d4c fDamageDepthornDefault
+0x786dec fDamageDepthornBall
+0x786e88 fDamageYampaBite
+0x786f28 fDamageYampaStep
+0x786fc4 fDamageYampaDefault
+0x787064 fDamageDropterDefault
+0x787100 fDamageDropterDiveAttack
+0x7871a4 fDamageSharpawDefault
+0x787240 fDamageSharpawDiveAttack
+0x7872e4 fDamageIcefleaDefault
+0x787380 fDamageIcefleaDiveAttack
+0x787424 fDamageIcefleaFreezeTick
+0x7874c0 fDamageDredhedDefault
+0x787560 fDamageDredhedDiveAttack
+0x787600 fDamageSakaiDefault
+0x7876a4 fDamageSakaiDiveAttack
+0x787744 fDamageFulmiteBellyMineDefault
+0x7877e4 fDamageNailuggerDefault
+0x787880 fDamageNailuggerSpit
+0x787920 fDamageDaivoDefault
+0x7879bc fDamageDaivoSwarmIndividual
+0x787a5c fDamageDaivoSwarmMax
+0x787af8 fDamageDaivoSwarmMin
+0x787b98 fDamageDaivoSwarmRadius
+0x787c34 fDamageFulmiteBellyMineExplosionDefault
+0x787cd4 fDamageInfesterBallExplosionDefault
+0x787d70 fDamageCooldownXBossLaser
+-----
+0x7883f0 CCharClassAttackComponent
+0x7884b8 sDefaultDamageID
+0x7885f0 _m_sDamageSource_GetterFunction
+0x788654 _m_sDamageSource_GetterFunction
+0x7886e0 _m_sDamageSource_SetterFunction
+0x788754 sDamageSource
+0x788880 _m_bRotateToInstigatorHitCollider_GetterFunction
+0x7888e4 _m_bRotateToInstigatorHitCollider_GetterFunction
+0x78896c _m_bRotateToInstigatorHitCollider_SetterFunction
+0x7889e0 bRotateToInstigatorHitCollider
+0x788ab0 eDamageType
+0x788b6c _m_sSuccessDownDefaultAnim_GetterFunction
+0x788bd0 _m_sSuccessDownDefaultAnim_GetterFunction
+0x788c5c _m_sSuccessDownDefaultAnim_SetterFunction
+0x788cd0 sSuccessDownDefaultAnim
+0x788dfc _m_sSuccessUpDefaultAnim_GetterFunction
+0x788e60 _m_sSuccessUpDefaultAnim_GetterFunction
+0x788eec _m_sSuccessUpDefaultAnim_SetterFunction
+0x788f60 sSuccessUpDefaultAnim
+0x78908c _m_sSuccessFrontDefaultAnim_GetterFunction
+0x7890f0 _m_sSuccessFrontDefaultAnim_GetterFunction
+0x78917c _m_sSuccessFrontDefaultAnim_SetterFunction
+0x7891f0 sSuccessFrontDefaultAnim
+0x78931c _m_sSuccessBackDefaultAnim_GetterFunction
+0x789380 _m_sSuccessBackDefaultAnim_GetterFunction
+0x78940c _m_sSuccessBackDefaultAnim_SetterFunction
+0x789480 sSuccessBackDefaultAnim
+0x7895ac _m_bIgnoreReaction_GetterFunction
+0x789610 _m_bIgnoreReaction_GetterFunction
+0x789698 _m_bIgnoreReaction_SetterFunction
+0x78970c bIgnoreReaction
+0x7897dc _m_bForceReaction_GetterFunction
+0x789840 _m_bForceReaction_GetterFunction
+0x7898c8 _m_bForceReaction_SetterFunction
+0x78993c bForceReaction
+0x789a0c _m_eDamageStrengthOnForcedReaction_GetterFunction
+0x789a78 _m_eDamageStrengthOnForcedReaction_GetterFunction
+0x789afc _m_eDamageStrengthOnForcedReaction_SetterFunction
+0x789b70 eDamageStrengthOnForcedReaction
+0x789c40 _m_bIgnoreInmune_GetterFunction
+0x789ca4 _m_bIgnoreInmune_GetterFunction
+0x789d2c _m_bIgnoreInmune_SetterFunction
+0x789da0 bIgnoreInmune
+0x789f10 _sIgnoreBumpColliders_GetterFunction
+0x789f74 _sIgnoreBumpColliders_GetterFunction
+0x78a000 _sIgnoreBumpColliders_SetterFunction
+0x78a074 sIgnoreBumpColliders
+-----
+0x78d430 CCharClassFactionComponent
+-----
+0x78d820 CCharClassFXComponent
+-----
+0x78e4a0 CCharClassGrabComponent
+0x78e564 sFireCameraFXPreset
+0x78e640 oAnimationLayers
+-----
+0x78f4f0 CCharClassLogicLookAtPlayerComponent
+0x78f5b0 sIdNodeName
+-----
+0x78fb00 CCharClassMaterialFXComponent
+-----
+0x78fef0 CCharClassModelUpdaterComponent
+0x78ffb4 vInitPosWorldOffset
+0x79008c vInitAngWorldOffset
+0x790158 _bOverrideDisableInEditor_GetterFunction
+0x7901bc _bOverrideDisableInEditor_GetterFunction
+0x790244 _bOverrideDisableInEditor_SetterFunction
+0x790360 vInitScale
+-----
+0x791840 CCharClassMultiModelUpdaterComponent
+0x7918fc dctModels
+-----
+0x791dd0 CCharClassPlayerLifeComponent
+0x791e94 fImpactInvulnerableTime
+0x791f6c fMinImpactInvulnerableTime
+-----
+0x793120 CCharClassPositionalSoundComponent
+0x7931e0 _bOverrideDisableInEditor_GetterFunction
+0x79324c _bOverrideDisableInEditor_GetterFunction
+0x7932d4 _bOverrideDisableInEditor_SetterFunction
+-----
+0x794b70 CCharClassScriptComponent
+-----
+0x794f60 CCharClassTimelineComponent
+0x795024 sInitAction
+0x795130 eNextPolicy
+0x7951cc fMinDelayTime
+0x795268 fMaxDelayTime
+0x795308 eLayerInFrustumToLaunchInRandomDelayPolicy
+-----
+0x796fa0 CCollisionMaterialCacheComponent
+-----
+0x7985b4 CCharClassCollisionComponent
+0x798678 v3SpawnPointCollisionSizeInc
+0x798750 eDefaultCollisionMaterial
+0x798814 bShouldIgnoreSlopeSupport
+0x7988b4 bForceSlopeDirectionOnFloorHit
+-----
+0x79b74c CCubeMapComponent
+0x79b810 _vCubePos_GetterFunction
+0x79b87c _vCubePos_GetterFunction
+0x79b908 _vCubePos_SetterFunction
+0x79b97c vCubePos
+0x79b9f0 _fAttMin_GetterFunction
+0x79ba54 _fAttMin_GetterFunction
+0x79badc _fAttMin_SetterFunction
+0x79bb50 fAttMin
+0x79bc00 fAttMax
+0x79bc68 _fAttMax_GetterFunction
+0x79bccc _fAttMax_GetterFunction
+0x79bd54 _fAttMax_SetterFunction
+0x79bdc8 fAttMax
+0x79be78 fAttMin
+0x79bee0 _m_vBoxBounds_GetterFunction
+0x79bf44 _m_vBoxBounds_GetterFunction
+0x79bfd0 _m_vBoxBounds_SetterFunction
+0x79c044 vBoxBounds
+0x79c0f4 m_vBoxBounds
+0x79c15c _fIntensity_GetterFunction
+0x79c1c0 _fIntensity_GetterFunction
+0x79c248 _fIntensity_SetterFunction
+0x79c2bc fIntensity
+0x79c330 _bEnableCulling_GetterFunction
+0x79c394 _bEnableCulling_GetterFunction
+0x79c41c _bEnableCulling_SetterFunction
+0x79c490 bEnableCulling
+0x79c504 _sTexturePathSpecular_GetterFunction
+0x79c568 _sTexturePathSpecular_GetterFunction
+0x79c5f4 _sTexturePathSpecular_SetterFunction
+0x79c668 sTexturePathSpecular
+0x79c6dc _sTexturePathDiffuse_GetterFunction
+0x79c740 _sTexturePathDiffuse_GetterFunction
+0x79c7cc _sTexturePathDiffuse_SetterFunction
+0x79c840 sTexturePathDiffuse
+0x79c8b4 CalculateCubemap
+0x79c928 ApplyCubemap
+0x79c98c ApplyCubemap
+-----
+0x7a125c CCutsceneComponent
+0x7a1324 _m_sCutsceneName_GetterFunction
+0x7a1390 _m_sCutsceneName_GetterFunction
+0x7a1418 _m_sCutsceneName_SetterFunction
+0x7a1534 bDisableScenarioEntitiesOnPlay
+0x7a15d4 _m_vOriginalPos_GetterFunction
+0x7a1638 _m_vOriginalPos_GetterFunction
+0x7a17b0 _m_vctCutscenesOffsets_GetterFunction
+0x7a1814 _m_vctCutscenesOffsets_GetterFunction
+0x7a18a0 _m_vctCutscenesOffsets_SetterFunction
+0x7a1914 vctCutscenesOffsets
+0x7a19b8 vctExtraInvolvedSubareas
+0x7a1a28 vctExtraInvolvedActors
+0x7a1b20 Extra Actor
+0x7a1b88 vctOnBeforeCutsceneStartsLA
+0x7a1bf8 vctOnAfterCutsceneEndsLA
+0x7a1c68 bHasSamusAsExtraActor
+0x7a1d08 SetupCutsceneForEditor
+0x7a1d74 SetupCutsceneForEditor
+0x7a1df8 ChangeToTake
+0x7a1e6c SetupCurrentTakePositions
+0x7a1ed0 SetupCurrentTakePositions
+0x7a1f54 SetGlobalfreeCamera
+0x7a1fb8 SetGlobalfreeCamera
+0x7a203c LoadExtraInvolvedSubareas
+0x7a20a0 LoadExtraInvolvedSubareas
+0x7a2124 ShowAllExtraActors
+0x7a2188 ShowAllExtraActors
+0x7a220c HideAllExtraActors
+0x7a2270 HideAllExtraActors
+0x7a22f4 RetrieveExtraActorsVisibleStatus
+0x7a2358 RetrieveExtraActorsVisibleStatus
+0x7a23dc LaunchCutscene
+0x7a2440 LaunchCutscene
+0x7a24c4 LaunchCutsceneImmediate
+0x7a2528 LaunchCutsceneImmediate
+0x7a25ac HasCutsceneBeenPlayed
+0x7a2610 HasCutsceneBeenPlayed
+0x7a2698 OnTakeChanged
+0x7a26fc OnTakeChanged
+0x7a2780 ResetOffsets
+0x7a27e4 ResetOffsets
+0x7a2868 CreateExtraActor
+0x7a28cc CreateExtraActor
+0x7a2960 ContinueCutsceneIfTakeLooped
+0x7a29c4 ContinueCutsceneIfTakeLooped
+0x7a2a48 TryLaunchCutscene
+0x7a2aac TryLaunchCutscene
+0x7a2b34 QueueCutscenePlayer
+0x7a2ba8 SetTakePlayMode
+0x7a2c0c SetTakePlayMode
+0x7a2c98 SkipCutscene
+0x7a2d0c GetCutscene
+0x7a2d70 GetCutscene
+0x7a2df8 SetExtraActorStatus
+0x7a2e5c SetExtraActorStatus
+0x7a2fa0 _bEnabled
+0x7a3094 OnExtraActorVisibilityPerTakeChanged
+0x7a30f8 OnExtraActorVisibilityPerTakeChanged
+0x7a323c _uTakeIndex
+-----
+0x7acc94 CDamageComponent
+0x7acd54 DamageValues
+-----
+0x7ade68 CDemolitionBlockComponent
+0x7adfd8 vObjsToDisable
+-----
+0x7affb4 CCharClassEmmyValveComponent
+-----
+0x7b0234 CEmmyValveComponent
+0x7b02f4 SetState
+0x7b0368 SetState
+0x7b03f4 CleanForceStateFlag
+0x7b0458 CleanForceStateFlag
+-----
+0x7b333c CCharClassDoorEmmyFXComponent
+0x7b33fc _fLockedTime_GetterFunction
+0x7b3468 _fLockedTime_GetterFunction
+0x7b34f0 _fLockedTime_SetterFunction
+0x7b3564 fLockedTime
+-----
+0x7b3970 CDoorEmmyFXComponent
+-----
+0x7b5710 CCharClassSensorDoorComponent
+0x7b57d4 fDelayCloseTime
+0x7b5880 fDelayOpenTime
+-----
+0x7b5c80 CSensorDoorComponent
+0x7b5d3c ForceOpen
+0x7b5da8 ForceOpen
+-----
+0x7b7998 CDroppableComponent
+0x7b7a58 fMaxTimeAlive
+-----
+0x7b98f0 CDroppableLifeComponent
+0x7b99b0 fAmount
+-----
+0x7b9f80 CDroppableMissileComponent
+0x7ba044 _sItemMax_GetterFunction
+0x7ba0b0 _sItemMax_GetterFunction
+0x7ba13c _sItemMax_SetterFunction
+0x7ba1b0 sItemMax
+0x7ba288 _sItemCurrent_GetterFunction
+0x7ba2ec _sItemCurrent_GetterFunction
+0x7ba378 _sItemCurrent_SetterFunction
+0x7ba3ec sItemCurrent
+-----
+0x7bb050 CDroppablePowerBombComponent
+0x7bb114 _sItemMax_GetterFunction
+0x7bb180 _sItemMax_GetterFunction
+0x7bb20c _sItemMax_SetterFunction
+0x7bb280 sItemMax
+0x7bb358 _sItemCurrent_GetterFunction
+0x7bb3bc _sItemCurrent_GetterFunction
+0x7bb448 _sItemCurrent_SetterFunction
+0x7bb4bc sItemCurrent
+-----
+0x7bc120 CDroppableSpecialEnergyComponent
+0x7bc1e0 fAmount
+-----
+0x7bc6d0 CCharClassDropComponent
+0x7bc794 bDropOnDeath
+0x7bc83c bDropItemOnDeath
+0x7bc8d8 bDropItemOnDeathByMelee
+0x7bca18 vDropOffset
+0x7bcb5c fXCellDropInitialSpeed
+0x7bcbfc fXCellDropEndSpeed
+0x7bcc98 fXCellDropTime
+0x7bcd40 fXCellDropRotationAngSpeed
+0x7bcddc sXParasiteTypeMask
+0x7bcec8 oDropProbabilities
+0x7bcf38 oMeleeChargeShotDropProbabilities
+0x7bcfa8 bSkipUsefulItemsRule
+-----
+0x7be8d0 CDropComponent::CTunableDropComponent
+0x7be9b4 fTimeToFade
+0x7bea60 bUseCrazyWeaponBoostConfiguration
+0x7beafc bForceNoDrop
+0x7becb8 bForceXParasiteSelfSpawnLoop
+0x7bedd0 bIgnoreXParasiteDrop
+0x7beee0 fLowHealthRuleMaxLife
+0x7befb0 fCriticalHealthRuleMaxLife
+0x7bf14c bApplyLowHealthRuleCountingPreviousDrops
+0x7bf218 fXParasiteOrangeReductionOnFullPowerBombAmmo
+0x7bf2e8 fXParasiteOrangeRelativeProbabilityOnOtherResourcesFull
+-----
+0x7bf898 CDropComponent
+-----
+0x7c66f0 CCharClassXParasiteDropComponent
+-----
+0x7cc910 CXParasiteDropComponent
+-----
+0x7cd8d0 CElectricReactionComponent
+-----
+0x7ce32c CEmergencyLightElectricReactionComponent
+-----
+0x7ce7c0 CCharClassElectrifyingAreaComponent
+0x7ce884 bShouldUpdateAreaOnStart
+0x7ce92c bShouldCoverPlatformsCompletely
+0x7ce9c8 fMinValidYNormal
+0x7cea6c fClockwiseDistance
+0x7ceb08 fCounterClockwiseDistance
+0x7ceba8 fTriggerHeight
+0x7cec74 fTriggerDownwardHeight
+0x7ced40 fFXHeight
+0x7cee08 fHeightTolerance
+-----
+0x7cf200 CElectrifyingAreaComponent
+0x7cf2bc bShouldUpdateAreaOnStart
+-----
+0x7d1860 CCharClassEnhanceWeakSpotComponent
+0x7d1924 sOnWeakSpotAimed
+0x7d19dc sOnWeakSpotNotAimed
+-----
+0x7d1e00 CEnhanceWeakSpotComponent
+-----
+0x7d2360 CCharClassHeatableShieldEnhanceWeakSpotComponent
+0x7d2424 sOnWeakSpotAimedWithMask
+0x7d24dc sOnWeakSpotAimedWithoutMask
+0x7d2588 sOnWeakSpotNotAimedWithMask
+0x7d2638 sOnWeakSpotNotAimedWithoutMask
+-----
+0x7d2a70 CHeatableShieldEnhanceWeakSpotComponent
+-----
+0x7d3120 CCharClassEscapeSequenceExplosionComponent
+0x7d31e0 eExplosionType
+-----
+0x7d390c CEscapeSequenceExplosionComponent
+-----
+0x7d43e0 CCharClassAimCameraEnabledVisibleOnlyComponent
+-----
+0x7d4660 CAimCameraEnabledVisibleOnlyComponent
+-----
+0x7d4cd4 CEmmyWakeUpComponent
+0x7d4d8c wpCentralUnit
+-----
+0x7d98e4 CCharClassEventPropComponent
+-----
+0x7d9b64 CEventPropComponent
+0x7d9c20 LaunchEvent
+0x7d9c8c LaunchEvent
+-----
+0x7db040 CCharClassGooplotCapsuleComponent
+-----
+0x7db440 CProfessorDoorComponent
+0x7db4fc TryLaunchEvent
+0x7db568 TryLaunchEvent
+0x7db5f4 ChangeNavMeshStage
+-----
+0x7dbfd0 CQuarentineDoorComponent
+0x7dc08c ForceOpen
+0x7dc0f8 ForceOpen
+-----
+0x7ddfd8 CCharClassEventScenarioComponent
+-----
+0x7de258 CEventScenarioComponent
+0x7de31c vEventActors
+0x7de394 sIdleAction
+0x7de404 sReactionAction
+0x7de474 sFinishedAction
+0x7de4e4 sRecoveryAction
+0x7de554 bPersistent
+0x7de5c4 bDisableOnXParasite
+0x7de634 bDisableOnCoolDown
+0x7de6a4 bReactOnFireOnly
+0x7de714 bReactOnEnemies
+0x7de828 bIgnoreSamusWithOC
+0x7de968 bReactToFireImpact
+0x7dea08 fTimeForRecoveryOnStay
+0x7deaac fTimeForRecoveryOnExit
+0x7deb48 fInitRelaxFrame
+-----
+0x7e40c0 CFloatingPropActingComponent
+-----
+0x7e4a58 CFloorShockWaveComponent
+-----
+0x7e5100 CFootstepPlatformComponent
+0x7e5270 wpPartnerFootStepPlatformEntity
+0x7e5308 sCallbackOnOpened
+0x7e540c sCallbackOnClosed
+0x7e5508 CloseDoor
+0x7e556c CloseDoor
+-----
+0x7e6ffc CForcedMovementAreaComponent
+0x7e70c0 bForcedAreaOnce
+0x7e7168 eForcedDirection
+-----
+0x7eb8d4 CCharClassFrozenComponent
+0x7eb998 fTotalFreezeTime
+0x7eba70 fThawingTime
+0x7ebb3c sTimelineIdOnFrozen
+0x7ebc10 sTimelineIdOnThawing
+0x7ebce0 sTimelineIdOnUnfreeze
+0x7ebdb4 sActionFreezeInit
+0x7ebee4 sActionFreezeEnd
+0x7ec00c sActionFreezeEndFalling
+0x7ec134 sCustomLayer
+0x7ec230 sCustomLayerMixerNode
+-----
+0x7ee2a4 CCharClassFrozenAsFrostbiteComponent
+0x7ee368 iRequiredFrostbiteLevel
+0x7ee43c fFrostbiteLevelResetTime
+0x7ee508 fAfterHitNoFrostbiteLevelResetTime
+0x7ee5d4 sTimelineIdOnFrostbiteStart
+0x7ee6a4 sTimelineIdOnFrostbiteStop
+0x7ee844 tBarelyIceInfo
+-----
+0x7f1580 CFrozenAsFrostbiteComponent
+-----
+0x7f17dc CFrozenAsFrostbiteComponent::CTunableFrozenAsFrostbiteComponent
+0x7f18bc fFrostbiteColorR
+0x7f1964 fFrostbiteColorG
+0x7f1a04 fFrostbiteColorB
+0x7f1aa8 fFrostbiteColorMinA
+0x7f1b4c fFrostbiteColorMaxA
+-----
+0x7f6350 CFrozenComponent
+-----
+0x7f65a4 CFrozenComponent::CTunableFrozenComponent
+0x7f667c bInfiniteFrozenTime
+-----
+0x7f9c98 CCharClassFrozenAsPlatformComponent
+0x7f9d5c sCollisionMaskToFreeze
+0x7f9e48 _m_sCollisionTagsExcludedFromFreezing_GetterFunction
+0x7f9eac _m_sCollisionTagsExcludedFromFreezing_GetterFunction
+0x7f9f38 _m_sCollisionTagsExcludedFromFreezing_SetterFunction
+0x7f9fac sCollisionTagsExcludedFromFreezing
+0x7fa0e0 fPlatformDepth
+0x7fa1b0 sIceCubeCharClass
+0x7fa230 ice_cube
+0x7fa298 vIceCubeSize
+-----
+0x7fb690 CFrozenAsPlatformComponent
+-----
+0x8007c8 CAreaFXComponent
+0x800888 sModelResPath
+-----
+0x801bc0 CBoneToConstantComponent
+-----
+0x802290 CCharClassAreaFXComponent
+0x802354 sModelResPath
+0x802474 fScale
+0x802518 fScaleRandom
+0x8025b4 vRotation
+0x802658 vRotationRandom
+0x8026f8 fFXAttackLenght
+-----
+0x802da0 CCharClassBoneToConstantComponent
+0x802e64 sNode
+0x802f1c sMaterialName
+0x802fc8 ePropertyName
+0x803064 eStage
+-----
+0x803460 CCharClassChozombieFXComponent
+0x803524 sModelResPath
+0x803644 fScale
+0x8036e8 vRotation
+0x803788 fInstanceLifeTime
+-----
+0x803d90 CCharClassHecathonPlanktonFXComponent
+0x803e54 sModelResPath
+0x803f74 fScale
+0x804018 fScaleRandom
+0x8040b4 vRotation
+0x804158 vRotationRandom
+-----
+0x804760 CCharClassScorpiusFXComponent
+-----
+0x804b50 CChozombieFXComponent
+-----
+0x805e10 CHecathonPlanktonFXComponent
+0x805ed0 sModelResPath
+-----
+0x80ce84 CScorpiusFXComponent
+-----
+0x810044 CStandaloneFXComponent
+0x8101e4 AddNewFXInstance
+0x81024c AddNewFXInstance
+0x810398 uPoolSize
+0x810518 sFXPath
+-----
+0x813e14 CCharClassGrappleBeamComponent
+0x813ed4 fDamage
+-----
+0x814370 CCharClassGrapplePointComponent
+0x814434 _m_bAutoEnableGlow_GetterFunction
+0x8144a0 _m_bAutoEnableGlow_GetterFunction
+0x814528 _m_bAutoEnableGlow_SetterFunction
+0x814670 sGrappleDragWide
+-----
+0x814df0 CGrappleBeamComponent::CTunableGrappleBeamComponent
+0x814ed0 fAdvanceSpeed
+0x814fac fRetractSpeed
+0x815078 fMaxLength
+0x81514c fMaxLengthToStartRetract
+-----
+0x8156f8 CGrappleBeamComponent
+0x8157bc sIniFXId
+0x815898 sEndFXId
+0x815968 sGrappleFX
+-----
+0x81ff38 CGrapplePointComponent
+-----
+0x821434 CCharClassHangableGrappleMagnetSlidingBlockComponent
+-----
+0x821820 CCharClassHangableGrappleSurfaceComponent
+0x8218e4 fMagnetSurfaceMaxIntensityOnGrappleNotAllowed
+0x8219bc sGrappleHelperColliderId
+0x821aec fGrappleHelperMaxSegmentLengthToUseCenter
+-----
+0x8220b0 CHangableGrappleMagnetSlidingBlockComponent
+-----
+0x822730 CHangableGrapplePointComponent
+-----
+0x822c50 CHangableGrappleSurfaceComponent
+-----
+0x823940 CActionSwitcherOnPullGrapplePointComponent
+0x823a00 sActionOnPull
+-----
+0x8248f8 CCharClassActionSwitcherOnPullGrapplePointComponent
+0x8249bc sGrappleCollider
+0x824af4 fGrappleMinAlignmentX
+0x824bc8 sActionOnGrappleAttach
+0x824cf0 sActionOnPullStart
+0x824e18 sActionOnPullAbort
+0x824f40 sActionOnGrappleDetach
+-----
+0x8255e0 CAIGrapplePointComponent
+-----
+0x825d30 CCharClassAIGrapplePointComponent
+0x825df0 sGrappleCollider
+-----
+0x8263b0 CCharClassPullableGrapplePointComponent
+0x826474 sOnDestructionLeftTimeline
+0x8265ac sOnDestructionRightTimeline
+-----
+0x826bc0 CCharClassDoorGrapplePointComponent
+0x826c7c sGrappleColliderNames
+-----
+0x827240 CDoorGrapplePointComponent
+-----
+0x827af8 CDummyPullableGrapplePointComponent
+-----
+0x827f80 CMovableGrapplePointComponent
+-----
+0x82923c CCharClassPlatformTrapGrapplePointComponent
+0x8292fc sGrappleCollider
+-----
+0x829920 CPlatformTrapGrapplePointComponent
+-----
+0x82a628 CPullableGrapplePointComponent
+-----
+0x82b534 CPullOffGrapplePointComponent
+-----
+0x82d28c CSwingableGrapplePointComponent
+-----
+0x82f750 CFireComponent
+-----
+0x83549c CGunComponent::CTunableGunComponent
+0x83557c fPowerBombMinTimeToStartCharge
+0x835658 fNormalFireChargeMinTime
+0x835724 fNormalFireChargeMaxTime
+0x8357f4 fSPBFireChargeMinTime
+0x8358bc fSPBFireChargeMaxTime
+0x835988 fDiffusionFireChargeMinTime
+0x835a50 fDiffusionFireChargeMaxTime
+0x835b1c fIgnoreFireAfterChargeReleasedTime
+-----
+0x8360d0 CGunComponent
+0x836194 AddPrimaryGun
+0x8362a0 AddSecondaryGun
+0x8363a4 SelectGun
+0x8364a8 SetGunChargeParams
+0x8365ac SetBillBoardGroupParams
+-----
+0x855450 CSamusGunComponent
+0x855514 sSpinAttackFX
+0x8555f0 sScrewAttackFX
+-----
+0x855880 CSamusGunComponent::CTunableSamusGunComponent
+0x855960 fScrewAttackDamage
+0x855a38 fBurstChargeBeamActiveTime
+0x855b04 fBurstChargeBeamIdleActiveTimeFactor
+0x855bd8 fBurstChargeBeamInitialBurstTime
+-----
+0x85dae0 CCollisionComponent
+0x85dba0 CreateCollider
+-----
+0x8684f0 CHeatableShieldComponent
+0x8685b0 CreateShield
+0x868624 CreateShield
+0x8686b0 AddShieldCollider
+0x868714 AddShieldCollider
+0x8687a0 SetTimeToStartHeatRecover
+0x868804 SetTimeToStartHeatRecover
+-----
+0x86e2dc CInputComponent
+0x86e3a0 IgnoreInput
+0x86e40c IgnoreInput
+0x86e4a0 IgnoreInputFor
+0x86e5a4 _bInputIgnored_GetterFunction
+0x86e608 _bInputIgnored_GetterFunction
+0x86e690 bInputIgnored
+-----
+0x86e9b0 CInputComponent::CTunableInputComponent
+0x86ea90 iWalkInputMode
+0x86eb38 fNoWalkMusicVolume
+0x86ebd8 fWalkMusicVolume
+0x86ec78 fNoWalkEnvironmentVolume
+0x86ed18 fWalkEnvironmentVolume
+0x86edc0 fWalkSamusMovementVolume
+0x86ef08 iInputPreset
+-----
+0x8738a8 CActionSwitcherComponent
+-----
+0x8744f0 CChainReactionActionSwitcherComponent
+0x8745ac ChangeActionAndNavhMeshStage
+0x874618 ChangeActionAndNavhMeshStage
+-----
+0x874cd0 CCharClassActionSwitcherComponent
+0x874d94 sActivateAction
+0x874ea0 sDeactivateAction
+0x874f9c bScalePlayRate
+0x87503c bDisableOnActivatedOnDeattachActor
+-----
+0x875560 CActivatableByProjectileComponent
+-----
+0x875a88 CCharClassActivatableComponent
+-----
+0x875d08 CActivatableComponent
+0x875dc8 Activate
+0x875e3c Activate
+0x875ec0 Deactivate
+0x875f24 Deactivate
+-----
+0x876eac CCharClassLavaPumpComponent
+-----
+0x87712c CLavaPumpComponent
+-----
+0x8773ac CLavaPumpComponent::CTunableLavaPumpComponent
+0x87748c fInitialPlayRate
+0x877568 fActivationTime
+-----
+0x87a040 CCharClassFanComponent
+0x87a104 sFX_wind
+0x87a200 sFX_hurricane
+-----
+0x87a4d8 CFanComponent
+0x87a5a0 _m_fWindLength_GetterFunction
+0x87a60c _m_fWindLength_GetterFunction
+0x87a694 _m_fWindLength_SetterFunction
+0x87a708 fWindLength
+0x87a7fc _m_fHurricaneLength_GetterFunction
+0x87a860 _m_fHurricaneLength_GetterFunction
+0x87a8e8 _m_fHurricaneLength_SetterFunction
+0x87a95c fHurricaneLength
+0x87aa4c _m_fBarrierLength_GetterFunction
+0x87aab0 _m_fBarrierLength_GetterFunction
+0x87ab38 _m_fBarrierLength_SetterFunction
+0x87abac fBarrierLength
+0x87aca4 _m_fWidth_GetterFunction
+0x87ad08 _m_fWidth_GetterFunction
+0x87ad90 _m_fWidth_SetterFunction
+0x87ae04 fWidth
+0x87aef0 _m_fParticleScale_GetterFunction
+0x87af54 _m_fParticleScale_GetterFunction
+0x87afe0 _m_fParticleScale_SetterFunction
+0x87b054 fParticleScale
+-----
+0x87de34 CCharClassFanCoolDownComponent
+-----
+0x87e0b4 CFanCoolDownComponent
+0x87e174 StartFan
+0x87e1e8 StartFan
+0x87e26c BlockFan
+0x87e2d0 BlockFan
+0x87e354 StopFan
+0x87e3b8 StopFan
+-----
+0x87ee74 CCharClassFusibleBoxComponent
+-----
+0x87f0f4 CFusibleBoxComponent
+-----
+0x87f8e4 CMultiLockOnBlockComponent::CTunableMultiLockOnBlockComponent
+0x87f9c0 fMaxTimeActivate
+-----
+0x87ff7c CMultiLockOnBlockComponent
+0x880034 vMultiLockOnPoints
+-----
+0x881f2c CMultiLockOnPointComponent
+-----
+0x882860 CCharClassMorphBallLauncherComponent
+0x882924 fTimeShootSequence
+0x8829f8 fTimeRepositioningEntities
+0x882ac0 fTimeToAccelerateCannon
+0x882b8c fMinCannonActionPlayRate
+0x882c54 fMaxCannonActionPlayRate
+0x882d20 sCannonActionPlayRateEasingFunction
+-----
+0x8832c0 CCharClassMorphBallLauncherExitComponent
+0x883384 fExpelImpulseSize
+0x883458 fInputIgnoreTimeAfterExpelling
+0x883520 fFrictionIgnoreTimeAfterExpelling
+-----
+0x883950 CMorphBallLauncherComponent
+0x883a14 wpLauncherExit
+0x883ac0 sTravellingAction
+-----
+0x887284 CMorphBallLauncherExitComponent
+0x887348 vExpelDirection
+0x88741c fExpelImpulseSize
+0x8874e4 fInputIgnoreTimeAfterExpelling
+0x8875b0 fFrictionIgnoreTimeAfterExpelling
+0x887748 bWantsAutomaticOpenOnStartLaunchProcess
+-----
+0x887ef8 CCharClassMushroomPlatformComponent
+0x887fbc fTimeToRetract
+0x888068 fRetractedTime
+-----
+0x8882f4 CMushroomPlatformComponent
+0x8883b8 fAlertTimeToRetract
+0x888464 fRetractedTimeToRelax
+-----
+0x88b17c CShootActivatorComponent::CTunableShootActivatorComponent
+0x88b25c fVolumeMin
+0x88b304 fDecreaseVolumeFactor
+0x88b3a4 fPitchMin
+-----
+0x88b928 CCharClassShootActivatorComponent
+0x88b9ec fActivationTime
+0x88bac4 fTimePerShot
+-----
+0x88cfc0 CShootActivatorComponent
+0x88d088 fInitialAccumulatedTime
+0x88d17c fActivationTime
+0x88d264 fTimePerShot
+0x88d354 vTargetsToActivate
+0x88d41c vTargetsToDeactivate
+0x88d4dc sOnUseEntityTimeline
+0x88d67c vEntitiesActivatabledOnEvent
+0x88d6ec vEntitiesDeactivatabledOnEvent
+-----
+0x894830 CCharClassShootActivatorHidrogigaComponent
+-----
+0x894ab0 CShootActivatorHidrogigaComponent
+0x894c20 wpWaterNozzle
+-----
+0x898e84 CCharClassSteamJetComponent
+0x898f48 fDefaultDamage
+0x899020 sFX_init
+0x899110 sFX_end
+0x8991fc sFX_1_1
+0x8992e8 sFX_1_2
+0x8993d4 sFX_1_3
+0x8994c0 sFX_1_4
+0x8995ac sFX_1_5
+0x899698 bSteamOnly
+-----
+0x899950 CSteamJetComponent
+0x899a18 fDelayStart
+0x899b10 _m_fDamage_GetterFunction
+0x899b74 _m_fDamage_GetterFunction
+0x899bfc _m_fDamage_SetterFunction
+0x899c70 fDamage
+0x899d68 _m_fLength_GetterFunction
+0x899dcc _m_fLength_GetterFunction
+0x899e54 _m_fLength_SetterFunction
+0x899ec8 fLength
+0x899fb8 _m_fWidth_GetterFunction
+0x89a01c _m_fWidth_GetterFunction
+0x89a0a4 _m_fWidth_SetterFunction
+0x89a118 fWidth
+0x89a208 fOnTime
+0x89a2f4 fOffTime
+0x89a3dc fOnOffTime
+0x89a4d0 _m_fParticleScale_GetterFunction
+0x89a534 _m_fParticleScale_GetterFunction
+0x89a5c0 _m_fParticleScale_SetterFunction
+0x89a634 fParticleScale
+0x89a728 _m_bCrossingAllowed_GetterFunction
+0x89a78c _m_bCrossingAllowed_GetterFunction
+0x89a814 _m_bCrossingAllowed_SetterFunction
+0x89a888 bCrossingAllowed
+0x89a92c _m_bForceReactionDirection_GetterFunction
+0x89a990 _m_bForceReactionDirection_GetterFunction
+0x89aa18 _m_bForceReactionDirection_SetterFunction
+0x89aa8c bForceReactionDirection
+0x89ab30 _m_vReactionDirection_GetterFunction
+0x89ab94 _m_vReactionDirection_GetterFunction
+0x89ac20 _m_vReactionDirection_SetterFunction
+0x89ac94 vReactionDirection
+0x89ad3c wpNextSteamJet
+-----
+0x89e0a8 CCharClassWaterNozzleComponent
+0x89e168 fNozzleHeightOffset
+-----
+0x89ec34 CWaterNozzleComponent
+-----
+0x8a0bac CLandmarkComponent
+0x8a0c6c _sLandmarkID_GetterFunction
+0x8a0cd8 _sLandmarkID_GetterFunction
+0x8a0d64 sLandmarkID
+-----
+0x8a14b4 CBasicLifeComponent
+0x8a1574 AddDamageSource
+-----
+0x8a38c8 CBeamBoxComponent
+0x8a3aa4 vActivatables
+0x8a3b14 sAnimationId
+-----
+0x8aa8d8 CBeamDoorLifeComponent
+-----
+0x8ab200 CBossLifeComponent
+-----
+0x8ab640 CCharClassBasicLifeComponent
+0x8ab704 oDamageSourceFactor
+0x8ab820 fInitialDamageFactor
+0x8ab8c0 fInitialDamageFactorTime
+-----
+0x8abd60 CCharClassBeamBoxComponent
+-----
+0x8ac150 CCharClassChozoCommanderXLifeComponent
+0x8ac214 fTimeToWin
+0x8ac2c0 fImpactedPlayRate
+-----
+0x8ac6d0 CCharClassDemolitionBlockActivatableActorLifeComponent
+0x8ac794 sActivatableObjAnim
+0x8ac870 sActivatableObjAnimRelax
+-----
+0x8acd80 CCharClassDemolitionBlockLifeComponent
+0x8ace44 oDamageSourceFactor
+0x8acebc iHitCount
+0x8acf2c fTimeAfterHuskDestroyed
+0x8acf9c fTimeAfterFirstHit
+0x8ad00c fTimeMaterialExplosive
+0x8ad07c fTimeAfterDiffuseHuskDestroyed
+0x8ad0ec eDemolitionPhase
+0x8ad15c bHuskInitiallyRemoved
+0x8ad1cc sCameraFXPresetHusk
+0x8ad2b8 sCameraFXPresetOnImpact
+0x8ad3a4 sCameraFXPresetOnDead
+-----
+0x8adb00 CCharClassDoorCentralUnitLifeComponent
+-----
+0x8adef0 CCharClassDoorLifeComponent
+0x8adfb4 _fMinTimeClosed_GetterFunction
+0x8ae020 _fMinTimeClosed_GetterFunction
+0x8ae0a8 _fMinTimeClosed_SetterFunction
+0x8ae11c fMinTimeClosed
+0x8ae1ec _fMaxDistanceOpened_GetterFunction
+0x8ae250 _fMaxDistanceOpened_GetterFunction
+0x8ae2d8 _fMaxDistanceOpened_SetterFunction
+0x8ae34c fMaxDistanceOpened
+0x8ae420 _bUsesPresenceDetection_GetterFunction
+0x8ae484 _bUsesPresenceDetection_GetterFunction
+0x8ae50c _bUsesPresenceDetection_SetterFunction
+0x8ae580 bUsesPresenceDetection
+0x8ae650 _bPresenceOpenEnabled_GetterFunction
+0x8ae6b4 _bPresenceOpenEnabled_GetterFunction
+0x8ae73c _bPresenceOpenEnabled_SetterFunction
+0x8ae7b0 bPresenceOpenEnabled
+0x8ae880 _bUseDoorLockOnLocked_GetterFunction
+0x8ae8e4 _bUseDoorLockOnLocked_GetterFunction
+0x8ae96c _bUseDoorLockOnLocked_SetterFunction
+0x8ae9e0 bUseDoorLockOnLocked
+0x8aeab0 _m_vDefaultLightColor_GetterFunction
+0x8aeb14 _m_vDefaultLightColor_GetterFunction
+0x8aeb9c _m_vDefaultLightColor_SetterFunction
+0x8aec10 vDefaultLightColor
+0x8aeccc _m_vBlockLightColor_GetterFunction
+0x8aed30 _m_vBlockLightColor_GetterFunction
+0x8aedb8 _m_vBlockLightColor_SetterFunction
+0x8aee2c vBlockLightColor
+0x8aeeec _bVerticalDimensionInFrustum_GetterFunction
+0x8aef50 _bVerticalDimensionInFrustum_GetterFunction
+0x8aefd8 _bVerticalDimensionInFrustum_SetterFunction
+0x8af04c bVerticalDimensionInFrustum
+0x8af11c _bHorizontalDimensionInFrustum_GetterFunction
+0x8af180 _bHorizontalDimensionInFrustum_GetterFunction
+0x8af208 _bHorizontalDimensionInFrustum_SetterFunction
+0x8af27c bHorizontalDimensionInFrustum
+0x8af34c _bUseHeatDeviceActivation_GetterFunction
+0x8af3b0 _bUseHeatDeviceActivation_GetterFunction
+0x8af438 _bUseHeatDeviceActivation_SetterFunction
+0x8af4ac bUseHeatDeviceActivation
+0x8af57c _m_bStartOpened_GetterFunction
+0x8af5e0 _m_bStartOpened_GetterFunction
+0x8af668 _m_bStartOpened_SetterFunction
+0x8af6dc bStartOpened
+-----
+0x8b1320 CCharClassDoorShieldLifeComponent
+0x8b13e4 bDisolveByMaterial
+0x8b148c fTimeToStartDisolve
+0x8b1528 eDoorShieldType
+-----
+0x8b1930 CCharClassEnemyLifeComponent
+0x8b19f4 oDamageSourceFactor
+0x8b1b10 fDamageFXTime
+0x8b1bb4 fMinTimeBetweenDamageSoundCallback
+0x8b1c5c fMaxTimeBetweenDamageSoundCallback
+0x8b1da4 bShowLifeBar
+0x8b1e40 vLifeBarOffset
+0x8b1ee4 sDamageTimeline
+0x8b1fe8 sDamageSFXTimeline
+-----
+0x8b2730 CCharClassItemLifeComponent
+0x8b27ec oDamageSourceFactor
+0x8b2864 iHitCount
+-----
+0x8b2cc0 CCharClassLifeComponent::CTunableCharClassLifeComponent
+0x8b2da8 fLifeArachnus
+0x8b2e58 fLifeArmadigger
+0x8b30e4 fLifeAutector
+0x8b32c0 fLifeAutomper
+0x8b3534 fLifeAutsharp
+0x8b35d8 fLifeAutsniper
+0x8b3808 fLifeBigFist
+0x8b39e0 fLifeBigkranX
+0x8b3bb4 fLifeBlindFly
+0x8b3c54 fLifeCaterzilla
+0x8b3cf8 fLifeCentralUnitArmorCaves
+0x8b3d9c fLifeCentralUnitArmorForest
+0x8b3e44 fLifeCentralUnitArmorLaboratory
+0x8b3ee4 fLifeCentralUnitArmorMagma
+0x8b3f84 fLifeCentralUnitArmorPlaceholder
+0x8b4024 fLifeCentralUnitArmorSanctuary
+0x8b40cc fLifeCentralUnitCaves
+0x8b416c fLifeCentralUnitForest
+0x8b4214 fLifeCentralUnitLaboratory
+0x8b42b4 fLifeCentralUnitMagma
+0x8b4358 fLifeCentralUnitPlaceholder
+0x8b43fc fLifeCentralUnitSanctuary
+0x8b449c fLifeChozoCommander
+0x8b4540 fLifeChozoCommanderEnergyShards
+0x8b45e4 fLifeChozoCommanderSentenceSphere
+0x8b4684 fLifeChozoCommanderStage1
+0x8b4724 fLifeChozoCommanderStage2
+0x8b4964 fLifeChozoRobotSoldierAlternative
+0x8b4a08 fLifeChozoWarrior
+0x8b4aa8 fLifeChozoWarriorElite
+0x8b4b4c fLifeChozoWarriorWeak
+0x8b4bec fLifeChozoWarriorX
+0x8b4c88 fLifeChozoWarriorXElite
+0x8b4d2c fLifeChozoWarriorXWeak
+0x8b4dc8 fLifeChozoZombieX
+0x8b4e70 fLifeCooldownXBoss
+0x8b4f14 fLifeCooldownXBossFireBall
+0x8b4fb4 fLifeCooldownXBossWeakPoint
+0x8b5054 fLifeCoreX
+0x8b50fc fLifeCoreXSuperQuetzoa
+0x8b51a0 fLifeDaivo
+0x8b5244 fLifeDaivoSwarm
+0x8b52e0 fLifeDepthorn
+0x8b5380 fLifeDizzean
+0x8b5420 fLifeDredhed
+0x8b54c0 fLifeDropter
+0x8b555c fLifeDummy
+0x8b5600 fLifeEmmy
+0x8b56a4 fLifeFing
+0x8b5748 fLifeFulmite
+0x8b57e4 fLifeFulmiteBellyMine
+0x8b5888 fLifeGobbler
+0x8b5924 fLifeGobblerChozoWarriorX
+0x8b59c4 fLifeGobblerCooldownX
+0x8b5a60 fLifeGobblerHydrogiga
+0x8b5b00 fLifeGobblerKraid
+0x8b5b9c fLifeGobblerScorpius
+0x8b5c3c fLifeGobblerSuperGoliath
+0x8b5cd8 fLifeGobblerSuperQuetzoa
+0x8b5ef8 fLifeGoliathX
+0x8b6178 fLifeGooshocker
+0x8b6358 fLifeGroundShocker
+0x8b64e0 fLifeHecathon
+0x8b6674 fLifeHydrogiga
+0x8b6808 fLifeHydrogigaBlockingTentacle
+0x8b68ac fLifeHydrogigaPolyps
+0x8b694c fLifeIceflea
+0x8b69f0 fLifeInfester
+0x8b6a8c fLifeInfesterBall
+0x8b6b2c fLifeKlaida
+0x8b6bcc fLifeKraid
+0x8b6c74 fLifeKraidAcidBlobs
+0x8b6d14 fLifeKraidBouncingCreatures
+0x8b6db4 fLifeKraidNail
+0x8b6e54 fLifeKraidStage1
+0x8b6ef8 fLifeKreep
+0x8b6f94 fLifeMagnetHusk
+0x8b7038 fLifeNailong
+0x8b70d4 fLifeNailugger
+0x8b7304 fLifeOmnithon
+0x8b7498 fLifePoisonFly
+0x8b7670 fLifeQuetshocker
+0x8b7800 fLifeQuetshockerEnergyWave
+0x8b7a2c fLifeQuetzoaX
+0x8b7ad4 fLifeRedenki
+0x8b7b74 fLifeRinka
+0x8b7c14 fLifeRinkaCaves
+0x8b7cb8 fLifeRinkaForest
+0x8b7d54 fLifeRinkaLab
+0x8b7df4 fLifeRinkaMagma
+0x8b7e90 fLifeRinkaSanc
+0x8b7f34 fLifeRockDiver
+0x8b7fd0 fLifeRodomithonX
+0x8b8200 fLifeSabotoru
+0x8b82a8 fLifeSakai
+0x8b8344 fLifeSclawk
+0x8b85c8 fLifeScorpiusSpit
+0x8b866c fLifeScorpiusStage1
+0x8b8708 fLifeScorpiusTail
+0x8b87ac fLifeScorpiusTailPhase3
+0x8b8848 fLifeScourge
+0x8b88e8 fLifeShakernaut
+0x8b898c fLifeSharpaw
+0x8b8a2c fLifeShelmit
+0x8b8acc fLifeShelmitNaked
+0x8b8b6c fLifeShineon
+0x8b8c08 fLifeSlidle
+0x8b8cac fLifeSlugger
+0x8b8d4c fLifeSluggerAcidBall
+0x8b8dec fLifeSpitclawk
+0x8b8e8c fLifeSpittail
+0x8b8f2c fLifeSunnap
+0x8b8fcc fLifeSwarmer
+0x8b9070 fLifeSwifter
+0x8b910c fLifeTakumaku
+0x8b91ac fLifeVulkran
+0x8b9248 fLifeWarLotus
+0x8b92ec fLifeXParasite
+0x8b9388 fLifeYampa
+0x8b9428 fLifeYamplotX
+0x8b94c8 fLifeYojimbee
+-----
+0x8b9b44 CCharClassLifeComponent
+0x8b9c08 sLife
+0x8b9ce4 sImpactAnim
+0x8b9dac sImpactBackAnim
+0x8b9e78 sDeadAnim
+0x8b9f40 sDeadBackAnim
+0x8ba00c sDeadAirAnim
+0x8ba0d4 sDeadAirBackAnim
+0x8ba1a0 sDeadMeleeAnim
+0x8ba268 sDeadNoInstigatorAnim
+-----
+0x8bada0 CChozoCommanderXLifeComponent
+0x8baf10 wpDeathCutScenePlayer
+-----
+0x8c12cc CDemolitionBlockActivatableActorLifeComponent
+-----
+0x8c2114 CDemolitionBlockLifeComponent
+0x8c21d8 AddDamageSource
+0x8c22e4 wpOtherBlock
+-----
+0x8c6f60 CDoorCentralUnitLifeComponent
+0x8c7020 eMode
+-----
+0x8c8af4 CDoorLifeComponent
+0x8c8bb8 fMaxDistanceOpened
+0x8c8d30 wpRightDoorShieldEntity
+0x8c8dcc _m_fMinTimeOpened_GetterFunction
+0x8c8e30 _m_fMinTimeOpened_GetterFunction
+0x8c8eb8 _m_fMinTimeOpened_SetterFunction
+0x8c8f2c fMinTimeOpened
+0x8c9000 _m_bStayOpen_GetterFunction
+0x8c9064 _m_bStayOpen_GetterFunction
+0x8c90ec _m_bStayOpen_SetterFunction
+0x8c9160 bStayOpen
+0x8c9230 bStartOpened
+0x8c92f8 bOnBlackOutOpened
+0x8c93c4 bDoorIsWet
+0x8c9554 _iAreaLeft_GetterFunction
+0x8c95b8 _iAreaLeft_GetterFunction
+0x8c9640 _iAreaLeft_SetterFunction
+0x8c96b4 iAreaLeft
+0x8c9784 _iAreaRight_GetterFunction
+0x8c97e8 _iAreaRight_GetterFunction
+0x8c9870 _iAreaRight_SetterFunction
+0x8c98e4 iAreaRight
+0x8c99b4 aVignettes
+0x8c9a24 SetInteractionParams
+0x8c9a90 SetInteractionParams
+0x8c9b60 CloseDoor
+0x8c9bd4 ForceDoorState
+0x8c9c38 ForceDoorState
+0x8c9cc4 ForceOpenDoor
+0x8c9d28 ForceOpenDoor
+0x8c9db4 LockDoor
+0x8c9eb8 CanBeClosedSafely
+0x8c9fbc UnLockDoor
+0x8ca0c0 OpenDoor
+0x8ca124 OpenDoor
+-----
+0x8cad44 CDoorLifeComponent::CTunableDoorLifeComponent
+0x8cae24 fPhaseDisplacementFactorOverride
+0x8caff8 fIceBlockOffSet
+0x8cb0c4 _bForceAllDoorsOpened_GetterFunction
+0x8cb128 _bForceAllDoorsOpened_GetterFunction
+0x8cb1b0 _bForceAllDoorsOpened_SetterFunction
+0x8cb224 bForceAllDoorsOpened
+-----
+0x8db74c CDoorShieldLifeComponent
+0x8db810 fDamageFXTime
+0x8db8ec sDamageSound
+0x8db9bc sKillSound
+-----
+0x8dd014 CHyperBeamBlockLifeComponent
+-----
+0x8dd9f8 CItemLifeComponent
+0x8ddab8 AddDamageSource
+-----
+0x8e0838 CPowerBombBlockLifeComponent
+-----
+0x8e202c CPowerUpLifeComponent
+0x8e2198 sPowerupNameLabelID
+0x8e2208 SetCustomParams
+-----
+0x8e462c CCharClassLightingComponent
+0x8e46ec sLightsDefPath
+0x8e4764 _bOverrideDisableInEditor_GetterFunction
+0x8e47c8 _bOverrideDisableInEditor_GetterFunction
+0x8e4850 _bOverrideDisableInEditor_SetterFunction
+-----
+0x8e4cd0 CLightingComponent
+-----
+0x8e7d2c CDirLightComponent
+0x8e7df0 _vDir_GetterFunction
+0x8e7e5c _vDir_GetterFunction
+0x8e7ee8 _vDir_SetterFunction
+0x8e807c _fAnimFrame_GetterFunction
+0x8e80e0 _fAnimFrame_GetterFunction
+0x8e8168 _fAnimFrame_SetterFunction
+0x8e81dc fAnimFrame
+0x8e8250 _bCastShadows_GetterFunction
+0x8e82b4 _bCastShadows_GetterFunction
+0x8e833c _bCastShadows_SetterFunction
+0x8e83b0 bCastShadows
+-----
+0x8e9940 CBaseLightComponent
+0x8e9a00 _vLightPos_GetterFunction
+0x8e9a6c _vLightPos_GetterFunction
+0x8e9af8 _vLightPos_SetterFunction
+0x8e9b6c vLightPos
+0x8e9be0 _fIntensity_GetterFunction
+0x8e9c44 _fIntensity_GetterFunction
+0x8e9ccc _fIntensity_SetterFunction
+0x8e9d40 fIntensity
+0x8e9db4 _fVIntensity_GetterFunction
+0x8e9e18 _fVIntensity_GetterFunction
+0x8e9ea0 _fVIntensity_SetterFunction
+0x8e9f14 fVIntensity
+0x8e9f88 _fFIntensity_GetterFunction
+0x8e9fec _fFIntensity_GetterFunction
+0x8ea074 _fFIntensity_SetterFunction
+0x8ea0e8 fFIntensity
+0x8ea15c _vAmbient_GetterFunction
+0x8ea1c0 _vAmbient_GetterFunction
+0x8ea24c _vAmbient_SetterFunction
+0x8ea2c0 vAmbient
+0x8ea334 _vDiffuse_GetterFunction
+0x8ea398 _vDiffuse_GetterFunction
+0x8ea424 _vDiffuse_SetterFunction
+0x8ea498 vDiffuse
+0x8ea540 _vSpecular0_GetterFunction
+0x8ea5a4 _vSpecular0_GetterFunction
+0x8ea630 _vSpecular0_SetterFunction
+0x8ea6a4 vSpecular0
+0x8ea718 _vSpecular1_GetterFunction
+0x8ea77c _vSpecular1_GetterFunction
+0x8ea808 _vSpecular1_SetterFunction
+0x8ea87c vSpecular1
+0x8ea8f0 _bVertexLight_GetterFunction
+0x8ea954 _bVertexLight_GetterFunction
+0x8ea9dc _bVertexLight_SetterFunction
+0x8eaa50 bVertexLight
+0x8eaac4 _eLightPreset_GetterFunction
+0x8eab28 _eLightPreset_GetterFunction
+0x8eabb4 _eLightPreset_SetterFunction
+0x8eac28 eLightPreset
+0x8eac9c _vLightPresetParams_GetterFunction
+0x8ead00 _vLightPresetParams_GetterFunction
+0x8ead8c _vLightPresetParams_SetterFunction
+0x8eae00 vLightPresetParams
+0x8eae74 _bSubstractive_GetterFunction
+0x8eaed8 _bSubstractive_GetterFunction
+0x8eaf60 _bSubstractive_SetterFunction
+0x8eafd4 bSubstractive
+0x8eb048 _bUseFaceCull_GetterFunction
+0x8eb0ac _bUseFaceCull_GetterFunction
+0x8eb134 _bUseFaceCull_SetterFunction
+0x8eb1a8 bUseFaceCull
+0x8eb21c _bUseSpecular_GetterFunction
+0x8eb280 _bUseSpecular_GetterFunction
+0x8eb308 _bUseSpecular_SetterFunction
+0x8eb37c bUseSpecular
+-----
+0x8ed600 COmniLightComponent
+0x8ed6c4 _fAttMin_GetterFunction
+0x8ed730 _fAttMin_GetterFunction
+0x8ed7b8 _fAttMin_SetterFunction
+0x8ed82c fAttMin
+0x8ed8dc fAttMax
+0x8ed944 _fAttMax_GetterFunction
+0x8ed9a8 _fAttMax_GetterFunction
+0x8eda30 _fAttMax_SetterFunction
+0x8edaa4 fAttMax
+0x8edb54 fAttMin
+0x8edbbc _fAttConstantFactor_GetterFunction
+0x8edc20 _fAttConstantFactor_GetterFunction
+0x8edca8 _fAttConstantFactor_SetterFunction
+0x8edd1c fAttConstantFactor
+0x8edde4 _fAttQuadraticFactor_GetterFunction
+0x8ede48 _fAttQuadraticFactor_GetterFunction
+0x8eded0 _fAttQuadraticFactor_SetterFunction
+0x8edf44 fAttQuadraticFactor
+0x8ee00c _bCastShadows_GetterFunction
+0x8ee070 _bCastShadows_GetterFunction
+0x8ee0f8 _bCastShadows_SetterFunction
+0x8ee16c bCastShadows
+0x8ee1e0 _bStaticShadows_GetterFunction
+0x8ee244 _bStaticShadows_GetterFunction
+0x8ee2cc _bStaticShadows_SetterFunction
+0x8ee340 bStaticShadows
+0x8ee3b4 _fShadowScl_GetterFunction
+0x8ee418 _fShadowScl_GetterFunction
+0x8ee4a0 _fShadowScl_SetterFunction
+0x8ee514 fShadowScl
+-----
+0x8f00e0 CSegmentLightComponent
+0x8f01a4 _vDir_GetterFunction
+0x8f0210 _vDir_GetterFunction
+0x8f029c _vDir_SetterFunction
+0x8f03e4 _fSegmentLength_GetterFunction
+0x8f0448 _fSegmentLength_GetterFunction
+0x8f04d0 _fSegmentLength_SetterFunction
+0x8f0544 fSegmentLength
+0x8f05ec _fAttMin_GetterFunction
+0x8f0650 _fAttMin_GetterFunction
+0x8f06d8 _fAttMin_SetterFunction
+0x8f074c fAttMin
+0x8f07f8 fAttMax
+0x8f0860 _fAttMax_GetterFunction
+0x8f08c4 _fAttMax_GetterFunction
+0x8f094c _fAttMax_SetterFunction
+0x8f09c0 fAttMax
+0x8f0a70 fAttMin
+0x8f0ad8 _fAttConstantFactor_GetterFunction
+0x8f0b3c _fAttConstantFactor_GetterFunction
+0x8f0bc4 _fAttConstantFactor_SetterFunction
+0x8f0c38 fAttConstantFactor
+0x8f0d00 _fAttQuadraticFactor_GetterFunction
+0x8f0d64 _fAttQuadraticFactor_GetterFunction
+0x8f0dec _fAttQuadraticFactor_SetterFunction
+0x8f0e60 fAttQuadraticFactor
+-----
+0x8f2d20 CSpotLightComponent
+0x8f2de4 _fAttMin_GetterFunction
+0x8f2e50 _fAttMin_GetterFunction
+0x8f2ed8 _fAttMin_SetterFunction
+0x8f2f4c fAttMin
+0x8f2ffc fAttMax
+0x8f3064 _fAttMax_GetterFunction
+0x8f30c8 _fAttMax_GetterFunction
+0x8f3150 _fAttMax_SetterFunction
+0x8f31c4 fAttMax
+0x8f3274 fAttMin
+0x8f32dc _fAttIn_GetterFunction
+0x8f3340 _fAttIn_GetterFunction
+0x8f33c8 _fAttIn_SetterFunction
+0x8f343c fAttIn
+0x8f34e4 _fAttOut_GetterFunction
+0x8f3548 _fAttOut_GetterFunction
+0x8f35d0 _fAttOut_SetterFunction
+0x8f3644 fAttOut
+0x8f36ec _fAttConstantFactor_GetterFunction
+0x8f3750 _fAttConstantFactor_GetterFunction
+0x8f37d8 _fAttConstantFactor_SetterFunction
+0x8f384c fAttConstantFactor
+0x8f3914 _fAttQuadraticFactor_GetterFunction
+0x8f3978 _fAttQuadraticFactor_GetterFunction
+0x8f3a00 _fAttQuadraticFactor_SetterFunction
+0x8f3a74 fAttQuadraticFactor
+0x8f3b3c _vDir_GetterFunction
+0x8f3ba0 _vDir_GetterFunction
+0x8f3c2c _vDir_SetterFunction
+0x8f3d98 _fAnimFrame_GetterFunction
+0x8f3dfc _fAnimFrame_GetterFunction
+0x8f3e84 _fAnimFrame_SetterFunction
+0x8f3ef8 fAnimFrame
+0x8f3f6c _bCastShadows_GetterFunction
+0x8f3fd0 _bCastShadows_GetterFunction
+0x8f4058 _bCastShadows_SetterFunction
+0x8f40cc bCastShadows
+0x8f4140 _vShadowNearFar_GetterFunction
+0x8f41a4 _vShadowNearFar_GetterFunction
+0x8f4230 _vShadowNearFar_SetterFunction
+0x8f42a4 vShadowNearFar
+0x8f4348 _fShadowBias_GetterFunction
+0x8f43ac _fShadowBias_GetterFunction
+0x8f4434 _fShadowBias_SetterFunction
+0x8f44a8 fShadowBias
+0x8f4578 _bStaticShadows_GetterFunction
+0x8f45dc _bStaticShadows_GetterFunction
+0x8f4664 _bStaticShadows_SetterFunction
+0x8f46d8 bStaticShadows
+0x8f474c _fShadowScl_GetterFunction
+0x8f47b0 _fShadowScl_GetterFunction
+0x8f4838 _fShadowScl_SetterFunction
+0x8f48ac fShadowScl
+0x8f49a4 _bHasProjectorTexture_GetterFunction
+0x8f4a08 _bHasProjectorTexture_GetterFunction
+0x8f4a90 _bHasProjectorTexture_SetterFunction
+0x8f4b04 bHasProjectorTexture
+0x8f4b78 _sTexturePath_GetterFunction
+0x8f4bdc _sTexturePath_GetterFunction
+0x8f4c68 _sTexturePath_SetterFunction
+0x8f4cdc sTexturePath
+0x8f4d50 _vProjectorUVScroll_GetterFunction
+0x8f4db4 _vProjectorUVScroll_GetterFunction
+0x8f4e40 _vProjectorUVScroll_SetterFunction
+0x8f4eb4 vProjectorUVScroll
+-----
+0x8f8608 CCharClassLavaPoolComponent
+0x8f86cc fDamagePerTime
+0x8f8778 fInBetweenDamageTime
+0x8f8818 fInitTimeDamageIncrease
+0x8f88b8 fDamageIncreaseAmount
+0x8f8954 fMaxDamage
+0x8f89f8 sLevelChangeEasingFunction
+-----
+0x8f91f8 CLavaPoolComponent
+0x8f92b8 oConfig
+0x8f9330 fChangeTime
+-----
+0x8fba18 CCharClassLiquidPoolComponent
+0x8fbadc sLiquidMaterial0
+0x8fbbd8 sLiquidMaterial1
+0x8fbcc4 sSolidMaterial0
+0x8fbdb0 sSolidMaterial1
+-----
+0x8fc088 CLiquidPoolBaseComponent
+0x8fc14c _m_sModelPath_GetterFunction
+0x8fc1b8 _m_sModelPath_GetterFunction
+0x8fc244 _m_sModelPath_SetterFunction
+0x8fc2b8 sModelPath
+0x8fc3b0 eLowPassFilter
+0x8fc450 eReverb
+-----
+0x903310 CLiquidSimulationComponent
+-----
+0x904058 CCharClassWaterPoolComponent
+0x90411c fDamagePerTime
+0x9041c4 fInBetweenDamageTime
+0x904260 fInitTimeDamageIncrease
+0x904300 fDamageIncreaseAmount
+0x90439c fMaxDamage
+-----
+0x904628 CWaterPoolComponent
+0x9046ec vWaterLevelChanges
+0x904764 tFloatingEntities
+0x9047d4 sOnActivatedLuaCallback
+0x9048d8 bChangedLevelOnCooldownEvent
+-----
+0x90be50 CSoundListenerComponent
+0x90bf10 _vLookAt_GetterFunction
+0x90bf7c _vLookAt_GetterFunction
+0x90c008 _vLookAt_SetterFunction
+-----
+0x90ca88 CLogicActionTriggerComponent
+-----
+0x90dd7c CLogicCameraComponent
+0x90de38 rLogicCamera
+0x90deb0 GetLogicCamera
+0x90df14 GetLogicCamera
+-----
+0x90f1c4 CLogicLookAtPlayerComponent
+-----
+0x90fb40 CLogicPathComponent
+0x90fcf4 AfterPathDeserialization
+0x90fd5c AfterPathDeserialization
+0x90fdc0 AfterPathDeserialization
+-----
+0x910494 CLogicShapeComponent
+0x910680 AfterShapeDeserialization
+0x9106e8 bWantsToGenerateNavMeshEdges
+0x910788 AfterShapeDeserialization
+0x9107ec AfterShapeDeserialization
+0x910878 IsActorInside
+-----
+0x914dc4 CMagmaKraidScenarioControllerComponent
+0x914f34 wpPistonEntity
+-----
+0x9159b0 CMagmaKraidPistonPlatformComponent
+-----
+0x91754c CMagmaKraidSpikeComponent
+-----
+0x917ad0 CMagnetSlidingBlockCounterWeightMovablePlatformComponent
+0x917b8c wpReferenceEntity
+-----
+0x9182c0 CMagnetMovablePlatformComponent
+-----
+0x918b60 CCharClassMagnetSlidingBlockComponent
+0x918c24 bFreezeOnFinish
+0x918cf8 bActiveRailCameraOnFinish
+0x918dc0 fMinMovementPercentToForceContinueMovingOnStopHang
+-----
+0x919230 CCharClassHydrogigaZiplineComponent
+0x919410 fWaterLevelToSlowDownBeforeUnderwater
+0x9194b4 fWaterLevelToConsiderUnderwater
+0x91955c fTimeToMatchMovementMultiplierGoingBackToStartUnderwater
+-----
+0x919a60 CHydrogigaZiplineComponent
+-----
+0x91a8a0 CHydrogigaZiplineRailComponent
+-----
+0x91b2a8 CMagnetSlidingBlockComponent
+0x91b370 fTimePreparingToOpen
+0x91b444 fTimeToCompleteMovementTowardsEnd
+0x91b50c fTimeToCompleteMovementTowardsStart
+0x91b5d8 bContinueMovingOnStopHang
+0x91b744 wpDoorOpeningOnAnimatedCamera
+0x91b7dc fTotalMetersToMoveY
+0x91b8e8 fTimeToOpen
+0x91b9e4 bAutoOpenAfterPreparing
+-----
+0x91f95c CMagnetSlidingBlockWithCollisionsComponent
+-----
+0x9205e8 CMagnetSlidingBlockRailComponent
+-----
+0x920c20 CCharClassMagnetSurfaceHuskComponent
+0x920ce4 sHuskName
+0x920dd8 sBrokenHuskName
+-----
+0x9210b0 CCharClassMagnetSurfaceHuskComponent::CTunableCharClassMagnetSurfaceHuskComponent
+0x921190 fTimeToRespawn
+0x92123c fTimeToRespawnAfterMagnet
+-----
+0x921c58 CMagnetSurfaceComponent
+-----
+0x9225e0 CMagnetSurfaceHuskComponent
+-----
+0x923a1c CMaterialFXComponent
+-----
+0x9255c0 CCharClassMeleeComponent
+0x925684 _m_bAutoLockOnMelee_GetterFunction
+0x9256f0 _m_bAutoLockOnMelee_GetterFunction
+0x925778 _m_bAutoLockOnMelee_SetterFunction
+0x925894 sMeleeKillFX
+0x925938 sMeleeKillSound
+-----
+0x92630c CMeleeComponent
+0x9263cc sBlockSyncFX
+-----
+0x92fbd0 CCharClassMenuAnimationChangeComponent
+-----
+0x92ffc0 CMenuAnimationChangeComponent
+-----
+0x9339c8 CModelInstanceComponent
+0x933a8c _m_sModelPath_GetterFunction
+0x933af8 _m_sModelPath_GetterFunction
+0x933b84 _m_sModelPath_SetterFunction
+0x933bf8 sModelPath
+0x933d08 _m_vScale_GetterFunction
+0x933d6c _m_vScale_GetterFunction
+0x933df8 _m_vScale_SetterFunction
+0x933e6c vScale
+-----
+0x934f7c CMultiModelUpdaterComponent
+0x935040 _sModelAlias_GetterFunction
+0x9350ac _sModelAlias_GetterFunction
+0x935138 _sModelAlias_SetterFunction
+0x9351ac sModelAlias
+0x9352f0 SetVertexLightsEnabled
+-----
+0x937300 CSamusModelUpdaterComponent
+0x9373c0 UpdateCurrentPrimaryWeaponColor
+-----
+0x94deb0 CCharClassMovablePlatformComponent
+0x94df70 sMovableColliderId
+0x94e07c bDisableOnActivatedOnLoadScenario
+-----
+0x94e5f0 CCharClassWeightActivableMovablePlatformComponent
+0x94e6b0 sActionOnActivated
+-----
+0x94ec20 CMovablePlatformComponent
+-----
+0x950438 CWeightActivableMovablePlatformComponent
+0x9504f8 sOnActivatedLuaCallback
+-----
+0x978278 CCharClassMovementComponent
+0x97833c _m_fPhysicsVelocityFriction_GetterFunction
+0x9783a8 _m_fPhysicsVelocityFriction_GetterFunction
+0x978430 _m_fPhysicsVelocityFriction_SetterFunction
+0x9784a4 fPhysicsVelocityFriction
+0x978574 fGravityScalar
+-----
+0x9b47b0 CCharClassAnimationNavMeshItemComponent
+0x9b4870 sAnimationId
+-----
+0x9b4da0 CAnimationNavMeshItemComponent
+0x9b4e5c CreateAnimationStage
+0x9b4ed8 AddStageColliderWithOffSet
+0x9b4f3c AddStageColliderWithOffSet
+-----
+0x9b6e50 CChangeStageNavMeshItemComponent
+0x9b6f0c RefreshNavMeshState
+0x9b6f78 RefreshNavMeshState
+-----
+0x9b8324 CCharClassChangeStageNavMeshItemComponent
+0x9b83e8 sStage
+0x9b84f4 sRemovedStage
+-----
+0x9b8e8c CCharClassNavMeshItemComponent
+0x9b8f50 sInitialStage
+0x9b905c eType
+0x9b9124 bConnectSubareas
+-----
+0x9b9884 CCharClassTriggerNavMeshItemComponent
+-----
+0x9b9c70 CCharClassLogicPathNavMeshItemComponent
+-----
+0x9ba060 CLogicPathNavMeshItemComponent
+0x9ba11c CreateLogicPathStage
+0x9ba198 AddStageColliderWithOffSet
+0x9ba1fc AddStageColliderWithOffSet
+-----
+0x9bb160 CNavMeshItemComponent
+0x9bb224 AddDefaultCollider
+0x9bb2a0 CreateStage
+0x9bb314 AddStageCollider
+0x9bb380 AddStageCollider
+0x9bb40c SetStageSide
+0x9bb470 SetStageSide
+0x9bb4fc ChangeStage
+0x9bb570 OverrideInitialStage
+0x9bb5e4 SetStage
+-----
+0x9c4290 CTriggerNavMeshItemComponent
+0x9c434c CreateTriggerStage
+-----
+0x9c4fec CCharClassPerceptionComponent
+-----
+0x9c5770 CPerceptionComponent
+-----
+0x9c60e0 CCharClassPersistenceComponent
+0x9c61a0 _sBoolProperty_GetterFunction
+0x9c6214 _sBoolProperty_GetterFunction
+0x9c629c _sBoolProperty_SetterFunction
+0x9c6310 sBoolProperty
+0x9c6388 _sIntProperty_GetterFunction
+0x9c63ec _sIntProperty_GetterFunction
+0x9c6474 _sIntProperty_SetterFunction
+0x9c64e8 sIntProperty
+0x9c6560 _sFloatProperty_GetterFunction
+0x9c65c4 _sFloatProperty_GetterFunction
+0x9c664c _sFloatProperty_SetterFunction
+0x9c66c0 sFloatProperty
+0x9c6734 _sSection_GetterFunction
+0x9c6798 _sSection_GetterFunction
+0x9c6824 _sSection_SetterFunction
+0x9c6898 sSection
+-----
+0x9c7850 CPersistenceComponent
+-----
+0x9c97b8 CCharClassPickableComponent
+0x9c987c sOnPickFX
+0x9c992c sOnPickCaption
+0x9c99c8 sOnPickEnergyFragment1Caption
+0x9c9a68 sOnPickEnergyFragment2Caption
+0x9c9b04 sOnPickEnergyFragment3Caption
+0x9c9ba4 sOnPickEnergyFragmentCompleteCaption
+0x9c9c40 sOnPickTankUnknownCaption
+-----
+0x9ca300 CPickableComponent
+0x9ca3c4 sOnPickFX
+0x9ca4a0 OnPickUpAfterCutScene
+0x9ca504 OnPickUpAfterCutScene
+-----
+0x9cbd38 CPickableItemComponent
+0x9cbf18 sBTHiddenSceneGroup
+0x9cc014 SetCustomParams
+0x9cc118 OnItemEnd
+0x9cc21c fTimeToCanBePicked
+0x9cc2e8 sStartPoint
+-----
+0x9d27dc CPickableSpringBallComponent
+-----
+0x9d2d00 CPickableSuitComponent
+-----
+0x9d3180 CFrozenPlatformComponent
+-----
+0x9d5604 CRotationalPlatformComponent
+0x9d5770 eRotationDirection
+-----
+0x9d71d0 CCharClassRumbleComponent
+-----
+0x9d75c0 CRumbleComponent
+-----
+0x9eedd8 CSceneComponent
+-----
+0x9ef250 CCharClassSceneModelAnimationComponent
+-----
+0x9f0150 CSceneModelAnimationComponent
+0x9f0210 _sModelAnim_GetterFunction
+0x9f027c _sModelAnim_GetterFunction
+0x9f0308 _sModelAnim_SetterFunction
+0x9f037c sModelAnim
+-----
+0x9f0e90 CShockWaveComponent
+-----
+0x9f30a8 CShockWavePoolComponent
+-----
+0x9f5ff8 CCharClassShotComponent
+0x9f60b0 vLaunchShotConfigs
+-----
+0x9f66b0 CShotComponent
+-----
+0x9fd830 CSmartObjectComponent
+0x9fd8f4 _m_sOnUseStart_GetterFunction
+0x9fd960 _m_sOnUseStart_GetterFunction
+0x9fd9ec _m_sOnUseStart_SetterFunction
+0x9fda60 sOnUseStart
+0x9fdb68 _m_sOnUseFailure_GetterFunction
+0x9fdbcc _m_sOnUseFailure_GetterFunction
+0x9fdc58 _m_sOnUseFailure_SetterFunction
+0x9fdccc sOnUseFailure
+0x9fddcc _m_sOnUseSuccess_GetterFunction
+0x9fde30 _m_sOnUseSuccess_GetterFunction
+0x9fdebc _m_sOnUseSuccess_SetterFunction
+0x9fdf30 sOnUseSuccess
+0x9fe030 _m_sUsableEntity_GetterFunction
+0x9fe094 _m_sUsableEntity_GetterFunction
+0x9fe120 _m_sUsableEntity_SetterFunction
+0x9fe194 sUsableEntity
+0x9fe294 _m_sDefaultUseAction_GetterFunction
+0x9fe2f8 _m_sDefaultUseAction_GetterFunction
+0x9fe384 _m_sDefaultUseAction_SetterFunction
+0x9fe3f8 sDefaultUseAction
+0x9fe4e8 _m_sDefaultAbortAction_GetterFunction
+0x9fe54c _m_sDefaultAbortAction_GetterFunction
+0x9fe5d8 _m_sDefaultAbortAction_SetterFunction
+0x9fe64c sDefaultAbortAction
+0x9fe73c _m_bStartEnabled_GetterFunction
+0x9fe7a0 _m_bStartEnabled_GetterFunction
+0x9fe828 _m_bStartEnabled_SetterFunction
+0x9fe944 fInterpolationTime
+0x9fea10 OnLevelChangeUse
+0x9fea84 SetUseState
+0x9feb88 OnUseAccepted
+0x9fec8c OnUseDeclined
+0x9fed90 OnUseContinued
+0x9fee94 RefreshUsableEntity
+-----
+0xa03228 CReturnAreaSmartObjectComponent
+-----
+0xa040d0 CUnlockAreaSmartObjectComponent
+-----
+0xa04350 CUnlockAreaSmartObjectComponent::CTunableUnlockAreaSmartObjectComponent
+0xa04430 fIgnoreInputTime
+0xa0450c sDialogID
+-----
+0xa05718 CCharClassWeightActivatedPlatformSmartObjectComponent
+0xa057d8 sActionLayer
+-----
+0xa05ea8 CWeightActivatedPlatformSmartObjectComponent
+0xa05f6c sDustFX
+0xa06048 bDisableWhenEmmyNearby
+0xa06110 bDisableWhenUsed
+0xa061dc SetStateAfterCutScene
+0xa06248 SetStateAfterCutScene
+0xa062cc SetStateDuringFakeAdamDialogueCutScene
+0xa06330 SetStateDuringFakeAdamDialogueCutScene
+-----
+0xa0b1dc CBreakableTileGroupSonarTargetComponent
+-----
+0xa0cc3c CDemolitionBlockSonarTargetComponent
+-----
+0xa0dd9c CSonarTargetComponent
+-----
+0xa0e2d4 CBossSpawnGroupComponent
+0xa0e38c sBossBattleLabel
+-----
+0xa0ea60 CMassiveCaterzillaSpawnGroupComponent
+0xa0eb24 fTimeToSpawn
+0xa0ebd0 fTimeToSpawnAfterDespawn
+0xa0ec70 iNumCaterzillas
+-----
+0xa0f868 CSwifterSpawnGroupComponent
+0xa0f92c _m_eDirection_GetterFunction
+0xa0f9a0 _m_eDirection_GetterFunction
+0xa0fa24 _m_eDirection_SetterFunction
+0xa0fb3c eMode
+0xa0fbd8 fTimeToSpawn
+-----
+0xa113ec CAutsharpSpawnPointComponent
+0xa114b0 eSpawnDir
+0xa11558 wpSpawnShape
+-----
+0xa12598 CAutsniperSpawnPointComponent
+0xa12658 eSpawnDir
+-----
+0xa1322c CCaterzillaSpawnPointComponent
+0xa132f0 eSpawnDir
+0xa13394 eSpawnOrder
+0xa13430 NumCaterzillas
+0xa134d4 fTimeToGenerateNextWave
+0xa13574 wpSpawnPointLinked
+0xa13618 fTimeToRespawnAllCaterzillas
+0xa136b8 aHomeLandmarks
+0xa13728 bInOutSpawnPoint
+-----
+0xa15600 CChozoZombieXSpawnPointComponent
+-----
+0xa16a58 CEmmySpawnPointComponent
+0xa16b14 AddPatrolShape
+-----
+0xa17360 CGobblerSpawnPointComponent
+0xa17424 _m_wpDoor_GetterFunction
+0xa17498 _m_wpDoor_GetterFunction
+0xa17520 _m_wpDoor_SetterFunction
+0xa17640 _m_wpWeb_GetterFunction
+0xa176a4 _m_wpWeb_GetterFunction
+0xa1772c _m_wpWeb_SetterFunction
+-----
+0xa18730 CRockDiverSpawnPointComponent
+0xa187ec fTimeToSpawn
+-----
+0xa18fd0 CSabotoruSpawnPointComponent
+0xa19094 _m_wpDoor_GetterFunction
+0xa19100 _m_wpDoor_GetterFunction
+0xa19190 _m_wpDoor_SetterFunction
+0xa192ac _m_wpHomeLandmark_GetterFunction
+0xa19310 _m_wpHomeLandmark_GetterFunction
+0xa193a0 _m_wpHomeLandmark_SetterFunction
+0xa19414 wpHomeLandmark
+0xa194b4 bRightSideDoor
+-----
+0xa1a6dc CSlidleSpawnPointComponent
+0xa1a79c eDespawnDir
+-----
+0xa1af24 CSlowNailongSpawnPointComponent
+-----
+0xa1b360 CSpecialEnergyComponent::CTunableSpecialEnergyComponent
+0xa1b440 fTimeToStartEnergyRecover
+0xa1b4ec fTimeToRecoverAllEnergy
+0xa1b58c fTimeToRecoverAllEnergyGhostDash
+0xa1b62c fTimeToRecoverAllEnergyOpticalCamuflage
+0xa1b6cc fTimeToRecoverAllEnergyOpticalCamuflageNotMoving
+0xa1b770 fTimeToRecoverAllEnergySonar
+-----
+0xa1bcf4 CSpecialEnergyComponent
+0xa1bdb8 Fill
+0xa1bec4 _fMaxEnergy_GetterFunction
+0xa1bf28 _fMaxEnergy_GetterFunction
+0xa1bfb0 _fMaxEnergy_SetterFunction
+0xa1c024 fMaxEnergy
+0xa1c0f8 fEnergy
+0xa1c1c0 _fEnergy_GetterFunction
+0xa1c224 _fEnergy_GetterFunction
+0xa1c32c _fEnergy_SetterFunction
+0xa1c420 _m_bSpecialEnergyLocked_GetterFunction
+0xa1c484 _m_bSpecialEnergyLocked_GetterFunction
+0xa1c50c _m_bSpecialEnergyLocked_SetterFunction
+0xa1c580 bSpecialEnergyLocked
+-----
+0xa1fee0 CFreezeRoomComponent
+0xa1ffa4 oFreezeConfig
+0xa2001c oCoolConfig
+0xa2008c sEnterZoneSound
+0xa201f4 sVisualPresetOverride
+-----
+0xa23210 CHeatRoomComponent
+0xa232d4 oHeatConfig
+0xa2334c oCoolConfig
+0xa233bc sEnterZoneSound
+0xa23524 sVisualPresetOverride
+0xa23720 vEnvironmentFXActors
+-----
+0xa2601c CNoFreezeRoomComponent
+-----
+0xa264c0 CThermalReactionComponent
+-----
+0xa26e2c CLavapumpThermalReactionComponent
+-----
+0xa279ac CTimelineComponent
+0xa27b8c eNextPolicy
+0xa27c88 fMinDelayTime
+0xa27d84 fMaxDelayTime
+0xa27e80 StartAction
+0xa27ee4 StartAction
+0xa27f78 EndAction
+-----
+0xa2c468 CCutsceneTriggerComponent
+0xa2c52c lnkTargetCutsceneActor
+-----
+0xa2cd40 CCharClassSoundProofTriggerComponent
+-----
+0xa2cfc0 CSoundProofTriggerComponent
+0xa2d084 eLowPassFilterToApply
+0xa2d12c fFadeInTime
+0xa2d1cc fFadeOutTime
+0xa2d26c bMuteActors
+0xa2d308 bFilterSpecificActors
+0xa2d3a8 vActorsToIgnore
+-----
+0xa40570 CCharClassTunnelTrapMorphballComponent
+0xa4062c bEnableFinalCollisionOnClose
+-----
+0xa408b8 CTunnelTrapMorphballComponent
+0xa40978 aVignettes
+0xa409f0 SetOpenState
+0xa40a54 SetOpenState
+0xa40ae0 bDisableCloseTrapSensor
+-----
+0xa42150 ForcedMovementAreaComponent
+-----
+0xa42c14 CCharClassBaseDamageTriggerComponent
+-----
+0xa42e94 CBaseDamageTriggerComponent
+-----
+0xa43960 CCharClassBaseTriggerComponent
+-----
+0xa43be0 CBaseTriggerComponent
+0xa43ca4 IsPlayerInside
+0xa43db0 bCheckAllEntities
+0xa43e50 DisableLogic
+0xa43eb4 DisableLogic
+-----
+0xa46fac CCharClassDamageTriggerComponent
+0xa47070 fDamagePerTime
+0xa4711c sDamagePerTime
+0xa4719c 
+0xa47204 fInBetweenDamageTime
+0xa472a8 fInitTimeDamageIncrease
+0xa47344 fDamageIncreaseAmount
+0xa473e4 fMaxDamage
+0xa47484 _m_sDamageSource_GetterFunction
+0xa474e8 _m_sDamageSource_GetterFunction
+0xa47574 _m_sDamageSource_SetterFunction
+0xa475e8 sDamageSource
+0xa47704 sDamageID
+0xa47894 bContinuousDamageHit
+0xa47930 eForceDamageModeHit
+-----
+0xa48218 CDamageTriggerComponent
+0xa482d0 oConfig
+-----
+0xa48f34 CColliderTriggerComponent
+0xa48ff4 lnkShape
+-----
+0xa4d56c ForcedMovementAreaComponent
+-----
+0xa5921c CTriggerComponent
+0xa592e0 IsPlayerInside
+0xa593ec bCallEntityLuaCallback
+0xa5948c _m_iReverb_GetterFunction
+0xa594f0 _m_iReverb_GetterFunction
+0xa59578 _m_iReverb_SetterFunction
+0xa595ec iReverb
+0xa59694 _m_iLowPassFilter_GetterFunction
+0xa596f8 _m_iLowPassFilter_GetterFunction
+0xa59780 _m_iLowPassFilter_SetterFunction
+0xa597f4 iLowPassFilter
+0xa5989c sOnEnable
+0xa599a0 sOnDisable
+0xa59a9c bOnEnableAlways
+0xa59b3c bOnDisableAlways
+0xa59c7c bCheckAllEntities
+0xa59d18 bPersistentState
+0xa59db8 _sSfxType_GetterFunction
+0xa59e1c _sSfxType_GetterFunction
+0xa59ea8 _sSfxType_SetterFunction
+0xa59f1c sSfxType
+0xa5a01c lstActivationConditions
+0xa5a108 AfterActivationConditionDeserialization
+-----
+0xa5a9e0 CTriggerComponent::CTunableTriggerComponent
+0xa5aac0 iWaterReverb
+0xa5ab6c iWaterLowPassFilter
+0xa5ac0c iLavaReverb
+0xa5acac iLavaLowPassFilter
+-----
+0xa62ba0 CWaterTriggerChangeComponent
+0xa62d14 wpTargetWaterTrigger
+0xa62dac fChangeTime
+0xa62e50 fDelay
+0xa62f90 wpOtherWaterTriggerChange
+0xa63028 fOriginChange
+0xa63134 fTargetChange
+0xa63230 sOnActivatedLuaCallback
+-----
+0xa66d7c CAccessPointCommanderComponent
+-----
+0xa68d8c CAccessPointComponent
+0xa68e4c vDoorsToChange
+0xa68ec4 sInteractionLiteralID
+0xa68fc8 tCaptionList
+0xa690dc ActiveDialogue
+-----
+0xa69458 CAccessPointComponent::CTunableAccessPointComponent
+0xa69538 fLoopGainMax
+0xa69614 fLoopFadeInTime
+0xa696dc fLoopFadeOutTime
+0xa697a8 fLoopReverb
+0xa69874 fVoiceGainMax
+0xa69940 fVoiceFadeInTime
+0xa69a08 fVoiceFadeOutTime
+0xa69ad4 fVoiceReverb
+0xa69ba0 fAdamSpeechVolume
+-----
+0xa73640 CCharClassAccessPointComponent
+0xa73704 sUsePrepareLeftAPNoUsedAction
+0xa737e0 sUsePrepareRightAPNoUsedAction
+0xa738a8 sUseInitAPUsedAction
+0xa73974 sUseAPUsedAction
+0xa73a3c sUsableInitAPUsedAction
+0xa73b08 sSaveRingsOpenAction
+0xa73bd0 sSaveRingsCloseAction
+0xa73c9c sSaveRingLoopAction
+0xa73d64 sUsePrepareLeftAfterDiscoverNoDialogueAction
+0xa73e30 sUsePrepareRightAfterDiscoverNoDialogueAction
+-----
+0xa74620 CAmmoRechargeComponent
+0xa746e4 sRechargeFX
+0xa747c0 sEyeRFX
+0xa74888 sEyeLFX
+-----
+0xa753c0 CCapsuleUsableComponent
+0xa75530 wpSkybase
+-----
+0xa766f8 CCharClassCapsuleUsableComponent
+0xa767bc sCapsuleLeaveAction
+0xa76898 sCapsuleArriveAction
+0xa76960 sSkybaseAction
+-----
+0xa76ef0 CCharClassUsableComponent
+0xa76fbc fGrabInterpTime
+0xa77094 fUseTime
+0xa7715c sUseQuestionID
+0xa77230 sCanNotUseID
+0xa772f8 sUseSuccessMessage
+0xa773c4 sUsePrepareLeftAction
+0xa77494 sUsePrepareRightAction
+0xa77568 sUseInitAction
+0xa77630 sUseAction
+0xa776fc sUseLevelChangeAction
+0xa777c4 sUseEndAction
+0xa77890 sUseIdleAction
+0xa7799c sUsablePrepareToUseAction
+0xa77a64 sUsableInitAction
+0xa77b30 sUsableAction
+0xa77bf8 sUsableLevelChangeAction
+0xa77cc4 sUsableEndAction
+0xa77d8c sUsableIdleAction
+0xa77e80 sUseDiscoverRightAction
+0xa77f48 sUseDiscoverLeftAction
+0xa78014 sUsableDiscoverAction
+0xa780dc sUsableUndiscoverAction
+0xa781a8 sUsePrepareLeftAfterDiscoverAction
+0xa78270 sUsePrepareRightAfterDiscoverAction
+0xa7833c sUseReadyToSaveBackgroundAction
+0xa78404 fDiscoverInterpTime
+0xa784d8 fStationUseInterpTime
+0xa785a4 fStationNotUsedInterpTime
+0xa78674 sStartLevelMusicID
+0xa78718 sSaveSoundID
+0xa787c0 fPostponeFadeInTime
+0xa78890 fFadeInTime
+-----
+0xa79720 CElectricGeneratorComponent
+0xa797e0 eBlackOutZone
+0xa79888 sOnEnterUseLuaCallback
+0xa7998c vAffectedSubAreas
+-----
+0xa7b708 CPowerGeneratorComponent
+0xa7b878 wpPowerGeneratorUsablePlatform
+-----
+0xa7d07c CCharClassElevatorUsableComponent
+0xa7d140 sUsableUpAction
+0xa7d21c sUsableDownAction
+0xa7d2e4 sUsableLevelChangeUpAction
+0xa7d3b0 sUsableLevelChangeDownAction
+-----
+0xa7da40 CElevatorCommanderUsableComponent
+0xa7db00 sTargetSpawnPoint
+-----
+0xa7e94c CElevatorUsableComponent
+0xa7ea10 eDirection
+0xa7eab4 eLoadingScreen
+0xa7eb4c sLevelName
+0xa7ec38 sScenarioName
+0xa7ed24 sTargetSpawnPoint
+0xa7ee10 sMapConnectionId
+0xa7ee80 fMinTimeLoad
+-----
+0xa8026c CLifeRechargeComponent
+0xa80330 sRechargeFX
+0xa8040c sEyeRFX
+0xa804d4 sEyeLFX
+-----
+0xa81000 CCharClassMapAcquisitionComponent
+0xa810c4 sUsePrepareLeftMRNoUsedAction
+0xa811a0 sUsePrepareRightMRNoUsedAction
+0xa81268 sUseInitMRUsedAction
+0xa81334 sUseMRUsedAction
+0xa813fc sUseAfterDownLoadMapAction
+0xa814c8 sUseEndUseAfterDownLoadMapAction
+0xa81590 sUsableInitMRUsedAction
+0xa8165c sSaveRingsOpenAction
+0xa81724 sSaveRingsCloseAction
+0xa817f0 sSaveRingLoopAction
+-----
+0xa82124 CMapAcquisitionComponent
+0xa821e4 sLiteralID
+-----
+0xa85fc8 CCharClassSaveStationUsableComponent
+0xa8608c sSaveFXID
+0xa86168 sStartLevelFXID
+-----
+0xa86790 CSaveStationUsableComponent::CTunableSaveStationUsableComponent
+0xa8686c fTimeMaxSaveInteract
+-----
+0xa86e24 CSaveStationUsableComponent
+-----
+0xa885b8 CCharClassShipRechargeComponent
+0xa8867c sSaveUseQuestionID
+0xa88758 sSaveUseSuccessMessage
+-----
+0xa88bf0 CShipRechargeComponent
+-----
+0xa8ae30 CTeleporterUsableComponent
+0xa8aef4 eLoadingScreen
+0xa8af98 sLevelName
+0xa8b018 c10_samus
+0xa8b080 sScenarioName
+0xa8b16c sTargetSpawnPoint
+0xa8b258 eTeleporterColorSphere
+-----
+0xa8d338 CThermalDeviceComponent
+0xa8d3fc vThermalDoors
+0xa8d474 sOnEnterUseLuaCallback
+0xa8d578 sOnSetupInitialStateLuaCallback
+0xa8d674 sOnSetupUseStateLuaCallback
+0xa8d770 sUseEndActionOverride
+0xa8d86c bCheckpointBeforeUsage
+0xa8d90c _m_ePipeGroup1_GetterFunction
+0xa8d978 _m_ePipeGroup1_GetterFunction
+0xa8d9fc _m_ePipeGroup1_SetterFunction
+0xa8da70 ePipeGroup1
+0xa8db10 _m_ePipeGroup2_GetterFunction
+0xa8db74 _m_ePipeGroup2_GetterFunction
+0xa8dbf8 _m_ePipeGroup2_SetterFunction
+0xa8dc6c ePipeGroup2
+-----
+0xa94150 CTotalRechargeComponent
+0xa94214 sRechargeFX
+0xa942f0 sEyeRFX
+0xa943b8 sEyeLFX
+-----
+0xa94ef0 CCharClassTrainUsableComponent
+0xa94fb4 sUsableLeftAction
+0xa95090 sUsableRightAction
+0xa95158 sUsableLevelChangeLeftAction
+0xa95224 sUsableLevelChangeRightAction
+0xa952ec sUseInitRightAction
+0xa953b8 sUseInitLeftAction
+0xa95480 sUseLeftAction
+0xa9554c sUseRightAction
+0xa95614 sUseLeftLevelChangeAction
+0xa956e0 sUseRightLevelChangeAction
+0xa957a8 sUseLeftEndAction
+0xa95874 sUseRightEndAction
+-----
+0xa9642c CTrainUsableComponent
+0xa964f0 eDirection
+0xa96594 eLoadingScreen
+0xa9662c sLevelName
+0xa96718 sScenarioName
+0xa96804 sTargetSpawnPoint
+0xa968f0 sMapConnectionId
+0xa96960 bAquaLoadingScreen
+-----
+0xa98bc0 CTrainWithPortalUsableComponent
+-----
+0xa99448 CUsableComponent
+0xa9950c bFadeInActived
+0xa995b4 OnCanNotUseAccepted
+0xa996b8 OnUseSuccessAccepted
+0xa997bc Activate
+0xa998c0 Discover
+-----
+0xa99f50 CUsableComponent::CTunableUsableComponent
+0xa9a030 fOnLoadBackGroundTimeMax
+0xa9a104 fDistanceChannelMin
+0xa9a1a4 fDistanceChannelA
+0xa9a248 sForwardChannelA
+0xa9a34c sBackwardChannelA
+0xa9a448 fDistanceChannelB
+0xa9a4ec sForwardChannelB
+0xa9a5e8 sBackwardChannelB
+0xa9a6e4 sForwardChannelC
+0xa9a7e0 sBackwardChannelC
+-----
+0xaa22d4 CWaterPlatformUsableComponent
+0xaa2398 fTotalMetersToFill
+0xaa2494 fSnapToMeters
+0xaa2560 fMetersToBreakValve
+0xaa2654 fTimeToBreakValve
+0xaa2720 fTimeToFillAfterValveBreaks
+0xaa27f0 fPlatformMovementDelaySinceUseStart
+-----
+0xaa490c CVideoManagerComponent
+0xaa4aec sVideo_2_Path
+0xaa4be8 _sVideoAux_1_Path_GetterFunction
+0xaa4c4c _sVideoAux_1_Path_GetterFunction
+0xaa4cd8 _sVideoAux_1_Path_SetterFunction
+0xaa4d4c sVideoAux_1_Path
+0xaa4dc0 _sVideoAux_2_Path_GetterFunction
+0xaa4e24 _sVideoAux_2_Path_GetterFunction
+0xaa4eb0 _sVideoAux_2_Path_SetterFunction
+0xaa4f24 sVideoAux_2_Path
+0xaa4f98 PlayVideos
+0xaa5004 PlayVideos
+0xaa5088 StopVideos
+0xaa50ec StopVideos
+-----
+0xac5f7c CCharClassWeightActivablePropComponent
+-----
+0xac64c8 CWeightActivablePropComponent
+-----
+0xc98584 CBTObserverComponent
+-----
+0x108056c CComponent
+0x1080630 _bEnabled_GetterFunction
+0x108069c _bEnabled_GetterFunction
+0x1080850 _bWantsEnabled_GetterFunction
+0x10808b4 _bWantsEnabled_GetterFunction
+0x108093c _bWantsEnabled_SetterFunction
+0x1080a94 _bUseDefaultValues_GetterFunction
+0x1080af8 _bUseDefaultValues_GetterFunction
+0x1080b80 _bUseDefaultValues_SetterFunction
+-----
+0x108e490 CMovementComponent
+0x108e550 _bIsFlying_GetterFunction
+0x108e5bc _bIsFlying_GetterFunction
+0x108e644 bIsFlying
+-----
+0x109d7dc CCameraComponent
+0x109d8a4 _m_fCurrentInterp_GetterFunction
+0x109d910 _m_fCurrentInterp_GetterFunction
+0x109d998 fCurrentInterp
+0x109daa0 _vCurrentPos_GetterFunction
+0x109db04 _vCurrentPos_GetterFunction
+0x109db90 _vCurrentPos_SetterFunction
+0x109dc04 vCurrentPos
+0x109dce0 _vCurrentDir_GetterFunction
+0x109dd44 _vCurrentDir_GetterFunction
+0x109ddd0 _vCurrentDir_SetterFunction
+0x109de44 vCurrentDir
+0x109df20 _m_fDefaultInterp_GetterFunction
+0x109df84 _m_fDefaultInterp_GetterFunction
+0x109e00c _m_fDefaultInterp_SetterFunction
+0x109e080 fDefaultInterp
+0x109e154 _m_fCurrentInterpChangeSpeed_GetterFunction
+0x109e1b8 _m_fCurrentInterpChangeSpeed_GetterFunction
+0x109e240 _m_fCurrentInterpChangeSpeed_SetterFunction
+0x109e2b4 fCurrentInterpChangeSpeed
+0x109e388 _m_fDefaultNear_GetterFunction
+0x109e3ec _m_fDefaultNear_GetterFunction
+0x109e474 _m_fDefaultNear_SetterFunction
+0x109e4e8 fDefaultNear
+0x109e5fc _m_fDefaultFar_GetterFunction
+0x109e660 _m_fDefaultFar_GetterFunction
+0x109e6e8 _m_fDefaultFar_SetterFunction
+0x109e75c fDefaultFar
+0x109e874 SetLogicCameraParams
+0x109e8d8 SetLogicCameraParams
+0x109e96c GetLogicCameraController
+0x109ea70 bIgnoreSlomo
+0x109eae0 GetCtrl
+-----
+0x10b4b8c CAIComponent
+0x10b4c54 AddPresetLogicPath
+0x10b4cc0 AddPresetLogicPath
+0x10b4d98 AddIdleLogicPath
+0x10b4e50 AddBlackboardParam
+0x10b4f08 sForcedAttack
+0x10b4fdc iForcedAttackPreset
+0x10b50a4 fTimeSinceTargetLastSeen
+0x10b51c0 fTimeSinceLastDamage
+0x10b52a0 fTimeSinceLastFrozen
+0x10b5380 fPathLeftCut
+0x10b5448 fPathRightCut
+0x10b5514 fCutDistanceClockwise
+0x10b55dc fCutDistanceCounterClockwise
+0x10b56a8 wpPathToFollow
+0x10b5744 tFallbackPaths
+0x10b57b4 ePathType
+0x10b5854 bIndividualRequiresActivationPerception
+0x10b58f0 _m_bIgnoreAttack_GetterFunction
+0x10b5954 _m_bIgnoreAttack_GetterFunction
+0x10b59dc _m_bIgnoreAttack_SetterFunction
+0x10b5a50 bIgnoreAttack
+0x10b5b20 bInBlindAttack
+-----
+0x10d5414 CSpawnGroupComponent
+0x10d54dc EnableSpawnGroup
+0x10d5550 EnableSpawnGroup
+0x10d55d4 DisableSpawnGroup
+0x10d5638 DisableSpawnGroup
+0x10d56bc bIsGenerator
+0x10d575c bIsInfinite
+0x10d57f8 iMaxToGenerate
+0x10d5898 iMaxSimultaneous
+0x10d5934 fGenerateEvery
+0x10d59d8 sOnBeforeGenerateEntity
+0x10d5a88 sOnEntityGenerated
+0x10d5b3c sOnEnable
+0x10d5bec sOnDisable
+0x10d5ca0 sOnMaxSimultaneous
+0x10d5d50 sOnMaxGenerated
+0x10d5e04 sOnEntityDead
+0x10d5eb4 sOnEntityDamaged
+0x10d5f68 sOnAllEntitiesDead
+0x10d601c bAutomanaged
+0x10d60b8 bDisableOnAllDead
+0x10d6158 bAutoenabled
+0x10d61f4 bSpawnPointsNotInFrustrum
+0x10d6294 bGenerateEntitiesByOrder
+0x10d6330 sLogicCollisionShapeID
+0x10d6434 wpAreaOfInterest
+0x10d64d8 wpAreaOfInterestEnd
+0x10d656c fDropAmmoProb
+0x10d660c iInitToGenerate
+0x10d66a8 sArenaId
+0x10d67a4 bCheckActiveDrops
+0x10d6844 _m_iNumDeaths_GetterFunction
+0x10d68a8 _m_iNumDeaths_GetterFunction
+0x10d6930 iNumDeaths
+-----
+0x10e18b4 CSpawnPointComponent
+0x10e1980 sOnBeforeGenerate
+0x10e1a50 sOnEntityGenerated
+0x10e1b0c sStartAnimation
+0x10e1c08 bSpawnOnFloor
+0x10e1d48 bCheckCollisions
+0x10e1de8 fTimeToActivate
+0x10e1e84 iMaxNumToGenerate
+0x10e1f28 bAllowSpawnInFrustum
+0x10e20b0 bAutomanaged
+0x10e214c wpSceneShapeId
+0x10e21f0 wpCollisionSceneShapeId
+0x10e2284 wpNavigableShape
+0x10e2320 wpAreaOfInterest
+0x10e23b4 wpAreaOfInterestEnd
+0x10e2450 fTimeOnAOIEndToUseAsMainAOI
+0x10e24f0 fSpawnFromXCellProbability
+0x10e2590 fSpawnFromXCellProbabilityAfterFirst
+0x10e262c eXCellSpawnPositionMode
+0x10e26c8 bUseDynamicSpawnPosition
+0x10e2804 tDynamicSpawnPositions
+0x10e28cc SetDynamicSpawnPositionOverride
+0x10e2940 ResetDynamicSpawnPositionOverride
+0x10e29ac ResetDynamicSpawnPositionOverride
+0x10e2a30 tXCellTransformTargets
+0x10e2af4 wpXCellActivationAreaShape
+0x10e2b8c _sCharClass_GetterFunction
+0x10e2bf0 _sCharClass_GetterFunction
+0x10e2c7c _sCharClass_SetterFunction
+0x10e2cf0 sCharClass
+0x10e2e14 voActorBlueprint
+0x10e2f14 Activate
+0x10e2f78 Activate
+0x10e3000 Deactivate
+0x10e3064 Deactivate
+0x10e30ec AddNewActorBlueprintAt
+0x10e3150 AddNewActorBlueprintAt
+0x10e31e0 DeleteActorBlueprintAt
+0x10e3244 DeleteActorBlueprintAt
+0x10e32cc AfterActorBlueprintDeserialization
+0x10e3330 AfterActorBlueprintDeserialization
+-----
+0x10f1650 CAIAttackComponent
+-----
+0x10f3a00 CAttackComponent
+0x10f3ac4 bRotateToDamagedEntity
+0x10f3b6c fRotateToDamagedEntityMaxAngle
+0x10f3c10 fRotateToDamagedEntityMinAngle
+-----
+0x10f6840 CFactionComponent
+-----
+0x10f796c CScriptComponent
+-----
+0x10f8240 CGrabComponent
+0x10f8304 _bIsInGrab_GetterFunction
+0x10f8370 _bIsInGrab_GetterFunction
+0x10f83f8 bIsInGrab
+-----
+0x10fd878 CInventoryComponent::CTunableInventoryComponent
+0x10fd954 _iMaxNumMissiles_GetterFunction
+0x10fd9c0 _iMaxNumMissiles_GetterFunction
+0x10fda48 _iMaxNumMissiles_SetterFunction
+-----
+0x10fe7c0 CInventoryComponent
+0x10fe884 BindToGameBlackboard
+0x10fe944 SetItemAmount
+0x10fea48 GetItemAmount
+-----
+0x1107c4c CPositionalSoundComponent
+0x1107d10 fMinAtt
+0x1107dc4 fMaxAtt
+0x1107e2c fMaxAtt
+0x1107ed8 fMinAtt
+0x1107f40 fVol
+0x1107fe4 fPitch
+0x1108080 fLaunchEvery
+0x1108120 fHorizontalMult
+0x11081c0 fVerticalMult
+0x1108300 fFadeInTime
+0x11083a8 fFadeOutTime
+0x1108444 _sSound1_GetterFunction
+0x11084a8 _sSound1_GetterFunction
+0x1108530 _sSound1_SetterFunction
+0x11085a4 sSound1
+0x1108618 _sSound2_GetterFunction
+0x110867c _sSound2_GetterFunction
+0x1108704 _sSound2_SetterFunction
+0x1108778 sSound2
+0x11087ec _sSound3_GetterFunction
+0x1108850 _sSound3_GetterFunction
+0x11088d8 _sSound3_SetterFunction
+0x110894c sSound3
+0x11089c0 _sSound4_GetterFunction
+0x1108a24 _sSound4_GetterFunction
+0x1108aac _sSound4_SetterFunction
+0x1108b20 sSound4
+-----
+0x110b374 CFXComponent
+0x110b438 fSelectedHighRadius
+0x110b4e4 fSelectedLowRadius
+0x110b584 SetEffectEmissionEnabled
+0x110b688 SetEffectEnabled
+-----
+0x1116180 CCharacterLifeComponent
+0x1116244 _sImpactAnim_GetterFunction
+0x11162b8 _sImpactAnim_GetterFunction
+0x111633c _sImpactAnim_SetterFunction
+0x11163b0 sImpactAnim
+0x1116454 _sDeadAnim_GetterFunction
+0x11164b8 _sDeadAnim_GetterFunction
+0x111653c _sDeadAnim_SetterFunction
+0x11165b0 sDeadAnim
+-----
+0x1117110 CEnemyLifeComponent
+0x11171d4 _sImpactBackAnim_GetterFunction
+0x1117248 _sImpactBackAnim_GetterFunction
+0x11172cc _sImpactBackAnim_SetterFunction
+0x1117340 sImpactBackAnim
+0x11173e4 _sDeadBackAnim_GetterFunction
+0x1117448 _sDeadBackAnim_GetterFunction
+0x11174cc _sDeadBackAnim_SetterFunction
+0x1117540 sDeadBackAnim
+0x11175dc _sDeadAirAnim_GetterFunction
+0x1117640 _sDeadAirAnim_GetterFunction
+0x11176c4 _sDeadAirAnim_SetterFunction
+0x1117738 sDeadAirAnim
+0x11177d4 _sDeadAirBackAnim_GetterFunction
+0x1117838 _sDeadAirBackAnim_GetterFunction
+0x11178bc _sDeadAirBackAnim_SetterFunction
+0x1117930 sDeadAirBackAnim
+-----
+0x1117d10 CEnemyLifeComponent::CTunableEnemyLifeComponent
+0x1117df0 bEnemiesLifeLocked
+0x1117e98 fOverrideDamage
+-----
+0x111ba84 CLifeComponent
+0x111bc6c SetOnDamageCallback
+0x111bd70 _m_fMaxLife_GetterFunction
+0x111bdd4 _m_fMaxLife_GetterFunction
+0x111be5c _m_fMaxLife_SetterFunction
+0x111bed0 fMaxLife
+0x111c154 fCurrentLife
+0x111c25c _m_fCurrentLife_GetterFunction
+0x111c2c0 _m_fCurrentLife_GetterFunction
+0x111c3c8 _m_fCurrentLife_SetterFunction
+0x111c4bc _m_bCurrentLifeLocked_GetterFunction
+0x111c520 _m_bCurrentLifeLocked_GetterFunction
+0x111c5a8 _m_bCurrentLifeLocked_SetterFunction
+0x111c780 SetInvulnerableWithReaction
+0x111c884 SetInvulnerable
+0x111c988 SetInvulnerableFor
+0x111ca8c ForceDead
+0x111caf0 ForceDead
+-----
+0x111f820 CPlayerLifeComponent
+0x111f9fc sImpactHardAnim
+0x111facc sHardImpactFX
+0x111fba0 _m_fLifeShards_GetterFunction
+0x111fc04 _m_fLifeShards_GetterFunction
+0x111fc8c _m_fLifeShards_SetterFunction
+0x111fd00 fLifeShards
+0x111fd74 StopLifeAlarmSFX
+0x111fdd8 StopLifeAlarmSFX
+-----
+0x11201a8 CPlayerLifeComponent::CTunablePlayerLifeComponent
+0x1120288 fVariaSuitDamageMult
+0x1120360 fGravitySuitDamageMult
+0x112042c fHyperSuitDamageMult
+0x11204fc fHardModeDamageMult
+0x11205c8 fMorphImplulseDefaultDamage
+0x1120698 fOnDeathMusicsFade
+0x1120760 fSlomoInterpTimeDead
+0x112082c fSlomoInterpTimeRevive
+0x11208f4 fPlayerMaxLifeOverride
+0x11209c4 bIgnoreImpact
+-----
+0x1126a4c CCharClassStartPointComponent
+0x1126b08 bProjectOnFloor
+-----
+0x1126d94 CStartPointComponent
+0x1126e58 sOnTeleport
+0x1126f28 sOnTeleportLogicCamera
+0x11270c8 bProjectOnFloor
+0x1127164 bMorphballMode
+0x11272a4 bIsBossStartPoint
+0x1127344 SetSaveGameToCheckpoint
+-----
+0x11292e4 CInterpolationComponent
+-----
+0x112b848 CModelUpdaterComponent
+0x112b90c _m_sDefaultModelPath_GetterFunction
+0x112b978 _m_sDefaultModelPath_GetterFunction
+0x112ba04 _m_sDefaultModelPath_SetterFunction
+0x112ba78 sDefaultModelPath
+0x112bb94 SetMeshVisible
+0x112bc98 LinkTo
+0x112bd9c Unlink
+0x112bea0 SetPosWorldOffset
+0x112bfa4 SetAngWorldOffset
+0x112c0a8 GetNodePosition
+0x112c11c ForceUpdate
+0x112c180 ForceUpdate
+-----
+0x1130b80 CAnimationComponent
+0x1130c44 SetAction
+0x1130d50 SetDefaultLoop
+0x1130e54 HasTrack
+0x1130f58 IsPlayingAnim
+0x1130fcc IsPlayingAnimLike
+0x1131040 ClearActions
+0x11310a4 ClearActions
+0x1131130 SetActionFromEditor
+-----
+0x113b2b0 CAreaSoundComponent
+0x113b378 sOnEnterSound
+0x113b3f0 eOnEnterSoundType
+0x113b490 fEnterVol
+0x113b530 fEnterPitch
+0x113b5d0 fEnterFadeInTime
+0x113b670 fEnterFadeOutTime
+0x113b710 eOnEnterPositional
+0x113b7a8 sLoopSound
+0x113b818 eLoopSoundType
+0x113b8b4 fLoopVol
+0x113b954 fLoopPitch
+0x113b9f4 fLoopPan
+0x113ba90 fLoopFadeInTime
+0x113bb34 fLoopFadeOutTime
+0x113bbd0 sOnExitSound
+0x113bc40 eOnExitSoundType
+0x113bcdc fExitVol
+0x113bd7c fExitPitch
+0x113be1c fExitFadeInTime
+0x113bebc fExitFadeOutTime
+0x113bf5c eOnExitPositional
+-----
+0x113d940 CTargetComponent
+-----
+0x113e060 CTimerComponent
+-----
+0x1167cf0 CCharClassComponent

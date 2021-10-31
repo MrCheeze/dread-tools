@@ -20,6 +20,9 @@ def guess(s):
 for line in f:
     line = line.rstrip('\n')
     guess(line)
+    if line.startswith('m_'):
+        line = line[2:]
+        guess(line)
 
 for c1 in guess_chars:
     guess(c1)
@@ -31,14 +34,22 @@ for c1 in guess_chars:
 
 f.close()
 
-for filename in sorted(glob.glob('savedata/**/*.bmssv',recursive=True)):
-#for filename in ['unpacked/maps/s010_cave/s010_cave/maps/levels/c10_samus/s010_cave/s010_cave.brfld']:
-#for filename in ['tunables.btunda']:
-#for filename in ['dread_exefs/main_uncompressed']:
-    print(filename)
+end_of_last_hash = 0
 
-    if os.path.isdir(f):
+#for filename in sorted(glob.glob('savedata/**/*.bmssv',recursive=True)):
+#for filename in sorted(glob.glob('savedata/**/userdata.bmssv',recursive=True)):
+#for filename in ['unpacked/maps/s010_cave/s010_cave/maps/levels/c10_samus/s010_cave/s010_cave.brfld']:
+for filename in sorted(glob.glob('unpacked/maps/**/*.brsa', recursive=True)):
+#for filename in ['unpacked/maps/s050_forest/s050_forest/maps/levels/c10_samus/s050_forest/s050_forest.brfld']:
+#for filename in sorted(glob.glob('unpacked/system/system/playthrough*/**/*.*',recursive=True)):
+#for filename in ['tunables.btunda']:
+#for filename in ['temp.bin']:
+#for filename in ['savedata/LetsPlayNintendoITA_hundo/1/common.bmssv']:
+
+    if os.path.isdir(filename):
         continue
+
+    print('---',filename,'---')
 
     f=open(filename,'rb')
     data = f.read()
@@ -47,11 +58,16 @@ for filename in sorted(glob.glob('savedata/**/*.bmssv',recursive=True)):
         if testhash in all_hashes:
             if i == 0:
                 print(filename)
+            else:
+                print(data[end_of_last_hash:i])
             good_hashes[testhash] = all_hashes[testhash]
+            print(hex(i), hex(testhash), all_hashes[testhash])
+            end_of_last_hash = i + 8
         else:
             if i == 0:
                 break
     f.close()
+    print(data[end_of_last_hash:])
 
-for k in good_hashes:
-    print(hex(k), good_hashes[k])
+#for k in good_hashes:
+#    print(hex(k), good_hashes[k])

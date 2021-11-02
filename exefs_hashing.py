@@ -54,6 +54,8 @@ def is_bl_hashfunction(addr, inst):
     return get_bl(addr, inst) == 0x1570
 def is_bl_registerfield(addr, inst):
     return get_bl(addr, inst) == 0x96234
+def is_bl_addenumvalue(addr, inst):
+    return get_bl(addr, inst) == 0x148b8
 
 def is_adrp(inst):
     inst = int.from_bytes(inst, 'little')
@@ -160,8 +162,16 @@ if __name__ == '__main__':
     }
 
     f2=open('fields.txt','w')
+    f3=open('enums.txt','w')
+
+    is_newfunc_field = False
+    is_newfunc_enum = False
     
     for i in range(0, len(filedata), 4):
+
+        if filedata[i:i+4] == b'\xc0\x03\x5f\xd6':
+            is_newfunc_field = True
+            is_newfunc_enum = True
 
         if is_adrp(filedata[i:i+4]) and is_add(filedata[i+4:i+8], out_register=1):
             last_adrp_add = i
@@ -177,11 +187,29 @@ if __name__ == '__main__':
             assert instrs_since_add <= 19 or instrs_since_ldr <= 19
             assert not (instrs_since_add <= 19 and instrs_since_ldr <= 19)
 
+            if is_newfunc_field:
+                is_newfunc_field = False
+                f2.write('-----\n')
+
             if instrs_since_add <= 19:
-                f2.write('%X %s\n'%(i, last_add_str))
+                f2.write('%s %s\n'%(hex(i), last_add_str))
             else:
-                f2.write('%X %s\n'%(i, last_ldr_str))
+                f2.write('%s %s\n'%(hex(i), last_ldr_str))
+            
+                
+        if is_bl_addenumvalue(i, filedata[i:i+4]):
+            instrs_since_add = (i - last_adrp_add) // 4
+            
+            assert instrs_since_add <= 8
+
+            if is_newfunc_enum:
+                is_newfunc_enum = False
+                f3.write('-----\n')
+            
+            f3.write('%s %s\n'%(hex(i), last_add_str))
+            
 
     f2.close()
+    f3.close()
     
     

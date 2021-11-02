@@ -4,11 +4,39 @@ def decode_adrp_add(adrp_addr, adrp_inst, add_inst):
     adrp_offset = (adrp_inst & 0x60000000) >> 17
     adrp_offset |= (adrp_inst & 0x00FFFFE0) << 9
 
-    add_inst = add_inst = int.from_bytes(add_inst, 'little')
+    add_inst = int.from_bytes(add_inst, 'little')
 
     add_offset = (add_inst & 0x003FFC00) >> 10
     
     return ((adrp_addr + adrp_offset)&0xFFFFFFF000) + add_offset
+
+def decode_adrp_ldr_ldr(filedata, adrp_addr, adrp_inst, ldr1_inst, ldr2_inst):
+    adrp_inst = int.from_bytes(adrp_inst, 'little')
+
+    adrp_offset = (adrp_inst & 0x60000000) >> 17
+    adrp_offset |= (adrp_inst & 0x00FFFFE0) << 9
+
+    ldr1_inst = int.from_bytes(ldr1_inst, 'little')
+
+    ldr1_offset = (ldr1_inst & 0x003FFC00) >> 7
+
+    ldr2_inst = int.from_bytes(ldr2_inst, 'little')
+
+    ldr2_offset = (ldr2_inst & 0x003FFC00) >> 7
+
+    if ldr2_offset != 0: # not implementeed
+        return 0xFFFFFFFFFFFF
+
+    ptr_offset = ((adrp_addr + adrp_offset)&0xFFFFFFF000) + ldr1_offset
+
+    return ptr_offset
+
+    #ptr = filedata[ptr_offset:ptr_offset + 8]
+    #print(hex(ptr_offset))
+    #assert len(ptr) == 8
+    
+    #ptr = int.from_bytes(ptr, 'little')
+    #return ptr
 
 def get_bl(addr, inst):
     inst = int.from_bytes(inst, 'little')
@@ -24,16 +52,28 @@ def is_bl_hashfunction_caller(addr, inst):
     return get_bl(addr, inst) == 0x3D4
 def is_bl_hashfunction(addr, inst):
     return get_bl(addr, inst) == 0x1570
+def is_bl_registerfield(addr, inst):
+    return get_bl(addr, inst) == 0x96234
 
 def is_adrp(inst):
     inst = int.from_bytes(inst, 'little')
     return (inst & 0x9F000000) == 0x90000000
 
-def is_add(inst):
+def is_add(inst, out_register=None):
     inst = int.from_bytes(inst, 'little')
-    return (inst & 0xFFC00000) == 0x91000000
+    if (inst & 0xFFC00000) != 0x91000000:
+        return False
+    if out_register is not None and (inst & 0x0000001F) != out_register:
+        return False
+    return True
+
+def is_ldr(inst):
+    inst = int.from_bytes(inst, 'little')
+    return (inst & 0xFFC00000) == 0xF9400000
 
 def decode_str(filedata, i):
+    if i >= len(filedata):
+        return '--- UNDEFINED %X ---'%i
     s = ''
     char = ''
     while char != '\x00':
@@ -53,12 +93,15 @@ def is_sub_sp(inst):
     inst = int.from_bytes(inst, 'little')
     return (inst & 0xFFC003FF) == 0xD10003FF
 
+
 if __name__ == '__main__':
 
     f = open('dread_exefs/main_uncompressed','rb')
     f.seek(0x100)
     filedata = f.read()
     f.close()
+
+    '''
 
     newfunction = True
     func_start = 0
@@ -103,3 +146,42 @@ if __name__ == '__main__':
             print(hex(field['readFunc']))
             print(funcs[field['readFunc']]['name'])
         print()
+
+    '''
+
+    last_adrp_add = -1
+    last_adrp_ldr_ldr = -1
+    last_add_str = None
+    last_ldr_str = None
+
+    ldr_map = {
+        0x1C62CF0: 'key',
+        0x1C62D08: 'element',
+    }
+
+    f2=open('fields.txt','w')
+    
+    for i in range(0, len(filedata), 4):
+
+        if is_adrp(filedata[i:i+4]) and is_add(filedata[i+4:i+8], out_register=1):
+            last_adrp_add = i
+            last_add_str = decode_str(filedata, decode_adrp_add(i, filedata[i:i+4], filedata[i+4:i+8]))
+        if is_adrp(filedata[i:i+4]) and is_ldr(filedata[i+4:i+8]) and is_ldr(filedata[i+8:i+12]):
+            last_adrp_ldr_ldr = i
+            key = decode_adrp_ldr_ldr(filedata, i, filedata[i:i+4], filedata[i+4:i+8], filedata[i+8:i+12])
+            last_ldr_str = ldr_map[key] if key in ldr_map else '--- INVALID %X ---'%key
+            
+        if is_bl_registerfield(i, filedata[i:i+4]):
+            instrs_since_add = (i - last_adrp_add) // 4
+            instrs_since_ldr = (i - last_adrp_ldr_ldr) // 4
+            assert instrs_since_add <= 19 or instrs_since_ldr <= 19
+            assert not (instrs_since_add <= 19 and instrs_since_ldr <= 19)
+
+            if instrs_since_add <= 19:
+                f2.write('%X %s\n'%(i, last_add_str))
+            else:
+                f2.write('%X %s\n'%(i, last_ldr_str))
+
+    f2.close()
+    
+    

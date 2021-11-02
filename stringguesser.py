@@ -30,6 +30,7 @@ for c1 in guess_chars:
         guess(c1+c2)
         for c3 in guess_chars:
             guess(c1+c2+c3)
+all_hashes.pop(crc64('YG'))
 
 
 f.close()
@@ -39,12 +40,14 @@ end_of_last_hash = 0
 #for filename in sorted(glob.glob('savedata/**/*.bmssv',recursive=True)):
 #for filename in sorted(glob.glob('savedata/**/userdata.bmssv',recursive=True)):
 #for filename in ['unpacked/maps/s010_cave/s010_cave/maps/levels/c10_samus/s010_cave/s010_cave.brfld']:
-for filename in sorted(glob.glob('unpacked/maps/**/*.brsa', recursive=True)):
+#for filename in sorted(glob.glob('unpacked/maps/**/*.brsa', recursive=True)):
 #for filename in ['unpacked/maps/s050_forest/s050_forest/maps/levels/c10_samus/s050_forest/s050_forest.brfld']:
 #for filename in sorted(glob.glob('unpacked/system/system/playthrough*/**/*.*',recursive=True)):
 #for filename in ['tunables.btunda']:
 #for filename in ['temp.bin']:
 #for filename in ['savedata/LetsPlayNintendoITA_hundo/1/common.bmssv']:
+#for filename in ['unpacked/maps/s010_cave/s010_cave/cutscenes/0005meleetutorial/0005meleetutorial.bmscu']:
+for filename in ['savedata/meleetuto_seen/common.bmssv']:
 
     if os.path.isdir(filename):
         continue

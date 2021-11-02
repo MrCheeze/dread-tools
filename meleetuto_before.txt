@@ -1,0 +1,230 @@
+--- savedata/meleetuto_before/common.bmssv ---
+savedata/meleetuto_before/common.bmssv
+0x0 0x19c88b27662fbed0 CGameBlackboard
+b'\x03\x00\x01\x00'
+0xc 0x346642b50beac5cb Root
+b'\x02\x00\x00\x00'
+0x18 0xdc89e6d436bb122 hashSections
+b'\x07\x00\x00\x00MISSION_LOG\x00'
+0x30 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x3c 0xd7278d3c2cc621ed dctProps
+b'\x02\x00\x00\x00MISSION_LOG:EventsList\x00'
+0x5f 0xd2dcbe71a41ce64d GUI::CMissionLog::TMissionLogEntries
+b'\x03\x00\x00\x00\x03\x00\x00\x00'
+0x6f 0x9884224a42cccf72 eEntryType
+b'\x00\x00\x00\x00'
+0x7b 0xc13f58ff800ad931 sLabelText
+b'#MLOG_INIT\x00'
+0x8e 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x9e 0x9884224a42cccf72 eEntryType
+b'\x01\x00\x00\x00'
+0xaa 0xc13f58ff800ad931 sLabelText
+b'#MLOG_ADAM_CAVE\x00'
+0xc2 0x55a2cca8471af58e vCaptionsIds
+b'\n\x00\x00\x00#DIAG_ADAM_CAVE_1_PAGE_1\x00#DIAG_ADAM_CAVE_1_PAGE_2\x00#DIAG_ADAM_CAVE_1_PAGE_3\x00#DIAG_ADAM_CAVE_1_PAGE_4\x00#DIAG_ADAM_CAVE_1_PAGE_5\x00#DIAG_ADAM_CAVE_1_PAGE_5_B\x00#DIAG_ADAM_CAVE_1_PAGE_6\x00#DIAG_ADAM_CAVE_1_PAGE_6_B\x00#DIAG_ADAM_CAVE_1_PAGE_6_C\x00#DIAG_ADAM_CAVE_1_PAGE_7\x00\x03\x00\x00\x00'
+0x1d2 0x9884224a42cccf72 eEntryType
+b'\x01\x00\x00\x00'
+0x1de 0xc13f58ff800ad931 sLabelText
+b'#MLOG_ADAM_CAVE\x00'
+0x1f6 0x55a2cca8471af58e vCaptionsIds
+b'\n\x00\x00\x00#DIAG_ADAM_CAVE_1_PAGE_1\x00#DIAG_ADAM_CAVE_1_PAGE_2\x00#DIAG_ADAM_CAVE_1_PAGE_3\x00#DIAG_ADAM_CAVE_1_PAGE_4\x00#DIAG_ADAM_CAVE_1_PAGE_5\x00#DIAG_ADAM_CAVE_1_PAGE_5_B\x00#DIAG_ADAM_CAVE_1_PAGE_6\x00#DIAG_ADAM_CAVE_1_PAGE_6_B\x00#DIAG_ADAM_CAVE_1_PAGE_6_C\x00#DIAG_ADAM_CAVE_1_PAGE_7\x00MISSION_LOG:TutosList\x00'
+0x318 0xd2dcbe71a41ce64d GUI::CMissionLog::TMissionLogEntries
+b'\x06\x00\x00\x00\x03\x00\x00\x00'
+0x328 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x334 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_HINT\x00'
+0x34c 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x35c 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x368 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_SLIDING\x00'
+0x383 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x393 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x39f 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_FREE_AIM\x00'
+0x3bb 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x3cb 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x3d7 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_MISSILE_MODE\x00'
+0x3f7 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x407 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x413 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_HIDDEN_BLOCKS\x00'
+0x434 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00\x03\x00\x00\x00'
+0x444 0x9884224a42cccf72 eEntryType
+b'\x02\x00\x00\x00'
+0x450 0xc13f58ff800ad931 sLabelText
+b'#MLOG_TUTO_BUTTON_MAP\x00'
+0x46e 0x55a2cca8471af58e vCaptionsIds
+b'\x00\x00\x00\x00PLAYER_INVENTORY\x00'
+0x48b 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x497 0xd7278d3c2cc621ed dctProps
+b'\x1e\x00\x00\x00ITEM_WEAPON_MISSILE_MAX\x00'
+0x4bb 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_FLOOR_SLIDE\x00'
+0x4d8 0x937459ba5ed68a51 float
+b'\x00\x00\x80?ITEM_MAX_LIFE\x00'
+0x4f2 0x937459ba5ed68a51 float
+b'\x00\x00\xc6BITEM_METROID_TOTAL_COUNT\x00'
+0x517 0x937459ba5ed68a51 float
+b'\x00\x00 BITEM_WEAPON_POWER_BOMB_MAX\x00'
+0x53e 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_METROID_COUNT\x00'
+0x55d 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_MAX_SPECIAL_ENERGY\x00'
+0x581 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_CURRENT_LIFE\x00'
+0x59f 0x937459ba5ed68a51 float
+b'\x00\x00\xc6BITEM_WEAPON_MISSILE_CURRENT\x00'
+0x5c7 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_WEAPON_POWER_BOMB_CURRENT\x00'
+0x5f2 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_CURRENT_SPECIAL_ENERGY\x00'
+0x61a 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_LIFE_SHARDS\x00'
+0x637 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_TOTAL_LIFE_SHARDS\x00'
+0x65a 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_GRAVITY_SUIT\x00'
+0x678 0x937459ba5ed68a51 float
+b'\x00\x00\x80?ITEM_WEAPON_HYPER_BEAM\x00'
+0x69b 0x937459ba5ed68a51 float
+b'\x00\x00\x80?ITEM_WEAPON_SUPER_MISSILE\x00'
+0x6c1 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_SPACE_JUMP\x00'
+0x6dd 0x937459ba5ed68a51 float
+b'\x00\x00\x80?ITEM_WEAPON_GRAPPLE_BEAM\x00'
+0x702 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_MORPH_BALL\x00'
+0x71e 0x937459ba5ed68a51 float
+b'\x00\x00\x80?ITEM_WEAPON_DIFFUSION_BEAM\x00'
+0x745 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_WEAPON_PLASMA_BEAM\x00'
+0x769 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_WEAPON_WAVE_BEAM\x00'
+0x78b 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_MULTILOCKON\x00'
+0x7a8 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_GHOST_AURA\x00'
+0x7c4 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_SONAR\x00'
+0x7db 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_OPTIC_CAMOUFLAGE\x00'
+0x7fd 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_MISSILE_TANKS\x00'
+0x81c 0x937459ba5ed68a51 float
+b'\x00\x00\x00@ITEM_WEAPON_ICE_MISSILE\x00'
+0x840 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_WEAPON_CHARGE_BEAM\x00'
+0x864 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00ITEM_WEAPON_WIDE_BEAM\x00'
+0x886 0x937459ba5ed68a51 float
+b'\x00\x00\x00\x00PlayedCutscenes\x00'
+0x8a2 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x8ae 0xd7278d3c2cc621ed dctProps
+b'\x07\x00\x00\x00CutScenePlayed[cutscenes/0001gameintro_space/0001gameintro_space.bmscu]\x00'
+0x902 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0001gameintro_flashbackinit/0001gameintro_flashbackinit.bmscu]\x00'
+0x966 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0001gameintrolanding/0001gameintrolanding.bmscu]\x00'
+0x9bc 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0001gameintro_arrivalatrium/0001gameintro_arrivalatrium.bmscu]\x00'
+0xa20 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0001gameintro_fight/0001gameintro_fight.bmscu]\x00'
+0xa74 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0001gameintro_flashbackend/0001gameintro_flashbackend.bmscu]\x00'
+0xad6 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00CutScenePlayed[cutscenes/0003firstcomunicationfakeadam/0003firstcomunicationfakeadam.bmscu]\x00'
+0xb3e 0xb97cd894d76cacd6 unsigned
+b'\x01\x00\x00\x00MINIMAP\x00'
+0xb52 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0xb5e 0xd7278d3c2cc621ed dctProps
+b'\x04\x00\x00\x00MINIMAP:IconLabelsHidden\x00'
+0xb83 0xcf6ad2b17894e025 base::global::CRntVector<base::global::CStrId>
+b'G\x00\x00\x00CentralUnit\x00MagnetSurface\x00TileSupermissile\x00TileScrewattack\x00TileWeight\x00DoorChargeL\x00DoorChargeR\x00DoorChargeLockedL\x00DoorChargeLockedR\x00DoorGrappleL\x00DoorGrappleR\x00DoorWideL\x00DoorWideR\x00DoorPresenceL\x00DoorPresenceR\x00DoorShutter\x00DoorEmmyOpen\x00DoorEmmyClosed\x00DoorThermalOpen\x00DoorThermalClosed\x00DoorThermalTrapOpen\x00DoorThermalTrapClosed\x00DoorCentralUnit\x00BlockageSuperMissileL\x00BlockageSuperMissileR\x00BlockageWaveL\x00BlockageWaveR\x00UsableWaterValve\x00UsableThermalDevice\x00UsablePowerGenerator\x00UsableTrain\x00UsableTransport\x00UsableElevator\x00DisabledElevator\x00UsableStationEnergy\x00DisabledStationEnergy\x00UsableStationAmmo\x00DisabledStationAmmo\x00UsableStationTotal\x00DisabledStationTotal\x00UsableStationSave\x00DisabledStationSave\x00UsableStationMap\x00DisabledStationMap\x00UsableTeleportA\x00UsableTeleportE\x00UsableTeleportI\x00UsableTeleportO\x00UsableTeleportU\x00UsableTeleportX\x00UsableTeleportY\x00UsableTeleportZ\x00ItemSphere\x00ItemEnergyTank\x00ItemEnergyFragment\x00ItemMissileTankPlus\x00ItemPowerbombExpansion\x00PropGrappleBoxL\x00PropGrappleBoxR\x00PropGrappleBlockL\x00PropGrappleBlockR\x00PropMorphTunnelEntry\x00PropMorphTunnelExit\x00PropHyperBeam\x00PropWideBeamBoxR\x00PropWideBeamBoxL\x00PropMultiLockon\x00PropFootstepPlatform\x00PropSwingPoint\x00PropTurbineActivator\x00PropWarlotus\x00MINIMAP:GlobalIcons\x00'
+0x103e 0xf9365aab69f858f0 CMinimapManager::TGlobalMapIcons
+b'\x01\x00\x00\x00s010_cave\x00\x01\x00\x00\x00\x02\x00\x00\x00'
+0x105c 0xd070405c1ff026e9 sIconID
+b'Samus\x00'
+0x106a 0xfe5e4df5b4c719a vIconPos
+b'\xa8\x02\xf6E\x13\x83\xe7\xc5MINIMAP:AreaBox[s010_cave]\x00'
+0x1095 0xf450e55a3654aabd base::spatial::CAABox2D
+b'\x02\x00\x00\x00'
+0x10a1 0xaf0f535c4b859612 Min
+b'\x00h\xd8\xc6\x00\xb0\x1a\xc6'
+0x10b1 0x4de23a595aeca5d4 Max
+b'\x00\xa4\x03G\x00\xe0+FMINIMAP:DoneMapTutos\x00'
+0x10d6 0x24873ff4b4e3c57e base::global::CRntVector<EMapTutoType>
+b'\x01\x00\x00\x00\x00\x00\x00\x00GAME\x00'
+0x10eb 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x10f7 0xd7278d3c2cc621ed dctProps
+b'\x0f\x00\x00\x00Version\x00'
+0x110b 0x291e3f130f064f1d int
+b'\x03\x00\x00\x00UserID\x00'
+0x111e 0x291e3f130f064f1d int
+b'\x00\x00\x00\x00ModifiedBuildVersionNumber\x00'
+0x1145 0x291e3f130f064f1d int
+b'O+\x0e\x00Completion\x00'
+0x115c 0x291e3f130f064f1d int
+b'\x01\x00\x00\x00Description\x00'
+0x1174 0x799781f713e7d4e0 base::global::CRntString
+b'[!:#GUI_MISC003] / 00:05:12 /   0% \x00TotalPlayTime\x00'
+0x11ae 0x937459ba5ed68a51 float
+b'\xce\x16\x9cCTotalCummulativePlayTime\x00'
+0x11d3 0x937459ba5ed68a51 float
+b'\xce\x16\x9cCAMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE\x00'
+0x1204 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL\x00'
+0x1230 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE\x00'
+0x1268 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL\x00'
+0x129e 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE\x00'
+0x12cf 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL\x00'
+0x12fe 0x6a0c7bde338b1a2b bool
+b'\x00AMIIBO:MENU_UNLOCKED\x00'
+0x131c 0x6a0c7bde338b1a2b bool
+b'\x00NumTanksPickedUp\x00'
+0x1336 0x291e3f130f064f1d int
+b'\x02\x00\x00\x00GAME_PROGRESS\x00'
+0x1350 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x135c 0xd7278d3c2cc621ed dctProps
+b'\x03\x00\x00\x00ShowSamusShip\x00'
+0x1376 0x6a0c7bde338b1a2b bool
+b'\x01ADAMDIALOGUE\x00'
+0x138c 0xbf34f79bba0deaf6 base::global::CStrId
+b'DIAG_ADAM_CAVE_1\x00SHOWADAMDIALOGUE\x00'
+0x13b6 0x6a0c7bde338b1a2b bool
+b'\x01PLAYER\x00'
+0x13c6 0xf7a3936f450614bd CBlackboard::CSection
+b'\x01\x00\x00\x00'
+0x13d2 0xd7278d3c2cc621ed dctProps
+b'\x04\x00\x00\x00LevelID\x00'
+0x13e6 0x799781f713e7d4e0 base::global::CRntString
+b'c10_samus\x00ScenarioID\x00'
+0x1403 0x799781f713e7d4e0 base::global::CRntString
+b's010_cave\x00StartPoint\x00'
+0x1420 0x799781f713e7d4e0 base::global::CRntString
+b'PRP_CV_AccessPoint001_WeightPlate\x00CheckPointKey\x00'
+0x1458 0x799781f713e7d4e0 base::global::CRntString
+b'PRP_CV_AccessPoint001\x00'
+0x1476 0x7059995f8c21c448 dctDeltaValues
+b'\x00\x00\x00\x00'

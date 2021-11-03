@@ -113,6 +113,32 @@ def decode_str(filedata, i):
 def is_ret(inst):
     return inst == b'\xc0\x03\x5f\xd6'
 
+def is_mov_w2(inst):
+    inst = int.from_bytes(inst, 'little')
+    if inst == 0x2a1f03e2:
+        return True
+    if (inst & 0xFFE0001F) == 0x52800002:
+        return True
+    if (inst & 0xFFE0001F) == 0x12A00002:
+        return True
+    if (inst & 0xFFE0001F) == 0x12800002:
+        return True
+    if (inst & 0xFFE0001F) == 0x52A00002:
+        return True
+    return False
+
+def decode_mov(inst):
+    inst = int.from_bytes(inst, 'little')
+    if inst == 0x2a1f03e2:
+        return 0
+    if (inst & 0xFFE0001F) == 0x52800002:
+        return (inst & 0x001FFFE0) >> 5
+    if (inst & 0xFFE0001F) == 0x12A00002:
+        return ((inst & 0x001FFFE0) << 11) ^ 0xFFFFFFFF
+    if (inst & 0xFFE0001F) == 0x12800002:
+        return ((inst & 0x001FFFE0) >> 5) ^ 0xFFFFFFFF
+    if (inst & 0xFFE0001F) == 0x52A00002:
+        return (inst & 0x001FFFE0) << 11
 
 funcs = {
 }
@@ -180,8 +206,10 @@ if __name__ == '__main__':
 
     last_adrp_add = -1
     last_adrp_ldr_ldr = -1
+    last_mov_w2 = -1
     last_add_str = None
     last_ldr_str = None
+    last_mov_w2_int = None
     functstart = -1
 
     ldr_map = {
@@ -241,19 +269,24 @@ if __name__ == '__main__':
                 f2_buf.append('\tvoid %s;\n'%(last_add_str))
             else:
                 f2_buf.append('\tvoid %s;\n'%(last_ldr_str))
-            
+
+        if is_mov_w2(filedata[i:i+4]):
+            last_mov_w2 = i
+            last_mov_w2_int = decode_mov(filedata[i:i+4])
                 
         if is_bl_addenumvalue(i, filedata[i:i+4]):
             instrs_since_add = (i - last_adrp_add) // 4
+            instrs_since_mov_w2 = (i - last_mov_w2) // 4
             
             assert instrs_since_add <= 8
+            assert instrs_since_mov_w2 <= 3
 
             if is_newfunc_enum:
                 is_newfunc_enum = False
                 f3_buf.append(funcstart)
                 enum_funcs.append(funcstart)
             
-            f3_buf.append('\t%s,\n'%(last_add_str))
+            f3_buf.append('\t%s = %s,\n'%(last_add_str, hex(last_mov_w2_int)))
 
     f2_buf.append('}')
     f3_buf.append('}')

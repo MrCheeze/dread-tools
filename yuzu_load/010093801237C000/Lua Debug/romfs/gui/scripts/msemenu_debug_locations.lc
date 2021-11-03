@@ -1,0 +1,2 @@
+Game.LogWarn(0, "Entering script msemenu_debug_locations.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_debug_locations.lc")

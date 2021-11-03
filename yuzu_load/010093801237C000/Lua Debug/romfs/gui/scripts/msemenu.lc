@@ -1,0 +1,885 @@
+Game.LogWarn(0, "Entering script msemenu.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu.lc")
+
+msemenu._ORIG_GetMenuItemByKey = msemenu.GetMenuItemByKey
+
+function msemenu.GetMenuItemByKey(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GetMenuItemByKey - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GetMenuItemByKey(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GetCurrentMenuItemByKey = msemenu.GetCurrentMenuItemByKey
+
+function msemenu.GetCurrentMenuItemByKey(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GetCurrentMenuItemByKey - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GetCurrentMenuItemByKey(_ARG_0_)
+end
+
+msemenu._ORIG_GenerateDebugFlagsTable = msemenu.GenerateDebugFlagsTable
+
+function msemenu.GenerateDebugFlagsTable(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateDebugFlagsTable - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateDebugFlagsTable(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_ReplaceItemsInTable = msemenu.ReplaceItemsInTable
+
+function msemenu.ReplaceItemsInTable(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called msemenu.ReplaceItemsInTable - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return msemenu._ORIG_ReplaceItemsInTable(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+msemenu._ORIG_GenerateCustomItems = msemenu.GenerateCustomItems
+
+function msemenu.GenerateCustomItems(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called msemenu.GenerateCustomItems - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return msemenu._ORIG_GenerateCustomItems(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+msemenu._ORIG_GenerateDefaultItems = msemenu.GenerateDefaultItems
+
+function msemenu.GenerateDefaultItems(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateDefaultItems - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateDefaultItems(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateDefaultTableItems = msemenu.GenerateDefaultTableItems
+
+function msemenu.GenerateDefaultTableItems(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateDefaultTableItems - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateDefaultTableItems(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_GenerateDefaultItemsWithAlias = msemenu.GenerateDefaultItemsWithAlias
+
+function msemenu.GenerateDefaultItemsWithAlias(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateDefaultItemsWithAlias - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateDefaultItemsWithAlias(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_FilterEntityIDValue = msemenu.FilterEntityIDValue
+
+function msemenu.FilterEntityIDValue(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.FilterEntityIDValue - "..tostring(_ARG_0_))
+	return msemenu._ORIG_FilterEntityIDValue(_ARG_0_)
+end
+
+msemenu._ORIG_GenerateComponentVarEntry = msemenu.GenerateComponentVarEntry
+
+function msemenu.GenerateComponentVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called msemenu.GenerateComponentVarEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return msemenu._ORIG_GenerateComponentVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+msemenu._ORIG_GenerateComponentNumberVarEntry = msemenu.GenerateComponentNumberVarEntry
+
+function msemenu.GenerateComponentNumberVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called msemenu.GenerateComponentNumberVarEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return msemenu._ORIG_GenerateComponentNumberVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+msemenu._ORIG_GenerateComponentBoolVarEntry = msemenu.GenerateComponentBoolVarEntry
+
+function msemenu.GenerateComponentBoolVarEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateComponentBoolVarEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateComponentBoolVarEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_GenerateComponentValuesVarEntry = msemenu.GenerateComponentValuesVarEntry
+
+function msemenu.GenerateComponentValuesVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called msemenu.GenerateComponentValuesVarEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return msemenu._ORIG_GenerateComponentValuesVarEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+msemenu._ORIG_GenerateEntityNumberMsgEntry = msemenu.GenerateEntityNumberMsgEntry
+
+function msemenu.GenerateEntityNumberMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateEntityNumberMsgEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateEntityNumberMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_GenerateEntityBoolMsgEntry = msemenu.GenerateEntityBoolMsgEntry
+
+function msemenu.GenerateEntityBoolMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateEntityBoolMsgEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateEntityBoolMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_GenerateEntityValuesMsgEntry = msemenu.GenerateEntityValuesMsgEntry
+
+function msemenu.GenerateEntityValuesMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.GenerateEntityValuesMsgEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_GenerateEntityValuesMsgEntry(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_SwitchInputPreset = msemenu.SwitchInputPreset
+
+function msemenu.SwitchInputPreset()
+	Game.LogWarn(0, "Called msemenu.SwitchInputPreset")
+	return msemenu._ORIG_SwitchInputPreset()
+end
+
+msemenu._ORIG_GenerateShowRewards = msemenu.GenerateShowRewards
+
+function msemenu.GenerateShowRewards()
+	Game.LogWarn(0, "Called msemenu.GenerateShowRewards")
+	return msemenu._ORIG_GenerateShowRewards()
+end
+
+msemenu._ORIG_SelectCloserAI = msemenu.SelectCloserAI
+
+function msemenu.SelectCloserAI()
+	Game.LogWarn(0, "Called msemenu.SelectCloserAI")
+	return msemenu._ORIG_SelectCloserAI()
+end
+
+msemenu._ORIG_SwitchControlledAI = msemenu.SwitchControlledAI
+
+function msemenu.SwitchControlledAI()
+	Game.LogWarn(0, "Called msemenu.SwitchControlledAI")
+	return msemenu._ORIG_SwitchControlledAI()
+end
+
+msemenu._ORIG_SwitchAIForcedAttack = msemenu.SwitchAIForcedAttack
+
+function msemenu.SwitchAIForcedAttack()
+	Game.LogWarn(0, "Called msemenu.SwitchAIForcedAttack")
+	return msemenu._ORIG_SwitchAIForcedAttack()
+end
+
+msemenu._ORIG_SwitchAIForcedAttackPreset = msemenu.SwitchAIForcedAttackPreset
+
+function msemenu.SwitchAIForcedAttackPreset()
+	Game.LogWarn(0, "Called msemenu.SwitchAIForcedAttackPreset")
+	return msemenu._ORIG_SwitchAIForcedAttackPreset()
+end
+
+msemenu._ORIG_AutoAimActive = msemenu.AutoAimActive
+
+function msemenu.AutoAimActive()
+	Game.LogWarn(0, "Called msemenu.AutoAimActive")
+	return msemenu._ORIG_AutoAimActive()
+end
+
+msemenu._ORIG_AutoAimWidth = msemenu.AutoAimWidth
+
+function msemenu.AutoAimWidth()
+	Game.LogWarn(0, "Called msemenu.AutoAimWidth")
+	return msemenu._ORIG_AutoAimWidth()
+end
+
+msemenu._ORIG_AutoAimConeLength = msemenu.AutoAimConeLength
+
+function msemenu.AutoAimConeLength()
+	Game.LogWarn(0, "Called msemenu.AutoAimConeLength")
+	return msemenu._ORIG_AutoAimConeLength()
+end
+
+msemenu._ORIG_SwitchAttacksEnabled = msemenu.SwitchAttacksEnabled
+
+function msemenu.SwitchAttacksEnabled()
+	Game.LogWarn(0, "Called msemenu.SwitchAttacksEnabled")
+	return msemenu._ORIG_SwitchAttacksEnabled()
+end
+
+msemenu._ORIG_ReloadTrees = msemenu.ReloadTrees
+
+function msemenu.ReloadTrees()
+	Game.LogWarn(0, "Called msemenu.ReloadTrees")
+	return msemenu._ORIG_ReloadTrees()
+end
+
+msemenu._ORIG_SwitchOpticalCamoWaitForEndDetectionEnabled = msemenu.SwitchOpticalCamoWaitForEndDetectionEnabled
+
+function msemenu.SwitchOpticalCamoWaitForEndDetectionEnabled()
+	Game.LogWarn(0, "Called msemenu.SwitchOpticalCamoWaitForEndDetectionEnabled")
+	return msemenu._ORIG_SwitchOpticalCamoWaitForEndDetectionEnabled()
+end
+
+msemenu._ORIG_ReloadTrees = msemenu.ReloadTrees
+
+function msemenu.ReloadTrees()
+	Game.LogWarn(0, "Called msemenu.ReloadTrees")
+	return msemenu._ORIG_ReloadTrees()
+end
+
+msemenu._ORIG_SwitchLockOnBeep = msemenu.SwitchLockOnBeep
+
+function msemenu.SwitchLockOnBeep()
+	Game.LogWarn(0, "Called msemenu.SwitchLockOnBeep")
+	return msemenu._ORIG_SwitchLockOnBeep()
+end
+
+msemenu._ORIG_SwitchIgnoreShellWithIceBeam = msemenu.SwitchIgnoreShellWithIceBeam
+
+function msemenu.SwitchIgnoreShellWithIceBeam()
+	Game.LogWarn(0, "Called msemenu.SwitchIgnoreShellWithIceBeam")
+	return msemenu._ORIG_SwitchIgnoreShellWithIceBeam()
+end
+
+msemenu._ORIG_SwitchRevealTilesMode = msemenu.SwitchRevealTilesMode
+
+function msemenu.SwitchRevealTilesMode()
+	Game.LogWarn(0, "Called msemenu.SwitchRevealTilesMode")
+	return msemenu._ORIG_SwitchRevealTilesMode()
+end
+
+msemenu._ORIG_SwitchSuit = msemenu.SwitchSuit
+
+function msemenu.SwitchSuit()
+	Game.LogWarn(0, "Called msemenu.SwitchSuit")
+	return msemenu._ORIG_SwitchSuit()
+end
+
+msemenu._ORIG_ChangeLowPassFilterCutoffFreq = msemenu.ChangeLowPassFilterCutoffFreq
+
+function msemenu.ChangeLowPassFilterCutoffFreq()
+	Game.LogWarn(0, "Called msemenu.ChangeLowPassFilterCutoffFreq")
+	return msemenu._ORIG_ChangeLowPassFilterCutoffFreq()
+end
+
+msemenu._ORIG_EnableMusic = msemenu.EnableMusic
+
+function msemenu.EnableMusic()
+	Game.LogWarn(0, "Called msemenu.EnableMusic")
+	return msemenu._ORIG_EnableMusic()
+end
+
+msemenu._ORIG_EnableSFX = msemenu.EnableSFX
+
+function msemenu.EnableSFX()
+	Game.LogWarn(0, "Called msemenu.EnableSFX")
+	return msemenu._ORIG_EnableSFX()
+end
+
+msemenu._ORIG_EnableEnvironmentMusic = msemenu.EnableEnvironmentMusic
+
+function msemenu.EnableEnvironmentMusic()
+	Game.LogWarn(0, "Called msemenu.EnableEnvironmentMusic")
+	return msemenu._ORIG_EnableEnvironmentMusic()
+end
+
+msemenu._ORIG_StopMusic = msemenu.StopMusic
+
+function msemenu.StopMusic()
+	Game.LogWarn(0, "Called msemenu.StopMusic")
+	return msemenu._ORIG_StopMusic()
+end
+
+msemenu._ORIG_DebugStopStream = msemenu.DebugStopStream
+
+function msemenu.DebugStopStream()
+	Game.LogWarn(0, "Called msemenu.DebugStopStream")
+	return msemenu._ORIG_DebugStopStream()
+end
+
+msemenu._ORIG_DebugPlayStream = msemenu.DebugPlayStream
+
+function msemenu.DebugPlayStream(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.DebugPlayStream - "..tostring(_ARG_0_))
+	return msemenu._ORIG_DebugPlayStream(_ARG_0_)
+end
+
+msemenu._ORIG_DebugSetEnvFactor = msemenu.DebugSetEnvFactor
+
+function msemenu.DebugSetEnvFactor()
+	Game.LogWarn(0, "Called msemenu.DebugSetEnvFactor")
+	return msemenu._ORIG_DebugSetEnvFactor()
+end
+
+msemenu._ORIG_GeneratePlayStreamItems = msemenu.GeneratePlayStreamItems
+
+function msemenu.GeneratePlayStreamItems(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GeneratePlayStreamItems - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GeneratePlayStreamItems(_ARG_0_)
+end
+
+msemenu._ORIG_GenerateSetEnvironmentMultiplierItems = msemenu.GenerateSetEnvironmentMultiplierItems
+
+function msemenu.GenerateSetEnvironmentMultiplierItems(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GenerateSetEnvironmentMultiplierItems - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GenerateSetEnvironmentMultiplierItems(_ARG_0_)
+end
+
+msemenu._ORIG_DebugSetStreamVolume = msemenu.DebugSetStreamVolume
+
+function msemenu.DebugSetStreamVolume()
+	Game.LogWarn(0, "Called msemenu.DebugSetStreamVolume")
+	return msemenu._ORIG_DebugSetStreamVolume()
+end
+
+msemenu._ORIG_DebugSetSpeakerMode = msemenu.DebugSetSpeakerMode
+
+function msemenu.DebugSetSpeakerMode()
+	Game.LogWarn(0, "Called msemenu.DebugSetSpeakerMode")
+	return msemenu._ORIG_DebugSetSpeakerMode()
+end
+
+msemenu._ORIG_DebugSetHeadPhoneMultiplier = msemenu.DebugSetHeadPhoneMultiplier
+
+function msemenu.DebugSetHeadPhoneMultiplier()
+	Game.LogWarn(0, "Called msemenu.DebugSetHeadPhoneMultiplier")
+	return msemenu._ORIG_DebugSetHeadPhoneMultiplier()
+end
+
+msemenu._ORIG_DebugMuteSfx = msemenu.DebugMuteSfx
+
+function msemenu.DebugMuteSfx()
+	Game.LogWarn(0, "Called msemenu.DebugMuteSfx")
+	return msemenu._ORIG_DebugMuteSfx()
+end
+
+msemenu._ORIG_GenerateMusicTable = msemenu.GenerateMusicTable
+
+function msemenu.GenerateMusicTable(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GenerateMusicTable - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GenerateMusicTable(_ARG_0_)
+end
+
+msemenu._ORIG_EnableEnvironmentSound = msemenu.EnableEnvironmentSound
+
+function msemenu.EnableEnvironmentSound()
+	Game.LogWarn(0, "Called msemenu.EnableEnvironmentSound")
+	return msemenu._ORIG_EnableEnvironmentSound()
+end
+
+msemenu._ORIG_EnableEnvironmentSoundEffects = msemenu.EnableEnvironmentSoundEffects
+
+function msemenu.EnableEnvironmentSoundEffects()
+	Game.LogWarn(0, "Called msemenu.EnableEnvironmentSoundEffects")
+	return msemenu._ORIG_EnableEnvironmentSoundEffects()
+end
+
+msemenu._ORIG_EnableMetroidRadarSound = msemenu.EnableMetroidRadarSound
+
+function msemenu.EnableMetroidRadarSound()
+	Game.LogWarn(0, "Called msemenu.EnableMetroidRadarSound")
+	return msemenu._ORIG_EnableMetroidRadarSound()
+end
+
+msemenu._ORIG_SwitchHUDMode = msemenu.SwitchHUDMode
+
+function msemenu.SwitchHUDMode()
+	Game.LogWarn(0, "Called msemenu.SwitchHUDMode")
+	return msemenu._ORIG_SwitchHUDMode()
+end
+
+msemenu._ORIG_SwitchPlayerLifeLocked = msemenu.SwitchPlayerLifeLocked
+
+function msemenu.SwitchPlayerLifeLocked()
+	Game.LogWarn(0, "Called msemenu.SwitchPlayerLifeLocked")
+	return msemenu._ORIG_SwitchPlayerLifeLocked()
+end
+
+msemenu._ORIG_SwitchInfiniteAmmo = msemenu.SwitchInfiniteAmmo
+
+function msemenu.SwitchInfiniteAmmo()
+	Game.LogWarn(0, "Called msemenu.SwitchInfiniteAmmo")
+	return msemenu._ORIG_SwitchInfiniteAmmo()
+end
+
+msemenu._ORIG_SwitchPlayerSpecialEnergyLocked = msemenu.SwitchPlayerSpecialEnergyLocked
+
+function msemenu.SwitchPlayerSpecialEnergyLocked()
+	Game.LogWarn(0, "Called msemenu.SwitchPlayerSpecialEnergyLocked")
+	return msemenu._ORIG_SwitchPlayerSpecialEnergyLocked()
+end
+
+msemenu._ORIG_SwitchSpaceJump = msemenu.SwitchSpaceJump
+
+function msemenu.SwitchSpaceJump()
+	Game.LogWarn(0, "Called msemenu.SwitchSpaceJump")
+	return msemenu._ORIG_SwitchSpaceJump()
+end
+
+msemenu._ORIG_SwitchDoubleJump = msemenu.SwitchDoubleJump
+
+function msemenu.SwitchDoubleJump()
+	Game.LogWarn(0, "Called msemenu.SwitchDoubleJump")
+	return msemenu._ORIG_SwitchDoubleJump()
+end
+
+msemenu._ORIG_UnlockAllRewards = msemenu.UnlockAllRewards
+
+function msemenu.UnlockAllRewards()
+	Game.LogWarn(0, "Called msemenu.UnlockAllRewards")
+	return msemenu._ORIG_UnlockAllRewards()
+end
+
+msemenu._ORIG_KillAllEnemies = msemenu.KillAllEnemies
+
+function msemenu.KillAllEnemies()
+	Game.LogWarn(0, "Called msemenu.KillAllEnemies")
+	return msemenu._ORIG_KillAllEnemies()
+end
+
+msemenu._ORIG_ResetAmiibosTimestamp = msemenu.ResetAmiibosTimestamp
+
+function msemenu.ResetAmiibosTimestamp()
+	Game.LogWarn(0, "Called msemenu.ResetAmiibosTimestamp")
+	return msemenu._ORIG_ResetAmiibosTimestamp()
+end
+
+msemenu._ORIG_KillEmmy = msemenu.KillEmmy
+
+function msemenu.KillEmmy()
+	Game.LogWarn(0, "Called msemenu.KillEmmy")
+	return msemenu._ORIG_KillEmmy()
+end
+
+msemenu._ORIG_KillCurrentBoss = msemenu.KillCurrentBoss
+
+function msemenu.KillCurrentBoss()
+	Game.LogWarn(0, "Called msemenu.KillCurrentBoss")
+	return msemenu._ORIG_KillCurrentBoss()
+end
+
+msemenu._ORIG_SwitchForceSkipCutscenes = msemenu.SwitchForceSkipCutscenes
+
+function msemenu.SwitchForceSkipCutscenes()
+	Game.LogWarn(0, "Called msemenu.SwitchForceSkipCutscenes")
+	return msemenu._ORIG_SwitchForceSkipCutscenes()
+end
+
+msemenu._ORIG_RecoverSpecialEnergy = msemenu.RecoverSpecialEnergy
+
+function msemenu.RecoverSpecialEnergy()
+	Game.LogWarn(0, "Called msemenu.RecoverSpecialEnergy")
+	return msemenu._ORIG_RecoverSpecialEnergy()
+end
+
+msemenu._ORIG_RecoverLife = msemenu.RecoverLife
+
+function msemenu.RecoverLife()
+	Game.LogWarn(0, "Called msemenu.RecoverLife")
+	return msemenu._ORIG_RecoverLife()
+end
+
+msemenu._ORIG_RecoverAmmo = msemenu.RecoverAmmo
+
+function msemenu.RecoverAmmo()
+	Game.LogWarn(0, "Called msemenu.RecoverAmmo")
+	return msemenu._ORIG_RecoverAmmo()
+end
+
+msemenu._ORIG_UnlockChargeBeam = msemenu.UnlockChargeBeam
+
+function msemenu.UnlockChargeBeam()
+	Game.LogWarn(0, "Called msemenu.UnlockChargeBeam")
+	return msemenu._ORIG_UnlockChargeBeam()
+end
+
+msemenu._ORIG_UnlockDiffusionBeam = msemenu.UnlockDiffusionBeam
+
+function msemenu.UnlockDiffusionBeam()
+	Game.LogWarn(0, "Called msemenu.UnlockDiffusionBeam")
+	return msemenu._ORIG_UnlockDiffusionBeam()
+end
+
+msemenu._ORIG_UnlockGrappleBeam = msemenu.UnlockGrappleBeam
+
+function msemenu.UnlockGrappleBeam()
+	Game.LogWarn(0, "Called msemenu.UnlockGrappleBeam")
+	return msemenu._ORIG_UnlockGrappleBeam()
+end
+
+msemenu._ORIG_UnlockPowerBeam = msemenu.UnlockPowerBeam
+
+function msemenu.UnlockPowerBeam()
+	Game.LogWarn(0, "Called msemenu.UnlockPowerBeam")
+	return msemenu._ORIG_UnlockPowerBeam()
+end
+
+msemenu._ORIG_UnlockWideBeam = msemenu.UnlockWideBeam
+
+function msemenu.UnlockWideBeam()
+	Game.LogWarn(0, "Called msemenu.UnlockWideBeam")
+	return msemenu._ORIG_UnlockWideBeam()
+end
+
+msemenu._ORIG_UnlockScrewAttack = msemenu.UnlockScrewAttack
+
+function msemenu.UnlockScrewAttack()
+	Game.LogWarn(0, "Called msemenu.UnlockScrewAttack")
+	return msemenu._ORIG_UnlockScrewAttack()
+end
+
+msemenu._ORIG_UnlockEnergyShield = msemenu.UnlockEnergyShield
+
+function msemenu.UnlockEnergyShield()
+	Game.LogWarn(0, "Called msemenu.UnlockEnergyShield")
+	return msemenu._ORIG_UnlockEnergyShield()
+end
+
+msemenu._ORIG_UnlockEnergyWave = msemenu.UnlockEnergyWave
+
+function msemenu.UnlockEnergyWave()
+	Game.LogWarn(0, "Called msemenu.UnlockEnergyWave")
+	return msemenu._ORIG_UnlockEnergyWave()
+end
+
+msemenu._ORIG_UnlockPhaseDisplacement = msemenu.UnlockPhaseDisplacement
+
+function msemenu.UnlockPhaseDisplacement()
+	Game.LogWarn(0, "Called msemenu.UnlockPhaseDisplacement")
+	return msemenu._ORIG_UnlockPhaseDisplacement()
+end
+
+msemenu._ORIG_UnlockScanningPulse = msemenu.UnlockScanningPulse
+
+function msemenu.UnlockScanningPulse()
+	Game.LogWarn(0, "Called msemenu.UnlockScanningPulse")
+	return msemenu._ORIG_UnlockScanningPulse()
+end
+
+msemenu._ORIG_GainCentralUnitSpbSprWeapon = msemenu.GainCentralUnitSpbSprWeapon
+
+function msemenu.GainCentralUnitSpbSprWeapon()
+	Game.LogWarn(0, "Called msemenu.GainCentralUnitSpbSprWeapon")
+	return msemenu._ORIG_GainCentralUnitSpbSprWeapon()
+end
+
+msemenu._ORIG_GainAllItemsAndPowerUps = msemenu.GainAllItemsAndPowerUps
+
+function msemenu.GainAllItemsAndPowerUps()
+	Game.LogWarn(0, "Called msemenu.GainAllItemsAndPowerUps")
+	return msemenu._ORIG_GainAllItemsAndPowerUps()
+end
+
+msemenu._ORIG_CurrentMinimapVisitAndScanAllCells = msemenu.CurrentMinimapVisitAndScanAllCells
+
+function msemenu.CurrentMinimapVisitAndScanAllCells()
+	Game.LogWarn(0, "Called msemenu.CurrentMinimapVisitAndScanAllCells")
+	return msemenu._ORIG_CurrentMinimapVisitAndScanAllCells()
+end
+
+msemenu._ORIG_ScanVisitDiscoverEverything = msemenu.ScanVisitDiscoverEverything
+
+function msemenu.ScanVisitDiscoverEverything()
+	Game.LogWarn(0, "Called msemenu.ScanVisitDiscoverEverything")
+	return msemenu._ORIG_ScanVisitDiscoverEverything()
+end
+
+msemenu._ORIG_HideScenario = msemenu.HideScenario
+
+function msemenu.HideScenario()
+	Game.LogWarn(0, "Called msemenu.HideScenario")
+	return msemenu._ORIG_HideScenario()
+end
+
+msemenu._ORIG_ShowScenario = msemenu.ShowScenario
+
+function msemenu.ShowScenario()
+	Game.LogWarn(0, "Called msemenu.ShowScenario")
+	return msemenu._ORIG_ShowScenario()
+end
+
+msemenu._ORIG_GenerateEntityFunctionMsgEntry = msemenu.GenerateEntityFunctionMsgEntry
+
+function msemenu.GenerateEntityFunctionMsgEntry(_ARG_0_, _ARG_1_, ...)
+	Game.LogWarn(0, "Called msemenu.GenerateEntityFunctionMsgEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(...))
+	return msemenu._ORIG_GenerateEntityFunctionMsgEntry(_ARG_0_, _ARG_1_, ...)
+end
+
+msemenu._ORIG_GenerateBlackboardBoolMsgEntry = msemenu.GenerateBlackboardBoolMsgEntry
+
+function msemenu.GenerateBlackboardBoolMsgEntry(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateBlackboardBoolMsgEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateBlackboardBoolMsgEntry(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateInventoryEntry = msemenu.GenerateInventoryEntry
+
+function msemenu.GenerateInventoryEntry(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateInventoryEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateInventoryEntry(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateInventoryItems = msemenu.GenerateInventoryItems
+
+function msemenu.GenerateInventoryItems()
+	Game.LogWarn(0, "Called msemenu.GenerateInventoryItems")
+	return msemenu._ORIG_GenerateInventoryItems()
+end
+
+msemenu._ORIG_GenerateWeaponList = msemenu.GenerateWeaponList
+
+function msemenu.GenerateWeaponList()
+	Game.LogWarn(0, "Called msemenu.GenerateWeaponList")
+	return msemenu._ORIG_GenerateWeaponList()
+end
+
+msemenu._ORIG_GenerateItemsList = msemenu.GenerateItemsList
+
+function msemenu.GenerateItemsList()
+	Game.LogWarn(0, "Called msemenu.GenerateItemsList")
+	return msemenu._ORIG_GenerateItemsList()
+end
+
+msemenu._ORIG_GenerateAbilitiesList = msemenu.GenerateAbilitiesList
+
+function msemenu.GenerateAbilitiesList()
+	Game.LogWarn(0, "Called msemenu.GenerateAbilitiesList")
+	return msemenu._ORIG_GenerateAbilitiesList()
+end
+
+msemenu._ORIG_GenerateInventoryListEntry = msemenu.GenerateInventoryListEntry
+
+function msemenu.GenerateInventoryListEntry(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateInventoryListEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateInventoryListEntry(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GeneratePlayCutsceneDefWithPreload = msemenu.GeneratePlayCutsceneDefWithPreload
+
+function msemenu.GeneratePlayCutsceneDefWithPreload(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GeneratePlayCutsceneDefWithPreload - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GeneratePlayCutsceneDefWithPreload(_ARG_0_)
+end
+
+msemenu._ORIG_GenerateCutscene2DItems = msemenu.GenerateCutscene2DItems
+
+function msemenu.GenerateCutscene2DItems(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateCutscene2DItems - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateCutscene2DItems(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateCutscene3DItems = msemenu.GenerateCutscene3DItems
+
+function msemenu.GenerateCutscene3DItems(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateCutscene3DItems - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateCutscene3DItems(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_main = msemenu.main
+
+function msemenu.main()
+	Game.LogWarn(0, "Called msemenu.main")
+	return msemenu._ORIG_main()
+end
+
+msemenu._ORIG_close = msemenu.close
+
+function msemenu.close()
+	Game.LogWarn(0, "Called msemenu.close")
+	return msemenu._ORIG_close()
+end
+
+msemenu._ORIG_GetParentMenuPath = msemenu.GetParentMenuPath
+
+function msemenu.GetParentMenuPath(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GetParentMenuPath - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GetParentMenuPath(_ARG_0_)
+end
+
+msemenu._ORIG_GetMenu = msemenu.GetMenu
+
+function msemenu.GetMenu(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GetMenu - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GetMenu(_ARG_0_)
+end
+
+msemenu._ORIG_GetValueString = msemenu.GetValueString
+
+function msemenu.GetValueString(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GetValueString - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GetValueString(_ARG_0_)
+end
+
+msemenu._ORIG_Update = msemenu.Update
+
+function msemenu.Update(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.Update - "..tostring(_ARG_0_))
+	return msemenu._ORIG_Update(_ARG_0_)
+end
+
+msemenu._ORIG_Refresh = msemenu.Refresh
+
+function msemenu.Refresh()
+	Game.LogWarn(0, "Called msemenu.Refresh")
+	return msemenu._ORIG_Refresh()
+end
+
+msemenu._ORIG_OnItemActivated = msemenu.OnItemActivated
+
+function msemenu.OnItemActivated(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu.OnItemActivated - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu._ORIG_OnItemActivated(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu._ORIG_OnItemCancel = msemenu.OnItemCancel
+
+function msemenu.OnItemCancel()
+	Game.LogWarn(0, "Called msemenu.OnItemCancel")
+	return msemenu._ORIG_OnItemCancel()
+end
+
+msemenu._ORIG_OnMenuEnabled = msemenu.OnMenuEnabled
+
+function msemenu.OnMenuEnabled()
+	Game.LogWarn(0, "Called msemenu.OnMenuEnabled")
+	return msemenu._ORIG_OnMenuEnabled()
+end
+
+msemenu._ORIG_Create = msemenu.Create
+
+function msemenu.Create(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_, _ARG_5_, _ARG_6_)
+	Game.LogWarn(0, "Called msemenu.Create - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_)..","..tostring(_ARG_4_)..","..tostring(_ARG_5_)..","..tostring(_ARG_6_))
+	return msemenu._ORIG_Create(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_, _ARG_5_, _ARG_6_)
+end
+
+msemenu._ORIG_CreateEntityMenu = msemenu.CreateEntityMenu
+
+function msemenu.CreateEntityMenu(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.CreateEntityMenu - "..tostring(_ARG_0_))
+	return msemenu._ORIG_CreateEntityMenu(_ARG_0_)
+end
+
+msemenu._ORIG_UpdateEntitiesMenu = msemenu.UpdateEntitiesMenu
+
+function msemenu.UpdateEntitiesMenu()
+	Game.LogWarn(0, "Called msemenu.UpdateEntitiesMenu")
+	return msemenu._ORIG_UpdateEntitiesMenu()
+end
+
+msemenu._ORIG_EnableDroppedItemsAttraction = msemenu.EnableDroppedItemsAttraction
+
+function msemenu.EnableDroppedItemsAttraction()
+	Game.LogWarn(0, "Called msemenu.EnableDroppedItemsAttraction")
+	return msemenu._ORIG_EnableDroppedItemsAttraction()
+end
+
+msemenu._ORIG_ChangeDroppedItemAttractionAcceleration = msemenu.ChangeDroppedItemAttractionAcceleration
+
+function msemenu.ChangeDroppedItemAttractionAcceleration()
+	Game.LogWarn(0, "Called msemenu.ChangeDroppedItemAttractionAcceleration")
+	return msemenu._ORIG_ChangeDroppedItemAttractionAcceleration()
+end
+
+msemenu._ORIG_DebugBreakablePolyIndex = msemenu.DebugBreakablePolyIndex
+
+function msemenu.DebugBreakablePolyIndex()
+	Game.LogWarn(0, "Called msemenu.DebugBreakablePolyIndex")
+	return msemenu._ORIG_DebugBreakablePolyIndex()
+end
+
+msemenu._ORIG_GenerateSwitchSoundMode = msemenu.GenerateSwitchSoundMode
+
+function msemenu.GenerateSwitchSoundMode()
+	Game.LogWarn(0, "Called msemenu.GenerateSwitchSoundMode")
+	return msemenu._ORIG_GenerateSwitchSoundMode()
+end
+
+msemenu._ORIG_GetScenarioAreaName = msemenu.GetScenarioAreaName
+
+function msemenu.GetScenarioAreaName(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GetScenarioAreaName - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GetScenarioAreaName(_ARG_0_)
+end
+
+msemenu._ORIG_copytable = msemenu.copytable
+
+function msemenu.copytable(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.copytable - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_copytable(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateLoadEventItems = msemenu.GenerateLoadEventItems
+
+function msemenu.GenerateLoadEventItems(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GenerateLoadEventItems - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GenerateLoadEventItems(_ARG_0_)
+end
+
+msemenu._ORIG_SwitchFixedSlotTime = msemenu.SwitchFixedSlotTime
+
+function msemenu.SwitchFixedSlotTime()
+	Game.LogWarn(0, "Called msemenu.SwitchFixedSlotTime")
+	return msemenu._ORIG_SwitchFixedSlotTime()
+end
+
+msemenu._ORIG_SwitchPostprocessEnabled = msemenu.SwitchPostprocessEnabled
+
+function msemenu.SwitchPostprocessEnabled()
+	Game.LogWarn(0, "Called msemenu.SwitchPostprocessEnabled")
+	return msemenu._ORIG_SwitchPostprocessEnabled()
+end
+
+msemenu._ORIG_SwitchCrazyDropFactor = msemenu.SwitchCrazyDropFactor
+
+function msemenu.SwitchCrazyDropFactor()
+	Game.LogWarn(0, "Called msemenu.SwitchCrazyDropFactor")
+	return msemenu._ORIG_SwitchCrazyDropFactor()
+end
+
+msemenu._ORIG_GenerateLanguageSelectItems = msemenu.GenerateLanguageSelectItems
+
+function msemenu.GenerateLanguageSelectItems()
+	Game.LogWarn(0, "Called msemenu.GenerateLanguageSelectItems")
+	return msemenu._ORIG_GenerateLanguageSelectItems()
+end
+
+msemenu._ORIG_GeneratePopups = msemenu.GeneratePopups
+
+function msemenu.GeneratePopups(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu.GeneratePopups - "..tostring(_ARG_0_))
+	return msemenu._ORIG_GeneratePopups(_ARG_0_)
+end
+
+msemenu._ORIG_GenerateSwitchFrontByPass = msemenu.GenerateSwitchFrontByPass
+
+function msemenu.GenerateSwitchFrontByPass()
+	Game.LogWarn(0, "Called msemenu.GenerateSwitchFrontByPass")
+	return msemenu._ORIG_GenerateSwitchFrontByPass()
+end
+
+msemenu._ORIG_GenerateSetMixValues = msemenu.GenerateSetMixValues
+
+function msemenu.GenerateSetMixValues()
+	Game.LogWarn(0, "Called msemenu.GenerateSetMixValues")
+	return msemenu._ORIG_GenerateSetMixValues()
+end
+
+msemenu._ORIG_GetTunableData = msemenu.GetTunableData
+
+function msemenu.GetTunableData(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GetTunableData - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GetTunableData(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_GenerateTunableModePropertyEntry = msemenu.GenerateTunableModePropertyEntry
+
+function msemenu.GenerateTunableModePropertyEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_)
+	Game.LogWarn(0, "Called msemenu.GenerateTunableModePropertyEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_)..","..tostring(_ARG_4_))
+	return msemenu._ORIG_GenerateTunableModePropertyEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_)
+end
+
+msemenu._ORIG_GenerateTunableNumberPropertyEntry = msemenu.GenerateTunableNumberPropertyEntry
+
+function msemenu.GenerateTunableNumberPropertyEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_)
+	Game.LogWarn(0, "Called msemenu.GenerateTunableNumberPropertyEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_)..","..tostring(_ARG_4_))
+	return msemenu._ORIG_GenerateTunableNumberPropertyEntry(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_, _ARG_4_)
+end
+
+msemenu._ORIG_GenerateTunableBoolPropertyEntry = msemenu.GenerateTunableBoolPropertyEntry
+
+function msemenu.GenerateTunableBoolPropertyEntry(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.GenerateTunableBoolPropertyEntry - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_GenerateTunableBoolPropertyEntry(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_FindItemContent = msemenu.FindItemContent
+
+function msemenu.FindItemContent(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu.FindItemContent - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu._ORIG_FindItemContent(_ARG_0_, _ARG_1_)
+end
+
+msemenu._ORIG_SwitchPerformanceInfoEnabled = msemenu.SwitchPerformanceInfoEnabled
+
+function msemenu.SwitchPerformanceInfoEnabled()
+	Game.LogWarn(0, "Called msemenu.SwitchPerformanceInfoEnabled")
+	return msemenu._ORIG_SwitchPerformanceInfoEnabled()
+end
+

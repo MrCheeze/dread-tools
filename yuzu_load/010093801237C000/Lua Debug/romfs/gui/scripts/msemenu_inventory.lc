@@ -1,0 +1,2 @@
+Game.LogWarn(0, "Entering script msemenu_inventory.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_inventory.lc")

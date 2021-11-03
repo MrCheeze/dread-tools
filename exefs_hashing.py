@@ -1,4 +1,6 @@
 import struct
+import json
+import pprint
 
 def decode_adrp_add(adrp_addr, adrp_inst, add_inst):
     adrp_inst = int.from_bytes(adrp_inst, 'little')
@@ -130,15 +132,19 @@ def is_mov_w2(inst):
 def decode_mov(inst):
     inst = int.from_bytes(inst, 'little')
     if inst == 0x2a1f03e2:
-        return 0
+        ret = 0
     if (inst & 0xFFE0001F) == 0x52800002:
-        return (inst & 0x001FFFE0) >> 5
+        ret = (inst & 0x001FFFE0) >> 5
     if (inst & 0xFFE0001F) == 0x12A00002:
-        return ((inst & 0x001FFFE0) << 11) ^ 0xFFFFFFFF
+        ret = ((inst & 0x001FFFE0) << 11) ^ 0xFFFFFFFF
     if (inst & 0xFFE0001F) == 0x12800002:
-        return ((inst & 0x001FFFE0) >> 5) ^ 0xFFFFFFFF
+        ret = ((inst & 0x001FFFE0) >> 5) ^ 0xFFFFFFFF
     if (inst & 0xFFE0001F) == 0x52A00002:
-        return (inst & 0x001FFFE0) << 11
+        ret = (inst & 0x001FFFE0) << 11
+    
+    if ret >= 0x80000000:
+        ret -= 0x100000000
+    return ret
 
 funcs = {
 }
@@ -146,6 +152,22 @@ funcs = {
 def is_sub_sp(inst):
     inst = int.from_bytes(inst, 'little')
     return (inst & 0xFFC003FF) == 0xD10003FF
+
+def parse_namespace(s):
+    output = ['']
+    i = 0
+    has_seen_lt = False
+    while s != '':
+        if s.startswith('::') and not has_seen_lt:
+            output.append('')
+            s = s[2:]
+        elif s[0] == '<':
+            output[-1] += s
+            s = ''
+        else:
+            output[-1] += s[0]
+            s = s[1:]
+    return output
 
 
 if __name__ == '__main__':
@@ -266,9 +288,9 @@ if __name__ == '__main__':
                 field_funcs.append(funcstart)
 
             if instrs_since_add <= 19:
-                f2_buf.append('\tvoid %s;\n'%(last_add_str))
+                f2_buf.append({'type':None,'name':last_add_str})
             else:
-                f2_buf.append('\tvoid %s;\n'%(last_ldr_str))
+                f2_buf.append({'type':None,'name':last_ldr_str})
 
         if is_mov_w2(filedata[i:i+4]):
             last_mov_w2 = i
@@ -286,12 +308,13 @@ if __name__ == '__main__':
                 f3_buf.append(funcstart)
                 enum_funcs.append(funcstart)
             
-            f3_buf.append('\t%s = %s,\n'%(last_add_str, hex(last_mov_w2_int)))
+            f3_buf.append({'name':last_add_str, 'value': last_mov_w2_int})
 
-    f2_buf.append('}')
-    f3_buf.append('}')
+    f2_buf.append('};\n')
+    f3_buf.append('};\n')
 
     name_map = {}
+    parents = {}
 
     for i in range(0, len(filedata), 4):
 
@@ -323,6 +346,7 @@ if __name__ == '__main__':
                 label = ptr_map[ptr]
                 if label in field_funcs:
                     assert instrs_since_add <= 28
+                    parents[label] = None
                     name_map[label] = last_add_str
         if is_adrp(filedata[i:i+4], out_register=4) and is_ldr(filedata[i+8:i+12], out_register=4):
             instrs_since_add = (i - last_adrp_add) // 4
@@ -331,6 +355,7 @@ if __name__ == '__main__':
                 label = ptr_map[ptr]
                 if label in field_funcs:
                     assert instrs_since_add <= 28
+                    parents[label] = None
                     name_map[label] = last_add_str
         if is_adrp(filedata[i:i+4], out_register=4) and is_ldr(filedata[i+12:i+16], out_register=4):
             instrs_since_add = (i - last_adrp_add) // 4
@@ -339,35 +364,36 @@ if __name__ == '__main__':
                 label = ptr_map[ptr]
                 if label in field_funcs:
                     assert instrs_since_add <= 28
+                    parents[label] = None
                     name_map[label] = last_add_str
 
 
-    f2=open('fields.cpp','w')
-    f3=open('enums.cpp','w')
+    f2=open('dread_types.json','w')
+
+    output = {'classes':{},'enums':{}}
+
+    classname = None
     
     for i,line in enumerate(f2_buf):
-        if type(line) == str:
-            f2.write(line)
+        if type(line) == int:
+            classname = name_map[line]
+            output['classes'][classname] = {'parent':parents[line],'fields':[]}
         else:
-            if i != 0:
-                f2.write('};\n')
-            if line in name_map:
-                f2.write('class %s {\n'%(name_map[line]))
-            else:
-                f2.write('class unk_%s {\n'%(hex(line)))
+            output['classes'][classname]['fields'].append(line)
     
     for i,line in enumerate(f3_buf):
-        if type(line) == str:
-            f3.write(line)
+        if type(line) == int:
+            classname = name_map[line]
+            output['enums'][classname] = {'values':[]}
         else:
-            if i != 0:
-                f3.write('};\n')
-            if line in name_map:
-                f3.write('enum %s {\n'%(name_map[line]))
-            else:
-                f3.write('enum unk_%s {\n'%(hex(line)))
+            output['enums'][classname]['values'].append(line)
+    
+    #json.dump(output, f2, indent=2)
+    
+    s = pprint.pformat(output, width=200, compact=False, sort_dicts=True)
+    s=s.replace("'",'"').replace(': None',': null')
+    f2.write(s)
 
     f2.close()
-    f3.close()
     
     

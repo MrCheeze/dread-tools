@@ -1,0 +1,38 @@
+Game.LogWarn(0, "Entering script guimanager.lc")
+Game.DoFile("rom:/gui/scripts/originals/guimanager.lc")
+
+GUIManager._ORIG_main = GUIManager.main
+
+function GUIManager.main()
+	Game.LogWarn(0, "Called GUIManager.main")
+	return GUIManager._ORIG_main()
+end
+
+GUIManager._ORIG_OnDestroying = GUIManager.OnDestroying
+
+function GUIManager.OnDestroying()
+	Game.LogWarn(0, "Called GUIManager.OnDestroying")
+	return GUIManager._ORIG_OnDestroying()
+end
+
+GUIManager._ORIG_LoadLanguageResources = GUIManager.LoadLanguageResources
+
+function GUIManager.LoadLanguageResources(_ARG_0_)
+	Game.LogWarn(0, "Called GUIManager.LoadLanguageResources - "..tostring(_ARG_0_))
+	return GUIManager._ORIG_LoadLanguageResources(_ARG_0_)
+end
+
+GUIManager._ORIG_LoadCurrentLanguageResources = GUIManager.LoadCurrentLanguageResources
+
+function GUIManager.LoadCurrentLanguageResources()
+	Game.LogWarn(0, "Called GUIManager.LoadCurrentLanguageResources")
+	return GUIManager._ORIG_LoadCurrentLanguageResources()
+end
+
+GUIManager._ORIG_LoadGUISoundResources = GUIManager.LoadGUISoundResources
+
+function GUIManager.LoadGUISoundResources()
+	Game.LogWarn(0, "Called GUIManager.LoadGUISoundResources")
+	return GUIManager._ORIG_LoadGUISoundResources()
+end
+

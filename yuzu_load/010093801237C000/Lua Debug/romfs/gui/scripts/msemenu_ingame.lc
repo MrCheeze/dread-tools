@@ -1,0 +1,283 @@
+Game.LogWarn(0, "Entering script msemenu_ingame.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_ingame.lc")
+
+msemenu_ingame._ORIG_CreateEmmyConfigMenu = msemenu_ingame.CreateEmmyConfigMenu
+
+function msemenu_ingame.CreateEmmyConfigMenu(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu_ingame.CreateEmmyConfigMenu - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu_ingame._ORIG_CreateEmmyConfigMenu(_ARG_0_, _ARG_1_)
+end
+
+msemenu_ingame._ORIG_Create = msemenu_ingame.Create
+
+function msemenu_ingame.Create(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_ingame.Create - "..tostring(_ARG_0_))
+	return msemenu_ingame._ORIG_Create(_ARG_0_)
+end
+
+msemenu_ingame._ORIG_LoadCheckpoint = msemenu_ingame.LoadCheckpoint
+
+function msemenu_ingame.LoadCheckpoint()
+	Game.LogWarn(0, "Called msemenu_ingame.LoadCheckpoint")
+	return msemenu_ingame._ORIG_LoadCheckpoint()
+end
+
+msemenu_ingame._ORIG_SaveCheckpoint = msemenu_ingame.SaveCheckpoint
+
+function msemenu_ingame.SaveCheckpoint(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_ingame.SaveCheckpoint - "..tostring(_ARG_0_))
+	return msemenu_ingame._ORIG_SaveCheckpoint(_ARG_0_)
+end
+
+msemenu_ingame._ORIG_OnMessageSkip = msemenu_ingame.OnMessageSkip
+
+function msemenu_ingame.OnMessageSkip()
+	Game.LogWarn(0, "Called msemenu_ingame.OnMessageSkip")
+	return msemenu_ingame._ORIG_OnMessageSkip()
+end
+
+msemenu_ingame._ORIG_Quit = msemenu_ingame.Quit
+
+function msemenu_ingame.Quit()
+	Game.LogWarn(0, "Called msemenu_ingame.Quit")
+	return msemenu_ingame._ORIG_Quit()
+end
+
+msemenu_ingame._ORIG_OnExitToMainMenuConfirmed = msemenu_ingame.OnExitToMainMenuConfirmed
+
+function msemenu_ingame.OnExitToMainMenuConfirmed()
+	Game.LogWarn(0, "Called msemenu_ingame.OnExitToMainMenuConfirmed")
+	return msemenu_ingame._ORIG_OnExitToMainMenuConfirmed()
+end
+
+msemenu_ingame._ORIG_OnReloadCurrentScenarioConfirmed = msemenu_ingame.OnReloadCurrentScenarioConfirmed
+
+function msemenu_ingame.OnReloadCurrentScenarioConfirmed()
+	Game.LogWarn(0, "Called msemenu_ingame.OnReloadCurrentScenarioConfirmed")
+	return msemenu_ingame._ORIG_OnReloadCurrentScenarioConfirmed()
+end
+
+msemenu_ingame._ORIG_OnLoadFromCheckpointConfirmed = msemenu_ingame.OnLoadFromCheckpointConfirmed
+
+function msemenu_ingame.OnLoadFromCheckpointConfirmed()
+	Game.LogWarn(0, "Called msemenu_ingame.OnLoadFromCheckpointConfirmed")
+	return msemenu_ingame._ORIG_OnLoadFromCheckpointConfirmed()
+end
+
+msemenu_ingame._ORIG_OnLoadFromSavedataConfirmed = msemenu_ingame.OnLoadFromSavedataConfirmed
+
+function msemenu_ingame.OnLoadFromSavedataConfirmed()
+	Game.LogWarn(0, "Called msemenu_ingame.OnLoadFromSavedataConfirmed")
+	return msemenu_ingame._ORIG_OnLoadFromSavedataConfirmed()
+end
+
+msemenu_ingame._ORIG_OnExportStrippedDownSystemPack = msemenu_ingame.OnExportStrippedDownSystemPack
+
+function msemenu_ingame.OnExportStrippedDownSystemPack()
+	Game.LogWarn(0, "Called msemenu_ingame.OnExportStrippedDownSystemPack")
+	return msemenu_ingame._ORIG_OnExportStrippedDownSystemPack()
+end
+
+msemenu_ingame._ORIG_GetEmmy = msemenu_ingame.GetEmmy
+
+function msemenu_ingame.GetEmmy()
+	Game.LogWarn(0, "Called msemenu_ingame.GetEmmy")
+	return msemenu_ingame._ORIG_GetEmmy()
+end
+
+msemenu_ingame._ORIG_GetEmmyName = msemenu_ingame.GetEmmyName
+
+function msemenu_ingame.GetEmmyName()
+	Game.LogWarn(0, "Called msemenu_ingame.GetEmmyName")
+	return msemenu_ingame._ORIG_GetEmmyName()
+end
+
+msemenu_ingame._ORIG_SwitchVisionConeVisible = msemenu_ingame.SwitchVisionConeVisible
+
+function msemenu_ingame.SwitchVisionConeVisible()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchVisionConeVisible")
+	return msemenu_ingame._ORIG_SwitchVisionConeVisible()
+end
+
+msemenu_ingame._ORIG_SwitchShowSearchPointDebug = msemenu_ingame.SwitchShowSearchPointDebug
+
+function msemenu_ingame.SwitchShowSearchPointDebug()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchShowSearchPointDebug")
+	return msemenu_ingame._ORIG_SwitchShowSearchPointDebug()
+end
+
+msemenu_ingame._ORIG_SwitchHudTestMode = msemenu_ingame.SwitchHudTestMode
+
+function msemenu_ingame.SwitchHudTestMode()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchHudTestMode")
+	return msemenu_ingame._ORIG_SwitchHudTestMode()
+end
+
+msemenu_ingame._ORIG_SwitchWalkMode = msemenu_ingame.SwitchWalkMode
+
+function msemenu_ingame.SwitchWalkMode()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchWalkMode")
+	return msemenu_ingame._ORIG_SwitchWalkMode()
+end
+
+msemenu_ingame._ORIG_SwitchPlayerInvulnerableToEnvironment = msemenu_ingame.SwitchPlayerInvulnerableToEnvironment
+
+function msemenu_ingame.SwitchPlayerInvulnerableToEnvironment()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchPlayerInvulnerableToEnvironment")
+	return msemenu_ingame._ORIG_SwitchPlayerInvulnerableToEnvironment()
+end
+
+msemenu_ingame._ORIG_SwitchDetectPlayerNoiseEnabled = msemenu_ingame.SwitchDetectPlayerNoiseEnabled
+
+function msemenu_ingame.SwitchDetectPlayerNoiseEnabled()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchDetectPlayerNoiseEnabled")
+	return msemenu_ingame._ORIG_SwitchDetectPlayerNoiseEnabled()
+end
+
+msemenu_ingame._ORIG_SwitchHardModeEnabled = msemenu_ingame.SwitchHardModeEnabled
+
+function msemenu_ingame.SwitchHardModeEnabled()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchHardModeEnabled")
+	return msemenu_ingame._ORIG_SwitchHardModeEnabled()
+end
+
+msemenu_ingame._ORIG_GeneratePlayerMaxLifeOverrideMenuEntry = msemenu_ingame.GeneratePlayerMaxLifeOverrideMenuEntry
+
+function msemenu_ingame.GeneratePlayerMaxLifeOverrideMenuEntry()
+	Game.LogWarn(0, "Called msemenu_ingame.GeneratePlayerMaxLifeOverrideMenuEntry")
+	return msemenu_ingame._ORIG_GeneratePlayerMaxLifeOverrideMenuEntry()
+end
+
+msemenu_ingame._ORIG_GenerateRecoverMissilesMenuEntry = msemenu_ingame.GenerateRecoverMissilesMenuEntry
+
+function msemenu_ingame.GenerateRecoverMissilesMenuEntry()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateRecoverMissilesMenuEntry")
+	return msemenu_ingame._ORIG_GenerateRecoverMissilesMenuEntry()
+end
+
+msemenu_ingame._ORIG_GeneratePatrolSearchMaxTimeEntry = msemenu_ingame.GeneratePatrolSearchMaxTimeEntry
+
+function msemenu_ingame.GeneratePatrolSearchMaxTimeEntry()
+	Game.LogWarn(0, "Called msemenu_ingame.GeneratePatrolSearchMaxTimeEntry")
+	return msemenu_ingame._ORIG_GeneratePatrolSearchMaxTimeEntry()
+end
+
+msemenu_ingame._ORIG_GenerateAmiiboMenu = msemenu_ingame.GenerateAmiiboMenu
+
+function msemenu_ingame.GenerateAmiiboMenu()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateAmiiboMenu")
+	return msemenu_ingame._ORIG_GenerateAmiiboMenu()
+end
+
+msemenu_ingame._ORIG_GenerateAmiiboActivateDeactivateMenu = msemenu_ingame.GenerateAmiiboActivateDeactivateMenu
+
+function msemenu_ingame.GenerateAmiiboActivateDeactivateMenu(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateAmiiboActivateDeactivateMenu - "..tostring(_ARG_0_))
+	return msemenu_ingame._ORIG_GenerateAmiiboActivateDeactivateMenu(_ARG_0_)
+end
+
+msemenu_ingame._ORIG_ActivateAmiibo = msemenu_ingame.ActivateAmiibo
+
+function msemenu_ingame.ActivateAmiibo(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu_ingame.ActivateAmiibo - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu_ingame._ORIG_ActivateAmiibo(_ARG_0_, _ARG_1_)
+end
+
+msemenu_ingame._ORIG_EnableMinimap = msemenu_ingame.EnableMinimap
+
+function msemenu_ingame.EnableMinimap()
+	Game.LogWarn(0, "Called msemenu_ingame.EnableMinimap")
+	return msemenu_ingame._ORIG_EnableMinimap()
+end
+
+msemenu_ingame._ORIG_EnableAutoFade = msemenu_ingame.EnableAutoFade
+
+function msemenu_ingame.EnableAutoFade()
+	Game.LogWarn(0, "Called msemenu_ingame.EnableAutoFade")
+	return msemenu_ingame._ORIG_EnableAutoFade()
+end
+
+msemenu_ingame._ORIG_GenerateMinimapShowUnvisitedEditor = msemenu_ingame.GenerateMinimapShowUnvisitedEditor
+
+function msemenu_ingame.GenerateMinimapShowUnvisitedEditor()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateMinimapShowUnvisitedEditor")
+	return msemenu_ingame._ORIG_GenerateMinimapShowUnvisitedEditor()
+end
+
+msemenu_ingame._ORIG_GenerateMinimapFOWTypeEditor = msemenu_ingame.GenerateMinimapFOWTypeEditor
+
+function msemenu_ingame.GenerateMinimapFOWTypeEditor()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateMinimapFOWTypeEditor")
+	return msemenu_ingame._ORIG_GenerateMinimapFOWTypeEditor()
+end
+
+msemenu_ingame._ORIG_EnableMinimapExPanning = msemenu_ingame.EnableMinimapExPanning
+
+function msemenu_ingame.EnableMinimapExPanning()
+	Game.LogWarn(0, "Called msemenu_ingame.EnableMinimapExPanning")
+	return msemenu_ingame._ORIG_EnableMinimapExPanning()
+end
+
+msemenu_ingame._ORIG_EnableMinimapEx = msemenu_ingame.EnableMinimapEx
+
+function msemenu_ingame.EnableMinimapEx()
+	Game.LogWarn(0, "Called msemenu_ingame.EnableMinimapEx")
+	return msemenu_ingame._ORIG_EnableMinimapEx()
+end
+
+msemenu_ingame._ORIG_GenerateMinimapViewAlphaEditor = msemenu_ingame.GenerateMinimapViewAlphaEditor
+
+function msemenu_ingame.GenerateMinimapViewAlphaEditor()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateMinimapViewAlphaEditor")
+	return msemenu_ingame._ORIG_GenerateMinimapViewAlphaEditor()
+end
+
+msemenu_ingame._ORIG_GenerateMinimapFOWRadiusEditor = msemenu_ingame.GenerateMinimapFOWRadiusEditor
+
+function msemenu_ingame.GenerateMinimapFOWRadiusEditor()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateMinimapFOWRadiusEditor")
+	return msemenu_ingame._ORIG_GenerateMinimapFOWRadiusEditor()
+end
+
+msemenu_ingame._ORIG_MetroidLarvaAmiiboActivation = msemenu_ingame.MetroidLarvaAmiiboActivation
+
+function msemenu_ingame.MetroidLarvaAmiiboActivation()
+	Game.LogWarn(0, "Called msemenu_ingame.MetroidLarvaAmiiboActivation")
+	return msemenu_ingame._ORIG_MetroidLarvaAmiiboActivation()
+end
+
+msemenu_ingame._ORIG_GenerateForceLoadingScreenTooltip = msemenu_ingame.GenerateForceLoadingScreenTooltip
+
+function msemenu_ingame.GenerateForceLoadingScreenTooltip()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateForceLoadingScreenTooltip")
+	return msemenu_ingame._ORIG_GenerateForceLoadingScreenTooltip()
+end
+
+msemenu_ingame._ORIG_SwitchShowSubtitles = msemenu_ingame.SwitchShowSubtitles
+
+function msemenu_ingame.SwitchShowSubtitles()
+	Game.LogWarn(0, "Called msemenu_ingame.SwitchShowSubtitles")
+	return msemenu_ingame._ORIG_SwitchShowSubtitles()
+end
+
+msemenu_ingame._ORIG_GenerateGameTimeEntrance = msemenu_ingame.GenerateGameTimeEntrance
+
+function msemenu_ingame.GenerateGameTimeEntrance()
+	Game.LogWarn(0, "Called msemenu_ingame.GenerateGameTimeEntrance")
+	return msemenu_ingame._ORIG_GenerateGameTimeEntrance()
+end
+
+msemenu_ingame._ORIG_AppendMenuInfo = msemenu_ingame.AppendMenuInfo
+
+function msemenu_ingame.AppendMenuInfo(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_ingame.AppendMenuInfo - "..tostring(_ARG_0_))
+	return msemenu_ingame._ORIG_AppendMenuInfo(_ARG_0_)
+end
+
+msemenu_ingame._ORIG_ProcessMenu = msemenu_ingame.ProcessMenu
+
+function msemenu_ingame.ProcessMenu(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu_ingame.ProcessMenu - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu_ingame._ORIG_ProcessMenu(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+

@@ -1,0 +1,171 @@
+Game.LogWarn(0, "Entering script loadingscreen.lc")
+Game.DoFile("rom:/gui/scripts/originals/loadingscreen.lc")
+
+loadingscreen._ORIG_UpdateUnlockedTooltips = loadingscreen.UpdateUnlockedTooltips
+
+function loadingscreen.UpdateUnlockedTooltips()
+	Game.LogWarn(0, "Called loadingscreen.UpdateUnlockedTooltips")
+	return loadingscreen._ORIG_UpdateUnlockedTooltips()
+end
+
+loadingscreen._ORIG_IsTooltipUnlocked = loadingscreen.IsTooltipUnlocked
+
+function loadingscreen.IsTooltipUnlocked(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.IsTooltipUnlocked - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_IsTooltipUnlocked(_ARG_0_)
+end
+
+loadingscreen._ORIG_UnlockTooltip = loadingscreen.UnlockTooltip
+
+function loadingscreen.UnlockTooltip(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.UnlockTooltip - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_UnlockTooltip(_ARG_0_)
+end
+
+loadingscreen._ORIG_GetRandomTooltip = loadingscreen.GetRandomTooltip
+
+function loadingscreen.GetRandomTooltip()
+	Game.LogWarn(0, "Called loadingscreen.GetRandomTooltip")
+	return loadingscreen._ORIG_GetRandomTooltip()
+end
+
+loadingscreen._ORIG_Create = loadingscreen.Create
+
+function loadingscreen.Create(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.Create - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_Create(_ARG_0_)
+end
+
+loadingscreen._ORIG_ReleaseImage = loadingscreen.ReleaseImage
+
+function loadingscreen.ReleaseImage()
+	Game.LogWarn(0, "Called loadingscreen.ReleaseImage")
+	return loadingscreen._ORIG_ReleaseImage()
+end
+
+loadingscreen._ORIG_SetImage = loadingscreen.SetImage
+
+function loadingscreen.SetImage(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetImage - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetImage(_ARG_0_)
+end
+
+loadingscreen._ORIG_SetTooltip = loadingscreen.SetTooltip
+
+function loadingscreen.SetTooltip(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetTooltip - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetTooltip(_ARG_0_)
+end
+
+loadingscreen._ORIG_SetText = loadingscreen.SetText
+
+function loadingscreen.SetText(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetText - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetText(_ARG_0_)
+end
+
+loadingscreen._ORIG_SetNextLoadingScreenText = loadingscreen.SetNextLoadingScreenText
+
+function loadingscreen.SetNextLoadingScreenText(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetNextLoadingScreenText - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetNextLoadingScreenText(_ARG_0_)
+end
+
+loadingscreen._ORIG_SetScenarioLoadingScreen = loadingscreen.SetScenarioLoadingScreen
+
+function loadingscreen.SetScenarioLoadingScreen(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetScenarioLoadingScreen - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetScenarioLoadingScreen(_ARG_0_)
+end
+
+loadingscreen._ORIG_SetIngameStartButtonEnabled = loadingscreen.SetIngameStartButtonEnabled
+
+function loadingscreen.SetIngameStartButtonEnabled(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetIngameStartButtonEnabled - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetIngameStartButtonEnabled(_ARG_0_)
+end
+
+loadingscreen._ORIG_ShowLoadingScreen = loadingscreen.ShowLoadingScreen
+
+function loadingscreen.ShowLoadingScreen()
+	Game.LogWarn(0, "Called loadingscreen.ShowLoadingScreen")
+	return loadingscreen._ORIG_ShowLoadingScreen()
+end
+
+loadingscreen._ORIG_HideLoadingScreen = loadingscreen.HideLoadingScreen
+
+function loadingscreen.HideLoadingScreen()
+	Game.LogWarn(0, "Called loadingscreen.HideLoadingScreen")
+	return loadingscreen._ORIG_HideLoadingScreen()
+end
+
+loadingscreen._ORIG_OnLoadScenarioRequest = loadingscreen.OnLoadScenarioRequest
+
+function loadingscreen.OnLoadScenarioRequest(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called loadingscreen.OnLoadScenarioRequest - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return loadingscreen._ORIG_OnLoadScenarioRequest(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+loadingscreen._ORIG_OnNewScenarioLoaded = loadingscreen.OnNewScenarioLoaded
+
+function loadingscreen.OnNewScenarioLoaded(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called loadingscreen.OnNewScenarioLoaded - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return loadingscreen._ORIG_OnNewScenarioLoaded(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+loadingscreen._ORIG_SetCutsceneLoadingScreen = loadingscreen.SetCutsceneLoadingScreen
+
+function loadingscreen.SetCutsceneLoadingScreen(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.SetCutsceneLoadingScreen - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_SetCutsceneLoadingScreen(_ARG_0_)
+end
+
+loadingscreen._ORIG_HideCutsceneLoadingScreen = loadingscreen.HideCutsceneLoadingScreen
+
+function loadingscreen.HideCutsceneLoadingScreen()
+	Game.LogWarn(0, "Called loadingscreen.HideCutsceneLoadingScreen")
+	return loadingscreen._ORIG_HideCutsceneLoadingScreen()
+end
+
+loadingscreen._ORIG_SetMainMenuLoadingScreen = loadingscreen.SetMainMenuLoadingScreen
+
+function loadingscreen.SetMainMenuLoadingScreen()
+	Game.LogWarn(0, "Called loadingscreen.SetMainMenuLoadingScreen")
+	return loadingscreen._ORIG_SetMainMenuLoadingScreen()
+end
+
+loadingscreen._ORIG_HideMainMenuLoadingScreen = loadingscreen.HideMainMenuLoadingScreen
+
+function loadingscreen.HideMainMenuLoadingScreen()
+	Game.LogWarn(0, "Called loadingscreen.HideMainMenuLoadingScreen")
+	return loadingscreen._ORIG_HideMainMenuLoadingScreen()
+end
+
+loadingscreen._ORIG_OnCutsceneLoadingRequest = loadingscreen.OnCutsceneLoadingRequest
+
+function loadingscreen.OnCutsceneLoadingRequest(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.OnCutsceneLoadingRequest - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_OnCutsceneLoadingRequest(_ARG_0_)
+end
+
+loadingscreen._ORIG_OnCutsceneRequestProcessed = loadingscreen.OnCutsceneRequestProcessed
+
+function loadingscreen.OnCutsceneRequestProcessed()
+	Game.LogWarn(0, "Called loadingscreen.OnCutsceneRequestProcessed")
+	return loadingscreen._ORIG_OnCutsceneRequestProcessed()
+end
+
+loadingscreen._ORIG_OnCutsceneLoadingStarts = loadingscreen.OnCutsceneLoadingStarts
+
+function loadingscreen.OnCutsceneLoadingStarts(_ARG_0_)
+	Game.LogWarn(0, "Called loadingscreen.OnCutsceneLoadingStarts - "..tostring(_ARG_0_))
+	return loadingscreen._ORIG_OnCutsceneLoadingStarts(_ARG_0_)
+end
+
+loadingscreen._ORIG_OnCutsceneLoaded = loadingscreen.OnCutsceneLoaded
+
+function loadingscreen.OnCutsceneLoaded()
+	Game.LogWarn(0, "Called loadingscreen.OnCutsceneLoaded")
+	return loadingscreen._ORIG_OnCutsceneLoaded()
+end
+

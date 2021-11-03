@@ -1,0 +1,17 @@
+Game.LogWarn(0, "Entering script msemenu_ingame_common.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_ingame_common.lc")
+
+msemenu_ingame_common._ORIG_GetAllInventory = msemenu_ingame_common.GetAllInventory
+
+function msemenu_ingame_common.GetAllInventory()
+	Game.LogWarn(0, "Called msemenu_ingame_common.GetAllInventory")
+	return msemenu_ingame_common._ORIG_GetAllInventory()
+end
+
+msemenu_ingame_common._ORIG_CleanAllInventory = msemenu_ingame_common.CleanAllInventory
+
+function msemenu_ingame_common.CleanAllInventory()
+	Game.LogWarn(0, "Called msemenu_ingame_common.CleanAllInventory")
+	return msemenu_ingame_common._ORIG_CleanAllInventory()
+end
+

@@ -1,0 +1,45 @@
+Game.LogWarn(0, "Entering script msemenu_mainmenu.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_mainmenu.lc")
+
+msemenu_mainmenu._ORIG_Create = msemenu_mainmenu.Create
+
+function msemenu_mainmenu.Create(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_mainmenu.Create - "..tostring(_ARG_0_))
+	return msemenu_mainmenu._ORIG_Create(_ARG_0_)
+end
+
+msemenu_mainmenu._ORIG_EnableAmiiboMenu = msemenu_mainmenu.EnableAmiiboMenu
+
+function msemenu_mainmenu.EnableAmiiboMenu()
+	Game.LogWarn(0, "Called msemenu_mainmenu.EnableAmiiboMenu")
+	return msemenu_mainmenu._ORIG_EnableAmiiboMenu()
+end
+
+msemenu_mainmenu._ORIG_LoadDebugScenario = msemenu_mainmenu.LoadDebugScenario
+
+function msemenu_mainmenu.LoadDebugScenario(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_mainmenu.LoadDebugScenario - "..tostring(_ARG_0_))
+	return msemenu_mainmenu._ORIG_LoadDebugScenario(_ARG_0_)
+end
+
+msemenu_mainmenu._ORIG_LoadPresavedDebugScenario = msemenu_mainmenu.LoadPresavedDebugScenario
+
+function msemenu_mainmenu.LoadPresavedDebugScenario(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_mainmenu.LoadPresavedDebugScenario - "..tostring(_ARG_0_))
+	return msemenu_mainmenu._ORIG_LoadPresavedDebugScenario(_ARG_0_)
+end
+
+msemenu_mainmenu._ORIG_GenerateLoadArenaItems = msemenu_mainmenu.GenerateLoadArenaItems
+
+function msemenu_mainmenu.GenerateLoadArenaItems(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_mainmenu.GenerateLoadArenaItems - "..tostring(_ARG_0_))
+	return msemenu_mainmenu._ORIG_GenerateLoadArenaItems(_ARG_0_)
+end
+
+msemenu_mainmenu._ORIG_GenerateEmmyTunnelConfig = msemenu_mainmenu.GenerateEmmyTunnelConfig
+
+function msemenu_mainmenu.GenerateEmmyTunnelConfig(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_mainmenu.GenerateEmmyTunnelConfig - "..tostring(_ARG_0_))
+	return msemenu_mainmenu._ORIG_GenerateEmmyTunnelConfig(_ARG_0_)
+end
+

@@ -1,0 +1,31 @@
+Game.LogWarn(0, "Entering script scenariomenu_common.lc")
+Game.DoFile("rom:/gui/scripts/originals/scenariomenu_common.lc")
+
+ScenarioMenu._ORIG_InitScenarioMenuGameBlackboard = ScenarioMenu.InitScenarioMenuGameBlackboard
+
+function ScenarioMenu.InitScenarioMenuGameBlackboard(_ARG_0_)
+	Game.LogWarn(0, "Called ScenarioMenu.InitScenarioMenuGameBlackboard - "..tostring(_ARG_0_))
+	return ScenarioMenu._ORIG_InitScenarioMenuGameBlackboard(_ARG_0_)
+end
+
+ScenarioMenu._ORIG_AddScenario = ScenarioMenu.AddScenario
+
+function ScenarioMenu.AddScenario(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called ScenarioMenu.AddScenario - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return ScenarioMenu._ORIG_AddScenario(_ARG_0_, _ARG_1_)
+end
+
+ScenarioMenu._ORIG_LoadScenario = ScenarioMenu.LoadScenario
+
+function ScenarioMenu.LoadScenario(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called ScenarioMenu.LoadScenario - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return ScenarioMenu._ORIG_LoadScenario(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+ScenarioMenu._ORIG_TeleportToScenario = ScenarioMenu.TeleportToScenario
+
+function ScenarioMenu.TeleportToScenario(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called ScenarioMenu.TeleportToScenario - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return ScenarioMenu._ORIG_TeleportToScenario(_ARG_0_, _ARG_1_)
+end
+

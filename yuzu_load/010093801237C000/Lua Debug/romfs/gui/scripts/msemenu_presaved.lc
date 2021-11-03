@@ -1,0 +1,31 @@
+Game.LogWarn(0, "Entering script msemenu_presaved.lc")
+Game.DoFile("rom:/gui/scripts/originals/msemenu_presaved.lc")
+
+msemenu_presaved._ORIG_Create = msemenu_presaved.Create
+
+function msemenu_presaved.Create(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_presaved.Create - "..tostring(_ARG_0_))
+	return msemenu_presaved._ORIG_Create(_ARG_0_)
+end
+
+msemenu_presaved._ORIG_GenerateCheckpointItem = msemenu_presaved.GenerateCheckpointItem
+
+function msemenu_presaved.GenerateCheckpointItem(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called msemenu_presaved.GenerateCheckpointItem - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return msemenu_presaved._ORIG_GenerateCheckpointItem(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+msemenu_presaved._ORIG_GenerateLoadMenuForPlaythrought = msemenu_presaved.GenerateLoadMenuForPlaythrought
+
+function msemenu_presaved.GenerateLoadMenuForPlaythrought(_ARG_0_)
+	Game.LogWarn(0, "Called msemenu_presaved.GenerateLoadMenuForPlaythrought - "..tostring(_ARG_0_))
+	return msemenu_presaved._ORIG_GenerateLoadMenuForPlaythrought(_ARG_0_)
+end
+
+msemenu_presaved._ORIG_GenerateSaveMenuForPlaythrought = msemenu_presaved.GenerateSaveMenuForPlaythrought
+
+function msemenu_presaved.GenerateSaveMenuForPlaythrought(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called msemenu_presaved.GenerateSaveMenuForPlaythrought - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return msemenu_presaved._ORIG_GenerateSaveMenuForPlaythrought(_ARG_0_, _ARG_1_)
+end
+

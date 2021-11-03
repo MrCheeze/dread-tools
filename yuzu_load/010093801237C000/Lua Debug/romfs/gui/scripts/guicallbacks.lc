@@ -1,0 +1,241 @@
+Game.LogWarn(0, "Entering script guicallbacks.lc")
+Game.DoFile("rom:/gui/scripts/originals/guicallbacks.lc")
+
+guicallbacks._ORIG_GoToStateItemSpecialAbilities = guicallbacks.GoToStateItemSpecialAbilities
+
+function guicallbacks.GoToStateItemSpecialAbilities()
+	Game.LogWarn(0, "Called guicallbacks.GoToStateItemSpecialAbilities")
+	return guicallbacks._ORIG_GoToStateItemSpecialAbilities()
+end
+
+guicallbacks._ORIG_GoToStateItemStatus = guicallbacks.GoToStateItemStatus
+
+function guicallbacks.GoToStateItemStatus()
+	Game.LogWarn(0, "Called guicallbacks.GoToStateItemStatus")
+	return guicallbacks._ORIG_GoToStateItemStatus()
+end
+
+guicallbacks._ORIG_OnPickableItemPickedUp = guicallbacks.OnPickableItemPickedUp
+
+function guicallbacks.OnPickableItemPickedUp(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnPickableItemPickedUp - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnPickableItemPickedUp(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnScanningPulsePickedUp = guicallbacks.OnScanningPulsePickedUp
+
+function guicallbacks.OnScanningPulsePickedUp()
+	Game.LogWarn(0, "Called guicallbacks.OnScanningPulsePickedUp")
+	return guicallbacks._ORIG_OnScanningPulsePickedUp()
+end
+
+guicallbacks._ORIG_OnAbilityActivatedChanged = guicallbacks.OnAbilityActivatedChanged
+
+function guicallbacks.OnAbilityActivatedChanged(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnAbilityActivatedChanged - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnAbilityActivatedChanged(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnPlayerFailedToSelectAbility = guicallbacks.OnPlayerFailedToSelectAbility
+
+function guicallbacks.OnPlayerFailedToSelectAbility(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnPlayerFailedToSelectAbility - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnPlayerFailedToSelectAbility(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnPlayerFailedToActivateAbility = guicallbacks.OnPlayerFailedToActivateAbility
+
+function guicallbacks.OnPlayerFailedToActivateAbility(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnPlayerFailedToActivateAbility - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnPlayerFailedToActivateAbility(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnMinimapCellVisited = guicallbacks.OnMinimapCellVisited
+
+function guicallbacks.OnMinimapCellVisited(_ARG_0_, _ARG_1_, _ARG_2_)
+	Game.LogWarn(0, "Called guicallbacks.OnMinimapCellVisited - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_))
+	return guicallbacks._ORIG_OnMinimapCellVisited(_ARG_0_, _ARG_1_, _ARG_2_)
+end
+
+guicallbacks._ORIG_OnLoadScenarioRequest = guicallbacks.OnLoadScenarioRequest
+
+function guicallbacks.OnLoadScenarioRequest(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+	Game.LogWarn(0, "Called guicallbacks.OnLoadScenarioRequest - "..tostring(_ARG_0_)..","..tostring(_ARG_1_)..","..tostring(_ARG_2_)..","..tostring(_ARG_3_))
+	return guicallbacks._ORIG_OnLoadScenarioRequest(_ARG_0_, _ARG_1_, _ARG_2_, _ARG_3_)
+end
+
+guicallbacks._ORIG_OnTeleporterUse = guicallbacks.OnTeleporterUse
+
+function guicallbacks.OnTeleporterUse(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnTeleporterUse - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnTeleporterUse(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnPlayerContinuousDamageStart = guicallbacks.OnPlayerContinuousDamageStart
+
+function guicallbacks.OnPlayerContinuousDamageStart()
+	Game.LogWarn(0, "Called guicallbacks.OnPlayerContinuousDamageStart")
+	return guicallbacks._ORIG_OnPlayerContinuousDamageStart()
+end
+
+guicallbacks._ORIG_OnPlayerContinuousDamageEnd = guicallbacks.OnPlayerContinuousDamageEnd
+
+function guicallbacks.OnPlayerContinuousDamageEnd()
+	Game.LogWarn(0, "Called guicallbacks.OnPlayerContinuousDamageEnd")
+	return guicallbacks._ORIG_OnPlayerContinuousDamageEnd()
+end
+
+guicallbacks._ORIG_OnFakeDeadFinished = guicallbacks.OnFakeDeadFinished
+
+function guicallbacks.OnFakeDeadFinished(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnFakeDeadFinished - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnFakeDeadFinished(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnNewPlayerCreated = guicallbacks.OnNewPlayerCreated
+
+function guicallbacks.OnNewPlayerCreated(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnNewPlayerCreated - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnNewPlayerCreated(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnProgressionDefItemAdded = guicallbacks.OnProgressionDefItemAdded
+
+function guicallbacks.OnProgressionDefItemAdded(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnProgressionDefItemAdded - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnProgressionDefItemAdded(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnEnemyDefeated = guicallbacks.OnEnemyDefeated
+
+function guicallbacks.OnEnemyDefeated(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnEnemyDefeated - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnEnemyDefeated(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnSpecialControlEnabled = guicallbacks.OnSpecialControlEnabled
+
+function guicallbacks.OnSpecialControlEnabled(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnSpecialControlEnabled - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnSpecialControlEnabled(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnASyncLoadProfileFinished = guicallbacks.OnASyncLoadProfileFinished
+
+function guicallbacks.OnASyncLoadProfileFinished(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnASyncLoadProfileFinished - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnASyncLoadProfileFinished(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnTeleporterUndisclosed = guicallbacks.OnTeleporterUndisclosed
+
+function guicallbacks.OnTeleporterUndisclosed(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnTeleporterUndisclosed - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnTeleporterUndisclosed(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnTravelBookOpened = guicallbacks.OnTravelBookOpened
+
+function guicallbacks.OnTravelBookOpened()
+	Game.LogWarn(0, "Called guicallbacks.OnTravelBookOpened")
+	return guicallbacks._ORIG_OnTravelBookOpened()
+end
+
+guicallbacks._ORIG_OnTravelBookClosed = guicallbacks.OnTravelBookClosed
+
+function guicallbacks.OnTravelBookClosed()
+	Game.LogWarn(0, "Called guicallbacks.OnTravelBookClosed")
+	return guicallbacks._ORIG_OnTravelBookClosed()
+end
+
+guicallbacks._ORIG_OnMessageWindowOpened = guicallbacks.OnMessageWindowOpened
+
+function guicallbacks.OnMessageWindowOpened()
+	Game.LogWarn(0, "Called guicallbacks.OnMessageWindowOpened")
+	return guicallbacks._ORIG_OnMessageWindowOpened()
+end
+
+guicallbacks._ORIG_OnMessageWindowClosed = guicallbacks.OnMessageWindowClosed
+
+function guicallbacks.OnMessageWindowClosed()
+	Game.LogWarn(0, "Called guicallbacks.OnMessageWindowClosed")
+	return guicallbacks._ORIG_OnMessageWindowClosed()
+end
+
+guicallbacks._ORIG_OnMinimapCustomMarkCreated = guicallbacks.OnMinimapCustomMarkCreated
+
+function guicallbacks.OnMinimapCustomMarkCreated(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnMinimapCustomMarkCreated - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnMinimapCustomMarkCreated(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnMinimapCustomMarkDestroyed = guicallbacks.OnMinimapCustomMarkDestroyed
+
+function guicallbacks.OnMinimapCustomMarkDestroyed(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnMinimapCustomMarkDestroyed - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnMinimapCustomMarkDestroyed(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnCurrentScenarioChanged = guicallbacks.OnCurrentScenarioChanged
+
+function guicallbacks.OnCurrentScenarioChanged(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnCurrentScenarioChanged - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnCurrentScenarioChanged(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnCurrentMinimapStateUpdated = guicallbacks.OnCurrentMinimapStateUpdated
+
+function guicallbacks.OnCurrentMinimapStateUpdated()
+	Game.LogWarn(0, "Called guicallbacks.OnCurrentMinimapStateUpdated")
+	return guicallbacks._ORIG_OnCurrentMinimapStateUpdated()
+end
+
+guicallbacks._ORIG_OnProgressionDefItemReviewed = guicallbacks.OnProgressionDefItemReviewed
+
+function guicallbacks.OnProgressionDefItemReviewed()
+	Game.LogWarn(0, "Called guicallbacks.OnProgressionDefItemReviewed")
+	return guicallbacks._ORIG_OnProgressionDefItemReviewed()
+end
+
+guicallbacks._ORIG_OnSheetItemReviewed = guicallbacks.OnSheetItemReviewed
+
+function guicallbacks.OnSheetItemReviewed()
+	Game.LogWarn(0, "Called guicallbacks.OnSheetItemReviewed")
+	return guicallbacks._ORIG_OnSheetItemReviewed()
+end
+
+guicallbacks._ORIG_OnCreatureItemReviewed = guicallbacks.OnCreatureItemReviewed
+
+function guicallbacks.OnCreatureItemReviewed()
+	Game.LogWarn(0, "Called guicallbacks.OnCreatureItemReviewed")
+	return guicallbacks._ORIG_OnCreatureItemReviewed()
+end
+
+guicallbacks._ORIG_OnASyncOpIOError = guicallbacks.OnASyncOpIOError
+
+function guicallbacks.OnASyncOpIOError(_ARG_0_, _ARG_1_)
+	Game.LogWarn(0, "Called guicallbacks.OnASyncOpIOError - "..tostring(_ARG_0_)..","..tostring(_ARG_1_))
+	return guicallbacks._ORIG_OnASyncOpIOError(_ARG_0_, _ARG_1_)
+end
+
+guicallbacks._ORIG_OnPadDisconnected = guicallbacks.OnPadDisconnected
+
+function guicallbacks.OnPadDisconnected(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnPadDisconnected - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnPadDisconnected(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnPadReconnected = guicallbacks.OnPadReconnected
+
+function guicallbacks.OnPadReconnected(_ARG_0_)
+	Game.LogWarn(0, "Called guicallbacks.OnPadReconnected - "..tostring(_ARG_0_))
+	return guicallbacks._ORIG_OnPadReconnected(_ARG_0_)
+end
+
+guicallbacks._ORIG_OnPurchased = guicallbacks.OnPurchased
+
+function guicallbacks.OnPurchased()
+	Game.LogWarn(0, "Called guicallbacks.OnPurchased")
+	return guicallbacks._ORIG_OnPurchased()
+end
+

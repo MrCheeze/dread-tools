@@ -1,5 +1,6 @@
 import struct
 import pprint
+import numpy as np
 
 def assertRead(f, bstr):
     assert f.read(len(bstr)) == bstr
@@ -49,7 +50,7 @@ def getPolygons(level):
         assertRead(f, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
         assert readInt(f) == 1
         vertex_count = readInt(f)
-        p['unk'] = f.read(4)
+        p['normal_maybe'] = struct.unpack('<bbbb', f.read(4))
         p['vertices'] = []
         for j in range(vertex_count):
             p['vertices'].append(struct.unpack('<ffi', f.read(12)))

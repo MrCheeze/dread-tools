@@ -47,7 +47,7 @@ end_of_last_hash = 0
 #for filename in ['temp.bin']:
 #for filename in ['savedata/LetsPlayNintendoITA_hundo/1/common.bmssv']:
 #for filename in ['unpacked/maps/s010_cave/s010_cave/cutscenes/0005meleetutorial/0005meleetutorial.bmscu']:
-for filename in ['savedata/meleetuto_seen/common.bmssv']:
+for filename in ['savedata/meleetuto_seen/samus.bmssv']:
 
     if os.path.isdir(filename):
         continue

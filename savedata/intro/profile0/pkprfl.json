@@ -1,0 +1,80 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "SETTINGS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Difficulty": {
+              "Class": "int",
+              "Data": 0
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:MENU_UNLOCKED": {
+              "Class": "bool",
+              "Data": false
+            }
+          }
+        }
+      },
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "SaveDataID": {
+              "Class": "base::global::CRntString",
+              "Data": "b43bc524-7380-4749-a7d7-e44c7f6de935"
+            }
+          }
+        }
+      },
+      "MISSION_LOG": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MISSION_LOG:EventsList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_INIT",
+                  "vCaptionsIds": []
+                }
+              ]
+            },
+            "MISSION_LOG:TutosList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": []
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

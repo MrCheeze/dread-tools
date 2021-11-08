@@ -21,11 +21,15 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
         ONE  = z3.BitVecVal(1, 64)
 
         unknown = z3.BitVec("fn", unklen*8)
+        full = unknown
         prefixnum = sum(ord(c) << 8*i for i, c in enumerate(prefixstr))
-        prefix = z3.BitVecVal(prefixnum, len(prefixstr)*8)
+        if len(prefixstr) > 0:
+            prefix = z3.BitVecVal(prefixnum, len(prefixstr)*8)
+            full = z3.Concat(full, prefix)
         suffixnum = sum(ord(c) << 8*i for i, c in enumerate(suffixstr))
-        suffix = z3.BitVecVal(suffixnum, len(suffixstr)*8)
-        full = z3.Concat(suffix, unknown, prefix)
+        if len(suffixstr) > 0:
+            suffix = z3.BitVecVal(suffixnum, len(suffixstr)*8)
+            full = z3.Concat(suffix, full)
 
         crc = ~ZERO
         for i in range(full.size()//8):
@@ -75,3 +79,4 @@ if __name__ == '__main__':
     
     solve(0xda6a57db657a579c,  "vibrations/actors/samus/", ".bnvib", 11)
     solve(0xaf8216f4a943a1e1,  'actors/props/fan_cooldown/fx/', '.bcptl', 12)
+    

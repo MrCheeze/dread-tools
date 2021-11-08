@@ -1,0 +1,489 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "PLAYER_INVENTORY": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "ITEM_WEAPON_MISSILE_MAX": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_FLOOR_SLIDE": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_MAX_LIFE": {
+              "Class": "float",
+              "Data": 99.0
+            },
+            "ITEM_METROID_TOTAL_COUNT": {
+              "Class": "float",
+              "Data": 40.0
+            },
+            "ITEM_WEAPON_POWER_BOMB_MAX": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_METROID_COUNT": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MAX_SPECIAL_ENERGY": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_CURRENT_LIFE": {
+              "Class": "float",
+              "Data": 79.0
+            },
+            "ITEM_WEAPON_MISSILE_CURRENT": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_WEAPON_POWER_BOMB_CURRENT": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_CURRENT_SPECIAL_ENERGY": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_LIFE_SHARDS": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_TOTAL_LIFE_SHARDS": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_GRAVITY_SUIT": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_WEAPON_HYPER_BEAM": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_WEAPON_SUPER_MISSILE": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_SPACE_JUMP": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_WEAPON_GRAPPLE_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MORPH_BALL": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_WEAPON_DIFFUSION_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_WEAPON_PLASMA_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_WEAPON_WAVE_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MULTILOCKON": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_GHOST_AURA": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_SONAR": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_OPTIC_CAMOUFLAGE": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MISSILE_TANKS": {
+              "Class": "float",
+              "Data": 2.0
+            },
+            "ITEM_WEAPON_ICE_MISSILE": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_WEAPON_CHARGE_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_WEAPON_WIDE_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            }
+          }
+        }
+      },
+      "PLAYER": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "LevelID": {
+              "Class": "base::global::CRntString",
+              "Data": "c10_samus"
+            },
+            "ScenarioID": {
+              "Class": "base::global::CRntString",
+              "Data": "s010_cave"
+            },
+            "StartPoint": {
+              "Class": "base::global::CRntString",
+              "Data": "PRP_CV_AccessPoint001_WeightPlate"
+            },
+            "CheckPointKey": {
+              "Class": "base::global::CRntString",
+              "Data": "PRP_CV_AccessPoint001"
+            }
+          }
+        }
+      },
+      "MISSION_LOG": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MISSION_LOG:EventsList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_INIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_1_PAGE_1",
+                    "#DIAG_ADAM_CAVE_1_PAGE_2",
+                    "#DIAG_ADAM_CAVE_1_PAGE_3",
+                    "#DIAG_ADAM_CAVE_1_PAGE_4",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_C",
+                    "#DIAG_ADAM_CAVE_1_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_1_PAGE_1",
+                    "#DIAG_ADAM_CAVE_1_PAGE_2",
+                    "#DIAG_ADAM_CAVE_1_PAGE_3",
+                    "#DIAG_ADAM_CAVE_1_PAGE_4",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_C",
+                    "#DIAG_ADAM_CAVE_1_PAGE_7"
+                  ]
+                }
+              ]
+            },
+            "MISSION_LOG:TutosList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HINT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_SLIDING",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_FREE_AIM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MISSILE_MODE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HIDDEN_BLOCKS",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_BUTTON_MAP",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE",
+                  "vCaptionsIds": []
+                }
+              ]
+            }
+          }
+        }
+      },
+      "PlayedCutscenes": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "CutScenePlayed[cutscenes/0001gameintro_space/0001gameintro_space.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_flashbackinit/0001gameintro_flashbackinit.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintrolanding/0001gameintrolanding.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_arrivalatrium/0001gameintro_arrivalatrium.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_fight/0001gameintro_fight.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_flashbackend/0001gameintro_flashbackend.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0003firstcomunicationfakeadam/0003firstcomunicationfakeadam.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0005meleetutorial/0005meleetutorial.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            }
+          }
+        }
+      },
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Version": {
+              "Class": "int",
+              "Data": 3
+            },
+            "UserID": {
+              "Class": "int",
+              "Data": 0
+            },
+            "ModifiedBuildVersionNumber": {
+              "Class": "int",
+              "Data": 928591
+            },
+            "Completion": {
+              "Class": "int",
+              "Data": 1
+            },
+            "Description": {
+              "Class": "base::global::CRntString",
+              "Data": "[!:#GUI_MISC003] / 00:05:52 /   0% "
+            },
+            "TotalPlayTime": {
+              "Class": "float",
+              "Data": 352.27593994140625
+            },
+            "TotalCummulativePlayTime": {
+              "Class": "float",
+              "Data": 352.27593994140625
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:MENU_UNLOCKED": {
+              "Class": "bool",
+              "Data": false
+            },
+            "NumTanksPickedUp": {
+              "Class": "int",
+              "Data": 2
+            }
+          }
+        }
+      },
+      "MINIMAP": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MINIMAP:IconLabelsHidden": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": [
+                "CentralUnit",
+                "MagnetSurface",
+                "TileSupermissile",
+                "TileScrewattack",
+                "TileWeight",
+                "DoorChargeL",
+                "DoorChargeR",
+                "DoorChargeLockedL",
+                "DoorChargeLockedR",
+                "DoorGrappleL",
+                "DoorGrappleR",
+                "DoorWideL",
+                "DoorWideR",
+                "DoorPresenceL",
+                "DoorPresenceR",
+                "DoorShutter",
+                "DoorEmmyOpen",
+                "DoorEmmyClosed",
+                "DoorThermalOpen",
+                "DoorThermalClosed",
+                "DoorThermalTrapOpen",
+                "DoorThermalTrapClosed",
+                "DoorCentralUnit",
+                "BlockageSuperMissileL",
+                "BlockageSuperMissileR",
+                "BlockageWaveL",
+                "BlockageWaveR",
+                "UsableWaterValve",
+                "UsableThermalDevice",
+                "UsablePowerGenerator",
+                "UsableTrain",
+                "UsableTransport",
+                "UsableElevator",
+                "DisabledElevator",
+                "UsableStationEnergy",
+                "DisabledStationEnergy",
+                "UsableStationAmmo",
+                "DisabledStationAmmo",
+                "UsableStationTotal",
+                "DisabledStationTotal",
+                "UsableStationSave",
+                "DisabledStationSave",
+                "UsableStationMap",
+                "DisabledStationMap",
+                "UsableTeleportA",
+                "UsableTeleportE",
+                "UsableTeleportI",
+                "UsableTeleportO",
+                "UsableTeleportU",
+                "UsableTeleportX",
+                "UsableTeleportY",
+                "UsableTeleportZ",
+                "ItemSphere",
+                "ItemEnergyTank",
+                "ItemEnergyFragment",
+                "ItemMissileTankPlus",
+                "ItemPowerbombExpansion",
+                "PropGrappleBoxL",
+                "PropGrappleBoxR",
+                "PropGrappleBlockL",
+                "PropGrappleBlockR",
+                "PropMorphTunnelEntry",
+                "PropMorphTunnelExit",
+                "PropHyperBeam",
+                "PropWideBeamBoxR",
+                "PropWideBeamBoxL",
+                "PropMultiLockon",
+                "PropFootstepPlatform",
+                "PropSwingPoint",
+                "PropTurbineActivator",
+                "PropWarlotus"
+              ]
+            },
+            "MINIMAP:GlobalIcons": {
+              "Class": "CMinimapManager::TGlobalMapIcons",
+              "Data": {
+                "s010_cave": [
+                  {
+                    "sIconID": "Samus",
+                    "vIconPos": [
+                      7873.23291015625,
+                      -7408.38427734375
+                    ]
+                  }
+                ]
+              }
+            },
+            "MINIMAP:AreaBox[s010_cave]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -27700.0,
+                  -9900.0
+                ],
+                "Max": [
+                  33700.0,
+                  11000.0
+                ]
+              }
+            },
+            "MINIMAP:DoneMapTutos": {
+              "Class": "base::global::CRntVector<EMapTutoType>",
+              "Data": [
+                "HINT_ZONE"
+              ]
+            }
+          }
+        }
+      },
+      "GAME_PROGRESS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "ShowSamusShip": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ADAMDIALOGUE": {
+              "Class": "base::global::CStrId",
+              "Data": "DIAG_ADAM_CAVE_1"
+            },
+            "SHOWADAMDIALOGUE": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

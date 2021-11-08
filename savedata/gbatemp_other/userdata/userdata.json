@@ -1,0 +1,35 @@
+{
+  "FileType": "CBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "USER_DATA": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "GammaScreenShown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "GammaValue": {
+              "Class": "float",
+              "Data": 2.200000047683716
+            },
+            "HardModeUnlocked": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ShowHardModePopUp": {
+              "Class": "bool",
+              "Data": false
+            },
+            "GameCompletedAmount": {
+              "Class": "unsigned",
+              "Data": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

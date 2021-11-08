@@ -1,0 +1,884 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "PLAYER": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "LevelID": {
+              "Class": "base::global::CRntString",
+              "Data": "c10_samus"
+            },
+            "ScenarioID": {
+              "Class": "base::global::CRntString",
+              "Data": "s020_magma"
+            },
+            "StartPoint": {
+              "Class": "base::global::CRntString",
+              "Data": "savestation_000_platform"
+            },
+            "CheckPointKey": {
+              "Class": "base::global::CRntString",
+              "Data": "savestation_000"
+            },
+            "EMMY_PROTO_GRAB_TUTO_LAUNCHED": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      },
+      "GAME_PROGRESS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "ShowSamusShip": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ADAMDIALOGUE": {
+              "Class": "base::global::CStrId",
+              "Data": "DIAG_ADAM_AQUA_1"
+            },
+            "SHOWADAMDIALOGUE": {
+              "Class": "bool",
+              "Data": true
+            },
+            "NumEmmisDefeated": {
+              "Class": "int",
+              "Data": 3
+            },
+            "ShowRemainingEmmis": {
+              "Class": "bool",
+              "Data": true
+            },
+            "TeleportUsed": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      },
+      "PLAYER_INVENTORY": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "ITEM_WEAPON_MISSILE_MAX": {
+              "Class": "float",
+              "Data": 111.0
+            },
+            "ITEM_FLOOR_SLIDE": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_MAX_LIFE": {
+              "Class": "float",
+              "Data": 499.0
+            },
+            "ITEM_METROID_TOTAL_COUNT": {
+              "Class": "float",
+              "Data": 40.0
+            },
+            "ITEM_WEAPON_POWER_BOMB_MAX": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_METROID_COUNT": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MAX_SPECIAL_ENERGY": {
+              "Class": "float",
+              "Data": 1000.0
+            },
+            "ITEM_CURRENT_LIFE": {
+              "Class": "float",
+              "Data": 406.0
+            },
+            "ITEM_WEAPON_MISSILE_CURRENT": {
+              "Class": "float",
+              "Data": 111.0
+            },
+            "ITEM_WEAPON_POWER_BOMB_CURRENT": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_LIFE_SHARDS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_TOTAL_LIFE_SHARDS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_VARIA_SUIT": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_WEAPON_PLASMA_BEAM": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_MISSILE_TANKS": {
+              "Class": "float",
+              "Data": 28.0
+            },
+            "ITEM_CENTRAL_UNIT_ENERGY": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_CENTRAL_UNIT_DECAYED_ENERGY": {
+              "Class": "float",
+              "Data": 0.0
+            },
+            "ITEM_CURRENT_SPECIAL_ENERGY": {
+              "Class": "float",
+              "Data": 1000.0
+            },
+            "ITEM_WEAPON_CHARGE_BEAM": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_ENERGY_TANKS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_MAGNET_GLOVE": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_OPTIC_CAMOUFLAGE": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_ENERGY_TANK_SHARDS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_WEAPON_WIDE_BEAM": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_MORPH_BALL": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_MISSILE_PLUS_TANKS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_WEAPON_GRAPPLE_BEAM": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_POWER_BOMB_TANKS": {
+              "Class": "float",
+              "Data": 3.0
+            },
+            "ITEM_WEAPON_BOMB": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_GHOST_AURA": {
+              "Class": "float",
+              "Data": 1.0
+            },
+            "ITEM_SONAR": {
+              "Class": "float",
+              "Data": 1.0
+            }
+          }
+        }
+      },
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Version": {
+              "Class": "int",
+              "Data": 3
+            },
+            "UserID": {
+              "Class": "int",
+              "Data": 0
+            },
+            "ModifiedBuildVersionNumber": {
+              "Class": "int",
+              "Data": 928504
+            },
+            "Completion": {
+              "Class": "int",
+              "Data": 32
+            },
+            "Description": {
+              "Class": "base::global::CRntString",
+              "Data": "[!:#GUI_MISC003] / 02:30:50 /   0% "
+            },
+            "TotalPlayTime": {
+              "Class": "float",
+              "Data": 9050.4140625
+            },
+            "TotalCummulativePlayTime": {
+              "Class": "float",
+              "Data": 9453.318359375
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:MENU_UNLOCKED": {
+              "Class": "bool",
+              "Data": false
+            },
+            "NumTanksPickedUp": {
+              "Class": "int",
+              "Data": 40
+            }
+          }
+        }
+      },
+      "AMIIBO_LOGIC": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "AMIIBO_LOGIC:CazadoraEmmyUsed": {
+              "Class": "bool",
+              "Data": true
+            },
+            "AMIIBO_LOGIC:CazadoraSamusUsed": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      },
+      "MISSION_LOG": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MISSION_LOG:EventsList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_INIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_1_PAGE_1",
+                    "#DIAG_ADAM_CAVE_1_PAGE_2",
+                    "#DIAG_ADAM_CAVE_1_PAGE_3",
+                    "#DIAG_ADAM_CAVE_1_PAGE_4",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_C",
+                    "#DIAG_ADAM_CAVE_1_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_PROTOEMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_PROTOEMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_2_PAGE_1",
+                    "#DIAG_ADAM_CAVE_2_PAGE_2",
+                    "#DIAG_ADAM_CAVE_2_PAGE_2_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3_C",
+                    "#DIAG_ADAM_CAVE_2_PAGE_4",
+                    "#DIAG_ADAM_CAVE_2_PAGE_5",
+                    "#DIAG_ADAM_CAVE_2_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_6"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_CHARGE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_3_PAGE_1",
+                    "#DIAG_ADAM_CAVE_3_PAGE_2",
+                    "#DIAG_ADAM_CAVE_3_PAGE_3",
+                    "#DIAG_ADAM_CAVE_3_PAGE_4",
+                    "#DIAG_ADAM_CAVE_3_PAGE_5",
+                    "#DIAG_ADAM_CAVE_3_PAGE_6",
+                    "#DIAG_ADAM_CAVE_3_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_EMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_MAGNET_GLOVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_SCORPIUS",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_OPTIC_CAMOUFLAGE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_MAGMA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_MAGMA_1_PAGE_1",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_2",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_3",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_4",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_5",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_5_B",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_6",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_6_B",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_MAGMA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_MAGMA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_MAGMA_2_PAGE_1",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_2",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_3",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_4",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_6",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_8"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_WIDE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_LAB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_EMMY_MAGMA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_MORPH_BALL",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_VARIA_SUIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_LAB",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_LAB_1_PAGE_1",
+                    "#DIAG_ADAM_LAB_1_PAGE_2"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_GRAPPLE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_BOMB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_AQUA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_AQUA_1_PAGE_1",
+                    "#DIAG_ADAM_AQUA_1_PAGE_2"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_GHOST_AURA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_SONAR",
+                  "vCaptionsIds": []
+                }
+              ]
+            },
+            "MISSION_LOG:TutosList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_SLIDING",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_FREE_AIM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MISSILE_MODE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HIDDEN_BLOCKS",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_BUTTON_MAP",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE_2",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE_3",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HINT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_EMMY_GRAB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_EMMY_SLIDE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_CANNON",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_BLASTER",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MAP_ROOM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_STREAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OPTICAL_CAMO",
+                  "vCaptionsIds": []
+                }
+              ]
+            }
+          }
+        }
+      },
+      "MINIMAP": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MINIMAP:IconLabelsHidden": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": [
+                "MagnetSurface",
+                "TileSupermissile",
+                "TilePowerbomb",
+                "TileScrewattack",
+                "TileSpeedboost",
+                "BlockageSuperMissileL",
+                "BlockageSuperMissileR",
+                "BlockagePlasmaL",
+                "BlockagePlasmaR",
+                "BlockageWaveL",
+                "BlockageWaveR",
+                "UsableTransport",
+                "ItemPowerbombExpansion",
+                "PropHyperBeam",
+                "PropMultiLockon",
+                "PropWarlotus"
+              ]
+            },
+            "MINIMAP:GlobalIcons": {
+              "Class": "CMinimapManager::TGlobalMapIcons",
+              "Data": {
+                "s010_cave": [
+                  {
+                    "sIconID": "UsableTeleportI",
+                    "vIconPos": [
+                      6350.0,
+                      2600.0
+                    ]
+                  },
+                  {
+                    "sIconID": "UsableTeleportA",
+                    "vIconPos": [
+                      -10200.0,
+                      1400.0
+                    ]
+                  }
+                ],
+                "s020_magma": [
+                  {
+                    "sIconID": "UsableTeleportU",
+                    "vIconPos": [
+                      17950.0,
+                      300.0
+                    ]
+                  },
+                  {
+                    "sIconID": "UsableTeleportA",
+                    "vIconPos": [
+                      -17950.0,
+                      300.0
+                    ]
+                  },
+                  {
+                    "sIconID": "UsableTeleportY",
+                    "vIconPos": [
+                      -15446.79296875,
+                      3100.0
+                    ]
+                  },
+                  {
+                    "sIconID": "Samus",
+                    "vIconPos": [
+                      -19503.759765625,
+                      -608.384033203125
+                    ]
+                  }
+                ],
+                "s030_baselab": [
+                  {
+                    "sIconID": "UsableTeleportE",
+                    "vIconPos": [
+                      1800.0,
+                      1200.0
+                    ]
+                  },
+                  {
+                    "sIconID": "UsableTeleportI",
+                    "vIconPos": [
+                      16650.0,
+                      5700.0
+                    ]
+                  }
+                ],
+                "s040_aqua": [
+                  {
+                    "sIconID": "UsableTeleportO",
+                    "vIconPos": [
+                      550.0,
+                      -3200.0
+                    ]
+                  }
+                ],
+                "s050_forest": [
+                  {
+                    "sIconID": "UsableTeleportY",
+                    "vIconPos": [
+                      4450.0,
+                      7500.0
+                    ]
+                  }
+                ]
+              }
+            },
+            "MINIMAP:AreaBox[s010_cave]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -27700.0,
+                  -9900.0
+                ],
+                "Max": [
+                  33700.0,
+                  11000.0
+                ]
+              }
+            },
+            "MINIMAP:NavigationMenuOpen": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:DoneMapTutos": {
+              "Class": "base::global::CRntVector<EMapTutoType>",
+              "Data": [
+                "HINT_ZONE",
+                "EMMY_ZONE"
+              ]
+            },
+            "MINIMAP:EmmyDead[s010_cave]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ConnDiscovered[C_CAV-MAG-1]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:AreaBox[s020_magma]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -20300.0,
+                  -8300.0
+                ],
+                "Max": [
+                  19500.0,
+                  9600.0
+                ]
+              }
+            },
+            "MINIMAP:ConnDiscovered[C_LAB-MAG-13]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:AreaBox[s030_baselab]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -26500.0,
+                  -10000.0
+                ],
+                "Max": [
+                  27100.0,
+                  8000.0
+                ]
+              }
+            },
+            "MINIMAP:EmmyDead[s020_magma]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ConnDiscovered[C_CAV-LAB-2]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ConnDiscovered[C_AQUA-LAB-5]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:AreaBox[s040_aqua]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -8800.0,
+                  -12900.0
+                ],
+                "Max": [
+                  13900.0,
+                  13100.0
+                ]
+              }
+            },
+            "MINIMAP:EmmyDead[s040_aqua]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:AreaBox[s050_forest]": {
+              "Class": "base::spatial::CAABox2D",
+              "Data": {
+                "Min": [
+                  -15300.0,
+                  -6400.0
+                ],
+                "Max": [
+                  20000.0,
+                  8100.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "PlayedCutscenes": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "CutScenePlayed[cutscenes/0001gameintro_space/0001gameintro_space.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_flashbackinit/0001gameintro_flashbackinit.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintrolanding/0001gameintrolanding.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_arrivalatrium/0001gameintro_arrivalatrium.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_fight/0001gameintro_fight.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0001gameintro_flashbackend/0001gameintro_flashbackend.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0003firstcomunicationfakeadam/0003firstcomunicationfakeadam.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0005meleetutorial/0005meleetutorial.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0034protoemmyappears/0034protoemmyappears.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0035protoemmycantclimb/0035protoemmycantclimb.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0048firstcupowerobtention/0048firstcupowerobtention.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0036enteremmyzone/0036enteremmyzone.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0037emmycaveappears/0037emmycaveappears.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0049centralunitdetectsamus01/0049centralunitdetectsamus01.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0049centralunitdetectsamus02/0049centralunitdetectsamus02.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0050firstcupresentation/0050firstcupresentation.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0054scorpiuspresentation/0054scorpiuspresentation.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0055scorpiusphase2/0055scorpiusphase2.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0155scorpiusphase3/0155scorpiusphase3.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0057scorpiusdeath/0057scorpiusdeath.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0038magmaemmypresentation/0038magmaemmypresentation.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0039labemmypresentation/0039labemmypresentation.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0030variasuiteobtention/0030variasuiteobtention.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0032ghostdashobtention/0032ghostdashobtention.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "CutScenePlayed[cutscenes/0033sonarobtention/0033sonarobtention.bmscu]": {
+              "Class": "unsigned",
+              "Data": 1
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

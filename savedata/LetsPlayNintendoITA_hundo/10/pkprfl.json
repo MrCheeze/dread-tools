@@ -1,0 +1,486 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "SaveDataID": {
+              "Class": "base::global::CRntString",
+              "Data": "a4ec2c61-f28e-466d-88ff-20d0804cc5c7"
+            }
+          }
+        }
+      },
+      "SETTINGS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Difficulty": {
+              "Class": "int",
+              "Data": 0
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:MENU_UNLOCKED": {
+              "Class": "bool",
+              "Data": false
+            }
+          }
+        }
+      },
+      "MISSION_LOG": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MISSION_LOG:EventsList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_INIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_1_PAGE_1",
+                    "#DIAG_ADAM_CAVE_1_PAGE_2",
+                    "#DIAG_ADAM_CAVE_1_PAGE_3",
+                    "#DIAG_ADAM_CAVE_1_PAGE_4",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_C",
+                    "#DIAG_ADAM_CAVE_1_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_PROTOEMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_PROTOEMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_2_PAGE_1",
+                    "#DIAG_ADAM_CAVE_2_PAGE_2",
+                    "#DIAG_ADAM_CAVE_2_PAGE_2_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_3_C",
+                    "#DIAG_ADAM_CAVE_2_PAGE_4",
+                    "#DIAG_ADAM_CAVE_2_PAGE_5",
+                    "#DIAG_ADAM_CAVE_2_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_2_PAGE_6"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_CHARGE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_3_PAGE_1",
+                    "#DIAG_ADAM_CAVE_3_PAGE_2",
+                    "#DIAG_ADAM_CAVE_3_PAGE_3",
+                    "#DIAG_ADAM_CAVE_3_PAGE_4",
+                    "#DIAG_ADAM_CAVE_3_PAGE_5",
+                    "#DIAG_ADAM_CAVE_3_PAGE_6",
+                    "#DIAG_ADAM_CAVE_3_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_EMMY_CAVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_MAGNET_GLOVE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_SCORPIUS",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_OPTIC_CAMOUFLAGE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_MAGMA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_MAGMA_1_PAGE_1",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_2",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_3",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_4",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_5",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_5_B",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_6",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_6_B",
+                    "#DIAG_ADAM_MAGMA_1_PAGE_7"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_MAGMA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_MAGMA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_MAGMA_2_PAGE_1",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_2",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_3",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_4",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_6",
+                    "#DIAG_ADAM_MAGMA_2_PAGE_8"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_WIDE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_LAB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_EMMY_MAGMA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_MORPH_BALL",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_VARIA_SUIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_LAB",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_LAB_1_PAGE_1",
+                    "#DIAG_ADAM_LAB_1_PAGE_2"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_GRAPPLE_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_BOMB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_AQUA",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_AQUA_1_PAGE_1",
+                    "#DIAG_ADAM_AQUA_1_PAGE_2"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_GHOST_AURA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_SONAR",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_KRAID",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_DIFFUSION_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_EMMY_LAB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_SPEED_BOOSTER",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_SUPER_MISSILE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_SANC",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_PROFESSOR_ENCOUNTER",
+                  "vCaptionsIds": [
+                    "#CAPTION_PROFESSOREVENT_PAGE_01",
+                    "#CAPTION_PROFESSOREVENT_PAGE_02",
+                    "#CAPTION_PROFESSOREVENT_PAGE_03",
+                    "#CAPTION_PROFESSOREVENT_PAGE_04",
+                    "#CAPTION_PROFESSOREVENT_PAGE_05",
+                    "#CAPTION_PROFESSOREVENT_PAGE_05_B",
+                    "#CAPTION_PROFESSOREVENT_PAGE_06",
+                    "#CAPTION_PROFESSOREVENT_PAGE_07",
+                    "#CAPTION_PROFESSOREVENT_PAGE_08",
+                    "#CAPTION_PROFESSOREVENT_PAGE_09",
+                    "#CAPTION_PROFESSOREVENT_PAGE_10",
+                    "#CAPTION_PROFESSOREVENT_PAGE_11",
+                    "#CAPTION_PROFESSOREVENT_PAGE_11_B",
+                    "#CAPTION_PROFESSOREVENT_PAGE_12",
+                    "#CAPTION_PROFESSOREVENT_PAGE_13",
+                    "#CAPTION_PROFESSOREVENT_PAGE_14",
+                    "#CAPTION_PROFESSOREVENT_PAGE_15",
+                    "#CAPTION_PROFESSOREVENT_PAGE_16",
+                    "#CAPTION_PROFESSOREVENT_PAGE_17",
+                    "#CAPTION_PROFESSOREVENT_PAGE_18",
+                    "#CAPTION_PROFESSOREVENT_PAGE_19",
+                    "#CAPTION_PROFESSOREVENT_PAGE_20",
+                    "#CAPTION_PROFESSOREVENT_PAGE_21",
+                    "#CAPTION_PROFESSOREVENT_PAGE_22",
+                    "#CAPTION_PROFESSOREVENT_PAGE_23",
+                    "#CAPTION_PROFESSOREVENT_PAGE_24",
+                    "#CAPTION_PROFESSOREVENT_PAGE_25",
+                    "#CAPTION_PROFESSOREVENT_PAGE_26"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_CRS_SANC",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_LAB",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_LAB_2_PAGE_1",
+                    "#DIAG_ADAM_LAB_2_PAGE_2",
+                    "#DIAG_ADAM_LAB_2_PAGE_3"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_HYDROGIGA",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_CRS_FOREST",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_FOREST",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_FOREST_1_PAGE_1",
+                    "#DIAG_ADAM_FOREST_1_PAGE_2",
+                    "#DIAG_ADAM_FOREST_1_PAGE_3",
+                    "#DIAG_ADAM_FOREST_1_PAGE_4"
+                  ]
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ABILITY_PLASMA_BEAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_DEFEAT_BOSS_CWX_QUARANTINE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_ENCOUNTER_EMMY_FOREST",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_FOREST",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_FOREST_2_PAGE_2",
+                    "#DIAG_ADAM_FOREST_2_PAGE_3",
+                    "#DIAG_ADAM_FOREST_2_PAGE_4",
+                    "#DIAG_ADAM_FOREST_2_PAGE_5"
+                  ]
+                }
+              ]
+            },
+            "MISSION_LOG:TutosList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_SLIDING",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_FREE_AIM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MISSILE_MODE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HIDDEN_BLOCKS",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_BUTTON_MAP",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE_2",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MELEE_3",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HINT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_EMMY_GRAB",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_EMMY_SLIDE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_CANNON",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_BLASTER",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MAP_ROOM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OMEGA_STREAM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_OPTICAL_CAMO",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_PARASITE",
+                  "vCaptionsIds": []
+                }
+              ]
+            }
+          }
+        }
+      },
+      "AMIIBO_LOGIC": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "AMIIBO_LOGIC:FirstTimeAmiibo": {
+              "Class": "bool",
+              "Data": true
+            },
+            "AMIIBO_LOGIC:CazadoraEmmyUsed": {
+              "Class": "bool",
+              "Data": true
+            },
+            "AMIIBO_LOGIC:CazadoraSamusUsed": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

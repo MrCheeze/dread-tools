@@ -1,0 +1,31 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "Root": {
+    "hashSections": {
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "SaveDataID": {
+              "Class": "base::global::CRntString",
+              "Data": "80b5c528-57ff-493d-83c2-705ebfc957e7"
+            }
+          }
+        }
+      },
+      "SETTINGS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Difficulty": {
+              "Class": "int",
+              "Data": 1
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

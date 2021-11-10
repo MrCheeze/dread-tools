@@ -1,0 +1,102 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0001gameintro_flashbackinit",
+    "sActionSet": "cutscenes/0001gameintro_flashbackinit/0001gameintro_flashbackinit.bmsas",
+    "vWorldOffset": [
+      -3566.0,
+      -9700.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "s010_cave.OnBeforeCutscene0001FlashbackInitStarted",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 267,
+        "sCamera": "cutscenes/0001gameintro_flashbackinit/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 124,
+        "sCamera": "cutscenes/0001gameintro_flashbackinit/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 124,
+        "sCamera": "cutscenes/0001gameintro_flashbackinit/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 219,
+        "sCamera": "cutscenes/0001gameintro_flashbackinit/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 130,
+        "sCamera": "cutscenes/0001gameintro_flashbackinit/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0001gameintro_flashbackinit_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": false,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relaxshot",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": []
+    }
+  }
+}

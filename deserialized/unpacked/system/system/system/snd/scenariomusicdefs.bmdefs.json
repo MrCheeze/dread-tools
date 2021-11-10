@@ -1,0 +1,1205 @@
+{
+  "FileType": "sound::CMusicManager",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pMusicManager": {
+      "Class": "sound::CMusicManager",
+      "Data": {
+        "dicGlobalMusicPresets": {
+          "no_music": {
+            "sID": "no_music",
+            "tPreset": {
+              "sAlias": "no_music",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 0.6000000238418579,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "savestation": {
+            "sID": "savestation",
+            "tPreset": {
+              "sAlias": "savestation",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_savestation.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 0.6000000238418579,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "m_inside_emmy_zone": {
+            "sID": "m_inside_emmy_zone",
+            "tPreset": {
+              "sAlias": "m_inside_emmy_zone",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_emmy_patrol.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 0.800000011920929,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.800000011920929
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "mapstation": {
+            "sID": "mapstation",
+            "tPreset": {
+              "sAlias": "mapstation",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_mapstation.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 0.800000011920929,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "accesspoint": {
+            "sID": "accesspoint",
+            "tPreset": {
+              "sAlias": "accesspoint",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_accesspoint.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 0.6000000238418579,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "saveload_jingle": {
+            "sID": "saveload_jingle",
+            "tPreset": {
+              "sAlias": "saveload_jingle",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_jingle_tojo.wav",
+                      "iLoops": 1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "statueroom": {
+            "sID": "statueroom",
+            "tPreset": {
+              "sAlias": "statueroom",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_statueroom.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "trainstation": {
+            "sID": "trainstation",
+            "tPreset": {
+              "sAlias": "trainstation",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_TrainStation.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 1.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 0.0,
+                  "fVol": 1.2000000476837158,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "pickup_jingle": {
+            "sID": "pickup_jingle",
+            "tPreset": {
+              "sAlias": "pickup_jingle",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_jingle_itemget.wav",
+                      "iLoops": 1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.0,
+                  "fFadeOut": 0.0,
+                  "fDelay": 0.0,
+                  "fVol": 1.5,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": true,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "unknown_pickup_jingle": {
+            "sID": "unknown_pickup_jingle",
+            "tPreset": {
+              "sAlias": "unknown_pickup_jingle",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_jingle_itemget_unknown.wav",
+                      "iLoops": 1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.0,
+                  "fFadeOut": 0.0,
+                  "fDelay": 0.0,
+                  "fVol": 1.7999999523162842,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": true,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "powerup_jingle": {
+            "sID": "powerup_jingle",
+            "tPreset": {
+              "sAlias": "powerup_jingle",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_jingle_powerupget.wav",
+                      "iLoops": 1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.0,
+                  "fFadeOut": 0.0,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "None",
+                  "bPauseOnPop": true,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "elevator_up_loading": {
+            "sID": "elevator_up_loading",
+            "tPreset": {
+              "sAlias": "elevator_up_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/Elevator_AmbienceLoop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "elevator_down_loading": {
+            "sID": "elevator_down_loading",
+            "tPreset": {
+              "sAlias": "elevator_down_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/Elevator_AmbienceLoop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "teleport_loading": {
+            "sID": "teleport_loading",
+            "tPreset": {
+              "sAlias": "teleport_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/Teleporter_TravelLoop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 0.75,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "train_left_loading": {
+            "sID": "train_left_loading",
+            "tPreset": {
+              "sAlias": "train_left_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/Train_TravelLoop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "train_right_loading": {
+            "sID": "train_right_loading",
+            "tPreset": {
+              "sAlias": "train_right_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/Train_TravelLoop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "capsule_down_loading": {
+            "sID": "capsule_down_loading",
+            "tPreset": {
+              "sAlias": "capsule_down_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/capsule_travelloop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "capsule_up_loading": {
+            "sID": "capsule_up_loading",
+            "tPreset": {
+              "sAlias": "capsule_up_loading",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/maps/capsule_travelloop.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "s_boss_defeated": {
+            "sID": "s_boss_defeated",
+            "tPreset": {
+              "sAlias": "s_boss_defeated",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/s_boss_defeated.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 4.0,
+                  "fFadeOut": 1.0,
+                  "fDelay": 1.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 1.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "test_1": {
+            "sID": "test_1",
+            "tPreset": {
+              "sAlias": "test_1",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_01.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "test_2": {
+            "sID": "test_2",
+            "tPreset": {
+              "sAlias": "test_2",
+              "vTracks": [
+                {
+                  "iTrack": 1,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_02.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "test_3": {
+            "sID": "test_3",
+            "tPreset": {
+              "sAlias": "test_3",
+              "vTracks": [
+                {
+                  "iTrack": 1,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_03.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "test_4": {
+            "sID": "test_4",
+            "tPreset": {
+              "sAlias": "test_4",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_01.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                },
+                {
+                  "iTrack": 1,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_02.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "test_5": {
+            "sID": "test_5",
+            "tPreset": {
+              "sAlias": "test_5",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_01.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                },
+                {
+                  "iTrack": 1,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/MultiStreamsTest_SC_03.wav",
+                      "iLoops": -1,
+                      "iLoopStart": 0,
+                      "iLoopEnd": 0
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "DEFAULT",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "MainTitle": {
+            "sID": "MainTitle",
+            "tPreset": {
+              "sAlias": "MainTitle",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_Title.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.20000000298023224,
+                  "fFadeOut": 0.20000000298023224,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "CLEAR_STACKS",
+            "tMusicTransitions": []
+          },
+          "SamusStory": {
+            "sID": "SamusStory",
+            "tPreset": {
+              "sAlias": "SamusStory",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_SamusStory.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.30000001192092896,
+                  "fFadeOut": 0.30000001192092896,
+                  "fDelay": 0.30000001192092896,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "GameOver": {
+            "sID": "GameOver",
+            "tPreset": {
+              "sAlias": "GameOver",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_GameOver.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.10000000149011612,
+                  "fFadeOut": 0.30000001192092896,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "StaffRoll": {
+            "sID": "StaffRoll",
+            "tPreset": {
+              "sAlias": "StaffRoll",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_StaffRoll.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.10000000149011612,
+                  "fFadeOut": 0.10000000149011612,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          },
+          "EndScreen": {
+            "sID": "EndScreen",
+            "tPreset": {
+              "sAlias": "EndScreen",
+              "vTracks": [
+                {
+                  "iTrack": 0,
+                  "vFiles": [
+                    {
+                      "sWav": "streams/music/S_EndScreen.wav",
+                      "iLoops": -1,
+                      "iLoopStart": -1,
+                      "iLoopEnd": -1
+                    }
+                  ],
+                  "fFadeIn": 0.10000000149011612,
+                  "fFadeOut": 0.10000000149011612,
+                  "fDelay": 0.0,
+                  "fVol": 1.0,
+                  "iStartPos": 0,
+                  "eCrossFade": "CROSS_FADE",
+                  "bPauseOnPop": false,
+                  "fEnvFactor": 0.0
+                }
+              ]
+            },
+            "ePlayFlag": "None",
+            "tMusicTransitions": []
+          }
+        },
+        "dicGlobalBossMusicPresets": {
+          "emmy_barrier": {
+            "sBoss": "emmy_barrier",
+            "dicSpawnGroupConfigs": {
+              "default": {
+                "sSpawnGroup": "default",
+                "dicSubStatePresets": {
+                  "COMBAT": {
+                    "eState": "COMBAT",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_chase.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 0.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.949999988079071,
+                          "iStartPos": 0,
+                          "eCrossFade": "None",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": [
+                          {
+                            "eState": "RELAX",
+                            "fFadeOut": 3.0
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "SEARCH": {
+                    "eState": "SEARCH",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_search.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 1.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.75,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  },
+                  "SEARCH2": {
+                    "eState": "SEARCH2",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_search.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 1.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.8500000238418579,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  },
+                  "PATROL": {
+                    "eState": "PATROL",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_patrol.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 1.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.800000011920929,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 0.800000011920929
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  },
+                  "PATROL2": {
+                    "eState": "PATROL2",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_patrol.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 1.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.800000011920929,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 0.800000011920929
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "emmy_no_barrier": {
+            "sBoss": "emmy_no_barrier",
+            "dicSpawnGroupConfigs": {
+              "default": {
+                "sSpawnGroup": "default",
+                "dicSubStatePresets": {
+                  "COMBAT": {
+                    "eState": "COMBAT",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_chase.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 0.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.949999988079071,
+                          "iStartPos": 0,
+                          "eCrossFade": "None",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": [
+                          {
+                            "eState": "RELAX",
+                            "fFadeOut": 3.0
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "SEARCH2": {
+                    "eState": "SEARCH2",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_emmy_search.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 1.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 0.8500000238418579,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "central_unit": {
+            "sBoss": "central_unit",
+            "dicSpawnGroupConfigs": {
+              "default": {
+                "sSpawnGroup": "default",
+                "dicSubStatePresets": {
+                  "COMBAT": {
+                    "eState": "COMBAT",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_centralunit_phase01.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 0.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 1.0,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  },
+                  "SEARCH": {
+                    "eState": "SEARCH",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_centralunit_phase02.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 0.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 1.100000023841858,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  },
+                  "DEATH": {
+                    "eState": "DEATH",
+                    "vTracks": [
+                      {
+                        "oTrack": {
+                          "iTrack": 0,
+                          "vFiles": [
+                            {
+                              "sWav": "streams/music/s_boss_defeated.wav",
+                              "iLoops": -1,
+                              "iLoopStart": -1,
+                              "iLoopEnd": -1
+                            }
+                          ],
+                          "fFadeIn": 0.0,
+                          "fFadeOut": 1.0,
+                          "fDelay": 0.0,
+                          "fVol": 1.0,
+                          "iStartPos": 0,
+                          "eCrossFade": "CROSS_FADE",
+                          "bPauseOnPop": false,
+                          "fEnvFactor": 1.0
+                        },
+                        "vFadeOuts": []
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

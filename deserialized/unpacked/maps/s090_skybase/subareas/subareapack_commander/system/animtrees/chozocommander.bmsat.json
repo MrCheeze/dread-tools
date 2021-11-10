@@ -1,0 +1,95 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "Mixer01",
+      "aNodes": [
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer01",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Cape",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": false,
+            "bAllowRootMotion": false,
+            "vBones": [],
+            "vBoneHierarchies": [
+              "Cape_L_ParentBlendRot_AUX_SKN",
+              "Cape_C_ParentBlendRot_AUX_SKN",
+              "Cape_R_ParentBlendRot_AUX_SKN",
+              "Cape_Front_R_ParentBlendRot_AUX_SKN",
+              "Cape_Front_L_ParentBlendRot_AUX_SKN"
+            ]
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "CannonMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Cannon",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "CannonDown_SKN",
+              "CannonLeft_SKN",
+              "CannonRight_SKN",
+              "CannonTipRot_SKN",
+              "CannonTipRotParent_SKN",
+              "CannonUp_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "Mixer01"
+        },
+        {
+          "pNode": "CannonMixer",
+          "pParent": "Mixer01"
+        },
+        {
+          "pNode": "Cape",
+          "pParent": "CannonMixer"
+        },
+        {
+          "pNode": "Cannon",
+          "pParent": "CannonMixer"
+        }
+      ]
+    }
+  }
+}

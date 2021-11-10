@@ -1,0 +1,1389 @@
+{
+  "FileType": "CSubAreaManager",
+  "Unk": 33619970,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSubareaManager": {
+      "Class": "CSubAreaManager",
+      "Data": {
+        "vSubareaSetups": {
+          "Class": "base::global::CRntVector<std::unique_ptr<CSubareaSetup>>",
+          "Data": [
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "Default",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "GLOBAL",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Emmy",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_GLOBAL_Default",
+                        "SoundGroup": "ssg_GLOBAL_Default",
+                        "SceneGroup": "sg_SubArea_GLOBAL",
+                        "LogicEntityGroup": "eg_GLOBAL_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_GLOBAL",
+                        "EnvironmentPreset": "default",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": ""
+                      },
+                      "vsCameraCollisionsIds": [],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_000",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_000_Default",
+                        "SoundGroup": "ssg_collision_camera_000_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_000",
+                        "LogicEntityGroup": "eg_collision_camera_000_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_000",
+                        "EnvironmentPreset": "shipyard_basic_002",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_000"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_001",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": 4000.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_001_Default",
+                        "SoundGroup": "ssg_collision_camera_001_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_001",
+                        "LogicEntityGroup": "eg_collision_camera_001_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_001",
+                        "EnvironmentPreset": "shipyard_001",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "trainstation"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_001"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_002",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_002_Default",
+                        "SoundGroup": "ssg_collision_camera_002_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_002",
+                        "LogicEntityGroup": "eg_collision_camera_002_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_002",
+                        "EnvironmentPreset": "shipyard_basic_002",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_002"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_003",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_003_Default",
+                        "SoundGroup": "ssg_collision_camera_003_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_003",
+                        "LogicEntityGroup": "eg_collision_camera_003_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_003",
+                        "EnvironmentPreset": "Comunication_room_003",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "accesspoint"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_003"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_004",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_004_Default",
+                        "SoundGroup": "ssg_collision_camera_004_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_004",
+                        "LogicEntityGroup": "eg_collision_camera_004_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_004",
+                        "EnvironmentPreset": "shipyard_basic_004_F",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_004"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_005",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX_Elite",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_005_Default",
+                        "SoundGroup": "ssg_collision_camera_005_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_005",
+                        "LogicEntityGroup": "eg_collision_camera_005_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_005",
+                        "EnvironmentPreset": "shipyard_basic_005_F_ELITE",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_005"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_006",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_006_Default",
+                        "SoundGroup": "ssg_collision_camera_006_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_006",
+                        "LogicEntityGroup": "eg_collision_camera_006_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_006",
+                        "EnvironmentPreset": "shipyard_basic_006_F",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_006"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_007",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_007_Default",
+                        "SoundGroup": "ssg_collision_camera_007_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_007",
+                        "LogicEntityGroup": "eg_collision_camera_007_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_007",
+                        "EnvironmentPreset": "shipyard_basic_005",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_007"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_008",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_008_Default",
+                        "SoundGroup": "ssg_collision_camera_008_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_008",
+                        "LogicEntityGroup": "eg_collision_camera_008_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_008",
+                        "EnvironmentPreset": "shipyard_basic_test_end",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_008"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_009",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_009_Default",
+                        "SoundGroup": "ssg_collision_camera_009_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_009",
+                        "LogicEntityGroup": "eg_collision_camera_009_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_009",
+                        "EnvironmentPreset": "shipyard_basic_009_F",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_009"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_010",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_010_Default",
+                        "SoundGroup": "ssg_collision_camera_010_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_010",
+                        "LogicEntityGroup": "eg_collision_camera_010_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_010",
+                        "EnvironmentPreset": "shipyard_basic_010",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_010"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_011",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_011_Default",
+                        "SoundGroup": "ssg_collision_camera_011_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_011",
+                        "LogicEntityGroup": "eg_collision_camera_011_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_011",
+                        "EnvironmentPreset": "ZEmmy_prod06_v2",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "m_inside_emmy_zone"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_011"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_012",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_012_Default",
+                        "SoundGroup": "ssg_collision_camera_012_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_012",
+                        "LogicEntityGroup": "eg_collision_camera_012_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_012",
+                        "EnvironmentPreset": "ZEmmy_prod06_v2_CU",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "m_inside_emmy_zone"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_012"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_013",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_013_Default",
+                        "SoundGroup": "ssg_collision_camera_013_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_013",
+                        "LogicEntityGroup": "eg_collision_camera_013_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_013",
+                        "EnvironmentPreset": "EmmyZone_Dead",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "m_inside_emmy_zone"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_013"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_014",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_014_Default",
+                        "SoundGroup": "ssg_collision_camera_014_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_014",
+                        "LogicEntityGroup": "eg_collision_camera_014_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_014",
+                        "EnvironmentPreset": "ZEmmy_prod06_v2",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "m_inside_emmy_zone"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_014"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_015",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_015_Default",
+                        "SoundGroup": "ssg_collision_camera_015_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_015",
+                        "LogicEntityGroup": "eg_collision_camera_015_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_015",
+                        "EnvironmentPreset": "shipyard_basic_005_F",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_015_B"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_016",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_016_Default",
+                        "SoundGroup": "ssg_collision_camera_016_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_016",
+                        "LogicEntityGroup": "eg_collision_camera_016_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_016",
+                        "EnvironmentPreset": "010_n",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_016"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_018",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_018_Default",
+                        "SoundGroup": "ssg_collision_camera_018_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_018",
+                        "LogicEntityGroup": "eg_collision_camera_018_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_018",
+                        "EnvironmentPreset": "shipyard_basic_015",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_018"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_019",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_019_Default",
+                        "SoundGroup": "ssg_collision_camera_019_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_019",
+                        "LogicEntityGroup": "eg_collision_camera_019_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_019",
+                        "EnvironmentPreset": "shipyard_basic_019",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_019"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_020",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_020_Default",
+                        "SoundGroup": "ssg_collision_camera_020_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_020",
+                        "LogicEntityGroup": "eg_collision_camera_020_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_020",
+                        "EnvironmentPreset": "shipyard_basic_comander_x",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "no_music"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_020"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_1000",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": 0.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_1000_Default",
+                        "SoundGroup": "ssg_collision_camera_1000_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_1000",
+                        "LogicEntityGroup": "eg_collision_camera_1000_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_1000",
+                        "EnvironmentPreset": "001",
+                        "EnvironmentSoundPreset": "default",
+                        "EnvironmentMusicPreset": "no_music"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_1000"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_1001",
+                      "sSetupId": "Default",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": 0.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_1001_Default",
+                        "SoundGroup": "ssg_collision_camera_1001_Default",
+                        "SceneGroup": "sg_SubArea_collision_camera_1001",
+                        "LogicEntityGroup": "eg_collision_camera_1001_Default",
+                        "BreakableTileGroupGroup": "bg_SubArea_collision_camera_1001",
+                        "EnvironmentPreset": "cinematic_end_inside",
+                        "EnvironmentSoundPreset": "default",
+                        "EnvironmentMusicPreset": "no_music"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_1001"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "Escape_Sequence",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "GLOBAL",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_GLOBAL_Escape_Sequence",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_GLOBAL_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "default",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_004",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_004_Default",
+                        "SoundGroup": "ssg_collision_camera_004_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_004",
+                        "LogicEntityGroup": "eg_collision_camera_004_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_004"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_010",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_011_Default",
+                        "SoundGroup": "ssg_collision_camera_010_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_010",
+                        "LogicEntityGroup": "eg_collision_camera_010_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "default",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_010"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_011",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_011_Default",
+                        "SoundGroup": "ssg_collision_camera_011_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_011",
+                        "LogicEntityGroup": "eg_collision_camera_011_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "default",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_011"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_012",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_012_Default",
+                        "SoundGroup": "ssg_collision_camera_012_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_012",
+                        "LogicEntityGroup": "eg_collision_camera_012_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "default",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_012"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_013",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_013_Default",
+                        "SoundGroup": "ssg_collision_camera_013_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_013",
+                        "LogicEntityGroup": "eg_collision_camera_013_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_013"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_015",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "lg_collision_camera_015_Default",
+                        "SoundGroup": "ssg_collision_camera_015_Escape_Sequence",
+                        "SceneGroup": "sg_SubArea_collision_camera_015",
+                        "LogicEntityGroup": "eg_collision_camera_015_Escape_Sequence",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_015"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_020",
+                      "sSetupId": "Escape_Sequence",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_020_Escape_Sequence",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "shipyard_basic_comander_x",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_escape"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_020"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "PostEmmy",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_011",
+                      "sSetupId": "PostEmmy",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_011_PostEmmy",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "EmmyZone_Dead",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_011"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_012",
+                      "sSetupId": "PostEmmy",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "EmmyZone_Dead",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_012"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_013",
+                      "sSetupId": "PostEmmy",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "EmmyZone_Dead",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_013"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_014",
+                      "sSetupId": "PostEmmy",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_014_PostEmmy",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_collision_camera_014_PostEmmy",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "EmmyZone_Dead",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_014"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "WaveBeamAcquired",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_009",
+                      "sSetupId": "WaveBeamAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_009_WaveBeamAcquired",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_collision_camera_009_WaveBeamAcquired",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": ""
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_009"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_002",
+                      "sSetupId": "WaveBeamAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_002_WaveBeamAcquired",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_collision_camera_002_WaveBeamAcquired",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": ""
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_002"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "Emmy_Defeated_PreCombat",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_014",
+                      "sSetupId": "Emmy_Defeated_PreCombat",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_014"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "PowerBombWarriorXDefeated",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_014",
+                      "sSetupId": "PowerBombWarriorXDefeated",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_boss_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_014"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "PowerBombAcquired",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_014",
+                      "sSetupId": "PowerBombAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_014"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_013",
+                      "sSetupId": "PowerBombAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_013"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_011",
+                      "sSetupId": "PowerBombAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_011"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  },
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_012",
+                      "sSetupId": "PowerBombAcquired",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_emmy_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_012"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "SP_CWX_Elite_Phase2_chozowarriorxelite_Boss_Defeated",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_005",
+                      "sSetupId": "SP_CWX_Elite_Phase2_chozowarriorxelite_Boss_Defeated",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "ChozoWarriorX_Elite",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_boss_defeated"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_005"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "ChozoWarroirEliteArenaPostCombat",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_005",
+                      "sSetupId": "ChozoWarroirEliteArenaPostCombat",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_collision_camera_005_ChozoWarroirEliteArenaPostCombat",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": "s_shipyard_001"
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_005"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "ChangeCamera_009_C",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_009",
+                      "sSetupId": "ChangeCamera_009_C",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": ""
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_009_C"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaSetup",
+              "Data": {
+                "sId": "PostChozoWarriorEvent",
+                "vSubareaConfigs": [
+                  {
+                    "Class": "CSubareaInfo",
+                    "Data": {
+                      "sId": "collision_camera_006",
+                      "sSetupId": "PostChozoWarriorEvent",
+                      "bDisableSubArea": false,
+                      "fCameraZDistance": -1.0,
+                      "bIgnoreMetroidCameraOffsets": false,
+                      "sCharclassGroupId": "Enemies",
+                      "asItemsIds": {
+                        "ScenarioCollider": "",
+                        "LightGroup": "",
+                        "SoundGroup": "ssg_collision_camera_006_PostChozoWarriorEvent",
+                        "SceneGroup": "",
+                        "LogicEntityGroup": "eg_collision_camera_006_PostChozoWarriorEvent",
+                        "BreakableTileGroupGroup": "",
+                        "EnvironmentPreset": "",
+                        "EnvironmentSoundPreset": "",
+                        "EnvironmentMusicPreset": ""
+                      },
+                      "vsCameraCollisionsIds": [
+                        "collision_camera_006"
+                      ],
+                      "vsCutscenesIds": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "vCharclassGroups": {
+          "Class": "base::global::CRntVector<std::unique_ptr<CSubareaCharclassGroup>>",
+          "Data": [
+            {
+              "Class": "CSubareaCharclassGroup",
+              "Data": {
+                "sId": "No Enemies",
+                "vsCharClassesIds": []
+              }
+            },
+            {
+              "Class": "CSubareaCharclassGroup",
+              "Data": {
+                "sId": "ChozoWarriorX_Elite",
+                "vsCharClassesIds": [
+                  "chozowarriorxelite",
+                  "chozowarriorelite"
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaCharclassGroup",
+              "Data": {
+                "sId": "Enemies",
+                "vsCharClassesIds": [
+                  "sabotoru",
+                  "autool",
+                  "chozozombiex",
+                  "shakernaut",
+                  "rodotuk",
+                  "quetshocker",
+                  "yampa",
+                  "yojimbee",
+                  "dredhed",
+                  "takumaku",
+                  "dropter",
+                  "shelmit",
+                  "bigfist",
+                  "gooplot",
+                  "quetzoa",
+                  "sharpaw",
+                  "specimen_x4a"
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaCharclassGroup",
+              "Data": {
+                "sId": "ChozoWarriorX",
+                "vsCharClassesIds": [
+                  "chozowarriornormal",
+                  "chozowarriorxnormal"
+                ]
+              }
+            },
+            {
+              "Class": "CSubareaCharclassGroup",
+              "Data": {
+                "sId": "Emmy",
+                "vsCharClassesIds": [
+                  "emmyshipyard"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

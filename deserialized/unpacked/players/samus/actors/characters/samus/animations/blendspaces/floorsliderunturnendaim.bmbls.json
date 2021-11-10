@@ -1,0 +1,50 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorsliderunturnendup.bcskla"
+      }
+    ]
+  }
+}

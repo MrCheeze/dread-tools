@@ -1,0 +1,116 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0040sancemmypresentation_part3",
+    "sActionSet": "cutscenes/0040sancemmypresentation_part3/0040sancemmypresentation_part3.bmsas",
+    "vWorldOffset": [
+      -11688.0,
+      -7193.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "s070_basesanc.OnAfter_Cutscene_40_Part3",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 2.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0040sancemmypresentation_part3/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 99,
+        "sCamera": "cutscenes/0040sancemmypresentation_part3/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 126,
+        "sCamera": "cutscenes/0040sancemmypresentation_part3/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 66,
+        "sCamera": "cutscenes/0040sancemmypresentation_part3/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 134,
+        "sCamera": "cutscenes/0040sancemmypresentation_part3/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0040sancemmypresentation_part3_professor_deathsubchar",
+        "sCharClass": "cutscenes/0040sancemmypresentation_part3/actors/professor_deathsubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0040sancemmypresentation_part3_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": []
+    }
+  }
+}

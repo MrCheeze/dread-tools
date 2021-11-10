@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#doorpowerpower#lightsdef#doorpowerpower": {
+            "sPath": "actors#props#doorpowerpower#lightsdef#doorpowerpower",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "lightdoor01",
+                "sNode": "bone_ParteGiratoria_SKN",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.800000011920929,
+                  0.3400000035762787,
+                  1.0
+                ],
+                "vAtt": [
+                  250.0,
+                  300.0,
+                  0.0,
+                  0.0
+                ],
+                "fIntensity": 25.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

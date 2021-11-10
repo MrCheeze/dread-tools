@@ -1,0 +1,95 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_back.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_down.bcskla"
+      },
+      {
+        "fSample": -60.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_front.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_frontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_up.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_backupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchanalogwide26upshot_back.bcskla"
+      }
+    ]
+  }
+}

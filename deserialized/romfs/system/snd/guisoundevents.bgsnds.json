@@ -1,0 +1,678 @@
+{
+  "FileType": "sound::CSoundEventsDef",
+  "Unk": 33554433,
+  "RealFileType": "sound::CSoundEventsDef",
+  "Root": {
+    "aSoundEventRules": [
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Game Title",
+              "strTargetFilter": "gametitlecomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_pressa"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Main Menu",
+              "strTargetFilter": "MainMenu"
+            }
+          },
+          "mapSoundEvents": {
+            "OnStartGame": "audiopreset:system/snd/presets/hud/hud_startgame",
+            "OnCopyGame": "audiopreset:system/snd/presets/hud/hud_copiedslot",
+            "OnDeleteGame": "audiopreset:system/snd/presets/hud/hud_delete_savegame",
+            "OnCancel": "audiopreset:system/snd/presets/hud/hud_back",
+            "OnHardModeUnlocked": "audiopreset:system/snd/presets/hud/hud_hardmode"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Profile button",
+              "strTargetFilter": "mainmenucomposition,@GUI::CProfileButton"
+            }
+          },
+          "mapSoundEvents": {
+            "OnActivated": "",
+            "OnEmptySlotActive": "audiopreset:system/snd/presets/hud/hud_selectemptyslot",
+            "OnDataSlotActive": "audiopreset:system/snd/presets/hud/hud_selectslot"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Slot selected menu",
+              "strTargetFilter": "slotselectioncomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_selectslotoff"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Continue game button (Main menu)",
+              "strTargetFilter": "slotselectioncomposition,Button1"
+            }
+          },
+          "mapSoundEvents": {
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_loadgame"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Gallery button",
+              "strTargetFilter": "extrasmenucomposition,Button1"
+            }
+          },
+          "mapSoundEvents": {
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_galleryopen"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Mission log button",
+              "strTargetFilter": "extrasmenucomposition,Button2"
+            }
+          },
+          "mapSoundEvents": {
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_enterw_log"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Game Slot Options",
+              "strTargetFilter": "slotoptionscomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Difficulty Selection",
+              "strTargetFilter": "difficultycomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Ingame Menu",
+              "strTargetFilter": "IngameMenuRoot"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_pressstart",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_returntogame"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Minimap",
+              "strTargetFilter": "mapmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnExpand": "audiopreset:system/snd/presets/hud/hud_minimap_enlarge",
+            "OnRestore": "audiopreset:system/snd/presets/hud/hud_minimap_shrink"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Area Map - General",
+              "strTargetFilter": "mapmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_enterw_maps",
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_marker_select",
+            "OnZoom": "audiopreset:system/snd/presets/hud/hud_mapmove",
+            "OnRecenter": "audiopreset:system/snd/presets/hud/hud_marker_locate",
+            "OnMove": ":",
+            "OnFastMovement": "audiopreset:system/snd/presets/hud/hud_fastmode"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Area Map - Highlight Icons",
+              "strTargetFilter": "mapmenucomposition,CLabelHighlightIcons"
+            }
+          },
+          "mapSoundEvents": {
+            "OnToggleOn": "audiopreset:system/snd/presets/hud/hud_marker_highlight",
+            "OnToggleOff": "audiopreset:system/snd/presets/hud/hud_marker_highlightoff"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Area Map - Navigation Panel",
+              "strTargetFilter": "mapmenucomposition,Navigation"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_marker_navegup",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_marker_navegdown"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Area Map - Special Events",
+              "strTargetFilter": "mapmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnMapDownload": "audiopreset:system/snd/presets/hud/hud_mapdata",
+            "OnEmmyZonePresented": "audiopreset:system/snd/presets/hud/hud_mapzoomout"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Global Map Sounds",
+              "strTargetFilter": "globalviewcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_mapzoomin",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_mapzoomout",
+            "OnSelected": "audiopreset:system/snd/presets/hud/hud_changemaps",
+            "OnTransportInit": "audiopreset:system/snd/presets/hud/hud_transport_beeps",
+            "OnTransportDest": "audiopreset:system/snd/presets/hud/hud_transport_destiny",
+            "OnTeleportTravelArrow": "audiopreset:system/snd/presets/hud/hud_transport_beepstele"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Custom Markers",
+              "strTargetFilter": "custommarkercomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_smallwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_smallwindow_close",
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_marker_place",
+            "OnActionDenied": "audiopreset:system/snd/presets/hud/hud_denied",
+            "OnMarkerRemoved": "audiopreset:system/snd/presets/hud/hud_marker_erase",
+            "OnAllMarkersRemoved": "audiopreset:system/snd/presets/hud/hud_marker_eraseall"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Mission Log",
+              "strTargetFilter": "missionmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_enterw_log",
+            "OnScroll": "audiopreset:system/snd/presets/hud/hud_scroll"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Mission Log - Events",
+              "strTargetFilter": "missionmenucomposition,EventsListCompo"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_movelr_log",
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_updown_log"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Mission Log - Tutos",
+              "strTargetFilter": "missionmenucomposition,TutosListCompo"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_movelr_log"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Samus Screen",
+              "strTargetFilter": "samusmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_enterw_samus",
+            "OnSelected": "audiopreset:system/snd/presets/hud/hud_updown_samsec"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Samus Screen - List Buttons",
+              "strTargetFilter": "samusmenucomposition,@GUI::CList"
+            }
+          },
+          "mapSoundEvents": {
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_updown_samus"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Adam Dialoq",
+              "strTargetFilter": "dialogcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_adamopen",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_adamclose",
+            "OnNext": "audiopreset:system/snd/presets/hud/hud_adamnext"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Small PopUp Sounds",
+              "strTargetFilter": "@GUI::CPopUpComposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_smallwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_smallwindow_close"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Power Desc Sounds",
+              "strTargetFilter": "powerdesccomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close",
+            "OnScroll": "audiopreset:system/snd/presets/hud/hud_scroll"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Chozo Archives",
+              "strTargetFilter": "@GUI::CChozoGalleryBase"
+            }
+          },
+          "mapSoundEvents": {
+            "OnNext": "audiopreset:system/snd/presets/hud/hud_gallerychange",
+            "OnItemRevealed": "audiopreset:system/snd/presets/hud/hud_slotgallery",
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_updown",
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_select",
+            "OnActionDenied": "audiopreset:system/snd/presets/hud/hud_denied"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Ending Rewards",
+              "strTargetFilter": "endingrewardsgallerycomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnNext": "audiopreset:system/snd/presets/hud/hud_gallerychange"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Archive Inspector",
+              "strTargetFilter": "chozoarchivesinspectorcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_back"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Config Menu Sounds",
+              "strTargetFilter": "configmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_config_enter",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_config_exit"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Config Menu - List Buttons",
+              "strTargetFilter": "configmenucomposition,@GUI::CList"
+            }
+          },
+          "mapSoundEvents": {
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_options_upndown"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Rumble tunable button",
+              "strTargetFilter": "configmenucomposition,Button2"
+            }
+          },
+          "mapSoundEvents": {
+            "OnRumbleChanged": "audiopreset:system/snd/presets/hud/hud_select"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "System Menu Sounds",
+              "strTargetFilter": "systemmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "System Menu - List Buttons",
+              "strTargetFilter": "systemmenucomposition,@GUI::CList"
+            }
+          },
+          "mapSoundEvents": {
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_options_upndown"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Gamma Menu Sounds",
+              "strTargetFilter": "gammaadjustcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close",
+            "OnScroll": "audiopreset:system/snd/presets/hud/hud_scroll"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "HUD sounds",
+              "strTargetFilter": "iconshudcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnAeionRecharge": "audiopreset:system/snd/presets/hud/hud_getaeonmeter",
+            "OnAeionFill": "audiopreset:system/snd/presets/gui/aeon_max",
+            "OnTankObtained": "audiopreset:system/snd/presets/hud/hud_tankobtain",
+            "OnEnergyRefill": "audiopreset:system/snd/presets/hud/hud_maxfill"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Amiibo Menu Sounds",
+              "strTargetFilter": "amiibocomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close",
+            "OnSuccess": "audiopreset:system/snd/presets/hud/hud_amiibo_ok",
+            "OnFailure": "audiopreset:system/snd/presets/hud/hud_amiibo_error"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Controls Menu Sounds",
+              "strTargetFilter": "controlsmenucomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_bigwindow_open",
+            "OnClosed": "audiopreset:system/snd/presets/hud/hud_bigwindow_close"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Tutorial Popup Sounds",
+              "strTargetFilter": "tutorialcomposition"
+            }
+          },
+          "mapSoundEvents": {
+            "OnOpened": "audiopreset:system/snd/presets/hud/hud_tutoscreen",
+            "OnClosed": ":"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Lists Buttons",
+              "strTargetFilter": "@GUI::CList"
+            }
+          },
+          "mapSoundEvents": {
+            "OnItemSelected": "audiopreset:system/snd/presets/hud/hud_updown",
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_select"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "Buttons (Not on Lists)",
+              "strTargetFilter": "@GUI::CButton"
+            }
+          },
+          "mapSoundEvents": {
+            "OnSelected": "audiopreset:system/snd/presets/hud/hud_updown",
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_select"
+          }
+        }
+      },
+      {
+        "Class": "sound::CSoundEventsDef::SSoundEventsRule",
+        "Data": {
+          "pContextSelector": {
+            "Class": "sound::SGUISoundEventsSelector",
+            "Data": {
+              "strSelectorDesc": "New Rule",
+              "strTargetFilter": "PrologueLabel_Icon"
+            }
+          },
+          "mapSoundEvents": {
+            "OnActivated": "audiopreset:system/snd/presets/hud/hud_adamnext"
+          }
+        }
+      }
+    ]
+  }
+}

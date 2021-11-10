@@ -1,0 +1,55 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitdown.bcskla"
+      },
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/stealthcrouchwalkinitup.bcskla"
+      }
+    ]
+  }
+}

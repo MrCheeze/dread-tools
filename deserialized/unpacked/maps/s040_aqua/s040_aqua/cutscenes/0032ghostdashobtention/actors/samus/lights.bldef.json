@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0032ghostdashobtention#actors#samus#lights": {
+            "sPath": "cutscenes#0032ghostdashobtention#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "itemcube_light",
+                "sNode": "DC_L_Hand",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  -30.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.10000000149011612,
+                  0.30000001192092896,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  -100.0,
+                  100.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

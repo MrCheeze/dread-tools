@@ -1,0 +1,934 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "Menus-tileset": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/menus-tileset.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 8192,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_SHIP-SKYB-15",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.94140625,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.00341796875,
+                      0.0257568359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_SANC-SHIP-14",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3818359375,
+                      0.845458984375
+                    ],
+                    "v2Scale": [
+                      0.00341796875,
+                      0.0025634765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_LAB-MAG-13",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3818359375,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.11328125,
+                      0.0008544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_LAB-SANC-12",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.318359375,
+                      0.852294921875
+                    ],
+                    "v2Scale": [
+                      0.00341796875,
+                      0.0028076171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_LAB-SANC-11",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.31396484375,
+                      0.852294921875
+                    ],
+                    "v2Scale": [
+                      0.00341796875,
+                      0.0042724609375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_FOR-SHIP-10",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.31396484375,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.06689453125,
+                      0.0076904296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_FOR-SANC-9",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2412109375,
+                      0.854248046875
+                    ],
+                    "v2Scale": [
+                      0.07177734375,
+                      0.0009765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_FOR-QUAR-8",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2412109375,
+                      0.8531494140625
+                    ],
+                    "v2Scale": [
+                      0.01904296875,
+                      0.0008544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_FOR-LAB-7",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.240234375,
+                      0.8470458984375
+                    ],
+                    "v2Scale": [
+                      0.07080078125,
+                      0.005859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_AQUA-FOR-6",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.23583984375,
+                      0.8468017578125
+                    ],
+                    "v2Scale": [
+                      0.00341796875,
+                      0.0093994140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_AQUA-LAB-5",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.23583984375,
+                      0.8455810546875
+                    ],
+                    "v2Scale": [
+                      0.0712890625,
+                      0.0009765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_AQUA-LAB-4",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.23583984375,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.0712890625,
+                      0.0009765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_CAV-AQUA-3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.134765625,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.10009765625,
+                      0.0076904296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_CAV-LAB-2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.12939453125,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.00439453125,
+                      0.014404296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C_CAV-MAG-1",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0009765625,
+                      0.8443603515625
+                    ],
+                    "v2Scale": [
+                      0.12841796875,
+                      0.01708984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SKYBASE_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.888671875,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.03955078125,
+                      0.0064697265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_FOREST_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.78955078125,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.09814453125,
+                      0.0103759765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_AQUA_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.72314453125,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.0654296875,
+                      0.0205078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_QUARANTINE_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6552734375,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.06689453125,
+                      0.004150390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SHIPYARD_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5400390625,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.1142578125,
+                      0.0128173828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SANCTUARY_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.435546875,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.1044921875,
+                      0.010986328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_LABORATORY_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.29736328125,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.13720703125,
+                      0.0135498046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_CAVE_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.11474609375,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.181640625,
+                      0.015380859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_MAGMA_HIGHLIGHT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00244140625,
+                      0.8236083984375
+                    ],
+                    "v2Scale": [
+                      0.111328125,
+                      0.0135498046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SKYBASE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.888671875,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.03955078125,
+                      0.0064697265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_FOREST",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.78955078125,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.09814453125,
+                      0.0103759765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_AQUA",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.72314453125,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.0654296875,
+                      0.0205078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_QUARANTINE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6552734375,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.06689453125,
+                      0.004150390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SHIPYARD",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5400390625,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.1142578125,
+                      0.0128173828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_SANCTUARY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.435546875,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.1044921875,
+                      0.010986328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_LABORATORY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.29736328125,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.13720703125,
+                      0.0135498046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_CAVE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.11474609375,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.181640625,
+                      0.015380859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_MAGMA",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00244140625,
+                      0.802490234375
+                    ],
+                    "v2Scale": [
+                      0.111328125,
+                      0.0135498046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_NEWMESSAGE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.84765625,
+                      0.0166015625
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_WARNING",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.78515625,
+                      0.0166015625
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_PLUS",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.91015625,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_R",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.84765625,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_L",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.78515625,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MAP_INFOPANEL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8623046875,
+                      0.1011962890625
+                    ],
+                    "v2Scale": [
+                      0.1357421875,
+                      0.0328369140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TextureTex_CUSTOMMARKER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.908203125,
+                      0.015625
+                    ],
+                    "v2Scale": [
+                      0.0673828125,
+                      0.016845703125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_SLIDER_HANDLE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.98583984375,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.01220703125,
+                      0.0062255859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MAP_CUSTOMMARKBUTTON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7861328125,
+                      0.1011962890625
+                    ],
+                    "v2Scale": [
+                      0.04931640625,
+                      0.0123291015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_SLIDER_BAR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.97314453125,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.01220703125,
+                      0.0579833984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_STATS_HPWRAPPER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7861328125,
+                      0.094970703125
+                    ],
+                    "v2Scale": [
+                      0.1357421875,
+                      0.0062255859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_DIFSELECTOR_BLANK",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.6768798828125
+                    ],
+                    "v2Scale": [
+                      0.47314453125,
+                      0.006591796875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MAP_CUSTOMMARKPROMPT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.6507568359375
+                    ],
+                    "v2Scale": [
+                      0.5576171875,
+                      0.0260009765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MAP_INSPECTOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.645751953125
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.0047607421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TEX_BACKGROUND_DIFSELECTOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.55126953125
+                    ],
+                    "v2Scale": [
+                      0.6123046875,
+                      0.09423828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MAP_CROSSHAIR_INSPECTOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.44140625
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.109619140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TEX_BACKGROUND_MISSIONLOG",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.6923828125
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.10986328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TEX_BACKGROUND_TRANSPARENTTV",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.331298828125
+                    ],
+                    "v2Scale": [
+                      0.61669921875,
+                      0.091064453125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TEX_FOREGROUND_MAP",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.22119140625
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.10986328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_INVENTORY_PANELS",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.111083984375
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.10986328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MENUHEAD_L",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.6837158203125
+                    ],
+                    "v2Scale": [
+                      0.23046875,
+                      0.0084228515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MENUHEAD_CENTER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.236328125,
+                      0.6834716796875
+                    ],
+                    "v2Scale": [
+                      0.32373046875,
+                      0.0086669921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ITEM_MENUHEAD_R",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.56103515625,
+                      0.6837158203125
+                    ],
+                    "v2Scale": [
+                      0.22509765625,
+                      0.0084228515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TEX_BACKGROUND_BLACK",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.00390625,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.10986328125
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

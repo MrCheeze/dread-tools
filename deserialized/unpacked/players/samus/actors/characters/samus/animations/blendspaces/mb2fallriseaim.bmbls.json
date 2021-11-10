@@ -1,0 +1,55 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisedown.bcskla"
+      },
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallrisefrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/mb2fallriseup.bcskla"
+      }
+    ]
+  }
+}

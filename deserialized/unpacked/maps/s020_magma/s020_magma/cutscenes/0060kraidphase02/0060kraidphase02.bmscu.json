@@ -1,0 +1,252 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0060kraidphase02",
+    "sActionSet": "cutscenes/0060kraidphase02/0060kraidphase02.bmsas",
+    "vWorldOffset": [
+      -15515.0,
+      -6442.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 0.30000001192092896,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 295,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 17,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 141,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 42,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 183,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 58,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "7",
+        "iFrames": 105,
+        "sCamera": "cutscenes/0060kraidphase02/cameras/7.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0060kraidphase02_kraid",
+        "sCharClass": "cutscenes/0060kraidphase02/actors/kraid/actor.bmsad",
+        "sInGameEntityId": "SP_Kraid",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": true,
+        "fExitAnimTags": 128,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {
+          "NailL02": {
+            "sExitAnim": "attack_spinningnails-nail_left",
+            "sExitAnimChannel": "default",
+            "fExitAnimFrame": 42.0
+          },
+          "NailR02": {
+            "sExitAnim": "attack_spinningnails-nail_right",
+            "sExitAnimChannel": "default",
+            "fExitAnimFrame": 42.0
+          },
+          "NailL01": {
+            "sExitAnim": "attack_spinningnails-nail_left",
+            "sExitAnimChannel": "default",
+            "fExitAnimFrame": 42.0
+          },
+          "NailR01": {
+            "sExitAnim": "attack_spinningnails-nail_right",
+            "sExitAnimChannel": "default",
+            "fExitAnimFrame": 42.0
+          }
+        },
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0060kraidphase02_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0060kraidphase02_ev_kraid_railssubchar",
+        "sCharClass": "cutscenes/0060kraidphase02/actors/ev_kraid_railssubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0060kraidphase02_ev_kraid_structuresubchar",
+        "sCharClass": "cutscenes/0060kraidphase02/actors/ev_kraid_structuresubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0060kraidphase02_ev_kraid_symmetrywallsubchar",
+        "sCharClass": "cutscenes/0060kraidphase02/actors/ev_kraid_symmetrywallsubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0060kraidphase02_ev_kraid_symmetrywalldomesubchar",
+        "sCharClass": "cutscenes/0060kraidphase02/actors/ev_kraid_symmetrywalldomesubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/airsparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/slime.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/fx/escape_explosion/fx/sparks03.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/dust01_nosoftblend.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/dust02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/scream.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

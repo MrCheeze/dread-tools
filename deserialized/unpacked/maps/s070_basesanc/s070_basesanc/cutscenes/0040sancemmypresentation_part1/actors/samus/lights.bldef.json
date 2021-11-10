@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0040sancemmypresentation_part1#actors#samus#lights": {
+            "sPath": "cutscenes#0040sancemmypresentation_part1#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "cannon_l",
+                "sNode": "C01_Spine1_SKN",
+                "vPosOffset": [
+                  0.0,
+                  75.0,
+                  -150.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  1.0,
+                  0.10000000149011612,
+                  0.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1761 @@
+{
+  "FileType": "GUI::CGUIManager::SkinContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SkinContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SkinContainer",
+    "Data": {
+      "vecSkins": [
+        {
+          "Class": "GUI::CSkin",
+          "Data": {
+            "sID": "loadscreencomposition",
+            "vecDisplayObjDefs": [
+              {
+                "Class": "GUI::CDisplayObjectDef",
+                "Data": {
+                  "sID": "RootComposition",
+                  "lstpStates": [
+                    {
+                      "Class": "GUI::CDisplayObjectStateDef",
+                      "Data": {
+                        "sID": "Default",
+                        "pDOAnimationDef": {
+                          "Class": "GUI::CDisplayObjectAnimationDef",
+                          "Data": {
+                            "pTrackSet": {
+                              "Class": "GUI::CTrackSet",
+                              "Data": {
+                                "vpTracks": []
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "lstpChildren": [
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "Background",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "ClanzolettersComposition",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": [
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLANZO-C",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "OnLoading",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorR",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.6476483941078186
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.5457388758659363
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.4812656044960022
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.5394995808601379
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.6414089798927307
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorG",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9042537808418274
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.8396391868591309
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.7987604737281799
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.8356832265853882
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9002978205680847
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9411764740943909
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorB",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9772201180458069
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9853944778442383
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9905660152435303
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9858949184417725
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9777206182479858
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9725490212440491
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.7549744844436646
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.32618001103401184
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.054901961237192154
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.29992741346359253
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.7287217974662781
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 1.0
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLANZO-H",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "OnLoading",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.7549744844436646
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.326180100440979
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.054901961237192154
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.29992741346359253
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.7287219166755676
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 1.0
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorR",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.6476483941078186
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.5457388758659363
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.4812656044960022
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.5394995808601379
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.6414089798927307
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorG",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9042537808418274
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.8396391868591309
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.7987604737281799
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.8356832265853882
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9002978205680847
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9411764740943909
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorB",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9772201180458069
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9853944778442383
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9905660152435303
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9858949184417725
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9777206182479858
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9725490212440491
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLANZO-A",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "OnLoading",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.7549746036529541
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.326180100440979
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.054901961237192154
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.29992741346359253
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.7287216782569885
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 1.0
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorR",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.6476483941078186
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.5457388758659363
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.4812656044960022
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.5394995808601379
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.6414089798927307
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorG",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9042537808418274
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.8396391868591309
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.7987604737281799
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.8356832265853882
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9002978205680847
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9411764740943909
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorB",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9772201180458069
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9853944778442383
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9905660152435303
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9858949184417725
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9777206182479858
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9725490212440491
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLANZO-D",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "OnLoading",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.7549744844436646
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.326180100440979
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.054901961237192154
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.299927294254303
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.7287219762802124
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 1.0
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorR",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.6476483941078186
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.5457388758659363
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.4812656044960022
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.5394995212554932
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.6414089798927307
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorG",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9042537808418274
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.8396391868591309
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.7987604737281799
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.8356832265853882
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9002978205680847
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9411764740943909
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorB",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9772201180458069
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9853944778442383
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9905660152435303
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9858949184417725
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9777206182479858
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9725490212440491
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLANZO-O",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "OnLoading",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.7549746036529541
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.32618001103401184
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.054901961237192154
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.29992759227752686
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.7287219762802124
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 1.0
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorR",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.6476483941078186
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.5457388758659363
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.4812656044960022
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.5394995808601379
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.6414089798927307
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorG",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9411764740943909
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9042537808418274
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.8396391868591309
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.7987604737281799
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.8356832265853882
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9002978205680847
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9411764740943909
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorB",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 10,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.9725490212440491
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.9772201180458069
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.9853944778442383
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.9905660152435303
+                                                    },
+                                                    {
+                                                      "iFrame": 80,
+                                                      "Value": 0.9858949184417725
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.9777206182479858
+                                                    },
+                                                    {
+                                                      "iFrame": 100,
+                                                      "Value": 0.9725490212440491
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "wheel_in",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "RotateCounterClockwiseFast",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": [
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "Angle",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.0
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 6.283185005187988
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorR",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.7058823704719543
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.7058823704719543
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorG",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.9411764740943909
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.9411764740943909
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorB",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.9725490212440491
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.9725490212440491
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "wheel_mid",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "RotateCounterClockwise",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": [
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "Angle",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 3.1415929794311523
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": -3.1415929794311523
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorR",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.7058823704719543
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.7058823704719543
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorG",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.9411764740943909
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.9411764740943909
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "ColorB",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.9725490212440491
+                                              },
+                                              {
+                                                "iFrame": 120,
+                                                "Value": 0.9725490212440491
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "WheelOutComposition",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "RotateClockwise",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": [
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackFloat",
+                                          "Data": {
+                                            "iLoopStartFrame": 0,
+                                            "sPropertyID": "Angle",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": 0.0
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": [
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "wheel_out_1",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "RotateClockwise",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Angle",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.0
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 3.1415929794311523
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.7058823704719543
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.1411765068769455
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.23529410362243652
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.8549020290374756
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 0.7058823704719543
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "wheel_out_2",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "RotateClockwise",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Angle",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.9948375821113586
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 4.136429786682129
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.5490195751190186
+                                                    },
+                                                    {
+                                                      "iFrame": 20,
+                                                      "Value": 0.23529410362243652
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.47058820724487305
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.23529410362243652
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 0.5490195751190186
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "wheel_out_3",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "RotateClockwise",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Angle",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": -1.1344640254974365
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 2.007128953933716
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.19607840478420258
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 0.47058820724487305
+                                                    },
+                                                    {
+                                                      "iFrame": 40,
+                                                      "Value": 0.686274528503418
+                                                    },
+                                                    {
+                                                      "iFrame": 50,
+                                                      "Value": 0.16862750053405762
+                                                    },
+                                                    {
+                                                      "iFrame": 60,
+                                                      "Value": 0.5490195751190186
+                                                    },
+                                                    {
+                                                      "iFrame": 70,
+                                                      "Value": 0.1568627953529358
+                                                    },
+                                                    {
+                                                      "iFrame": 90,
+                                                      "Value": 0.47058820724487305
+                                                    },
+                                                    {
+                                                      "iFrame": 120,
+                                                      "Value": 0.19607840478420258
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

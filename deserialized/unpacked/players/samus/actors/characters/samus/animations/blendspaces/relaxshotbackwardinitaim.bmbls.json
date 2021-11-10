@@ -1,0 +1,40 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitdown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitfrontdown.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitfront.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/relaxshotbackwardinitup.bcskla"
+      }
+    ]
+  }
+}

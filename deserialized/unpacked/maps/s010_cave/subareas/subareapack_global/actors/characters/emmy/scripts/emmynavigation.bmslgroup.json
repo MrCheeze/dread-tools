@@ -1,0 +1,13 @@
+{
+  "FileType": "navmesh::CDynamicSmartLinkGroup",
+  "Unk": 33554433,
+  "RealFileType": "navmesh::CDynamicSmartLinkGroup",
+  "Root": {
+    "bGenerateInNavMesh": true,
+    "vLinkResources": [
+      {
+        "sLinkResource": "actors/characters/emmy/scripts/emmynavigation.bmslink"
+      }
+    ]
+  }
+}

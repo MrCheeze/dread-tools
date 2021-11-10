@@ -1,0 +1,243 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0001gameintro_fight#actors#chozocommander#lights": {
+            "sPath": "cutscenes#0001gameintro_fight#actors#chozocommander#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "HyperBeam_l",
+                "sNode": "DC_Ice",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20000000298023224,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "HyperBeam2_l",
+                "sNode": "CannonTipRotParent_NoUse_SKN",
+                "vPosOffset": [
+                  20.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20000000298023224,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "HyperBeam3_l",
+                "sNode": "CannonTipRotParent_NoUse_SKN",
+                "vPosOffset": [
+                  -70.0,
+                  -20.0,
+                  30.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20000000298023224,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "vAtt": [
+                  -250.0,
+                  250.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 1000.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "face",
+                "sNode": "DC_Drop001",
+                "vPosOffset": [
+                  -100.0,
+                  50.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.4000000059604645,
+                  0.20000000298023224,
+                  1.0
+                ],
+                "vAtt": [
+                  -500.0,
+                  500.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "kistrike",
+                "sNode": "DC_Hand",
+                "vPosOffset": [
+                  100.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20000000298023224,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "vAtt": [
+                  -500.0,
+                  500.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "aurascratch",
+                "sNode": "DC_RootMotion",
+                "vPosOffset": [
+                  200.0,
+                  200.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  1.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "explosion",
+                "sNode": "DC_Ice",
+                "vPosOffset": [
+                  0.0,
+                  250.0,
+                  -3700.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.5,
+                  0.5,
+                  1.0
+                ],
+                "vAtt": [
+                  -2850.0,
+                  2850.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0108shipyard",
+    "sActionSet": "cutscenes/0108shipyard/0108shipyard.bmsas",
+    "vWorldOffset": [
+      15000.0,
+      -8500.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 76,
+        "sCamera": "cutscenes/0108shipyard/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 99,
+        "sCamera": "cutscenes/0108shipyard/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 12,
+        "sCamera": "cutscenes/0108shipyard/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 41,
+        "sCamera": "cutscenes/0108shipyard/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 42,
+        "sCamera": "cutscenes/0108shipyard/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 99,
+        "sCamera": "cutscenes/0108shipyard/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "7",
+        "iFrames": 95,
+        "sCamera": "cutscenes/0108shipyard/cameras/7.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "8",
+        "iFrames": 18,
+        "sCamera": "cutscenes/0108shipyard/cameras/8.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "9",
+        "iFrames": 214,
+        "sCamera": "cutscenes/0108shipyard/cameras/9.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "10",
+        "iFrames": 88,
+        "sCamera": "cutscenes/0108shipyard/cameras/10.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "11",
+        "iFrames": 60,
+        "sCamera": "cutscenes/0108shipyard/cameras/11.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0108shipyard_chozocommanderx",
+        "sCharClass": "cutscenes/0108shipyard/actors/chozocommanderx/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108shipyard_xparasite",
+        "sCharClass": "actors/cutscene/xparasite_cut.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108shipyard_chozocommander",
+        "sCharClass": "actors/cutscene/chozo_commander.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0108shipyard/actors/chozocommander/lights.bldef"
+      },
+      {
+        "sId": "0108shipyard_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "chozocommanderxbegin",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0108shipyard/actors/samus/lights.bldef"
+      },
+      {
+        "sId": "0108shipyard_chozocommander_2",
+        "sCharClass": "cutscenes/0108shipyard/actors/chozocommander_2/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0108shipyard/fx/samus_splashenter.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0078cooldownpresentation/fx/intro_goo.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommanderx/fx/materia_x.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 2
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/whirlwind_out.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/whirlwind_low.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/rays_sky.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/burn_sky.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/darkness_commander.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/ashes_ambient.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 13
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/ashes_velocity.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/materia_x_commanderhead.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108shipyard/fx/commanderfeet_smoke.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

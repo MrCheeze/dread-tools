@@ -1,0 +1,158 @@
+{
+  "FileType": "CEnvironmentMusicPresets",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pMusicPresets": {
+          "Class": "CEnvironmentMusicPresets",
+          "Data": {
+            "dicPresets": {
+              "s_quarantine_001": {
+                "sID": "s_quarantine_001",
+                "tPreset": {
+                  "sAlias": "s_quarantine_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_quarantine_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              }
+            },
+            "dicBossPresets": {
+              "chozowarrior": {
+                "sBoss": "chozowarrior",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "chozowarriorx": {
+                "sBoss": "chozowarriorx",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 0.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

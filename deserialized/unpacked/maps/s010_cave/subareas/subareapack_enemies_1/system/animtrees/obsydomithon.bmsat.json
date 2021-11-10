@@ -1,0 +1,58 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "centralunitgym",
+      "sRootNode": "CUMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "CUMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "ExtraRocks",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "ExtraRocks01_BN",
+              "ExtraRocks02_BN"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "CUMixer"
+        },
+        {
+          "pNode": "ExtraRocks",
+          "pParent": "CUMixer"
+        }
+      ]
+    }
+  }
+}

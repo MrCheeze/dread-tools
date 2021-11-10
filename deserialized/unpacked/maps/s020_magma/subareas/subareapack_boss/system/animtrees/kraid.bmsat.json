@@ -1,0 +1,223 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "BellyMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "NailL01Mixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "NailL02Mixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "NailR01Mixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "NailR02Mixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "NeckMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Neck",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "Spine_C_Neck_1_Additive",
+              "Head_C_Additive",
+              "Head_C_Jaw_Additive",
+              "Head_C_Parent_Additive",
+              "C_Dewlap01_Additive_SKN",
+              "C_Dewlap02_Additive_SKN",
+              "C_Dewlap03_Additive_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "NailR02",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "R_Nail02_Base_SKN",
+              "R_Nail02_Tip_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "NailR01",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "R_Nail01_Base_SKN",
+              "R_Nail01_Tip_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "NailL02",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "L_Nail02_Base_SKN",
+              "L_Nail02_Tip_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "NailL01",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "L_Nail01_Base_SKN",
+              "L_Nail01_Tip_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "BellyMixer",
+            "fFactor": 0.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Belly",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "L_Belly02_Additive",
+              "L_Belly03_Additive",
+              "L_Belly04_Additive",
+              "R_Belly02_Additive",
+              "R_Belly03_Additive",
+              "R_Belly4_Additive",
+              "DC_FX_Belly_1_Additive",
+              "DC_FX_Belly_2_Additive",
+              "DC_FX_Belly_3_Additive",
+              "Spine_C_Belly_WeakPoint_1_Additive",
+              "Spine_C_Belly_WeakPoint_2_Additive",
+              "Spine_C_Belly_WeakPoint_3_Additive"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "NailL01Mixer",
+          "pParent": "BellyMixer"
+        },
+        {
+          "pNode": "NailL02Mixer",
+          "pParent": "NailL01Mixer"
+        },
+        {
+          "pNode": "NailR01Mixer",
+          "pParent": "NailL02Mixer"
+        },
+        {
+          "pNode": "NailR02Mixer",
+          "pParent": "NailR01Mixer"
+        },
+        {
+          "pNode": "NeckMixer",
+          "pParent": "NailR02Mixer"
+        },
+        {
+          "pNode": "FullBody",
+          "pParent": "NeckMixer"
+        },
+        {
+          "pNode": "Neck",
+          "pParent": "NeckMixer"
+        },
+        {
+          "pNode": "NailR02",
+          "pParent": "NailR02Mixer"
+        },
+        {
+          "pNode": "NailR01",
+          "pParent": "NailR01Mixer"
+        },
+        {
+          "pNode": "NailL02",
+          "pParent": "NailL02Mixer"
+        },
+        {
+          "pNode": "NailL01",
+          "pParent": "NailL01Mixer"
+        },
+        {
+          "pNode": "Belly",
+          "pParent": "BellyMixer"
+        }
+      ]
+    }
+  }
+}

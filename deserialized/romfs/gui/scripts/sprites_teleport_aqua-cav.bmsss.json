@@ -1,0 +1,38 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "TELEPORT_AQUA-CAV": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/teleport_aqua-cav.bctex",
+            "uTextureWidth": 32,
+            "uTextureHeight": 32,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AQUA-CAV",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      -0.03125,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      1.03125,
+                      1.0
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

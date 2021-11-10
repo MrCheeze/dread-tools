@@ -1,0 +1,45 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/crouchturn2crouchwalkinitfrontupup.bcskla"
+      }
+    ]
+  }
+}

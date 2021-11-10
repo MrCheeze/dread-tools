@@ -1,0 +1,25 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "vFactor",
+    "vTargets": [
+      {
+        "fSample": -1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/phase22phase1_front_down_b.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/phase22phase1_front_b.bcskla"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/phase22phase1_front_up_b.bcskla"
+      }
+    ]
+  }
+}

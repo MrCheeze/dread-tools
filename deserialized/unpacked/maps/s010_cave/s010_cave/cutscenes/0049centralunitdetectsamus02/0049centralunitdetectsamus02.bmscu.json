@@ -1,0 +1,55 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0049centralunitdetectsamus02",
+    "sActionSet": "cutscenes/0049centralunitdetectsamus02/0049centralunitdetectsamus02.bmsas",
+    "vWorldOffset": [
+      9344.6328125,
+      -4622.35498046875,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "s010_cave.OnCutscene0049_02Ended",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 150,
+        "sCamera": "cutscenes/0049centralunitdetectsamus02/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0049centralunitdetectsamus02_centralunitcave",
+        "sCharClass": "cutscenes/0049centralunitdetectsamus02/actors/centralunitcave/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": []
+  }
+}

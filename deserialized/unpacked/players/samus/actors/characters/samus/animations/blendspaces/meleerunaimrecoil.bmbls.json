@@ -1,0 +1,95 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilback.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoildown.bcskla"
+      },
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilup.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunrecoilbackupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleerunback.bcskla"
+      }
+    ]
+  }
+}

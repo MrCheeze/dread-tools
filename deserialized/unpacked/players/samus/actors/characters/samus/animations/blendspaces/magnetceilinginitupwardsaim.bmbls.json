@@ -1,0 +1,95 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_back.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_down.bcskla"
+      },
+      {
+        "fSample": -60.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_front.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_frontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_up.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_backupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/magnetceilinginitupward_back.bcskla"
+      }
+    ]
+  }
+}

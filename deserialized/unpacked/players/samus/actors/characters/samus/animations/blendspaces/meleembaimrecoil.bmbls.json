@@ -1,0 +1,95 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilback.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoildown.bcskla"
+      },
+      {
+        "fSample": -67.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontdown.bcskla"
+      },
+      {
+        "fSample": -22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfront.bcskla"
+      },
+      {
+        "fSample": 22.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontup.bcskla"
+      },
+      {
+        "fSample": 78.75,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilup.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilbackupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/meleembrecoilback.bcskla"
+      }
+    ]
+  }
+}

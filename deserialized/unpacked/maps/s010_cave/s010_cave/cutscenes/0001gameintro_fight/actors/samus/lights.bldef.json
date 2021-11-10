@@ -1,0 +1,147 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0001gameintro_fight#actors#samus#lights": {
+            "sPath": "cutscenes#0001gameintro_fight#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "cannon_l",
+                "sNode": "DC_FXMuzzle",
+                "vPosOffset": [
+                  50.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.8999999761581421,
+                  0.30000001192092896,
+                  0.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "beam_l",
+                "sNode": "DC_Shot",
+                "vPosOffset": [
+                  -100.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.8999999761581421,
+                  0.30000001192092896,
+                  0.0
+                ],
+                "vAtt": [
+                  -200.0,
+                  200.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "beam2_l",
+                "sNode": "DC_Grab",
+                "vPosOffset": [
+                  -100.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.8999999761581421,
+                  0.30000001192092896,
+                  0.0
+                ],
+                "vAtt": [
+                  -200.0,
+                  200.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "counter_l",
+                "sNode": "DC_Grab",
+                "vPosOffset": [
+                  0.0,
+                  30.0,
+                  -70.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.4000000059604645,
+                  0.800000011920929,
+                  1.0,
+                  0.0
+                ],
+                "vAtt": [
+                  -1000.0,
+                  1000.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

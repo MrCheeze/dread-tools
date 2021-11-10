@@ -1,0 +1,182 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "RealFileType": "CGameBlackboard",
+  "Root": {
+    "hashSections": {
+      "SETTINGS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Difficulty": {
+              "Class": "int",
+              "Data": 1
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_LIFE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_SPECIAL_ENERGY_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_ACTIVE": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:ITEM_RESERVE_TANK_MISSILE_FULL": {
+              "Class": "bool",
+              "Data": false
+            },
+            "AMIIBO:MENU_UNLOCKED": {
+              "Class": "bool",
+              "Data": false
+            },
+            "GameCompleted": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      },
+      "ENDING_REWARDS": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "ENDING_REWARDS:UnlockedRewards": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": []
+            },
+            "ENDING_REWARDS:RewardsLocked": {
+              "Class": "base::global::CRntVector<bool>",
+              "Data": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ]
+            }
+          }
+        }
+      },
+      "GAME": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "SaveDataID": {
+              "Class": "base::global::CRntString",
+              "Data": "0fece5e8-8e01-41eb-ae1c-90c649017929"
+            }
+          }
+        }
+      },
+      "CHOZO_ARCHIVES": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "CHOZO_GALLERY:ShowNewItemPopUp": {
+              "Class": "bool",
+              "Data": false
+            },
+            "CHOZO_ARCHIVES:UnlockedArchives": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": []
+            },
+            "CHOZO_ARCHIVES:ArchivesLocked": {
+              "Class": "base::global::CRntVector<bool>",
+              "Data": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ]
+            },
+            "CHOZO_ARCHIVES:SecretVisited": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ENDING_REWARDS:SecretVisited": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      },
+      "MISSION_LOG": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "MISSION_LOG:EventsList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_INFO_ENTRY",
+                  "sLabelText": "#MLOG_INIT",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_DIALOGUE_ENTRY",
+                  "sLabelText": "#MLOG_ADAM_CAVE",
+                  "vCaptionsIds": [
+                    "#DIAG_ADAM_CAVE_1_PAGE_1",
+                    "#DIAG_ADAM_CAVE_1_PAGE_2",
+                    "#DIAG_ADAM_CAVE_1_PAGE_3",
+                    "#DIAG_ADAM_CAVE_1_PAGE_4",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5",
+                    "#DIAG_ADAM_CAVE_1_PAGE_5_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_B",
+                    "#DIAG_ADAM_CAVE_1_PAGE_6_C",
+                    "#DIAG_ADAM_CAVE_1_PAGE_7"
+                  ]
+                }
+              ]
+            },
+            "MISSION_LOG:TutosList": {
+              "Class": "GUI::CMissionLog::TMissionLogEntries",
+              "Data": [
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_SLIDING",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_FREE_AIM",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_MISSILE_MODE",
+                  "vCaptionsIds": []
+                },
+                {
+                  "eEntryType": "ML_TUTO_ENTRY",
+                  "sLabelText": "#MLOG_TUTO_HIDDEN_BLOCKS",
+                  "vCaptionsIds": []
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

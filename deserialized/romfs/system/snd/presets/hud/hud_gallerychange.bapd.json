@@ -1,0 +1,104 @@
+{
+  "FileType": "sound::CAudioPresets",
+  "Unk": 33751042,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSoundManager": {
+      "Class": "sound::CSoundManager",
+      "Data": {
+        "pAudioPresets": {
+          "Class": "sound::CAudioPresets",
+          "Data": {
+            "dicPresets": {
+              "hud#hud_gallerychange": {
+                "sUniqueId": "hud#hud_gallerychange",
+                "sNodeToAttach": "",
+                "arrMatFiles": {
+                  "0": {
+                    "vFiles": [
+                      "hud/hud_gallerychange.wav"
+                    ]
+                  },
+                  "1": {
+                    "vFiles": []
+                  },
+                  "2": {
+                    "vFiles": []
+                  },
+                  "3": {
+                    "vFiles": []
+                  },
+                  "4": {
+                    "vFiles": []
+                  },
+                  "5": {
+                    "vFiles": []
+                  },
+                  "6": {
+                    "vFiles": []
+                  },
+                  "7": {
+                    "vFiles": []
+                  },
+                  "8": {
+                    "vFiles": []
+                  },
+                  "9": {
+                    "vFiles": []
+                  },
+                  "10": {
+                    "vFiles": []
+                  },
+                  "11": {
+                    "vFiles": []
+                  },
+                  "12": {
+                    "vFiles": []
+                  },
+                  "13": {
+                    "vFiles": []
+                  },
+                  "14": {
+                    "vFiles": []
+                  },
+                  "15": {
+                    "vFiles": []
+                  }
+                },
+                "ePlayerId": "GUI",
+                "eLogicId": "DEFAULT",
+                "eAttCurve": "Logarithmic",
+                "ePositional": "POS_2D",
+                "iInstanceLimit": -1,
+                "fInBetweenTime": 0.0,
+                "fAttMaxRange": 30000.0,
+                "fAttMinRange": 5000.0,
+                "fVolume": 0.30000001192092896,
+                "fVolumeRange": 0.0,
+                "fPitch": 1.0,
+                "fPitchRange": 0.0,
+                "fPan": 0.0,
+                "fPanRange": 0.0,
+                "fFadeIn": 0.0,
+                "fFadeOut": 0.0,
+                "fEmptyPercentage": 0.0,
+                "fStartDelayed": 0.0,
+                "bLoop": false,
+                "bAttachToActor": true,
+                "bStpChgAnim": false,
+                "bStpEntDead": true,
+                "bManaged": true,
+                "bRumbleSync": false,
+                "fRumbleGainOverride": -1.0,
+                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimTime": 10.0,
+                "fDimFadeTime": 20.0,
+                "fDimRecoverTime": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

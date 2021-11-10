@@ -1,0 +1,20 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "open",
+    "vTargets": [
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/kraid/animations/attack_spinningnails_stage2-hit1_right.bcskla"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/kraid/animations/attack_spinningnails_stage2-hit1_right_open.bcskla"
+      }
+    ]
+  }
+}

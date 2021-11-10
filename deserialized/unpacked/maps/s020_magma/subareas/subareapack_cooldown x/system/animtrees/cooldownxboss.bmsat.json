@@ -1,0 +1,156 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "Mixer01",
+      "aNodes": [
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer01",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer02",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "WeakPoint_RightUp",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "DC_R01_FX",
+              "DC_R_Hand"
+            ],
+            "vBoneHierarchies": [
+              "R01_H_Axis"
+            ]
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer03",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "WeakPoint_RightDown",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "DC_R02_FX",
+              "DC_R_Foot"
+            ],
+            "vBoneHierarchies": [
+              "R02_H_Axis"
+            ]
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer04",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "WeakPoint_LeftUp",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "DC_L01_FX",
+              "DC_L_Hand"
+            ],
+            "vBoneHierarchies": [
+              "L01_H_Axis"
+            ]
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "WeakPoint_LeftDown",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "DC_L02_FX",
+              "DC_L_Foot"
+            ],
+            "vBoneHierarchies": [
+              "L02_H_Axis"
+            ]
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "Mixer02",
+          "pParent": "Mixer01"
+        },
+        {
+          "pNode": "Mixer03",
+          "pParent": "Mixer02"
+        },
+        {
+          "pNode": "Mixer04",
+          "pParent": "Mixer03"
+        },
+        {
+          "pNode": "FullBody",
+          "pParent": "Mixer04"
+        },
+        {
+          "pNode": "WeakPoint_LeftDown",
+          "pParent": "Mixer04"
+        },
+        {
+          "pNode": "WeakPoint_LeftUp",
+          "pParent": "Mixer03"
+        },
+        {
+          "pNode": "WeakPoint_RightDown",
+          "pParent": "Mixer02"
+        },
+        {
+          "pNode": "WeakPoint_RightUp",
+          "pParent": "Mixer01"
+        }
+      ]
+    }
+  }
+}

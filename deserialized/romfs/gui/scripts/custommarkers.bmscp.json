@@ -1,0 +1,379 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CCustomMarkersDialog",
+    "Data": {
+      "sID": "CustomMarkersDlg",
+      "CenterX": 0.0,
+      "CenterY": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "sChildToFocus": "BUTTONS",
+      "lstChildren": [
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "Background",
+            "CenterX": 0.0,
+            "TopY": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Autosize": false,
+            "SpriteSheetItem": "WhiteSquare",
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "ColorR": 0.0,
+            "ColorG": 0.0,
+            "ColorB": 0.0,
+            "ColorA": 0.4000000059604645
+          }
+        },
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "DialogBg",
+            "CenterX": 0.0,
+            "TopY": 0.10000000149011612,
+            "SizeX": 0.6000000238418579,
+            "SizeY": 0.33000001311302185,
+            "Autosize": false,
+            "SpriteSheetItem": "WhiteSquare",
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "ColorR": 1.0,
+            "ColorG": 0.20000000298023224,
+            "ColorB": 0.20000000298023224,
+            "ColorA": 1.0
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "Tittle",
+            "CenterX": 0.0,
+            "CenterY": -0.3499999940395355,
+            "Text": "#GUI_MAPMENU_CUSTOMMARKER_LABEL_HEADER",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "TextVerticalAlignment": "Centered"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "Close",
+            "LeftX": 0.20999999344348907,
+            "CenterY": -0.10000000149011612,
+            "Text": "#GUI_GENERAL_LABEL_BACK",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "TextVerticalAlignment": "Centered"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "Accept",
+            "RightX": 0.20999999344348907,
+            "CenterY": -0.10000000149011612,
+            "Text": "#GUI_GENERAL_LABEL_ACCEPT",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "TextVerticalAlignment": "Centered"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "RemoveAll",
+            "CenterX": 0.0,
+            "CenterY": -0.10000000149011612,
+            "Text": "#GUI_MAPMENU_CUSTOMMARKER_LABEL_REMOVEALL",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "TextVerticalAlignment": "Centered"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "MARKERS_LEFT",
+            "RightX": 0.20999999344348907,
+            "CenterY": -0.3499999940395355,
+            "Text": "10",
+            "Font": "digital_medium"
+          }
+        },
+        {
+          "Class": "GUI::CList",
+          "Data": {
+            "sID": "BUTTONS",
+            "CenterX": 0.0,
+            "Y": 0.18000000715255737,
+            "SizeX": 0.6000000238418579,
+            "SizeY": 0.18000000715255737,
+            "bDebugBehaviour": true,
+            "bVerticalLayout": false,
+            "lstChildren": [
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_REMOVE",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.029999999329447746,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Label",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05999999865889549,
+                        "SizeY": 0.05999999865889549,
+                        "Text": "#R",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Centered",
+                        "TextVerticalAlignment": "Centered"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_A",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.029999999329447746,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "ICON",
+                        "CenterX": 0.0,
+                        "CenterY": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.10000000149011612,
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_B",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05999999865889549,
+                        "SizeY": 0.05999999865889549,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "ICON",
+                        "CenterX": 0.0,
+                        "CenterY": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.10000000149011612,
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_C",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05999999865889549,
+                        "SizeY": 0.05999999865889549,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "ICON",
+                        "CenterX": 0.0,
+                        "CenterY": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.10000000149011612,
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_D",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05999999865889549,
+                        "SizeY": 0.05999999865889549,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "ICON",
+                        "CenterX": 0.0,
+                        "CenterY": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.10000000149011612,
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "sID": "MARKER_E",
+                  "bDebugBehaviour": true,
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "SizeX": 0.05999999865889549,
+                        "SizeY": 0.05999999865889549,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.5,
+                        "ColorG": 0.5,
+                        "ColorB": 0.5,
+                        "ColorA": 1.0
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "ICON",
+                        "CenterX": 0.0,
+                        "CenterY": 0.0,
+                        "SizeX": 0.05000000074505806,
+                        "SizeY": 0.10000000149011612,
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

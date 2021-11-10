@@ -1,0 +1,75 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backturn.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backdownupturn.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backdownturn.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backdowndownturn.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_downturn.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_frontdownturn.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_frontturn.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_frontupturn.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_upturn.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backupupturn.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backupturn.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backupdownturn.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot2relax_backturn.bcskla"
+      }
+    ]
+  }
+}

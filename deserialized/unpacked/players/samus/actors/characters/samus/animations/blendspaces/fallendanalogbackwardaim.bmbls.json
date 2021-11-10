@@ -1,0 +1,100 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardback.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwarddown.bcskla"
+      },
+      {
+        "fSample": -60.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfront.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardup.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackupup.bcskla"
+      },
+      {
+        "fSample": 115.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardback115.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardbackupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/fallendanalogbackwardback.bcskla"
+      }
+    ]
+  }
+}

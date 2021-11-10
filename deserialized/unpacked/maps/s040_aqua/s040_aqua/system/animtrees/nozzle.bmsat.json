@@ -1,0 +1,40 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "FullBody",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [
+        {
+          "Class": "animtree::CBoneControlDef",
+          "Data": {
+            "sName": "WaterSurface",
+            "sBone": "DC_WaterSurface",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": true,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0
+          }
+        }
+      ],
+      "aLinks": []
+    }
+  }
+}

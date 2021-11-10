@@ -1,0 +1,1517 @@
+{
+  "FileType": "CMinimapDef",
+  "Unk": 33554433,
+  "RealFileType": "CMinimapDef",
+  "Root": {
+    "sLabel": "",
+    "oOverlayMatLink": "material:system/minimap/icons/overlay.bsmat",
+    "oMinimapIconsMatLink": "material:system/minimap/icons/icons.bsmat",
+    "oIconsNoMipsMatLink": "material:system/minimap/icons/icons_nomips.bsmat",
+    "mapIconDefs": {
+      "Samus": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_SAMUS",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "Emmy": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_EMMY",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "ItemAdquired": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 10,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_ACQUIRED_ITEM",
+        "vAnchorOffset": [
+          0.0,
+          -0.800000011920929
+        ],
+        "bAutoScale": false
+      },
+      "CustomMarker": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_CUSTOM_MARKER",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "CustomMarkerBack": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "MarkerBorder": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": false
+      },
+      "MarkerBorderFrame": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": false
+      },
+      "CentralUnit": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "CentralUnit",
+        "sInspectorLabel": "#MAP_ICON_CENTRALUNIT",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "DoorPowerL": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "DoorPowerLockedL",
+        "sInspectorLabel": "#MAP_ICON_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorPowerR": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "DoorPowerLockedR",
+        "sInspectorLabel": "#MAP_ICON_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorPowerLockedL": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_DOOR_LOCKED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorPowerLockedR": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_DOOR_LOCKED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorFrame": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorFrame4x2": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "DoorFrameTrap": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "DoorFrameL": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorFrameR": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorClosedL": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DoorClosedL",
+        "sInspectorLabel": "#MAP_ICON_DOOR_CLOSED",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorClosedR": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DoorClosedR",
+        "sInspectorLabel": "#MAP_ICON_DOOR_CLOSED",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorOpenedL": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DoorOpenedL",
+        "sInspectorLabel": "#MAP_ICON_DOOR_OPEN",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorOpenedR": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DoorOpenedR",
+        "sInspectorLabel": "#MAP_ICON_DOOR_OPEN",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorChargeL": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "DoorChargeLockedL",
+        "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorChargeR": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "DoorChargeLockedR",
+        "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorChargeLockedL": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "DoorChargeLockedL",
+        "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR_LOCKED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorChargeLockedR": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "DoorChargeLockedL",
+        "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR_LOCKED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorGrappleL": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "DoorGrappleL",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorGrappleR": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "DoorGrappleR",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorWideL": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorWideR": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorPresenceL": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_PRESENCE_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorPresenceR": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 7,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_PRESENCE_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "PropFootstepPlatform": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_SHUTTER_PLATFORM",
+        "vAnchorOffset": [
+          0.0,
+          -0.800000011920929
+        ],
+        "bAutoScale": false
+      },
+      "DoorShutter": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "DoorShutter",
+        "sInspectorLabel": "#MAP_ICON_SHUTTER",
+        "sFemaleGenreLangs": "eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "PropHyperBeam": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_HYPER_BEAM_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          0.1599999964237213
+        ],
+        "bAutoScale": false
+      },
+      "PropMultiLockon": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_MULTI_LOCK_TRAPDOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "PropEmmyValve": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_EMMY_VALVE",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "DoorEmmyOpen": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "DoorEmmyClosed",
+        "sInspectorLabel": "#MAP_ICON_EMMY_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "DoorEmmyClosed": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "DoorEmmyClosed",
+        "sInspectorLabel": "#MAP_ICON_EMMY_DOOR_CLOSED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "DoorCentralUnit": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DoorCentralUnit",
+        "sInspectorLabel": "#MAP_ICON_CENTRALUNIT_DOOR",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageMissileL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "BlockageDisabledL",
+        "sInspectorLabel": "#MAP_ICON_MISSILE_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageMissileR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 7,
+        "sDisabledIconId": "BlockageDisabledR",
+        "sInspectorLabel": "#MAP_ICON_MISSILE_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageSuperMissileL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "BlockageDisabledL",
+        "sInspectorLabel": "#MAP_ICON_SUPER_MISSILE_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageSuperMissileR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "BlockageDisabledR",
+        "sInspectorLabel": "#MAP_ICON_SUPER_MISSILE_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockagePlasmaL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "BlockageDisabledL",
+        "sInspectorLabel": "#MAP_ICON_PLASMA_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockagePlasmaR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "BlockageDisabledR",
+        "sInspectorLabel": "#MAP_ICON_PLASMA_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageWaveL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "BlockageDisabledL",
+        "sInspectorLabel": "#MAP_ICON_WAVE_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageWaveR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "BlockageDisabledR",
+        "sInspectorLabel": "#MAP_ICON_WAVE_BEAM_BLOCKAGE",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.800000011920929,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "DoorThermalOpen": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "DoorThermalClosed",
+        "sInspectorLabel": "#MAP_ICON_THERMAL_DOOR_OPEN",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it,eu_ru",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "DoorThermalClosed": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_THERMAL_DOOR_CLOSED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it,eu_ru",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "DoorThermalTrapOpen": {
+        "uSpriteRow": 1,
+        "uSpriteCol": 10,
+        "sDisabledIconId": "DoorThermalTrapClosed",
+        "sInspectorLabel": "#MAP_ICON_THERMAL_TRAP_OPEN",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "DoorThermalTrapClosed": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 10,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_THERMAL_TRAP_CLOSED",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "PropGrappleBlockL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BLOCK",
+        "vAnchorOffset": [
+          0.20000000298023224,
+          -0.800000011920929
+        ],
+        "bAutoScale": false
+      },
+      "PropGrappleBlockR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BLOCK",
+        "vAnchorOffset": [
+          -0.20000000298023224,
+          -0.800000011920929
+        ],
+        "bAutoScale": false
+      },
+      "PropGrappleBoxL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 10,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BOX",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "PropGrappleBoxR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BOX",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "PropWideBeamBoxL": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BOX",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "PropWideBeamBoxR": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BOX",
+        "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
+        "vAnchorOffset": [
+          0.0,
+          -0.20000000298023224
+        ],
+        "bAutoScale": false
+      },
+      "PropMorphTunnelEntry": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_MORPHBALL_LAUNCHER",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "PropMorphTunnelExit": {
+        "uSpriteRow": 3,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_MORPHBALL_LAUNCHER_EXIT",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "ItemSphere": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "ItemSphereAdquired",
+        "sInspectorLabel": "#MAP_ICON_ITEM_SPHERE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "ItemCube": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "ItemCubeAdquired",
+        "sInspectorLabel": "#MAP_ICON_ITEM_CUBE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "ItemSphereAdquired": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_ITEM_SPHERE_ACQUIRED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "ItemCubeAdquired": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_ITEM_CUBE_ACQUIRED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "ItemEnergyTank": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_ENERGY_TANK",
+        "sFemaleGenreLangs": "eu_fr,us_fr",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "ItemEnergyFragment": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_ENERGY_FRAGMENT",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "ItemMissileTank": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 7,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_MISSILE_TANK",
+        "sFemaleGenreLangs": "eu_fr,us_fr",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "ItemMissileTankPlus": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_MISSILE_TANK_PLUS",
+        "sFemaleGenreLangs": "eu_fr,us_fr",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "ItemPowerbombExpansion": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "ItemAdquired",
+        "sInspectorLabel": "#MAP_ICON_POWERBOMB_TANK",
+        "sFemaleGenreLangs": "eu_fr,us_fr",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "BlockageDisabledL": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCKAGE_DISABLED",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          -0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "BlockageDisabledR": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCKAGE_DISABLED",
+        "sFemaleGenreLangs": "eu_sp,us_sp",
+        "vAnchorOffset": [
+          0.3100000023841858,
+          -0.4000000059604645
+        ],
+        "bAutoScale": false
+      },
+      "UsableStationEnergy": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "DisabledStationEnergy",
+        "sInspectorLabel": "#MAP_ICON_ENERGY_STATION",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": false
+      },
+      "DisabledStationEnergy": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 13,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_ENERGY_STATION_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsableStationAmmo": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "DisabledStationAmmo",
+        "sInspectorLabel": "#MAP_ICON_AMMO_STATION",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": false
+      },
+      "DisabledStationAmmo": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 14,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_AMMO_STATION_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsableStationTotal": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "DisabledStationTotal",
+        "sInspectorLabel": "#MAP_ICON_TOTAL_RECHARGE_STATION",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": false
+      },
+      "DisabledStationTotal": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_TOTAL_RECHARGE_STATION_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsableWaterValve": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_INTERACTIVE_DEVICE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsableThermalDevice": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_INTERACTIVE_DEVICE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsablePowerGenerator": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_INTERACTIVE_DEVICE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "PropTurbineActivator": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_INTERACTIVE_DEVICE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "DisabledTeleport": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true
+      },
+      "UsableTeleportA": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_A",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportE": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 7,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_E",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportI": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_I",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportO": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 9,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_O",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportU": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 10,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_U",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportX": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_X",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportY": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 6,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_Y",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTeleportZ": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "DisabledTeleport",
+        "sInspectorLabel": "#MAP_ICON_TELEPORT_STATION_Z",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true,
+        "bFullZoomScale": true
+      },
+      "UsableTrain": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_RAILWAY",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "UsableElevator": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "DisabledElevator",
+        "sInspectorLabel": "#MAP_ICON_ELEVATOR",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "DisabledElevator": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_ELEVATOR_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "UsableStationSave": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "DisabledStationSave",
+        "sInspectorLabel": "#MAP_ICON_SAVE_ROOM",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "DisabledStationSave": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_SAVE_ROOM_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "UsableStationMap": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "DisabledStationMap",
+        "sInspectorLabel": "#MAP_ICON_MAP_ROOM",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "DisabledStationMap": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 4,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_MAP_ROOM_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "UsableAccessPoint": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "DisabledAccessPoint",
+        "sInspectorLabel": "#MAP_ICON_ACCESS_POINT",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "DisabledAccessPoint": {
+        "uSpriteRow": 4,
+        "uSpriteCol": 5,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_ACCESS_POINT_DISABLED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "UsableTransport": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_TRANSPORT_CAPSULE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "Gunship": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 7,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GUNSHIP",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true,
+        "bIsGlobal": true
+      },
+      "SamusGlow": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 1,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "Glow": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 11,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true
+      },
+      "HyperBeamGlow": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 8,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.1599999964237213
+        ],
+        "bAutoScale": false
+      },
+      "PropZipline": {
+        "uSpriteRow": 6,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": false
+      },
+      "PropSwingPoint": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_POINT",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "PropWarlotus": {
+        "uSpriteRow": 2,
+        "uSpriteCol": 12,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_WAR_LOTUS",
+        "vAnchorOffset": [
+          0.0,
+          -0.30000001192092896
+        ],
+        "bAutoScale": false
+      },
+      "Boss": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "BossDefeated",
+        "sInspectorLabel": "#MAP_ICON_BOSS",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true
+      },
+      "BossDefeated": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 2,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BOSS_DEFEATED",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bIsGlobal": true
+      },
+      "HighlightFrame": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "o9PatchConfig": {
+          "fBorderT": 0.25,
+          "fBorderD": 0.25,
+          "fBorderL": 0.25,
+          "fBorderR": 0.25
+        }
+      },
+      "HighlightFrameFull": {
+        "uSpriteRow": 5,
+        "uSpriteCol": 3,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": true,
+        "bFullZoomScale": true,
+        "o9PatchConfig": {
+          "fBorderT": 0.25,
+          "fBorderD": 0.25,
+          "fBorderL": 0.25,
+          "fBorderR": 0.25
+        }
+      },
+      "TilePowerbeam": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_BEAM",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileBomb": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_BOMB",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileMissile": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_MISSILE",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileSupermissile": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_SUPERMISSILE",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TilePowerbomb": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_POWERBOMB",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileScrewattack": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_SCREW",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileWeight": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_PITFALL",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "TileSpeedboost": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 15,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_BLOCK_SPEED",
+        "vAnchorOffset": [
+          0.0,
+          -1.0
+        ],
+        "bAutoScale": false
+      },
+      "MagnetSurface": {
+        "uSpriteRow": 0,
+        "uSpriteCol": 0,
+        "sDisabledIconId": "",
+        "sInspectorLabel": "#MAP_ICON_MAGNET_SURFACE",
+        "vAnchorOffset": [
+          0.0,
+          0.0
+        ],
+        "bAutoScale": false
+      }
+    },
+    "mapLabelDefs": {
+      "s010_cave": {
+        "vPos": [
+          5.0,
+          780.0
+        ],
+        "vSize": [
+          385.0,
+          100.0
+        ]
+      },
+      "s020_magma": {
+        "vPos": [
+          420.0,
+          780.0
+        ],
+        "vSize": [
+          370.0,
+          100.0
+        ]
+      },
+      "s030_baselab": {
+        "vPos": [
+          828.0,
+          780.0
+        ],
+        "vSize": [
+          330.0,
+          100.0
+        ]
+      },
+      "s040_aqua": {
+        "vPos": [
+          1200.0,
+          780.0
+        ],
+        "vSize": [
+          385.0,
+          100.0
+        ]
+      },
+      "s070_basesanc": {
+        "vPos": [
+          1620.0,
+          780.0
+        ],
+        "vSize": [
+          355.0,
+          100.0
+        ]
+      },
+      "s050_forest": {
+        "vPos": [
+          10.0,
+          910.0
+        ],
+        "vSize": [
+          475.0,
+          100.0
+        ]
+      },
+      "s060_quarantine": {
+        "vPos": [
+          525.0,
+          910.0
+        ],
+        "vSize": [
+          210.0,
+          100.0
+        ]
+      },
+      "s080_shipyard": {
+        "vPos": [
+          780.0,
+          910.0
+        ],
+        "vSize": [
+          400.0,
+          100.0
+        ]
+      },
+      "s090_skybase": {
+        "vPos": [
+          1210.0,
+          910.0
+        ],
+        "vSize": [
+          385.0,
+          100.0
+        ]
+      }
+    }
+  }
+}

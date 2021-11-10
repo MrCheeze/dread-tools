@@ -1,0 +1,1103 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0108fallofskybase",
+    "sActionSet": "cutscenes/0108fallofskybase/0108fallofskybase.bmsas",
+    "vWorldOffset": [
+      5100.0,
+      2000.0,
+      8.928199768066406
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 33,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 10,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 33,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 34,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 17,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 33,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "7",
+        "iFrames": 7,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/7.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "8",
+        "iFrames": 7,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/8.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "9",
+        "iFrames": 2,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/9.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "10",
+        "iFrames": 42,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/10.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "11",
+        "iFrames": 20,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/11.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "12",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/12.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "13",
+        "iFrames": 55,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/13.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "14",
+        "iFrames": 45,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/14.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "15",
+        "iFrames": 134,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/15.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "16",
+        "iFrames": 183,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/16.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "17",
+        "iFrames": 175,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/17.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "18",
+        "iFrames": 39,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/18.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "19",
+        "iFrames": 63,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/19.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "20",
+        "iFrames": 111,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/20.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "21",
+        "iFrames": 33,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/21.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "22",
+        "iFrames": 40,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/22.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "23",
+        "iFrames": 77,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/23.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "24",
+        "iFrames": 29,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/24.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "25",
+        "iFrames": 83,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/25.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "26",
+        "iFrames": 134,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/26.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "27",
+        "iFrames": 146,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/27.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "28",
+        "iFrames": 91,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/28.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "29",
+        "iFrames": 66,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/29.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "30",
+        "iFrames": 24,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/30.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "31",
+        "iFrames": 99,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/31.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "32",
+        "iFrames": 164,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/32.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "33",
+        "iFrames": 50,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/33.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "34",
+        "iFrames": 329,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/34.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "35",
+        "iFrames": 59,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/35.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "36",
+        "iFrames": 28,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/36.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "37",
+        "iFrames": 35,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/37.bccam",
+        "sOnStart": "s090_skybase.ObtainHyperSuit",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "38",
+        "iFrames": 16,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/38.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "39",
+        "iFrames": 81,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/39.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "40",
+        "iFrames": 108,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/40.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "41",
+        "iFrames": 23,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/41.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "42",
+        "iFrames": 72,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/42.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "43",
+        "iFrames": 145,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/43.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "44",
+        "iFrames": 68,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/44.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "45",
+        "iFrames": 45,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/45.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "46",
+        "iFrames": 60,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/46.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "47",
+        "iFrames": 45,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/47.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "48",
+        "iFrames": 49,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/48.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "49",
+        "iFrames": 270,
+        "sCamera": "cutscenes/0108fallofskybase/cameras/49.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0108fallofskybase_chozocommander",
+        "sCharClass": "actors/cutscene/chozo_commander.bmsad",
+        "sInGameEntityId": "SP_ChozoCommander",
+        "bInGameEntityVisibleOnEnd": false,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0108fallofskybase/actors/samus/lights.bldef"
+      },
+      {
+        "sId": "0108fallofskybase_chozocommander_arm",
+        "sCharClass": "actors/cutscene/chozocommander_arm_skybase.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_samus_face",
+        "sCharClass": "actors/cutscene/samus_facial.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_chozocommander_face",
+        "sCharClass": "actors/cutscene/chozo_commanderface.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_skybaseclouds_b",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/skybaseclouds_b/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_shipyardrock01",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/shipyardrock01/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_shipyardrock02",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/shipyardrock02/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_shipyardrock03",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/shipyardrock03/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_shipyardrock06",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/shipyardrock06/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_shipyardrock07",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/shipyardrock07/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_skybase",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/skybase/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0108fallofskybase_skybaseclouds",
+        "sCharClass": "cutscenes/0108fallofskybase/actors/skybaseclouds/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_armray.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_ray.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_circle.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/hyperdash_trail.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_sparksend.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_backray02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_dash_backray.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/shootinggrab_zerolaser_burst.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/shootinggrab_zerolaser.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/shootinggrab_zerolaser_loopburst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d_end.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/ultimategrab_claw_seq1.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/ultimategrab_claw_end_seq1.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/ultimategrab_impact.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camera_shatloop_pink.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0043emmymetroidnization/fx/sparks_detail_metroidnization.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/metroinization_emmy.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_hand_energyair.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/dissolvedots.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/dissolveenergygauntlet.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_hand_particles.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/voidcharge_highintensity.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_handrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/energytosamus_hand.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/energytosamus_helix.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_handrays_disperse.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/specialrocket/fx/specialrocket_cameradistortion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camera_verticallines.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/wavebeamimpact_cine.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_smoke_jump.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_smoke_up.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_drift.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_cannon_hit.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/smokestomp01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_engine.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_engine_strong.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_engine_strong_end.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/energytosamus.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/voidcharge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_sparksabsorb.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_energyabsorb.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/handragetrail.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/minifight_variation.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/minifight_variation_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/minifight_variation_loop_low.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_footrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_raysabsorb.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/samus_floorrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camerafog_burstpreload.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camerafog_burstpreload_soft.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camerafog_burstpreloadfar.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/camerafog_far.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/cloudscrossloop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/clouds_cross.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/skybasewind.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/glowcentral.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/skybasetrails.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/minifight_glow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/energytobase.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/aura_rays_radial.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0108fallofskybase/fx/raystobase.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "maps/fx/lightningstroke/lightningstroke.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "maps/fx/lightningstroke/lightningstroke9.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "maps/fx/lightningstroke/lightningstroke2.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "maps/fx/lightningstroke/lightningstroke3.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "maps/fx/lightningstroke/lightningstroke6.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

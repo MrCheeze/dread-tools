@@ -1,0 +1,342 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "SAMUSICON_ANIM": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/samusicon_anim.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 512,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON1_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.2265625
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON2_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.150390625,
+                      0.2265625
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON3_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.30078125,
+                      0.2265625
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON4_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.451171875,
+                      0.2265625
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON5_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6015625,
+                      0.2265625
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON6_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON7_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.150390625,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON8_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.30078125,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON9_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.451171875,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON10_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6015625,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON1",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.150390625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.30078125,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON4",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.451171875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON5",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6015625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON6",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.453125
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON7",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.150390625,
+                      0.453125
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON8",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.30078125,
+                      0.453125
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON9",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.451171875,
+                      0.453125
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON10",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6015625,
+                      0.453125
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.2265625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

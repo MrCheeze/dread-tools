@@ -1,0 +1,507 @@
+{
+  "FileType": "CEnvironmentMusicPresets",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pMusicPresets": {
+          "Class": "CEnvironmentMusicPresets",
+          "Data": {
+            "dicPresets": {
+              "s_shipyard_001": {
+                "sID": "s_shipyard_001",
+                "tPreset": {
+                  "sAlias": "s_shipyard_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_shipyard_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_emmy_defeated": {
+                "sID": "s_emmy_defeated",
+                "tPreset": {
+                  "sAlias": "s_emmy_defeated",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Emmy_Defeated_Shipyard.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_boss_defeated": {
+                "sID": "s_boss_defeated",
+                "tPreset": {
+                  "sAlias": "s_boss_defeated",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_boss_defeated.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_escape": {
+                "sID": "s_escape",
+                "tPreset": {
+                  "sAlias": "s_escape",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_escape.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 0.10000000149011612,
+                      "fFadeOut": 0.10000000149011612,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_commander_x": {
+                "sID": "s_commander_x",
+                "tPreset": {
+                  "sAlias": "s_commander_x",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Boss_Commander_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "0043emmymetroidnization_chase": {
+                "sID": "0043emmymetroidnization_chase",
+                "tPreset": {
+                  "sAlias": "0043emmymetroidnization_chase",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_emmy_chase.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "None",
+                "tMusicTransitions": []
+              },
+              "s_boss_commander_x_001": {
+                "sID": "s_boss_commander_x_001",
+                "tPreset": {
+                  "sAlias": "s_boss_commander_x_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_boss_commander_x_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "tMusicTransitions": []
+              },
+              "s_boss_commander_x_002": {
+                "sID": "s_boss_commander_x_002",
+                "tPreset": {
+                  "sAlias": "s_boss_commander_x_002",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_boss_commander_x_002.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "tMusicTransitions": []
+              },
+              "s_strong_reaction": {
+                "sID": "s_strong_reaction",
+                "tPreset": {
+                  "sAlias": "s_strong_reaction",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_StrongReaction.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "tMusicTransitions": []
+              },
+              "S_Power_Bomb": {
+                "sID": "S_Power_Bomb",
+                "tPreset": {
+                  "sAlias": "S_Power_Bomb",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Power_Bomb.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "tMusicTransitions": []
+              }
+            },
+            "dicBossPresets": {
+              "chozowarriornormal": {
+                "sBoss": "chozowarriornormal",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "chozowarriorxnormal": {
+                "sBoss": "chozowarriorxnormal",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 0.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "chozowarriorelite": {
+                "sBoss": "chozowarriorelite",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "chozowarriorxelite": {
+                "sBoss": "chozowarriorxelite",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 0.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Mid_ChozoWarrior-X_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 1.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 2.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

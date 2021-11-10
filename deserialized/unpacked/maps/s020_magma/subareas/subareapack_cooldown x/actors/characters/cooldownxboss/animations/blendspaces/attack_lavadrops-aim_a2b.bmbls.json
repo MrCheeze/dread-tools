@@ -1,0 +1,25 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "hFactor",
+    "vTargets": [
+      {
+        "fSample": -1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/blendspaces/attack_lavadrops-aim_left_a2b.bmbls"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/blendspaces/attack_lavadrops-aim_front_a2b.bmbls"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/blendspaces/attack_lavadrops-aim_right_a2b.bmbls"
+      }
+    ]
+  }
+}

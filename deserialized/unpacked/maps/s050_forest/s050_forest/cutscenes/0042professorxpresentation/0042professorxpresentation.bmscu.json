@@ -1,0 +1,214 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0042professorxpresentation",
+    "sActionSet": "cutscenes/0042professorxpresentation/0042professorxpresentation.bmsas",
+    "vWorldOffset": [
+      -6305.0,
+      -6511.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "CurrentScenario.AddForestEmmyToMissionLog",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 673,
+        "sCamera": "cutscenes/0042professorxpresentation/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 125,
+        "sCamera": "cutscenes/0042professorxpresentation/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 95,
+        "sCamera": "cutscenes/0042professorxpresentation/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 162,
+        "sCamera": "cutscenes/0042professorxpresentation/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 315,
+        "sCamera": "cutscenes/0042professorxpresentation/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0042professorxpresentation_xparasite",
+        "sCharClass": "actors/cutscene/xparasite_cut.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0042professorxpresentation_cut_37_wall01subchar",
+        "sCharClass": "cutscenes/0042professorxpresentation/actors/cut_37_wall01subchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0042professorxpresentation_emmy",
+        "sCharClass": "actors/cutscene/emmy_forest.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": true,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0042professorxpresentation_cut_professorpanel",
+        "sCharClass": "cutscenes/0042professorxpresentation/actors/cut_professorpanel/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0042professorxpresentation_autool_cut",
+        "sCharClass": "cutscenes/0042professorxpresentation/actors/autool_cut/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0042professorxpresentation_chozoprofessor",
+        "sCharClass": "actors/cutscene/chozo_chozoprofessor_cut.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0042professorxpresentation/actors/chozoprofessor/lights.bldef"
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0042professorxpresentation/fx/autool_engine.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0042professorxpresentation/fx/ice_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/clawimpact.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0042professorxpresentation/fx/ice_death.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0042professorxpresentation/fx/camera_glow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part1/fx/uipanel_click.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0038magmaemmypresentation/fx/emmycone.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

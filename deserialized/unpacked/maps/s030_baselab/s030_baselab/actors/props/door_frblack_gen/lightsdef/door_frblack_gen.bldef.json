@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#door_frblack_gen#lightsdef#door_frblack_gen": {
+            "sPath": "actors#props#door_frblack_gen#lightsdef#door_frblack_gen",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "door_frblack_01",
+                "sNode": "",
+                "vPosOffset": [
+                  0.0,
+                  150.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  50.0,
+                  100.0,
+                  50.0,
+                  90.0
+                ],
+                "fIntensity": 40.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

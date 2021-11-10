@@ -1,0 +1,35 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "SkipCinematicComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "MessageLabel",
+            "X": 0.0,
+            "Y": 0.09027799963951111,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.949999988079071,
+            "SizeY": 0.024235999211668968,
+            "Enabled": true,
+            "Text": "#GUI_SKIP_CINEMATIC",
+            "Font": "digital_medium",
+            "TextAlignment": "Right",
+            "Autosize": false,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        }
+      ]
+    }
+  }
+}

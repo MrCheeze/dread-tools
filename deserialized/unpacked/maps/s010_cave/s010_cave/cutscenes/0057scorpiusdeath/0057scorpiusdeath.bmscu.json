@@ -1,0 +1,250 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0057scorpiusdeath",
+    "sActionSet": "cutscenes/0057scorpiusdeath/0057scorpiusdeath.bmsas",
+    "vWorldOffset": [
+      19143.0,
+      -574.2999877929688,
+      -830.7000122070312
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "s010_cave.OnCutscene0057Ended",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 1289,
+        "sCamera": "cutscenes/0057scorpiusdeath/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0057scorpiusdeath_scostatuertop_cut57",
+        "sCharClass": "cutscenes/0057scorpiusdeath/actors/scostatuertop_cut57/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0057scorpiusdeath_cut_57_statuebrokensubchar",
+        "sCharClass": "cutscenes/0057scorpiusdeath/actors/cut_57_statuebrokensubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0057scorpiusdeath_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "relaxshot",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0057scorpiusdeath/actors/samus/lights.bldef"
+      },
+      {
+        "sId": "0057scorpiusdeath_itemcube_broken",
+        "sCharClass": "cutscenes/0057scorpiusdeath/actors/itemcube_broken/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0057scorpiusdeath_scorpius",
+        "sCharClass": "actors/cutscene/scorpius.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0057scorpiusdeath/actors/scorpius/lights.bldef"
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/dust_statue_01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/dust_statue_02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/dust_statue_00.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/dust_statue_03.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/glowfake_ic.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0033sonarobtention/fx/rays_cube.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/rays_cube_scorpius.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/chargebeam_long_nodist.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/chargeloop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/muzzle_3d.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_burst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/energy_init_ic_yellow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/energycenter_ic_yellow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0033sonarobtention/fx/energy_center.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0033sonarobtention/fx/flames_ic.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/handfresnel_scorpius.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0033sonarobtention/fx/trails_energy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0033sonarobtention/fx/absortion_energy_hand.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/energyend_hand_ic_yellow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/sparks_arm_yellow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/scorpius/fx/slime_scorpius.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "actors/characters/scorpius/fx/splash_feet.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 10
+        },
+        {
+          "sFile": "actors/weapons/powerbeam/fx/explosioncharge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/dustdissolve.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/ashesparticles4_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0057scorpiusdeath/fx/ashesparticles3_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

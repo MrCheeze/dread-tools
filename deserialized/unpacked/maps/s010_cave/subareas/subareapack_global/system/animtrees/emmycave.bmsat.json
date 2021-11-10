@@ -1,0 +1,86 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "emmycave",
+      "sRootNode": "HeadProtectorMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "HeadProtectorMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "HeadProtector",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "L01_Head_Bk_Plates3_0_SKN",
+              "L01_Head_Bk_Plates3_1_SKN",
+              "L01_Head_Bk_Plates3_2_SKN",
+              "L01_Head_Fr_Plates3_0_SKN",
+              "L01_Head_Fr_Plates3_1_SKN",
+              "L01_Head_Fr_Plates3_2_SKN",
+              "R01_Head_Bk_Plates3_0_SKN",
+              "R01_Head_Bk_Plates3_1_SKN",
+              "R01_Head_Bk_Plates3_2_SKN",
+              "R01_Head_Fr_Plates3_0_SKN",
+              "R01_Head_Fr_Plates3_1_SKN",
+              "R01_Head_Fr_Plates3_2_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [
+        {
+          "Class": "animtree::CLookAtPosControlDef",
+          "Data": {
+            "sName": "neck",
+            "sBone": "C01_Head_SKN",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": false,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0,
+            "eLookAxis": "X",
+            "eUpAxis": "Y",
+            "fMinAttAngle": 0.0,
+            "fMaxAttAngle": 0.0,
+            "fWorldOffsetAngZ": 0.0
+          }
+        }
+      ],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "HeadProtectorMixer"
+        },
+        {
+          "pNode": "HeadProtector",
+          "pParent": "HeadProtectorMixer"
+        }
+      ]
+    }
+  }
+}

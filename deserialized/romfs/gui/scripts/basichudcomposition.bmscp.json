@@ -1,0 +1,520 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CHUD",
+    "Data": {
+      "sID": "BasicHUDComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LifeLabel",
+            "X": 0.037108998745679855,
+            "Y": 0.07534699887037277,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.1171879991889,
+            "SizeY": 0.024235999211668968,
+            "ColorR": 0.5699999928474426,
+            "ColorG": 0.4399999976158142,
+            "ColorB": 0.8500000238418579,
+            "ColorA": 1.0,
+            "Enabled": true,
+            "Text": "",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true
+          }
+        },
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "X": -0.20925800502300262,
+            "Y": 0.10833299905061722,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.125,
+            "SizeY": 0.03472200036048889,
+            "sID": "SpecialEnergyComposition",
+            "lstChildren": [
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "SpecialEnergyBkgSprite",
+                  "X": 0.24636699259281158,
+                  "Y": 0.06645800173282623,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.12499800324440002,
+                  "SizeY": 0.03472200036048889,
+                  "Enabled": true,
+                  "Autosize": false,
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "SpriteSheetItem": "global/WhiteSquare"
+                }
+              },
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "SpecialEnergySprite",
+                  "X": 0.2502729892730713,
+                  "Y": 0.06993100047111511,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.1171879991889,
+                  "SizeY": 0.02777699939906597,
+                  "ColorR": 0.5,
+                  "ColorG": 0.5,
+                  "ColorB": 1.0,
+                  "ColorA": 1.0,
+                  "Enabled": true,
+                  "Autosize": false,
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "SpriteSheetItem": "global/WhiteSquare"
+                }
+              },
+              {
+                "Class": "GUI::CDisplayObjectContainer",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.0039059999398887157,
+                  "SizeY": 0.030556000769138336,
+                  "sID": "SEBarsComposition",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialRocketSpriteA",
+                        "X": 0.24804699420928955,
+                        "Y": 0.06861100345849991,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.0039049999322742224,
+                        "SizeY": 0.030556000769138336,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialRocketSpriteE",
+                        "X": 0.36523398756980896,
+                        "Y": 0.06819400191307068,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.0039049999322742224,
+                        "SizeY": 0.030556000769138336,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CDisplayObjectContainer",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.007813000120222569,
+                  "SizeY": 0.02777799963951111,
+                  "sID": "SEInnerBarsComposition",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialEnergySpriteC",
+                        "X": 0.30531200766563416,
+                        "Y": 0.0697219967842102,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.007813000120222569,
+                        "SizeY": 0.02777699939906597,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialEnergySpriteB",
+                        "X": 0.27679699659347534,
+                        "Y": 0.0697219967842102,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.007813000120222569,
+                        "SizeY": 0.02777699939906597,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialEnergySpriteD",
+                        "X": 0.3348439931869507,
+                        "Y": 0.0697219967842102,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.007813000120222569,
+                        "SizeY": 0.02777699939906597,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "MissileLabel",
+            "X": 0.037108998745679855,
+            "Y": 0.11229199916124344,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.1171879991889,
+            "SizeY": 0.024235999211668968,
+            "ColorR": 0.0,
+            "ColorG": 1.0,
+            "ColorB": 0.0,
+            "ColorA": 1.0,
+            "Enabled": true,
+            "Text": "",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true
+          }
+        },
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "X": 0.2852340042591095,
+            "Y": 0.28673601150512695,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.4450390040874481,
+            "SizeY": 0.4098609983921051,
+            "sSkinName": "MessageComposition",
+            "sID": "MessageComposition",
+            "lstChildren": [
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "MessageBackground",
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.4450500011444092,
+                  "SizeY": 0.4098849892616272,
+                  "Enabled": true,
+                  "Autosize": true,
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "SpriteSheetItem": "global/WhiteSquare"
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "MessageText",
+                  "X": 0.020038999617099762,
+                  "Y": 0.04937500134110451,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.4033749997615814,
+                  "SizeY": 0.22841399908065796,
+                  "ColorR": 0.0,
+                  "ColorG": 0.0,
+                  "ColorB": 0.0,
+                  "ColorA": 1.0,
+                  "Enabled": true,
+                  "Text": "",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": true,
+                  "BlinkColorR": 1.0,
+                  "BlinkColorG": 1.0,
+                  "BlinkColorB": 1.0,
+                  "Blink": -1.0,
+                  "MaxTextWidth": 0.800000011920929
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "PressAText",
+                  "X": 0.14917999505996704,
+                  "Y": 0.3211809992790222,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.1510619968175888,
+                  "SizeY": 0.0243539996445179,
+                  "Enabled": true,
+                  "Text": "Press A",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": true,
+                  "BlinkColorR": 0.5,
+                  "BlinkColorG": 0.5,
+                  "BlinkColorB": 0.5,
+                  "BlinkColorA": 1.0,
+                  "Blink": 0.5
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "Option1Text",
+                  "X": 0.04503900185227394,
+                  "Y": 0.3211809992790222,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.1510619968175888,
+                  "SizeY": 0.0243539996445179,
+                  "Enabled": true,
+                  "Text": "Option 1",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": true,
+                  "ColorR": 0.0,
+                  "ColorG": 0.0,
+                  "ColorB": 1.0,
+                  "ColorA": 1.0
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "Option2Text",
+                  "X": 0.2535940110683441,
+                  "Y": 0.3211809992790222,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.1510619968175888,
+                  "SizeY": 0.0243539996445179,
+                  "Enabled": true,
+                  "Text": "Option 2",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": true,
+                  "ColorR": 1.0,
+                  "ColorG": 0.0,
+                  "ColorB": 0.0,
+                  "ColorA": 1.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "X": 0.09937500208616257,
+            "Y": 0.05965299904346466,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.125,
+            "SizeY": 0.03472200036048889,
+            "sID": "SpecialRocketComposition",
+            "lstChildren": [
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "SpecialRocketBkgSprite",
+                  "X": 0.24636699259281158,
+                  "Y": 0.06645800173282623,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.12499800324440002,
+                  "SizeY": 0.03472200036048889,
+                  "Enabled": true,
+                  "Autosize": false,
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "SpriteSheetItem": "global/WhiteSquare"
+                }
+              },
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "SpecialRocketSprite",
+                  "X": 0.2502729892730713,
+                  "Y": 0.06993100047111511,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.1171879991889,
+                  "SizeY": 0.02777699939906597,
+                  "ColorR": 1.0,
+                  "ColorG": 0.0,
+                  "ColorB": 0.0,
+                  "ColorA": 1.0,
+                  "Enabled": true,
+                  "Autosize": false,
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "SpriteSheetItem": "global/WhiteSquare"
+                }
+              },
+              {
+                "Class": "GUI::CDisplayObjectContainer",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "sID": "SEBarsComposition",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialRocketSpriteA",
+                        "X": 0.24804699420928955,
+                        "Y": 0.06861100345849991,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.0039049999322742224,
+                        "SizeY": 0.030556000769138336,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "SpecialRocketSpriteE",
+                        "X": 0.36523398756980896,
+                        "Y": 0.06819400191307068,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.0039049999322742224,
+                        "SizeY": 0.030556000769138336,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "SpriteSheetItem": "global/WhiteSquare"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "PSBLabel",
+            "X": 0.2788670063018799,
+            "Y": 0.07534699887037277,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.06250599771738052,
+            "SizeY": 0.024235999211668968,
+            "ColorR": 0.5,
+            "ColorG": 0.5,
+            "ColorB": 0.5,
+            "ColorA": 1.0,
+            "Enabled": true,
+            "Text": "PSB",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "PSRLabel",
+            "X": 0.2788670063018799,
+            "Y": 0.1261110007762909,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.06250599771738052,
+            "SizeY": 0.024235999211668968,
+            "ColorR": 0.5,
+            "ColorG": 0.5,
+            "ColorB": 0.5,
+            "ColorA": 1.0,
+            "Enabled": true,
+            "Text": "PSR",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true
+          }
+        }
+      ]
+    }
+  }
+}

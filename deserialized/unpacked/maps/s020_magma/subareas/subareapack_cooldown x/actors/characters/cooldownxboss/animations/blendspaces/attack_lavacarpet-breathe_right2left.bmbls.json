@@ -1,0 +1,55 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "frame",
+    "vTargets": [
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_38.bcskla"
+      },
+      {
+        "fSample": 38.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_38.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_45.bcskla"
+      },
+      {
+        "fSample": 50.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_50.bcskla"
+      },
+      {
+        "fSample": 57.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_57.bcskla"
+      },
+      {
+        "fSample": 67.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_67.bcskla"
+      },
+      {
+        "fSample": 82.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_82.bcskla"
+      },
+      {
+        "fSample": 95.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_95.bcskla"
+      },
+      {
+        "fSample": 100.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/cooldownxboss/animations/attack_lavacarpet-breathe_right2left_95.bcskla"
+      }
+    ]
+  }
+}

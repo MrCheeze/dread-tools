@@ -1,0 +1,78 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "companynamecomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "Enabled": true,
+      "Visible": true,
+      "sSkinName": "companynamecomposition",
+      "sChildToFocus": "",
+      "lstChildren": [
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "Background",
+            "X": 0.0,
+            "Y": 0.0,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "Autosize": false,
+            "SpriteSheetItem": "WhiteSquare",
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "ColorR": 1.0,
+            "ColorG": 1.0,
+            "ColorB": 1.0,
+            "ColorA": 1.0,
+            "FlipX": false,
+            "FlipY": false
+          }
+        },
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "CompanyLogo",
+            "X": -0.328125,
+            "Y": -0.17222219705581665,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.6399999856948853,
+            "SizeY": 0.28444451093673706,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "Autosize": false,
+            "SpriteSheetItem": "COMPANYLOGO/COMPANYLOGO",
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "ColorR": 1.0,
+            "ColorG": 1.0,
+            "ColorB": 1.0,
+            "ColorA": 1.0,
+            "FlipX": false,
+            "FlipY": false
+          }
+        }
+      ]
+    }
+  }
+}

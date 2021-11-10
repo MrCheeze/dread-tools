@@ -1,0 +1,156 @@
+{
+  "FileType": "sound::CAudioPresets",
+  "Unk": 33751042,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSoundManager": {
+      "Class": "sound::CSoundManager",
+      "Data": {
+        "pAudioPresets": {
+          "Class": "sound::CAudioPresets",
+          "Data": {
+            "dicPresets": {
+              "samus#samus_floorslide": {
+                "sUniqueId": "samus#samus_floorslide",
+                "sNodeToAttach": "",
+                "arrMatFiles": {
+                  "0": {
+                    "vFiles": [
+                      "actors/samus/samus_slide_gen_01.wav",
+                      "actors/samus/samus_slide_gen_02.wav",
+                      "actors/samus/samus_slide_gen_03.wav",
+                      "actors/samus/samus_slide_gen_04.wav",
+                      "actors/samus/samus_slide_gen_05.wav",
+                      "actors/samus/samus_slide_gen_06.wav"
+                    ]
+                  },
+                  "1": {
+                    "vFiles": []
+                  },
+                  "2": {
+                    "vFiles": [
+                      "actors/samus/Samus_Slide_Pud_01.wav",
+                      "actors/samus/Samus_Slide_Pud_02.wav",
+                      "actors/samus/Samus_Slide_Pud_03.wav",
+                      "actors/samus/Samus_Slide_Pud_04.wav"
+                    ]
+                  },
+                  "3": {
+                    "vFiles": []
+                  },
+                  "4": {
+                    "vFiles": [
+                      "actors/samus/samus_slide_met_01.wav",
+                      "actors/samus/samus_slide_met_02.wav",
+                      "actors/samus/samus_slide_met_03.wav",
+                      "actors/samus/samus_slide_met_04.wav"
+                    ]
+                  },
+                  "5": {
+                    "vFiles": [
+                      "actors/samus/Samus_Slide_Ene_01.wav",
+                      "actors/samus/Samus_Slide_Ene_02.wav",
+                      "actors/samus/Samus_Slide_Ene_03.wav",
+                      "actors/samus/Samus_Slide_Ene_04.wav"
+                    ]
+                  },
+                  "6": {
+                    "vFiles": [
+                      "actors/samus/samus_slide_san_01.wav",
+                      "actors/samus/samus_slide_san_02.wav",
+                      "actors/samus/samus_slide_san_03.wav",
+                      "actors/samus/samus_slide_san_04.wav"
+                    ]
+                  },
+                  "7": {
+                    "vFiles": [
+                      "actors/samus/samus_slide_gen_01.wav",
+                      "actors/samus/samus_slide_gen_02.wav",
+                      "actors/samus/samus_slide_gen_03.wav",
+                      "actors/samus/samus_slide_gen_04.wav",
+                      "actors/samus/samus_slide_gen_05.wav",
+                      "actors/samus/samus_slide_gen_06.wav"
+                    ]
+                  },
+                  "8": {
+                    "vFiles": [
+                      "actors/samus/samus_slide_san_01.wav",
+                      "actors/samus/samus_slide_san_02.wav",
+                      "actors/samus/samus_slide_san_03.wav",
+                      "actors/samus/samus_slide_san_04.wav"
+                    ]
+                  },
+                  "9": {
+                    "vFiles": []
+                  },
+                  "10": {
+                    "vFiles": []
+                  },
+                  "11": {
+                    "vFiles": []
+                  },
+                  "12": {
+                    "vFiles": [
+                      "actors/samus/Samus_Slide_Pud_01.wav",
+                      "actors/samus/Samus_Slide_Pud_02.wav",
+                      "actors/samus/Samus_Slide_Pud_03.wav",
+                      "actors/samus/Samus_Slide_Pud_04.wav"
+                    ]
+                  },
+                  "13": {
+                    "vFiles": [
+                      "actors/samus/Samus_Slide_Pud_01.wav",
+                      "actors/samus/Samus_Slide_Pud_02.wav",
+                      "actors/samus/Samus_Slide_Pud_03.wav",
+                      "actors/samus/Samus_Slide_Pud_04.wav"
+                    ]
+                  },
+                  "14": {
+                    "vFiles": [
+                      "actors/samus/Samus_Slide_Pud_01.wav",
+                      "actors/samus/Samus_Slide_Pud_02.wav",
+                      "actors/samus/Samus_Slide_Pud_03.wav",
+                      "actors/samus/Samus_Slide_Pud_04.wav"
+                    ]
+                  },
+                  "15": {
+                    "vFiles": []
+                  }
+                },
+                "ePlayerId": "SFX",
+                "eLogicId": "DEFAULT",
+                "eAttCurve": "Logarithmic",
+                "ePositional": "POS_2D",
+                "iInstanceLimit": -1,
+                "fInBetweenTime": 0.0,
+                "fAttMaxRange": 5500.0,
+                "fAttMinRange": 500.0,
+                "fVolume": 0.44999998807907104,
+                "fVolumeRange": 0.0,
+                "fPitch": 0.8999999761581421,
+                "fPitchRange": 0.0,
+                "fPan": 0.0,
+                "fPanRange": 0.0,
+                "fFadeIn": 0.0,
+                "fFadeOut": 0.5,
+                "fEmptyPercentage": 0.0,
+                "fStartDelayed": 0.0,
+                "bLoop": false,
+                "bAttachToActor": false,
+                "bStpChgAnim": false,
+                "bStpEntDead": true,
+                "bManaged": true,
+                "bRumbleSync": false,
+                "fRumbleGainOverride": -1.0,
+                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimTime": 10.0,
+                "fDimFadeTime": 20.0,
+                "fDimRecoverTime": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

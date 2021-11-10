@@ -1,0 +1,55 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -71.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontdown.bcskla"
+      },
+      {
+        "fSample": -48.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontdownup.bcskla"
+      },
+      {
+        "fSample": -26.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfront.bcskla"
+      },
+      {
+        "fSample": -3.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontupdown.bcskla"
+      },
+      {
+        "fSample": 19.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontup.bcskla"
+      },
+      {
+        "fSample": 53.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilfrontupup.bcskla"
+      },
+      {
+        "fSample": 64.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide26recoilupup.bcskla"
+      }
+    ]
+  }
+}

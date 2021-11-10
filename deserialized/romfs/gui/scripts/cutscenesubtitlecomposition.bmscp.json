@@ -1,0 +1,95 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "cutscenesubtitlecomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "sSkinName": "",
+      "Visible": true,
+      "Enabled": true,
+      "sChildToFocus": "",
+      "lstChildren": [
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "sID": "Panel",
+            "X": 0.0,
+            "Y": 0.8666666746139526,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 0.1111110970377922,
+            "sSkinName": "",
+            "Visible": true,
+            "Enabled": true,
+            "sChildToFocus": "",
+            "lstChildren": [
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "MessageBackground",
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 1.0,
+                  "SizeY": 0.1111110970377922,
+                  "Enabled": true,
+                  "Autosize": false,
+                  "SpriteSheetItem": "WhiteSquare",
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "ColorR": 0.08490567654371262,
+                  "ColorG": 0.08490567654371262,
+                  "ColorB": 0.08490567654371262,
+                  "ColorA": 0.501960813999176,
+                  "sSkinName": "",
+                  "FlipX": false,
+                  "FlipY": false,
+                  "Visible": true
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "MessageText",
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 1.0,
+                  "SizeY": 0.1111110970377922,
+                  "Enabled": true,
+                  "Text": "Hello Samus. Nice to see you.|I think the weather is quite calm today in ZDR.",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": false,
+                  "ColorR": 1.0,
+                  "ColorG": 1.0,
+                  "ColorB": 1.0,
+                  "ColorA": 1.0,
+                  "TextVerticalAlignment": "Centered",
+                  "sSkinName": "",
+                  "Visible": true
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0003firstcomunicationfakeadam",
+    "sActionSet": "cutscenes/0003firstcomunicationfakeadam/0003firstcomunicationfakeadam.bmsas",
+    "vWorldOffset": [
+      7011.60009765625,
+      -7278.2998046875,
+      -8.800000190734863
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "s010_cave.FakeAdamDialogueWeightPlate",
+    "sOnFinished": "",
+    "sOnEnd": "s010_cave.FakeAdamDialogueBegins",
+    "sOnSkip": "s010_cave.DiscoverNotransitionAccessPointOnCutScene",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 101,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/1.bccam",
+        "sOnStart": "s010_cave.DiscoverNotransitionAccessPointOnCutScene",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 74,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 47,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 148,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 100,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 100,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "7",
+        "iFrames": 75,
+        "sCamera": "cutscenes/0003firstcomunicationfakeadam/cameras/7.bccam",
+        "sOnStart": "",
+        "sOnExit": "0.3",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0003firstcomunicationfakeadam_accesspoint",
+        "sCharClass": "cutscenes/0003firstcomunicationfakeadam/actors/accesspoint/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0003firstcomunicationfakeadam_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "userroom_loop_front",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0003firstcomunicationfakeadam_weightactivatedplatform",
+        "sCharClass": "cutscenes/0003firstcomunicationfakeadam/actors/weightactivatedplatform/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "actors/fx/accesspoint01/fx/accesspoint01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0003firstcomunicationfakeadam/fx/aura.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0003firstcomunicationfakeadam/fx/tubelighting.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0003firstcomunicationfakeadam/fx/energytube.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0003firstcomunicationfakeadam/fx/tubesparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0003firstcomunicationfakeadam/fx/cannon_smallcover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        }
+      ]
+    }
+  }
+}

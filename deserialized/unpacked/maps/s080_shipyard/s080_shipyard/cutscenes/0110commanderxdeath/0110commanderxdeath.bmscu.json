@@ -1,0 +1,157 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0110commanderxdeath",
+    "sActionSet": "cutscenes/0110commanderxdeath/0110commanderxdeath.bmsas",
+    "vWorldOffset": [
+      16000.0,
+      -8600.0,
+      -9.543431588099338e-06
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "s080_shipyard.LightningEntitiesDisable",
+    "sOnFinished": "s080_shipyard.LightningEntitiesEnable",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 0.5,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 14,
+        "sCamera": "cutscenes/0110commanderxdeath/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 80,
+        "sCamera": "cutscenes/0110commanderxdeath/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 323,
+        "sCamera": "cutscenes/0110commanderxdeath/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0110commanderxdeath_core_x",
+        "sCharClass": "cutscenes/0110commanderxdeath/actors/core_x/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0110commanderxdeath_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "relaxshot",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0110commanderxdeath/actors/samus/lights.bldef"
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d_end.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/powerbomb/fx/burnexplosion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0110commanderxdeath/fx/debris_ray.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0110commanderxdeath/fx/dissolve_parasite.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/death/dissolve_dir.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d_burst.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_cannoncover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d_burst_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/zerolaser_burst_loop_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_charge_ray_01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 10
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_engines.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        }
+      ]
+    }
+  }
+}

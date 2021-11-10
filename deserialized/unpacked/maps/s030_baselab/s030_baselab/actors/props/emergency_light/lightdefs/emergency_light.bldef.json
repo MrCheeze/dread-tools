@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#emergency_light#lightdefs#emergency_light": {
+            "sPath": "actors#props#emergency_light#lightdefs#emergency_light",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "emergency_light01",
+                "sNode": "",
+                "vPosOffset": [
+                  57.0,
+                  50.0,
+                  64.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.20399999618530273,
+                  0.05900000035762787,
+                  1.0
+                ],
+                "vAtt": [
+                  100.0,
+                  250.0,
+                  0.0,
+                  0.0
+                ],
+                "fIntensity": 10.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

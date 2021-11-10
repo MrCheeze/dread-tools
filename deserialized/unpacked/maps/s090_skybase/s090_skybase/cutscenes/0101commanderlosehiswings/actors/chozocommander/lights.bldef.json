@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0101commanderlosehiswings#actors#chozocommander#lights": {
+            "sPath": "cutscenes#0101commanderlosehiswings#actors#chozocommander#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "cannon_hyperbeam",
+                "sNode": "DC_Muzzle",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  -300.0,
+                  300.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

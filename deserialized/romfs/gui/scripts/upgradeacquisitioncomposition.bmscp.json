@@ -1,0 +1,320 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "upgradeacquisitioncomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "Enabled": true,
+      "Visible": true,
+      "sSkinName": "upgradeacquisitioncomposition",
+      "sChildToFocus": "",
+      "lstChildren": [
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "sID": "Prompt",
+            "X": 0.17749999463558197,
+            "Y": 0.3377777934074402,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.637499988079071,
+            "SizeY": 0.21666669845581055,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "sChildToFocus": "",
+            "lstChildren": [
+              {
+                "Class": "GUI::CDisplayObjectContainer",
+                "Data": {
+                  "sID": "Panel",
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.637499988079071,
+                  "SizeY": 0.21666669845581055,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "sChildToFocus": "",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.637499988079071,
+                        "SizeY": 0.21666669845581055,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": true,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.01568627916276455,
+                        "ColorG": 0.10196080058813095,
+                        "ColorB": 0.1568627953529358,
+                        "ColorA": 1.0,
+                        "FlipX": false,
+                        "FlipY": false
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-TL",
+                        "X": -0.0012499999720603228,
+                        "Y": -0.0022222220432013273,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.10437499731779099,
+                        "SizeY": 0.05000000074505806,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "CZDR-RWK/CORNER_DECO",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": false,
+                        "FlipY": false
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-TR",
+                        "X": 0.534375011920929,
+                        "Y": -0.0022222220432013273,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.10437499731779099,
+                        "SizeY": 0.05000000074505806,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "CZDR-RWK/CORNER_DECO",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": true,
+                        "FlipY": false
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-BL",
+                        "X": -0.0012499999720603228,
+                        "Y": 0.21888889372348785,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.10437499731779099,
+                        "SizeY": 0.05000000074505806,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "CZDR-RWK/CORNER_DECO",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": false,
+                        "FlipY": false
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-BR",
+                        "X": 0.534375011920929,
+                        "Y": 0.1688888967037201,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.10437499731779099,
+                        "SizeY": 0.05000000074505806,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "CZDR-RWK/CORNER_DECO",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": true,
+                        "FlipY": true
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-LineT",
+                        "X": 0.10125000029802322,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.4350000023841858,
+                        "SizeY": 0.003333332948386669,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": false,
+                        "FlipY": false
+                      }
+                    },
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "CornerDeco-LineB",
+                        "X": 0.10125000029802322,
+                        "Y": 0.21333329379558563,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.4350000023841858,
+                        "SizeY": 0.003333332948386669,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Autosize": false,
+                        "SpriteSheetItem": "WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale",
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "FlipX": false,
+                        "FlipY": false
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CDisplayObjectContainer",
+                "Data": {
+                  "sID": "Content",
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.637499988079071,
+                  "SizeY": 0.21666669845581055,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "sChildToFocus": "",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Label",
+                        "X": 0.01875000074505806,
+                        "Y": 0.01666666939854622,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.612500011920929,
+                        "SizeY": 0.14444449543952942,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Text": "Fanfare Text|Fanfare Message",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Centered",
+                        "Autosize": false,
+                        "ColorR": 1.0,
+                        "ColorG": 1.0,
+                        "ColorB": 1.0,
+                        "ColorA": 1.0,
+                        "TextVerticalAlignment": "Centered"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Back",
+                        "X": 0.4556249976158142,
+                        "Y": 0.16111110150814056,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.17543749511241913,
+                        "SizeY": 0.055555559694767,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "Text": "#GUI_GENERAL_LABEL_ACCEPT",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Right",
+                        "Autosize": false,
+                        "ColorR": 0.7058823704719543,
+                        "ColorG": 0.9411764740943909,
+                        "ColorB": 0.9725490212440491,
+                        "ColorA": 1.0,
+                        "TextVerticalAlignment": "Top"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

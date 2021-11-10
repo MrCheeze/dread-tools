@@ -1,0 +1,470 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "DESCRIPTOR-TILESET": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/descriptor-tileset.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 4096,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "POWER_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.006103515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "WAVE_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.006103515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "WIDE_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.006103515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HYPER_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.103759765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PLASMA_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.103759765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CHARGE_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.103759765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DIFUSSION_CHARGE_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.201416015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUPER_MISSILE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.201416015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "GRAPPLE_BEAM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.201416015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ICE_MISSILE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.299072265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MISSILE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.299072265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MULTI_LOCK-ON_MISSILE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.299072265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BOMB",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.396728515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "POWER_SUIT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.396728515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "LINE_BOMB",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.396728515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "VARIA_SUIT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.494384765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "POWER_BOMB",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.494384765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "GRAVITY_SUIT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.494384765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MORPHBALL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.592041015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DOUBLE_JUMP",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.592041015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SPIDER_MAGNET",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.592041015625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SONAR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.689697265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SPEED_BOOSTER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.689697265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "OPTICAL_CAMO",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.689697265625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SPACE_JUMP",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.787353515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "GHOST_DASH",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34375,
+                      0.787353515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SCREW_ATTACK",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65625,
+                      0.787353515625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HYPER_SUIT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.03125,
+                      0.885009765625
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.08544921875
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

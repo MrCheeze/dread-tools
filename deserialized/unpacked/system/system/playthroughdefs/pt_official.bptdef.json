@@ -1,0 +1,1141 @@
+{
+  "FileType": "CPlaythroughDef",
+  "Unk": 33554433,
+  "RealFileType": "CPlaythroughDef",
+  "Root": {
+    "sName": "pt_official",
+    "sLevelID": "c10_samus",
+    "aCheckpointDefs": [
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cave_start",
+          "strDesc": "CAVE - Start Area - 1",
+          "sStartPoint": "StartPoint0",
+          "strTags": "LEVEL_START,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "ev_deers_001",
+          "strDesc": "CAVE - Deers 001",
+          "sStartPoint": "SP_EV_Deers_001",
+          "strTags": "EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_first_communication",
+          "strDesc": "CAVE - Fake Adam 1 - CUT 3",
+          "sStartPoint": "SP_CUT_FirstCommunication",
+          "strTags": "CUTSCENE,ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_melee_tutorial",
+          "strDesc": "CAVE - Melee Tutorial - 5",
+          "sStartPoint": "SP_CUT_MeleeTutorial",
+          "strTags": "EVENT,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_protoemmy_intro",
+          "strDesc": "CAVE - Proto Emmy Presentation - 34",
+          "sStartPoint": "SP_CUT_ProtoEmmyIntro",
+          "strTags": "CUTSCENE,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_protoemmy_climb",
+          "strDesc": "CAVE - Proto Emmy Climb - 35",
+          "sStartPoint": "SP_CUT_ProtoEmmyClimb",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_cu_decayed",
+          "strDesc": "CAVE - CU Decayed - 48",
+          "sStartPoint": "SP_CUT_CUDecayed",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_emmyzone_intro",
+          "strDesc": "CAVE - Emmy Zone Presentation - 36",
+          "sStartPoint": "SP_CUT_EmmyZone",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_emmycave_intro",
+          "strDesc": "CAVE - Emmy Cave Presentation - 37",
+          "sStartPoint": "SP_CUT_EmmyCave",
+          "strTags": "CUTSCENE,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "ev_scorpius_presentation",
+          "strDesc": "CAVE - Scorpius presentation",
+          "sStartPoint": "SP_EV_ScorpiusPresentation",
+          "strTags": "EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "accesspoint_002",
+          "strDesc": "CAVE - Fake Adam 2",
+          "sStartPoint": "SP_Checkpoint_AccessPoint_002",
+          "strTags": "ADAM,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "watervalve",
+          "strDesc": "CAVE - Water Valve",
+          "sStartPoint": "SP_Checkpoint_WaterValve",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "chargebeam",
+          "strDesc": "CAVE - Charge Beam",
+          "sStartPoint": "SP_Checkpoint_ChargeBeam",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "ev_deers_002",
+          "strDesc": "CAVE - Deers 002",
+          "sStartPoint": "SP_EV_Deers_002",
+          "strTags": "EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_before_cu",
+          "strDesc": "CAVE - Before CU - 49",
+          "sStartPoint": "SP_CUT_BeforeCU",
+          "strTags": "CUTSCENE,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "ev_scorpius_tail",
+          "strDesc": "CAVE - Scorpius tail",
+          "sStartPoint": "SP_EV_ScorpiusTail",
+          "strTags": "EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "thermaldevice",
+          "strDesc": "CAVE - Thermal Device",
+          "sStartPoint": "SP_Checkpoint_ThermalDevice",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "fakeadamcave3",
+          "strDesc": "CAVE - Fake Adam 3",
+          "sStartPoint": "SP_Checkpoint_AccessPoint_2B",
+          "strTags": "ADAM,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cut_cu",
+          "strDesc": "CAVE - Central Unit - 50",
+          "sStartPoint": "SP_CUT_CU",
+          "strTags": "CUTSCENE,CU,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "cave_phase2",
+          "strDesc": "CAVE - Emmy - Phase 2",
+          "sStartPoint": "SP_Checkpoint_EmmyCavePhase2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "magnetglove",
+          "strDesc": "CAVE - Magnet Glove",
+          "sStartPoint": "SP_Checkpoint_MagnetGlove",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "scorpius",
+          "strDesc": "CAVE - Scorpius - 54",
+          "sStartPoint": "SP_Checkpoint_Scorpius",
+          "strTags": "CUTSCENE,BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "opticalcamo",
+          "strDesc": "CAVE - Optical Camo",
+          "sStartPoint": "SP_Checkpoint_OpticalCamo",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "magma_start",
+          "strDesc": "MAGMA - Start Magma",
+          "sStartPoint": "LE_Platform_Elevator_FromCave",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "fakeadammagma1",
+          "strDesc": "MAGMA - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_3",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "emmymagma",
+          "strDesc": "MAGMA - Emmy - 38",
+          "sStartPoint": "SP_Checkpoint_EmmyMagma",
+          "strTags": "EMMY,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "pistonright",
+          "strDesc": "MAGMA - Piston Right",
+          "sStartPoint": "SP_Checkpoint_PistonRight",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "fakeadammagma2",
+          "strDesc": "MAGMA - Fake Adam 2",
+          "sStartPoint": "SP_AccessPoint_3_B",
+          "strTags": "ADAM,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "pistonleft",
+          "strDesc": "MAGMA - Piston Left",
+          "sStartPoint": "SP_Checkpoint_PistonLeft",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "base_start",
+          "strDesc": "LAB - Start Lab",
+          "sStartPoint": "wagontrain_magma_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "blackout",
+          "strDesc": "LAB - Blackout",
+          "sStartPoint": "SP_Checkpoint_Blackout",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "widebeam",
+          "strDesc": "LAB - Wide Beam",
+          "sStartPoint": "SP_WideBeam",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "emmybase",
+          "strDesc": "LAB - Emmy - 39",
+          "sStartPoint": "SP_Checkpoint_EmmyBaseLab",
+          "strTags": "EMMY,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "magma_cu",
+          "strDesc": "MAGMA - Central Unit",
+          "sStartPoint": "SP_Checkpoint_CentralUnit",
+          "strTags": "CU,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "magma_phase2",
+          "strDesc": "MAGMA - Emmy - Phase 2",
+          "sStartPoint": "SP_Checkpoint_EmmyMagmaPhase2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "morphball",
+          "strDesc": "MAGMA - MorphBall",
+          "sStartPoint": "SP_Checkpoint_MorphBall",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "chainreaction",
+          "strDesc": "CAVE - Chain Reaction",
+          "sStartPoint": "SP_Checkpoint_ChainReaction",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "variasuit",
+          "strDesc": "CAVE - Varia Suit - 30",
+          "sStartPoint": "SP_Checkpoint_VariaSuit",
+          "strTags": "CUTSCENE,ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "kraid",
+          "strDesc": "MAGMA - Kraid - 59",
+          "sStartPoint": "SP_Checkpoint_Kraid",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "diffusionbeam",
+          "strDesc": "MAGMA - Diffusion Beam",
+          "sStartPoint": "SP_DiffusionBeam",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "afterdiffusion",
+          "strDesc": "LAB - After Difussion",
+          "sStartPoint": "SP_Checkpoint_AfterDiffusion",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "fakeadamlab1",
+          "strDesc": "LAB - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_4",
+          "strTags": "ADAM,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "blackout2",
+          "strDesc": "LAB - Blackout 2",
+          "sStartPoint": "SP_Checkpoint_Blackout2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "bomb",
+          "strDesc": "LAB - Bomb",
+          "sStartPoint": "SP_Checkpoint_Bomb",
+          "strTags": "ABILITY,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "aqua_start",
+          "strDesc": "AQUA - Start Aqua",
+          "sStartPoint": "wagontrain_baselab_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "fakeadamaqua1",
+          "strDesc": "AQUA - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_5",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "ghostdash",
+          "strDesc": "AQUA - Ghost Dash - 32",
+          "sStartPoint": "SP_Checkpoint_GhostDash",
+          "strTags": "ABILITY,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "afteraqua",
+          "strDesc": "LAB - After Aqua",
+          "sStartPoint": "SP_Checkpoint_AfterAqua",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "base_cu",
+          "strDesc": "LAB - Central Unit",
+          "sStartPoint": "SP_Checkpoint_CentralUnit",
+          "strTags": "CU,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "lab_phase2",
+          "strDesc": "LAB - Emmy - Phase 2",
+          "sStartPoint": "SP_Checkpoint_EmmyLabPhase2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "speedbooster",
+          "strDesc": "LAB - Speed Booster",
+          "sStartPoint": "SP_Checkpoint_SpeedBooster",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "grapple",
+          "strDesc": "CAVE - Grapple",
+          "sStartPoint": "SP_Checkpoint_Grapple",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "sanc_start",
+          "strDesc": "SANC - Start Sanctuary",
+          "sStartPoint": "elevator_baselab_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "encounterprofessor",
+          "strDesc": "SANC - Encounter Professor - 40",
+          "sStartPoint": "SP_Checkpoint_Professor",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "chozorobotsanc",
+          "strDesc": "SANC - Chozo Robot Soldier",
+          "sStartPoint": "SP_Checkpoint_ChozoRobotSanc",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s030_baselab",
+          "sCheckpointID": "afterprofessor",
+          "strDesc": "LAB - Fake Adam 2 - After Professor",
+          "sStartPoint": "SP_Checkpoint_AfterProfessor",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "doorprofessor",
+          "strDesc": "AQUA - Door Professor",
+          "sStartPoint": "SP_Checkpoint_DoorProfessor",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "hydrogiga",
+          "strDesc": "AQUA - Hydrogiga - 63",
+          "sStartPoint": "SP_Checkpoint_Hydrogiga",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "forest_start",
+          "strDesc": "FOREST - Start Forest",
+          "sStartPoint": "elevator_aqua_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "chozorobotforest",
+          "strDesc": "FOREST - Chozo Robot Soldier",
+          "sStartPoint": "SP_Checkpoint_ChozoRobotForest",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "fakeadamforest1",
+          "strDesc": "FOREST - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_7",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "supermissiles",
+          "strDesc": "FOREST - Super Missiles",
+          "sStartPoint": "SP_Checkpoint_SuperMissiles",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "quarantine_start",
+          "strDesc": "QUARANTINE - Start Quarantine",
+          "sStartPoint": "wagontrain_forest_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "quarantine_maingate",
+          "strDesc": "QUARANTINE - Main Gate - 113",
+          "sStartPoint": "SP_CUT_MainGate",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "quarantine_xenemy",
+          "strDesc": "QUARANTINE - X Encounter - 13",
+          "sStartPoint": "SP_CUT_XEnemy",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "plasmabeam",
+          "strDesc": "QUARANTINE - Plasma Beam",
+          "sStartPoint": "SP_Checkpoint_PlasmaBeam",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "chozowarriorx",
+          "strDesc": "QUARANTINE - Chozo Warrior X - 67",
+          "sStartPoint": "SP_Checkpoint_ChozoWarriorX",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "quarantine_opened",
+          "strDesc": "QUARANTINE - Gate Opened - 4",
+          "sStartPoint": "SP_CUT_GateOpened",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s060_quarantine",
+          "sCheckpointID": "professorx",
+          "strDesc": "QUARANTINE - Professor X and Emmys On - 42",
+          "sStartPoint": "SP_Checkpoint_ProfessorX",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "afterquarantine",
+          "strDesc": "FOREST - After Quarantine",
+          "sStartPoint": "wagontrain_quarantine_000_platform",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "fakeadamforest2",
+          "strDesc": "FOREST - Fake Adam 2",
+          "sStartPoint": "SP_AccessPoint_7B",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "emmyforest",
+          "strDesc": "FOREST - Emmy",
+          "sStartPoint": "SP_Checkpoint_EmmyForest",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "doublejump",
+          "strDesc": "FOREST - Double Jump",
+          "sStartPoint": "SP_Checkpoint_DoubleJump",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "chozowarriorforest",
+          "strDesc": "FOREST - Chozo Warrior X",
+          "sStartPoint": "SP_Checkpoint_ChozoWarriorForest",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "forest_cu",
+          "strDesc": "FOREST - Central Unit",
+          "sStartPoint": "SP_Checkpoint_CentralUnit",
+          "strTags": "CU"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "forest_phase2",
+          "strDesc": "FOREST - Emmy - Phase 2",
+          "sStartPoint": "SP_Checkpoint_EmmyForestPhase2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "icemissiles",
+          "strDesc": "FOREST - Ice Missiles",
+          "sStartPoint": "SP_Checkpoint_IceMissiles",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "sonar",
+          "strDesc": "FOREST - Sonar - 33",
+          "sStartPoint": "SP_Checkpoint_Sonar",
+          "strTags": "ABILITY,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "afterforest",
+          "strDesc": "SANC - After Forest",
+          "sStartPoint": "wagontrain_forest_000_platform",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "fakeadamsanc1",
+          "strDesc": "SANC - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_8",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "emmysanc",
+          "strDesc": "SANC - Emmy",
+          "sStartPoint": "SP_Checkpoint_EmmySanc",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "superquetzoa",
+          "strDesc": "SANC - Super Quetzoa",
+          "sStartPoint": "SP_Checkpoint_SuperQuetzoa",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "multilockon",
+          "strDesc": "SANC - Multi Lock-On",
+          "sStartPoint": "SP_Checkpoint_MultiLockOn",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "twochozorobots",
+          "strDesc": "SANC - Chozo Robot Soldier x2",
+          "sStartPoint": "SP_Checkpoint_TwoChozoRobots",
+          "strTags": "BOSS,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "spacejump",
+          "strDesc": "SANC - Space Jump",
+          "sStartPoint": "SP_Checkpoint_SpaceJump",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "trench",
+          "strDesc": "AQUA - The Trench",
+          "sStartPoint": "SP_Checkpoint_Trench",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "demolition",
+          "strDesc": "AQUA - Demolition",
+          "sStartPoint": "SP_Checkpoint_Demolition",
+          "strTags": "EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "gravitysuit",
+          "strDesc": "AQUA - Gravity Suit - 31",
+          "sStartPoint": "SP_Checkpoint_GravitySuit",
+          "strTags": "CUTSCENE,ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "fakeadamaqua2",
+          "strDesc": "AQUA - Fake Adam 2",
+          "sStartPoint": "SP_AccessPoint_9",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "cooldown",
+          "strDesc": "AQUA - Cooldown - 7",
+          "sStartPoint": "SP_Checkpoint_Cooldown",
+          "strTags": "CUTSCENE,EVENT"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "chozowarriorcave",
+          "strDesc": "CAVE - Chozo Warrior X Cooldown",
+          "sStartPoint": "SP_Checkpoint_ChozoWarriorCave",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "fakeadamcave4",
+          "strDesc": "CAVE - Fake Adam 4",
+          "sStartPoint": "SP_Checkpoint_AccessPoint_1B",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s020_magma",
+          "sCheckpointID": "cooldownx",
+          "strDesc": "MAGMA - Cooldown X - 78",
+          "sStartPoint": "SP_Checkpoint_CooldownX",
+          "strTags": "CUTSCENE,BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s010_cave",
+          "sCheckpointID": "screwattack",
+          "strDesc": "CAVE - Screw Attack",
+          "sStartPoint": "SP_Checkpoint_ScrewAttack",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "fakeadamaqua3",
+          "strDesc": "AQUA - Fake Adam 3",
+          "sStartPoint": "SP_AccessPoint_9B",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s040_aqua",
+          "sCheckpointID": "twochozorobots_aqua",
+          "strDesc": "AQUA - Chozo Robot Soldier x2",
+          "sStartPoint": "SP_Checkpoint_TwoChozoRobots_Aqua",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "supergoliath",
+          "strDesc": "FOREST - Super Goliath",
+          "sStartPoint": "SP_Checkpoint_SuperGoliath",
+          "strTags": "BOSS"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s050_forest",
+          "sCheckpointID": "linebomb",
+          "strDesc": "FOREST - Line Bomb",
+          "sStartPoint": "SP_Checkpoint_LineBomb",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "shipyard_start",
+          "strDesc": "SHIPYARD - Start Shipyard",
+          "sStartPoint": "wagontrain_forest_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "fakeadamship1",
+          "strDesc": "SHIPYARD - Fake Adam 1",
+          "sStartPoint": "SP_AccessPoint_10",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "aftershipyard",
+          "strDesc": "SANC - After Shipyard",
+          "sStartPoint": "elevator_shipyard_000_platform",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "sanc_cu",
+          "strDesc": "SANC - Central Unit",
+          "sStartPoint": "SP_Checkpoint_CentralUnit",
+          "strTags": "CU,EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "sanc_phase2",
+          "strDesc": "SANC - Emmy - Phase 2",
+          "sStartPoint": "SP_Checkpoint_EmmySancPhase2",
+          "strTags": "EMMY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s070_basesanc",
+          "sCheckpointID": "wavebeam",
+          "strDesc": "SANC - Wave Beam",
+          "sStartPoint": "SP_Checkpoint_WaveBeam",
+          "strTags": "ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "strongreaction",
+          "strDesc": "SHIPYARD - Strong Reaction - 12",
+          "sStartPoint": "SP_Checkpoint_StrongReaction",
+          "strTags": "CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "powerbomb",
+          "strDesc": "SHIPYARD - Power Bomb - 43",
+          "sStartPoint": "SP_Checkpoint_PowerBomb",
+          "strTags": "CUTSCENE,ABILITY"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "fakeadamship2",
+          "strDesc": "SHIPYARD - Fake Adam 2",
+          "sStartPoint": "SP_AccessPoint_10B",
+          "strTags": "ADAM"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "elitechozowarriorx",
+          "strDesc": "SHIPYARD - Elite Chozo Warrior X - 71",
+          "sStartPoint": "SP_Checkpoint_EliteChozoWarriorX",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s090_skybase",
+          "sCheckpointID": "skybase_start",
+          "strDesc": "SKY - Start Skybase",
+          "sStartPoint": "elevator_shipyard_000_platform",
+          "strTags": "LEVEL_START"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s090_skybase",
+          "sCheckpointID": "commander",
+          "strDesc": "SKY - Commander - 86",
+          "sStartPoint": "SP_Checkpoint_Commander",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "commanderx",
+          "strDesc": "SHIPYARD - Commander X - 108B",
+          "sStartPoint": "SP_Checkpoint_CommanderX",
+          "strTags": "BOSS,CUTSCENE"
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "escape",
+          "strDesc": "SHIPYARD - Escape",
+          "sStartPoint": "SP_Checkpoint_Escape",
+          "strTags": ""
+        }
+      },
+      {
+        "Class": "CPlaythroughDef::SCheckpointDef",
+        "Data": {
+          "sScenarioID": "s080_shipyard",
+          "sCheckpointID": "endgame",
+          "strDesc": "SHIPYARD - Endgame - 112",
+          "sStartPoint": "SP_Checkpoint_Endgame",
+          "strTags": "CUTSCENE"
+        }
+      }
+    ]
+  }
+}

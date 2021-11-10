@@ -1,0 +1,95 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingback.bcskla"
+      },
+      {
+        "fSample": -160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackdown.bcskla"
+      },
+      {
+        "fSample": -120.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingdown.bcskla"
+      },
+      {
+        "fSample": -60.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontdownup.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfront.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingup.bcskla"
+      },
+      {
+        "fSample": 102.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackup.bcskla"
+      },
+      {
+        "fSample": 160.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingbackupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozorobotsoldier/animations/shot_aimingback.bcskla"
+      }
+    ]
+  }
+}

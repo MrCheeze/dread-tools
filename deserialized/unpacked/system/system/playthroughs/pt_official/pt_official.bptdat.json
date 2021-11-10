@@ -1,0 +1,1254 @@
+{
+  "FileType": "CPlaythrough",
+  "Unk": 33554433,
+  "RealFileType": "CPlaythrough",
+  "Root": {
+    "sPlaythroughName": "pt_official",
+    "oPlayDefLink": "playdef:playthroughdefs/pt_official",
+    "dctCheckpointDatas": {
+      "cave_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cave_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "variasuit": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "variasuit",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "magma_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "magma_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chainreaction": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chainreaction",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "ev_scorpius_tail": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "ev_scorpius_tail",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "ev_deers_002": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "ev_deers_002",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "accesspoint_002": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "accesspoint_002",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "watervalve": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "watervalve",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "thermaldevice": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "thermaldevice",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "ev_scorpius_presentation": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "ev_scorpius_presentation",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "magnetglove": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "magnetglove",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "emmymagma": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "emmymagma",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "afterprofessor": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "afterprofessor",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "magma_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "magma_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "morphball": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "morphball",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "kraid": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "kraid",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "opticalcamo": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "opticalcamo",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "base_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "base_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "blackout": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "blackout",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "emmybase": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "emmybase",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "afterdiffusion": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "afterdiffusion",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "blackout2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "blackout2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "bomb": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "bomb",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "afteraqua": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "afteraqua",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "speedbooster": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "speedbooster",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "grapple": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "grapple",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chargebeam": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chargebeam",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "pistonright": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "pistonright",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "pistonleft": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "pistonleft",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "aqua_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "aqua_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "ghostdash": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "ghostdash",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "base_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "base_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "doorprofessor": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "doorprofessor",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "hydrogiga": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "hydrogiga",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "forest_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "forest_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "supermissiles": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "supermissiles",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "emmyforest": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "emmyforest",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "doublejump": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "doublejump",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "forest_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "forest_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "icemissiles": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "icemissiles",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "sonar": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "sonar",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "trench": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "trench",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "demolition": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "demolition",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "gravitysuit": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "gravitysuit",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "spacejump": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "spacejump",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cooldown": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cooldown",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cooldownx": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cooldownx",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "screwattack": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "screwattack",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "wavebeam": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "wavebeam",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "quarantine_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "quarantine_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "plasmabeam": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "plasmabeam",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chozowarriorx": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chozowarriorx",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "afterquarantine": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "afterquarantine",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "sanc_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "sanc_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "encounterprofessor": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "encounterprofessor",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "afterforest": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "afterforest",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "multilockon": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "multilockon",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "linebomb": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "linebomb",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "shipyard_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "shipyard_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "sanc_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "sanc_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "strongreaction": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "strongreaction",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "powerbomb": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "powerbomb",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "elitechozowarriorx": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "elitechozowarriorx",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "escape": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "escape",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "scorpius": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "scorpius",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "widebeam": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "widebeam",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "diffusionbeam": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "diffusionbeam",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chozorobotsanc": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chozorobotsanc",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chozorobotforest": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chozorobotforest",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chozowarriorforest": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chozowarriorforest",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "emmysanc": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "emmysanc",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "superquetzoa": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "superquetzoa",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "twochozorobots": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "twochozorobots",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "chozowarriorcave": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "chozowarriorcave",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "supergoliath": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "supergoliath",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "aftershipyard": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "aftershipyard",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "skybase_start": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "skybase_start",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "commander": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "commander",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "commanderx": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "commanderx",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_protoemmy_intro": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_protoemmy_intro",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_protoemmy_climb": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_protoemmy_climb",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_cu_decayed": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_cu_decayed",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_emmyzone_intro": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_emmyzone_intro",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_emmycave_intro": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_emmycave_intro",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_before_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_before_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_cu": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_cu",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_first_communication": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_first_communication",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "ev_deers_001": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "ev_deers_001",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "quarantine_opened": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "quarantine_opened",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "sanc_phase2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "sanc_phase2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cave_phase2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cave_phase2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "magma_phase2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "magma_phase2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "lab_phase2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "lab_phase2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "forest_phase2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "forest_phase2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "twochozorobots_aqua": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "twochozorobots_aqua",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "cut_melee_tutorial": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "cut_melee_tutorial",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "quarantine_maingate": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "quarantine_maingate",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "quarantine_xenemy": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "quarantine_xenemy",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamcave3": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamcave3",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadammagma1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadammagma1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamlab1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamlab1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamaqua1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamaqua1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamforest1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamforest1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamforest2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamforest2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamsanc1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamsanc1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamaqua2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamaqua2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamcave4": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamcave4",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamaqua3": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamaqua3",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamship1": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamship1",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadamship2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadamship2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "professorx": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "professorx",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 3701138087,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "endgame": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "endgame",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 39247510,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      },
+      "fakeadammagma2": {
+        "Class": "CPlaythrough::SCheckpointData",
+        "Data": {
+          "sCheckpointDefID": "fakeadammagma2",
+          "oValidationInfo": {
+            "nGameplayVersion": 2,
+            "uFormatHash": 1677999676,
+            "uScenarioHash": 18446744073709551615
+          }
+        }
+      }
+    }
+  }
+}

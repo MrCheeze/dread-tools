@@ -1,0 +1,151 @@
+{
+  "FileType": "GUI::CGUIManager::SkinContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SkinContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SkinContainer",
+    "Data": {
+      "vecSkins": [
+        {
+          "Class": "GUI::CSkin",
+          "Data": {
+            "sID": "endingscreencomposition",
+            "vecDisplayObjDefs": [
+              {
+                "Class": "GUI::CDisplayObjectDef",
+                "Data": {
+                  "sID": "RootComposition",
+                  "lstpStates": [
+                    {
+                      "Class": "GUI::CDisplayObjectStateDef",
+                      "Data": {
+                        "sID": "Default",
+                        "pDOAnimationDef": {
+                          "Class": "GUI::CDisplayObjectAnimationDef",
+                          "Data": {
+                            "pTrackSet": {
+                              "Class": "GUI::CTrackSet",
+                              "Data": {
+                                "vpTracks": []
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "lstpChildren": [
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "Background",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "MissionComplete",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "ClearTimeLabel",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    },
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "CelebrationLabel",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "Default",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": []
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": []
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0101commanderlosehiswings",
+    "sActionSet": "cutscenes/0101commanderlosehiswings/0101commanderlosehiswings.bmsas",
+    "vWorldOffset": [
+      5100.0,
+      1900.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 71,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 56,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 7,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 78,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 40,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 205,
+        "sCamera": "cutscenes/0101commanderlosehiswings/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0101commanderlosehiswings_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0101commanderlosehiswings/actors/samus/lights.bldef"
+      },
+      {
+        "sId": "0101commanderlosehiswings_chozocommander",
+        "sCharClass": "actors/cutscene/chozo_commander.bmsad",
+        "sInGameEntityId": "SP_ChozoCommander",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0101commanderlosehiswings/actors/chozocommander/lights.bldef"
+      },
+      {
+        "sId": "0101commanderlosehiswings_missile_cut",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/missile_cut/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_missile_cut_2",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/missile_cut_2/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_missile_cut_3",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/missile_cut_3/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_missile_cut_4",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/missile_cut_4/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_drop_life_cutsubchar",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/drop_life_cutsubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_drop_life_cut_2",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/drop_life_cut_2/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_drop_life_cut_3",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/drop_life_cut_3/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_drop_life_cut_4",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/drop_life_cut_4/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0101commanderlosehiswings_chozocommander_wing",
+        "sCharClass": "cutscenes/0101commanderlosehiswings/actors/chozocommander_wing/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/feather_fall.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/feather_fall_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/dust_fall.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_cannon_firstglow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_zerolaser_burstsparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/zerolaser_airburst.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozocommander/fx/shootinggrab_zerolaser_burst.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/specialrocket/fx/specialrocket_cameradistortion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/shootinggrab_zerolaser.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/zerolaser_airstrong.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/zerolaser_energybase.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/commander_cannon_distortionburst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/hyperbeam/fx/hyperbeam_3d_end.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/100commandershowswings/fx/aura_charge.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/100commandershowswings/fx/wavebeam_charge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/wavebeam/fx/wavebeam_chargedball.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/100commandershowswings/fx/charge_wavebeam_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/wavebeam/fx/charge_loop_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/cannon_smallcover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/wavebeam_chargefume.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/100commandershowswings/fx/waves_explosion_wavebeam.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/muzzle_3d.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/wavebeam_burst_long.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/wavebeam/fx/wavebeam_chargedprojectile.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/wavebeam_projectile_exterior.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/sparks_tail_projectile.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 6
+        },
+        {
+          "sFile": "actors/weapons/wavebeam/fx/explosion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "actors/weapons/wavebeam/fx/explosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 11
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/distortion_wavebeam_explosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0101commanderlosehiswings/fx/explosion_game.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 7
+        },
+        {
+          "sFile": "actors/weapons/powerbomb/fx/burnexplosion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

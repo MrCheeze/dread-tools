@@ -1,0 +1,57 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "WarningComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "Background",
+            "X": 0.0,
+            "Y": 0.0,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Angle": 0.0,
+            "Enabled": true,
+            "Autosize": true,
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "SpriteSheetItem": "warning/Warning"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "PressALabel",
+            "X": 0.2800000011920929,
+            "Y": 0.75,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "SizeX": 0.4000000059604645,
+            "SizeY": 0.02500000037252903,
+            "ColorA": 1.0,
+            "Angle": 0.0,
+            "Enabled": true,
+            "Text": "Press A to continue",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": false,
+            "Outline": false,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "BlinkColorA": 0.0,
+            "Blink": 0.800000011920929
+          }
+        }
+      ]
+    }
+  }
+}

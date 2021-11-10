@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0071chozowarriorxelitepresentation#actors#chozowarriorelite#lights": {
+            "sPath": "cutscenes#0071chozowarriorxelitepresentation#actors#chozowarriorelite#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "chozoelite_presentation",
+                "sNode": "ShieldClosure_SKN",
+                "vPosOffset": [
+                  0.0,
+                  1500.0,
+                  1500.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  -3000.0,
+                  3000.0,
+                  10000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

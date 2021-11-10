@@ -1,0 +1,101 @@
+{
+  "FileType": "CEnvironmentMusicPresets",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pMusicPresets": {
+          "Class": "CEnvironmentMusicPresets",
+          "Data": {
+            "dicPresets": {
+              "s_baselab_001": {
+                "sID": "s_baselab_001",
+                "tPreset": {
+                  "sAlias": "s_baselab_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_baselab_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_baselab_001_blackout": {
+                "sID": "s_baselab_001_blackout",
+                "tPreset": {
+                  "sAlias": "s_baselab_001_blackout",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_baselab_001_blackout.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.100000023841858,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_emmy_defeated_baselab": {
+                "sID": "s_emmy_defeated_baselab",
+                "tPreset": {
+                  "sAlias": "s_emmy_defeated_baselab",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_emmy_defeated_baselab.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              }
+            },
+            "dicBossPresets": {}
+          }
+        }
+      }
+    }
+  }
+}

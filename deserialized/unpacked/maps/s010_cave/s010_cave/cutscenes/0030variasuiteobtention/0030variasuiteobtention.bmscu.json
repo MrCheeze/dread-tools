@@ -1,0 +1,217 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0030variasuiteobtention",
+    "sActionSet": "cutscenes/0030variasuiteobtention/0030variasuiteobtention.bmsas",
+    "vWorldOffset": [
+      -10210.400390625,
+      10326.900390625,
+      -42.200199127197266
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "PowerUpVariaSuit.ShowMessage",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 2.1600000858306885,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0030variasuiteobtention/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 260,
+        "sCamera": "cutscenes/0030variasuiteobtention/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0030variasuiteobtention/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "PowerUpVariaSuit.ChangeSuit",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 361,
+        "sCamera": "cutscenes/0030variasuiteobtention/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0030variasuiteobtention_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "system/fx/generic/varia_smokejump.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_jumpsmoke.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozowarriorx/fx/dashshot.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_backfloorsmoke.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_displacementaura.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_trailsjump01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_energyaura_init.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_energyaura.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_energyauraexplosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_raysonsite.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 29
+        },
+        {
+          "sFile": "actors/characters/samus/fx/animfresnel.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/savestation_fresnel.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_feetrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "system/fx/generic/varia_feetrays_right.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "system/fx/generic/varia_bodyrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_shoulderrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_shoulderrays_var.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_raysonsite_02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 30
+        },
+        {
+          "sFile": "system/fx/generic/varia_leftshoulderenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_leftarmenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "system/fx/generic/varia_cannon_smallcover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_chestenergysupport.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_end_leftarmenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "system/fx/generic/varia_end_shoulderenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_cannon_smallcover_end.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "GrappleInitAngle",
+    "vTargets": [
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefrontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefrontdownup.bcskla"
+      },
+      {
+        "fSample": -10.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefront-10downwards.bcskla"
+      },
+      {
+        "fSample": -9.989999771118164,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefront-10upwards.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefront.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefrontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grapplefrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/floorslide45end2grappleup.bcskla"
+      }
+    ]
+  }
+}

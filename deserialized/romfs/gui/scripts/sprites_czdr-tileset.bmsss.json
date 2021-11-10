@@ -1,0 +1,598 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "CZDR-TILESET": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/czdr-tileset.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 2048,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Acquisition_Prompt",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5244140625,
+                      0.8466796875
+                    ],
+                    "v2Scale": [
+                      0.47314453125,
+                      0.10107421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Screen_Horizontal_Occluder",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.21240234375,
+                      0.62744140625
+                    ],
+                    "v2Scale": [
+                      0.19677734375,
+                      0.21728515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Misc_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8427734375,
+                      0.5458984375
+                    ],
+                    "v2Scale": [
+                      0.150390625,
+                      0.1142578125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Bombs_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.65380859375,
+                      0.5400390625
+                    ],
+                    "v2Scale": [
+                      0.16357421875,
+                      0.1201171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Suit_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4365234375,
+                      0.611328125
+                    ],
+                    "v2Scale": [
+                      0.15869140625,
+                      0.0263671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Aeion_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.01025390625,
+                      0.7431640625
+                    ],
+                    "v2Scale": [
+                      0.20068359375,
+                      0.1025390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Missile_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8515625,
+                      0.4375
+                    ],
+                    "v2Scale": [
+                      0.13525390625,
+                      0.00146484375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Beams_Deco",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.85205078125,
+                      0.4453125
+                    ],
+                    "v2Scale": [
+                      0.134765625,
+                      0.107421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Misc",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.43505859375,
+                      0.46923828125
+                    ],
+                    "v2Scale": [
+                      0.2099609375,
+                      0.13671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Bombs",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.47509765625,
+                      0.37548828125
+                    ],
+                    "v2Scale": [
+                      0.169921875,
+                      0.08447265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Suit",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.82958984375,
+                      0.375
+                    ],
+                    "v2Scale": [
+                      0.16259765625,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Aeion",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.64892578125,
+                      0.45166015625
+                    ],
+                    "v2Scale": [
+                      0.1884765625,
+                      0.0859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Missile",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6513671875,
+                      0.375
+                    ],
+                    "v2Scale": [
+                      0.16943359375,
+                      0.07177734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Panel_Beams",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.21337890625,
+                      0.50390625
+                    ],
+                    "v2Scale": [
+                      0.21826171875,
+                      0.10498046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Fragments_3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.9384765625
+                    ],
+                    "v2Scale": [
+                      0.0302734375,
+                      0.0419921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Fragments_2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.04248046875,
+                      0.9384765625
+                    ],
+                    "v2Scale": [
+                      0.0302734375,
+                      0.0419921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Fragments_1",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.111328125,
+                      0.9384765625
+                    ],
+                    "v2Scale": [
+                      0.0302734375,
+                      0.0419921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Fragments_0",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.07666015625,
+                      0.9384765625
+                    ],
+                    "v2Scale": [
+                      0.0302734375,
+                      0.0419921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_Samus_Deco_Stats",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3515625,
+                      0.4189453125
+                    ],
+                    "v2Scale": [
+                      0.11474609375,
+                      0.0224609375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_GameMenu_Header_center",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.25,
+                      0.9033203125
+                    ],
+                    "v2Scale": [
+                      0.27099609375,
+                      0.03369140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_GameMenu_Header_R",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.14208984375,
+                      0.96484375
+                    ],
+                    "v2Scale": [
+                      0.2509765625,
+                      0.02294921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Widget_GameMenu_Header_L",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.142578125,
+                      0.93896484375
+                    ],
+                    "v2Scale": [
+                      0.2509765625,
+                      0.02294921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Samus_Inspector",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.52978515625,
+                      0.1669921875
+                    ],
+                    "v2Scale": [
+                      0.46923828125,
+                      0.2021484375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button_Long_Focus",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4189453125,
+                      0.68994140625
+                    ],
+                    "v2Scale": [
+                      0.57373046875,
+                      0.02880859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button_Long",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.42236328125,
+                      0.66162109375
+                    ],
+                    "v2Scale": [
+                      0.56982421875,
+                      0.02880859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button_Boxed_Focus",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.74365234375,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.25537109375,
+                      0.107421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button_Boxed",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.48046875,
+                      0.0009765625
+                    ],
+                    "v2Scale": [
+                      0.25537109375,
+                      0.107421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Small_Popup",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.52978515625,
+                      0.111328125
+                    ],
+                    "v2Scale": [
+                      0.46923828125,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SLIDER_HANDLE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.55810546875,
+                      0.64453125
+                    ],
+                    "v2Scale": [
+                      0.0107421875,
+                      0.0126953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SLIDER_BAR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4130859375,
+                      0.64453125
+                    ],
+                    "v2Scale": [
+                      0.14208984375,
+                      0.0126953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.09375,
+                      0.87451171875
+                    ],
+                    "v2Scale": [
+                      0.42724609375,
+                      0.0263671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Button_Focus",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.09375,
+                      0.84716796875
+                    ],
+                    "v2Scale": [
+                      0.42724609375,
+                      0.0263671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DIFFICULTYSELECTOR_DESCRIPTOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.39501953125,
+                      0.94970703125
+                    ],
+                    "v2Scale": [
+                      0.60302734375,
+                      0.02587890625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Savegame_Slot_Focus",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.412109375,
+                      0.78369140625
+                    ],
+                    "v2Scale": [
+                      0.5859375,
+                      0.06201171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Panel_Savegame_Slot",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.412109375,
+                      0.71923828125
+                    ],
+                    "v2Scale": [
+                      0.5859375,
+                      0.06201171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ICON_SAMUS",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.494140625,
+                      0.11279296875
+                    ],
+                    "v2Scale": [
+                      0.033203125,
+                      0.03125
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

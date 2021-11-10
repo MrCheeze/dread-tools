@@ -1,0 +1,86 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "platformcavewater",
+      "sRootNode": "Mixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Fan",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "platformcavewaterb_fan_SKN",
+              "platformcavewaterb_FanInner_SKN",
+              "platformcavewaterb_FanOuter_SKN",
+              "platformcavewaterb_SpikesBack_SKN",
+              "platformcavewaterb_SpikesFront_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [
+        {
+          "Class": "animtree::CBoneControlDef",
+          "Data": {
+            "sName": "Platform",
+            "sBone": "platformcavewaterb_platform_SKN",
+            "eSpace": "LOCAL",
+            "bAdditive": false,
+            "bApplyTranslation": true,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0
+          }
+        },
+        {
+          "Class": "animtree::CBoneControlDef",
+          "Data": {
+            "sName": "Flotation",
+            "sBone": "platformcavewaterb_platform_SKN",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": false,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0
+          }
+        }
+      ],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "Mixer"
+        },
+        {
+          "pNode": "Fan",
+          "pParent": "Mixer"
+        }
+      ]
+    }
+  }
+}

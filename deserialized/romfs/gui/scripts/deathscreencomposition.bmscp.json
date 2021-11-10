@@ -1,0 +1,554 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "deathscreencomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "Enabled": true,
+      "Visible": true,
+      "sSkinName": "deathscreencomposition",
+      "sChildToFocus": "ListComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "Background",
+            "X": 0.0,
+            "Y": 0.0,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "Autosize": true,
+            "SpriteSheetItem": "WhiteSquare",
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "ColorR": 0.0,
+            "ColorG": 0.0,
+            "ColorB": 0.0,
+            "ColorA": 1.0,
+            "FlipX": false,
+            "FlipY": false
+          }
+        },
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "sID": "Content",
+            "X": 0.0,
+            "Y": 0.0,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "sChildToFocus": "",
+            "lstChildren": [
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "CLabel-Title",
+                  "X": 0.10781250149011612,
+                  "Y": 0.2577778100967407,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.784375011920929,
+                  "SizeY": 0.11044439673423767,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "Text": "#GUI_DEATH_TITLE_GAMEOVER",
+                  "Font": "digital_big",
+                  "TextAlignment": "Centered",
+                  "Autosize": true,
+                  "ColorR": 1.0,
+                  "ColorG": 1.0,
+                  "ColorB": 1.0,
+                  "ColorA": 1.0,
+                  "TextVerticalAlignment": "Centered"
+                }
+              },
+              {
+                "Class": "GUI::CList",
+                "Data": {
+                  "sID": "ListComposition",
+                  "X": 0.21875,
+                  "Y": 0.6366667151451111,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.546875,
+                  "SizeY": 0.15333330631256104,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "sChildToFocus": "",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CButton",
+                      "Data": {
+                        "sID": "Button-Continue",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.546875,
+                        "SizeY": 0.05999999865889549,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "sTopNeighbour": "",
+                        "sRightNeighbour": "",
+                        "sBottomNeighbour": "",
+                        "sLeftNeighbour": "",
+                        "lstChildren": [
+                          {
+                            "Class": "GUI::CSprite",
+                            "Data": {
+                              "sID": "Background",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.05999999865889549,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "Autosize": false,
+                              "SpriteSheetItem": "WhiteSquare",
+                              "BlendMode": "AlphaBlend",
+                              "USelMode": "Scale",
+                              "VSelMode": "Scale",
+                              "ColorR": 0.5,
+                              "ColorG": 0.5,
+                              "ColorB": 0.5,
+                              "ColorA": 1.0,
+                              "FlipX": false,
+                              "FlipY": false
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectContainer",
+                            "Data": {
+                              "sID": "LineT",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.003333332948386669,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "sChildToFocus": "",
+                              "lstChildren": [
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTR",
+                                    "X": 0.2731249928474426,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": false,
+                                    "FlipY": false
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTL",
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": true,
+                                    "FlipY": false
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectContainer",
+                            "Data": {
+                              "sID": "LineB",
+                              "X": 0.0,
+                              "Y": 0.057777781039476395,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.003333332948386669,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "sChildToFocus": "",
+                              "lstChildren": [
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTR",
+                                    "X": 0.2731249928474426,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": false,
+                                    "FlipY": false
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTL",
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": true,
+                                    "FlipY": false
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "Class": "GUI::CLabel",
+                            "Data": {
+                              "sID": "Label",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.05999999865889549,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "Text": "#GUI_DEATH_TITLE_CONTINUE",
+                              "Font": "digital_medium",
+                              "TextAlignment": "Centered",
+                              "Autosize": false,
+                              "ColorR": 0.7058823704719543,
+                              "ColorG": 0.9411764740943909,
+                              "ColorB": 0.9725490212440491,
+                              "ColorA": 1.0,
+                              "TextVerticalAlignment": "Centered"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "Class": "GUI::CButton",
+                      "Data": {
+                        "sID": "Button-Return",
+                        "X": 0.0,
+                        "Y": 0.08500000089406967,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.546875,
+                        "SizeY": 0.05999999865889549,
+                        "Enabled": true,
+                        "Visible": true,
+                        "sSkinName": "",
+                        "sTopNeighbour": "",
+                        "sRightNeighbour": "",
+                        "sBottomNeighbour": "",
+                        "sLeftNeighbour": "",
+                        "lstChildren": [
+                          {
+                            "Class": "GUI::CSprite",
+                            "Data": {
+                              "sID": "Background",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.05999999865889549,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "Autosize": false,
+                              "SpriteSheetItem": "WhiteSquare",
+                              "BlendMode": "AlphaBlend",
+                              "USelMode": "Scale",
+                              "VSelMode": "Scale",
+                              "ColorR": 0.5,
+                              "ColorG": 0.5,
+                              "ColorB": 0.5,
+                              "ColorA": 1.0,
+                              "FlipX": false,
+                              "FlipY": false
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectContainer",
+                            "Data": {
+                              "sID": "LineT",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.003333332948386669,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "sChildToFocus": "",
+                              "lstChildren": [
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTR",
+                                    "X": 0.2731249928474426,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": false,
+                                    "FlipY": false
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTL",
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": true,
+                                    "FlipY": false
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectContainer",
+                            "Data": {
+                              "sID": "LineB",
+                              "X": 0.0,
+                              "Y": 0.057777781039476395,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.003333332948386669,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "sChildToFocus": "",
+                              "lstChildren": [
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTR",
+                                    "X": 0.2731249928474426,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": false,
+                                    "FlipY": false
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CSprite",
+                                  "Data": {
+                                    "sID": "LineTL",
+                                    "X": 0.0,
+                                    "Y": 0.0,
+                                    "ScaleX": 1.0,
+                                    "ScaleY": 1.0,
+                                    "Angle": 0.0,
+                                    "SizeX": 0.2731249928474426,
+                                    "SizeY": 0.003333332948386669,
+                                    "Enabled": true,
+                                    "Visible": true,
+                                    "sSkinName": "",
+                                    "Autosize": false,
+                                    "SpriteSheetItem": "WhiteSquare",
+                                    "BlendMode": "AlphaBlend",
+                                    "USelMode": "Scale",
+                                    "VSelMode": "Scale",
+                                    "ColorR": 1.0,
+                                    "ColorG": 1.0,
+                                    "ColorB": 1.0,
+                                    "ColorA": 1.0,
+                                    "FlipX": true,
+                                    "FlipY": false
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "Class": "GUI::CLabel",
+                            "Data": {
+                              "sID": "Label",
+                              "X": 0.0,
+                              "Y": 0.0,
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0,
+                              "Angle": 0.0,
+                              "SizeX": 0.546875,
+                              "SizeY": 0.05999999865889549,
+                              "Enabled": true,
+                              "Visible": true,
+                              "sSkinName": "",
+                              "Text": "#GUI_DEATH_TITLE_QUIT",
+                              "Font": "digital_medium",
+                              "TextAlignment": "Centered",
+                              "Autosize": false,
+                              "ColorR": 0.7058823704719543,
+                              "ColorG": 0.9411764740943909,
+                              "ColorB": 0.9725490212440491,
+                              "ColorA": 1.0,
+                              "TextVerticalAlignment": "Centered"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

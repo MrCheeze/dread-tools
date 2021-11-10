@@ -1,0 +1,53 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#accesspoint#lightsdef#light": {
+            "sPath": "actors#props#accesspoint#lightsdef#light",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "omnifull01",
+                "sNode": "DC_Root",
+                "vPosOffset": [
+                  0.0,
+                  50.0,
+                  -1000.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.550000011920929,
+                  0.75,
+                  0.8500000238418579,
+                  0.0
+                ],
+                "vAtt": [
+                  300.0,
+                  3000.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 1.100000023841858,
+                "fIntensity": 200.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

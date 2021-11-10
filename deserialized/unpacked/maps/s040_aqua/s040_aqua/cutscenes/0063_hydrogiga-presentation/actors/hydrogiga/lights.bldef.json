@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0063_hydrogiga-presentation#actors#hydrogiga#lights": {
+            "sPath": "cutscenes#0063_hydrogiga-presentation#actors#hydrogiga#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "pistil",
+                "sNode": "DC_FX_WeakPoint",
+                "vPosOffset": [
+                  125.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.10000000149011612,
+                  0.6000000238418579,
+                  1.0
+                ],
+                "vAtt": [
+                  0.0,
+                  100.0,
+                  0.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

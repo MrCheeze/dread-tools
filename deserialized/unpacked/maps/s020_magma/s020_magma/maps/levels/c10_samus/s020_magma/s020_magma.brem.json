@@ -1,0 +1,267 @@
+{
+  "FileType": "CEnvironmentMusicPresets",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pMusicPresets": {
+          "Class": "CEnvironmentMusicPresets",
+          "Data": {
+            "dicPresets": {
+              "s_magma_001": {
+                "sID": "s_magma_001",
+                "tPreset": {
+                  "sAlias": "s_magma_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_magma_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_magma_002": {
+                "sID": "s_magma_002",
+                "tPreset": {
+                  "sAlias": "s_magma_002",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_magma_002.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.100000023841858,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_magma_cooldown": {
+                "sID": "s_magma_cooldown",
+                "tPreset": {
+                  "sAlias": "s_magma_cooldown",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Magma_Cooldown.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "m_inside_emmy_zone_defeated": {
+                "sID": "m_inside_emmy_zone_defeated",
+                "tPreset": {
+                  "sAlias": "m_inside_emmy_zone_defeated",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Emmy_Defeated_Magma.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 1.5,
+                      "fVol": 0.800000011920929,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "None",
+                "tMusicTransitions": []
+              },
+              "m_boss_cooldown_x_presentation": {
+                "sID": "m_boss_cooldown_x_presentation",
+                "tPreset": {
+                  "sAlias": "m_boss_cooldown_x_presentation",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Boss_Cooldown-X_Presentation.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 0.10000000149011612,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 0.800000011920929
+                    }
+                  ]
+                },
+                "ePlayFlag": "None",
+                "tMusicTransitions": []
+              },
+              "m_boss_cooldown_x_combat": {
+                "sID": "m_boss_cooldown_x_combat",
+                "tPreset": {
+                  "sAlias": "m_boss_cooldown_x_combat",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Boss_Cooldown-X.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 0.10000000149011612,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.2000000476837158,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 2.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "None",
+                "tMusicTransitions": []
+              },
+              "m_boss_kraid_presentation": {
+                "sID": "m_boss_kraid_presentation",
+                "tPreset": {
+                  "sAlias": "m_boss_kraid_presentation",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Boss_Kraid_Presentation.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 0.10000000149011612,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 2.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "None",
+                "tMusicTransitions": []
+              }
+            },
+            "dicBossPresets": {
+              "kraid": {
+                "sBoss": "kraid",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Kraid_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 0.10000000149011612,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "iStartPos": 0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 1.0
+                            },
+                            "vFadeOuts": []
+                          },
+                          {
+                            "oTrack": {
+                              "iTrack": 1,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Kraid_002.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 0.10000000149011612,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "iStartPos": 0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 1.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

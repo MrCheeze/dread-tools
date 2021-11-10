@@ -1,0 +1,134 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "ER_THUMBNAILS": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/er_thumbnails.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 512,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_OTHERM",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.033203125,
+                      0.07421875
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_DREAD",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2666015625,
+                      0.07421875
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_FUSION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5,
+                      0.07421875
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_SAMUSRETURNS",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7333984375,
+                      0.07421875
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_SUPERMETROID",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.033203125,
+                      0.376953125
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_ZEROMISSION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2666015625,
+                      0.376953125
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_FINALIMAGE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5,
+                      0.376953125
+                    ],
+                    "v2Scale": [
+                      0.21484375,
+                      0.240234375
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

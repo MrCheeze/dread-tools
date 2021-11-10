@@ -1,0 +1,3145 @@
+{
+  "FileType": "CGameBlackboard",
+  "Unk": 65539,
+  "RealFileType": "CGameBlackboard",
+  "Root": {
+    "hashSections": {
+      "s010_cave": {
+        "Class": "CBlackboard::CSection",
+        "Data": {
+          "dctProps": {
+            "Door056 (CU):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door017 (CU)_000:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "NAVMESH_OCCLUDERS": {
+              "Class": "TEnabledOccluderCollidersMap",
+              "Data": {
+                "ev_chainreaction_cv_006": [
+                  "collision_base"
+                ],
+                "breakablecave019": [
+                  "collision018"
+                ],
+                "PRP_DB_CV_008": [
+                  "collision2",
+                  "collision_hit"
+                ],
+                "LE_GateProtoEmmy": [],
+                "PRP_DB_CV_003": [],
+                "PRP_DB_CV_007": [
+                  "collision003",
+                  "collision_hit"
+                ],
+                "db_reg_cv_023": [
+                  "collision"
+                ],
+                "PRP_DB_CV_010": [
+                  "collision",
+                  "collision_hit"
+                ],
+                "PRP_CV_PlatformCaveWater_B": [
+                  "navmesh_1m"
+                ],
+                "ev_chainreaction_cv_001_a": [],
+                "trap_rot_cv_003": [
+                  "collision_closed"
+                ],
+                "PRP_CV_PlatformMagnet5Down": [
+                  "collision"
+                ],
+                "platformtrapgrapple5right": [
+                  "collision_close",
+                  "collision_joint"
+                ],
+                "PRP_DB_CV_014": [
+                  "collision012_DEBRIS"
+                ],
+                "PRP_CV_PlatformMagnet4Down": [
+                  "collision"
+                ],
+                "db_reg_cv_021": [
+                  "collision",
+                  "collision_hit"
+                ],
+                "PRP_CV_PlatformMagnet3Left": [
+                  "collision"
+                ],
+                "breakablecave017": [
+                  "collision007_DEBRIS"
+                ],
+                "ev_chainreaction_cv_012": [],
+                "PRP_DB_CV_020": [
+                  "collision020",
+                  "collision_hit"
+                ],
+                "block_slide_reg_001": [
+                  "trapblockfinal"
+                ],
+                "ev_chainreaction_cv_001": [],
+                "ev_chainreaction_cv_002": [
+                  "collision_base"
+                ],
+                "ev_chainreaction_cv_003": [
+                  "collision_base"
+                ],
+                "ev_chainreaction_cv_004": [
+                  "collision_base"
+                ],
+                "ev_chainreaction_cv_005": [
+                  "collision_base"
+                ],
+                "trap_rot_cv_001": [
+                  "collision_closed"
+                ],
+                "box_weight_cv_001": [
+                  "collision"
+                ],
+                "ev_chainreaction_cv_009": [
+                  "collision"
+                ],
+                "ev_chainreaction_cv_010": [
+                  "collision"
+                ],
+                "ev_chainreaction_cv_004_a": [],
+                "ev_chainreaction_cv_010_b": [],
+                "ev_chainreaction_cv_001_b": [],
+                "ev_chainreaction_cv_009_B": [],
+                "ev_chainreaction_cv_007": [
+                  "collision"
+                ],
+                "box_wide_cv_001": [
+                  "collision_box"
+                ],
+                "db_dif_cv_002": [
+                  "collision",
+                  "collision_hit"
+                ],
+                "db_reg_cv_022": []
+              }
+            },
+            "Door002 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door006 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door007 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door010 (CL-PW,OP):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door010 (CL-PW,OP):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door012 (PW-PW, MISSILE):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door056 (CU):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door014 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door015 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door016 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door017 (CU)_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door018 (CG-CL,OP):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door018 (CG-CL,OP):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door021 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door022 (PW-PW) :DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door024 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door026 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door029 (CG-CL,OP):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door030 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door033 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door034 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door035 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door037 (CG-CG):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door059 (CL-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door059 (CL-PW):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door041 (TH):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "Door041 (TH):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door041 (TH):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "NumTanksPickedUpMax": {
+              "Class": "int",
+              "Data": 29
+            },
+            "Door044 (TH):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "Door044 (TH):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door044 (TH):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door045 (TH):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "Door045 (TH):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door045 (TH):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door046 (PW-CL,OP):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door046 (PW-CL,OP):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "PRP_DB_CV_008:WATERCHANGE:OriginInitH": {
+              "Class": "float",
+              "Data": 1175.0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:OriginInitY": {
+              "Class": "float",
+              "Data": -2125.0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TROriginIdx": {
+              "Class": "unsigned",
+              "Data": 0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TLOriginIdx": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TargetInitH": {
+              "Class": "float",
+              "Data": 275.0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TargetInitY": {
+              "Class": "float",
+              "Data": -2725.0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TRTargetIdx": {
+              "Class": "unsigned",
+              "Data": 0
+            },
+            "PRP_DB_CV_008:WATERCHANGE:TLTargetIdx": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "PRP_DB_CV_003:WATERCHANGE:OriginInitH": {
+              "Class": "float",
+              "Data": 175.0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:OriginInitY": {
+              "Class": "float",
+              "Data": -2425.0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TROriginIdx": {
+              "Class": "unsigned",
+              "Data": 0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TLOriginIdx": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TargetInitH": {
+              "Class": "float",
+              "Data": 175.0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TargetInitY": {
+              "Class": "float",
+              "Data": -2625.0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TRTargetIdx": {
+              "Class": "unsigned",
+              "Data": 0
+            },
+            "PRP_DB_CV_003:WATERCHANGE:TLTargetIdx": {
+              "Class": "unsigned",
+              "Data": 1
+            },
+            "Door049 (PR-PR):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door057 (TH):DOOR:ControlledByUsable": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door045 (TH):DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door044 (TH):DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door041 (TH):DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door050 (TH):DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door050 (TH):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "Door057 (TH):DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door057 (TH):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "trap_thermal_horizontal_000:DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "trap_thermal_horizontal_000:DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "trap_thermal_horizontal_001:DOOR:ChangeWhenVisible": {
+              "Class": "bool",
+              "Data": false
+            },
+            "trap_thermal_horizontal_001:DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Closed"
+            },
+            "HEAT_ROOMS": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": [
+                "env_heat_gen_001_002",
+                "env_heat_gen_001_001",
+                "env_heat_gen_001_003",
+                "env_heat_gen_001_004"
+              ]
+            },
+            "Item_MissileTank004:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Item_MissileTank006:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door052:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door057 (TH):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door057 (TH):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "WATER_VOLUMES": {
+              "Class": "base::global::CRntSmallDictionary<base::global::CStrId, base::spatial::CAABox2D>",
+              "Data": {
+                "waterzone_001": {
+                  "Min": [
+                    -23550.0,
+                    -5100.0
+                  ],
+                  "Max": [
+                    -19850.0,
+                    -4425.0
+                  ]
+                },
+                "waterzone_002": {
+                  "Min": [
+                    -21600.001953125,
+                    -3750.0
+                  ],
+                  "Max": [
+                    -20100.0,
+                    -3325.0
+                  ]
+                },
+                "PRP_CV_watercave08a": {
+                  "Min": [
+                    -16100.0,
+                    -3300.0
+                  ],
+                  "Max": [
+                    -10710.0,
+                    -2125.0
+                  ]
+                },
+                "PRP_CV_watercave01b": {
+                  "Min": [
+                    8900.0,
+                    -2800.0
+                  ],
+                  "Max": [
+                    10100.0,
+                    -2625.0
+                  ]
+                },
+                "waterzone_003": {
+                  "Min": [
+                    -6100.0,
+                    -3100.0
+                  ],
+                  "Max": [
+                    -5700.0,
+                    -2850.0
+                  ]
+                },
+                "PRP_CV_watercave07": {
+                  "Min": [
+                    9800.0,
+                    100.0
+                  ],
+                  "Max": [
+                    10800.0,
+                    375.0
+                  ]
+                },
+                "PRP_CV_watercave10": {
+                  "Min": [
+                    -4800.0,
+                    -7000.0
+                  ],
+                  "Max": [
+                    -4100.0,
+                    -6725.0
+                  ]
+                },
+                "PRP_CV_watercave10_001": {
+                  "Min": [
+                    -2300.0,
+                    -7000.0
+                  ],
+                  "Max": [
+                    -1600.0,
+                    -6725.0
+                  ]
+                },
+                "waterzone_000": {
+                  "Min": [
+                    -23300.001953125,
+                    -3750.0
+                  ],
+                  "Max": [
+                    -21800.0,
+                    -3425.0
+                  ]
+                },
+                "PRP_CV_watercave09": {
+                  "Min": [
+                    -12000.0,
+                    500.0
+                  ],
+                  "Max": [
+                    -8300.0,
+                    1075.0
+                  ]
+                }
+              }
+            },
+            "Door060:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Item_MissileTank009:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door058 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "item_missiletank_001:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "FREEZE_ROOMS": {
+              "Class": "base::global::CRntVector<base::global::CStrId>",
+              "Data": [
+                "env_frozen_gen_001_000",
+                "env_frozen_gen_001_001",
+                "env_frozen_gen_001_002"
+              ]
+            },
+            "doorclosedpower_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "doorclosedpower_000:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "DoorFrame_001:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_004:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_005:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_006:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_007:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_009:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_010:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_011:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_012:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_014:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorPowerPower_001:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_015:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_016:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "item_missiletank_004:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "LAVA_VOLUMES": {
+              "Class": "base::global::CRntSmallDictionary<base::global::CStrId, base::spatial::CAABox2D>",
+              "Data": {
+                "lavazone_003": {
+                  "Min": [
+                    20600.0,
+                    2400.0
+                  ],
+                  "Max": [
+                    24100.0,
+                    2675.0
+                  ]
+                },
+                "lavazone_001": {
+                  "Min": [
+                    -7600.0,
+                    8100.0
+                  ],
+                  "Max": [
+                    -6300.0,
+                    8375.0
+                  ]
+                },
+                "lavazone_002": {
+                  "Min": [
+                    -7650.0,
+                    3900.0
+                  ],
+                  "Max": [
+                    -6150.0,
+                    4175.0
+                  ]
+                }
+              }
+            },
+            "doorclosedgrapple_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door062 (PW-PW, Special):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door057:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door028:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door028:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "doorpresenceframe_001:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door062:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door021 (PW-PW)_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door053:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door054:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door056:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door069:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door058:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door059:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door022 (PW-PW) _000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "trap_thermal_horizontal_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "trap_thermal_horizontal_000:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "trap_thermal_horizontal_001:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "trap_thermal_horizontal_001:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "doorpresenceframe_000:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door064:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door065:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door066:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door067:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Item_MissileTank014:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Item_MissileTank016:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "DoorFrame_017:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "item_missiletank_005:PICKABLE:Unveiled": {
+              "Class": "bool",
+              "Data": true
+            },
+            "doorshutter_000:DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "doorshutter_000:DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door050 (TH):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door050 (TH):DOOR:StayOpened": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door054 (PW-PW):DOOR:FrozenDuringCooldown": {
+              "Class": "bool",
+              "Data": true
+            },
+            "LE_ScorpiusMagnetLeft:HUSK:Breakable": {
+              "Class": "bool",
+              "Data": false
+            },
+            "LE_ScorpiusMagnetRight:HUSK:Breakable": {
+              "Class": "bool",
+              "Data": false
+            },
+            "OCCLUDER_VIGNETTES": {
+              "Class": "base::global::CRntSmallDictionary<base::global::CStrId, bool>",
+              "Data": {
+                "sg_vignette004": false,
+                "sg_vignette009": false,
+                "sg_vignette010": true,
+                "sg_vignette002": false,
+                "sg_vignette001": false,
+                "sg_vignette007": false,
+                "sg_vignette006": false,
+                "sg_vignette005": false,
+                "sg_vignette_CU": false,
+                "sg_vignette008": false,
+                "sg_vignette_PreCU": false
+              }
+            },
+            "breakabletilegroup_064:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MINIMAP_TILES": {
+              "Class": "CBreakableTileGroupComponent::TActorTileStatesMap",
+              "Data": {
+                "breakabletilegroup_064": [
+                  {
+                    "fX": 16800.0,
+                    "fY": -1400.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_035": [
+                  {
+                    "fX": -10300.0,
+                    "fY": 600.0,
+                    "eTileType": "MISSILE",
+                    "uState": 2
+                  }
+                ],
+                "breakabletilegroup_003": [
+                  {
+                    "fX": -14300.0,
+                    "fY": 9400.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -14200.0,
+                    "fY": 9400.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_004": [
+                  {
+                    "fX": 7900.0,
+                    "fY": 3600.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 7900.0,
+                    "fY": 3700.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_005": [
+                  {
+                    "fX": -7200.0,
+                    "fY": -8700.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_006": [
+                  {
+                    "fX": -26200.0,
+                    "fY": -1600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26200.0,
+                    "fY": -1700.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26200.0,
+                    "fY": -1500.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26200.0,
+                    "fY": -1800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_007": [
+                  {
+                    "fX": -16500.0,
+                    "fY": -5200.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -16500.0,
+                    "fY": -5100.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_008": [
+                  {
+                    "fX": -10900.0,
+                    "fY": -8300.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10900.0,
+                    "fY": -8400.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_009": [
+                  {
+                    "fX": -10200.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10300.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10100.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_010": [
+                  {
+                    "fX": -11400.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11400.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11400.0,
+                    "fY": -6900.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11300.0,
+                    "fY": -6900.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11300.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11300.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_011": [
+                  {
+                    "fX": -13300.0,
+                    "fY": -7600.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_012": [
+                  {
+                    "fX": -12800.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12700.0,
+                    "fY": -6900.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12700.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12700.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12600.0,
+                    "fY": -6900.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12600.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12600.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12800.0,
+                    "fY": -6900.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -12800.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_013": [
+                  {
+                    "fX": -14900.0,
+                    "fY": -7000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -14900.0,
+                    "fY": -7100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -14900.0,
+                    "fY": -7300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -14900.0,
+                    "fY": -7200.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_014": [
+                  {
+                    "fX": -20100.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -20200.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -20300.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -20400.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -20500.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_015": [
+                  {
+                    "fX": -23200.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -23100.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -23000.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -23400.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -23300.0,
+                    "fY": -2300.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_016": [
+                  {
+                    "fX": -21200.0,
+                    "fY": -1900.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -21600.0,
+                    "fY": -1900.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -21500.0,
+                    "fY": -1900.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -21400.0,
+                    "fY": -1900.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -21300.0,
+                    "fY": -1900.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_017": [
+                  {
+                    "fX": -200.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -300.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -400.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -500.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -600.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -700.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -100.0,
+                    "fY": 7200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_018": [
+                  {
+                    "fX": -200.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -300.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -400.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -500.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -600.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -700.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -100.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_019": [
+                  {
+                    "fX": -100.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -700.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -600.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -400.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -300.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -200.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -500.0,
+                    "fY": 6000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_020": [
+                  {
+                    "fX": -700.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -600.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -500.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -100.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -200.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -400.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -300.0,
+                    "fY": 5400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_021": [
+                  {
+                    "fX": -600.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -500.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -300.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -200.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -100.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -400.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -700.0,
+                    "fY": 4800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_022": [
+                  {
+                    "fX": 9400.0,
+                    "fY": 3800.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_023": [
+                  {
+                    "fX": 8800.0,
+                    "fY": 3800.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_024": [
+                  {
+                    "fX": 6600.0,
+                    "fY": 3700.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_025": [
+                  {
+                    "fX": -8300.0,
+                    "fY": 2100.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_027": [
+                  {
+                    "fX": -10900.0,
+                    "fY": 1300.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_028": [
+                  {
+                    "fX": -12700.0,
+                    "fY": 2300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_029": [
+                  {
+                    "fX": -13600.0,
+                    "fY": 2300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_030": [
+                  {
+                    "fX": -11700.0,
+                    "fY": 2000.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11600.0,
+                    "fY": 2000.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11500.0,
+                    "fY": 2000.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_031": [
+                  {
+                    "fX": -12900.0,
+                    "fY": 9200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -13000.0,
+                    "fY": 9200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -13100.0,
+                    "fY": 9200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_032": [
+                  {
+                    "fX": -6700.0,
+                    "fY": 8900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -6600.0,
+                    "fY": 8900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -6500.0,
+                    "fY": 8900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -6400.0,
+                    "fY": 8900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_033": [
+                  {
+                    "fX": -10300.0,
+                    "fY": 8100.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10200.0,
+                    "fY": 8100.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10300.0,
+                    "fY": 8000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10200.0,
+                    "fY": 8000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_034": [
+                  {
+                    "fX": -10200.0,
+                    "fY": 8800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -10300.0,
+                    "fY": 8800.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_063": [
+                  {
+                    "fX": 7800.0,
+                    "fY": 3800.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_036": [
+                  {
+                    "fX": -11700.0,
+                    "fY": 7300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11800.0,
+                    "fY": 7300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_037": [
+                  {
+                    "fX": -9500.0,
+                    "fY": 6600.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_038": [
+                  {
+                    "fX": 1100.0,
+                    "fY": 3900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1000.0,
+                    "fY": 3900.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_039": [
+                  {
+                    "fX": 2200.0,
+                    "fY": 4300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2300.0,
+                    "fY": 4300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2200.0,
+                    "fY": 4200.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2300.0,
+                    "fY": 4200.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2200.0,
+                    "fY": 4100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2300.0,
+                    "fY": 4100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2200.0,
+                    "fY": 4000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 2300.0,
+                    "fY": 4000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_040": [
+                  {
+                    "fX": 1400.0,
+                    "fY": 4300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1500.0,
+                    "fY": 4300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1400.0,
+                    "fY": 4200.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1500.0,
+                    "fY": 4200.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1400.0,
+                    "fY": 4100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1500.0,
+                    "fY": 4100.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1400.0,
+                    "fY": 4000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 1500.0,
+                    "fY": 4000.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_041": [
+                  {
+                    "fX": -9200.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -9300.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -9400.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -9500.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -9600.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -9700.0,
+                    "fY": -8700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_042": [
+                  {
+                    "fX": -6500.0,
+                    "fY": -8700.0,
+                    "eTileType": "POWERBOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_002": [
+                  {
+                    "fX": -27200.0,
+                    "fY": -1800.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -27200.0,
+                    "fY": -1700.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -27200.0,
+                    "fY": -1600.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -27200.0,
+                    "fY": -1500.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_044": [
+                  {
+                    "fX": -4400.0,
+                    "fY": 2200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  },
+                  {
+                    "fX": -4400.0,
+                    "fY": 2300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  },
+                  {
+                    "fX": -4400.0,
+                    "fY": 2500.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -4400.0,
+                    "fY": 2400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_045": [
+                  {
+                    "fX": -3300.0,
+                    "fY": 2200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  },
+                  {
+                    "fX": -3300.0,
+                    "fY": 2500.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -3300.0,
+                    "fY": 2300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  },
+                  {
+                    "fX": -3300.0,
+                    "fY": 2400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_046": [
+                  {
+                    "fX": -2200.0,
+                    "fY": 2300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  },
+                  {
+                    "fX": -2200.0,
+                    "fY": 2400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -2200.0,
+                    "fY": 2500.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -2200.0,
+                    "fY": 2200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_047": [
+                  {
+                    "fX": 6400.0,
+                    "fY": 100.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 6400.0,
+                    "fY": 0.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 6400.0,
+                    "fY": -100.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 6400.0,
+                    "fY": -200.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 6400.0,
+                    "fY": -300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_048": [
+                  {
+                    "fX": 11600.0,
+                    "fY": -3400.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_049": [
+                  {
+                    "fX": 19200.0,
+                    "fY": 1600.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_050": [
+                  {
+                    "fX": 14500.0,
+                    "fY": 4000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 14400.0,
+                    "fY": 4000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 14300.0,
+                    "fY": 4000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 14200.0,
+                    "fY": 4000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 14100.0,
+                    "fY": 4000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_000": [
+                  {
+                    "fX": -17000.0,
+                    "fY": 9700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -16900.0,
+                    "fY": 9700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -16800.0,
+                    "fY": 9700.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_052": [
+                  {
+                    "fX": 5900.0,
+                    "fY": -7300.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  },
+                  {
+                    "fX": 5900.0,
+                    "fY": -7200.0,
+                    "eTileType": "MISSILE",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_053": [
+                  {
+                    "fX": 5100.0,
+                    "fY": -7400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_054": [
+                  {
+                    "fX": 3700.0,
+                    "fY": -8100.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_055": [
+                  {
+                    "fX": 3200.0,
+                    "fY": -8400.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_056": [
+                  {
+                    "fX": 3900.0,
+                    "fY": -7400.0,
+                    "eTileType": "MISSILE",
+                    "uState": 1
+                  }
+                ],
+                "breakabletilegroup_057": [
+                  {
+                    "fX": -20900.0,
+                    "fY": -3600.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_058": [
+                  {
+                    "fX": -20900.0,
+                    "fY": -2100.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_065": [
+                  {
+                    "fX": -11800.0,
+                    "fY": 4500.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -11700.0,
+                    "fY": 4500.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_060": [
+                  {
+                    "fX": -5300.0,
+                    "fY": 1000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -5200.0,
+                    "fY": 1000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -5100.0,
+                    "fY": 1000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_061": [
+                  {
+                    "fX": -6000.0,
+                    "fY": 1300.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -6000.0,
+                    "fY": 1400.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -6000.0,
+                    "fY": 1500.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -5900.0,
+                    "fY": 1500.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -5800.0,
+                    "fY": 1500.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -5700.0,
+                    "fY": 1500.0,
+                    "eTileType": "SPEEDBOOST",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_062": [
+                  {
+                    "fX": 2300.0,
+                    "fY": 1000.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_001": [
+                  {
+                    "fX": -26700.0,
+                    "fY": -1800.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26700.0,
+                    "fY": -1700.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26700.0,
+                    "fY": -1600.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -26700.0,
+                    "fY": -1500.0,
+                    "eTileType": "SCREWATTACK",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_026": [
+                  {
+                    "fX": -21000.0,
+                    "fY": -4700.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -20900.0,
+                    "fY": -4700.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_043": [
+                  {
+                    "fX": -23600.0,
+                    "fY": -2300.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  },
+                  {
+                    "fX": -23600.0,
+                    "fY": -2200.0,
+                    "eTileType": "WEIGHT",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_051": [
+                  {
+                    "fX": 5100.0,
+                    "fY": -7300.0,
+                    "eTileType": "BOMB",
+                    "uState": 1
+                  },
+                  {
+                    "fX": 5100.0,
+                    "fY": -7200.0,
+                    "eTileType": "BOMB",
+                    "uState": 0
+                  }
+                ],
+                "breakabletilegroup_059": [
+                  {
+                    "fX": -10800.0,
+                    "fY": 1300.0,
+                    "eTileType": "POWERBEAM",
+                    "uState": 0
+                  }
+                ]
+              }
+            },
+            "breakabletilegroup_035:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_003:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_004:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_005:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_006:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_007:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_008:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_009:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_010:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_011:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_012:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_013:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_014:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_015:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_016:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_017:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_018:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_019:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_020:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_021:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_022:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_023:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_024:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_025:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_027:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_028:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_029:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_030:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_031:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_032:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_033:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_034:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_063:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_036:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_037:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_038:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_039:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_040:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_041:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_042:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_002:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_044:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_045:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_046:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_047:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_048:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_049:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_050:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_000:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_052:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_053:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_054:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_055:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_056:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_057:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_058:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_065:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_060:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_061:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_062:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_001:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_026:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_043:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_051:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_059:TILEGROUP:FakeHusks": {
+              "Class": "bool",
+              "Data": false
+            },
+            "elevator_with_cutscene_aqua_000:USABLE:Used": {
+              "Class": "bool",
+              "Data": false
+            },
+            "elevator_baselab_000:USABLE:Used": {
+              "Class": "bool",
+              "Data": false
+            },
+            "LE_Elevator_FromMagma:USABLE:Used": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MINIMAP_VISIBILITY": {
+              "Class": "minimapGrid::TMinimapVisMap",
+              "Data": {
+                "2": "226 103@3o5@313 ",
+                "3": "226 4@2o6@2o13@1o6@1o18@2o8@4o37@2o5@313 ",
+                "4": "226 4@2o6@1o22@1o4@1o12@1o11@2o23@4o2@4o11@313 ",
+                "5": "226 4@1o12@7o16@1o12@1o6@2o3@2o16@10o3@4o10@1o313 ",
+                "6": "226 17@7o7@1o20@1o5@4o3@25o7@4o9@1o313 ",
+                "7": "226 4o12@8o6@2o25@4o5@21o13@6o4@1o313 ",
+                "8": "226 4o4@2o6@17o10@6o8@4o7@14o19@3o7@313 ",
+                "9": "226 38o5@6o7@5o8@12o30@313 ",
+                "10": "226 4@46o5@5o24@3o24@313 ",
+                "11": "226 4@53o27@2o21@2o2@313 ",
+                "12": "226 4@37o29@2 12@2o4@1o1@2o13@1o3@313 ",
+                "13": "226 4@36o29@3 18@1o1@3o9@3o4@313 ",
+                "14": "227 3@35o29@4 17@2o2@3o8@2o5@313 ",
+                "15": "269 24@5 16@2o6@9o6@49 30@234 ",
+                "1": "273 56@3o5@313 ",
+                "0": "275 62@313 ",
+                "16": "298 39@29 50@234 ",
+                "17": "296 41@29 2o40@1o7@234 ",
+                "18": "296 41@29 2o40@1o7@234 ",
+                "19": "296 15@1o25@29 7o4@9o1@1o13@4o11@234 ",
+                "20": "296 29@41 2@6o4@7o2@7o6@5o11@234 ",
+                "21": "296 34@36 3@5o4@6o3@8o4@6o11@234 ",
+                "22": "296 4@4o43@19 4@4o4@5o5@18o10@234 ",
+                "23": "296 2@6o4@2o3@1o33@19 5@4o17@7o8@3o6@234 ",
+                "24": "296 8o43@19 6@3o4@3o11@5o10@2o6@234 ",
+                "25": "296 2@7o75@2o12@3o19@234 ",
+                "26": "296 2@7o75@2o12@2o20@234 ",
+                "27": "296 2@8o75@1o12@2o20@234 ",
+                "28": "296 2@19o1@27o3@2o9@6o3@7o6@1o12@2o8@4o8@234 ",
+                "29": "296 2@19o2@10o9@7o3@17o5@5o20@1o20@234 ",
+                "30": "296 2@18o32@17o38@2o11@234 ",
+                "31": "296 3@16o33@17o38@2o11@234 ",
+                "32": "297 6@8o37@17o2@19 3@1o13@2o11@234 ",
+                "33": "307 41@17o2@19 3@1o12@3o11@234 ",
+                "34": "346 2@17o2@19 16@2o12@234 ",
+                "35": "346 21@19 15@2o13@234 ",
+                "36": "386 6@2o7@12o3@234 ",
+                "37": "386 6@2o1@18o3@234 ",
+                "38": "386 12@10o3@2o3@234 ",
+                "39": "386 25@2o3@234 ",
+                "40": "386 25@2o3@234 ",
+                "41": "386 3@1o21@2o3@234 ",
+                "42": "386 3@16o6@2o3@234 ",
+                "43": "386 3@3o18@2o4@234 ",
+                "44": "386 3@11o10@2o4@234 ",
+                "45": "386 3@10o10@2o5@234 ",
+                "46": "386 3@9o5@7o6@234 ",
+                "47": "386 17@1o12@234 ",
+                "48": "386 30@234 ",
+                "49": "386 15@7o8@234 ",
+                "50": "386 11@11o8@234 ",
+                "51": "386 11@14o7@232 ",
+                "52": "386 10@15o7@232 ",
+                "53": "386 18@7o7@232 ",
+                "54": "386 20@5o7@232 ",
+                "55": "386 20@5o10@229 ",
+                "56": "386 20@4o13@227 ",
+                "57": "386 4@1o4@3o8@3o17@224 ",
+                "58": "386 5@7o28@224 ",
+                "59": "386 6@7o28@223 ",
+                "60": "386 8@5o28@223 ",
+                "61": "386 8@8o1@2o11@1o10@223 ",
+                "62": "386 9@7o2@1o11@1o10@223 ",
+                "63": "389 7@6o55@193 ",
+                "64": "390 8@3o8@4o83@154 ",
+                "65": "336 2@13o3@3o34 2o5@3o8@4o83@154 ",
+                "66": "336 2@12o4@3o39 5o9@4o82@154 ",
+                "67": "336 2@12o4@3o40 4o14@3o78@154 ",
+                "68": "336 2@4o12@1o2@40 3o16@3o13@1o7@9o3@1o6@14o7@5o11@154 ",
+                "69": "336 2@4o12@1o2@48 19@1o7@2o6@9o3@2o5@14o7@4o12@154 ",
+                "70": "336 2@4o12@1o32@18 19@1o48@1o22@154 ",
+                "71": "336 2@3o4@2o6@2o32@18 18@2o71@154 ",
+                "72": "336 51@19 7@4o4@3o51@7o34@134 ",
+                "73": "336 2o6@1o42@18 7@7o61@2o28@5o1@134 ",
+                "74": "336 2o6@1o13@3o4@1o8@1o8@4o18 7@1o67@2o28@5o1@134 ",
+                "75": "336 1o5@2o14@3o13@2o7@4o18 18@1o56@3o24@8o1@134 ",
+                "76": "336 5@2o15@3o21@5o18 18@1o30@12 14@4o22@9o1@134 ",
+                "77": "336 5@1o16@1o12@1o10@2o3@18 18@1o30@14 12@4o22@9o1@134 ",
+                "78": "336 11@2o19@3o10@1o5@18 18@1o30@18 8@5o6@3o11@10o1@134 ",
+                "79": "336 11@1o20@2o10@1o6@18 17@1o19@1o11@18 9@5o5@2o3@19o1@134 ",
+                "80": "336 11@1o14@1o79@2o10@19 24@17o2@134 ",
+                "81": "336 11@1o14@1o79@2o10@39 4@17o2@134 ",
+                "82": "305 22@9 2@1o8@2o3@1o88@3o10@39 7@11o5@134 ",
+                "83": "305 6o31@1o4@14o14@1o3@6o3@6o8@3o3@4o11@2o3@1o3@12o10@196 ",
+                "84": "305 6o36@8o21@9o3@8o6@3o3@5o7@5o3@16o10@196 ",
+                "85": "304 8o35@8o26@3o4@9o5@3o24@15o10@196 ",
+                "86": "304 9o25@1o8@8o2@7 10@10o4@17o25@17o7@196 ",
+                "87": "304 3@1o10@9o9 2@2o4@2o1@8o2@8 9@10o4@17o46@199 ",
+                "88": "304 14@9o9 2@8o1@8o2@8 5@14o4@17o2@243 ",
+                "89": "304 14@8o1@9 2@8o1@8o2@9 4@10o9@15o3@243 ",
+                "90": "304 14@8o1@9 2@8o1@8o2@9 4@10o27@243 ",
+                "91": "304 6@1o7@11o7 2@7o3@7o2@293 ",
+                "92": "304 6@1o7@11o321 ",
+                "93": "304 14@11o321 ",
+                "94": "304 24@1o321 ",
+                "95": "304 14@2o2@7o321 ",
+                "96": "304 14@2o2@7o321 ",
+                "97": "305 13@2o2@7o321 ",
+                "98": "305 11@4o2@7o321 ",
+                "99": "305 10@5o2@7o321 ",
+                "100": "305 10@5o2@10o5@313 ",
+                "101": "305 4@10o4@9o5@29 21@263 ",
+                "102": "305 4@2o5@10o11@29 21@263 ",
+                "103": "156 40@109 5@1o3@1o2@8o112@213 ",
+                "104": "156 40@109 9@1o2@8o2@2o19@2o87@213 ",
+                "105": "156 24@1o15@109 22@1o20@3o86@213 ",
+                "106": "156 17@3o1@2o17@109 22@1o4@3o3@6o5@4o9@15o2@17o3@1o12@7o5@13o213 ",
+                "107": "156 40@109 2@1o19@1o4@3o3@7o17@3o3@9o2@17o16@7o18@213 ",
+                "108": "156 28@1o6@1o4@109 2@5o15@1o3@4o3@7o13@1o3@3o3@9o11@8o7@2o6@4o12@3o7@213 ",
+                "109": "156 9@3o14@10o35@78 2@16o8@4o3@8o26@5o14@5o7@2o6@4o13@2o7@213 ",
+                "110": "136 27@5o11@13o25@88 2@17o7@1o6@47o7@22o6@1o7@2o7@213 ",
+                "111": "136 7o6@1o13@6o15@8o16@1o8@88 2@17o7@1o6@47o8@18o10@2o5@2o7@213 ",
+                "112": "136 6o21@6o2@2o5@3o3@8o25@88 10o8@2o6@1o6@47o9@16o11@2o14@213 ",
+                "113": "136 5o12@2o8@10o6@2o3@8o20@1o4@88 10o8@9o47@6o10@13o13@2o14@213 ",
+                "114": "136 2@3o12@2o8@5o3@10o3@8o25@88 10o8@15o41@6o36@3o13@213 ",
+                "115": "136 2@3o11@3o8@5o3@10o3@11o1@1o20@39 8o22@29 8@14o42@6o23@2 11@4o12@213 ",
+                "116": "136 2@4o4@2o3@4o8@5o3@10o3@14o6@2o11@16 31o22@29 8@14o9@5o12@2o3@2o9@6o2@23 11@5o11@213 ",
+                "117": "136 2@17o5@6o5@10o23@4o23@33o22@29 8@14o32@2o8@6o2@22 12@1o15@213 ",
+                "118": "136 2@17o5@5o6@10o15@3o5@4o7@49o9@3o10@3 76@1o3@2o8@6o2@22 28@213 ",
+                "119": "136 3@15o7@3o7@10o15@3o4@41o3@16o106@2o8@6o2@22 28@213 ",
+                "120": "136 25@3o7@3o3@18 1@3o4@40o2@17o85@2o6@1o3@1o19@6o2@19 31@213 ",
+                "121": "156 2@6o7@6o18 4o3@9o98@3o67@5o3@19 31@213 ",
+                "122": "195 1@3o3@10o5@1o69@4o5@5o8@8o48@1o9@9o3@19 31@213 ",
+                "123": "195 1@3o81@10o6@4o17@2o30@1o15@1o7@11o3@19 29@2o213 ",
+                "124": "195 1@3o22@11o6@5o7@17o20@3o7@3o17@3o2@2o8@3o3@1o5@1o4@2o13@2o4@14o3@19 29@2o213 ",
+                "125": "195 1@3o22@4o3@4o5@6o3@18o47@9o108@9o213 ",
+                "126": "195 1@4o5@4o12@3o76@1o11@8o14@11o40@6o37@2o7@213 ",
+                "127": "195 1@5o26@38o28@1o11@1o6@8o14@11o40@6o36@3o7@213 ",
+                "128": "195 1@6o25@38o16@3o8@3o17@3o12@2o3@13o8@1o7@7o12@10o13@2o3@12o6@4o7@213 ",
+                "129": "195 1@69o16@1o6@9o14@9o6@8o4@7o7@3o6@7o11@11o4@3o6@2o32@213 ",
+                "130": "195 1@63o6 15@1o8@9o13@9o6@7o5@7o49@3o40@213 ",
+                "131": "195 1@31o38 9@6o10@9o7@15o4@7o61@4o5@5o243 ",
+                "132": "265 9@5o12@11o15@14o62@14o243 ",
+                "133": "265 8@5o23@1o13@6o57@7o8@14o243 ",
+                "134": "265 6@7o9@1 13@2o13@5o32@20o6@6o3@17o2@243 ",
+                "135": "265 13o8@1 1@12 1@9o6@5o14@1 10@1o6@20o34@243 ",
+                "136": "265 13o8@14 1@8o7@5o24@1o11@1o30@262 ",
+                "137": "265 13o8@14 1@8o7@5o23@1o12@1o30@262 ",
+                "138": "300 1@7o7@6o23@28 2o5@1o8@262 ",
+                "139": "293 50@29 16@262 ",
+                "140": "295 10o55@5 23@262 ",
+                "141": "295 10o53@7 23@262 ",
+                "142": "295 10o10@21o22@7 14@3o6@262 ",
+                "143": "295 11o9@20o22@8 23@262 ",
+                "144": "295 7@7o5@6o17@313 ",
+                "145": "295 8@6o4@6o18@313 ",
+                "146": "295 9@14o19@313 ",
+                "147": "295 42@313 ",
+                "148": "298 27@325 "
+              }
+            },
+            "LUA:CAVES_GAME_INTRO": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SubareaSetupID[collision_camera_000_Init]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>PostIntro>ScorpiusFirstAppearance"
+            },
+            "DoorFrame_009:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SubareaSetupID[collision_camera_050]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>Scorpius_Event"
+            },
+            "SubareaSetupID[collision_camera_065]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>Scorpius_Event"
+            },
+            "TG_InitScorpiusEvent:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "TG_InitScorpiusEvent:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "mapev_activator_deer01:EVENTSCENARIO:EventFinished": {
+              "Class": "bool",
+              "Data": true
+            },
+            "mapev_activator_deer02:EVENTSCENARIO:EventFinished": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SlideTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "SlideTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "SlideTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "FreeAimTutoTriggerEnter:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_006:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "FreeAimTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "FreeAimTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "FreeAimTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "mapev_activator_deer04:EVENTSCENARIO:EventFinished": {
+              "Class": "bool",
+              "Data": true
+            },
+            "mapev_activator_deer05:EVENTSCENARIO:EventFinished": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MissileTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "breakabletilegroup_056:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "1"
+            },
+            "MissileTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MissileTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_051:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "10"
+            },
+            "breakabletilegroup_053:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "1"
+            },
+            "HiddenBlocksTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "HiddenBlocksTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "HiddenBlocksTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door009 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_AccessPoint001:USABLE:Discovered": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_AccessPoint001:USABLE:Used": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MapOptionsTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MapOptionsTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "Door008 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "LUA:CAVES_TUTO_MAP_DONE": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MapOptionsTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MeleeTutoTriggerEnter:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerExit:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerExit_002:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerExit_003:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerEnter_002:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerExit:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MeleeTutoTriggerEnter_003:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MeleeTutoTriggerExit_002:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "BREAKABLE_HINTS": {
+              "Class": "base::global::CRntSmallDictionary<base::global::CStrId, bool>",
+              "Data": {
+                "breakablehint_007": true,
+                "breakablehint_001": false,
+                "breakablehint_000": false,
+                "breakablehint_006": false,
+                "breakablehint_002": true
+              }
+            },
+            "MeleeTutoTriggerExit_003:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_014:BLOCKLIFE:HuskRemoved": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_014:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "item_missiletank_005:PICKABLE:PickedUp": {
+              "Class": "bool",
+              "Data": true
+            },
+            "NumTanksPickedUp": {
+              "Class": "int",
+              "Data": 2
+            },
+            "Door055 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ProtoEmmyTrigger:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "ProtoEmmyTrigger:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "cutscenetrigger_34:ACTIVATABLE:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "PRP_CV_CentralUnitProto:CENTRAL_UNIT:State": {
+              "Class": "int",
+              "Data": 7
+            },
+            "Door058 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door056 (CU):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "cutscenetrigger_35:ACTIVATABLE:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "PRP_CV_CentralUnitProto:CENTRAL_UNIT:EmmyDisabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "SPRTutoTrigger_000:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "logicactiontrigger_000:LA_TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "LastCheckpointOffset": {
+              "Class": "TCheckpointOffset",
+              "Data": {
+                "strCheckpointID": "DoorEmmy03",
+                "vOffsetPos": [
+                  -200.0,
+                  300.0,
+                  0.0
+                ],
+                "vOffsetAng": [
+                  0.0,
+                  -1.5707964897155762,
+                  0.0
+                ]
+              }
+            },
+            "Door010 (CL-PW,OP):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door012 (PW-PW, MISSILE):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door038 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_SaveStation001:USABLE:Discovered": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_003:BLOCKLIFE:HuskRemoved": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_watercave01a:WATERPOOL:ChangeIdx": {
+              "Class": "int",
+              "Data": 1
+            },
+            "PRP_CV_watercave01b:WATERPOOL:ChangeIdx": {
+              "Class": "int",
+              "Data": 1
+            },
+            "PRP_DB_CV_003:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "cutscenetrigger_36:ACTIVATABLE:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "MINIMAP:ForceVisible[PRP_CV_CentralUnitCaves]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy11]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy10]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy01]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy02]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy03]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy05]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy06]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy07]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy08]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "MINIMAP:ForceVisible[DoorEmmy10_000]": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door062 (PW-PW, Special):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "TG_Snapshot_Checkpoint_EmmyCave:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_014:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door062 (PW-PW, Special):DOOR:NextState": {
+              "Class": "CDoorLifeComponent::SState",
+              "Data": "Invalid"
+            },
+            "PRP_CV_CentralUnitCaves:CENTRAL_UNIT:State": {
+              "Class": "int",
+              "Data": 2
+            },
+            "PRP_CV_CentralUnitCaves:CENTRAL_UNIT:EmmyDisabled": {
+              "Class": "bool",
+              "Data": true
+            },
+            "LUA:CAVES_EMMY_SPAWNED": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_002:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "TG_EmmyCavePresentationForbiddenEdges:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "TG_EmmyCavePresentationForbiddenEdgesEnd:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door026 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_015:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_016:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SG_ScorpiusEventEnemies:SPAWNGROUP:Enabled": {
+              "Class": "bool",
+              "Data": true
+            },
+            "mapev_activator_scorpiushunting:EVENTSCENARIO:EventFinished": {
+              "Class": "bool",
+              "Data": true
+            },
+            "TG_TutoFocus_Caves:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SG_ScorpiusEventEnemies:SPAWNGROUP:NumDeaths": {
+              "Class": "int",
+              "Data": 3
+            },
+            "item_missiletank_000:PICKABLE:PickedUp": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door030 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "SubareaSetupID[collision_camera_000]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_001]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_002]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_003]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_004]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_016]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_064]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "SubareaSetupID[collision_camera_074]": {
+              "Class": "base::global::TRntString256",
+              "Data": "Default>ScorpiusFirstAppearance"
+            },
+            "TG_ScorpiusFirstShownEvent_000:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "TG_ScorpiusFirstShownEvent_000:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_AccessPoint002:USABLE:Used": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_AccessPoint002:USABLE:Discovered": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door042 (PW-PW) :DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakablecave016:BLOCKLIFE:HuskRemoved": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakablecave016:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakablecave017:BLOCKLIFE:HuskRemoved": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakablecave017:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorPowerPower_001:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door020 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "TG_TutoFocus_Caves_001:TRIGGER:Enabled": {
+              "Class": "bool",
+              "Data": false
+            },
+            "TG_TutoFocus_Caves_001:TRIGGER:ConditionDone": {
+              "Class": "bool",
+              "Data": true
+            },
+            "Door025 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "DoorFrame_001:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "block_slide_reg_001:TUNNEL_TRAP:Activated": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_000:BLOCKLIFE:HuskRemoved": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_DB_CV_000:BLOCKLIFE:Dead": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_046:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "1001"
+            },
+            "breakabletilegroup_045:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "1011"
+            },
+            "breakabletilegroup_044:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "1101"
+            },
+            "trap_thermal_horizontal_000:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "trap_thermal_horizontal_001:DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "breakabletilegroup_035:TILEGROUP:TileStates": {
+              "Class": "base::global::CRntString",
+              "Data": "2"
+            },
+            "Door024 (PW-PW):DOOR:Opened": {
+              "Class": "bool",
+              "Data": true
+            },
+            "PRP_CV_SaveStation003:USABLE:Discovered": {
+              "Class": "bool",
+              "Data": true
+            }
+          }
+        }
+      }
+    },
+    "dctDeltaValues": {}
+  }
+}

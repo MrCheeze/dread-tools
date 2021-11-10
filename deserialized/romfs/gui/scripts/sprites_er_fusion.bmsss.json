@@ -1,0 +1,38 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "ER_FUSION": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/er_fusion.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 1024,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ER_FUSION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.78125,
+                      0.87890625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

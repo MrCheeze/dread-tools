@@ -1,0 +1,53 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#fx#flickeringlight01#lightsdef#flickeringlight01": {
+            "sPath": "actors#fx#flickeringlight01#lightsdef#flickeringlight01",
+            "vLights": [
+              {
+                "eType": "Spot",
+                "eAttachment": "Pos3D",
+                "sName": "light",
+                "sNode": "ref_lshaftlamp01",
+                "vPosOffset": [
+                  0.0,
+                  200.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  -1.5700000524520874,
+                  0.0,
+                  -1.5700000524520874
+                ],
+                "vColor": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  400.0,
+                  500.0,
+                  75.0,
+                  100.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 5.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

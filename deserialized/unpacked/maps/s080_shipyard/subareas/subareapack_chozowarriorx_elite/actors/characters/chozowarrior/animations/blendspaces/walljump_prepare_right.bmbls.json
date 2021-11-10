@@ -1,0 +1,25 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": 10.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozowarrior/animations/attack_glaive-walljump_10_init2_right.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozowarrior/animations/attack_glaive-walljump_45_init2_right.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/chozowarrior/animations/attack_glaive-walljump_90_init2_right.bcskla"
+      }
+    ]
+  }
+}

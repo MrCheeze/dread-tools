@@ -1,0 +1,115 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0057scorpiusdeath#actors#samus#lights": {
+            "sPath": "cutscenes#0057scorpiusdeath#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "beam_l",
+                "sNode": "R01_Cannon_Lid_1",
+                "vPosOffset": [
+                  -20.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.8999999761581421,
+                  0.30000001192092896,
+                  0.0
+                ],
+                "vAtt": [
+                  -750.0,
+                  750.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "impactscorpius",
+                "sNode": "R01_Cannon_Lid_1",
+                "vPosOffset": [
+                  -20.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.5,
+                  0.8999999761581421,
+                  0.30000001192092896,
+                  0.0
+                ],
+                "vAtt": [
+                  -750.0,
+                  750.0,
+                  5000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "itemcube_light",
+                "sNode": "DC_L_Hand",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  -30.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.10000000149011612,
+                  0.30000001192092896,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  -150.0,
+                  150.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

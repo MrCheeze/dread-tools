@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0043emmymetroidnization#actors#samus#lights": {
+            "sPath": "cutscenes#0043emmymetroidnization#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "hand_metroidnization",
+                "sNode": "L01_Forearm_End_SKN",
+                "vPosOffset": [
+                  -30.0,
+                  10.0,
+                  10.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.15000000596046448,
+                  0.30000001192092896,
+                  1.0
+                ],
+                "vAtt": [
+                  -150.0,
+                  150.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

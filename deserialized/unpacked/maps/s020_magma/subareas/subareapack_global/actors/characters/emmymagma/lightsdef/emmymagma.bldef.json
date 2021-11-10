@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#characters#emmymagma#lightsdef#emmymagma": {
+            "sPath": "actors#characters#emmymagma#lightsdef#emmymagma",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "grabemmydeath_hand_light",
+                "sNode": "DC_FX_Hand_R",
+                "vPosOffset": [
+                  0.0,
+                  -20.0,
+                  10.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.15000000596046448,
+                  0.30000001192092896,
+                  0.009999999776482582,
+                  1.0
+                ],
+                "vAtt": [
+                  -200.0,
+                  200.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

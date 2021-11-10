@@ -1,0 +1,4734 @@
+{
+  "FileType": "base::tunable::CTunableManager",
+  "Unk": 33554551,
+  "RealFileType": "base::tunable::CTunableManager",
+  "Root": {
+    "hashTunables": {
+      "AI|CTunableAIManager": {
+        "Class": "CAIManager::CTunableAIManager",
+        "Data": {
+          "sName": "CTunableAIManager",
+          "iIgnorePlayerMode": 0,
+          "bShowBossLifebar": false,
+          "eBumpMode": "SamusShape2EnemyAvg",
+          "bShowEnemyLife": false,
+          "bShowEnemyDamage": false,
+          "bShowPlayerDamage": false,
+          "fDistanceToDestroyProjectile": 800.0
+        }
+      },
+      "Player|CTunableAbilityComponent": {
+        "Class": "CAbilityComponent::CTunableAbilityComponent",
+        "Data": {
+          "sName": "CTunableAbilityComponent",
+          "fSynchronizedBlockTime": -1.0,
+          "fSpecialEnergyConsumedOnBlock": 0.0,
+          "fMinTimeBetweenMeleeActions": 0.699999988079071,
+          "fActivationHoldToStartDeactivateAll": 0.30000001192092896,
+          "fActivationHoldToCompleteDeactivateAll": 1.2999999523162842,
+          "fDashMeleeAutoLockOnMoveLockedTime": 0.5,
+          "bAllMeleeAutoLockOn": false,
+          "fDashMeleeExtraDistanceToEnemies": 60.0,
+          "fDashMeleePowerSuitDamage": 50.0,
+          "fDashMeleeVariaSuitDamage": 100.0,
+          "fDashMeleeGravitySuitDamage": 200.0,
+          "bStunnedEnemiesLoseCollision": true
+        }
+      },
+      "CTunableAbilityEnergyWave": {
+        "Class": "CAbilityEnergyWave::CTunableAbilityEnergyWave",
+        "Data": {
+          "sName": "CTunableAbilityEnergyWave",
+          "fWeaponBoostDamageMult_emmy": 1.0,
+          "fWeaponBoostDamageMult_emmycave": 1.0,
+          "fSpecialBurstWidth": 10.0,
+          "fSpecialRocketTimeActivate": 3.0,
+          "fSpecialRocketSpeed": 20000.0,
+          "bSpecialRocketUseInitialAcceleration": true
+        }
+      },
+      "CTunableAbilityGhostAura": {
+        "Class": "CAbilityGhostAura::CTunableAbilityGhostAura",
+        "Data": {
+          "sName": "CTunableAbilityGhostAura",
+          "fMinDistance": 0.0,
+          "fMaxObstacleDistanceHorizontal": 97.0,
+          "fMaxObstacleDistanceDiagonal": 194.0,
+          "fMaxObstacleDistanceVertical": 42.0,
+          "fExtraDistanceToScenario": 20.0,
+          "fElectricFXTime": 0.699999988079071,
+          "fChainFXTime": 0.699999988079071,
+          "iNumFadingStepsPerFrame": 10,
+          "fTrailVerticalOffset": 35.0,
+          "fTrailHorizontalOffset": 20.0,
+          "fTrailVerticalSize": 60.0,
+          "bInvulnerableDash": false,
+          "fDashTime": 0.20000000298023224,
+          "bHorizontalDashOnly": true,
+          "iChainDashMax": 2,
+          "fCornerDashDistance": 84.00000762939453,
+          "fBackSafeDistance": 200.00001525878906,
+          "fFrontSafeDistance": 150.0,
+          "fAirBackSafeDistance": 100.0,
+          "fAirFrontSafeDistance": 100.0,
+          "fBackCloseSafeDistance": 0.0,
+          "fFrontCloseSafeDistance": 0.0,
+          "fEnemiesAirBackSafeDistance": 150.0,
+          "fEnemiesAirFrontSafeDistance": 150.0,
+          "fEnemiesBackCloseSafeDistance": 70.0,
+          "fEnemiesFrontCloseSafeDistance": 70.0,
+          "fCloseFrontIgnoreInitDistance": 350.0,
+          "fCloseBackIgnoreInitDistance": 350.0,
+          "fActivationDelayTime": 0.1599999964237213,
+          "fFailMinTimeDelay": 1.5,
+          "fBezierCurveDistance": 0.5,
+          "fBezierCurveStep": 0.10000000149011612,
+          "bNoInputBackDash": false,
+          "bHoldToChain": false,
+          "bAutoLauchOnTime": false,
+          "bChainWithDirectionTrigger": true,
+          "bChainWithButtonTrigger": true,
+          "bCloseAnimationWithoutInput": false
+        }
+      },
+      "CTunableAbilityMultiLockon": {
+        "Class": "CAbilityMultiLockon::CTunableAbilityMultiLockon",
+        "Data": {
+          "sName": "CTunableAbilityMultiLockon",
+          "vColorLocked0": [
+            1.0,
+            0.5019609928131104,
+            0.0
+          ],
+          "vColorUnLocked0": [
+            1.0,
+            0.5019609928131104,
+            0.0
+          ],
+          "vColorLocked2": [
+            1.0,
+            0.5019609928131104,
+            0.0
+          ],
+          "vColorUnLocked2": [
+            1.0,
+            0.5019609928131104,
+            0.0
+          ],
+          "fMinChargeTime": 0.5,
+          "fChargeTime": 1.2000000476837158,
+          "fTargetBumbingEffectScale": 0.3499999940395355,
+          "fTargetBumbingEffectSize": 0.0,
+          "fTargetBumbingEffectSpeed": 10.0,
+          "fTargetingTime": 0.30000001192092896,
+          "bActivationInput_R3": false,
+          "bActivationInput_FireCharge": true,
+          "bActivationInput_AimCharge": false
+        }
+      },
+      "CTunableAbilityOpticCamouflage": {
+        "Class": "CAbilityOpticCamouflage::CTunableAbilityOpticCamouflage",
+        "Data": {
+          "sName": "CTunableAbilityOpticCamouflage",
+          "fDamagePerSecondStill": 10.0,
+          "fDamagePerSecondMoving": 40.0,
+          "iMode": 0,
+          "iSelectionMode": 0,
+          "iSelectionInput": 0,
+          "fSpecialEnergyConsumptionPerSecondStill": 25.0,
+          "fSpecialEnergyConsumptionPerSecondMoving": 100.0,
+          "fSpecialEnergyConsumptionOnActivation": 0.0,
+          "bCanBeActivatedInsideChaseRange": true,
+          "bRequireMovementToRegenerateSpecialEnergy": true,
+          "fSpecialEnergyConsumptionOnFireBeam": 300.0,
+          "fSpecialEnergyConsumptionOnFireGrappleBeam": 300.0,
+          "fSpecialEnergyConsumptionOnFireHyperBeam": 300.0,
+          "fSpecialEnergyConsumptionOnFireMissile": 300.0,
+          "fSpecialEnergyConsumptionOnFireBomb": 300.0,
+          "fSpecialEnergyConsumptionOnFireLineBomb": 300.0,
+          "fSpecialEnergyConsumptionOnFirePowerBomb": 300.0,
+          "fSpecialEnergyConsumptionOnMelee": 300.0,
+          "bIfNoAeionActionsDeactivateOC": false,
+          "fDamageOnFireBeam": 0.0,
+          "fDamageOnFireGrappleBeam": 0.0,
+          "fDamageOnFireHyperBeam": 0.0,
+          "fDamageOnFireMissile": 0.0,
+          "fDamageOnFireBomb": 0.0,
+          "fDamageOnFireLineBomb": 0.0,
+          "fDamageOnFirePowerBomb": 0.0,
+          "fDamageOnMelee": 0.0
+        }
+      },
+      "CTunableAbilityShinespark": {
+        "Class": "CAbilityShinespark::CTunableAbilityShinespark",
+        "Data": {
+          "sName": "CTunableAbilityShinespark",
+          "fAllowedActivationTime": 5.0,
+          "fAllowActivationFXPulseSpeed": 10.0,
+          "fAfterActivationPreparingLaunchTime": 0.8500000238418579,
+          "fSlopeToSpeedBoosterTransitionAngleMin": 0.017000000923871994,
+          "fSlopeToSpeedBoosterTransitionAngleMax": 0.785398006439209,
+          "fDefaultImpactDamage": 1000.0000610351562,
+          "fDefaultDamageAndRepelVerticalImpulse": 300.0,
+          "fMorphBallDamageAndRepelImpulse": 1500.0,
+          "fMorphBallPhysicsLaunchSpeed": 5000.0,
+          "fBufferedActivationTime": 0.25,
+          "fLaunchDirectionAngleInterpolationTime": 0.05999999865889549,
+          "fFXFloorNearMaxDistanceCm": 200.0,
+          "fFXFloorFarMaxDistanceCm": 400.0,
+          "fMinLaunchAngleUp": 1.0471980571746826,
+          "fMinLaunchAngleDiagonalUp": 0.5235990285873413,
+          "fMinLaunchAngleForward": -0.5235990285873413,
+          "fMinLaunchAngleDiagonalDown": -1.0471980571746826,
+          "fMinLaunchAngleUpCoolShinespark": 1.0471980571746826,
+          "fMinLaunchAngleDiagonalUpCoolShinespark": 0.0872659981250763,
+          "fMinLaunchAngleForwardCoolShinespark": -0.5235990285873413,
+          "fMinLaunchAngleDiagonalDownCoolShinespark": -1.0471980571746826,
+          "bCoolShinesparkOneOff": true,
+          "fCoolShinesparkDistanceToCheckPrepareInitTurn": 150.0,
+          "bActiveCollisionChecksEnabled": true,
+          "fActiveCollisionChecksSamusOffset": 30.0,
+          "fActiveCollisionChecksMorphBallOffset": 60.0
+        }
+      },
+      "CTunableAbilitySonar": {
+        "Class": "CAbilitySonar::CTunableAbilitySonar",
+        "Data": {
+          "sName": "CTunableAbilitySonar",
+          "fConsumptionOnActivation": 1000.0,
+          "fDiscoveredBreakableTilesTime": 10.0,
+          "fDiscoveredBreakableTilesDistance": 3600.0,
+          "vDiscoveredBreakableTileInitialColor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fDiscoveredBreakableTileInitialAlpha": 0.0,
+          "vDiscoveredBreakableTileColor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fDiscoveredBreakableTileAlpha": 1.0,
+          "vDiscoveredBreakableTileEndColor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fDiscoveredBreakableTileEndAlpha": 0.0,
+          "fChargingTime": 1.5,
+          "fDiscoveredLoopFadeTime": 1.0,
+          "sChargePlaySound": "actors/samus/ener_presonar.wav",
+          "sChargeCancelSound": "actors/samus/ener_shieldend.wav",
+          "fRadiusPropagationTotalTime": 0.699999988079071,
+          "sRadiusPropagationEasingFunction": "222"
+        }
+      },
+      "CTunableAbilitySpeedBooster": {
+        "Class": "CAbilitySpeedBooster::CTunableAbilitySpeedBooster",
+        "Data": {
+          "sName": "CTunableAbilitySpeedBooster",
+          "fTimeToShowPreparationFX": 0.0,
+          "bInstantActivation": false,
+          "fTimeToActivate": 1.5,
+          "fVelocityXFactor": 2.5,
+          "fMorphballVelocityXFactor": 2.75,
+          "bAllowJump": true,
+          "fWallVerticalEndDistance": 200.0,
+          "fDefaultImpactDamage": 1000.0,
+          "fDefaultDamageAndRepelVerticalImpulse": 300.0,
+          "fMorphBallDamageAndRepelImpulse": 1500.0,
+          "fBufferedActivationTime": 0.25
+        }
+      },
+      "Logic|CTunableAccessPointComponent": {
+        "Class": "CAccessPointComponent::CTunableAccessPointComponent",
+        "Data": {
+          "sName": "CTunableAccessPointComponent",
+          "fLoopGainMax": 0.07999999821186066,
+          "fLoopFadeInTime": 0.10000000149011612,
+          "fLoopFadeOutTime": 0.20000000298023224,
+          "fLoopReverb": 0.10000000149011612,
+          "fVoiceGainMax": 0.3499999940395355,
+          "fVoiceFadeInTime": 0.17000000178813934,
+          "fVoiceFadeOutTime": 0.20000000298023224,
+          "fVoiceReverb": 0.30000001192092896,
+          "fAdamSpeechVolume": 2.0
+        }
+      },
+      "Aim|CTunableAim": {
+        "Class": "CAimComponent::CTunableAim",
+        "Data": {
+          "sName": "CTunableAim",
+          "vLaserLockedColor0": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "fLaserLockedAlpha0": 0.75,
+          "vLaserUnlockedColor0": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "fLaserUnlockedAlpha0": 0.44999998807907104,
+          "vLaserLockedColor2": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "vLaserUnlockedColor2": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "fLaserLockedScale": 2.0,
+          "fLaserUnlockedScale": 1.0,
+          "vGrappleLaserLockedColor0": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "vGrappleLaserUnlockedColor0": [
+            0.0,
+            0.5,
+            1.0
+          ],
+          "vGrappleLaserLockedColor2": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "vGrappleLaserUnlockedColor2": [
+            0.30000001192092896,
+            0.30000001192092896,
+            0.30000001192092896
+          ],
+          "bAutoLockOnForceAutoGrapple": false,
+          "fEndForceFullyChargedTime": 0.6000000238418579,
+          "fWalkToRunInputSize": 1.0,
+          "fRunToWalkInputSize": 0.800000011920929,
+          "fFrontUp": 0.785398006439209,
+          "fFrontUpUp": 1.374446988105774,
+          "fFrontUpDown": 0.3926990032196045,
+          "fFrontDown": -0.785398006439209,
+          "fFrontDownUp": -0.3926990032196045,
+          "fFrontDownDown": -1.1780970096588135,
+          "fFrontLockUp": 0.19634999334812164,
+          "fFrontLockDown": -0.19634999334812164
+        }
+      },
+      "ArenaManager|CTunableArenaManager": {
+        "Class": "CArenaManager::CTunableArenaManager",
+        "Data": {
+          "sName": "CTunableArenaManager",
+          "fSelectPreviousArenaProbability": 0.25
+        }
+      },
+      "AutofocusAimCameraCtrl|CTunableAutofocusAimCameraCtrl": {
+        "Class": "CAutofocusAimCameraCtrl::CTunableAutofocusAimCameraCtrl",
+        "Data": {
+          "sName": "CTunableAutofocusAimCameraCtrl",
+          "bForceActivation": false,
+          "fInterpolationSpeed": 0.5,
+          "fInterpolationAccel": 0.699999988079071,
+          "fInterpolationInterruptFactor": 0.699999988079071,
+          "v3TargetOffset": [
+            50.0,
+            50.0,
+            0.0
+          ],
+          "v3TargetPadding": [
+            150.0,
+            50.0,
+            0.0
+          ],
+          "fEmmyAlarmVolume": 0.5,
+          "fAimNewCameraDistance": 600.0,
+          "fAimNewCameraAng": 60.0,
+          "fAimNewCameraOffsetY": 70.0,
+          "bAimNewCameraAvoidWallOcclusion": false,
+          "fAimNewCameraChaseAutoAimMinInterpolationDist": 600.0,
+          "fAimNewCameraChaseAutoAimMaxInterpolationDist": 1500.0,
+          "bAimNewCameraChaseAutoAimForceEmmyMaxYInsideCamera": true,
+          "fAimNewCameraFreeAimInterpolationSpeed": 100.0,
+          "iAimNewCameraInputMode": 1
+        }
+      },
+      "CTunableBomb": {
+        "Class": "CBombGun::CTunableBomb",
+        "Data": {
+          "sName": "CTunableBomb",
+          "fDamageAmount": 80.0,
+          "sDamageSource": "BOMB",
+          "fHeat": 0.30000001192092896
+        }
+      },
+      "CTunableBombMovement": {
+        "Class": "CBombMovement::CTunableBombMovement",
+        "Data": {
+          "sName": "CTunableBombMovement",
+          "fTimeToExplode": 0.8100000023841858,
+          "fExplosionRadius": 100.0,
+          "fExplosionRadiusPlayer": 60.0,
+          "fExplosionExpansionTime": 0.10000000149011612,
+          "fExplosionLifeTime": 0.5
+        }
+      },
+      "CTunableBreakableTileManager": {
+        "Class": "CBreakableTileManager::CTunableBreakableTileManager",
+        "Data": {
+          "sName": "CTunableBreakableTileManager",
+          "fPowerBeamRespawnTime": 5.0,
+          "fBombRespawnTime": 5.0,
+          "fMissileRespawnTime": 5.0,
+          "fSuperMissileRespawnTime": 5.0,
+          "fPowerBombRespawnTime": -1.0,
+          "fScrewAttackRespawnTime": 5.0,
+          "fWeightRespawnTime": 0.25,
+          "fSpeedBoostRespawnTime": -1.0,
+          "fChainDestructionTimePerTile": 0.05999999865889549,
+          "fRespawnTimeWhenDestroyedWithHyperBeam": 5.0
+        }
+      },
+      "Damage|CTunableCharClassAttackComponent": {
+        "Class": "CCharClassAttackComponent::CTunableCharClassAttackComponent",
+        "Data": {
+          "sName": "CTunableCharClassAttackComponent",
+          "fDamageArmadiggerDefault": 40.0,
+          "fDamageArmadiggerDashAttack": 60.0,
+          "fDamageAutclastDefault": 25.0,
+          "fDamageAutclastExplosion": 40.0,
+          "fDamageAutectorDefault": 60.0,
+          "fDamageAutectorExplosion": 60.0,
+          "fDamageAutomperAutomaticIrradiation": 50.0,
+          "fDamageAutomperDefault": 10.0,
+          "fDamageAutoolDefault": 20.0,
+          "fDamageAutsharpDefault": 60.0,
+          "fDamageAutsharpExplosionDefault": 60.0,
+          "fDamageAutsniperDefault": 40.0,
+          "fDamageAutsniperLaserDefault": 60.0,
+          "fDamageBatalloonDefault": 60.0,
+          "fDamageBigfistDefault": 30.0,
+          "fDamageBigfistMelee": 50.0,
+          "fDamageBigkranXDefault": 90.0,
+          "fDamageBigkranXMagmaBall": 120.0,
+          "fDamageBlindFlyAttack": 120.0,
+          "fDamageBlindFlyDefault": 80.0,
+          "fDamageCaterzillaDefault": 20.0,
+          "fDamageCentralUnitCannonDefault": 10.0,
+          "fDamageCentralUnitCannonBeamCaves": 10.0,
+          "fDamageCentralUnitCannonBeamMagma": 20.0,
+          "fDamageCentralUnitCannonBeamLab": 40.0,
+          "fDamageCentralUnitCannonBeamForest": 53.0,
+          "fDamageCentralUnitCannonBeamSanc": 100.0,
+          "fDamageCentralUnitDefault": 10.0,
+          "fDamageChozoCommanderAirCharge": 250.0,
+          "fDamageChozoCommanderAuraScratch": 250.0,
+          "fDamageChozoCommanderDefault": 100.0,
+          "fDamageChozoCommanderEnergyShardsFragment": 150.0,
+          "fDamageChozoCommanderEnergyShardsSphere": 180.0,
+          "fDamageChozoCommanderHyperspark": 250.0,
+          "fDamageChozoCommanderKiStrike": 190.0,
+          "fDamageChozoCommanderLandingSlam": 180.0,
+          "fDamageChozoCommanderLaserZero": 180.0,
+          "fDamageChozoCommanderLaserZeroGrounded": 180.0,
+          "fDamageChozoCommanderPowerPulse": 75.0,
+          "fDamageChozoCommanderSentenceSphere": 190.0,
+          "fDamageChozoCommanderTriCombo": 120.0,
+          "fDamageChozoCommanderTriComboNoDamage": 0.0,
+          "fDamageChozoRobotSoldierCannonShot": 94.0,
+          "fDamageChozoRobotSoldierCannonShotCharged": 127.0,
+          "fDamageChozoRobotSoldierDashSlash": 161.0,
+          "fDamageChozoRobotSoldierDefault": 54.0,
+          "fDamageChozoRobotSoldierDisruptionField": 0.0,
+          "fDamageChozoRobotSoldierExplosion": 40.0,
+          "fDamageChozoRobotSoldierUppercut": 107.0,
+          "fDamageChozoRobotSoldierCannonShotElite": 121.0,
+          "fDamageChozoRobotSoldierCannonShotChargedElite": 154.0,
+          "fDamageChozoRobotSoldierDashSlashElite": 187.0,
+          "fDamageChozoRobotSoldierDefaultElite": 81.0,
+          "fDamageChozoRobotSoldierDisruptionFieldElite": 0.0,
+          "fDamageChozoRobotSoldierExplosionElite": 67.0,
+          "fDamageChozoRobotSoldierUppercutElite": 134.0,
+          "fDamageChozoWarriorWeakDefault": 67.0,
+          "fDamageChozoWarriorWeakGlaiveSpin": 134.0,
+          "fDamageChozoWarriorWeakGlaiveWalljump": 154.0,
+          "fDamageChozoWarriorWeakShieldPush": 167.0,
+          "fDamageChozoWarriorXWeakDefault": 100.0,
+          "fDamageChozoWarriorXWeakChangeWall": 100.0,
+          "fDamageChozoWarriorXWeakGlaiveSpin": 167.0,
+          "fDamageChozoWarriorXWeakLandSplat": 200.0,
+          "fDamageChozoWarriorXWeakLandSplatWaves": 180.0,
+          "fDamageChozoWarriorXWeakSpit": 147.0,
+          "fDamageChozoWarriorXWeakWallclimb": 100.0,
+          "fDamageChozoWarriorDefault": 180.0,
+          "fDamageChozoWarriorGlaiveSpin": 360.0,
+          "fDamageChozoWarriorGlaiveWalljump": 414.0,
+          "fDamageChozoWarriorShieldPush": 450.0,
+          "fDamageChozoWarriorXDefault": 270.0,
+          "fDamageChozoWarriorXChangeWall": 270.0,
+          "fDamageChozoWarriorXGlaiveSpin": 450.0,
+          "fDamageChozoWarriorXLandSplat": 540.0,
+          "fDamageChozoWarriorXLandSplatWaves": 486.0,
+          "fDamageChozoWarriorXSpit": 396.0,
+          "fDamageChozoWarriorXWallclimb": 270.0,
+          "fDamageChozoWarriorEliteDefault": 200.0,
+          "fDamageChozoWarriorEliteGlaiveSpin": 400.0,
+          "fDamageChozoWarriorEliteGlaiveWalljump": 460.0,
+          "fDamageChozoWarriorEliteShieldPush": 500.0,
+          "fDamageChozoWarriorXEliteDefault": 300.0,
+          "fDamageChozoWarriorXEliteChangeWall": 300.0,
+          "fDamageChozoWarriorXEliteGlaiveSpin": 660.0,
+          "fDamageChozoWarriorXEliteLandSplat": 600.0,
+          "fDamageChozoWarriorXEliteLandSplatWaves": 540.0,
+          "fDamageChozoWarriorXEliteSpit": 440.0,
+          "fDamageChozoWarriorXEliteWallclimb": 300.0,
+          "fDamageChozoZombieXDefault": 60.0,
+          "fDamageChozoZombieXPoisonClaws": 100.0,
+          "fDamageCooldownXBossDefault": 200.0,
+          "fDamageCooldownXBossFireBall": 100.0,
+          "fDamageCooldownXBossWindTunnelWall": 50.0,
+          "fDamageCooldownXBossLavaCarpet": 220.0,
+          "fDamageCooldownXBossLavaCarpetPuddles": 80.0,
+          "fDamageCooldownXBossLavaDrop": 400.0,
+          "fDamageCooldownXBossReaper": 280.0,
+          "fDamageCooldownXBossStrongWhip": 50.0,
+          "fDamageCooldownXBossLaserBite": 420.0,
+          "fDamageCoreXDefault": 70.0,
+          "fDamageCoreXSuperQuetzoaDefault": 70.0,
+          "fDamageDizzeanIndividual": 30.0,
+          "fDamageDizzeanMax": 30.0,
+          "fDamageDizzeanMin": 30.0,
+          "fDamageDizzeanRadius": 30.0,
+          "fDamageEmmyDefault": 100000.0,
+          "fDamageEmmyIce": 50.0,
+          "fDamageEmmyWave": 0.0,
+          "fDamageFingIndividual": 45.0,
+          "fDamageFingMax": 45.0,
+          "fDamageFingMin": 45.0,
+          "fDamageFingRadius": 45.0,
+          "fDamageGobblerDefault": 20.0,
+          "fDamageGobblerScorpiusDefault": 20.0,
+          "fDamageGobblerKraidDefault": 40.0,
+          "fDamageGobblerHydrogigaDefault": 40.0,
+          "fDamageGobblerChozoWarriorXDefault": 60.0,
+          "fDamageGobblerSuperQuetzoaDefault": 80.0,
+          "fDamageGobblerCooldownXDefault": 120.0,
+          "fDamageGobblerSuperGoliathDefault": 140.0,
+          "fDamageGobblerBite": 30.0,
+          "fDamageGobblerScorpiusBite": 30.0,
+          "fDamageGobblerKraidBite": 60.0,
+          "fDamageGobblerHydrogigaBite": 60.0,
+          "fDamageGobblerChozoWarriorXBite": 80.0,
+          "fDamageGobblerSuperQuetzoaBite": 90.0,
+          "fDamageGobblerCooldownXBite": 160.0,
+          "fDamageGobblerSuperGoliathBite": 180.0,
+          "fDamageGoliathDefault": 100.0,
+          "fDamageGoliathMelee": 160.0,
+          "fDamageGoliathShockWave": 120.0,
+          "fDamageGooplotDefault": 40.0,
+          "fDamageGooplotJump": 60.0,
+          "fDamageGooshockerDefault": 60.0,
+          "fDamageGooshockerShock": 60.0,
+          "fDamageGroundShockerDefault": 60.0,
+          "fDamageGroundShockerElectric": 100.0,
+          "fDamageHecathonDefault": 60.0,
+          "fDamageHecathonPlanktonDefault": 30.0,
+          "fDamageHydrogigaBraid": 154.0,
+          "fDamageHydrogigaDefault": 67.0,
+          "fDamageHydrogigaMaelstorm": 154.0,
+          "fDamageHydrogigaPolyps": 120.0,
+          "fDamageHydrogigaTongueSwirl": 200.0,
+          "fDamageInfesterBallDefault": 30.0,
+          "fDamageInfesterDefault": 25.0,
+          "fDamageKlaidaDefault": 10.0,
+          "fDamageKraidAcidBlobs": 40.0,
+          "fDamageKraidBackSlap": 100.0,
+          "fDamageKraidBouncingCreatures": 40.0,
+          "fDamageKraidDefault": 35.0,
+          "fDamageKraidFierceSwipe": 133.0,
+          "fDamageKraidShockerSplash": 80.0,
+          "fDamageKraidSpikes": 100.0,
+          "fDamageKraidSpinningNails": 50.0,
+          "fDamageKraidInsideBelly": 10.0,
+          "fDamageNailongDefault": 20.0,
+          "fDamageNailongThorn": 40.0,
+          "fDamageObsydomithonAttack": 50.0,
+          "fDamageObsydomithonDefault": 30.0,
+          "fDamageOmnithonDefault": 100.0,
+          "fDamageOmnithonPlanktonDefault": 60.0,
+          "fDamagePoisonFlyAttack": 20.0,
+          "fDamagePoisonFlyDefault": 15.0,
+          "fDamageQuetzoaDefault": 60.0,
+          "fDamageQuetzoaCharge": 90.0,
+          "fDamageQuetshockerDefault": 60.0,
+          "fDamageQuetshockerCharge": 120.0,
+          "fDamageQuetshockerEnergyWave": 100.0,
+          "fDamageQuetshockerEnergyWaveElectrify": 100.0,
+          "fDamageRedenkiIndividual": 80.0,
+          "fDamageRedenkiMax": 80.0,
+          "fDamageRedenkiMin": 80.0,
+          "fDamageRedenkiRadius": 80.0,
+          "fDamageRinkaDefault": 20.0,
+          "fDamageRinkaCaves": 20.0,
+          "fDamageRinkaMagma": 20.0,
+          "fDamageRinkaLab": 20.0,
+          "fDamageRinkaForest": 20.0,
+          "fDamageRinkaSanc": 20.0,
+          "fDamageRockDiverDefault": 10.0,
+          "fDamageRodomithonXDefault": 40.0,
+          "fDamageRodomithonXFireCone": 80.0,
+          "fDamageRodotukDefault": 30.0,
+          "fDamageSunnapDefault": 20.0,
+          "fDamageSabotoruDefault": 100.0,
+          "fDamageSclawkDefault": 30.0,
+          "fDamageScorpiusDefault": 10.0,
+          "fDamageScorpiusDefensiveSpikeBallPrick": 10.0,
+          "fDamageScorpiusDragSpikeBall": 25.0,
+          "fDamageScorpiusPoisonousGas": 20.0,
+          "fDamageScorpiusPoisonousSpit": 40.0,
+          "fDamageScorpiusSpikeBallPrick": 25.0,
+          "fDamageScorpiusTailSmash": 10.0,
+          "fDamageScorpiusWhiplash": 30.0,
+          "fDamageScourgeDefault": 40.0,
+          "fDamageScourgeTongueSlash": 80.0,
+          "fDamageShakernautDefault": 80.0,
+          "fDamageShelmitDefault": 60.0,
+          "fDamageShelmitPlasmaRay": 90.0,
+          "fDamageShelmitExplosion": 90.0,
+          "fDamageShelmitNakedDefault": 30.0,
+          "fDamageShelmitNakedExplosion": 40.0,
+          "fDamageShineonDefault": 20.0,
+          "fDamageSlidleDefault": 60.0,
+          "fDamageSluggerAcidBall": 80.0,
+          "fDamageSluggerDefault": 40.0,
+          "fDamageSpitclawkAcid": 60.0,
+          "fDamageSpitclawkDefault": 80.0,
+          "fDamageSpittailDefault": 40.0,
+          "fDamageSpittailAcidBall": 80.0,
+          "fDamageSpittailAcid": 40.0,
+          "fDamageSuperGoliathBurstProjectionBomb": 400.0,
+          "fDamageSuperGoliathBurstProjectionTracker": 300.0,
+          "fDamageSuperGoliathDefault": 250.0,
+          "fDamageSuperGoliathMelee": 400.0,
+          "fDamageSuperGoliathShockWave": 400.0,
+          "fDamageSuperQuetzoaCharge": 160.0,
+          "fDamageSuperQuetzoaDefault": 50.0,
+          "fDamageSuperQuetzoaEnergyWave": 120.0,
+          "fDamageSuperQuetzoaEnergyWaveElectrify": 120.0,
+          "fDamageSuperQuetzoaMultiTarget": 80.0,
+          "fDamageSwifterDefault": 20.0,
+          "fDamageTakumakuDashAttack": 80.0,
+          "fDamageTakumakuDefault": 40.0,
+          "fDamageVulkranDefault": 20.0,
+          "fDamageVulkranMagmaBall": 30.0,
+          "fDamageWarLotusDefault": 20.0,
+          "fDamageYamplotXBite": 90.0,
+          "fDamageYamplotXStep": 90.0,
+          "fDamageYamplotXDefault": 60.0,
+          "fDamageShakernautLaserDefault": 100.0,
+          "fDamageShakernautGroundshockDefault": 120.0,
+          "fDamageKreepDefault": 10.0,
+          "fDamageFulmiteDefault": 20.0,
+          "fDamageDepthornDefault": 60.0,
+          "fDamageDepthornBall": 100.0,
+          "fDamageYampaBite": 60.0,
+          "fDamageYampaStep": 60.0,
+          "fDamageYampaDefault": 40.0,
+          "fDamageDropterDefault": 20.0,
+          "fDamageDropterDiveAttack": 20.0,
+          "fDamageSharpawDefault": 40.0,
+          "fDamageSharpawDiveAttack": 60.0,
+          "fDamageIcefleaDefault": 90.00000762939453,
+          "fDamageIcefleaDiveAttack": 140.0,
+          "fDamageIcefleaFreezeTick": 5.0,
+          "fDamageDredhedDefault": 40.0,
+          "fDamageDredhedDiveAttack": 60.0,
+          "fDamageSakaiDefault": 90.0,
+          "fDamageSakaiDiveAttack": 120.0,
+          "fDamageFulmiteBellyMineDefault": 100.0,
+          "fDamageNailuggerDefault": 60.0,
+          "fDamageNailuggerSpit": 100.0,
+          "fDamageDaivoDefault": 60.0,
+          "fDamageDaivoSwarmIndividual": 80.0,
+          "fDamageDaivoSwarmMax": 80.0,
+          "fDamageDaivoSwarmMin": 80.0,
+          "fDamageDaivoSwarmRadius": 20.0,
+          "fDamageFulmiteBellyMineExplosionDefault": 100.0,
+          "fDamageInfesterBallExplosionDefault": 40.0,
+          "fDamageCooldownXBossLaser": 220.0
+        }
+      },
+      "Autclast|CTunableCharClassAutclastAIComponent": {
+        "Class": "CCharClassAutclastAIComponent::CTunableCharClassAutclastAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassAutclastAIComponent",
+          "iMaxExplosions": 6,
+          "fTimeBetweenExplosions": 0.11999999731779099,
+          "fExplosionWidth": 100.0,
+          "fMaxExplosionHeightOnGround": 300.0,
+          "fMaxExplosionHeightOnWall": 490.0,
+          "fMaxExplosionHeightOnCeilling": 490.0,
+          "fExplosionHeightStartAttackOffset": 100.0,
+          "fMinExplosionHeight": 200.0,
+          "fAttackRecoveryTime": 1.0,
+          "fExplosionDamage": 30.0,
+          "fExplosionDuration": 0.25,
+          "fMaxDistToAttack": 400.0,
+          "fMaxPropagationHeight": 210.0,
+          "fMinDistToSlope": 100.0,
+          "fBaseRotationEffectFactor": 1.0
+        }
+      },
+      "Autector|CTunableCharClassAutectorAIComponent": {
+        "Class": "CCharClassAutectorAIComponent::CTunableCharClassAutectorAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassAutectorAIComponent",
+          "fExplosionRadius": 500.0,
+          "fTimeToExplosion": 0.10000000149011612,
+          "fTimeAtMaxRadiusExplosion": 0.10000000149011612,
+          "bCanBeSpawned": true
+        }
+      },
+      "Autool|CTunableCharClassAutoolAIComponent": {
+        "Class": "CCharClassAutoolAIComponent::CTunableCharClassAutoolAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassAutoolAIComponent",
+          "bRepairEnabled": true,
+          "fExtraTimeAfterKill": 5.0,
+          "fRandTimeFirstSpawnMin": 3.0,
+          "fRandTimeFirstSpawnMax": 10.0,
+          "fBrakeDistance": 600.0,
+          "fMinSpeed": 0.10000000149011612,
+          "fMaxInclination": 0.699999988079071,
+          "fReachedDistance": 0.0,
+          "fMaxAcceleration": 1.5,
+          "fMinAcceleration": 0.800000011920929,
+          "fMotionSpeed": 800.0
+        }
+      },
+      "Autsharp|CTunableCharClassAutsharpAIComponent": {
+        "Class": "CCharClassAutsharpAIComponent::CTunableCharClassAutsharpAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassAutsharpAIComponent",
+          "bCanBeSpawned": true,
+          "fDistanceToDetectMagnet": 500.0,
+          "fTimeToPrepareExplosion": 1.0,
+          "fRotationInc": 2.0,
+          "fRotationMultiplier": 2.0
+        }
+      },
+      "BigFist|CTunableCharClassBigFistAIComponent": {
+        "Class": "CCharClassBigFistAIComponent::CTunableCharClassBigFistAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassBigFistAIComponent",
+          "fFleeTimeToReturnToPatrol": 5.0,
+          "fChaseMinDist": 305.0,
+          "fChaseMaxDist": 405.0
+        }
+      },
+      "BigFist|CTunableCharClassBigFistAttack": {
+        "Class": "CCharClassBigFistAttack::CTunableCharClassBigFistAttack",
+        "Data": {
+          "sName": "CTunableCharClassBigFistAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 405.0,
+          "fPostAttackLoopDuration": 0.800000011920929,
+          "fFrontSpaceToForbidAttack": 250.0
+        }
+      },
+      "BlockableWarningRadius|CTunableCharClassBlockableWarningRadius": {
+        "Class": "CCharClassBlockableWarningRadius::CTunableCharClassBlockableWarningRadius",
+        "Data": {
+          "sName": "CTunableCharClassBlockableWarningRadius",
+          "fBlockableAttackWarningRadiusGooplot": 800.0,
+          "fBlockableAttackWarningRadiusChozoCommanderKiCounter": 700.0,
+          "fBlockableAttackWarningRadiusChozoCommanderKiStrike": 1300.0,
+          "fBlockableAttackWarningRadiusPoisonfly": 800.0,
+          "fBlockableAttackWarningRadiusQuetzoa": 1200.0,
+          "fBlockableAttackWarningRadiusIceflea": 700.0,
+          "fBlockableAttackWarningRadiusTakumaku": 600.0,
+          "fBlockableAttackWarningRadiusDredhed": 900.0,
+          "fBlockableAttackWarningRadiusBlindfly": 800.0,
+          "fBlockableAttackWarningRadiusKlaida": 600.0,
+          "fBlockableAttackWarningRadiusArmadigger": 600.0,
+          "fBlockableAttackWarningRadiusShelmit": 1000.0,
+          "fBlockableAttackWarningRadiusDropter": 700.0,
+          "fBlockableAttackWarningRadiusSakai": 1000.0,
+          "fBlockableAttackWarningRadiusSharpaw": 700.0,
+          "fBlockableAttackWarningRadiusQuetshockerX": 1200.0
+        }
+      },
+      "CentralUnit|CTunableCharClassCentralUnitAIComponent": {
+        "Class": "CCharClassCentralUnitAIComponent::CTunableCharClassCentralUnitAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassCentralUnitAIComponent",
+          "bAllowSimultaneousRinkas": false
+        }
+      },
+      "CentralUnitCannon|CTunableCharClassCentralUnitCannonAIComponent": {
+        "Class": "CCharClassCentralUnitCannonAIComponent::CTunableCharClassCentralUnitCannonAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassCentralUnitCannonAIComponent",
+          "fAimAngleInterpolationSpeed": 1.5,
+          "fAimAngleTolerance": 0.10000000149011612,
+          "fAttackPreparationTime": 1.0,
+          "fAttackCooldownTime": 1.0
+        }
+      },
+      "ChozoCommander|CTunableCharClassChozoCommanderAIComponent": {
+        "Class": "CCharClassChozoCommanderAIComponent::CTunableCharClassChozoCommanderAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassChozoCommanderAIComponent",
+          "fMotionSpeed": 800.0,
+          "bKiCounterDeactivateAura": true,
+          "bKiCounterShowMeleableFX": true,
+          "bKiCounterUseZoomCamera": true,
+          "iInitialStage": 0,
+          "fSentenceSphereSpeed": 440.0,
+          "TRI_COMBO": true,
+          "KI_STRIKE": true,
+          "SENTENCE_SPHERE": true,
+          "POWER_PULSE": true,
+          "AURA_SCRATCH": true,
+          "KI_COUNTER": true,
+          "LANDING_SLAM": true,
+          "AIR_CHARGE": true,
+          "ZERO_LASER": true,
+          "BEAM_BURST": true,
+          "HYPER_SPARK": true,
+          "ENERGY_SHARDS": true,
+          "ZERO_LASER_GROUNDED": true,
+          "HYPER_DASH": true,
+          "ULTIMATE_GRAB": true,
+          "KI_GRAB": true
+        }
+      },
+      "ChozoCommander|CTunableCharClassChozoCommanderAirAttack": {
+        "Class": "CCharClassChozoCommanderAirChargeAttack::CTunableCharClassChozoCommanderAirAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoCommanderAirAttack",
+          "bEnabled": true,
+          "fMinDistanceBetweenPlayerAndWall": 700.0,
+          "fMaxDistanceToDashBack": 600.0,
+          "fDistanceToEndCharge": 500.0
+        }
+      },
+      "ChozoCommander|CTunableCharClassChozoCommanderBeamBurstAttack": {
+        "Class": "CCharClassChozoCommanderBeamBurstAttack::CTunableCharClassChozoCommanderBeamBurstAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoCommanderBeamBurstAttack",
+          "bEnabled": true,
+          "fHeihtToStartAttack": 700.0,
+          "fClosestDistToStartAttack": 400.0,
+          "fAimAngleInterpSpeed": 6.283185005187988,
+          "fShotAngleInterpSpeedMin": 0.4000000059604645,
+          "fShotAngleInterpSpeedMax": 4.0,
+          "fTimeAiming": 1.5,
+          "fTimeShootingInit": 0.5,
+          "fTimeShooting": 3.0,
+          "fTimeShootingLong": 6.0,
+          "fTimeToImpact": 0.5,
+          "fTimeToResetHittingPlayer": 1.0,
+          "fContinuosDamage": 10.0,
+          "fImpactDamage": 10.0
+        }
+      },
+      "ChozoRobotSoldier|CTunableCharClassChozoRobotSoldierAIComponent": {
+        "Class": "CCharClassChozoRobotSoldierAIComponent::CTunableCharClassChozoRobotSoldierAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassChozoRobotSoldierAIComponent",
+          "fMinTimeToStartChargeBeam": 10.0,
+          "fMaxTimeToStartChargeBeam": 13.0,
+          "fTimeToChargeBeam": 0.5,
+          "fExplosionRadius": 300.0,
+          "fExplosionTimeToReachRadius": 0.30000001192092896,
+          "fExplosionTimeAtMaxRadius": 0.20000000298023224,
+          "fCoreDamageFactor": 1.0,
+          "fTimeBetweenAttackGoingToShootingPosition": 1.5,
+          "fTimeBetweenAttackInShootingPosition": 0.5,
+          "fRangedAttackAfterMeleeAttackProbability": 0.5,
+          "fMeleeAttackAfterRangedAttackProbability": 0.5,
+          "fChangeToRangedAttackOnSamePlatformProbability": 0.20000000298023224,
+          "bAllCanUseChargeBeam": true
+        }
+      },
+      "ChozoRobotSoldier|CTunableCharClassChozoRobotSoldierCannonShotAttack": {
+        "Class": "CCharClassChozoRobotSoldierCannonShotAttack::CTunableCharClassChozoRobotSoldierCannonShotAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoRobotSoldierCannonShotAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fTimeToFinishAttack": 0.25,
+          "fTimeToWaitAfterBeamCharged": 0.0
+        }
+      },
+      "ChozoRobotSoldier|CTunableCharClassChozoRobotSoldierDashSlashAttack": {
+        "Class": "CCharClassChozoRobotSoldierDashSlashAttack::CTunableCharClassChozoRobotSoldierDashSlashAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoRobotSoldierDashSlashAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fMaxTraveledDistance": -1.0,
+          "fTimeToDisableAttackAfterMeleeSuccess": 25.0
+        }
+      },
+      "ChozoRobotSoldier|CTunableCharClassChozoRobotSoldierDisruptionFieldAttack": {
+        "Class": "CCharClassChozoRobotSoldierDisruptionFieldAttack::CTunableCharClassChozoRobotSoldierDisruptionFieldAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoRobotSoldierDisruptionFieldAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fExplosionRadius": 3000.0,
+          "fExplosionTimeToReachRadius": 0.699999988079071,
+          "fExplosionTimeAtMaxRadius": 0.0,
+          "fSpecialEnergyConsume": 1000.0
+        }
+      },
+      "ChozoRobotSoldier|CTunableCharClassChozoRobotSoldierUppercutAttack": {
+        "Class": "CCharClassChozoRobotSoldierUppercutAttack::CTunableCharClassChozoRobotSoldierUppercutAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoRobotSoldierUppercutAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0
+        }
+      },
+      "ChozoWarrior|CTunableCharClassChozoWarriorAIComponent": {
+        "Class": "CCharClassChozoWarriorAIComponent::CTunableCharClassChozoWarriorAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorAIComponent",
+          "fGrappleTime": 3.0,
+          "fShieldLife": 20.0,
+          "fShieldDamagePerMissile": 1.0,
+          "fShieldDamagePerMelee": 0.0,
+          "bAllowShieldImpactAnim": true,
+          "fMinTimeBetweenShieldImpactAnim": 2.0
+        }
+      },
+      "ChozoWarriorDeflectorShieldAttack|CTunableCharClassChozoWarriorShieldAttack": {
+        "Class": "CCharClassChozoWarriorDeflectorShieldAttack::CTunableCharClassChozoWarriorShieldAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorShieldAttack",
+          "fMinAttackDistance": 400.0,
+          "fMaxAttackDistance": 500.0
+        }
+      },
+      "ChozoWarriorGlaiveSpinAttack|CTunableCharClassChozoWarriorGlaiveSpinAttack": {
+        "Class": "CCharClassChozoWarriorGlaiveSpinAttack::CTunableCharClassChozoWarriorGlaiveSpinAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorGlaiveSpinAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 600.0
+        }
+      },
+      "ChozoWarriorGlaiveWalljumpAttack|CTunableCharClassChozoWarriorGlaiveWalljumpAttack": {
+        "Class": "CCharClassChozoWarriorGlaiveWalljumpAttack::CTunableCharClassChozoWarriorGlaiveWalljumpAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorGlaiveWalljumpAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fSkipAttackProb": 0.5
+        }
+      },
+      "ChozoWarriorXChangeWallAttack|CTunableCharClassChozoWarriorXChangeWallAttack": {
+        "Class": "CCharClassChozoWarriorXChangeWallAttack::CTunableCharClassChozoWarriorXChangeWallAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXChangeWallAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0
+        }
+      },
+      "ChozoWarriorXGlaiveSpinAttack|CTunableCharClassChozoWarriorXGlaiveSpinAttack": {
+        "Class": "CCharClassChozoWarriorXGlaiveSpinAttack::CTunableCharClassChozoWarriorXGlaiveSpinAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXGlaiveSpinAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 1000.0
+        }
+      },
+      "ChozoWarriorXLandAttack|CTunableCharClassChozoWarriorXLandAttack": {
+        "Class": "CCharClassChozoWarriorXLandAttack::CTunableCharClassChozoWarriorXLandAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXLandAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fWaveSpeed": 900.0,
+          "fWaveProjectileRadius": 100.0,
+          "fWaveHeight": 100.0,
+          "fWaveInitialOffset": -50.0,
+          "fWaveOffset": -400.0,
+          "fWaveParticlesOffset": 60.0,
+          "sWaveOffsetFactorizerFunction": ""
+        }
+      },
+      "ChozoWarriorXSpitAttack|CTunableCharClassChozoWarriorXSpitAttack": {
+        "Class": "CCharClassChozoWarriorXSpitAttack::CTunableCharClassChozoWarriorXSpitAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXSpitAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fSplashRadius": 70.0
+        }
+      },
+      "ChozoWarriorXUltimateGrabAttack|CTunableCharClassChozoWarriorXUltimateGrabAttack": {
+        "Class": "CCharClassChozoWarriorXUltimateGrabAttack::CTunableCharClassChozoWarriorXUltimateGrabAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXUltimateGrabAttack",
+          "fMinAttackDistance": 200.0,
+          "fMaxAttackDistance": 2000.0,
+          "fLifeRecoveredOnGrab": 3000.0,
+          "fDistanceFromWallToGrab": 150.0
+        }
+      },
+      "ChozoWarriorXWallClimbAttack|CTunableCharClassChozoWarriorXWallClimbAttack": {
+        "Class": "CCharClassChozoWarriorXWallClimbAttack::CTunableCharClassChozoWarriorXWallClimbAttack",
+        "Data": {
+          "sName": "CTunableCharClassChozoWarriorXWallClimbAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossAIComponent": {
+        "Class": "CCharClassCooldownXBossAIComponent::CTunableCharClassCooldownXBossAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossAIComponent",
+          "iInitialStage": 0,
+          "LAVA_CARPET": true,
+          "WIND_TUNNEL": true,
+          "STRONG_WHIP": false,
+          "REAPER": true,
+          "LAVA_DROPS": true,
+          "LASER_BITE": true,
+          "fMinLifeRestored4Arms": 5000.0,
+          "fMaxLifeRestored4Arms": 8000.0,
+          "fMinLifeRestored3Arms": 4500.0,
+          "fMaxLifeRestored3Arms": 7000.0,
+          "fMinLifeRestored2Arms": 4000.0,
+          "fMaxLifeRestored2Arms": 6000.0,
+          "fMinLifeRestored1Arms": 3500.0,
+          "fMaxLifeRestored1Arms": 5000.0,
+          "fPhase2Timeout": 7.0
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossLaserBiteAttack": {
+        "Class": "CCharClassCooldownXBossLaserBiteAttack::CTunableCharClassCooldownXBossLaserBiteAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossLaserBiteAttack",
+          "bEnabled": true
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossLavaCarpetAttack": {
+        "Class": "CCharClassCooldownXBossLavaCarpetAttack::CTunableCharClassCooldownXBossLavaCarpetAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossLavaCarpetAttack",
+          "bEnabled": true,
+          "iPattern": -1
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossLavaDropsAttack": {
+        "Class": "CCharClassCooldownXBossLavaDropsAttack::CTunableCharClassCooldownXBossLavaDropsAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossLavaDropsAttack",
+          "bEnabled": true,
+          "iForcedPattern": -1
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossReaperAttack": {
+        "Class": "CCharClassCooldownXBossReaperAttack::CTunableCharClassCooldownXBossReaperAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossReaperAttack",
+          "bEnabled": true
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossStrongWhipAttack": {
+        "Class": "CCharClassCooldownXBossStrongWhipAttack::CTunableCharClassCooldownXBossStrongWhipAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossStrongWhipAttack",
+          "bEnabled": true
+        }
+      },
+      "CooldownXBoss|CTunableCharClassCooldownXBossWindTunnelAttack": {
+        "Class": "CCharClassCooldownXBossWindTunnelAttack::CTunableCharClassCooldownXBossWindTunnelAttack",
+        "Data": {
+          "sName": "CTunableCharClassCooldownXBossWindTunnelAttack",
+          "bEnabled": true,
+          "iForcedPattern": -1,
+          "fShinesparkChargeExtensionWindTunnelPlayRate": 0.10000000149011612
+        }
+      },
+      "CoreX|CTunableCharClassCoreXAIComponent": {
+        "Class": "CCharClassCoreXAIComponent::CTunableCharClassCoreXAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassCoreXAIComponent"
+        }
+      },
+      "Emmy|CTunableEmmyCaveAIComponent": {
+        "Class": "CCharClassEmmyCaveAIComponent::CTunableEmmyCaveAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyCaveAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 900.0,
+            "bPerceptionPhase1Search2InfiniteRadius": false,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2000.0,
+            "fPhase1PerceptionChaseRangeRadius": 2000.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 1.0,
+            "fPhase1SearchSpeed": 1.2000000476837158,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.399999976158142,
+            "fPhase1CloseChaseSpeed": 1.25,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 4.0,
+            "fPhase1PatrolSearch2Speed": 1.0,
+            "fPhase1Search2Speed": 1.2000000476837158,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 1.399999976158142,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 2.0,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 4.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 1000.0,
+            "fEmmyMovementSoundMaxAttDistance": 1500.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.3499999940395355,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.05000000074505806,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.05000000074505806,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 1.2999999523162842,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 1000.0,
+            "fStallDetectionBigRadius": 1500.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          },
+          "fHeadHeatIncrementFactor": 0.30000001192092896,
+          "fTimeToStartHeatRecover": 0.5,
+          "fHeadHeatRecoveredPerSecond": 0.15000000596046448
+        }
+      },
+      "Emmy|CTunableEmmyForestAIComponent": {
+        "Class": "CCharClassEmmyForestAIComponent::CTunableEmmyForestAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyForestAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 900.0,
+            "bPerceptionPhase1Search2InfiniteRadius": false,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2500.0,
+            "fPhase1PerceptionChaseRangeRadius": 2500.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 1.0,
+            "fPhase1SearchSpeed": 1.2999999523162842,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.600000023841858,
+            "fPhase1CloseChaseSpeed": 1.399999976158142,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 4.0,
+            "fPhase1PatrolSearch2Speed": 1.0,
+            "fPhase1Search2Speed": 1.2999999523162842,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 1.399999976158142,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 2.0,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 4.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 500.0,
+            "fEmmyMovementSoundMaxAttDistance": 1000.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.3499999940395355,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.10000000149011612,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.05000000074505806,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 100.0,
+            "fStallDetectionBigRadius": 400.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          },
+          "fHeadHeatIncrementFactor": 0.20000000298023224,
+          "fHeadHeatIncrementFactorForGround": 0.10000000149011612,
+          "fTimeToStartHeatRecover": 0.5,
+          "fHeadHeatRecoveredPerSecond": 0.15000000596046448
+        }
+      },
+      "Emmy|CTunableEmmyLabAIComponent": {
+        "Class": "CCharClassEmmyLabAIComponent::CTunableEmmyLabAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyLabAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 900.0,
+            "bPerceptionPhase1Search2InfiniteRadius": false,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2500.0,
+            "fPhase1PerceptionChaseRangeRadius": 2500.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 1.0,
+            "fPhase1SearchSpeed": 1.2999999523162842,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.600000023841858,
+            "fPhase1CloseChaseSpeed": 1.399999976158142,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 4.0,
+            "fPhase1PatrolSearch2Speed": 1.0,
+            "fPhase1Search2Speed": 1.2999999523162842,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 1.399999976158142,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 2.0,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 4.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 500.0,
+            "fEmmyMovementSoundMaxAttDistance": 1000.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.3499999940395355,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.10000000149011612,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.029999999329447746,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 100.0,
+            "fStallDetectionBigRadius": 400.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          },
+          "fHeadHeatIncrementFactor": 0.30000001192092896,
+          "fTimeToStartHeatRecover": 0.5,
+          "fHeadHeatRecoveredPerSecond": 0.15000000596046448,
+          "fSpeedBoosterPhase1PatrolSpeed": 0.800000011920929,
+          "fSpeedBoosterPhase1PatrolSearchSpeed": 2.0999999046325684,
+          "fSpeedBoosterPhase1PatrolSearch2Speed": 2.0999999046325684,
+          "fSpeedBoosterPhase1SearchSpeed": 2.0999999046325684,
+          "bSpeedBoosterPhase1ChaseSpeedModulation": false,
+          "fSpeedBoosterPhase1ChaseSpeed": 2.0999999046325684,
+          "fSpeedBoosterPhase1CloseChaseSpeed": 1.7999999523162842,
+          "fSpeedBoosterPhase1FarDistChaseSpeed": 850.0,
+          "fSpeedBoosterPhase1CloseDistChaseSpeed": 300.0,
+          "fSpeedBoosterPhase1OutOfCameraSpeed": 3.0,
+          "fSpeedBoosterPhase1Search2Speed": 2.0999999046325684,
+          "fSpeedBoosterPhase2ProtectorOnChaseSpeed": 2.0999999046325684,
+          "fSpeedBoosterPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+          "fSpeedBoosterPhase2ProtectorDestroyedChaseFarSpeed": 1.0,
+          "fSpeedBoosterPhase2ProtectorDestroyedChaseCloseSpeed": 1.0,
+          "fSpeedBoosterPhase2ProtectorDestroyedChase2FeetFarSpeed": 1.0,
+          "fSpeedBoosterPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.5,
+          "fSpeedBoosterPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+          "fSpeedBoosterPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 3.0,
+          "fSpeedBoosterPhase2ProtectionHeadImpactedSpeedFactor": 0.20000000298023224,
+          "fSpeedBoosterAudioVolumeIncrease": 1.5
+        }
+      },
+      "Emmy|CTunableEmmyMagmaAIComponent": {
+        "Class": "CCharClassEmmyMagmaAIComponent::CTunableEmmyMagmaAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyMagmaAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 900.0,
+            "bPerceptionPhase1Search2InfiniteRadius": false,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2000.0,
+            "fPhase1PerceptionChaseRangeRadius": 2000.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 1.0,
+            "fPhase1SearchSpeed": 1.2000000476837158,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.5,
+            "fPhase1CloseChaseSpeed": 1.2999999523162842,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 4.0,
+            "fPhase1PatrolSearch2Speed": 1.0,
+            "fPhase1Search2Speed": 1.2000000476837158,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 1.399999976158142,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 2.0,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 4.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 1000.0,
+            "fEmmyMovementSoundMaxAttDistance": 1500.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.3499999940395355,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.05000000074505806,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.05000000074505806,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 1000.0,
+            "fStallDetectionBigRadius": 1500.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          },
+          "fHeadHeatIncrementFactor": 0.30000001192092896,
+          "fTimeToStartHeatRecover": 0.5,
+          "fHeadHeatRecoveredPerSecond": 0.15000000596046448
+        }
+      },
+      "Emmy|CTunableEmmyProtoAIComponent": {
+        "Class": "CCharClassEmmyProtoAIComponent::CTunableEmmyProtoAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyProtoAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 1000.0,
+            "bPerceptionPhase1Search2InfiniteRadius": true,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2000.0,
+            "fPhase1PerceptionChaseRangeRadius": 3000.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 0.800000011920929,
+            "fPhase1SearchSpeed": 0.949999988079071,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.7999999523162842,
+            "fPhase1CloseChaseSpeed": 1.25,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 2.0999999046325684,
+            "fPhase1PatrolSearch2Speed": 0.949999988079071,
+            "fPhase1Search2Speed": 0.949999988079071,
+            "fPhase2ProtectorOnChaseSpeed": 0.949999988079071,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 3.5999999046325684,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 0.949999988079071,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 0.949999988079071,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 1.0499999523162842,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.699999988079071,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 1.350000023841858,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 1.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": false,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 1000.0,
+            "fEmmyMovementSoundMaxAttDistance": 1500.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.5,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.10000000149011612,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.05000000074505806,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 1000.0,
+            "fStallDetectionBigRadius": 1500.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          },
+          "fGrabTutoCameraDistance": 200.0
+        }
+      },
+      "Emmy|CTunableEmmySancAIComponent": {
+        "Class": "CCharClassEmmySancAIComponent::CTunableEmmySancAIComponent",
+        "Data": {
+          "sName": "CTunableEmmySancAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 900.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 1000.0,
+            "bPerceptionPhase1Search2InfiniteRadius": false,
+            "fPhase1PerceptionSearchRangeRadius": 2000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2500.0,
+            "fPhase1PerceptionChaseRangeRadius": 2500.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 10.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 2800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.1599999964237213,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 1.0,
+            "fPhase1SearchSpeed": 1.2999999523162842,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.600000023841858,
+            "fPhase1CloseChaseSpeed": 1.399999976158142,
+            "fPhase1FarDistChaseSpeed": 850.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 4.0,
+            "fPhase1PatrolSearch2Speed": 1.0,
+            "fPhase1Search2Speed": 1.2999999523162842,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 4.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 1.399999976158142,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 2.0,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 4.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 1.0,
+            "fEmmySoundPerceptionVolume": 0.3499999940395355,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 500.0,
+            "fEmmyMovementSoundMaxAttDistance": 1000.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 10.0,
+            "fGrabPreparationGraceTime": 0.5,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 10.0,
+            "fGrabSecondPreparationGraceTime": 0.10000000149011612,
+            "fGrabQTETime": 0.20000000298023224,
+            "fGrabSecondQTETime": 0.10000000149011612,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.3499999940395355,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.10000000149011612,
+            "fTimeToShowCurrentDetectionRange": 0.30000001192092896,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.05000000074505806,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 100.0,
+            "fStallDetectionBigRadius": 400.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": true
+          },
+          "fHeadHeatIncrementFactor": 0.30000001192092896,
+          "fHeadHeatIncrementFactorDuringPursuit": 0.15000000596046448,
+          "fTimeToStartHeatRecover": 0.5,
+          "fHeadHeatRecoveredPerSecond": 0.15000000596046448
+        }
+      },
+      "Emmy|CTunableEmmyShipyardAIComponent": {
+        "Class": "CCharClassEmmyShipyardAIComponent::CTunableEmmyShipyardAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyShipyardAIComponent",
+          "rConfig": {
+            "bPerceptionFeedbackEnabled": true,
+            "fPhase1PerceptionPatrolRangeRadius": 1500.0,
+            "fPhase1PerceptionPatrolSearchRangeRadius": 1000.0,
+            "bPerceptionPhase1Search2InfiniteRadius": true,
+            "fPhase1PerceptionSearchRangeRadius": 3000.0,
+            "fPhase1PerceptionSearch2RangeRadius": 2000.0,
+            "fPhase1PerceptionChaseRangeRadius": 3000.0,
+            "fPhase1PerceptionCentralVisionConeAperture": 45.0,
+            "fPhase1PerceptionCentralVisionConeRadius": 800.0,
+            "fPerceptionCentralVisionConeMinTimeToTrigger": 0.16666699945926666,
+            "bPerceptionVisionConeVisible": true,
+            "fPerceptionVisionConeIntensity": 1.0,
+            "bShowBehaviorDebug": false,
+            "bShowSearchPointDebug": false,
+            "bShowPulseBackground": false,
+            "bShowPulseGradient": false,
+            "fPhaseDisplacementFactor": 1.0,
+            "fPhase1PatrolSpeed": 0.800000011920929,
+            "fPhase1PatrolSearchSpeed": 0.800000011920929,
+            "fPhase1SearchSpeed": 0.800000011920929,
+            "bPhase1ChaseSpeedModulation": false,
+            "fPhase1ChaseSpeed": 1.5,
+            "fPhase1CloseChaseSpeed": 1.350000023841858,
+            "fPhase1FarDistChaseSpeed": 800.0,
+            "fPhase1CloseDistChaseSpeed": 300.0,
+            "fPhase1OutOfCameraSpeed": 3.0,
+            "fPhase1PatrolSearch2Speed": 0.800000011920929,
+            "fPhase1Search2Speed": 0.800000011920929,
+            "fPhase2ProtectorOnChaseSpeed": 0.800000011920929,
+            "fPhase2ProtectorOnOutOfCameraSpeed": 3.0,
+            "fPhase2ProtectorDestroyedChaseFarSpeed": 0.800000011920929,
+            "fPhase2ProtectorDestroyedChaseCloseSpeed": 0.800000011920929,
+            "fPhase2ProtectorDestroyedChase2FeetFarSpeed": 0.8999999761581421,
+            "fPhase2ProtectorDestroyedChase2FeetCloseSpeed": 0.30000001192092896,
+            "fPhase2ProtectorDestroyedOutOfCameraFarSpeed": 4.0,
+            "fPhase2ProtectorDestroyedOutOfCameraCloseSpeed": 3.0,
+            "bFasterChaseTunnelTransitionEnabledPhase1": true,
+            "bFasterChaseTunnelTransitionEnabledPhase2": true,
+            "fPhase1OutOfCameraSpeedDeactivateDistance": 1000.0,
+            "fPhase2OutOfCameraSpeedDeactivateDistance": 1800.0,
+            "bOutOfCameraSpeedDeactivateInMiniMap": true,
+            "fPhase2ProtectorDestroyedFarDistance": 300.0,
+            "bSearchLoopSoundEnabled": true,
+            "fEmmySoundMinAttDistance": 500.0,
+            "fEmmySoundMaxAttDistance": 3500.0,
+            "fEmmySoundVolume": 0.0,
+            "fEmmySoundPerceptionVolume": 0.5,
+            "fEmmySoundDistZoomWalkCamMinAttDistance": 500.0,
+            "fEmmySoundDistZoomWalkCamMaxAttDistance": 5000.0,
+            "fEmmySoundDistZoomWalkCamVolumeMultiplier": 1.0,
+            "fEmmyMovementSoundVolume": 0.5,
+            "fEmmyMovementSoundMinAttDistance": 500.0,
+            "fEmmyMovementSoundMaxAttDistance": 1000.0,
+            "fPhase2GrabDistance": 160.0,
+            "fPhase2Chase2FeetAnticipationMinDistance": 500.0,
+            "fPhase2Chase2FeetAnticipationMaxDistance": 950.0,
+            "fPhase2Chase2FeetSoundMinFrequency": 0.10000000149011612,
+            "fPhase2Chase2FeetSoundMedFrequency": 0.30000001192092896,
+            "fPhase2Chase2FeetSoundMaxFrequency": 0.6000000238418579,
+            "fGrabPreparationTime1": 0.20000000298023224,
+            "fGrabPreparationTime2": 0.5,
+            "fGrabPreparationTime3": 0.800000011920929,
+            "fGrabPreparationGraceTimeProbability": 100.0,
+            "fGrabPreparationGraceTime": 0.10000000149011612,
+            "fGrabSecondPreparationTime1": 0.5,
+            "fGrabSecondPreparationTime2": 0.699999988079071,
+            "fGrabSecondPreparationTime3": 0.8999999761581421,
+            "fGrabSecondPreparationGraceTimeProbability": 100.0,
+            "fGrabSecondPreparationGraceTime": 0.05000000074505806,
+            "fGrabQTETime": 0.4000000059604645,
+            "fGrabSecondQTETime": 0.20999999344348907,
+            "fGrabQTEFailTime": 0.30000001192092896,
+            "bPlayerNoiseEnabled": true,
+            "bSearchUsesPatrolColorWhenTargetLost": false,
+            "bLocationRumbleEnabled": true,
+            "fRumbleBaseGain": 0.8999999761581421,
+            "iRumbleWave": 3,
+            "iStatesInRumble": 4,
+            "bRumbleDemoMode": true,
+            "fRumbleDemoSpinSpeed": 0.5,
+            "fRumbleDemoVibrationSpeed": 0.5,
+            "fPatrolSearchMaxTime": -1.0,
+            "fGrabZoomOffset": 850.0,
+            "fGrabZoomTime": 0.10000000149011612,
+            "bEmmy1CanUseTunnels": false,
+            "bEmmy2CanUseTunnels": false,
+            "iEmmyKeyCollectionMode": 0,
+            "iEmmyKeyAmount": 3,
+            "fTargetLostRouteFindInternalNodeProbability": 1.0,
+            "fTargetLostRouteFindLastNodeProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindProbability": 0.20000000298023224,
+            "fTargetLostNavMeshFindRadius": 1000.0,
+            "fTargetLostNavMeshNoFindRadius": 1500.0,
+            "fTargetLostNavMeshNoFindPathMaxDistance": 2000.0,
+            "fTargetLostNavMeshNoFindPathMinDistance": 1000.0,
+            "iTargetLostLowLife": 1112014848,
+            "fTargetLostLowLifeRareAnimProb": 0.20000000298023224,
+            "fTargetLostLowLifeVeryRareAnimProb": 0.10000000149011612,
+            "bRangeVisibleOnlyInPlayerFocusMode": true,
+            "iDetectDoorOpenedMode": 2,
+            "fDetectDoorOpenedDistance": 10000.0,
+            "iGrabEmmySamusQTEMode": 0,
+            "fTwoFeetChaseMinSpaceToStretch": 500.0,
+            "fTwoFeetChaseDistanceToAnticipateCrouchAnim": 400.0,
+            "fTwoFeetChaseDistanceToAnticipateStretchAnim": 0.0,
+            "fDistanceToSwitchTo3mInGrabPreparation": 650.0,
+            "fDistanceToStartSwitchingTo3mInGrabPreparation": 900.0,
+            "fPhase2HeadProtectorLife": 1000.0,
+            "fPhase2HeadProtectorLifeRecoveredPerSecond": 200.0,
+            "fPhase2ProtectionHeadImpactedSpeedFactor": 0.5,
+            "fPhase2ProtectionHeadImpactedSpeedFactorTime": 0.10000000149011612,
+            "fWaterSpeedFactor": 0.699999988079071,
+            "fMinTimeToStayStretched": 2.0,
+            "bEmmyMovementSoundEnabled": true,
+            "bEmmyGrabBeepSoundEnabled": true,
+            "bPulseVisible": true,
+            "fDetectionRangeFadeIn": 0.07000000029802322,
+            "fDetectionRangeFadeOut": 0.20000000298023224,
+            "fTimeToShowPreviousDetectionRange": 0.10000000149011612,
+            "fTimeGrowingDetectionRange": 0.10000000149011612,
+            "fTimeToShowCurrentDetectionRange": 3.0,
+            "fTimeToShowOnlyCurrentDetectionRange": 0.30000001192092896,
+            "fChaseUnspawnEnemyCulledCount": 150.0,
+            "fEmmySpeedIncreasedPerSecond": 0.029999999329447746,
+            "fMaxEmmySmartLinkSpeedIncreased": 2.5,
+            "fMaxEmmyWalkSpeedIncreased": 0.800000011920929,
+            "bStallingDetectionEnabled": false,
+            "bTunnelStallingPreventionEnabled": false,
+            "bStallingSpeedIncreaseEnabled": false,
+            "fStallDetectionSmallRadius": 100.0,
+            "fStallDetectionBigRadius": 400.0,
+            "fStallDetectionTimeOnBigRadius": 15.0,
+            "fStallDetectionTimeOnSmallRadius": 7.5,
+            "bSetStopAndSearchAnimInLastPerception": true,
+            "fTimeOutOfCameraToEndChase": 2.5,
+            "bVisionConeThroughScenario": false
+          }
+        }
+      },
+      "GobblerAI|CTunableCharClassGobblerAIComponent": {
+        "Class": "CCharClassGobblerAIComponent::CTunableCharClassGobblerAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassGobblerAIComponent"
+        }
+      },
+      "Goliath|CTunableCharClassGoliathAIComponent": {
+        "Class": "CCharClassGoliathAIComponent::CTunableCharClassGoliathAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassGoliathAIComponent",
+          "fFleeTimeToReturnToPatrol": 5.0,
+          "fChaseMinDistance": 600.0,
+          "fChaseMaxDistance": 600.0
+        }
+      },
+      "Goliath|CTunableCharClassGoliathAttack": {
+        "Class": "CCharClassGoliathAttack::CTunableCharClassGoliathAttack",
+        "Data": {
+          "sName": "CTunableCharClassGoliathAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 745.0,
+          "fMaxAttackDistanceWShockwave": 900.0,
+          "fFrontSpaceToForbidAttack": 0.0,
+          "fShockWaveLength": 1200.0,
+          "fShockWaveTimeGrowing": 0.30000001192092896,
+          "fShockWaveTimeAtMaxRadius": 0.10000000149011612,
+          "fShockWaveAttackHeight": 110.0
+        }
+      },
+      "Gooplot|CTunableCharClassGooplotAIComponent": {
+        "Class": "CCharClassGooplotAIComponent::CTunableCharClassGooplotAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassGooplotAIComponent",
+          "fAwareTime": 0.5,
+          "fAttackRecoveryTime": 0.75,
+          "iMaxJumps": 5,
+          "fMaxSingleJumpTime": 5.0,
+          "iStaminaLossPerParry": 1,
+          "fAttackTrackingTime": 0.5,
+          "fAttackAirSpeed": 2000.0,
+          "fExplosionRadius": 110.0,
+          "fExplosionDamage": 30.0,
+          "fExplosionTime": 0.20000000298023224,
+          "fJumpTargetYOffset1": 100.0,
+          "fJumpTargetYOffset2": 0.0,
+          "fJumpTargetYOffset3": -70.0
+        }
+      },
+      "Gooplot|CTunableCharClassGooplotJumpAttack": {
+        "Class": "CCharClassGooplotJumpAttack::CTunableCharClassGooplotJumpAttack",
+        "Data": {
+          "sName": "CTunableCharClassGooplotJumpAttack",
+          "fMinAttackDistance": 0.0,
+          "fMaxAttackDistance": 300.0
+        }
+      },
+      "Gooplot|CTunableCharClassGooplotUndoJumpAttack": {
+        "Class": "CCharClassGooplotUndoJumpAttack::CTunableCharClassGooplotUndoJumpAttack",
+        "Data": {
+          "sName": "CTunableCharClassGooplotUndoJumpAttack",
+          "fMinAttackDistance": 1.0,
+          "fMaxAttackDistance": 5500.0
+        }
+      },
+      "GroundShocker|CTunableCharClassGroundShockerAIComponent": {
+        "Class": "CCharClassGroundShockerAIComponent::CTunableCharClassGroundShockerAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassGroundShockerAIComponent",
+          "fCombatMotionSpeed": 300.0,
+          "fMotionSpeed": 200.0
+        }
+      },
+      "GroundShocker|CTunableCharClassGroundShockerAttack": {
+        "Class": "CCharClassGroundShockerAttack::CTunableCharClassGroundShockerAttack",
+        "Data": {
+          "sName": "CTunableCharClassGroundShockerAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fInitLoopDuration": 0.20000000298023224,
+          "fHitLoopDuration": 2.0,
+          "fVulnerableAfterHitDuration": 2.5,
+          "fVulnerableOnPushDuration": 2.5
+        }
+      },
+      "HecathonAI|CTunableCharClassHecathoAIComponent": {
+        "Class": "CCharClassHecathonAIComponent::CTunableCharClassHecathoAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassHecathoAIComponent",
+          "fTimeToGoPatrol": 20.0,
+          "fPatrolEatPreparationTime": 1.0,
+          "fFeedAnimPreparationTime": 1.0,
+          "fStopFeedAnimPreparationTime": 1.0,
+          "fPatrolEatDurationMin": 5.0,
+          "fPatrolEatDurationMax": 10.0,
+          "fPatrolEatCooldownMin": 6.0,
+          "fPatrolEatCooldownMax": 6.0,
+          "fTimeToPlanktonDamage": 0.5,
+          "fExtraDistanceDamage": 100.0,
+          "fDistanceToNoticeOtherHecathons": 0.0,
+          "fTimeToChangeBetweenModes": 0.4000000059604645,
+          "fTimeToAdjustDir": 1.5,
+          "fDistToEndPathToAttack": 400.0,
+          "fTimeToChangeSpeed": 0.4000000059604645,
+          "fSpeedFactor": 1.5,
+          "fTimeToEat": 1.0
+        }
+      },
+      "Hydrogiga|CTunableCharClassHydrogigaAIComponent": {
+        "Class": "CCharClassHydrogigaAIComponent::CTunableCharClassHydrogigaAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassHydrogigaAIComponent",
+          "HYDROGIGA_BRAID_ATTACK": true,
+          "HYDROGIGA_MAELSTORM_ATTACK": true,
+          "HYDROGIGA_POLYPS_ATTACK": true,
+          "HYDROGIGA_TENTACLE_BASH_ATTACK": true,
+          "HYDROGIGA_TONGUE_SWIRL_ATTACK": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidAIComponent": {
+        "Class": "CCharClassKraidAIComponent::CTunableCharClassKraidAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassKraidAIComponent",
+          "fFlyingSpikeMotionSpeed": 1800.0,
+          "fFlyingSpikeStickedWallTime": 0.4000000059604645,
+          "fZipLineDownTime": 2.0,
+          "iInitialStage": 0,
+          "uBombsToDieInMorphGrab": 12,
+          "SPINNING_NAILS": true,
+          "BACK_SLAP": true,
+          "ACID_BLOBS": true,
+          "FLYING_SPIKES": true,
+          "TRIPLE_FLYING_SPIKES": true,
+          "BOUNCING_CREATURES": true,
+          "SHOCKER_SPLASH": true,
+          "FIERCE_SWIPE": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidAcidBlobsAttack": {
+        "Class": "CCharClassKraidAcidBlobsAttack::CTunableCharClassKraidAcidBlobsAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidAcidBlobsAttack",
+          "bEnabled": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidBackSlapAttack": {
+        "Class": "CCharClassKraidBackSlapAttack::CTunableCharClassKraidBackSlapAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidBackSlapAttack",
+          "bEnabled": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidBouncingCreaturesAttack": {
+        "Class": "CCharClassKraidBouncingCreaturesAttack::CTunableCharClassKraidBouncingCreaturesAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidBouncingCreaturesAttack",
+          "bEnabled": true,
+          "iPattern": -1
+        }
+      },
+      "Kraid|CTunableCharClassKraidFierceSwipeAttack": {
+        "Class": "CCharClassKraidFierceSwipeAttack::CTunableCharClassKraidFierceSwipeAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidFierceSwipeAttack",
+          "bEnabled": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidFlyingSpikesAttack": {
+        "Class": "CCharClassKraidFlyingSpikesAttack::CTunableCharClassKraidFlyingSpikesAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidFlyingSpikesAttack",
+          "bEnabled": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidShockerSplashAttack": {
+        "Class": "CCharClassKraidShockerSplashAttack::CTunableCharClassKraidShockerSplashAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidShockerSplashAttack",
+          "bEnabled": true
+        }
+      },
+      "Kraid|CTunableCharClassKraidSpinningNailsAttack": {
+        "Class": "CCharClassKraidSpinningNailsAttack::CTunableCharClassKraidSpinningNailsAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidSpinningNailsAttack",
+          "bEnabled": true,
+          "iPattern": -1
+        }
+      },
+      "Kraid|CTunableCharClassKraidTripleFlyingSpikesAttack": {
+        "Class": "CCharClassKraidTripleFlyingSpikesAttack::CTunableCharClassKraidTripleFlyingSpikesAttack",
+        "Data": {
+          "sName": "CTunableCharClassKraidTripleFlyingSpikesAttack",
+          "bEnabled": true
+        }
+      },
+      "Life|CTunableCharClassLifeComponent": {
+        "Class": "CCharClassLifeComponent::CTunableCharClassLifeComponent",
+        "Data": {
+          "sName": "CTunableCharClassLifeComponent",
+          "fLifeArachnus": 3000.0,
+          "fLifeArmadigger": 600.0,
+          "fLifeAutclast": 500.0,
+          "fLifeAutector": 100.0,
+          "fLifeAutomper": 100.0,
+          "fLifeAutool": 100.0,
+          "fLifeAutsharp": 120.0,
+          "fLifeAutsniper": 300.0,
+          "fLifeBatalloon": 500.0,
+          "fLifeBigFist": 800.0,
+          "fLifeBigkranX": 4400.0,
+          "fLifeBlindFly": 600.0,
+          "fLifeCaterzilla": 1.0,
+          "fLifeCentralUnitArmorCaves": 1500.0,
+          "fLifeCentralUnitArmorForest": 6000.0,
+          "fLifeCentralUnitArmorLaboratory": 2200.0,
+          "fLifeCentralUnitArmorMagma": 2000.0,
+          "fLifeCentralUnitArmorPlaceholder": 500.0,
+          "fLifeCentralUnitArmorSanctuary": 10000.0,
+          "fLifeCentralUnitCaves": 1000.0,
+          "fLifeCentralUnitForest": 3000.0,
+          "fLifeCentralUnitLaboratory": 1500.0,
+          "fLifeCentralUnitMagma": 1250.0,
+          "fLifeCentralUnitPlaceholder": 1500.0,
+          "fLifeCentralUnitSanctuary": 4000.0,
+          "fLifeChozoCommander": 46000.0,
+          "fLifeChozoCommanderEnergyShards": 800.0,
+          "fLifeChozoCommanderSentenceSphere": 1600.0,
+          "fLifeChozoCommanderStage1": 2000.0,
+          "fLifeChozoCommanderStage2": 22000.0,
+          "fLifeChozoRobotSoldier": 9000.0,
+          "fLifeChozoRobotSoldierAlternative": 12000.0,
+          "fLifeChozoWarrior": 10600.0,
+          "fLifeChozoWarriorElite": 17000.0,
+          "fLifeChozoWarriorWeak": 9000.0,
+          "fLifeChozoWarriorX": 14400.0,
+          "fLifeChozoWarriorXElite": 23500.0,
+          "fLifeChozoWarriorXWeak": 11000.0,
+          "fLifeChozoZombieX": 4000.0,
+          "fLifeCooldownXBoss": 8000.0,
+          "fLifeCooldownXBossFireBall": 10.0,
+          "fLifeCooldownXBossWeakPoint": 1200.0,
+          "fLifeCoreX": 2000.0,
+          "fLifeCoreXSuperQuetzoa": 2000.0,
+          "fLifeDaivo": 500.0,
+          "fLifeDaivoSwarm": 100.0,
+          "fLifeDepthorn": 900.0,
+          "fLifeDizzean": 1.0,
+          "fLifeDredhed": 300.0,
+          "fLifeDropter": 100.0,
+          "fLifeDummy": 1.0,
+          "fLifeEmmy": 1300.0,
+          "fLifeFing": 1.0,
+          "fLifeFulmite": 800.0,
+          "fLifeFulmiteBellyMine": 400.0,
+          "fLifeGobbler": 1000.0,
+          "fLifeGobblerChozoWarriorX": 2000.0,
+          "fLifeGobblerCooldownX": 2000.0,
+          "fLifeGobblerHydrogiga": 800.0,
+          "fLifeGobblerKraid": 800.0,
+          "fLifeGobblerScorpius": 400.0,
+          "fLifeGobblerSuperGoliath": 2000.0,
+          "fLifeGobblerSuperQuetzoa": 2000.0,
+          "fLifeGoliath": 5000.0,
+          "fLifeGoliathX": 28000.0,
+          "fLifeGooplot": 150.0,
+          "fLifeGooshocker": 300.0,
+          "fLifeGroundShocker": 1500.0,
+          "fLifeHecathon": 3500.0,
+          "fLifeHydrogiga": 4000.0,
+          "fLifeHydrogigaBlockingTentacle": 2000.0,
+          "fLifeHydrogigaPolyps": 130.0,
+          "fLifeIceflea": 800.0,
+          "fLifeInfester": 100.0,
+          "fLifeInfesterBall": 25.0,
+          "fLifeKlaida": 200.0,
+          "fLifeKraid": 6500.0,
+          "fLifeKraidAcidBlobs": 50.0,
+          "fLifeKraidBouncingCreatures": 50.0,
+          "fLifeKraidNail": 100.0,
+          "fLifeKraidStage1": 2250.0,
+          "fLifeKreep": 50.0,
+          "fLifeMagnetHusk": 1.0,
+          "fLifeNailong": 400.0,
+          "fLifeNailugger": 1400.0,
+          "fLifeObsydomithon": 600.0,
+          "fLifeOmnithon": 4500.0,
+          "fLifePoisonFly": 50.0,
+          "fLifeQuetshocker": 3500.0,
+          "fLifeQuetshockerEnergyWave": 50.0,
+          "fLifeQuetzoa": 2000.0,
+          "fLifeQuetzoaX": 8200.0,
+          "fLifeRedenki": 1.0,
+          "fLifeRinka": 25.0,
+          "fLifeRinkaCaves": 25.0,
+          "fLifeRinkaForest": 25.0,
+          "fLifeRinkaLab": 25.0,
+          "fLifeRinkaMagma": 25.0,
+          "fLifeRinkaSanc": 25.0,
+          "fLifeRockDiver": 20.0,
+          "fLifeRodomithonX": 1200.0,
+          "fLifeRodotuk": 300.0,
+          "fLifeSabotoru": 400.0,
+          "fLifeSakai": 700.0,
+          "fLifeSclawk": 150.0,
+          "fLifeScorpius": 3800.0,
+          "fLifeScorpiusSpit": 1.0,
+          "fLifeScorpiusStage1": 1200.0,
+          "fLifeScorpiusTail": 600.0,
+          "fLifeScorpiusTailPhase3": 600.0,
+          "fLifeScourge": 400.0,
+          "fLifeShakernaut": 4000.0,
+          "fLifeSharpaw": 200.0,
+          "fLifeShelmit": 600.0,
+          "fLifeShelmitNaked": 100.0,
+          "fLifeShineon": 50.0,
+          "fLifeSlidle": 1.0,
+          "fLifeSlugger": 500.0,
+          "fLifeSluggerAcidBall": 280.0,
+          "fLifeSpitclawk": 700.0,
+          "fLifeSpittail": 400.0,
+          "fLifeSunnap": 100.0,
+          "fLifeSwarmer": 500.0,
+          "fLifeSwifter": 50.0,
+          "fLifeTakumaku": 1500.0,
+          "fLifeVulkran": 200.0,
+          "fLifeWarLotus": 20.0,
+          "fLifeXParasite": 1.0,
+          "fLifeYampa": 300.0,
+          "fLifeYamplotX": 2500.0,
+          "fLifeYojimbee": 1.0
+        }
+      },
+      "MagnetSurfaceHusk|CTunableCharClassMagnetSurfaceHuskComponent": {
+        "Class": "CCharClassMagnetSurfaceHuskComponent::CTunableCharClassMagnetSurfaceHuskComponent",
+        "Data": {
+          "sName": "CTunableCharClassMagnetSurfaceHuskComponent",
+          "fTimeToRespawn": 5.0,
+          "fTimeToRespawnAfterMagnet": 0.5
+        }
+      },
+      "Obsydomithon|CTunableCharClassObsydomithonAIComponent": {
+        "Class": "CCharClassObsydomithonAIComponent::CTunableCharClassObsydomithonAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassObsydomithonAIComponent",
+          "fHeadAngleInterpolationSpeed": 460.0
+        }
+      },
+      "Obsydomithon|CTunableCharClassObsydomithonAttack": {
+        "Class": "CCharClassObsydomithonAttack::CTunableCharClassObsydomithonAttack",
+        "Data": {
+          "sName": "CTunableCharClassObsydomithonAttack",
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fChargeLoopDuration": 1.0,
+          "fAttackLoopDuration": 0.0,
+          "fVerticalAttackAngleToleranceForOtherPlatform": 180.0
+        }
+      },
+      "PoisonFly|CTunableCharClassPoisonFlyAIComponent": {
+        "Class": "CCharClassPoisonFlyAIComponent::CTunableCharClassPoisonFlyAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassPoisonFlyAIComponent",
+          "fHorizontalMoveDist": 175.0,
+          "fVerticalMaxNoise": 60.0,
+          "fNoNoiseRadiusFromTarget": 400.0,
+          "fCombatSpeedMultiplier": 0.800000011920929,
+          "fPatrolSpeedMultiplier": 0.10000000149011612,
+          "fAttackAnticipationSpeedMultiplier": 0.800000011920929,
+          "fFrontMinDistToTarget": 300.0,
+          "fBackMinDistToTarget": 550.0,
+          "fOnHitRepositionDistance": 300.0,
+          "fMinOnHitRepositionAngle": 45.0,
+          "fTimeBetweenAttacks": 0.5,
+          "fYOffsetToCrossTarget": 200.0,
+          "fWaitTimeToReturnPatrol": 0.5,
+          "fMotionSpeed": 2350.0,
+          "fMinAnticipationRelocationDistance": 150.0
+        }
+      },
+      "PoisonFly|CTunableCharClassPoisonFlyDiveAttack": {
+        "Class": "CCharClassPoisonFlyDiveAttack::CTunableCharClassPoisonFlyDiveAttack",
+        "Data": {
+          "sName": "CTunableCharClassPoisonFlyDiveAttack",
+          "fMinAttackDistance": 50.0,
+          "fMaxAttackDistance": 550.0
+        }
+      },
+      "Quetzoa|CTunableCharClassQuetzoaAIComponent": {
+        "Class": "CCharClassQuetzoaAIComponent::CTunableCharClassQuetzoaAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassQuetzoaAIComponent",
+          "fDodgeTimeThreshold": 2.0
+        }
+      },
+      "QuetzoaChargeAttack|CTunableCharClassQuetzoaChargeAttack": {
+        "Class": "CCharClassQuetzoaChargeAttack::CTunableCharClassQuetzoaChargeAttack",
+        "Data": {
+          "sName": "CTunableCharClassQuetzoaChargeAttack",
+          "fMaxChargingDistance": 1500.0
+        }
+      },
+      "QuetzoaEnergyWaveAttack|CTunableCharClassQuetzoaEnergyWaveAttack": {
+        "Class": "CCharClassQuetzoaEnergyWaveAttack::CTunableCharClassQuetzoaEnergyWaveAttack",
+        "Data": {
+          "sName": "CTunableCharClassQuetzoaEnergyWaveAttack",
+          "fMaxProjectileDistance": 2500.0,
+          "fTimeBeforeElectrify": 1.0,
+          "fElectrifyTime": 0.30000001192092896
+        }
+      },
+      "Rinka|CTunableCharClassRinkaAIComponent": {
+        "Class": "CCharClassRinkaAIComponent::CTunableCharClassRinkaAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassRinkaAIComponent",
+          "fInitialScale": 0.009999999776482582,
+          "fTimeToMaxScale": 0.10000000149011612,
+          "fATypeMotionSpeed": 350.0,
+          "fBTypeMotionSpeed": 500.0,
+          "fCTypeMotionSpeed": 750.0
+        }
+      },
+      "RinkaUnit|CTunableCharClassRinkaUnitComponent": {
+        "Class": "CCharClassRinkaUnitComponent::CTunableCharClassRinkaUnitComponent",
+        "Data": {
+          "sName": "CTunableCharClassRinkaUnitComponent",
+          "fPreparationTime": 0.25,
+          "fSpawnTime": 0.6000000238418579
+        }
+      },
+      "RockDiver|CTunableCharClassRockDiverAIComponent": {
+        "Class": "CCharClassRockDiverAIComponent::CTunableCharClassRockDiverAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassRockDiverAIComponent",
+          "fMotionSpeed": 0.0
+        }
+      },
+      "Rodotuk|CTunableCharClassRodotukAIComponent": {
+        "Class": "CCharClassRodotukAIComponent::CTunableCharClassRodotukAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassRodotukAIComponent",
+          "fBaseAbsorbDistance": 600.0,
+          "fAngryAbsorbDistance": 800.0,
+          "fMaxAbsorbAngle": 20.0,
+          "fAbsorbBaseSpeed": 550.0,
+          "fAbsorbMaxSpeed": 5000.0,
+          "fAbsorbTimeToLoseControl": 1.0,
+          "fAbsorbAcceleration": 400.0,
+          "fBombAbsorbBaseSpeed": 1500.0,
+          "fBombAbsorbAcceleration": 800.0000610351562,
+          "fBiteAnticipationDistance": 300.0
+        }
+      },
+      "Rodotuk|CTunableCharClassRodotukSuckAttack": {
+        "Class": "CCharClassRodotukSuckAttack::CTunableCharClassRodotukSuckAttack",
+        "Data": {
+          "sName": "CTunableCharClassRodotukSuckAttack"
+        }
+      },
+      "Sabotoru|CTunableCharClassSabotoruAIComponent": {
+        "Class": "CCharClassSabotoruAIComponent::CTunableCharClassSabotoruAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassSabotoruAIComponent",
+          "fDoorLife": 2000.0,
+          "fTimeToStopPanic": 10.0
+        }
+      },
+      "Sclawk|CTunableCharClassSclawkAIComponent": {
+        "Class": "CCharClassSclawkAIComponent::CTunableCharClassSclawkAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassSclawkAIComponent",
+          "fMinHiddenTime": 0.25,
+          "fMaxHiddenTime": 0.25,
+          "fJumpPreparationTime": 0.5
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusAIComponent": {
+        "Class": "CCharClassScorpiusAIComponent::CTunableCharClassScorpiusAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusAIComponent",
+          "iInitialStage": 0,
+          "fMaskLife": 500.0,
+          "fHeadPosInterpolationSpeed": 2.0,
+          "fHeadPosChangeMinTime": 1.5,
+          "fHeadPosChangeMaxTime": 3.0,
+          "fStartRegenerationWallDistance": 550.0,
+          "fRegenerationTime": 6.0,
+          "iForceOpticCamouflageDisabledMode": 0,
+          "fDamageToChangeHeadPos": 75.0,
+          "fChaseMinDistance": 1200.0,
+          "fChaseMaxDistance": 1400.0,
+          "fFrontMaxDistance": 300.0,
+          "fBackMaxDistance": 600.0,
+          "fDamageMultiplayerInPhase2": 0.5,
+          "fTailDamageToActivateCamouflage": 2000.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusDefensiveSpikeBallPrickAttack": {
+        "Class": "CCharClassScorpiusDefensiveSpikeBallPrickAttack::CTunableCharClassScorpiusDefensiveSpikeBallPrickAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusDefensiveSpikeBallPrickAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 300.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusDraggedBallPrickAttack": {
+        "Class": "CCharClassScorpiusDraggedBallPrickAttack::CTunableCharClassScorpiusDraggedBallPrickAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusDraggedBallPrickAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 580.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusMovingPoisonousGasAttack": {
+        "Class": "CCharClassScorpiusMovingPoisonousGasAttack::CTunableCharClassScorpiusMovingPoisonousGasAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusMovingPoisonousGasAttack",
+          "bEnabled": true,
+          "fTimeToMove": 3.0,
+          "fDistanceToStopMoving": 300.0,
+          "fTimeToSmash": 0.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusPoisonousGasAttack": {
+        "Class": "CCharClassScorpiusPoisonousGasAttack::CTunableCharClassScorpiusPoisonousGasAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusPoisonousGasAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": -1.0,
+          "fAttackTime": 4.0,
+          "fShockWaveLength": 1300.0,
+          "fShockWaveTimeGrowing": 3.0,
+          "fShockWaveTimeAtMaxRadius": 2.200000047683716,
+          "fMinChargingTime": 1.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusPoisonousSpitAttack": {
+        "Class": "CCharClassScorpiusPoisonousSpitAttack::CTunableCharClassScorpiusPoisonousSpitAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusPoisonousSpitAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": 1000.0,
+          "fMaxAttackDistance": 2500.0,
+          "fExplosionRadius": 150.0,
+          "fTimeToReachExplosionRadius": 0.30000001192092896,
+          "fTimeToMaintainExplosionRadius": 0.800000011920929,
+          "fTimeToDisapear": 0.4000000059604645,
+          "fPoisonDamagePerSecond": 15.0,
+          "fPoisonDamage": 20.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusSpikeBallPrickAttack": {
+        "Class": "CCharClassScorpiusSpikeBallPrickAttack::CTunableCharClassScorpiusSpikeBallPrickAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusSpikeBallPrickAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 1150.0,
+          "fTimeToDisableAttackAfterMeleeSuccess": 50.0,
+          "fFrameToReleaseTail": 136.0
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusTailSmashAttack": {
+        "Class": "CCharClassScorpiusTailSmashAttack::CTunableCharClassScorpiusTailSmashAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusTailSmashAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 1050.0,
+          "fMinTimeToAttack": 2.5
+        }
+      },
+      "Scorpius|CTunableCharClassScorpiusWhiplashAttack": {
+        "Class": "CCharClassScorpiusWhiplashAttack::CTunableCharClassScorpiusWhiplashAttack",
+        "Data": {
+          "sName": "CTunableCharClassScorpiusWhiplashAttack",
+          "bEnabled": true,
+          "fMinAttackDistance": -1.0,
+          "fMaxAttackDistance": 1450.0
+        }
+      },
+      "Shineon|CTunableCharClassShineonAIComponent": {
+        "Class": "CCharClassShineonAIComponent::CTunableCharClassShineonAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassShineonAIComponent",
+          "fMotionSpeed": 350.0000305175781
+        }
+      },
+      "Swifter|CTunableCharClassSwifterAIComponent": {
+        "Class": "CCharClassSwifterAIComponent::CTunableCharClassSwifterAIComponent",
+        "Data": {
+          "sName": "CTunableCharClassSwifterAIComponent",
+          "fMotionSpeed": 400.0
+        }
+      },
+      "CTunableCharClassTweakPlayRateTrack": {
+        "Class": "CCharClassTweakPlayRateTrack::CTunableCharClassTweakPlayRateTrack",
+        "Data": {
+          "sName": "CTunableCharClassTweakPlayRateTrack",
+          "fPlayRateFactor": 1.0,
+          "fMagnetWallRunUp": 1.2000000476837158,
+          "fMagnetWallRunDown": 1.5,
+          "fMagnetCeilingRun": 1.2000000476837158,
+          "fStealthMagnetWallRunUp": 1.2000000476837158,
+          "fStealthMagnetWallRunDown": 1.5,
+          "fStealthMagnetCeilingRun": 1.2000000476837158,
+          "fShinesparkChargeExtensionFactor": 1.0,
+          "fCommanderUltimateGrabSpeed0": 1.0,
+          "fWarriorXUltimateGrabSpeed0": 1.0,
+          "fHydrogigaPolyp01FallSpeed": 0.75,
+          "fHydrogigaPolyp02FallSpeed": 1.100000023841858,
+          "fHydrogigaPolyp03FallSpeed": 0.8999999761581421,
+          "fHydrogigaPolyp04FallSpeed": 0.949999988079071,
+          "fHydrogigaPolyp05FallSpeed": 1.2000000476837158,
+          "fHydrogigaPolyp06FallSpeed": 0.699999988079071,
+          "fHydrogigaPolyp07FallSpeed": 1.149999976158142,
+          "fHydrogigaPolyp08FallSpeed": 1.0,
+          "fHydrogigaPolyp09FallSpeed": 0.699999988079071,
+          "fOpticCamouflageSpeed": 1.0,
+          "fKraidPistonMoveUpSpeed": 1.0,
+          "fGoliathSpeed": 1.0,
+          "fChozoCommanderCommanderXSpeed": 1.2999999523162842,
+          "fCooldownXBossLavaCarpetSpeed": 1.0,
+          "fCooldownXBossMoveArmSpeedLeftUp": 1.100000023841858,
+          "fCooldownXBossMoveArmSpeedLeftDown": 1.100000023841858,
+          "fCooldownXBossMoveArmSpeedRightUp": 0.800000011920929,
+          "fCooldownXBossMoveArmSpeedRightDown": 1.2000000476837158,
+          "fEmmyTunnelWalk": 1.5399999618530273,
+          "fMeleeSpeed": 2.0,
+          "fEmmyStaggerRecoverySpeed": 3.0,
+          "fEmmyStaggerRecoveryTurnSpeed": 3.0,
+          "fCantFireBufferedInput": 1.0,
+          "fScorpiusRegereratingMaskAction": 1.0,
+          "fScorpiusHeadBlendSpeed": 1.0092840194702148
+        }
+      },
+      "Player|CTunableCharacterMovement": {
+        "Class": "CCharacterMovement::CTunableCharacterMovement",
+        "Data": {
+          "sName": "CTunableCharacterMovement",
+          "fFixPositionDefaultTolerance": 42.0
+        }
+      },
+      "CTunableCommanderUltimateGrab": {
+        "Class": "CChozoCommanderUltimateGrabAttack::CTunableCommanderUltimateGrab",
+        "Data": {
+          "sName": "CTunableCommanderUltimateGrab"
+        }
+      },
+      "CTunableChozoWarriorXUltimateGrabAttack": {
+        "Class": "CChozoWarriorXUltimateGrabAttack::CTunableChozoWarriorXUltimateGrabAttack",
+        "Data": {
+          "sName": "CTunableChozoWarriorXUltimateGrabAttack"
+        }
+      },
+      "CREDITS|CTunableCredits": {
+        "Class": "CCreditsMode::CTunableCredits",
+        "Data": {
+          "sName": "CTunableCredits",
+          "vColorTitle": [
+            0.8039000034332275,
+            0.45879998803138733,
+            0.16859999299049377
+          ],
+          "vColorSubtitle": [
+            0.8349999785423279,
+            0.6539999842643738,
+            0.30979999899864197
+          ],
+          "vColorEntry": [
+            0.9333000183105469,
+            0.8862000107765198,
+            0.800000011920929
+          ]
+        }
+      },
+      "CTunableCutscene": {
+        "Class": "CCutscene::CTunableCutscene",
+        "Data": {
+          "sName": "CTunableCutscene",
+          "fDistanceListenerToTarget": 50.0
+        }
+      },
+      "CTunableDoorLifeComponent": {
+        "Class": "CDoorLifeComponent::CTunableDoorLifeComponent",
+        "Data": {
+          "sName": "CTunableDoorLifeComponent",
+          "fPhaseDisplacementFactorOverride": 0.4000000059604645,
+          "fOneWayDoorCloseDistance": 350.0,
+          "fIceBlockOffSet": 54.0,
+          "bForceAllDoorsOpened": false
+        }
+      },
+      "Drop|CTunableDropComponent": {
+        "Class": "CDropComponent::CTunableDropComponent",
+        "Data": {
+          "sName": "CTunableDropComponent",
+          "fTimeToFade": 1.5,
+          "bUseCrazyWeaponBoostConfiguration": false,
+          "bForceNoDrop": false,
+          "bForceXParasiteDrop": false,
+          "bForceXParasiteSelfSpawnLoop": false,
+          "bIgnoreXParasiteDrop": false,
+          "fLowHealthRuleMaxLife": 50.0,
+          "fCriticalHealthRuleMaxLife": 25.0,
+          "bSkipCriticalHealthRuleTakingCurrentDropsIntoAccount": false,
+          "bApplyLowHealthRuleCountingPreviousDrops": true,
+          "fXParasiteOrangeReductionOnFullPowerBombAmmo": 0.5,
+          "fXParasiteOrangeRelativeProbabilityOnOtherResourcesFull": 0.5
+        }
+      },
+      "CTunableDroppable": {
+        "Class": "CDroppableComponent::CTunableDroppable",
+        "Data": {
+          "sName": "CTunableDroppable",
+          "fSpawnSpeedFactor": 2.0,
+          "fMaxSpawnVelocity": 300.0
+        }
+      },
+      "Emmy|CTunableEmmyAIComponent": {
+        "Class": "CEmmyAIComponent::CTunableEmmyAIComponent",
+        "Data": {
+          "sName": "CTunableEmmyAIComponent",
+          "fChaseUnspawnEnemyDistance": 800.0,
+          "bCloseEmmyDoorsDuringChase": true,
+          "fEmmyAutoFocusStartTime": 0.800000011920929,
+          "fEmmyAutoFocusEndTime": 1.2000000476837158,
+          "fEmmyAutoFocusMaxZoomDistance": 1750.0,
+          "fFocusModeActivationRadius": 4000.0,
+          "fEmmyZoneChasePulseWaitTime": 0.5,
+          "fEmmyZoneChasePulseSpeed": 6.0,
+          "fEmmyZoneChasePhase2PulseWaitTime": 1.5,
+          "fEmmyZoneChasePhase2PulseSpeed": 5.0,
+          "fEmmyZoneSearch2PulseWaitTime": 1.5,
+          "fEmmyZoneSearch2PulseSpeed": 1.0,
+          "eEmmyOutsideRoomLowPassFilter": 1,
+          "bEmmyOutsideRoomLowPassActive": true,
+          "bAfterGrabGotoSearch": true,
+          "fGrab2Probability": 0.5,
+          "fTimeTargetOutOfEmmyZoneToEndSearch": 3.0,
+          "bWantsChaseRedLight": true,
+          "fTunnelWalkTransitionSpeedChasePhase1": 1.5,
+          "fTunnelWalkTransitionSpeedChasePhase2ProtectorOn": 1.7999999523162842,
+          "fTunnelWalkTransitionSpeedChasePhase2ProtectorDestroyed": 1.2999999523162842,
+          "bDarknessEnabled": true,
+          "iMinimapMode": 1,
+          "fMinimapPatrol2SearchTime": 6.0,
+          "bWaveInSearch": false,
+          "bWaveInChase": true,
+          "bWaveInWater": false,
+          "bWaveInPhase2ProtectorOn": false,
+          "bWaveInfiniteDetectionRadius": true,
+          "fWaveTimeBetweenFire": 1.7000000476837158,
+          "fWaveChargeTime": 1.100000023841858,
+          "bWaveMaxRadiusToFireDebug": false,
+          "fWaveMaxRadiusToFire": -1.0,
+          "fWaveTimeSinceWaveReactionToFire": 1.0,
+          "bWaveShowFireFeedback": true,
+          "fWaveProjectileInitialRadius": 50.0,
+          "fWaveProjectileRadius": 95.0,
+          "fWaveIgnoreInputTime": 1.2999999523162842,
+          "fWaveProjectileSpeed": 1250.0,
+          "fWaveProjectileWaterSpeed": 1250.0,
+          "fWaveMinAtt": 100.0,
+          "fWaveMaxAtt": 4000.0,
+          "fWaveMinTimeInSpaceJumpToFire": 1.5,
+          "fWaveMaxTimeInSpaceJumpToFire": 6.0,
+          "fWaveInSpaceJumpFireProjectileMaxSpeed": 2500.0,
+          "bIceUseInPatrol": true,
+          "bIceUseInWater": true,
+          "bIceInfiniteDetectionRadius": false,
+          "fIceIceConeRadius": 2800.0,
+          "fIceIceConeAperture": 10.0,
+          "fIceIceConeChargeTime": 0.0,
+          "fIceTimeBetweenFire": 0.30000001192092896,
+          "fIceIgnoreInputTimeMax": 20.0,
+          "fIceIgnoreInputTimeMin": 1.0,
+          "fTimeSearchForcedToGoAway": 2.0,
+          "fTimeSearchForcedToGoAwayInSearch": 1.0,
+          "fStaggerTimeGrab": 3.0,
+          "fStaggerTimeHeadProtectorDestroyed": 0.5,
+          "fStaggerTimeGrabTuto": 7.0,
+          "bUseTurnsWithoutStopAndLook": false,
+          "bAlwaysWinQTE1": false,
+          "fCentralUnitAlarmVolumeOnGrab": 0.30000001192092896,
+          "fTimeInFrustumToMarkEmmySeen": 1.0
+        }
+      },
+      "EnemyLife|CTunableEnemyLifeComponent": {
+        "Class": "CEnemyLifeComponent::CTunableEnemyLifeComponent",
+        "Data": {
+          "sName": "CTunableEnemyLifeComponent",
+          "bEnemiesLifeLocked": false,
+          "fOverrideDamage": 0.0
+        }
+      },
+      "EvacuationCountDown|CTunableEvacuationCountDown": {
+        "Class": "CEvacuationCountDown::CTunableEvacuationCountDown",
+        "Data": {
+          "sName": "CTunableEvacuationCountDown",
+          "fRumbleMinGain": 0.0,
+          "fRumbleMaxGain": 2.0,
+          "sRumbleEasingFunction": "22",
+          "fEscapeSequenceMaxTime": 180.0,
+          "fCameraShakeMinShakeDist": 0.0,
+          "fCameraShakeMaxShakeDist": 10.0,
+          "sShakeEasingFunction": "s2",
+          "fPercentActivationAmbientFXSoft": 25.000001907348633,
+          "fPercentActivationAmbientFXMedium": 50.0,
+          "fPercentActivationAmbientFXHard": 75.0,
+          "iTimeToBlinkEvery10s": 60,
+          "iTimeToBlinkEvery5s": 30,
+          "iTimeToBlinkEverysecond": 15,
+          "fMinInterPulseTime": 3.0,
+          "fMaxInterPulseTime": 1.5,
+          "sInterPulseTimeEasingFunction": "",
+          "fMinPulseSpeed": 2.0,
+          "fMaxPulseSpeed": 5.0,
+          "sPulseSpeedEasingFunction": "",
+          "fMinBaseColor": 0.6499999761581421,
+          "fMaxBaseColor": 0.800000011920929,
+          "sBaseColorEasingFunction": "",
+          "fMinEmberFlyingPercentage": 0.0,
+          "fMaxEmberFlyingPercentage": 1.0,
+          "sEmberFyingEasingFunction": ""
+        }
+      },
+      "CTunableFrozenAsFrostbiteComponent": {
+        "Class": "CFrozenAsFrostbiteComponent::CTunableFrozenAsFrostbiteComponent",
+        "Data": {
+          "sName": "CTunableFrozenAsFrostbiteComponent",
+          "fFrostbiteColorR": 0.0,
+          "fFrostbiteColorG": 0.5,
+          "fFrostbiteColorB": 1.0,
+          "fFrostbiteColorMinA": 0.0,
+          "fFrostbiteColorMaxA": 1.0
+        }
+      },
+      "CTunableFrozenComponent": {
+        "Class": "CFrozenComponent::CTunableFrozenComponent",
+        "Data": {
+          "sName": "CTunableFrozenComponent",
+          "bInfiniteFrozenTime": false
+        }
+      },
+      "ENEMIES|CTunableEnemies": {
+        "Class": "CGameManager::CTunableEnemies",
+        "Data": {
+          "sName": "CTunableEnemies"
+        }
+      },
+      "CTunableGameManager": {
+        "Class": "CGameManager::CTunableGameManager",
+        "Data": {
+          "sName": "CTunableGameManager",
+          "iConfigMode": 1,
+          "bForceHardMode": false,
+          "bPlayerPosDebug": false,
+          "bSamusCenterPointDebug": false,
+          "bCheatDetectedDebug": true
+        }
+      },
+      "CTunableGraphicSettings": {
+        "Class": "CGameManager::CTunableGraphicSettings",
+        "Data": {
+          "sName": "CTunableGraphicSettings"
+        }
+      },
+      "MUSIC|CTunableMusicVolume": {
+        "Class": "CGameManager::CTunableMusicVolume",
+        "Data": {
+          "sName": "CTunableMusicVolume",
+          "fVolumeInMenu": 0.6499999761581421
+        }
+      },
+      "Grapple|CTunableGrappleBeamComponent": {
+        "Class": "CGrappleBeamComponent::CTunableGrappleBeamComponent",
+        "Data": {
+          "sName": "CTunableGrappleBeamComponent",
+          "fAdvanceSpeed": 5400.0,
+          "fRetractSpeed": 8000.0,
+          "fMaxLength": 1750.0,
+          "fMaxLengthToStartRetract": 1300.0
+        }
+      },
+      "CTunableGrappleBeamGun": {
+        "Class": "CGrappleBeamGun::CTunableGrappleBeamGun",
+        "Data": {
+          "sName": "CTunableGrappleBeamGun",
+          "fDamageAmount": 25.0,
+          "fHeat": 0.30000001192092896,
+          "iSelectionMode": 3,
+          "iSelectionInput": 1
+        }
+      },
+      "Gun|CTunableGun": {
+        "Class": "CGun::CTunableGun",
+        "Data": {
+          "sName": "CTunableGun",
+          "fCheckBackDefaultDistance": 90.0,
+          "fCheckBackAnalogDistance": 120.0,
+          "fCheckBackAnalogFallDistance": 140.0,
+          "fCheckBackHangDistance": 120.0,
+          "fTimeHitMissedModifierDuration": 0.699999988079071,
+          "fVolumeHitMissedModifier": 0.20000000298023224
+        }
+      },
+      "Gun|CTunableGunComponent": {
+        "Class": "CGunComponent::CTunableGunComponent",
+        "Data": {
+          "sName": "CTunableGunComponent",
+          "fPowerBombMinTimeToStartCharge": 0.10000000149011612,
+          "fNormalFireChargeMinTime": 0.5,
+          "fNormalFireChargeMaxTime": 1.0,
+          "fSPBFireChargeMinTime": 0.0,
+          "fSPBFireChargeMaxTime": 0.0,
+          "fDiffusionFireChargeMinTime": 0.0,
+          "fDiffusionFireChargeMaxTime": 0.0,
+          "fIgnoreFireAfterChargeReleasedTime": 0.0
+        }
+      },
+      "CTunableHeatableShield": {
+        "Class": "CHeatableShieldComponent::CTunableHeatableShield",
+        "Data": {
+          "sName": "CTunableHeatableShield",
+          "sFunction": "S",
+          "fHeatRecoveredPerSecond": 0.20000000298023224,
+          "fTimeToStartHeatRecover": 0.20000000298023224,
+          "fHeatIncrementFactor": 1.0,
+          "fMaxRGBColor": 1.0,
+          "fStartEmmitingParticlesOnHeat": 0.0,
+          "fStopEmmitingParticlesOnCooldown": 0.10000000149011612
+        }
+      },
+      "CTunableHyperBeam": {
+        "Class": "CHyperBeamGun::CTunableHyperBeam",
+        "Data": {
+          "sName": "CTunableHyperBeam",
+          "fDamageAmount": 999999.0,
+          "fChargeDamageMult": 1.0,
+          "fMaximumHeat": 1.0,
+          "fFractionOfHeatAddedPerShot": 0.009999999776482582,
+          "fSlowDownFactor": 0.10000000149011612,
+          "fFirstTimeChargeTime": 4.0,
+          "fSingleFireChargeTime": 0.019999999552965164,
+          "fRepeatedlyFireChargeTime": 0.019999999552965164,
+          "fInterruptFireChargeTime": 0.07000000029802322
+        }
+      },
+      "CTunableIceMissile": {
+        "Class": "CIceMissileGun::CTunableIceMissile",
+        "Data": {
+          "sName": "CTunableIceMissile",
+          "fDamageAmount": 400.0,
+          "fHeat": 0.30000001192092896
+        }
+      },
+      "Input|CTunableInputComponent": {
+        "Class": "CInputComponent::CTunableInputComponent",
+        "Data": {
+          "sName": "CTunableInputComponent",
+          "iWalkInputMode": 1,
+          "fNoWalkMusicVolume": 1.0,
+          "fWalkMusicVolume": 1.0,
+          "fNoWalkEnvironmentVolume": 1.0,
+          "fWalkEnvironmentVolume": 1.0,
+          "fWalkSamusMovementVolume": 0.0,
+          "bWalkEmmySoundReverb": false,
+          "iInputPreset": 0
+        }
+      },
+      "CTunableInventoryComponent": {
+        "Class": "CInventoryComponent::CTunableInventoryComponent",
+        "Data": {
+          "sName": "CTunableInventoryComponent",
+          "iMaxNumMissiles": 160
+        }
+      },
+      "LavaPumpComponent|CTunableLavaPumpComponent": {
+        "Class": "CLavaPumpComponent::CTunableLavaPumpComponent",
+        "Data": {
+          "sName": "CTunableLavaPumpComponent",
+          "fInitialPlayRate": 0.4000000059604645,
+          "fActivationTime": 2.0
+        }
+      },
+      "CTunableLineBomb": {
+        "Class": "CLineBombGun::CTunableLineBomb",
+        "Data": {
+          "sName": "CTunableLineBomb",
+          "fDamageAmount": 400.0,
+          "sDamageSource": "LINE_BOMB|BOMB",
+          "fHeat": 0.30000001192092896
+        }
+      },
+      "CTunableLineBombMovement": {
+        "Class": "CLineBombMovement::CTunableLineBombMovement",
+        "Data": {
+          "sName": "CTunableLineBombMovement",
+          "fExplosionRadius": 100.0,
+          "fExplosionExpansionTime": 0.10000000149011612,
+          "fExplosionLifeTime": 0.699999988079071,
+          "fCheckDistance": 100.0,
+          "bSingleHit": true,
+          "bEachBombImpulsesPlayer": true,
+          "bStickyBomb": false,
+          "bOrientateToClosestSurfaceNormal": false
+        }
+      },
+      "CTunableLockOnMissile": {
+        "Class": "CLockOnMissileGun::CTunableLockOnMissile",
+        "Data": {
+          "sName": "CTunableLockOnMissile",
+          "fDamageAmount": 300.0,
+          "sDamageSource": "MISSILE|MULTI_LOCKON_MISSILE",
+          "iMissilesPerShot": 3,
+          "fHeat": 0.75,
+          "bSwarmMode": true,
+          "bMachineGunMode": true
+        }
+      },
+      "CTunableLockOnMissileMovement": {
+        "Class": "CLockOnMissileMovement::CTunableLockOnMissileMovement",
+        "Data": {
+          "sName": "CTunableLockOnMissileMovement",
+          "vTrailColor": [
+            0.5019609928131104,
+            0.5019609928131104,
+            0.5019609928131104
+          ],
+          "fStabalizingSpeed": 213.75,
+          "fSteeringSpeed": 1226.0,
+          "fStabalizingDistance": 109.50000762939453,
+          "fEdgeCrossingDistance": 400.0000305175781,
+          "fFromEdgeMaxDistance": 50.000003814697266,
+          "fNoiseAmplitude": 28.500001907348633,
+          "fNoiseFrequency": 504.7500305175781,
+          "fDistanceFromScenario": 271.75,
+          "fDistanceFromPath": 38.0,
+          "fTrailVerticalSize": 15.295999526977539,
+          "fTrailVerticalOffset": -1.0,
+          "fTrailLength": 1750.0001220703125,
+          "bSwarmMovement": false,
+          "bTextureCycling": true
+        }
+      },
+      "CTunableDroppableBillboard": {
+        "Class": "CLogicDroppedItemManager::CTunableDroppableBillboard",
+        "Data": {
+          "sName": "CTunableDroppableBillboard",
+          "fSpawnSpeedFactor": 2.0,
+          "fMaxSpawnVelocity": 900.0,
+          "fMaxTimeAlive": 7.0,
+          "fMiniXMaxTimeAlive": 60.0,
+          "fTimeToStartBlinking": 5.0,
+          "fMiniXTimeToStartBlinking": 59.5,
+          "fBlinkPeriod": 0.25,
+          "fMaxSqrDistanceToAbsorb": 2890000.0,
+          "fLifeAmount": 10.0,
+          "fLifeBigAmount": 25.0,
+          "fMissileAmount": 5.0,
+          "fMissileBigAmount": 10.0,
+          "fPowerBombAmount": 1.0,
+          "fPowerBombBigAmount": 10.0,
+          "fMiniXLifeAmount": 5.0,
+          "fMiniXMissileAmount": 1.0,
+          "fTimeSpawning": 0.800000011920929,
+          "fTimeSpawningMelee": 0.30000001192092896,
+          "fTimeToBeCollectible": 0.15000000596046448,
+          "fDropsRelaxMovementSize": 0.0,
+          "iDropsRelaxMovementAnimationFrames": 0,
+          "bDropsDoRelaxMovement": false,
+          "bAbsorbDissolvingPickables": false,
+          "fDefaultAttractionDistanceCm": 1200.0,
+          "fMiniXAttractionDistanceCm": 350.0,
+          "fMiniXGreenMotionScale": 10.0,
+          "fMiniXYellowMotionScale": 10.0,
+          "fMiniXScaleMinFactor": -0.10000000149011612,
+          "fMiniXScaleMaxFactor": 0.3499999940395355,
+          "fMiniXScaleFrequency": 10.0,
+          "uMiniXSmallGroupMaxSize": 5,
+          "uMiniXMediumGroupMaxSize": 20,
+          "sMiniXAbsorbSmallGroupPresetName": "miniparasitox_absorb_small",
+          "sMiniXAbsorbMediumGroupPresetName": "miniparasitox_absorb_medium",
+          "sMiniXAbsorbLargeGroupPresetName": "miniparasitox_absorb_big",
+          "sMiniXFlyPresetName": "miniparasitox_fly",
+          "bMissileBigDeprecated": true,
+          "bPowerBombBigDeprecated": true,
+          "sDropAbsorbLifePresetName": "get_lifesmall",
+          "sDropAbsorbLifeBigPresetName": "get_lifebig",
+          "sDropAbsorbMissilePresetName": "get_ammo",
+          "sDropAbsorbPowerBombPresetName": "get_powbomb",
+          "sAbsorbingSoundPresetName": "get_enerbringloop"
+        }
+      },
+      "MetroidCameraCtrl|CTunableMetroidCameraCtrl": {
+        "Class": "CMetroidCameraCtrl::CTunableMetroidCameraCtrl",
+        "Data": {
+          "sName": "CTunableMetroidCameraCtrl",
+          "fZoomMinDistCamZ": 1000.0,
+          "fZoomMaxDistCamZ": 2630.0,
+          "fZoomMinCamDistToApplyOffsetX": 700.0,
+          "fEmmyPhase1ChaseMinEmmyDist": 1000.0,
+          "fEmmyPhase1ChaseMaxEmmyDist": 3000.0,
+          "fEmmyPhase1ChaseMinEmmyDistCamZ": 2630.0,
+          "fEmmyPhase1ChaseMaxEmmyDistCamZ": 2630.0,
+          "fEmmyPhase1NoChaseMinEmmyDist": 1000.0,
+          "fEmmyPhase1NoChaseMaxEmmyDist": 3000.0,
+          "fEmmyPhase1NoChaseMinEmmyDistCamZ": 1600.0,
+          "fEmmyPhase1NoChaseMaxEmmyDistCamZ": 2630.0,
+          "fEmmyPhase2MinEmmyDist": 1000.0,
+          "fEmmyPhase2MaxEmmyDist": 3000.0,
+          "fEmmyPhase2MinEmmyDistCamZ": 1600.0,
+          "fEmmyPhase2MaxEmmyDistCamZ": 2630.0,
+          "fEmmyDistanceZoomWalkDefault": 2630.0,
+          "fEmmyDistanceZoomWalkMinEmmyDist": 500.0,
+          "fEmmyDistanceZoomWalkMaxEmmyDist": 3000.0,
+          "fEmmyDistanceZoomWalkMinEmmyDistCamZ": 1500.0,
+          "fEmmyDistanceZoomWalkMaxEmmyDistCamZ": 2630.0,
+          "fEmmyDistanceZoomWalkOCStoppedCamZ": 800.0,
+          "fEmmyDistanceZoomWalkOCStoppedCamMaxOffsetX": 100.0,
+          "fEmmyDistanceZoomWalkDisableAutoFocusEmmyExtraDistance": 300.0,
+          "fEmmyDistanceZoomWalkAutoFocusDistCamZ": 1600.0
+        }
+      },
+      "MinimapManager|CTunableMinimapManager": {
+        "Class": "CMinimapManager::CTunableMinimapManager",
+        "Data": {
+          "sName": "CTunableMinimapManager",
+          "vOccluderColor": [
+            0.0,
+            0.00392200006172061,
+            0.01176500041037798
+          ],
+          "vDefaultBorderColor": [
+            0.556863009929657,
+            0.556863009929657,
+            0.556863009929657
+          ],
+          "vUnexploredBorderColor": [
+            0.10196100175380707,
+            0.10196100175380707,
+            0.10196100175380707
+          ],
+          "vNormalRoomColor": [
+            0.0,
+            0.07529400289058685,
+            0.18823499977588654
+          ],
+          "vSpecialRoomColor": [
+            1.0,
+            0.6862750053405762,
+            0.0
+          ],
+          "vTransportRoomColor": [
+            0.4250519871711731,
+            0.2705880105495453,
+            1.0
+          ],
+          "vDefaultColor": [
+            0.06394500285387039,
+            0.12307299673557281,
+            0.21176500618457794
+          ],
+          "vCooldownColor": [
+            0.10114499926567078,
+            0.21952000260353088,
+            1.0
+          ],
+          "vCameraLimitsColor": [
+            0.8196079730987549,
+            0.790681004524231,
+            0.0
+          ],
+          "vHighlightColor": [
+            1.0,
+            0.6823530197143555,
+            0.0
+          ],
+          "vHighlightUnlockedColor": [
+            0.2994849979877472,
+            0.3426870107650757,
+            0.35686299204826355
+          ],
+          "vEmmyColor": [
+            0.11764699965715408,
+            0.11764699965715408,
+            0.11764699965715408
+          ],
+          "vEmmyDeadColor": [
+            0.09150300174951553,
+            0.274509996175766,
+            0.10442099720239639
+          ],
+          "vEmmyZoneClosedColor": [
+            0.5859730243682861,
+            0.0,
+            0.0
+          ],
+          "vHeatColor": [
+            0.6523699760437012,
+            0.047775998711586,
+            0.037029001861810684
+          ],
+          "vCooldownHeatColor": [
+            0.313726007938385,
+            0.12983199954032898,
+            0.11072699725627899
+          ],
+          "vWaterColor": [
+            0.03921600058674812,
+            0.37254899740219116,
+            0.3960779905319214
+          ],
+          "vColdColor": [
+            0.03847299888730049,
+            0.07176099717617035,
+            0.62534499168396
+          ],
+          "vLavaColor": [
+            1.0,
+            0.21952000260353088,
+            0.0
+          ],
+          "vDoorColor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "vBossColor": [
+            0.23529399931430817,
+            0.0,
+            0.007842999882996082
+          ],
+          "vMagnetSurfaceColor": [
+            0.06091500073671341,
+            0.5224360227584839,
+            0.9137250185012817
+          ],
+          "vTileColorPowerbeam": [
+            1.0,
+            1.0,
+            0.5882350206375122
+          ],
+          "vTileColorBomb": [
+            1.0,
+            0.19607800245285034,
+            1.0
+          ],
+          "vTileColorMissile": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "vTileColorSupermissile": [
+            0.07176099717617035,
+            1.0,
+            0.07176099717617035
+          ],
+          "vTileColorPowerbomb": [
+            1.0,
+            0.49019598960876465,
+            0.0
+          ],
+          "vTileColorScrewattack": [
+            0.0,
+            0.2941179871559143,
+            1.0
+          ],
+          "vTileColorWeight": [
+            0.19607800245285034,
+            0.19607800245285034,
+            0.19607800245285034
+          ],
+          "vTileColorSpeedboost": [
+            1.0,
+            0.2941179871559143,
+            0.19607800245285034
+          ],
+          "vMarkerColorA": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "vMarkerColorB": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "vMarkerColorC": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "vMarkerColorD": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "vMarkerColorE": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "vColorRED": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "vColorPURPLE": [
+            0.3889099955558777,
+            0.0,
+            1.0
+          ],
+          "vColorYELLOW": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "vColorGREEN": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "vColorDARKBLUE": [
+            0.0,
+            0.0,
+            0.4647409915924072
+          ],
+          "vColorBLUE": [
+            0.0,
+            0.12752999365329742,
+            1.0
+          ],
+          "vColorORANGE": [
+            1.0,
+            0.2271369993686676,
+            0.0
+          ],
+          "vColorPINK": [
+            1.0,
+            0.12752999365329742,
+            0.5859730243682861
+          ],
+          "vCaveColor": [
+            0.6000000238418579,
+            0.49165400862693787,
+            0.11529400199651718
+          ],
+          "vMagmaColor": [
+            0.7803919911384583,
+            0.018362000584602356,
+            0.0
+          ],
+          "vLabColor": [
+            1.0,
+            0.12752999365329742,
+            0.5859730243682861
+          ],
+          "vAquaColor": [
+            0.06997299939393997,
+            0.2873010039329529,
+            0.5098040103912354
+          ],
+          "vForestColor": [
+            0.06526000052690506,
+            0.6823530197143555,
+            0.034786999225616455
+          ],
+          "vQuarantineColor": [
+            0.3889099955558777,
+            0.0,
+            1.0
+          ],
+          "vSanctuaryColor": [
+            0.031373001635074615,
+            0.031373001635074615,
+            1.0
+          ],
+          "vShipyardColor": [
+            0.8355280160903931,
+            0.3111810088157654,
+            0.07176099717617035
+          ],
+          "vSkyColor": [
+            0.06497500091791153,
+            0.6627449989318848,
+            0.43066999316215515
+          ],
+          "fMinimapViewAlpha": 0.8600000143051147,
+          "fMinimapViewZoom": 3.0,
+          "fAreaMapSnapVelMult": 1.5,
+          "fAreaMapMoveVel": 45.0,
+          "fAreaMapFastMoveVel": 105.00000762939453,
+          "fAreaMapZoomMin": 0.5,
+          "fAreaMapZoomMax": 8.0,
+          "fAreaMapZoomDefault": 4.0,
+          "fAreaMapZoomVel": 3.0,
+          "bAutoFadeEnabled": true
+        }
+      },
+      "CTunableSPR": {
+        "Class": "CMissileBaseGun::CTunableSPR",
+        "Data": {
+          "sName": "CTunableSPR",
+          "fHeat": 0.9900000095367432,
+          "fFractionOfHeatAddedPerShot": 0.0
+        }
+      },
+      "CTunableMissile": {
+        "Class": "CMissileGun::CTunableMissile",
+        "Data": {
+          "sName": "CTunableMissile",
+          "fDamageAmount": 100.0,
+          "fHeat": 0.30000001192092896,
+          "fTimeInInitialSpeedInGrab": 0.10000000149011612,
+          "fTimeToReachSpeedInGrab": 0.10000000149011612,
+          "fRateOfFireInGrab": 0.25
+        }
+      },
+      "MorphBall|CTunableMorphBallMovement": {
+        "Class": "CMorphBallMovement::CTunableMorphBallMovement",
+        "Data": {
+          "sName": "CTunableMorphBallMovement",
+          "fWaterBombFirstImpactFactor": 1.0,
+          "fWaterBombSecondImpactFactor": 1.0,
+          "fWaterBombThirdImpactFactor": 0.6000000238418579,
+          "fWaterBombFourthImpactFactor": 0.4000000059604645,
+          "fWaterBombFifthImpactFactor": 0.20000000298023224,
+          "fSqrDistanceToMakeSpiderJumpWithBomb": 625.0,
+          "iForceSpiderBallAvailableMode": 0,
+          "bForceSpringBallAvailable": false,
+          "fWalkingSpeedFactor": 0.6000000238418579,
+          "fTimeToIgnoreJumpAfterLandingOnSlope": 0.15000000596046448,
+          "fCornerAssistStoppedMaxOverlapFactor": 0.8500000238418579,
+          "fCornerAssistMovingMaxOverlapFactor": 1.75,
+          "fCornerAssistHorizontalVelocityToConsiderMoving": 200.0,
+          "fCornerAssistMovingAwayFromCornerThresholdFactor": 0.6000000238418579,
+          "fAirTimeBeforeSoundRelauch": 1.0
+        }
+      },
+      "Multi lock on block|CTunableMultiLockOnBlockComponent": {
+        "Class": "CMultiLockOnBlockComponent::CTunableMultiLockOnBlockComponent",
+        "Data": {
+          "sName": "CTunableMultiLockOnBlockComponent",
+          "fMaxTimeActivate": 2.0
+        }
+      },
+      "CTunablePlasmaBeam": {
+        "Class": "CPlasmaBeamGun::CTunablePlasmaBeam",
+        "Data": {
+          "sName": "CTunablePlasmaBeam",
+          "fDamageAmount": 50.0,
+          "fChargeDamageMult": 3.0,
+          "fMaximumHeat": 0.9900000095367432,
+          "fFractionOfHeatAddedPerShot": 0.0,
+          "fDiffusionRadius": 200.0
+        }
+      },
+      "Player|CTunablePlayerLifeComponent": {
+        "Class": "CPlayerLifeComponent::CTunablePlayerLifeComponent",
+        "Data": {
+          "sName": "CTunablePlayerLifeComponent",
+          "fVariaSuitDamageMult": 0.75,
+          "fGravitySuitDamageMult": 0.5,
+          "fHyperSuitDamageMult": 0.25,
+          "fHardModeDamageMult": 2.0,
+          "fMorphImplulseDefaultDamage": 100.0,
+          "fOnDeathMusicsFade": 0.0,
+          "fSlomoInterpTimeDead": 0.0,
+          "fSlomoInterpTimeRevive": 0.0,
+          "fPlayerMaxLifeOverride": -1.0,
+          "bIgnoreImpact": false
+        }
+      },
+      "Player|CTunablePlayerMovement": {
+        "Class": "CPlayerMovement::CTunablePlayerMovement",
+        "Data": {
+          "sName": "CTunablePlayerMovement",
+          "fSlowDownFactor": 0.6499999761581421,
+          "fSlowDownFactorMorphBall": 0.800000011920929,
+          "fSlowDownImpulseFactor": 0.7200000286102295,
+          "fWalkingJumpVerticalMultiplier": 1.0,
+          "fWalkingJumpHorizontalMultiplier": 0.4000000059604645,
+          "bStealthAbortsSpinJump": false,
+          "bStealthDuringSpinJumpChangesAnimation": true,
+          "bWalkingFireEnabled": true,
+          "bWalkingMeleeEnabled": true,
+          "bWalkingAnalogAimEnabled": true,
+          "bMoveDuringWalk": false,
+          "bParkourUpEnabled": true,
+          "bParkourDownEnabled": true,
+          "fParkourAnticipationDistance": 110.0,
+          "fParkourAnticipationDistanceSpeedBooster": 175.0,
+          "fParkourDownAnticipationDistance": 100.0,
+          "fParkourWallMaxDistance": 15.0,
+          "fParkourNearMaxDistance": 35.0,
+          "bDetectRunNearWall": true,
+          "bFallTurnEnabled": true,
+          "fTimeToScheduleLandingJump": 0.10000000149011612,
+          "fTimeToStartFocusInOpticCamo": 1.0,
+          "fFrozenDamage": 25.0,
+          "fTimeToFrozenDamage": 0.5,
+          "iFocusMode": 1
+        }
+      },
+      "CTunablePowerBeam": {
+        "Class": "CPowerBeamGun::CTunablePowerBeam",
+        "Data": {
+          "sName": "CTunablePowerBeam",
+          "fDamageAmount": 25.0,
+          "fChargeDamageMult": 3.0,
+          "fMaximumHeat": 0.9900000095367432,
+          "fFractionOfHeatAddedPerShot": 0.0,
+          "fDiffusionRadius": 200.0,
+          "fWideTime": 0.10000000149011612
+        }
+      },
+      "CTunablePowerBomb": {
+        "Class": "CPowerBombGun::CTunablePowerBomb",
+        "Data": {
+          "sName": "CTunablePowerBomb",
+          "fDamageAmount": 800.0,
+          "sDamageSource": "POWER_BOMB",
+          "fHeat": 0.30000001192092896
+        }
+      },
+      "PowerBombMovement|CTunablePowerBombMovement": {
+        "Class": "CPowerBombMovement::CTunablePowerBombMovement",
+        "Data": {
+          "sName": "CTunablePowerBombMovement",
+          "fColdDownPowerBombMinTime": 0.0,
+          "fPowerBombExplosionMaxRadius": 3000.0,
+          "fPowerBombExplosionSpeed": 3800.0,
+          "fPowerBombImplosionSpeed": 3800.0
+        }
+      },
+      "Amiibo|CTunableReserveTanks": {
+        "Class": "CReserveTankInfo::CTunableReserveTanks",
+        "Data": {
+          "sName": "CTunableReserveTanks",
+          "fLifeTankSize": 299.0,
+          "fSETankSize": 500.0,
+          "fMissileTankSize": 50.0
+        }
+      },
+      "CTunableSPB": {
+        "Class": "CSPBGun::CTunableSPB",
+        "Data": {
+          "sName": "CTunableSPB",
+          "fDamageAmount": 100.0,
+          "fChargeDamageMult": 4.0,
+          "fMaximumHeat": 1.0,
+          "fFractionOfHeatAddedPerShot": 0.03999999910593033
+        }
+      },
+      "SamusAir|CTunableSamusAirMovementState": {
+        "Class": "CSamusAirMovementState::CTunableSamusAirMovementState",
+        "Data": {
+          "sName": "CTunableSamusAirMovementState",
+          "bSpinDoubleJump": false,
+          "bWallDoubleJump": false,
+          "bAllowKickJumpWithSpaceJump": true
+        }
+      },
+      "SamusAnimationComponent|CTunableSamusAnimationComponent": {
+        "Class": "CSamusAnimationComponent::CTunableSamusAnimationComponent",
+        "Data": {
+          "sName": "CTunableSamusAnimationComponent",
+          "fToRecoilBlendTime": 0.10000000149011612,
+          "fFromRecoilBlendTime": 0.20000000298023224,
+          "fToAimBlendTime": 0.11999999731779099,
+          "fToDefaultBlendTime": 0.11999999731779099,
+          "fRecoilTime": 0.07999999821186066
+        }
+      },
+      "Grapple|CTunableSamusGrappleMovementState": {
+        "Class": "CSamusGrappleMovementState::CTunableSamusGrappleMovementState",
+        "Data": {
+          "sName": "CTunableSamusGrappleMovementState",
+          "fGrappleInitHangDistance": 200.0,
+          "fGrappleSwingShortDistance": 225.0,
+          "fGrappleSwingLongDistance": 425.0,
+          "fGoingToGrappleMinSpeed": 50.0,
+          "fGoingToGrappleMaxSpeed": 2500.0,
+          "fGoingToSwingGrappleAccel": 12000.0,
+          "fGoingToSwingGrapplePerpendicularFriction": 4.0,
+          "fGoingToHangGrappleAccel": 12000.0,
+          "fGoingToHangGrapplePerpendicularFriction": -1.0,
+          "fGoingToHangPushOutOfCollisionImpulse": 15000.0,
+          "fHangGoingToGrappleArriveDesiredTime": 0.009999999776482582,
+          "fSwingGoingToGrappleArriveDesiredTime": 0.07999999821186066,
+          "fSwingProgressiveImpulseAccel": 2300.0,
+          "fSwingProgressiveMaxTime": 0.5,
+          "fSwingMaxAngCos": 0.699999988079071,
+          "fSwingShortPerpendicularFriction": 3.0,
+          "fSwingLongPerpendicularFriction": 2.0,
+          "fSwingLongPerpendicularFrictionInImpulse": 1.0,
+          "fSwingLongPerpendicularFrictionInImpulseBraking": 1.5,
+          "fSwingGrappleDirMaxSpeed": 10000.0,
+          "fSwingGrappleDirAccel": 100000.0,
+          "fSwingYawSpeed": 15.0,
+          "fSwingInputDesiredDistanceTime": 0.10000000149011612,
+          "bSwingPlayAnimations": true,
+          "fSwingImpulsePreparationTime": 0.10000000149011612,
+          "fSwingKeepEnergyMaxAccel": 10000.0,
+          "fSwingMinSpeedToKeepDirection": 3000.0,
+          "fSwingExitImpulseMinSpeedX": 600.0,
+          "fSwingExitImpulseMaxSpeedX": 800.0,
+          "fSwingExitImpulseMinVelY": 800.0,
+          "fToGrapplePerpFrictionInterpSpeed": 10.0,
+          "fToGrappleTargetDistanceInterpSpeed": 1000.0,
+          "fGrappleDirMaxSpeedInterpSpeed": 5000.0,
+          "fGravityMultiplier": 1.25,
+          "fMaxHeightRatioToStartBreakImpulse": 0.699999988079071
+        }
+      },
+      "Player|CTunableSamusGunComponent": {
+        "Class": "CSamusGunComponent::CTunableSamusGunComponent",
+        "Data": {
+          "sName": "CTunableSamusGunComponent",
+          "fScrewAttackDamage": 3500.0,
+          "fBurstChargeBeamActiveTime": 5.0,
+          "fBurstChargeBeamIdleActiveTimeFactor": 1.2999999523162842,
+          "fBurstChargeBeamInitialBurstTime": 0.0
+        }
+      },
+      "Hang|CTunableSamusHangMovementState": {
+        "Class": "CSamusHangMovementState::CTunableSamusHangMovementState",
+        "Data": {
+          "sName": "CTunableSamusHangMovementState",
+          "bAnalogAimLimitAngles": false,
+          "bAllowPreInputResetClimbToMorphBall": true,
+          "fTimeToIgnoreFastClimbAfterMorphBall": 0.6000000238418579
+        }
+      },
+      "MagnetGlove|CTunableSamusMagnetGloveMovementState": {
+        "Class": "CSamusMagnetGloveMovementState::CTunableSamusMagnetGloveMovementState",
+        "Data": {
+          "sName": "CTunableSamusMagnetGloveMovementState",
+          "bAnalogAimLimitAngles": false,
+          "bAnalogAimSnapToAxisHorizontal": true,
+          "fAnalogAimSnapToAxisHorizontalAngleToleranceDegrees": 5.0,
+          "bAnalogAimSnapToAxisVertical": true,
+          "fAnalogAimSnapToAxisVerticalAngleToleranceDegrees": 3.0,
+          "fSurfaceHangMinInputMagnitude": 0.20000000298023224,
+          "fMinInputTowardsSurfaceNormalToHang": 0.3926990032196045,
+          "fMinInputTowardsDownToDrop": 0.8660249710083008,
+          "fTimeToIgnoreHangToMagnetAfterExit": 0.20000000298023224,
+          "fTimeToRequireStrictInputToHangLastSurface": 0.44999998807907104,
+          "fMinInputTowardsSurfaceNormalToHangLastSurface": 1.0010000467300415,
+          "fMaxAngleToKeepReferenceInputAfterTransition": 0.7071070075035095,
+          "fMinInputToMove": 0.20000000298023224,
+          "fTimeToEnableSpiderPose": 0.5,
+          "bSpiderPoseRequiresRetap": true,
+          "fMagnetWallJumpIgnoreMovementTime": 0.20000000298023224,
+          "fOpticalCamouflageMagnetWallJumpIgnoreMovementTime": 0.4000000059604645
+        }
+      },
+      "Samus|CTunableSamusMovement": {
+        "Class": "CSamusMovement::CTunableSamusMovement",
+        "Data": {
+          "sName": "CTunableSamusMovement",
+          "fFloorSlideDistance": 900.0,
+          "fFloorSlideSpeedBoosterDistance": 1500.0,
+          "fFloorSlideMinTunnelDistanceToExit": 200.0,
+          "fFloorSlideSpeedBoosterMinTunnelDistanceToExit": 500.0,
+          "fFloorSlide45JumpForbiddenTimeOnEnterFromAir": 0.15000000596046448,
+          "fFloorSlide45JumpForbiddenTimeOnEnterFromGround": 0.0,
+          "fTimeToScheduleFloorSlide": 0.10000000149011612,
+          "fImpulseOnPushOutOfCorner": 200.0,
+          "fImpulseOnIgnoredSlopeSupport": 600.0,
+          "fJumpHorizontalImpulseFactor": 1.2000000476837158,
+          "fJumpUnderCornerDistanceCheckFromCapsule": 0.0,
+          "fJumpUnderCornerImpulseOnlyOneSideCollided": 250.0,
+          "fJumpUnderCornerImpulseCenterCollided": 800.0,
+          "fJumpUnderCornerCenterCollisionThresholdDistance": 15.0,
+          "bClimbToMorphBallAutoConvertToSamusOnTunnelExit": true,
+          "fMorphBallAutoConvertToSamusOnTunnelExitFromFloorSlideMaxTime": -1.0,
+          "fMorphBallAutoConvertToSamusOnTunnelExitFromClimbMaxTime": -1.0,
+          "fFallEndTransitionSpeed": 3.200000047683716,
+          "fDistanceToLaunchRunEndBackward": 40.0,
+          "fDistanceToLaunchRunInitBackward": 63.0,
+          "bOverrideLegsNodes": true,
+          "bConvertToMorphBallOnWallNoLowerTunnel": true,
+          "bForceSnapRotationToSides": true,
+          "fTimeIgnoringKickJumpAfterWeightBlock": 0.30000001192092896
+        }
+      },
+      "SaveStationUsableComponent|CTunableSaveStationUsableComponent": {
+        "Class": "CSaveStationUsableComponent::CTunableSaveStationUsableComponent",
+        "Data": {
+          "sName": "CTunableSaveStationUsableComponent",
+          "fTimeMaxSaveInteract": 0.5
+        }
+      },
+      "CTunableScenario": {
+        "Class": "CScenario::CTunableScenario",
+        "Data": {
+          "sName": "CTunableScenario",
+          "fAreaTextLabelX": 0.0,
+          "fAreaTextLabelY": -0.2800000011920929,
+          "fAreaTextSpriteX": 0.0,
+          "fAreaTextSpriteY": -0.36000001430511475
+        }
+      },
+      "ShootActivator|CTunableShootActivatorComponent": {
+        "Class": "CShootActivatorComponent::CTunableShootActivatorComponent",
+        "Data": {
+          "sName": "CTunableShootActivatorComponent",
+          "fVolumeMin": 0.550000011920929,
+          "fDecreaseVolumeFactor": 0.5,
+          "fPitchMin": 0.4000000059604645
+        }
+      },
+      "ShotManager|CTunableShotManager": {
+        "Class": "CShotManager::CTunableShotManager",
+        "Data": {
+          "sName": "CTunableShotManager",
+          "rPowerBeamNormalExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/powerbeam/fx/explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rPowerBeamChargeExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/powerbeam/fx/explosioncharge.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rPowerBeamDiffusionExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/powerbeam/fx/minor_diffusion_beam.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/powerbeam/fx/diffusion_explosion_game.bcmdl",
+            "fMainExplosionScale": 2.0,
+            "vRandomScale": [
+              1.0,
+              1.5
+            ],
+            "uAmount": 3,
+            "fRadius": 120.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.10000000149011612,
+            "vRandomDelay": [
+              0.0,
+              0.10000000149011612
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rPlasmaBeamNormalExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/plasmabeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/plasmabeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rPlasmaBeamChargeExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/plasmabeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/plasmabeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 2.75,
+            "vRandomScale": [
+              0.8999999761581421,
+              1.5
+            ],
+            "uAmount": 1,
+            "fRadius": 140.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.5,
+            "vRandomDelay": [
+              0.0,
+              0.10000000149011612
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rPlasmaBeamDiffusionExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/plasmabeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/plasmabeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 2.0,
+            "vRandomScale": [
+              0.8999999761581421,
+              1.5
+            ],
+            "uAmount": 3,
+            "fRadius": 140.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.5,
+            "vRandomDelay": [
+              0.0,
+              0.10000000149011612
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rWaveBeamNormalExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/wavebeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/wavebeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rWaveBeamChargeExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/wavebeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/wavebeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 2.75,
+            "vRandomScale": [
+              0.8999999761581421,
+              1.5
+            ],
+            "uAmount": 1,
+            "fRadius": 140.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.5,
+            "vRandomDelay": [
+              0.0,
+              0.10000000149011612
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rWaveBeamDiffusionExplosion": {
+            "fLength": 0.17000000178813934,
+            "sParticlesPath": "actors/weapons/wavebeam/fx/minor_explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "actors/weapons/wavebeam/fx/explosion_game.bcmdl",
+            "fMainExplosionScale": 2.0,
+            "vRandomScale": [
+              0.8999999761581421,
+              1.5
+            ],
+            "uAmount": 3,
+            "fRadius": 140.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.5,
+            "vRandomDelay": [
+              0.0,
+              0.10000000149011612
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ],
+            "eConstant0TransitionMode": "A",
+            "fConstantColor0TransitionTime": 0.17000000178813934,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rSPBExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/specialburst/fx/specialburst_burstimpact.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rSPBBlockExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/specialburst/fx/specialburst_impactblock.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rHyperBeamExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/powerbeam/fx/explosion.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.5
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rNoDamageExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "system/fx/generic/block.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "rHeatedExplosion": {
+            "fLength": -1.0,
+            "sParticlesPath": "actors/weapons/specialburst/fx/specialburst_burstimpact_emmydamage.bcptl",
+            "sAdditionalParticlesPath": "",
+            "sMeshPath": "",
+            "fMainExplosionScale": 1.0,
+            "vRandomScale": [
+              1.0,
+              1.0
+            ],
+            "uAmount": 1,
+            "fRadius": 0.0,
+            "fRadiusAmplitude": 0.0,
+            "fRandomArcAmplitude": 0.0,
+            "vRandomDelay": [
+              0.0,
+              0.0
+            ],
+            "oConstantColor0TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor0TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant0TransitionMode": "None",
+            "fConstantColor0TransitionTime": 0.0,
+            "oConstantColor1TransitionInit": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "oConstantColor1TransitionEnd": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "eConstant1TransitionMode": "None",
+            "fConstantColor1TransitionTime": 0.0
+          },
+          "fShotSpeed": 4050.0
+        }
+      },
+      "Player|CTunableSpecialEnergyComponent": {
+        "Class": "CSpecialEnergyComponent::CTunableSpecialEnergyComponent",
+        "Data": {
+          "sName": "CTunableSpecialEnergyComponent",
+          "fTimeToStartEnergyRecover": 0.25,
+          "fTimeToRecoverAllEnergy": 1.5,
+          "fTimeToRecoverAllEnergyGhostDash": 1.0,
+          "fTimeToRecoverAllEnergyOpticalCamuflage": 4.0,
+          "fTimeToRecoverAllEnergyOpticalCamuflageNotMoving": 24.000049591064453,
+          "fTimeToRecoverAllEnergySonar": 1.5
+        }
+      },
+      "SubAreaManager|CTunableSubAreaManager": {
+        "Class": "CSubAreaManager::CTunableSubAreaManager",
+        "Data": {
+          "sName": "CTunableSubAreaManager",
+          "fMaxFadeOutTimeLights": 0.5,
+          "fMaxFadeInTimeLights": 0.5,
+          "bKillPlayerOutsideScenario": true
+        }
+      },
+      "CTunableSuperMissile": {
+        "Class": "CSuperMissileGun::CTunableSuperMissile",
+        "Data": {
+          "sName": "CTunableSuperMissile",
+          "fDamageAmount": 300.0,
+          "fHeat": 0.30000001192092896
+        }
+      },
+      "Swarms damage|CTunableSwarmDamage": {
+        "Class": "CSwarmControllerComponent::CTunableSwarmDamage",
+        "Data": {
+          "sName": "CTunableSwarmDamage",
+          "fChargedImpactExtraRadius": 50.0,
+          "fMissileColliderRadius": 10.0,
+          "fMissileSplashDamageRadius": 50.0,
+          "fSuperMissileSplashDamageRadius": 100.0,
+          "fBeamRadius": 25.0
+        }
+      },
+      "AI|CTunableTeamManager": {
+        "Class": "CTeamManager::CTunableTeamManager",
+        "Data": {
+          "sName": "CTunableTeamManager",
+          "fCoordinatedAttacksMinTime": -1.0,
+          "fCoordinatedAttacksMaxTime": -1.0
+        }
+      },
+      "CTunableTriggerComponent": {
+        "Class": "CTriggerComponent::CTunableTriggerComponent",
+        "Data": {
+          "sName": "CTunableTriggerComponent",
+          "iWaterReverb": -1,
+          "iWaterLowPassFilter": 1550,
+          "iLavaReverb": -1,
+          "iLavaLowPassFilter": 1900
+        }
+      },
+      "UnlockArea|CTunableUnlockAreaSmartObjectComponent": {
+        "Class": "CUnlockAreaSmartObjectComponent::CTunableUnlockAreaSmartObjectComponent",
+        "Data": {
+          "sName": "CTunableUnlockAreaSmartObjectComponent",
+          "fIgnoreInputTime": 0.3330000042915344,
+          "sDialogID": "#GUI_UNLOCKAREA_QUESTION"
+        }
+      },
+      "Logic|CTunableUsableComponent": {
+        "Class": "CUsableComponent::CTunableUsableComponent",
+        "Data": {
+          "sName": "CTunableUsableComponent",
+          "fOnLoadBackGroundTimeMax": 0.0,
+          "fDistanceChannelMin": 25.0,
+          "fDistanceChannelA": 75.0,
+          "sForwardChannelA": "forward50",
+          "sBackwardChannelA": "backward50",
+          "fDistanceChannelB": 200.0,
+          "sForwardChannelB": "forward100",
+          "sBackwardChannelB": "backward100",
+          "sForwardChannelC": "",
+          "sBackwardChannelC": ""
+        }
+      },
+      "AI|CTunableVulkranAttackManager": {
+        "Class": "CVulkranAttackManager::CTunableVulkranAttackManager",
+        "Data": {
+          "sName": "CTunableVulkranAttackManager",
+          "fLockTime": 0.5
+        }
+      },
+      "WaterNozzle|CTunableWaterNozzle": {
+        "Class": "CWaterNozzleComponent::CTunableWaterNozzle",
+        "Data": {
+          "sName": "CTunableWaterNozzle",
+          "fStopWaterJetDelayTime": 0.05000000074505806
+        }
+      },
+      "CTunableWaveBeam": {
+        "Class": "CWaveBeamGun::CTunableWaveBeam",
+        "Data": {
+          "sName": "CTunableWaveBeam",
+          "fDamageAmount": 80.0,
+          "fChargeDamageMult": 3.0,
+          "fMaximumHeat": 0.9900000095367432,
+          "fFractionOfHeatAddedPerShot": 0.0,
+          "fDiffusionRadius": 200.0
+        }
+      },
+      "CTunableWideBeam": {
+        "Class": "CWideBeamGun::CTunableWideBeam",
+        "Data": {
+          "sName": "CTunableWideBeam",
+          "fDamageAmount": 25.0,
+          "fChargeDamageMult": 3.0,
+          "fPerpendicularOffsetSize": 60.0,
+          "fBackwardCheckLenght": 100.0,
+          "fForwardCheckLenght": 120.0
+        }
+      },
+      "Rumble|CTunableRumbleManager": {
+        "Class": "base::input::CRumbleManager::CTunableRumbleManager",
+        "Data": {
+          "sName": "CTunableRumbleManager",
+          "fMainGain": 1.0
+        }
+      },
+      "SoundSystem|CTunableSoundSystem": {
+        "Class": "base::snd::CSoundSystem::CTunableSoundSystem",
+        "Data": {
+          "sName": "CTunableSoundSystem",
+          "bSFXEnabled": true,
+          "bMUSICEnabled": true,
+          "bSPEECHEnabled": true,
+          "bGRUNTEnabled": true,
+          "bGUIEnabled": true,
+          "bENVIRONMENT_STREAMSEnabled": true,
+          "bSFX_EMMYEnabled": true
+        }
+      },
+      "Sounds|CTunableSoundSystemATK": {
+        "Class": "base::snd::CSoundSystemATK::CTunableSoundSystemATK",
+        "Data": {
+          "sName": "CTunableSoundSystemATK",
+          "fMainVolume": 1.0,
+          "fSfxVolume": 1.0,
+          "fMusicVolume": 1.0,
+          "fSpeechVolume": 1.0,
+          "fGruntVolume": 1.0,
+          "fGUIVolume": 1.0,
+          "fEnvironmentStreamsVolume": 1.0
+        }
+      },
+      "MUSIC|CTunableMusicManager": {
+        "Class": "sound::CMusicManager::CTunableMusicManager",
+        "Data": {
+          "sName": "CTunableMusicManager",
+          "bNCLCurrentMusicDebugEnable": false
+        }
+      },
+      "MUSIC|CTunableMusicVolumeOverride": {
+        "Class": "sound::CMusicVolumeOverride::CTunableMusicVolumeOverride",
+        "Data": {
+          "sName": "CTunableMusicVolumeOverride",
+          "fTitleScreen": 1.0,
+          "fSamusStory": 1.0,
+          "fOpening": 1.2999999523162842,
+          "fGameOver": 2.0,
+          "fSaveStation": 0.6000000238418579,
+          "fMapStation": 0.8999999761581421,
+          "fAccessPoint": 0.8999999761581421,
+          "fStatueRoom": 1.0499999523162842,
+          "fTrainStation": 1.100000023841858,
+          "fCave001": 0.800000011920929,
+          "fCave002": 0.8999999761581421,
+          "fCave003": 0.949999988079071,
+          "fCaveThermalDevice": 1.7999999523162842,
+          "fCaveCooldDown": 1.0,
+          "fMagma001": 1.000100016593933,
+          "fMagma002": 1.0,
+          "fMagmaCoolDown": 1.0,
+          "fBaseLab001": 1.000100016593933,
+          "fBaseLabBlackOut": 1.100000023841858,
+          "fAqua001": 1.0,
+          "fAqua002": 1.0,
+          "fForest001": 0.800000011920929,
+          "fQuarantine001": 1.100000023841858,
+          "fSancturary001": 0.9000999927520752,
+          "fShipyard001": 1.000100016593933,
+          "fSkybase001": 1.000100016593933,
+          "fEscapeSequence": 1.5,
+          "fEmmyPatrol": 1.0,
+          "fEmmySearch": 0.949999988079071,
+          "fEmmyChase": 1.350000023841858,
+          "fEmmyDefeated": 0.9000999927520752,
+          "fEmmyDefeatedMagma": 0.8001000285148621,
+          "fEmmyDefeatedBaselab": 1.000100016593933,
+          "fEmmyDefeatedForest": 1.000100016593933,
+          "fEmmyDefeatedSanctuary": 1.000100016593933,
+          "fEmmyDefeatedShipyard": 1.000100016593933,
+          "fCentralUnitPhase1": 1.000100016593933,
+          "fCentralUnitPhase2": 1.100100040435791,
+          "fBossDefeated": 1.3000999689102173,
+          "fBossScorpius001": 0.9000999927520752,
+          "fBossScorpius002": 0.9501000046730042,
+          "fBossScorpiusPresentation": 0.8001000285148621,
+          "fBossCoolDownX": 1.750100016593933,
+          "fBossCoolDownXPresentation": 1.5500999689102173,
+          "fBossKraid001": 1.7999999523162842,
+          "fBossKraid002": 2.299999952316284,
+          "fBossKraidPresentation": 1.600000023841858,
+          "fHydrogiga001": 1.0,
+          "fHydrogiga002": 1.100000023841858,
+          "fSuperGoliathX": 1.250100016593933,
+          "fSuperQuetzoaX": 1.4000999927520752,
+          "fBossMidChozoRobotSoldier": 1.4500999450683594,
+          "fBossMidChozoWarriorX001": 1.6500999927520752,
+          "fBossMidChozoWarriorX002": 1.750100016593933,
+          "fBossCommanderPresentation": 1.0,
+          "fBossCommander001": 1.2000000476837158,
+          "fBossCommander002": 1.399999976158142,
+          "fBossCommander003": 1.600000023841858,
+          "fBossCommanderX001": 1.2000000476837158,
+          "fBossCommanderX002": 1.399999976158142,
+          "fProfessorX": 1.5,
+          "fEncounterProfessor": 1.0,
+          "fSancEmmyPresentation": 1.0,
+          "fStrongReaction": 2.0,
+          "fPowerBomb": 2.0,
+          "fCommanderOutro": 1.399999976158142,
+          "fEndGame": 1.2999999523162842,
+          "fStaffRoll": 1.0,
+          "fEndScreen": 1.0,
+          "fJingleTojo": 1.4000999927520752,
+          "fJingleItemGet": 1.2999999523162842,
+          "fJingleItemGetUnknown": 1.649999976158142,
+          "fJinglePowerUpGet": 1.7999999523162842
+        }
+      }
+    }
+  }
+}

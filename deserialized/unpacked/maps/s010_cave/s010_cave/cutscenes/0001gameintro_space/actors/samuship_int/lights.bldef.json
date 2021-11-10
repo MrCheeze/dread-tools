@@ -1,0 +1,87 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0001gameintro_space#actors#samuship_int#lights": {
+            "sPath": "cutscenes#0001gameintro_space#actors#samuship_int#lights",
+            "vLights": [
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "sun",
+                "sNode": "DC_FX",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.8669999837875366,
+                  0.7670000195503235,
+                  1.0
+                ],
+                "vAtt": [
+                  2000.0,
+                  2500.0,
+                  5.0,
+                  10.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 200.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "sun_up",
+                "sNode": "DC_Cam",
+                "vPosOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.8669999837875366,
+                  0.7670000195503235,
+                  1.0
+                ],
+                "vAtt": [
+                  2000.0,
+                  2500.0,
+                  5.0,
+                  10.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 100.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

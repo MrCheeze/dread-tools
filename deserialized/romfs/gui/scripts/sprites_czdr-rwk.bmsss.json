@@ -1,0 +1,694 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "CZDR-RWK": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/czdr-rwk.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 512,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "NEWCONTENT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.798828125,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.0390625,
+                      0.078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "NEWCONTENT_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7353515625,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.060546875,
+                      0.12109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "INFO_BG",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0048828125,
+                      0.755859375
+                    ],
+                    "v2Scale": [
+                      0.3798828125,
+                      0.236328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_BLANK",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.19921875,
+                      0.552734375
+                    ],
+                    "v2Scale": [
+                      0.041015625,
+                      0.111328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_FULL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1552734375,
+                      0.556640625
+                    ],
+                    "v2Scale": [
+                      0.0390625,
+                      0.103515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.244140625,
+                      0.548828125
+                    ],
+                    "v2Scale": [
+                      0.046875,
+                      0.119140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PBICON_UNKNOWN",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1064453125,
+                      0.556640625
+                    ],
+                    "v2Scale": [
+                      0.0439453125,
+                      0.0859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PBICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.05859375,
+                      0.556640625
+                    ],
+                    "v2Scale": [
+                      0.04296875,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MISSILEICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0068359375,
+                      0.556640625
+                    ],
+                    "v2Scale": [
+                      0.046875,
+                      0.091796875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "INVITEM-SELECT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.009765625,
+                      0.494140625
+                    ],
+                    "v2Scale": [
+                      0.2783203125,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "INVBOX_T",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.009765625,
+                      0.41015625
+                    ],
+                    "v2Scale": [
+                      0.2900390625,
+                      0.076171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BG_VIGNETTE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.126953125
+                    ],
+                    "v2Scale": [
+                      0.0048828125,
+                      0.373046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "O",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5625,
+                      0.166015625
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "D",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4794921875,
+                      0.166015625
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "A",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6455078125,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "H",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4794921875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "WHEEL_IN",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5458984375,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.29296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "WHEEL_MID",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6923828125,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.29296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "WHEEL_OUT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8388671875,
+                      0.6796875
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.29296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CORNER_DECO",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.197265625,
+                      0.20703125
+                    ],
+                    "v2Scale": [
+                      0.1630859375,
+                      0.087890625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CORNER_DECO2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0146484375,
+                      0.20703125
+                    ],
+                    "v2Scale": [
+                      0.1630859375,
+                      0.087890625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAP_ARROW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.427734375,
+                      0.009765625
+                    ],
+                    "v2Scale": [
+                      0.0205078125,
+                      0.068359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DECO_DIAGONAL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3759765625,
+                      0.0078125
+                    ],
+                    "v2Scale": [
+                      0.0439453125,
+                      0.1953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FederationSymbol",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.28515625,
+                      0.0078125
+                    ],
+                    "v2Scale": [
+                      0.0849609375,
+                      0.16796875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FRAMEBORDER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0126953125,
+                      0.396484375
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.00390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PANEL_HEADER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0126953125,
+                      0.369140625
+                    ],
+                    "v2Scale": [
+                      0.4833984375,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DECO_LINE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.10546875
+                    ],
+                    "v2Scale": [
+                      0.046875,
+                      0.00390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DECO_ELLIPSECORNERHALF",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.046875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.0390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "DECO_ELLIPSECORNER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.046875,
+                      0.09375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYFRAGMENTS_FULL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1943359375,
+                      0.30078125
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.044921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYFRAGMENTS_3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.154296875,
+                      0.30078125
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.044921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYFRAGMENTS_2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.115234375,
+                      0.30078125
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.044921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYFRAGMENTS_1",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.076171875,
+                      0.30078125
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.044921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYFRAGMENTS_0",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.037109375,
+                      0.30078125
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.044921875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.185546875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.09375,
+                      0.1875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SAMUS_ICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.091796875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.09375,
+                      0.1875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MARKER_ICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6328125,
+                      0.48046875
+                    ],
+                    "v2Scale": [
+                      0.09765625,
+                      0.193359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MARKER_REMOVE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.525390625,
+                      0.5078125
+                    ],
+                    "v2Scale": [
+                      0.083984375,
+                      0.166015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "LS_ICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6572265625,
+                      0.32421875
+                    ],
+                    "v2Scale": [
+                      0.048828125,
+                      0.09765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AMIIBO_LOGO",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.673828125,
+                      0.16796875
+                    ],
+                    "v2Scale": [
+                      0.306640625,
+                      0.146484375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SCREW_ATTACK_ICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.34765625,
+                      0.412109375
+                    ],
+                    "v2Scale": [
+                      0.1728515625,
+                      0.345703125
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

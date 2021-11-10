@@ -1,0 +1,105 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Angle",
+    "vTargets": [
+      {
+        "fSample": -180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfront.bcskla"
+      },
+      {
+        "fSample": -157.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdownup.bcskla"
+      },
+      {
+        "fSample": -135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdown.bcskla"
+      },
+      {
+        "fSample": -112.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotenddown.bcskla"
+      },
+      {
+        "fSample": -75.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotenddown75.bcskla"
+      },
+      {
+        "fSample": -60.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdowndown.bcskla"
+      },
+      {
+        "fSample": -45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdown.bcskla"
+      },
+      {
+        "fSample": -20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontdownup.bcskla"
+      },
+      {
+        "fSample": -10.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfront10down.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfront.bcskla"
+      },
+      {
+        "fSample": 20.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontupdown.bcskla"
+      },
+      {
+        "fSample": 45.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontup.bcskla"
+      },
+      {
+        "fSample": 78.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontupup.bcskla"
+      },
+      {
+        "fSample": 90.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendup.bcskla"
+      },
+      {
+        "fSample": 112.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontupup.bcskla"
+      },
+      {
+        "fSample": 135.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontup.bcskla"
+      },
+      {
+        "fSample": 157.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfrontupdown.bcskla"
+      },
+      {
+        "fSample": 180.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/samus/animations/spb_shotendfront.bcskla"
+      }
+    ]
+  }
+}

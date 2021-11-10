@@ -1,0 +1,196 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "PlayButtonComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CList",
+          "Data": {
+            "X": 0.234375,
+            "Y": 0.29166701436042786,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.546875,
+            "SizeY": 0.41666701436042786,
+            "sID": "ListComposition",
+            "lstChildren": [
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.078125,
+                  "SizeY": 0.13888899981975555,
+                  "sID": "Button",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.078125,
+                        "SizeY": 0.13888899981975555,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "SpriteSheetItem": "global/WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Label",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.19609400629997253,
+                        "SizeY": 0.024235999211668968,
+                        "Enabled": true,
+                        "Text": "debug text",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Centered",
+                        "Autosize": true,
+                        "BlinkColorR": 1.0,
+                        "BlinkColorG": 1.0,
+                        "BlinkColorB": 1.0,
+                        "Blink": -1.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.13888899981975555,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.078125,
+                  "SizeY": 0.13888899981975555,
+                  "sID": "Button",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.078125,
+                        "SizeY": 0.13888899981975555,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "SpriteSheetItem": "global/WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Label",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.19609400629997253,
+                        "SizeY": 0.024235999211668968,
+                        "Enabled": true,
+                        "Text": "debug text",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Centered",
+                        "Autosize": true,
+                        "BlinkColorR": 1.0,
+                        "BlinkColorG": 1.0,
+                        "BlinkColorB": 1.0,
+                        "Blink": -1.0
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Class": "GUI::CButton",
+                "Data": {
+                  "X": 0.0,
+                  "Y": 0.2777779996395111,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.078125,
+                  "SizeY": 0.13888899981975555,
+                  "sID": "Button",
+                  "lstChildren": [
+                    {
+                      "Class": "GUI::CSprite",
+                      "Data": {
+                        "sID": "Background",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.078125,
+                        "SizeY": 0.13888899981975555,
+                        "Enabled": true,
+                        "Autosize": false,
+                        "SpriteSheetItem": "global/WhiteSquare",
+                        "BlendMode": "AlphaBlend",
+                        "USelMode": "Scale",
+                        "VSelMode": "Scale"
+                      }
+                    },
+                    {
+                      "Class": "GUI::CLabel",
+                      "Data": {
+                        "sID": "Label",
+                        "X": 0.0,
+                        "Y": 0.0,
+                        "ScaleX": 1.0,
+                        "ScaleY": 1.0,
+                        "Angle": 0.0,
+                        "SizeX": 0.19609400629997253,
+                        "SizeY": 0.024235999211668968,
+                        "Enabled": true,
+                        "Text": "debug text",
+                        "Font": "digital_medium",
+                        "TextAlignment": "Centered",
+                        "Autosize": true,
+                        "BlinkColorR": 1.0,
+                        "BlinkColorG": 1.0,
+                        "BlinkColorB": 1.0,
+                        "Blink": -1.0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

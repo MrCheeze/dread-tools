@@ -1,0 +1,137 @@
+{
+  "FileType": "CEnvironmentMusicPresets",
+  "Unk": 33554436,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pMusicPresets": {
+          "Class": "CEnvironmentMusicPresets",
+          "Data": {
+            "dicPresets": {
+              "s_skybase_001": {
+                "sID": "s_skybase_001",
+                "tPreset": {
+                  "sAlias": "s_skybase_001",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_skybase_001.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 1.0,
+                      "fFadeOut": 1.0,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "s_boss_commander_presentation": {
+                "sID": "s_boss_commander_presentation",
+                "tPreset": {
+                  "sAlias": "s_boss_commander_presentation",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/s_boss_commander_presentation.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 0.30000001192092896,
+                      "fFadeOut": 0.30000001192092896,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              },
+              "S_Boss_Commander_Outro": {
+                "sID": "S_Boss_Commander_Outro",
+                "tPreset": {
+                  "sAlias": "S_Boss_Commander_Outro",
+                  "vTracks": [
+                    {
+                      "iTrack": 0,
+                      "vFiles": [
+                        {
+                          "sWav": "streams/music/S_Boss_Commander_Outro.wav",
+                          "iLoops": -1,
+                          "iLoopStart": -1,
+                          "iLoopEnd": -1
+                        }
+                      ],
+                      "fFadeIn": 0.30000001192092896,
+                      "fFadeOut": 0.30000001192092896,
+                      "fDelay": 0.0,
+                      "fVol": 1.0,
+                      "eCrossFade": "CROSS_FADE",
+                      "fEnvFactor": 1.0
+                    }
+                  ]
+                },
+                "ePlayFlag": "PAUSE_CURRENT",
+                "tMusicTransitions": []
+              }
+            },
+            "dicBossPresets": {
+              "chozocommander": {
+                "sBoss": "chozocommander",
+                "dicSpawnGroupConfigs": {
+                  "default": {
+                    "sSpawnGroup": "default",
+                    "dicSubStatePresets": {
+                      "COMBAT": {
+                        "eState": "COMBAT",
+                        "vTracks": [
+                          {
+                            "oTrack": {
+                              "iTrack": 0,
+                              "vFiles": [
+                                {
+                                  "sWav": "streams/music/S_Boss_Commander_001.wav",
+                                  "iLoops": -1,
+                                  "iLoopStart": -1,
+                                  "iLoopEnd": -1
+                                }
+                              ],
+                              "fFadeIn": 0.0,
+                              "fFadeOut": 1.0,
+                              "fDelay": 0.0,
+                              "fVol": 1.0,
+                              "eCrossFade": "CROSS_FADE",
+                              "fEnvFactor": 1.0
+                            },
+                            "vFadeOuts": []
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0040sancemmypresentation_part2b",
+    "sActionSet": "cutscenes/0040sancemmypresentation_part2b/0040sancemmypresentation_part2b.bmsas",
+    "vWorldOffset": [
+      -11688.0,
+      -7193.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "s070_basesanc.OnBefore_Cutscene_40_Part2bStarted",
+    "sOnStart": "s070_basesanc.AddEmmyProfessorToMissionLog",
+    "sOnFinished": "",
+    "sOnEnd": "s070_basesanc.OnAfter_Cutscene_40_Part2b",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "36",
+        "iFrames": 135,
+        "sCamera": "cutscenes/0040sancemmypresentation_part2b/cameras/36.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "37",
+        "iFrames": 120,
+        "sCamera": "cutscenes/0040sancemmypresentation_part2b/cameras/37.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "38",
+        "iFrames": 80,
+        "sCamera": "cutscenes/0040sancemmypresentation_part2b/cameras/38.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0040sancemmypresentation_part2b_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0040sancemmypresentation_part2b_chozorobotsoldier",
+        "sCharClass": "actors/cutscene/chozo_robotsoldier.bmsad",
+        "sInGameEntityId": "SP_ChozoRobotSoldier",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0040sancemmypresentation_part2b_samus_face",
+        "sCharClass": "cutscenes/0040sancemmypresentation_part2b/actors/samus_face/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0040sancemmypresentation_part2b_chozoprofessor",
+        "sCharClass": "cutscenes/0040sancemmypresentation_part2b/actors/chozoprofessor/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0040sancemmypresentation_part2b/actors/chozoprofessor/lights.bldef"
+      },
+      {
+        "sId": "0040sancemmypresentation_part2b_professor_deathsubchar",
+        "sCharClass": "cutscenes/0040sancemmypresentation_part2b/actors/professor_deathsubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part1/fx/projectilechozo.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/chozorobotsoldierbeam/fx/projectilechargedend_professor.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part2b/fx/fakelightshot.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part2b/fx/fakelightshotblue.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part2b/fx/fakelightshotbluebrigther.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part1/fx/muzzlesmokechozo.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0040sancemmypresentation_part1/fx/smokeshotmesh.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

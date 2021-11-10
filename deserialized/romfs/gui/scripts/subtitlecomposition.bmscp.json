@@ -1,0 +1,67 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CSubtitleComposition",
+    "Data": {
+      "sID": "subtitlecomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "Enabled": true,
+      "Visible": true,
+      "sSkinName": "subtitlecomposition",
+      "sChildToFocus": "",
+      "lstChildren": [
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "sID": "Panel",
+            "X": 0.0,
+            "Y": 0.8399999737739563,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 0.11451110243797302,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "sChildToFocus": "",
+            "lstChildren": [
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "MessageText",
+                  "X": 0.02500000037252903,
+                  "Y": 0.0,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.949999988079071,
+                  "SizeY": 0.1111110970377922,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "Text": "",
+                  "TextAlignment": "Centered",
+                  "Autosize": false,
+                  "ColorR": 0.9716981053352356,
+                  "ColorG": 0.9716981053352356,
+                  "ColorB": 0.9716981053352356,
+                  "ColorA": 1.0,
+                  "TextVerticalAlignment": "Centered"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

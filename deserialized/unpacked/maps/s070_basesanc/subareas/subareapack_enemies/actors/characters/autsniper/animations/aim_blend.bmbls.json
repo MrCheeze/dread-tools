@@ -1,0 +1,45 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Aim",
+    "vTargets": [
+      {
+        "fSample": -2.3561899662017822,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_back_down.bcskla"
+      },
+      {
+        "fSample": -1.5700000524520874,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_back.bcskla"
+      },
+      {
+        "fSample": -0.7900000214576721,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_back_up.bcskla"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_up.bcskla"
+      },
+      {
+        "fSample": 0.7850000262260437,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_front_up.bcskla"
+      },
+      {
+        "fSample": 1.5700000524520874,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_front.bcskla"
+      },
+      {
+        "fSample": 1.8325999975204468,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/autsniper/animations/aim_front_down_up.bcskla"
+      }
+    ]
+  }
+}

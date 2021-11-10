@@ -1,0 +1,18 @@
+{
+  "FileType": "CEnvironmentSoundPresets",
+  "Unk": 33685505,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pSoundPresets": {
+          "Class": "CEnvironmentSoundPresets",
+          "Data": {
+            "dicPresets": {}
+          }
+        }
+      }
+    }
+  }
+}

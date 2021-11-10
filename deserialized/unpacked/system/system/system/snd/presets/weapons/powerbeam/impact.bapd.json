@@ -1,0 +1,142 @@
+{
+  "FileType": "sound::CAudioPresets",
+  "Unk": 33751042,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSoundManager": {
+      "Class": "sound::CSoundManager",
+      "Data": {
+        "pAudioPresets": {
+          "Class": "sound::CAudioPresets",
+          "Data": {
+            "dicPresets": {
+              "weapons#powerbeam#impact": {
+                "sUniqueId": "weapons#powerbeam#impact",
+                "sNodeToAttach": "",
+                "arrMatFiles": {
+                  "0": {
+                    "vFiles": [
+                      "weapons/singleshot_wallimpact_01.wav",
+                      "weapons/singleshot_wallimpact_02.wav",
+                      "weapons/singleshot_wallimpact_03.wav",
+                      "weapons/singleshot_wallimpact_04.wav"
+                    ]
+                  },
+                  "1": {
+                    "vFiles": [
+                      "weapons/singleshot_wallimpact_01.wav",
+                      "weapons/singleshot_wallimpact_02.wav",
+                      "weapons/singleshot_wallimpact_03.wav",
+                      "weapons/singleshot_wallimpact_04.wav"
+                    ]
+                  },
+                  "2": {
+                    "vFiles": [
+                      "weapons/singleshot_fleshimpact_01.wav",
+                      "weapons/singleshot_fleshimpact_02.wav",
+                      "weapons/singleshot_fleshimpact_03.wav",
+                      "weapons/singleshot_fleshimpact_04.wav"
+                    ]
+                  },
+                  "3": {
+                    "vFiles": [
+                      "weapons/singleshot_shieldimpact_01.wav",
+                      "weapons/singleshot_shieldimpact_02.wav",
+                      "weapons/singleshot_shieldimpact_03.wav",
+                      "weapons/singleshot_shieldimpact_04.wav"
+                    ]
+                  },
+                  "4": {
+                    "vFiles": [
+                      "weapons/singleshot_metalmapimpact_01.wav",
+                      "weapons/singleshot_metalmapimpact_02.wav",
+                      "weapons/singleshot_metalmapimpact_03.wav",
+                      "weapons/singleshot_metalmapimpact_04.wav"
+                    ]
+                  },
+                  "5": {
+                    "vFiles": [
+                      "weapons/singleshot_magnetimpact_01.wav",
+                      "weapons/singleshot_magnetimpact_02.wav",
+                      "weapons/singleshot_magnetimpact_03.wav",
+                      "weapons/singleshot_magnetimpact_04.wav"
+                    ]
+                  },
+                  "6": {
+                    "vFiles": [
+                      "weapons/singleshot_sandimpact_01.wav",
+                      "weapons/singleshot_sandimpact_02.wav",
+                      "weapons/singleshot_sandimpact_03.wav",
+                      "weapons/singleshot_sandimpact_04.wav"
+                    ]
+                  },
+                  "7": {
+                    "vFiles": []
+                  },
+                  "8": {
+                    "vFiles": [
+                      "weapons/singleshot_sandimpact_01.wav",
+                      "weapons/singleshot_sandimpact_02.wav",
+                      "weapons/singleshot_sandimpact_03.wav",
+                      "weapons/singleshot_sandimpact_04.wav"
+                    ]
+                  },
+                  "9": {
+                    "vFiles": []
+                  },
+                  "10": {
+                    "vFiles": []
+                  },
+                  "11": {
+                    "vFiles": []
+                  },
+                  "12": {
+                    "vFiles": []
+                  },
+                  "13": {
+                    "vFiles": []
+                  },
+                  "14": {
+                    "vFiles": []
+                  },
+                  "15": {
+                    "vFiles": []
+                  }
+                },
+                "ePlayerId": "SFX",
+                "eLogicId": "DEFAULT",
+                "eAttCurve": "Logarithmic",
+                "ePositional": "POS_3D",
+                "iInstanceLimit": 6,
+                "fInBetweenTime": 0.20000000298023224,
+                "fAttMaxRange": 3500.0,
+                "fAttMinRange": 200.0,
+                "fVolume": 1.0,
+                "fVolumeRange": 0.0,
+                "fPitch": 1.0,
+                "fPitchRange": 0.0,
+                "fPan": 0.0,
+                "fPanRange": 0.0,
+                "fFadeIn": 0.0,
+                "fFadeOut": 0.0,
+                "fEmptyPercentage": 0.0,
+                "fStartDelayed": 0.0,
+                "bLoop": false,
+                "bAttachToActor": false,
+                "bStpChgAnim": false,
+                "bStpEntDead": true,
+                "bManaged": true,
+                "bRumbleSync": false,
+                "fRumbleGainOverride": -1.0,
+                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimTime": 10.0,
+                "fDimFadeTime": 20.0,
+                "fDimRecoverTime": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CTutorialComposition",
+    "Data": {
+      "sID": "tutorialcomposition",
+      "X": 0.0,
+      "Y": 0.0,
+      "ScaleX": 1.0,
+      "ScaleY": 1.0,
+      "Angle": 0.0,
+      "SizeX": 1.0,
+      "SizeY": 1.0,
+      "Enabled": true,
+      "Visible": true,
+      "sSkinName": "tutorialcomposition",
+      "sChildToFocus": "",
+      "lstChildren": [
+        {
+          "Class": "GUI::CDisplayObjectContainer",
+          "Data": {
+            "sID": "Panel",
+            "X": 0.0,
+            "Y": 0.4282535910606384,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 0.11451110243797302,
+            "Enabled": true,
+            "Visible": true,
+            "sSkinName": "",
+            "CenterX": 0.0,
+            "CenterY": 0.4282535910606384,
+            "sChildToFocus": "",
+            "lstChildren": [
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "MessageBackground",
+                  "X": 0.0,
+                  "Y": -0.022246940061450005,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 1.0,
+                  "SizeY": 0.15164439380168915,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "Autosize": false,
+                  "SpriteSheetItem": "WhiteSquare",
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "ColorR": 0.0784313827753067,
+                  "ColorG": 0.1411765068769455,
+                  "ColorB": 0.1764705926179886,
+                  "ColorA": 0.5882353186607361,
+                  "FlipX": false,
+                  "FlipY": false
+                }
+              },
+              {
+                "Class": "GUI::CLabel",
+                "Data": {
+                  "sID": "MessageText",
+                  "X": 0.025015639141201973,
+                  "Y": -0.011123470030725002,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 0.949999988079071,
+                  "SizeY": 0.13333329558372498,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "Text": "I seem to forget how strong your principles are, lady.|Certainly, I do not think the Federation has ever understood you or your motivations.|This could undoubtly spark a war between factions. Are you ready for that?",
+                  "Font": "digital_medium",
+                  "TextAlignment": "Centered",
+                  "Autosize": false,
+                  "ColorR": 0.9716981053352356,
+                  "ColorG": 0.9716981053352356,
+                  "ColorB": 0.9716981053352356,
+                  "ColorA": 1.0,
+                  "TextVerticalAlignment": "Centered"
+                }
+              },
+              {
+                "Class": "GUI::CSprite",
+                "Data": {
+                  "sID": "LineT",
+                  "X": 0.0,
+                  "Y": -0.022246940061450005,
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0,
+                  "Angle": 0.0,
+                  "SizeX": 1.0,
+                  "SizeY": 0.003333332948386669,
+                  "Enabled": true,
+                  "Visible": true,
+                  "sSkinName": "",
+                  "Autosize": false,
+                  "SpriteSheetItem": "WhiteSquare",
+                  "BlendMode": "AlphaBlend",
+                  "USelMode": "Scale",
+                  "VSelMode": "Scale",
+                  "ColorR": 1.0,
+                  "ColorG": 1.0,
+                  "ColorB": 1.0,
+                  "ColorA": 1.0,
+                  "FlipX": false,
+                  "FlipY": false
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

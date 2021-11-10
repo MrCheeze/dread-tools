@@ -1,0 +1,20 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "Stretched",
+    "vTargets": [
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/emmyproto/animations/ncu_chasenear-scratch3m_init-wall.bcskla"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/emmyproto/animations/ncu_chasenear-scratch4m_init-wall.bcskla"
+      }
+    ]
+  }
+}

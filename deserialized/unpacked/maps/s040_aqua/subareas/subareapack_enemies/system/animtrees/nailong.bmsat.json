@@ -1,0 +1,64 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "WingsMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "WingsMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Wings",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "L01_wings_dw_01_EXP",
+              "L01_wings_dw_02_EXP",
+              "L01_wings_up_01_EXP",
+              "L01_wings_up_02_EXP",
+              "R01_wings_dw_01_EXP",
+              "R01_wings_dw_02_EXP",
+              "R01_wings_up_01_EXP",
+              "R01_wings_up_02_EXP"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "WingsMixer"
+        },
+        {
+          "pNode": "Wings",
+          "pParent": "WingsMixer"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "Icons_HUD_01": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/icons_hud_01.bctex",
+            "uTextureWidth": 4096,
+            "uTextureHeight": 4096,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "logo_metroid_black",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.447021484375,
+                      0.5126953125
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.236328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEXT_VIGNETTE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.006103515625,
+                      0.0068359375
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.236328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_PANEL_SELECTOR_UNSELECTED",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.446533203125,
+                      0.014404296875
+                    ],
+                    "v2Scale": [
+                      0.244873046875,
+                      0.026123046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_PANEL_PROMPT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.448974609375,
+                      0.0654296875
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.0625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_PANEL_BIGWINDOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.540283203125,
+                      0.064208984375
+                    ],
+                    "v2Scale": [
+                      0.062744140625,
+                      0.0634765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_BACKGROUND",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.005615234375,
+                      0.62939453125
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.23486328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_CTR_OVERLAY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.005615234375,
+                      0.27294921875
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.236328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_TEX_BACKGROUND_GRID",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.467529296875,
+                      0.15380859375
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.236328125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_SLIDER_HANDLE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.638427734375,
+                      0.07275390625
+                    ],
+                    "v2Scale": [
+                      0.0029296875,
+                      0.003662109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_SLIDER_BAR_EMPTY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.61767578125,
+                      0.10986328125
+                    ],
+                    "v2Scale": [
+                      0.042724609375,
+                      0.00390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_IMG_SAMUS_HELMET",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.71630859375,
+                      0.01708984375
+                    ],
+                    "v2Scale": [
+                      0.044677734375,
+                      0.036376953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_IMG_NINTENDOLOGO",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.008056640625,
+                      0.516845703125
+                    ],
+                    "v2Scale": [
+                      0.413818359375,
+                      0.1025390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_IMG_GAMEMENU_NAVIGATION_HEADER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.446533203125,
+                      0.405029296875
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.024658203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MENU_IMG_GAMEMENU_BOTTOM_WRAPPER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.446533203125,
+                      0.437744140625
+                    ],
+                    "v2Scale": [
+                      0.41796875,
+                      0.015869140625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_SPRITE_UNKNOWN",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.692138671875,
+                      0.087646484375
+                    ],
+                    "v2Scale": [
+                      0.012939453125,
+                      0.013916015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_SPRITE_POWERBOMB",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7333984375,
+                      0.08837890625
+                    ],
+                    "v2Scale": [
+                      0.01416015625,
+                      0.013916015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_SPRITE_MISSILE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.77490234375,
+                      0.088134765625
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.012939453125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_SPRITE_ENERGYTANK_FULL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8125,
+                      0.08642578125
+                    ],
+                    "v2Scale": [
+                      0.009521484375,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_SPRITE_ENERGYTANK_EMPTY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.83251953125,
+                      0.086669921875
+                    ],
+                    "v2Scale": [
+                      0.009521484375,
+                      0.015625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Frame copia",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.77294921875,
+                      0.0126953125
+                    ],
+                    "v2Scale": [
+                      0.080078125,
+                      0.005126953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Emty Bck",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7734375,
+                      0.021484375
+                    ],
+                    "v2Scale": [
+                      0.0791015625,
+                      0.004150390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Complete Aieon",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.773193359375,
+                      0.029541015625
+                    ],
+                    "v2Scale": [
+                      0.07958984375,
+                      0.004638671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Incomplete Aieon copia",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.773193359375,
+                      0.037841796875
+                    ],
+                    "v2Scale": [
+                      0.07958984375,
+                      0.004638671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Shine Aeion",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.772705078125,
+                      0.0458984375
+                    ],
+                    "v2Scale": [
+                      0.08056640625,
+                      0.00537109375
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

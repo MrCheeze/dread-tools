@@ -1,0 +1,286 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0031gravitysuiteobtention",
+    "sActionSet": "cutscenes/0031gravitysuiteobtention/0031gravitysuiteobtention.bmsas",
+    "vWorldOffset": [
+      3039.5,
+      -10566.599609375,
+      -6.29998779296875
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "PowerUpGravitySuit.ShowMessage",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 0.5,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 289,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 30,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "PowerUpGravitySuit.ChangeSuit",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 48,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 27,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 99,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "7",
+        "iFrames": 22,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/7.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "8",
+        "iFrames": 140,
+        "sCamera": "cutscenes/0031gravitysuiteobtention/cameras/8.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0031gravitysuiteobtention_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/initaura_gravity.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/endaura_gravity.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/endauragravity_explosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_leftshoulderenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_leftarmenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "system/fx/generic/varia_cannon_smallcover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/animfresnelnoise.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_raysonsite.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 26
+        },
+        {
+          "sFile": "system/fx/generic/varia_smokejump.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_jumpsmoke.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/chozowarriorx/fx/dashshot.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_backfloorsmoke.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_trailsjump.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_jumpingaura.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_auracptl.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_energyauraexplosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_grounddecal.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_groundenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_groundenergyparticles.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_groundrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_feetrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "system/fx/generic/varia_feetrays_right.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "system/fx/generic/varia_bodyrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_shoulderrays.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_shoulderrays_var.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_chestenergysupport.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0031gravitysuiteobtention/fx/gravity_raysonsite02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 30
+        },
+        {
+          "sFile": "system/fx/generic/varia_end_shoulderenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "system/fx/generic/varia_cannon_smallcover_end.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/generic/varia_end_leftarmenergy.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        }
+      ]
+    }
+  }
+}

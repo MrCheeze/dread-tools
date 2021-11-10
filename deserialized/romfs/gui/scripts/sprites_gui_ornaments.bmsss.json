@@ -1,0 +1,102 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "GUI_ORNAMENTS": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/gui_ornaments.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 1024,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CIRCLEINNER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6142578125,
+                      0.6123046875
+                    ],
+                    "v2Scale": [
+                      0.376953125,
+                      0.376953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CIRCLEOUTER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.005859375,
+                      0.0068359375
+                    ],
+                    "v2Scale": [
+                      0.51953125,
+                      0.51953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CORNERFRAME2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8828125,
+                      0.1455078125
+                    ],
+                    "v2Scale": [
+                      0.1103515625,
+                      0.2548828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CIRCLEFRAME",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5302734375,
+                      0.0068359375
+                    ],
+                    "v2Scale": [
+                      0.1279296875,
+                      0.126953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CORNERFRAME",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6630859375,
+                      0.0068359375
+                    ],
+                    "v2Scale": [
+                      0.330078125,
+                      0.134765625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

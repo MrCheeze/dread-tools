@@ -1,0 +1,243 @@
+{
+  "FileType": "GUI::CDisplayObjectContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CDisplayObjectContainer*",
+  "Root": {
+    "Class": "GUI::CDisplayObjectContainer",
+    "Data": {
+      "sID": "MinimapComposition",
+      "lstChildren": [
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "PANEL_BACKGROUND",
+            "X": 0.0,
+            "Y": 0.0,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 1.0,
+            "SizeY": 1.0,
+            "Enabled": true,
+            "Autosize": true,
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "SpriteSheetItem": "Menus-tileset/TEX_BACKGROUND_BLACK"
+          }
+        },
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "ITEM_MENUHEAD_R_Instance",
+            "X": 0.800000011920929,
+            "Y": 0.032999999821186066,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.2874999940395355,
+            "SizeY": 0.05222199857234955,
+            "Enabled": true,
+            "Autosize": false,
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "SpriteSheetItem": "Menus-tileset.psd Activos/ITEM_MENUHEAD_R"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_BUTTON_R",
+            "X": 0.949999988079071,
+            "Y": 0.032999999821186066,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.03999900072813034,
+            "SizeY": 0.0711119994521141,
+            "Enabled": true,
+            "Text": "#GUI_R_BUTTON",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "ITEM_MENUHEAD_L_Instance",
+            "X": 0.0,
+            "Y": 0.032999999821186066,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.2874999940395355,
+            "SizeY": 0.05222199857234955,
+            "Enabled": true,
+            "Autosize": false,
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "SpriteSheetItem": "Menus-tileset.psd Activos/ITEM_MENUHEAD_L"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_BUTTON_L",
+            "X": 0.02800000086426735,
+            "Y": 0.032999999821186066,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.03999900072813034,
+            "SizeY": 0.0711119994521141,
+            "Enabled": true,
+            "Text": "#GUI_L_BUTTON",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_HEADER_MISSION",
+            "X": 0.07000000029802322,
+            "Y": 0.03500000014901161,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.0625,
+            "SizeY": 0.0711119994521141,
+            "Enabled": true,
+            "Text": "MISSION",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CSprite",
+          "Data": {
+            "sID": "ITEM_MENUHEAD_CENTER_Instance",
+            "X": 0.30656298995018005,
+            "Y": 0.02500000037252903,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.4143750071525574,
+            "SizeY": 0.07666700333356857,
+            "Enabled": true,
+            "Autosize": false,
+            "BlendMode": "AlphaBlend",
+            "USelMode": "Scale",
+            "VSelMode": "Scale",
+            "SpriteSheetItem": "Menus-tileset.psd Activos/ITEM_MENUHEAD_CENTER"
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_HEADER_SAMUS",
+            "X": 0.8600000143051147,
+            "Y": 0.03500000014901161,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.17499500513076782,
+            "SizeY": 0.0711119994521141,
+            "Enabled": true,
+            "Text": "SAMUS",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_HEADER_TITLE_MAP",
+            "X": 0.47999998927116394,
+            "Y": 0.03500000014901161,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.2274949997663498,
+            "SizeY": 0.0711119994521141,
+            "Enabled": true,
+            "Text": "MAP",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_BUTTON_PLUS",
+            "X": 0.4375,
+            "Y": 0.943444013595581,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.032545000314712524,
+            "SizeY": 0.0555570013821125,
+            "Enabled": true,
+            "Text": "#GUI_PLUS_BUTTON",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        },
+        {
+          "Class": "GUI::CLabel",
+          "Data": {
+            "sID": "LABEL_BOTTOM_CLOSE",
+            "X": 0.4749999940395355,
+            "Y": 0.9449999928474426,
+            "ScaleX": 1.0,
+            "ScaleY": 1.0,
+            "Angle": 0.0,
+            "SizeX": 0.062497999519109726,
+            "SizeY": 0.0555570013821125,
+            "Enabled": true,
+            "Text": "CLOSE",
+            "Font": "digital_medium",
+            "TextAlignment": "Centered",
+            "Autosize": true,
+            "BlinkColorR": 1.0,
+            "BlinkColorG": 1.0,
+            "BlinkColorB": 1.0,
+            "Blink": -1.0
+          }
+        }
+      ]
+    }
+  }
+}

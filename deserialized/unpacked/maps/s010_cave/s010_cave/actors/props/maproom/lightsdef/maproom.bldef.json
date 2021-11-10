@@ -1,0 +1,87 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#maproom#lightsdef#maproom": {
+            "sPath": "actors#props#maproom#lightsdef#maproom",
+            "vLights": [
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "maproom_omni01",
+                "sNode": "",
+                "vPosOffset": [
+                  0.0,
+                  600.0,
+                  -570.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  -0.05000000074505806,
+                  180.6199951171875
+                ],
+                "vColor": [
+                  0.8080000281333923,
+                  0.9746559858322144,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  1.0,
+                  3000.0,
+                  60.0,
+                  130.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.15000000596046448,
+                "fIntensity": 400.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "maproom_spot01",
+                "sNode": "",
+                "vPosOffset": [
+                  0.0,
+                  -500.0,
+                  -400.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.6000000238418579,
+                  1.5700000524520874
+                ],
+                "vColor": [
+                  0.8019999861717224,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  1000.0,
+                  2000.0,
+                  60.0,
+                  90.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.20000000298023224,
+                "fIntensity": 100.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0108shipyard#actors#chozocommander#lights": {
+            "sPath": "cutscenes#0108shipyard#actors#chozocommander#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "commander_light_fire_108shipyard",
+                "sNode": "Spine_BN",
+                "vPosOffset": [
+                  0.0,
+                  170.0,
+                  -20.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.3499999940395355,
+                  0.10000000149011612,
+                  1.0
+                ],
+                "vAtt": [
+                  -200.0,
+                  200.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

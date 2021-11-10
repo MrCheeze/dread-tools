@@ -5,6 +5,7 @@ import pprint
 import struct
 import random
 import re
+import os
 
 hashes = {}
 used_hashes = {}
@@ -655,9 +656,6 @@ def readHash(f, hashType='misc'):
 def readInt(f):
     return int.from_bytes(f.read(4), 'little', signed=True)
 
-def readLong(f):
-    return int.from_bytes(f.read(8), 'little', signed=True)
-
 def readDict(f, readKey, readValue, *args):
     entryCount = readInt(f)
     obj = {}
@@ -840,7 +838,7 @@ def readObject(f, className):
     elif className == 'SCustomData':
         val = readBlob(f)
     elif className == 'base::global::CName':
-        val = readLong(f)
+        val = readHash(f, 'cname')
     elif className == 'void':
         val = None
     elif className == 'base::global::CRntFile':
@@ -947,12 +945,15 @@ for line in sorted(list(open('fileintros2.txt'))):
     f.close()
 
     #pprint.pprint(parsed)
-    
-    #f2=open(filename.replace('.bmssv','.json'),'w')
-    #json.dump(parsed, f2, sort_keys=False, indent=2)
-    #f2.close()
 
-if False:
+    outfilename = 'deserialized/'+filename+'.json'
+    os.makedirs(os.path.dirname(outfilename), exist_ok=True)
+    
+    f2=open(outfilename,'w')
+    json.dump(parsed, f2, sort_keys=False, indent=2)
+    f2.close()
+
+if True:
     for hashType in used_hashes:
         used_hashes[hashType] = sorted(list(used_hashes[hashType]))
 

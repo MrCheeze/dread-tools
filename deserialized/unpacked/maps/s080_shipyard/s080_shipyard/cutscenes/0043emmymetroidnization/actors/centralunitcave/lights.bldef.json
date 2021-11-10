@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0043emmymetroidnization#actors#centralunitcave#lights": {
+            "sPath": "cutscenes#0043emmymetroidnization#actors#centralunitcave#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "light_centralunit_metroidnization",
+                "sNode": "C01_Master",
+                "vPosOffset": [
+                  75.0,
+                  150.0,
+                  0.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.6499999761581421,
+                  0.699999988079071,
+                  1.0
+                ],
+                "vAtt": [
+                  -250.0,
+                  250.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

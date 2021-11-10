@@ -1,0 +1,32 @@
+{
+  "FileType": "CEnvironmentSoundPresets",
+  "Unk": 33685505,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pSoundPresets": {
+          "Class": "CEnvironmentSoundPresets",
+          "Data": {
+            "dicPresets": {
+              "default": {
+                "sID": "default",
+                "sSoundID": "gui/silence.wav",
+                "tSound": {
+                  "sToPreset": "",
+                  "fVolume": 0.0,
+                  "fFadeIn": 0.0,
+                  "fFadeOut": 0.0,
+                  "fFadeInDelay": 0.0,
+                  "eReverb": "NONE"
+                },
+                "dctTransitions": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

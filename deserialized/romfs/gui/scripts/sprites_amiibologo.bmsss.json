@@ -1,0 +1,38 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "amiibologo": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/amiibologo.bctex",
+            "uTextureWidth": 512,
+            "uTextureHeight": 128,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "amiibologo",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.90625,
+                      0.9140625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

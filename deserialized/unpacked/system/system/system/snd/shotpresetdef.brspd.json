@@ -1,0 +1,196 @@
+{
+  "FileType": "CShotAudioWeaponPresets",
+  "Unk": 33619969,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pShotManager": {
+      "Class": "CShotManager",
+      "Data": {
+        "oWeaponAudioPresets": {
+          "arrAudioPresetsSources": {
+            "PowerBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "system/snd/presets/weapons/powerbeam/charging.bapd",
+                "Charged": "system/snd/presets/weapons/powerbeam/charged.bapd",
+                "ChargedLoop": "system/snd/presets/weapons/powerbeam/chargedloop.bapd",
+                "Fire": "system/snd/presets/weapons/powerbeam/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/powerbeam/firecharged.bapd",
+                "Impact": "system/snd/presets/weapons/powerbeam/impact.bapd",
+                "ImpactCharged": "system/snd/presets/weapons/powerbeam/impactcharged.bapd",
+                "ImpactDiffusion": "system/snd/presets/weapons/powerbeam/impactdiffusion.bapd"
+              }
+            },
+            "WideBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "system/snd/presets/weapons/widebeam/charging.bapd",
+                "Charged": "system/snd/presets/weapons/widebeam/charged.bapd",
+                "ChargedLoop": "system/snd/presets/weapons/widebeam/chargedloop.bapd",
+                "Fire": "system/snd/presets/weapons/widebeam/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/widebeam/firecharged.bapd",
+                "Impact": "system/snd/presets/weapons/widebeam/impact.bapd",
+                "ImpactCharged": "system/snd/presets/weapons/widebeam/impactcharged.bapd",
+                "ImpactDiffusion": "system/snd/presets/weapons/widebeam/impactdiffusion.bapd"
+              }
+            },
+            "PlasmaBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "system/snd/presets/weapons/plasmabeam/charging.bapd",
+                "Charged": "system/snd/presets/weapons/plasmabeam/charged.bapd",
+                "ChargedLoop": "system/snd/presets/weapons/plasmabeam/chargedloop.bapd",
+                "Fire": "system/snd/presets/weapons/plasmabeam/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/plasmabeam/firecharged.bapd",
+                "Impact": "system/snd/presets/weapons/plasmabeam/impact.bapd",
+                "ImpactCharged": "system/snd/presets/weapons/plasmabeam/impactcharged.bapd",
+                "ImpactDiffusion": "system/snd/presets/weapons/plasmabeam/impactdiffusion.bapd"
+              }
+            },
+            "WaveBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "system/snd/presets/weapons/wavebeam/charging.bapd",
+                "Charged": "system/snd/presets/weapons/wavebeam/charged.bapd",
+                "ChargedLoop": "system/snd/presets/weapons/wavebeam/chargedloop.bapd",
+                "Fire": "system/snd/presets/weapons/wavebeam/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/wavebeam/firecharged.bapd",
+                "Impact": "system/snd/presets/weapons/wavebeam/impact.bapd",
+                "ImpactCharged": "system/snd/presets/weapons/wavebeam/impactcharged.bapd",
+                "ImpactDiffusion": "system/snd/presets/weapons/wavebeam/impactdiffusion.bapd"
+              }
+            },
+            "SpecialEnergyBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/specialenergybeam/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/specialenergybeam/impact.bapd",
+                "ImpactCharged": "system/snd/presets/weapons/specialenergybeam/impactcharged.bapd",
+                "ImpactDiffusion": ""
+              }
+            },
+            "HyperBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "system/snd/presets/weapons/hyperbeam/charged.bapd",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/hyperbeam/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/hyperbeam/firecharged.bapd",
+                "Impact": "",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "GrappleBeam": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/grapplebeam/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/grapplebeam/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "Missile": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/missile/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/missile/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "SuperMissile": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/supermissile/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/supermissile/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "IceMissile": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/icemissile/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/icemissile/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "LockOnMissile": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "system/snd/presets/weapons/lockonmissile/charged.bapd",
+                "ChargedLoop": "",
+                "Fire": "system/snd/presets/weapons/lockonmissile/fire.bapd",
+                "FireCharged": "",
+                "Impact": "system/snd/presets/weapons/lockonmissile/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "SpecialEnergyMissile": {
+              "arrWeaponStateAssets": {
+                "Charging": "system/snd/presets/weapons/specialenergymissile/charging.bapd",
+                "Charged": "system/snd/presets/weapons/specialenergymissile/charged.bapd",
+                "ChargedLoop": "system/snd/presets/weapons/specialenergymissile/chargedloop.bapd",
+                "Fire": "system/snd/presets/weapons/specialenergymissile/fire.bapd",
+                "FireCharged": "system/snd/presets/weapons/specialenergymissile/firecharged.bapd",
+                "Impact": "system/snd/presets/weapons/specialenergymissile/impact.bapd",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "Bomb": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "",
+                "FireCharged": "",
+                "Impact": "",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "LineBomb": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "",
+                "FireCharged": "",
+                "Impact": "",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            },
+            "PowerBomb": {
+              "arrWeaponStateAssets": {
+                "Charging": "",
+                "Charged": "",
+                "ChargedLoop": "",
+                "Fire": "",
+                "FireCharged": "",
+                "Impact": "",
+                "ImpactCharged": "",
+                "ImpactDiffusion": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

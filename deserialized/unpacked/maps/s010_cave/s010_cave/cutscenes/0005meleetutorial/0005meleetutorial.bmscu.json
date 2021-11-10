@@ -1,0 +1,138 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "Completed",
+    "sId": "0005meleetutorial",
+    "sActionSet": "cutscenes/0005meleetutorial/0005meleetutorial.bmsas",
+    "vWorldOffset": [
+      11800.0,
+      -8300.0,
+      2.6390300535139577e-12
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "s010_cave.OnBefore_Cutscene_5_Begins",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "CurrentScenario.ActivationMeleeTutoReminder",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": -1.0,
+    "fFps": 30,
+    "bSkippable": false,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 11,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 33,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 36,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 93,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 75,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 13,
+        "sCamera": "cutscenes/0005meleetutorial/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0005meleetutorial_bigfist",
+        "sCharClass": "cutscenes/0005meleetutorial/actors/bigfist/actor.bmsad",
+        "sInGameEntityId": "SP_Bigfist_TutoMelee",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "crazyinit",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0005meleetutorial_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "meleesuccessbigai",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [
+      "actors/samus/s_dashmelee_whoosh_01.wav",
+      "actors/samus/samus_jumpwhoosh_01.wav",
+      "actors/samus/s_dashmelee_low_02.wav",
+      "actors/samus/s_melee_high_01.wav"
+    ],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "system/fx/combat/blockableattackwarning.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 12
+        }
+      ]
+    }
+  }
+}

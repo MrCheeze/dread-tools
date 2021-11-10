@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0053genericcupowerobtention#actors#samus#lights": {
+            "sPath": "cutscenes#0053genericcupowerobtention#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "genericcupoweroctention_light",
+                "sNode": "L01_Hand_SKN",
+                "vPosOffset": [
+                  0.0,
+                  -60.0,
+                  -10.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.10000000149011612,
+                  0.4000000059604645,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  -500.0,
+                  150.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 0.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

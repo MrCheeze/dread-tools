@@ -1,0 +1,2294 @@
+{
+  "FileType": "GUI::CGUIManager::SkinContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SkinContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SkinContainer",
+    "Data": {
+      "vecSkins": [
+        {
+          "Class": "GUI::CSkin",
+          "Data": {
+            "sID": "extrasmenucomposition",
+            "vecDisplayObjDefs": [
+              {
+                "Class": "GUI::CDisplayObjectDef",
+                "Data": {
+                  "sID": "RootComposition",
+                  "lstpStates": [
+                    {
+                      "Class": "GUI::CDisplayObjectStateDef",
+                      "Data": {
+                        "sID": "Default",
+                        "pDOAnimationDef": {
+                          "Class": "GUI::CDisplayObjectAnimationDef",
+                          "Data": {
+                            "pTrackSet": {
+                              "Class": "GUI::CTrackSet",
+                              "Data": {
+                                "vpTracks": []
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "lstpChildren": [
+                    {
+                      "Class": "GUI::CDisplayObjectDef",
+                      "Data": {
+                        "sID": "Content",
+                        "lstpStates": [
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "OnHide",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": [
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackBool",
+                                          "Data": {
+                                            "iLoopStartFrame": -1,
+                                            "sPropertyID": "Visible",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": false
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectStateDef",
+                            "Data": {
+                              "sID": "OnShow",
+                              "pDOAnimationDef": {
+                                "Class": "GUI::CDisplayObjectAnimationDef",
+                                "Data": {
+                                  "pTrackSet": {
+                                    "Class": "GUI::CTrackSet",
+                                    "Data": {
+                                      "vpTracks": [
+                                        {
+                                          "Class": "GUI::CDisplayObjectTrackBool",
+                                          "Data": {
+                                            "iLoopStartFrame": -1,
+                                            "sPropertyID": "Visible",
+                                            "aKeys": [
+                                              {
+                                                "iFrame": 0,
+                                                "Value": true
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "lstpChildren": [
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Window2",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Line (0)",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Line (1)",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Line (2)",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Line (3)",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "HeaderSprite",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "CLabel-Title",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineT",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineL",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineL_2",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineR",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineR_2",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineC_LT",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "LineC_LR",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Back",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "Accept",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "ListComposition",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "Default",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": []
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": [
+                                {
+                                  "Class": "GUI::CDisplayObjectDef",
+                                  "Data": {
+                                    "sID": "Button1",
+                                    "lstpStates": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectStateDef",
+                                        "Data": {
+                                          "sID": "Default",
+                                          "pDOAnimationDef": {
+                                            "Class": "GUI::CDisplayObjectAnimationDef",
+                                            "Data": {
+                                              "pTrackSet": {
+                                                "Class": "GUI::CTrackSet",
+                                                "Data": {
+                                                  "vpTracks": []
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "lstpChildren": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Background",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusReceived",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.7264150977134705
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 1.0
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.13363300263881683
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.2688679099082947
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.20791250467300415
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.27434349060058594
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusLost",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.5882353186607361
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnAccept",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.7843136787414551
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 0.7843136787414551
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Label",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineT",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineB",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CDisplayObjectDef",
+                                  "Data": {
+                                    "sID": "Button2",
+                                    "lstpStates": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectStateDef",
+                                        "Data": {
+                                          "sID": "Default",
+                                          "pDOAnimationDef": {
+                                            "Class": "GUI::CDisplayObjectAnimationDef",
+                                            "Data": {
+                                              "pTrackSet": {
+                                                "Class": "GUI::CTrackSet",
+                                                "Data": {
+                                                  "vpTracks": []
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "lstpChildren": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Background",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusReceived",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.7264150977134705
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 1.0
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.13363300263881683
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.2688679099082947
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.20791250467300415
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.27434349060058594
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusLost",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.5882353186607361
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnAccept",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.7843136787414551
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 0.7843136787414551
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Label",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineT",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineB",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CDisplayObjectDef",
+                                  "Data": {
+                                    "sID": "Button3",
+                                    "lstpStates": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectStateDef",
+                                        "Data": {
+                                          "sID": "Default",
+                                          "pDOAnimationDef": {
+                                            "Class": "GUI::CDisplayObjectAnimationDef",
+                                            "Data": {
+                                              "pTrackSet": {
+                                                "Class": "GUI::CTrackSet",
+                                                "Data": {
+                                                  "vpTracks": []
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "lstpChildren": [
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Background",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusReceived",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.7264150977134705
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 1.0
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.13363300263881683
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.2688679099082947
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": 0,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.20791250467300415
+                                                                },
+                                                                {
+                                                                  "iFrame": 60,
+                                                                  "Value": 0.27434349060058594
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnFocusLost",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.5882353186607361
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "OnAccept",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": [
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorR",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.125490203499794
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorG",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.2688679099082947
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2078430950641632
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorB",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 10,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 1.0
+                                                                },
+                                                                {
+                                                                  "iFrame": 20,
+                                                                  "Value": 0.27434349060058594
+                                                                },
+                                                                {
+                                                                  "iFrame": 30,
+                                                                  "Value": 0.2549020051956177
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          {
+                                                            "Class": "GUI::CDisplayObjectTrackFloat",
+                                                            "Data": {
+                                                              "iLoopStartFrame": -1,
+                                                              "sPropertyID": "ColorA",
+                                                              "aKeys": [
+                                                                {
+                                                                  "iFrame": 0,
+                                                                  "Value": 0.5882353186607361
+                                                                },
+                                                                {
+                                                                  "iFrame": 5,
+                                                                  "Value": 0.7843136787414551
+                                                                },
+                                                                {
+                                                                  "iFrame": 15,
+                                                                  "Value": 0.7843136787414551
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "Label",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineT",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "LineB",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotL",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "TopR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      },
+                                      {
+                                        "Class": "GUI::CDisplayObjectDef",
+                                        "Data": {
+                                          "sID": "BotR",
+                                          "lstpStates": [
+                                            {
+                                              "Class": "GUI::CDisplayObjectStateDef",
+                                              "Data": {
+                                                "sID": "Default",
+                                                "pDOAnimationDef": {
+                                                  "Class": "GUI::CDisplayObjectAnimationDef",
+                                                  "Data": {
+                                                    "pTrackSet": {
+                                                      "Class": "GUI::CTrackSet",
+                                                      "Data": {
+                                                        "vpTracks": []
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "lstpChildren": []
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "NewContent_glow",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "NoContent",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackBool",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Enabled",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": false
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "NewContent",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackBool",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Enabled",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": true
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackFloat",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "ColorA",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": 0.5490195751190186
+                                                    },
+                                                    {
+                                                      "iFrame": 30,
+                                                      "Value": 1.0
+                                                    },
+                                                    {
+                                                      "iFrame": 55,
+                                                      "Value": 0.5490195751190186
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          },
+                          {
+                            "Class": "GUI::CDisplayObjectDef",
+                            "Data": {
+                              "sID": "NewContent",
+                              "lstpStates": [
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "NoContent",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackBool",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Enabled",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": false
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "Class": "GUI::CDisplayObjectStateDef",
+                                  "Data": {
+                                    "sID": "NewContent",
+                                    "pDOAnimationDef": {
+                                      "Class": "GUI::CDisplayObjectAnimationDef",
+                                      "Data": {
+                                        "pTrackSet": {
+                                          "Class": "GUI::CTrackSet",
+                                          "Data": {
+                                            "vpTracks": [
+                                              {
+                                                "Class": "GUI::CDisplayObjectTrackBool",
+                                                "Data": {
+                                                  "iLoopStartFrame": 0,
+                                                  "sPropertyID": "Enabled",
+                                                  "aKeys": [
+                                                    {
+                                                      "iFrame": 0,
+                                                      "Value": true
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "lstpChildren": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

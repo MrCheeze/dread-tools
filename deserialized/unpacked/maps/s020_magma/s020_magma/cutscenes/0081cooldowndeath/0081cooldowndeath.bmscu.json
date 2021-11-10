@@ -1,0 +1,525 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0081cooldowndeath",
+    "sActionSet": "cutscenes/0081cooldowndeath/0081cooldowndeath.bmsas",
+    "vWorldOffset": [
+      1990.0,
+      -7800.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "",
+    "sOnStart": "",
+    "sOnFinished": "",
+    "sOnEnd": "s020_magma.OnCutscene81Ended",
+    "sOnSkip": "s020_magma.OnCutscene81Skipped",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 1.600000023841858,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "1",
+        "iFrames": 528,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/1.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "2",
+        "iFrames": 87,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/2.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "3",
+        "iFrames": 433,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/3.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "4",
+        "iFrames": 96,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "5",
+        "iFrames": 150,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/5.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      },
+      {
+        "sId": "6",
+        "iFrames": 134,
+        "sCamera": "cutscenes/0081cooldowndeath/cameras/6.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0081cooldowndeath_cooldownxboss",
+        "sCharClass": "cutscenes/0081cooldowndeath/actors/cooldownxboss/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0081cooldowndeath/actors/cooldownxboss/lights.bldef"
+      },
+      {
+        "sId": "0081cooldowndeath_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "waiting",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": "cutscenes/0081cooldowndeath/actors/samus/lights.bldef"
+      },
+      {
+        "sId": "0081cooldowndeath_cut_81_lavasubchar",
+        "sCharClass": "cutscenes/0081cooldowndeath/actors/cut_81_lavasubchar/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0081cooldowndeath_core_x",
+        "sCharClass": "cutscenes/0081cooldowndeath/actors/core_x/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0081cooldowndeath_cut_cooldownboss_machine",
+        "sCharClass": "cutscenes/0081cooldowndeath/actors/cut_cooldownboss_machine/actor.bmsad",
+        "sInGameEntityId": "",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sSkelRootNode": "",
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/smokebodyslam.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/clawhitground.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 5
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/explosion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 26
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/explosion_game.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 26
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/chargeexplosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 12
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/dragloop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/dragloop_local.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0054scorpiuspresentation/fx/scorpiusscream.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0054scorpiuspresentation/fx/scorpiusscream_distortion.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/liquishthing.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 2
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/whirlwind.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/lava_impact_big.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 8
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/lava_splash_soft.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 14
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/windy_smoke_init.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_explosion01_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_explosion00_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magma_wave.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmawave_distortion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 7
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashes_spawn.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 13
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_smoke_onlyspray.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 7
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_smoke_sprayburst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 7
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_smoke_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 7
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_smoke_bigburst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/directional_ashes.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashescooldownmud_slow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashes_spawn_low.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmabasecylinder.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmabaseminiexplosions.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magma_ashes.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmalaser_base.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmalaserfakeglow.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/fakeglowlong_big.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_cannon_glowcharge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_cannon_glow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "actors/characters/samus/fx/cannon_smallcover.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_charge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_charge_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_ball.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_ball_ray01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_plasma_ball_ray02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 8
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasmabigflare.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasmabeam_burst_long.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasma_charge_long.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasma_ball.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasma_charge_longer.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_fight/fx/samus_cannon_glow_off.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/firefusible.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/smokefusible.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/smokefusible_02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/clawhitground_local.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/grabhit_cine.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/dragloop_small.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/dragloopsmall_burst.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/plasmabeam/fx/muzzle_3d.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/plasmabeam_chargedfull.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 9
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/smokemuzzlecd.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/dustbackflip.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/backfliptrail_left.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/backfliptrail_right.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/engineburst_polyof.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/characters/cooldownxboss/fx/grab_samusengine_end.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/fake_fog.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/windy_smoke.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magma_center.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/magmawave_distortion_noise.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/fake_fog_soft.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashescooldownmud_gravity.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashescooldownmud.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0081cooldowndeath/fx/ashescooldownmud_bigarea.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        }
+      ]
+    }
+  }
+}

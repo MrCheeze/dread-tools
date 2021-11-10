@@ -1,0 +1,107 @@
+{
+  "FileType": "sound::CAudioPresets",
+  "Unk": 33751042,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSoundManager": {
+      "Class": "sound::CSoundManager",
+      "Data": {
+        "pAudioPresets": {
+          "Class": "sound::CAudioPresets",
+          "Data": {
+            "dicPresets": {
+              "enemies#heca_voice": {
+                "sUniqueId": "enemies#heca_voice",
+                "sNodeToAttach": "",
+                "arrMatFiles": {
+                  "0": {
+                    "vFiles": [
+                      "actors/hecathon/heca_voice_01.wav",
+                      "actors/hecathon/heca_voice_02.wav",
+                      "actors/hecathon/heca_voice_03.wav",
+                      "actors/hecathon/heca_voice_04.wav"
+                    ]
+                  },
+                  "1": {
+                    "vFiles": []
+                  },
+                  "2": {
+                    "vFiles": []
+                  },
+                  "3": {
+                    "vFiles": []
+                  },
+                  "4": {
+                    "vFiles": []
+                  },
+                  "5": {
+                    "vFiles": []
+                  },
+                  "6": {
+                    "vFiles": []
+                  },
+                  "7": {
+                    "vFiles": []
+                  },
+                  "8": {
+                    "vFiles": []
+                  },
+                  "9": {
+                    "vFiles": []
+                  },
+                  "10": {
+                    "vFiles": []
+                  },
+                  "11": {
+                    "vFiles": []
+                  },
+                  "12": {
+                    "vFiles": []
+                  },
+                  "13": {
+                    "vFiles": []
+                  },
+                  "14": {
+                    "vFiles": []
+                  },
+                  "15": {
+                    "vFiles": []
+                  }
+                },
+                "ePlayerId": "SFX",
+                "eLogicId": "DEFAULT",
+                "eAttCurve": "Logarithmic",
+                "ePositional": "POS_3D",
+                "iInstanceLimit": 1,
+                "fInBetweenTime": 4.0,
+                "fAttMaxRange": 3000.0,
+                "fAttMinRange": 100.0,
+                "fVolume": 0.4000000059604645,
+                "fVolumeRange": 0.0,
+                "fPitch": 1.0,
+                "fPitchRange": 0.0,
+                "fPan": 0.0,
+                "fPanRange": 0.0,
+                "fFadeIn": 0.0,
+                "fFadeOut": 0.20000000298023224,
+                "fEmptyPercentage": 0.30000001192092896,
+                "fStartDelayed": 0.0,
+                "bLoop": false,
+                "bAttachToActor": true,
+                "bStpChgAnim": false,
+                "bStpEntDead": true,
+                "bManaged": true,
+                "bRumbleSync": false,
+                "fRumbleGainOverride": -1.0,
+                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimTime": 10.0,
+                "fDimFadeTime": 20.0,
+                "fDimRecoverTime": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

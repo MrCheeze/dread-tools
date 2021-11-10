@@ -1,0 +1,710 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "globalview": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/globalview.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 1024,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ItemCube",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.77978515625,
+                      0.720703125
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ItemOrb",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.85205078125,
+                      0.720703125
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ItemOrb_glow",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.85205078125,
+                      0.8505859375
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SamusShip_glow",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.92822265625,
+                      0.8505859375
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SamusShip",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.92822265625,
+                      0.720703125
+                    ],
+                    "v2Scale": [
+                      0.0625,
+                      0.125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SamusIcon",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.94970703125,
+                      0.6083984375
+                    ],
+                    "v2Scale": [
+                      0.0390625,
+                      0.078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_MAG-LAB",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.91845703125,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_MAG-CAV2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.900390625,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_MAG-CAV1",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.88232421875,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_LAB-CAV",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8642578125,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_AQUA-FOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.84619140625,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_AQUA-CAV",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.828125,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_MAG-FOR",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.81005859375,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TELEPORT_FREE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7919921875,
+                      0.55078125
+                    ],
+                    "v2Scale": [
+                      0.015625,
+                      0.03125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "TRANSIT_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8837890625,
+                      0.59765625
+                    ],
+                    "v2Scale": [
+                      0.05126953125,
+                      0.1025390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "connector-line",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.98779296875,
+                      0.1552734375
+                    ],
+                    "v2Scale": [
+                      0.0068359375,
+                      0.3779296875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SKYB_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.78076171875,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.0556640625,
+                      0.0849609375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SKYB_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.720703125,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.0556640625,
+                      0.0849609375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SKYB_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6630859375,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.0556640625,
+                      0.0849609375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "QUAR_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8017578125,
+                      0.427734375
+                    ],
+                    "v2Scale": [
+                      0.0673828125,
+                      0.068359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "QUAR_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.732421875,
+                      0.427734375
+                    ],
+                    "v2Scale": [
+                      0.0673828125,
+                      0.068359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "QUAR_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.6630859375,
+                      0.427734375
+                    ],
+                    "v2Scale": [
+                      0.0673828125,
+                      0.068359375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SANC_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.25244140625,
+                      0.5458984375
+                    ],
+                    "v2Scale": [
+                      0.1240234375,
+                      0.1357421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SANC_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1259765625,
+                      0.5458984375
+                    ],
+                    "v2Scale": [
+                      0.1240234375,
+                      0.1357421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SANC_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.5458984375
+                    ],
+                    "v2Scale": [
+                      0.1240234375,
+                      0.1357421875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AQU_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5849609375,
+                      0.365234375
+                    ],
+                    "v2Scale": [
+                      0.076171875,
+                      0.177734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AQU_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.50634765625,
+                      0.365234375
+                    ],
+                    "v2Scale": [
+                      0.076171875,
+                      0.177734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AQU_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.42822265625,
+                      0.365234375
+                    ],
+                    "v2Scale": [
+                      0.076171875,
+                      0.177734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FOR_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.28515625,
+                      0.3818359375
+                    ],
+                    "v2Scale": [
+                      0.140625,
+                      0.1513671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FOR_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.142578125,
+                      0.3818359375
+                    ],
+                    "v2Scale": [
+                      0.140625,
+                      0.1513671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FOR_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.3818359375
+                    ],
+                    "v2Scale": [
+                      0.140625,
+                      0.1513671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "LAB_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.74755859375,
+                      0.1728515625
+                    ],
+                    "v2Scale": [
+                      0.16162109375,
+                      0.1455078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "LAB_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.58349609375,
+                      0.1728515625
+                    ],
+                    "v2Scale": [
+                      0.16162109375,
+                      0.1455078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "LAB_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.41943359375,
+                      0.2099609375
+                    ],
+                    "v2Scale": [
+                      0.16162109375,
+                      0.1455078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAG_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2802734375,
+                      0.2099609375
+                    ],
+                    "v2Scale": [
+                      0.13623046875,
+                      0.162109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAG_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.14013671875,
+                      0.2099609375
+                    ],
+                    "v2Scale": [
+                      0.13623046875,
+                      0.162109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAG_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0009765625,
+                      0.2099609375
+                    ],
+                    "v2Scale": [
+                      0.13623046875,
+                      0.162109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SHIP_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.853515625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.12646484375,
+                      0.15234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SHIP_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.7041015625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.12646484375,
+                      0.15234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SHIP_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5703125,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.12646484375,
+                      0.15234375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CAV_HL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.38037109375,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.18603515625,
+                      0.189453125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CAV_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1884765625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.18603515625,
+                      0.189453125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "CAV_FLAT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.18603515625,
+                      0.189453125
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

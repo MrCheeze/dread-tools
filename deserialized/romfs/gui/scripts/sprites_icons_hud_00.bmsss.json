@@ -1,0 +1,694 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "Icons_HUD_00": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/icons_hud_00.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 512,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "missile",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.05078125,
+                      0.193359375
+                    ],
+                    "v2Scale": [
+                      0.017578125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "067/100",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0712890625,
+                      0.201171875
+                    ],
+                    "v2Scale": [
+                      0.0673828125,
+                      0.025390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Capa 126",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1591796875,
+                      0.189453125
+                    ],
+                    "v2Scale": [
+                      0.01953125,
+                      0.0390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BOMBS",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.185546875,
+                      0.19921875
+                    ],
+                    "v2Scale": [
+                      0.046875,
+                      0.025390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "999 ENERGY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.052734375,
+                      0.2421875
+                    ],
+                    "v2Scale": [
+                      0.033203125,
+                      0.02734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Capa 127",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.232421875,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "emptytank copia 3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2197265625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia 6",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1728515625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "emptytank copia 2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.2080078125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "emptytank copia",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1962890625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "emptytank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1845703125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia 5",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1611328125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia 4",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1494140625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia 3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1376953125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia 2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1259765625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank copia",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1142578125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1025390625,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "tank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0908203125,
+                      0.23828125
+                    ],
+                    "v2Scale": [
+                      0.0126953125,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AIEOn bar",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0537109375,
+                      0.28515625
+                    ],
+                    "v2Scale": [
+                      0.177734375,
+                      0.017578125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AIEOn bar copia",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0537109375,
+                      0.328125
+                    ],
+                    "v2Scale": [
+                      0.177734375,
+                      0.017578125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AIEOn bar copia 2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0537109375,
+                      0.375
+                    ],
+                    "v2Scale": [
+                      0.177734375,
+                      0.017578125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AIEON bar empty copia 3",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0537109375,
+                      0.423828125
+                    ],
+                    "v2Scale": [
+                      0.177734375,
+                      0.021484375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Energy station",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3291015625,
+                      0.044921875
+                    ],
+                    "v2Scale": [
+                      0.0244140625,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Energy station inactive",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.39453125,
+                      0.044921875
+                    ],
+                    "v2Scale": [
+                      0.0244140625,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Ammo station",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.326171875,
+                      0.1796875
+                    ],
+                    "v2Scale": [
+                      0.0283203125,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Total recharge station",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3271484375,
+                      0.310546875
+                    ],
+                    "v2Scale": [
+                      0.029296875,
+                      0.103515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Energy tank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.328125,
+                      0.509765625
+                    ],
+                    "v2Scale": [
+                      0.0322265625,
+                      0.03515625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Missile tank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3837890625,
+                      0.59765625
+                    ],
+                    "v2Scale": [
+                      0.0244140625,
+                      0.048828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Missile tank vr2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3291015625,
+                      0.5859375
+                    ],
+                    "v2Scale": [
+                      0.03125,
+                      0.060546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Bomb tank",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.380859375,
+                      0.6875
+                    ],
+                    "v2Scale": [
+                      0.02734375,
+                      0.0546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Bomb tank vr2",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3291015625,
+                      0.685546875
+                    ],
+                    "v2Scale": [
+                      0.03125,
+                      0.060546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Item Sphere",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.3291015625,
+                      0.794921875
+                    ],
+                    "v2Scale": [
+                      0.0322265625,
+                      0.064453125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Item cube",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.177734375,
+                      0.53515625
+                    ],
+                    "v2Scale": [
+                      0.0380859375,
+                      0.072265625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Save Station",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1865234375,
+                      0.669921875
+                    ],
+                    "v2Scale": [
+                      0.01953125,
+                      0.0546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Water valve device",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4931640625,
+                      0.083984375
+                    ],
+                    "v2Scale": [
+                      0.0283203125,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Generic interactive device",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4931640625,
+                      0.2109375
+                    ],
+                    "v2Scale": [
+                      0.0283203125,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": " Morphball Contraption",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.494140625,
+                      0.337890625
+                    ],
+                    "v2Scale": [
+                      0.0283203125,
+                      0.056640625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Access point",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.494140625,
+                      0.466796875
+                    ],
+                    "v2Scale": [
+                      0.0263671875,
+                      0.060546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Map Station",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.478515625,
+                      0.6015625
+                    ],
+                    "v2Scale": [
+                      0.0546875,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Chozo bestowal Statue",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.4970703125,
+                      0.73828125
+                    ],
+                    "v2Scale": [
+                      0.025390625,
+                      0.0546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Chozo Aieon bestowal",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0830078125,
+                      0.54296875
+                    ],
+                    "v2Scale": [
+                      0.01953125,
+                      0.060546875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "Central unit",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0791015625,
+                      0.6875
+                    ],
+                    "v2Scale": [
+                      0.0263671875,
+                      0.056640625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

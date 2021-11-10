@@ -1,0 +1,25 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "FrontBackFactor",
+    "vTargets": [
+      {
+        "fSample": -1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/quetzoa/animations/blendspaces/turnback_up_down.bmbls"
+      },
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/quetzoa/animations/blendspaces/turnrelax_up_down.bmbls"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/quetzoa/animations/blendspaces/turnfront_up_down.bmbls"
+      }
+    ]
+  }
+}

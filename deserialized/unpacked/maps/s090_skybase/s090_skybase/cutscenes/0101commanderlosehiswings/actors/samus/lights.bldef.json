@@ -1,0 +1,51 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0101commanderlosehiswings#actors#samus#lights": {
+            "sPath": "cutscenes#0101commanderlosehiswings#actors#samus#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "cannon_wavebeam",
+                "sNode": "DC_Shot",
+                "vPosOffset": [
+                  -100.0,
+                  60.0,
+                  -100.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.10000000149011612,
+                  0.009999999776482582,
+                  1.0
+                ],
+                "vAtt": [
+                  -400.0,
+                  400.0,
+                  1000.0,
+                  0.0
+                ],
+                "fIntensity": 100.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

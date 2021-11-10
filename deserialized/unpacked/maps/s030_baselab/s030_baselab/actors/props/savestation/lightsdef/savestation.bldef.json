@@ -1,0 +1,393 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#savestation#lightsdef#savestation": {
+            "sPath": "actors#props#savestation#lightsdef#savestation",
+            "vLights": [
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni01",
+                "sNode": "",
+                "vPosOffset": [
+                  0.0,
+                  545.0,
+                  -400.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  186.92999267578125
+                ],
+                "vColor": [
+                  0.9860000014305115,
+                  0.6869999766349792,
+                  0.4740000069141388,
+                  1.0
+                ],
+                "vAtt": [
+                  200.0,
+                  850.0,
+                  110.0,
+                  140.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 500.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_spot_bg01",
+                "sNode": "",
+                "vPosOffset": [
+                  -251.6199951171875,
+                  554.0,
+                  -1068.0
+                ],
+                "vRotOffset": [
+                  -1.230131983757019,
+                  -0.6407120227813721,
+                  -0.17208600044250488
+                ],
+                "vColor": [
+                  1.0,
+                  0.6899999976158142,
+                  0.4320000112056732,
+                  1.0
+                ],
+                "vAtt": [
+                  200.0,
+                  950.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.05000000074505806,
+                "fIntensity": 850.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_spot_bg02",
+                "sNode": "",
+                "vPosOffset": [
+                  211.69000244140625,
+                  554.0,
+                  -1068.0
+                ],
+                "vRotOffset": [
+                  1.6870050430297852,
+                  -0.716264009475708,
+                  -2.9585700035095215
+                ],
+                "vColor": [
+                  1.0,
+                  0.6899999976158142,
+                  0.4320000112056732,
+                  1.0
+                ],
+                "vAtt": [
+                  200.0,
+                  950.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.05000000074505806,
+                "fIntensity": 850.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill01",
+                "sNode": "",
+                "vPosOffset": [
+                  -754.1099853515625,
+                  791.2000122070312,
+                  -444.6400146484375
+                ],
+                "vRotOffset": [
+                  1.6870050430297852,
+                  -0.716264009475708,
+                  -2.9585700035095215
+                ],
+                "vColor": [
+                  0.16500000655651093,
+                  0.15000000596046448,
+                  0.16500000655651093,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  210.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 250.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill02",
+                "sNode": "",
+                "vPosOffset": [
+                  -823.0,
+                  362.239990234375,
+                  -544.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.21176500618457794,
+                  0.16078400611877441,
+                  0.1568630039691925,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  210.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 80.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill03",
+                "sNode": "",
+                "vPosOffset": [
+                  -459.3699951171875,
+                  346.05999755859375,
+                  -515.0599975585938
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.7607839703559875,
+                  0.4352940022945404,
+                  0.2627449929714203,
+                  1.0
+                ],
+                "vAtt": [
+                  211.0,
+                  350.0,
+                  0.0,
+                  1.399999976158142
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 13.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill04",
+                "sNode": "",
+                "vPosOffset": [
+                  423.1499938964844,
+                  328.5400085449219,
+                  -537.7899780273438
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.7607839703559875,
+                  0.4352940022945404,
+                  0.2627449929714203,
+                  1.0
+                ],
+                "vAtt": [
+                  211.0,
+                  350.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 20.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill05",
+                "sNode": "",
+                "vPosOffset": [
+                  -198.17999267578125,
+                  686.8499755859375,
+                  -340.7699890136719
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.8235290050506592,
+                  0.7686280012130737,
+                  0.8509799838066101,
+                  1.0
+                ],
+                "vAtt": [
+                  50.0,
+                  120.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 10.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill06",
+                "sNode": "",
+                "vPosOffset": [
+                  203.63999938964844,
+                  686.8499755859375,
+                  -340.7699890136719
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.8235290050506592,
+                  0.7686280012130737,
+                  0.8509799838066101,
+                  1.0
+                ],
+                "vAtt": [
+                  50.0,
+                  120.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 10.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill07",
+                "sNode": "",
+                "vPosOffset": [
+                  770.4199829101562,
+                  791.2000122070312,
+                  -444.6400146484375
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.16500000655651093,
+                  0.1599999964237213,
+                  0.16500000655651093,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  210.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 250.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "savestation_omni_fill08",
+                "sNode": "",
+                "vPosOffset": [
+                  811.780029296875,
+                  362.239990234375,
+                  -544.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  0.21176500618457794,
+                  0.16078400611877441,
+                  0.1568630039691925,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  210.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 80.0,
+                "bCastShadows": false,
+                "bUseSpecular": false,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

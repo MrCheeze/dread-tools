@@ -3,7 +3,7 @@ __pycache__/
 *.jar
 *.DMP
 packs/
-unpacked/
+/unpacked/
 packs_samusreturns/
 unpacked_sr/
 dread_exefs/

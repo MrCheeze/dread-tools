@@ -1,0 +1,121 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "actors#props#ev_doorprof#lightsdef#lights": {
+            "sPath": "actors#props#ev_doorprof#lightsdef#lights",
+            "vLights": [
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "omni_left",
+                "sNode": "",
+                "vPosOffset": [
+                  -500.0,
+                  -300.0,
+                  -200.0
+                ],
+                "vRotOffset": [
+                  1.6870050430297852,
+                  -0.716264009475708,
+                  -2.9585700035095215
+                ],
+                "vColor": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  300.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 250.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "omni_right",
+                "sNode": "",
+                "vPosOffset": [
+                  500.0,
+                  -300.0,
+                  -200.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  300.0,
+                  25.0,
+                  63.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 80.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              },
+              {
+                "eType": "Omni",
+                "eAttachment": "PosRot3D",
+                "sName": "omni",
+                "sNode": "",
+                "vPosOffset": [
+                  0.0,
+                  -300.0,
+                  -250.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "vColor": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "vAtt": [
+                  150.0,
+                  300.0,
+                  0.0,
+                  0.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.0,
+                "fIntensity": 80.0,
+                "bCastShadows": false,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

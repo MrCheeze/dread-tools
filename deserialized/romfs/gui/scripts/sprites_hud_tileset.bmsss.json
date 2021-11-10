@@ -1,0 +1,390 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "HUD_TILESET": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/hud_tileset.bctex",
+            "uTextureWidth": 512,
+            "uTextureHeight": 512,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PBAMMO_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.697265625
+                    ],
+                    "v2Scale": [
+                      0.193359375,
+                      0.08984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGY_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.208984375,
+                      0.697265625
+                    ],
+                    "v2Scale": [
+                      0.140625,
+                      0.08984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AMMO_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.79296875
+                    ],
+                    "v2Scale": [
+                      0.3046875,
+                      0.08984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_FULL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.89453125
+                    ],
+                    "v2Scale": [
+                      0.05859375,
+                      0.078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_BLANK",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.072265625,
+                      0.89453125
+                    ],
+                    "v2Scale": [
+                      0.05859375,
+                      0.078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "ENERGYTANK_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.1328125,
+                      0.890625
+                    ],
+                    "v2Scale": [
+                      0.068359375,
+                      0.0859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PBICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.205078125,
+                      0.892578125
+                    ],
+                    "v2Scale": [
+                      0.0859375,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "PBICON_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.296875,
+                      0.892578125
+                    ],
+                    "v2Scale": [
+                      0.0859375,
+                      0.083984375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_ENERGYICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.609375,
+                      0.353515625
+                    ],
+                    "v2Scale": [
+                      0.109375,
+                      0.109375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MISSILEICON",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.388671875,
+                      0.888671875
+                    ],
+                    "v2Scale": [
+                      0.09375,
+                      0.091796875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MISSILEICON_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.48828125,
+                      0.888671875
+                    ],
+                    "v2Scale": [
+                      0.09375,
+                      0.091796875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AEION_BAR_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.41796875
+                    ],
+                    "v2Scale": [
+                      0.5703125,
+                      0.046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AEION_BAR_GRADIENT",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.365234375
+                    ],
+                    "v2Scale": [
+                      0.564453125,
+                      0.046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "AEION_BAR_FILL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.3125
+                    ],
+                    "v2Scale": [
+                      0.5703125,
+                      0.046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BACKGROUND",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.005859375,
+                      0.005859375
+                    ],
+                    "v2Scale": [
+                      0.658203125,
+                      0.26953125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FRAME_AEION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.470703125
+                    ],
+                    "v2Scale": [
+                      0.55078125,
+                      0.052734375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FRAME_ENERGY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.529296875
+                    ],
+                    "v2Scale": [
+                      0.591796875,
+                      0.076171875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "FRAME_TOP",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0078125,
+                      0.611328125
+                    ],
+                    "v2Scale": [
+                      0.294921875,
+                      0.080078125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_PBICON_UNKNOWN",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.318359375,
+                      0.79296875
+                    ],
+                    "v2Scale": [
+                      0.087890625,
+                      0.0859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_PBICON_UNKNOWN_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.412109375,
+                      0.79296875
+                    ],
+                    "v2Scale": [
+                      0.087890625,
+                      0.0859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAPBORDER_LINE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.60546875,
+                      0.474609375
+                    ],
+                    "v2Scale": [
+                      0.388671875,
+                      0.248046875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MAPBORDER_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.58984375,
+                      0.728515625
+                    ],
+                    "v2Scale": [
+                      0.404296875,
+                      0.263671875
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "HUD_ENERGYICON_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.74609375,
+                      0.353515625
+                    ],
+                    "v2Scale": [
+                      0.109375,
+                      0.109375
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

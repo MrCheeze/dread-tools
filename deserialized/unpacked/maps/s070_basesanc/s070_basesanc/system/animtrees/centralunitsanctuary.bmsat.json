@@ -1,0 +1,92 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "centralunitsanctuary",
+      "sRootNode": "CUMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "CUMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Master",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": false,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C01_Master"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [
+        {
+          "Class": "animtree::CLookAtPosControlDef",
+          "Data": {
+            "sName": "body",
+            "sBone": "C01_Parent",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": false,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0,
+            "eLookAxis": "X",
+            "eUpAxis": "NEG_Z",
+            "fMinAttAngle": 0.0,
+            "fMaxAttAngle": 0.0,
+            "fWorldOffsetAngZ": 0.0
+          }
+        },
+        {
+          "Class": "animtree::CLookAtPosControlDef",
+          "Data": {
+            "sName": "eye",
+            "sBone": "C01_Eye",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": false,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0,
+            "eLookAxis": "X",
+            "eUpAxis": "NEG_Z",
+            "fMinAttAngle": 0.0,
+            "fMaxAttAngle": 0.0,
+            "fWorldOffsetAngZ": 0.0
+          }
+        }
+      ],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "CUMixer"
+        },
+        {
+          "pNode": "Master",
+          "pParent": "CUMixer"
+        }
+      ]
+    }
+  }
+}

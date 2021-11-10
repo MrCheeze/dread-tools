@@ -1,0 +1,157 @@
+{
+  "FileType": "sound::CAudioPresets",
+  "Unk": 33751042,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pSoundManager": {
+      "Class": "sound::CSoundManager",
+      "Data": {
+        "pAudioPresets": {
+          "Class": "sound::CAudioPresets",
+          "Data": {
+            "dicPresets": {
+              "samus#samus_run_l": {
+                "sUniqueId": "samus#samus_run_l",
+                "sNodeToAttach": "",
+                "arrMatFiles": {
+                  "0": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_rock_l_01.wav",
+                      "actors/samus/stepr_sam_rock_l_02.wav",
+                      "actors/samus/stepr_sam_rock_l_03.wav",
+                      "actors/samus/stepr_sam_rock_l_04.wav"
+                    ]
+                  },
+                  "1": {
+                    "vFiles": []
+                  },
+                  "2": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_puddle_l_01.wav",
+                      "actors/samus/stepr_sam_puddle_l_02.wav",
+                      "actors/samus/stepr_sam_puddle_l_03.wav"
+                    ]
+                  },
+                  "3": {
+                    "vFiles": []
+                  },
+                  "4": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_metal_l_01.wav",
+                      "actors/samus/stepr_sam_metal_l_02.wav",
+                      "actors/samus/stepr_sam_metal_l_03.wav",
+                      "actors/samus/stepr_sam_metal_l_04.wav"
+                    ]
+                  },
+                  "5": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_energy_l_01.wav",
+                      "actors/samus/stepr_sam_energy_l_02.wav",
+                      "actors/samus/stepr_sam_energy_l_03.wav"
+                    ]
+                  },
+                  "6": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_sand_l_01.wav",
+                      "actors/samus/stepr_sam_sand_l_02.wav",
+                      "actors/samus/stepr_sam_sand_l_03.wav"
+                    ]
+                  },
+                  "7": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_rock_l_01.wav",
+                      "actors/samus/stepr_sam_rock_l_02.wav",
+                      "actors/samus/stepr_sam_rock_l_03.wav",
+                      "actors/samus/stepr_sam_rock_l_04.wav"
+                    ]
+                  },
+                  "8": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_sand_l_01.wav",
+                      "actors/samus/stepr_sam_sand_l_02.wav",
+                      "actors/samus/stepr_sam_sand_l_03.wav"
+                    ]
+                  },
+                  "9": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_under_l_01.wav",
+                      "actors/samus/stepr_sam_under_l_02.wav",
+                      "actors/samus/stepr_sam_under_l_03.wav"
+                    ]
+                  },
+                  "10": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_under_sp_l_01.wav",
+                      "actors/samus/stepr_sam_under_sp_l_02.wav",
+                      "actors/samus/stepr_sam_under_sp_l_03.wav"
+                    ]
+                  },
+                  "11": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_water_l_01.wav",
+                      "actors/samus/stepr_sam_water_l_02.wav",
+                      "actors/samus/stepr_sam_water_l_03.wav"
+                    ]
+                  },
+                  "12": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_water_sp_l_01.wav",
+                      "actors/samus/stepr_sam_water_sp_l_02.wav",
+                      "actors/samus/stepr_sam_water_sp_l_03.wav"
+                    ]
+                  },
+                  "13": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_puddle_l_01.wav",
+                      "actors/samus/stepr_sam_puddle_l_02.wav",
+                      "actors/samus/stepr_sam_puddle_l_03.wav"
+                    ]
+                  },
+                  "14": {
+                    "vFiles": [
+                      "actors/samus/stepr_sam_puddle_l_01.wav",
+                      "actors/samus/stepr_sam_puddle_l_02.wav",
+                      "actors/samus/stepr_sam_puddle_l_03.wav"
+                    ]
+                  },
+                  "15": {
+                    "vFiles": []
+                  }
+                },
+                "ePlayerId": "SFX",
+                "eLogicId": "SAMUS_MOVEMENT",
+                "eAttCurve": "Logarithmic",
+                "ePositional": "POS_2D",
+                "iInstanceLimit": -1,
+                "fInBetweenTime": 0.0,
+                "fAttMaxRange": 5500.0,
+                "fAttMinRange": 500.0,
+                "fVolume": 0.6499999761581421,
+                "fVolumeRange": 0.0,
+                "fPitch": 1.0,
+                "fPitchRange": 0.10000000149011612,
+                "fPan": 0.0,
+                "fPanRange": 0.0,
+                "fFadeIn": 0.0,
+                "fFadeOut": 0.0,
+                "fEmptyPercentage": 0.0,
+                "fStartDelayed": 0.0,
+                "bLoop": false,
+                "bAttachToActor": false,
+                "bStpChgAnim": false,
+                "bStpEntDead": true,
+                "bManaged": true,
+                "bRumbleSync": false,
+                "fRumbleGainOverride": -1.0,
+                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimTime": 10.0,
+                "fDimFadeTime": 20.0,
+                "fDimRecoverTime": 10.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

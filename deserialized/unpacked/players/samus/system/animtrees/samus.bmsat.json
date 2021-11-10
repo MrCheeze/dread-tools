@@ -1,0 +1,115 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "samus",
+      "sRootNode": "MissileMixer",
+      "aNodes": [
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "MissileMixer",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Missile",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": false,
+            "vBones": [
+              "R01_Cannon_Barrel",
+              "R01_Cannon_Lid_1",
+              "R01_Cannon_Lid_2",
+              "R01_Cannon_Lid_3",
+              "R01_Cannon_Lid_4",
+              "R01_Cannon_Missile",
+              "R01_Cannon_SBurst_Turbine_SKN",
+              "R01_Cannon_SBurst_Plates_1_a_SKN",
+              "R01_Cannon_SBurst_Plates_1_b_SKN",
+              "R01_Cannon_SBurst_Plates_1_c_SKN",
+              "R01_Cannon_SBurst_Plates_1_d_SKN",
+              "R01_Cannon_SBurst_ChargeBean_SKN",
+              "R01_Cannon_SBurst_Body_1_SKN",
+              "R01_Cannon_SBurst_Beam_SKN",
+              "R01_Cannon_SBurst_Base_SKN",
+              "R01_Cannon_SBurst_Beam_2_SKN"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [
+        {
+          "Class": "animtree::CCallbackBoneControlDef",
+          "Data": {
+            "sName": "PostAnimation"
+          }
+        },
+        {
+          "Class": "animtree::CBoneControlDef",
+          "Data": {
+            "sName": "Shinespark",
+            "sBone": "DC_Shinespark",
+            "eSpace": "WORLD",
+            "bAdditive": false,
+            "bApplyTranslation": true,
+            "fBlendInTime": 0.0,
+            "fBlendOutTime": 0.0
+          }
+        },
+        {
+          "Class": "animtree::CSamusLegsBoneControlDef",
+          "Data": {
+            "sName": "LeftLeg",
+            "sThigh": "L01_Thigh_SKN",
+            "sCalf": "L01_Calf_SKN",
+            "sFoot": "L01_Foot_SKN",
+            "fMaxRotationFootUp": 0.44999998807907104,
+            "fMaxRotationFootDown": 0.44999998807907104,
+            "sMaxFootCorrectionDist": 80.0
+          }
+        },
+        {
+          "Class": "animtree::CSamusLegsBoneControlDef",
+          "Data": {
+            "sName": "RightLeg",
+            "sThigh": "R01_Thigh_SKN",
+            "sCalf": "R01_Calf_SKN",
+            "sFoot": "R01_Foot_SKN",
+            "fMaxRotationFootUp": 0.44999998807907104,
+            "fMaxRotationFootDown": 0.44999998807907104,
+            "sMaxFootCorrectionDist": 80.0
+          }
+        }
+      ],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "MissileMixer"
+        },
+        {
+          "pNode": "Missile",
+          "pParent": "MissileMixer"
+        }
+      ]
+    }
+  }
+}

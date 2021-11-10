@@ -1,0 +1,482 @@
+{
+  "FileType": "animtree::CAnimTreeRes",
+  "Unk": 33554435,
+  "RealFileType": "animtree::CAnimTreeRes",
+  "Root": {
+    "oAnimTreeDef": {
+      "sName": "",
+      "sRootNode": "Mixer01",
+      "aNodes": [
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer01",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "FullBody",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer02",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Head",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C01_Body_Master",
+              "C01_Petal_Inside_Master",
+              "C01_Petal_Inside_A_1",
+              "C01_Petal_Inside_A_2",
+              "C01_Petal_Inside_B_1",
+              "C01_Petal_Inside_B_2",
+              "C01_Petal_Inside_C_1",
+              "C01_Petal_Inside_C_2",
+              "C01_Petal_Inside_D_1",
+              "C01_Petal_Inside_D_2",
+              "C01_Petal_Inside_E_1",
+              "C01_Petal_Inside_E_2",
+              "C01_Petal_Inside_F_1",
+              "C01_Petal_Inside_F_2",
+              "C01_Petal_Out_Master",
+              "C01_Petal_Out_A_1",
+              "C01_Petal_Out_A_2",
+              "C01_Petal_Out_B_1",
+              "C01_Petal_Out_B_2",
+              "C01_Petal_Out_C_1",
+              "C01_Petal_Out_C_2",
+              "C01_Petal_Out_D_1",
+              "C01_Petal_Out_D_2",
+              "C01_Petal_Out_E_1",
+              "C01_Petal_Out_E_2",
+              "C01_Petal_Out_F_1",
+              "C01_Petal_Out_F_2",
+              "C01_Petal_Out_G_1",
+              "C01_Petal_Out_G_2",
+              "C01_Petal_Out_H_1",
+              "C01_Petal_Out_H_2",
+              "C01_BulbTentacle_A_Body",
+              "C01_BulbTentacle_A_Hole",
+              "C01_BulbTentacle_B_Body",
+              "C01_BulbTentacle_B_Hole",
+              "C01_BulbTentacle_C_Body",
+              "C01_BulbTentacle_C_Hole",
+              "C01_BulbTentacle_D_Body",
+              "C01_BulbTentacle_D_Hole",
+              "C01_BulbTentacle_E_Body",
+              "C01_BulbTentacle_E_Hole",
+              "C01_BulbTentacle_F_Body",
+              "C01_BulbTentacle_F_Hole",
+              "C01_BulbTentacle_G_Body",
+              "C01_BulbTentacle_G_Hole",
+              "L01_Breather_L01_SKN",
+              "L01_Breather_L02_SKN",
+              "L01_Breather_L03_SKN",
+              "R01_Breather_R01_SKN",
+              "R01_Breather_R02_SKN",
+              "R01_Breather_R03_SKN",
+              "C01_Petal_Out_AB_1",
+              "C01_Petal_Out_AB_2",
+              "C01_Petal_Out_BC_1",
+              "C01_Petal_Out_BC_2",
+              "C01_Petal_Out_CD_1",
+              "C01_Petal_Out_CD_2",
+              "C01_Petal_Out_DA_1",
+              "C01_Petal_Out_DA_2",
+              "C01_Petal_Out_DE_1",
+              "C01_Petal_Out_DE_2",
+              "C01_Petal_Out_EF_1",
+              "C01_Petal_Out_EF_2",
+              "C01_Petal_Out_FG_1",
+              "C01_Petal_Out_FG_2",
+              "C01_Petal_Out_GH_1",
+              "C01_Petal_Out_GH_2",
+              "C01_Petal_Inside_AB_1",
+              "C01_Petal_Inside_AB_2",
+              "C01_Petal_Inside_BC_1",
+              "C01_Petal_Inside_BC_2",
+              "C01_Petal_Inside_CD_1",
+              "C01_Petal_Inside_CD_2",
+              "C01_Petal_Inside_DE_1",
+              "C01_Petal_Inside_DE_2",
+              "C01_Petal_Inside_EF_1",
+              "C01_Petal_Inside_EF_2",
+              "C01_Petal_Inside_FE_1",
+              "C01_Petal_Inside_FE_2"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer05",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp01",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C01_Spore_Projetile",
+              "DC_FX_SporeProjectile_01"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer06",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp02",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C02_Spore_Projetile",
+              "DC_FX_SporeProjectile_02"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer07",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp03",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C03_Spore_Projetile",
+              "DC_FX_SporeProjectile_03"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer08",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp04",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C04_Spore_Projetile",
+              "DC_FX_SporeProjectile_04"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer09",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp05",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C05_Spore_Projetile",
+              "DC_FX_SporeProjectile_05"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer10",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp06",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C06_Spore_Projetile",
+              "DC_FX_SporeProjectile_06"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer11",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp07",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C07_Spore_Projetile",
+              "DC_FX_SporeProjectile_07"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer12",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp08",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C08_Spore_Projetile",
+              "DC_FX_SporeProjectile_08"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Polyp09",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C09_Spore_Projetile",
+              "DC_FX_SporeProjectile_09"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer04",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "Bulbs",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C01_BulbSpore_A_Body",
+              "C01_BulbSpore_A_Hole",
+              "C01_BulbSpore_G_Body",
+              "C01_BulbSpore_G_Hole",
+              "C01_BulbSpore_H_Body",
+              "C01_BulbSpore_H_Hole"
+            ],
+            "vBoneHierarchies": []
+          }
+        },
+        {
+          "Class": "animtree::CLayerNodeDef",
+          "Data": {
+            "sName": "Mixer03",
+            "fFactor": 1.0
+          }
+        },
+        {
+          "Class": "animtree::CAnimatedNodeDef",
+          "Data": {
+            "sName": "BlockingTentacles",
+            "eNodeType": "SkelAnimationPoseBlend",
+            "fEventsWeightThreshold": 0.0,
+            "bLaunchEvents": true,
+            "bAllowRootMotion": true,
+            "vBones": [
+              "C02_Tentacle_Main_1",
+              "C02_Tentacle_Main_2",
+              "C02_Tentacle_Main_3",
+              "C02_Tentacle_01",
+              "C02_Tentacle_02",
+              "C02_Tentacle_03",
+              "C02_Tentacle_04",
+              "C02_Tentacle_05",
+              "C02_Tentacle_06",
+              "C02_Tentacle_07",
+              "C02_Tentacle_08",
+              "C02_Tentacle_09",
+              "C02_Tentacle_10",
+              "C02_Tentacle_11",
+              "C02_Tentacle_12"
+            ],
+            "vBoneHierarchies": []
+          }
+        }
+      ],
+      "aControls": [],
+      "aLinks": [
+        {
+          "pNode": "FullBody",
+          "pParent": "Mixer01"
+        },
+        {
+          "pNode": "Mixer02",
+          "pParent": "Mixer01"
+        },
+        {
+          "pNode": "BlockingTentacles",
+          "pParent": "Mixer02"
+        },
+        {
+          "pNode": "Mixer03",
+          "pParent": "Mixer02"
+        },
+        {
+          "pNode": "Head",
+          "pParent": "Mixer03"
+        },
+        {
+          "pNode": "Mixer04",
+          "pParent": "Mixer03"
+        },
+        {
+          "pNode": "Bulbs",
+          "pParent": "Mixer04"
+        },
+        {
+          "pNode": "Mixer05",
+          "pParent": "Mixer04"
+        },
+        {
+          "pNode": "Polyp01",
+          "pParent": "Mixer05"
+        },
+        {
+          "pNode": "Mixer06",
+          "pParent": "Mixer05"
+        },
+        {
+          "pNode": "Polyp02",
+          "pParent": "Mixer06"
+        },
+        {
+          "pNode": "Mixer07",
+          "pParent": "Mixer06"
+        },
+        {
+          "pNode": "Polyp03",
+          "pParent": "Mixer07"
+        },
+        {
+          "pNode": "Mixer08",
+          "pParent": "Mixer07"
+        },
+        {
+          "pNode": "Polyp04",
+          "pParent": "Mixer08"
+        },
+        {
+          "pNode": "Mixer09",
+          "pParent": "Mixer08"
+        },
+        {
+          "pNode": "Polyp05",
+          "pParent": "Mixer09"
+        },
+        {
+          "pNode": "Mixer10",
+          "pParent": "Mixer09"
+        },
+        {
+          "pNode": "Polyp06",
+          "pParent": "Mixer10"
+        },
+        {
+          "pNode": "Mixer11",
+          "pParent": "Mixer10"
+        },
+        {
+          "pNode": "Polyp07",
+          "pParent": "Mixer11"
+        },
+        {
+          "pNode": "Mixer12",
+          "pParent": "Mixer11"
+        },
+        {
+          "pNode": "Polyp08",
+          "pParent": "Mixer12"
+        },
+        {
+          "pNode": "Polyp09",
+          "pParent": "Mixer12"
+        }
+      ]
+    }
+  }
+}

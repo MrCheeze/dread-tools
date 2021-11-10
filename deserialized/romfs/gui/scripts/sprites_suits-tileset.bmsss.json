@@ -1,0 +1,150 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "SUITS-TILESET": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/suits-tileset.bctex",
+            "uTextureWidth": 2048,
+            "uTextureHeight": 2048,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_POWER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_VARIA",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.25,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_GRAVITY",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_HYPER",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.75,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_POWER_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.3896484375
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_VARIA_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.25,
+                      0.3896484375
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_GRAVITY_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.5,
+                      0.3896484375
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "SUIT_HYPER_GLOW",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.75,
+                      0.3896484375
+                    ],
+                    "v2Scale": [
+                      0.25,
+                      0.390625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

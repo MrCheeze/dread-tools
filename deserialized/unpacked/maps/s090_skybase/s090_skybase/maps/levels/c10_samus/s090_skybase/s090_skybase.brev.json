@@ -1,0 +1,4393 @@
+{
+  "FileType": "CEnvironmentVisualPresets",
+  "Unk": 33685508,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pEnvironmentManager": {
+      "Class": "CEnvironmentManager",
+      "Data": {
+        "pVisualPresets": {
+          "Class": "CEnvironmentVisualPresets",
+          "Data": {
+            "dicPresets": {
+              "samus_death": {
+                "sID": "samus_death",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.2901960015296936,
+                      0.5333330035209656,
+                      0.47058799862861633,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      0.0,
+                      9000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.05638600140810013
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": false,
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 0.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttInterp": 0.0,
+                    "fNear": 0.0,
+                    "fNearInterp": 1.0,
+                    "fFar": 0.0,
+                    "fFarInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 1.0,
+                    "fLight": 0.6700000166893005,
+                    "fCube": 0.25999999046325684,
+                    "fDepth": -148.0,
+                    "fSaturation": 1.0,
+                    "fLightNear": 1.0,
+                    "fCubeNear": 1.0,
+                    "fDepthNear": 1000.0,
+                    "fSaturationNear": 1000.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBlend": 0.0,
+                    "fBlendInterp": 0.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 0.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fBloomInterp": 0.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 0.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.5
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 1.0,
+                    "fGamma": 1.25,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorVibrance": 1.0,
+                    "bEnabled": true
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "HeatZone": {
+                "sID": "HeatZone",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      1.0,
+                      0.2199999988079071,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 0.20000000298023224,
+                    "tRange": [
+                      0.0,
+                      15000.0
+                    ],
+                    "fRangeInterp": 0.20000000298023224,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 20.2752685546875
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": false,
+                    "tColor": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 0.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttInterp": 0.0,
+                    "fNear": 0.0,
+                    "fNearInterp": 1.0,
+                    "fFar": 0.0,
+                    "fFarInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 0.20000000298023224
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.18000000715255737,
+                    "fDepth": -148.0,
+                    "fSaturation": 1.0,
+                    "fLightNear": 1.0,
+                    "fCubeNear": 1.0,
+                    "fDepthNear": 1000.0,
+                    "fSaturationNear": 1000.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 0.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 0.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 0.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 0.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 0.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 0.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.5
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.6000000238418579,
+                    "fGamma": 1.5,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorVibrance": 1.0,
+                    "bEnabled": true
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "default": {
+                "sID": "default",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      1.0,
+                      1.0,
+                      1.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 2.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      400.0,
+                      9000.0
+                    ],
+                    "fRangeInterp": 0.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": false,
+                    "tColor": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 0.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttInterp": 0.0,
+                    "fNear": 0.0,
+                    "fNearInterp": 1.0,
+                    "fFar": 0.0,
+                    "fFarInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.006000000052154064,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.33000001311302185,
+                    "fDepth": -148.0,
+                    "fSaturation": 1.0,
+                    "fLightNear": 1.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 140.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 0.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 0.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 0.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 0.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 0.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 0.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.5
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorVibrance": 1.0,
+                    "bEnabled": true
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss": {
+                "sID": "Final_Boss",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      1.0,
+                      0.8420000076293945,
+                      0.843999981880188,
+                      0.6029999852180481
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -11111.0,
+                      205000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      1.0,
+                      0.8820000290870667,
+                      0.7850000262260437,
+                      0.03200000151991844
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 350.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      3400.0,
+                      3600.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -200.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 4100.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 25.0,
+                    "fWaveVelocity": 11.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.10000000149011612,
+                    "fDepth": -850.0,
+                    "fSaturation": 1410.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.23999999463558197,
+                    "fFogFactor": 0.3799999952316284
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_2": {
+                "sID": "Final_Boss_2",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.9240000247955322,
+                      0.656000018119812,
+                      0.6320000290870667,
+                      0.8339999914169312
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -200.0,
+                      255000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.8960000276565552,
+                      0.652999997138977,
+                      0.39500001072883606,
+                      0.1120000034570694
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 350.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      3200.0,
+                      3600.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -1400.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 22000.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 25.0,
+                    "fWaveVelocity": 11.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.07000000029802322,
+                    "fDepth": -1350.0,
+                    "fSaturation": 3850.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.23999999463558197,
+                    "fFogFactor": 0.3799999952316284
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 1.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_2.1": {
+                "sID": "Final_Boss_2.1",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.5130000114440918,
+                      0.2150000035762787,
+                      0.0,
+                      0.8339999914169312
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      100.0,
+                      255000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      1.0,
+                      0.7289999723434448,
+                      0.578000009059906,
+                      0.9879999756813049
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 350.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      1200.0,
+                      8500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -2200.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 115000.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 25.0,
+                    "fWaveVelocity": 8.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.07000000029802322,
+                    "fDepth": -650.0,
+                    "fSaturation": 1540.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.23999999463558197,
+                    "fFogFactor": 0.3799999952316284
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 1.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_2.2": {
+                "sID": "Final_Boss_2.2",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.6489999890327454,
+                      0.3840000033378601,
+                      0.0,
+                      0.42399999499320984
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      0.0,
+                      25000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      1.0,
+                      0.8050000071525574,
+                      0.5799999833106995,
+                      0.9879999756813049
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 350.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      2500.0,
+                      7500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -2500.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 85000.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 8.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.05999999865889549,
+                    "fDepth": -950.0,
+                    "fSaturation": 2490.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.23999999463558197,
+                    "fFogFactor": 0.3799999952316284
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      1.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_001": {
+                "sID": "Final_Boss_001",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.6480000019073486,
+                      0.4180000126361847,
+                      0.2549999952316284,
+                      0.42399999499320984
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      100.0,
+                      35000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.625,
+                      0.3610000014305115,
+                      0.09700000286102295,
+                      0.9879999756813049
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -5450.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      2500.0,
+                      6500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -300.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 13100.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 8.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.14000000059604645,
+                    "fDepth": -450.0,
+                    "fSaturation": 650.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.29600000381469727,
+                      0.0,
+                      0.5260000228881836,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_002": {
+                "sID": "Final_Boss_002",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.20499999821186066,
+                      0.49300000071525574,
+                      0.6480000019073486,
+                      0.42399999499320984
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -500.0,
+                      4000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.550000011920929,
+                      0.3610000014305115,
+                      0.2809999883174896,
+                      0.9879999756813049
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -5450.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      2500.0,
+                      6500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -300.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 13100.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 8.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.14000000059604645,
+                    "fDepth": -450.0,
+                    "fSaturation": 790.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.29600000381469727,
+                      0.0,
+                      1.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_black": {
+                "sID": "Final_Boss_black",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.44999998807907104,
+                      0.44999998807907104,
+                      0.25999999046325684,
+                      0.4399999976158142
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -25100.0,
+                      55000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      1.0,
+                      0.847000002861023,
+                      0.5559999942779541,
+                      0.21299999952316284
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -2450.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      6500.0,
+                      9200.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": 12400.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 30500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 4.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.10000000149011612,
+                    "fDepth": -1250.0,
+                    "fSaturation": 2920.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.29600000381469727,
+                      0.0,
+                      0.5260000228881836,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_black_v2": {
+                "sID": "Final_Boss_black_v2",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.23800000548362732,
+                      0.24300000071525574,
+                      0.18000000715255737,
+                      0.5960000157356262
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -1500.0,
+                      2200.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      1.0,
+                      0.8510000109672546,
+                      0.6420000195503235,
+                      0.7979999780654907
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -2450.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      2000.0,
+                      8200.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": 11400.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 32500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 4.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.23999999463558197,
+                    "fDepth": -650.0,
+                    "fSaturation": 1790.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.1860000044107437,
+                      0.10000000149011612
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_black_v3": {
+                "sID": "Final_Boss_black_v3",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.550000011920929,
+                      0.44999998807907104,
+                      0.4000000059604645,
+                      0.20000000298023224
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -65500.0,
+                      205000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.3499999940395355,
+                      0.0,
+                      0.0,
+                      0.30000001192092896
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 550.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      8500.0,
+                      100.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -855500.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 185500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 4.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.1599999964237213,
+                    "fDepth": -950.0,
+                    "fSaturation": 1310.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 1.0,
+                    "fDepthNear": 200.0,
+                    "fSaturationNear": 100.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.4000000059604645,
+                    "fGamma": 1.100000023841858,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      1.0,
+                      0.057999998331069946,
+                      0.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Skybase": {
+                "sID": "Skybase",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.5,
+                      0.5,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -1400.0,
+                      100000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.2199999988079071,
+                      0.10000000149011612,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -5550.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      5500.0,
+                      5500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -500.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 3500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.7799999713897705,
+                    "fDepth": -650.0,
+                    "fSaturation": 380.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 0.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.4000000059604645
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.20000000298023224,
+                      0.15000000596046448
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 0.09000000357627869,
+                    "fZDistance": 1000.0,
+                    "fGradientSize": 450.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Savestation_R": {
+                "sID": "Savestation_R",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.9700000286102295,
+                      0.8999999761581421,
+                      0.9399999976158142,
+                      0.5960000157356262
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -500.0,
+                      60000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.05900000035762787,
+                      0.0,
+                      0.125,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -8550.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      22260.0,
+                      22260.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -355550.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 125550.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.14000000059604645,
+                    "fDepth": -600.0,
+                    "fSaturation": 210.0,
+                    "fLightNear": 0.800000011920929,
+                    "fCubeNear": 0.20000000298023224,
+                    "fDepthNear": 100.0,
+                    "fSaturationNear": 200.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.30000001192092896
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.25,
+                      0.10000000149011612
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 0.23000000417232513,
+                    "fZDistance": 550.0,
+                    "fGradientSize": 110.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Skybase_2": {
+                "sID": "Skybase_2",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.550000011920929,
+                      0.6499999761581421,
+                      0.6499999761581421,
+                      0.6000000238418579
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      600.0,
+                      45000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.0,
+                      0.15000000596046448,
+                      0.10000000149011612,
+                      1.0
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": -7550.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      500.0,
+                      12200.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -15500.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 15500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 0.8999999761581421,
+                    "fCube": 1.0,
+                    "fDepth": -850.0,
+                    "fSaturation": 1100.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 450.0,
+                    "fSaturationNear": 10000.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.4000000059604645
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.30000001192092896,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.30000001192092896,
+                      0.0,
+                      0.0,
+                      0.10000000149011612
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 0.1599999964237213,
+                    "fZDistance": 400.0,
+                    "fGradientSize": 1250.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Comunication_room_005": {
+                "sID": "Comunication_room_005",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.5199999809265137,
+                      0.6100000143051147,
+                      0.7350000143051147,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -550.0,
+                      20000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.05000000074505806,
+                      0.07500000298023224,
+                      0.07500000298023224,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBase": 0.0,
+                    "fBaseInterp": 1.0,
+                    "tAttenuation": [
+                      14500.0,
+                      14500.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -11000.0,
+                    "fNearInterp": 1.0,
+                    "fFar": 10000.0,
+                    "fFarInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.6499999761581421,
+                    "fDepth": -800.0,
+                    "fSaturation": 100.0,
+                    "fLightNear": 1.0,
+                    "fCubeNear": 1.0,
+                    "fDepthNear": 120.0,
+                    "fSaturationNear": 10000.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.4000000059604645
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.30000001192092896,
+                      0.0,
+                      0.20000000298023224,
+                      0.10000000149011612
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 0.4000000059604645,
+                    "fZDistance": 150.0,
+                    "fGradientSize": 400.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "Final_Boss_black_v3_Fog_version": {
+                "sID": "Final_Boss_black_v3_Fog_version",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.550000011920929,
+                      0.44999998807907104,
+                      0.4000000059604645,
+                      0.20000000298023224
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -65500.0,
+                      205000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.3499999940395355,
+                      0.0,
+                      0.0,
+                      0.30000001192092896
+                    ],
+                    "fColorInterp": 0.0,
+                    "fBase": 550.0,
+                    "fBaseInterp": 0.0,
+                    "tAttenuation": [
+                      8500.0,
+                      100.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -855500.0,
+                    "fNearInterp": 0.0,
+                    "fFar": 185500.0,
+                    "fFarInterp": 0.0,
+                    "fWaveFreq": 0.0010000000474974513,
+                    "fWaveAmp": 55.0,
+                    "fWaveVelocity": 4.0,
+                    "fWaveInterp": 0.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.1599999964237213,
+                    "fDepth": -950.0,
+                    "fSaturation": 1310.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 200.0,
+                    "fSaturationNear": 100.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.4000000059604645,
+                    "fFogFactor": 0.3499999940395355
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.20000000298023224,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.0,
+                      0.20000000298023224,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 1.0,
+                    "fZDistance": 0.0,
+                    "fGradientSize": 0.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              },
+              "shipyard_basic_006": {
+                "sID": "shipyard_basic_006",
+                "tFog": {
+                  "Class": "CEnvironmentData::SFog",
+                  "Data": {
+                    "tColor": [
+                      0.44999998807907104,
+                      0.6700000166893005,
+                      0.949999988079071,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fScale": 1.0,
+                    "fScaleInterp": 1.0,
+                    "tRange": [
+                      -200.0,
+                      55000.0
+                    ],
+                    "fRangeInterp": 1.0,
+                    "fWaveFreq": 0.0,
+                    "fWaveAmp": 0.0,
+                    "fWaveVelocity": 0.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tVerticalFog": {
+                  "Class": "CEnvironmentData::SVerticalFog",
+                  "Data": {
+                    "bEnabled": true,
+                    "tColor": [
+                      0.15000000596046448,
+                      0.5400000214576721,
+                      0.7250000238418579,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBase": -4800.0,
+                    "fBaseInterp": 1.0,
+                    "tAttenuation": [
+                      14000.0,
+                      5000.0
+                    ],
+                    "fAttInterp": 1.0,
+                    "fNear": -405500.0,
+                    "fNearInterp": 1.0,
+                    "fFar": 555000.0,
+                    "fFarInterp": 1.0,
+                    "fWaveFreq": 0.0020000000949949026,
+                    "fWaveAmp": 255.0,
+                    "fWaveVelocity": 5.0,
+                    "fWaveInterp": 1.0
+                  }
+                },
+                "tFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SFogTransition>",
+                  "Data": []
+                },
+                "tAmbient": {
+                  "Class": "CEnvironmentData::SAmbient",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0
+                  }
+                },
+                "tAmbientTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SAmbientTransition>",
+                  "Data": []
+                },
+                "tDepthTint": {
+                  "Class": "CEnvironmentData::SDepthTint",
+                  "Data": {
+                    "fTintInterp": 0.0,
+                    "fLight": 1.0,
+                    "fCube": 0.03999999910593033,
+                    "fDepth": -2500.0,
+                    "fSaturation": 3080.0,
+                    "fLightNear": 0.0,
+                    "fCubeNear": 0.0,
+                    "fDepthNear": 190.0,
+                    "fSaturationNear": 100.0
+                  }
+                },
+                "tDepthTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SDepthTintTransition>",
+                  "Data": []
+                },
+                "tMaterialTint": {
+                  "Class": "CEnvironmentData::SMaterialTint",
+                  "Data": {
+                    "tColor": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "fBlend": 1.0,
+                    "fBlendInterp": 1.0
+                  }
+                },
+                "tMaterialTintTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SMaterialTintTransition>",
+                  "Data": []
+                },
+                "tPlayerLight": {
+                  "Class": "CEnvironmentData::SPlayerLight",
+                  "Data": {
+                    "tDiffuse": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular0": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "tSpecular1": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "fColorInterp": 1.0,
+                    "tAttenuation": [
+                      0.0,
+                      0.0
+                    ],
+                    "fAttenuationInterp": 1.0
+                  }
+                },
+                "tPlayerLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SPlayerLightTransition>",
+                  "Data": []
+                },
+                "tHemisphericalLight": {
+                  "Class": "CEnvironmentData::SHemisphericalLight",
+                  "Data": {
+                    "tColorUp": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorUpInterp": 1.0,
+                    "tColorDown": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "fColorDownInterp": 1.0
+                  }
+                },
+                "tHemisphericalLightTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SHemisphericalLightTransition>",
+                  "Data": []
+                },
+                "tBloom": {
+                  "Class": "CEnvironmentData::SBloom",
+                  "Data": {
+                    "tBloom": [
+                      0.11999999731779099,
+                      0.11999999731779099,
+                      0.11999999731779099
+                    ],
+                    "fBloomInterp": 1.0
+                  }
+                },
+                "tBloomTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SBloomTransition>",
+                  "Data": []
+                },
+                "tVerticalFogTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SVerticalFogTransition>",
+                  "Data": []
+                },
+                "tCubeMap": {
+                  "Class": "CEnvironmentData::SCubeMap",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "bEnabled": false,
+                    "sTexturePath": ""
+                  }
+                },
+                "tCubeMapTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SCubeMapTransition>",
+                  "Data": []
+                },
+                "tSSAO": {
+                  "Class": "CEnvironmentData::SSSAO",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fIntensityFactor": 0.5,
+                    "fFogFactor": 0.4000000059604645
+                  }
+                },
+                "tSSAOTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SSSAOTransition>",
+                  "Data": []
+                },
+                "tToneMapping": {
+                  "Class": "CEnvironmentData::SToneMapping",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fExposure": 0.0,
+                    "fGamma": 1.0,
+                    "fSaturationColor": 1.0,
+                    "fContrast": 1.0,
+                    "fBrightness": 1.0,
+                    "vColorTint": [
+                      0.0,
+                      0.20000000298023224,
+                      0.0,
+                      0.20000000298023224
+                    ],
+                    "fColorVibrance": 0.0,
+                    "bEnabled": false
+                  }
+                },
+                "tToneMappingTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SToneMappingTransition>",
+                  "Data": []
+                },
+                "tIBLAttenuation": {
+                  "Class": "CEnvironmentData::SIBLAttenuation",
+                  "Data": {
+                    "fInterp": 1.0,
+                    "fCubeAttFactor": 0.6299999952316284,
+                    "fZDistance": 2550.0,
+                    "fGradientSize": 150.0
+                  }
+                },
+                "tIBLAttenuationTransitions": {
+                  "Class": "base::global::CRntVector<CEnvironmentData::SIBLAttenuationTransition>",
+                  "Data": []
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

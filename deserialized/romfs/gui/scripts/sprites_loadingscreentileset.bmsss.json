@@ -1,0 +1,166 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "loadingscreentileset": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/loadingscreentileset.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 256,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "fader",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.75,
+                      0.6640625
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "O",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8330078125,
+                      0.33203125
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "d",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.75,
+                      0.33203125
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "A",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.916015625,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "h",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.8330078125,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "C",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.75,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.0830078125,
+                      0.33203125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "wheel_in",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.5859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "wheel_mid",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.146484375,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.5859375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "wheel_out",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.29296875,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.5859375
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

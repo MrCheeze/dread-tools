@@ -1,0 +1,53 @@
+{
+  "FileType": "CLightManager",
+  "Unk": 33554433,
+  "RealFileType": "gameeditor::CGameModelRoot",
+  "Root": {
+    "pLightManager": {
+      "Class": "CLightManager",
+      "Data": {
+        "dicLightDefs": {
+          "cutscenes#0113quarantinearrival#actors#ev_gatesealed#lights": {
+            "sPath": "cutscenes#0113quarantinearrival#actors#ev_gatesealed#lights",
+            "vLights": [
+              {
+                "eType": "Spot",
+                "eAttachment": "PosRot3D",
+                "sName": "qua_light_01",
+                "sNode": "DC_Root",
+                "vPosOffset": [
+                  0.0,
+                  1100.0,
+                  -600.0
+                ],
+                "vRotOffset": [
+                  0.0,
+                  91.37000274658203,
+                  0.5899999737739563
+                ],
+                "vColor": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "vAtt": [
+                  1500.0,
+                  3000.0,
+                  70.0,
+                  90.0
+                ],
+                "fAttConstantFactor": 0.0,
+                "fAttQuadraticFactor": 0.024000000208616257,
+                "fIntensity": 0.0,
+                "bCastShadows": true,
+                "bUseSpecular": true,
+                "bEnabled": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

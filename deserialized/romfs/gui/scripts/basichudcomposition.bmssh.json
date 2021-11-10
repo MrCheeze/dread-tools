@@ -1,0 +1,11 @@
+{
+  "FileType": "GUI::CGUIManager::ShapeContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::ShapeContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::ShapeContainer",
+    "Data": {
+      "mapShapes": {}
+    }
+  }
+}

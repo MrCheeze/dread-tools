@@ -1,0 +1,83 @@
+{
+  "FileType": "CCutSceneDef",
+  "Unk": 33751048,
+  "RealFileType": "CCutSceneDef",
+  "Root": {
+    "eDevelopmentState": "WorkInProgress",
+    "sId": "0007beginningofcooldown",
+    "sActionSet": "cutscenes/0007beginningofcooldown/0007beginningofcooldown.bmsas",
+    "vWorldOffset": [
+      -25250.0,
+      -1800.0,
+      0.0
+    ],
+    "sOnLoaded": "",
+    "sOnBeforeStart": "s010_cave.Cooldown_Activation",
+    "sOnStart": "",
+    "sOnFinished": "s010_cave.OnCutscene0007Finished",
+    "sOnEnd": "",
+    "sOnSkip": "",
+    "fCamInitInterpTime": -1.0,
+    "fCamExitInterpTime": 2.5999999046325684,
+    "fFps": 30,
+    "bSkippable": true,
+    "aTakes": [
+      {
+        "sId": "4",
+        "iFrames": 551,
+        "sCamera": "cutscenes/0007beginningofcooldown/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors": [
+      {
+        "sId": "0007beginningofcooldown_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0007beginningofcooldown_elevator",
+        "sCharClass": "cutscenes/0007beginningofcooldown/actors/elevator/actor.bmsad",
+        "sInGameEntityId": "elevator_with_cutscene_aqua_000",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds": [],
+    "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "maps/fx/cooldownevent/snowparticles01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "maps/fx/cooldownevent/icedust.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "FileType": "GUI::CGUIManager::SpriteSheetContainer",
+  "Unk": 33685505,
+  "RealFileType": "GUI::CGUIManager::SpriteSheetContainer*",
+  "Root": {
+    "Class": "GUI::CGUIManager::SpriteSheetContainer",
+    "Data": {
+      "mapSpriteSheets": {
+        "SAMUSSUIT-HYPER": {
+          "Class": "GUI::CSpriteSheet",
+          "Data": {
+            "sTexturePath": "gui/textures/samussuit-hyper.bctex",
+            "uTextureWidth": 1024,
+            "uTextureHeight": 1024,
+            "vecItems": [
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BASE_TRANSITION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.701171875,
+                      0.671875
+                    ],
+                    "v2Scale": [
+                      0.1953125,
+                      0.3173828125
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MORPHBALL_TRANSITION",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.509765625,
+                      0.8115234375
+                    ],
+                    "v2Scale": [
+                      0.146484375,
+                      0.146484375
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "BASE",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.0
+                    ],
+                    "v2Scale": [
+                      0.3896484375,
+                      0.634765625
+                    ]
+                  }
+                }
+              },
+              {
+                "Class": "GUI::CSpriteSheetItem",
+                "Data": {
+                  "sID": "MORPHBALL",
+                  "oTexUVs": {
+                    "v2Offset": [
+                      0.0,
+                      0.640625
+                    ],
+                    "v2Scale": [
+                      0.2431640625,
+                      0.244140625
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

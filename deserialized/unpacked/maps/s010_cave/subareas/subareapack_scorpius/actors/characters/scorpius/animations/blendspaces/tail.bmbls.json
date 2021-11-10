@@ -1,0 +1,25 @@
+{
+  "FileType": "base::animation::CBlendSpaceResource",
+  "Unk": 33685505,
+  "RealFileType": "base::animation::CBlendSpaceResource",
+  "Root": {
+    "sVarName": "tailheight",
+    "vTargets": [
+      {
+        "fSample": 0.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/scorpius/animations/tailrelax_b.bcskla"
+      },
+      {
+        "fSample": 0.5,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/scorpius/animations/tailrelax_a.bcskla"
+      },
+      {
+        "fSample": 1.0,
+        "fPlayRate": 1.0,
+        "sAnimationResource": "actors/characters/scorpius/animations/tailrelax_c.bcskla"
+      }
+    ]
+  }
+}

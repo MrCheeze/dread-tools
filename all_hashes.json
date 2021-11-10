@@ -3436,6 +3436,15 @@
 		"wpWindTunnelDamageTrigger",
 		"wpXCellActivationAreaShape"
 	],
+	"cname": [
+		"",
+		"L01_Calf_SKN",
+		"L01_Foot_SKN",
+		"L01_Thigh_SKN",
+		"R01_Calf_SKN",
+		"R01_Foot_SKN",
+		"R01_Thigh_SKN"
+	],
 	"misc": [
 		"Collision",
 		"Hit",

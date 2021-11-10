@@ -910,7 +910,7 @@
                   {
                     "sIconID": "UsableTeleportY",
                     "vIconPos": [
-                      -15446.79296875,
+                      -15446.793,
                       3100.0
                     ]
                   }
@@ -986,8 +986,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      2444.9599609375,
-                      -4508.38427734375
+                      2444.96,
+                      -4508.3843
                     ]
                   }
                 ]
@@ -1247,11 +1247,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 51214.9453125
+              "Data": 51214.945
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 78017.3125
+              "Data": 78017.31
             },
             "NumTanksPickedUp": {
               "Class": "int",

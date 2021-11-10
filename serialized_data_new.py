@@ -6,6 +6,7 @@ import struct
 import random
 import re
 import os
+import numpy as np
 
 hashes = {}
 used_hashes = {}
@@ -681,9 +682,6 @@ def readPtr(f):
     obj['Data'] = readObject(f, className)
     return obj
 
-def readFloat(f):
-    return struct.unpack('<f', f.read(4))[0]
-
 def readList(f, readElement, *args):
     entryCount = readInt(f)
     obj = []
@@ -691,14 +689,20 @@ def readList(f, readElement, *args):
         obj.append(readElement(f, *args))
     return obj
 
+def fixFloats(floatList):
+    return [float(str(np.float32(x))) for x in floatList]
+
+def readFloat(f):
+    return fixFloats(struct.unpack('<f', f.read(4)))[0]
+
 def readVec2D(f):
-    return struct.unpack('<ff', f.read(8))
+    return fixFloats(struct.unpack('<ff', f.read(8)))
 
 def readVec3D(f):
-    return struct.unpack('<fff', f.read(12))
+    return fixFloats(struct.unpack('<fff', f.read(12)))
 
 def readVec4D(f):
-    return struct.unpack('<ffff', f.read(16))
+    return fixFloats(struct.unpack('<ffff', f.read(16)))
 
 def readBool(f):
     return struct.unpack('<?', f.read(1))[0]

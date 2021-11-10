@@ -7,9 +7,9 @@
     "sId": "0036enteremmyzone",
     "sActionSet": "cutscenes/0036enteremmyzone/0036enteremmyzone.bmsas",
     "vWorldOffset": [
-      8264.6591796875,
-      -2061.782958984375,
-      44.16699981689453
+      8264.659,
+      -2061.783,
+      44.167
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",
@@ -18,7 +18,7 @@
     "sOnEnd": "",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 5.400000095367432,
+    "fCamExitInterpTime": 5.4,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

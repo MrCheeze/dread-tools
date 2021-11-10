@@ -7,8 +7,8 @@
     "sId": "0001gameintrolanding",
     "sActionSet": "cutscenes/0001gameintrolanding/0001gameintrolanding.bmsas",
     "vWorldOffset": [
-      -15192.4404296875,
-      7666.1162109375,
+      -15192.44,
+      7666.116,
       0.0
     ],
     "sOnLoaded": "",

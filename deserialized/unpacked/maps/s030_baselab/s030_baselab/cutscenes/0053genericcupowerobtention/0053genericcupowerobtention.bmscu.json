@@ -7,8 +7,8 @@
     "sId": "0053genericcupowerobtention",
     "sActionSet": "cutscenes/0053genericcupowerobtention/0053genericcupowerobtention.bmsas",
     "vWorldOffset": [
-      9383.400390625,
-      -4583.7998046875,
+      9383.4,
+      -4583.8,
       -25.5
     ],
     "sOnLoaded": "",

@@ -9,7 +9,7 @@
     "vWorldOffset": [
       11800.0,
       -8300.0,
-      2.6390300535139577e-12
+      2.63903e-12
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "s010_cave.OnBefore_Cutscene_5_Begins",

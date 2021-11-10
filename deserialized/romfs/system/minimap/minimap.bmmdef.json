@@ -39,7 +39,7 @@
         "sInspectorLabel": "#MAP_ICON_ACQUIRED_ITEM",
         "vAnchorOffset": [
           0.0,
-          -0.800000011920929
+          -0.8
         ],
         "bAutoScale": false
       },
@@ -108,8 +108,8 @@
         "sInspectorLabel": "#MAP_ICON_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -120,8 +120,8 @@
         "sInspectorLabel": "#MAP_ICON_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -132,8 +132,8 @@
         "sInspectorLabel": "#MAP_ICON_DOOR_LOCKED",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -144,8 +144,8 @@
         "sInspectorLabel": "#MAP_ICON_DOOR_LOCKED",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -156,7 +156,7 @@
         "sInspectorLabel": "",
         "vAnchorOffset": [
           0.0,
-          -0.4000000059604645
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -167,7 +167,7 @@
         "sInspectorLabel": "",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -188,8 +188,8 @@
         "sDisabledIconId": "",
         "sInspectorLabel": "",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -199,8 +199,8 @@
         "sDisabledIconId": "",
         "sInspectorLabel": "",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -210,8 +210,8 @@
         "sDisabledIconId": "DoorClosedL",
         "sInspectorLabel": "#MAP_ICON_DOOR_CLOSED",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -221,8 +221,8 @@
         "sDisabledIconId": "DoorClosedR",
         "sInspectorLabel": "#MAP_ICON_DOOR_CLOSED",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -232,8 +232,8 @@
         "sDisabledIconId": "DoorOpenedL",
         "sInspectorLabel": "#MAP_ICON_DOOR_OPEN",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -243,8 +243,8 @@
         "sDisabledIconId": "DoorOpenedR",
         "sInspectorLabel": "#MAP_ICON_DOOR_OPEN",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -255,8 +255,8 @@
         "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -267,8 +267,8 @@
         "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -279,8 +279,8 @@
         "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR_LOCKED",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -291,8 +291,8 @@
         "sInspectorLabel": "#MAP_ICON_CHARGE_BEAM_DOOR_LOCKED",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -303,8 +303,8 @@
         "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -315,8 +315,8 @@
         "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -327,8 +327,8 @@
         "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -339,8 +339,8 @@
         "sInspectorLabel": "#MAP_ICON_WIDE_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -351,8 +351,8 @@
         "sInspectorLabel": "#MAP_ICON_PRESENCE_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -363,8 +363,8 @@
         "sInspectorLabel": "#MAP_ICON_PRESENCE_DOOR",
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -375,7 +375,7 @@
         "sInspectorLabel": "#MAP_ICON_SHUTTER_PLATFORM",
         "vAnchorOffset": [
           0.0,
-          -0.800000011920929
+          -0.8
         ],
         "bAutoScale": false
       },
@@ -387,7 +387,7 @@
         "sFemaleGenreLangs": "eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -399,7 +399,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          0.1599999964237213
+          0.16
         ],
         "bAutoScale": false
       },
@@ -411,7 +411,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.4000000059604645
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -434,7 +434,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -446,7 +446,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -458,7 +458,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.4000000059604645
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -469,8 +469,8 @@
         "sInspectorLabel": "#MAP_ICON_MISSILE_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -481,8 +481,8 @@
         "sInspectorLabel": "#MAP_ICON_MISSILE_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -493,8 +493,8 @@
         "sInspectorLabel": "#MAP_ICON_SUPER_MISSILE_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -505,8 +505,8 @@
         "sInspectorLabel": "#MAP_ICON_SUPER_MISSILE_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -517,8 +517,8 @@
         "sInspectorLabel": "#MAP_ICON_PLASMA_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -529,8 +529,8 @@
         "sInspectorLabel": "#MAP_ICON_PLASMA_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -541,8 +541,8 @@
         "sInspectorLabel": "#MAP_ICON_WAVE_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.800000011920929,
-          -0.4000000059604645
+          -0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -553,8 +553,8 @@
         "sInspectorLabel": "#MAP_ICON_WAVE_BEAM_BLOCKAGE",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.800000011920929,
-          -0.4000000059604645
+          0.8,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -566,7 +566,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it,eu_ru",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -578,7 +578,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it,eu_ru",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -612,8 +612,8 @@
         "sDisabledIconId": "",
         "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BLOCK",
         "vAnchorOffset": [
-          0.20000000298023224,
-          -0.800000011920929
+          0.2,
+          -0.8
         ],
         "bAutoScale": false
       },
@@ -623,8 +623,8 @@
         "sDisabledIconId": "",
         "sInspectorLabel": "#MAP_ICON_GRAPPLE_BEAM_BLOCK",
         "vAnchorOffset": [
-          -0.20000000298023224,
-          -0.800000011920929
+          -0.2,
+          -0.8
         ],
         "bAutoScale": false
       },
@@ -636,7 +636,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -648,7 +648,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -660,7 +660,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -672,7 +672,7 @@
         "sFemaleGenreLangs": "eu_fr,us_fr,eu_sp,us_sp,eu_it",
         "vAnchorOffset": [
           0.0,
-          -0.20000000298023224
+          -0.2
         ],
         "bAutoScale": false
       },
@@ -816,8 +816,8 @@
         "sInspectorLabel": "#MAP_ICON_BLOCKAGE_DISABLED",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          -0.3100000023841858,
-          -0.4000000059604645
+          -0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -828,8 +828,8 @@
         "sInspectorLabel": "#MAP_ICON_BLOCKAGE_DISABLED",
         "sFemaleGenreLangs": "eu_sp,us_sp",
         "vAnchorOffset": [
-          0.3100000023841858,
-          -0.4000000059604645
+          0.31,
+          -0.4
         ],
         "bAutoScale": false
       },
@@ -1225,7 +1225,7 @@
         "sInspectorLabel": "",
         "vAnchorOffset": [
           0.0,
-          0.1599999964237213
+          0.16
         ],
         "bAutoScale": false
       },
@@ -1258,7 +1258,7 @@
         "sInspectorLabel": "#MAP_ICON_WAR_LOTUS",
         "vAnchorOffset": [
           0.0,
-          -0.30000001192092896
+          -0.3
         ],
         "bAutoScale": false
       },

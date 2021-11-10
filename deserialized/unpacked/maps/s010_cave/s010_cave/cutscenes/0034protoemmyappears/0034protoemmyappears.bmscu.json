@@ -7,9 +7,9 @@
     "sId": "0034protoemmyappears",
     "sActionSet": "cutscenes/0034protoemmyappears/0034protoemmyappears.bmsas",
     "vWorldOffset": [
-      15929.669921875,
-      -2779.264892578125,
-      38.076171875
+      15929.67,
+      -2779.265,
+      38.07617
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "s010_cave.EmmyProtoSpawnSequence",
@@ -18,7 +18,7 @@
     "sOnEnd": "s010_cave.OnCutscene34Ended",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.20000000298023224,
+    "fCamExitInterpTime": 0.2,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

@@ -8,8 +8,8 @@
     "sActionSet": "cutscenes/0031gravitysuiteobtention/0031gravitysuiteobtention.bmsas",
     "vWorldOffset": [
       3039.5,
-      -10566.599609375,
-      -6.29998779296875
+      -10566.6,
+      -6.299988
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",

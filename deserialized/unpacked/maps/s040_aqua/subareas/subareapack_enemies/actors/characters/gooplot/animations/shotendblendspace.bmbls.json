@@ -6,7 +6,7 @@
     "sVarName": "Angle",
     "vTargets": [
       {
-        "fSample": -1.5700000524520874,
+        "fSample": -1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/gooplot/animations/shotendright.bcskla"
       },
@@ -16,7 +16,7 @@
         "sAnimationResource": "actors/characters/gooplot/animations/shotend.bcskla"
       },
       {
-        "fSample": 1.5700000524520874,
+        "fSample": 1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/gooplot/animations/shotendleft.bcskla"
       }

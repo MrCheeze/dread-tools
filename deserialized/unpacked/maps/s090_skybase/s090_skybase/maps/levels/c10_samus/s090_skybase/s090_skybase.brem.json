@@ -52,8 +52,8 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.30000001192092896,
-                      "fFadeOut": 0.30000001192092896,
+                      "fFadeIn": 0.3,
+                      "fFadeOut": 0.3,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
@@ -79,8 +79,8 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.30000001192092896,
-                      "fFadeOut": 0.30000001192092896,
+                      "fFadeIn": 0.3,
+                      "fFadeOut": 0.3,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",

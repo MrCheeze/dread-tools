@@ -7,8 +7,8 @@
     "sId": "0035protoemmycantclimb",
     "sActionSet": "cutscenes/0035protoemmycantclimb/0035protoemmycantclimb.bmsas",
     "vWorldOffset": [
-      21078.80078125,
-      -2434.199951171875,
+      21078.8,
+      -2434.2,
       -3.5
     ],
     "sOnLoaded": "",
@@ -18,7 +18,7 @@
     "sOnEnd": "s010_cave.OnProtoEmmyCantClimbCutsceneEnd",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.10000000149011612,
+    "fCamExitInterpTime": 0.1,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

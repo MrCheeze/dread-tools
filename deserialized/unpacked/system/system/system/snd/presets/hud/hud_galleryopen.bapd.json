@@ -73,7 +73,7 @@
                 "fInBetweenTime": 0.0,
                 "fAttMaxRange": 30000.0,
                 "fAttMinRange": 5000.0,
-                "fVolume": 0.800000011920929,
+                "fVolume": 0.8,
                 "fVolumeRange": 0.0,
                 "fPitch": 1.0,
                 "fPitchRange": 0.0,
@@ -90,7 +90,7 @@
                 "bManaged": true,
                 "bRumbleSync": false,
                 "fRumbleGainOverride": -1.0,
-                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimRelativeVolume": 0.6,
                 "fDimTime": 10.0,
                 "fDimFadeTime": 20.0,
                 "fDimRecoverTime": 10.0

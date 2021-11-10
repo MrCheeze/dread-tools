@@ -31,12 +31,12 @@
         "sAnimationResource": "actors/characters/samus/animations/grapplefall_init_front-10downwards.bcskla"
       },
       {
-        "fSample": -9.989999771118164,
+        "fSample": -9.99,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/samus/animations/grapplefall_init_front.bcskla"
       },
       {
-        "fSample": -9.989999771118164,
+        "fSample": -9.99,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/samus/animations/grapplefall_init_front-10upwards.bcskla"
       },

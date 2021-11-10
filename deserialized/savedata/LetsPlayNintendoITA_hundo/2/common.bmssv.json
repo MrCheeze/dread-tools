@@ -113,8 +113,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      23873.25390625,
-                      1291.615966796875
+                      23873.254,
+                      1291.616
                     ]
                   }
                 ]
@@ -185,7 +185,7 @@
             },
             "ITEM_CURRENT_LIFE": {
               "Class": "float",
-              "Data": 248.9499969482422
+              "Data": 248.95
             },
             "ITEM_WEAPON_MISSILE_CURRENT": {
               "Class": "float",
@@ -469,11 +469,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 2392.736572265625
+              "Data": 2392.7366
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 2462.3134765625
+              "Data": 2462.3135
             },
             "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
               "Class": "bool",

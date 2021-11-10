@@ -106,8 +106,8 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.10000000149011612,
-                      "fFadeOut": 0.10000000149011612,
+                      "fFadeIn": 0.1,
+                      "fFadeOut": 0.1,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",

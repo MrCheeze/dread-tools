@@ -2007,13 +2007,13 @@
               "Data": {
                 "strCheckpointID": "centralunitmagmacontroller_000",
                 "vOffsetPos": [
-                  104.01171875,
-                  -2026.231201171875,
-                  0.0039059999398887157
+                  104.01172,
+                  -2026.2312,
+                  0.003906
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -4985,13 +4985,13 @@
               "Data": {
                 "strCheckpointID": "centralunitmagmacontroller",
                 "vOffsetPos": [
-                  -2727.7177734375,
-                  -1023.3798828125,
+                  -2727.7178,
+                  -1023.3799,
                   0.0
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -5904,8 +5904,8 @@
             "NAVMESHITEM:ColliderOffset[box_grapple_cv_001]": {
               "Class": "base::math::CVector2D",
               "Data": [
-                -300.0001525878906,
-                -499.9999084472656
+                -300.00015,
+                -499.9999
               ]
             },
             "doorpowerpower_014:DOOR:Opened": {
@@ -5927,7 +5927,7 @@
             "box_wide_cv_002:BEAMBOX:Pos": {
               "Class": "base::math::CVector2D",
               "Data": [
-                1450.0001220703125,
+                1450.0001,
                 6500.0
               ]
             },
@@ -6571,7 +6571,7 @@
                   ],
                   "Max": [
                     -10710.0,
-                    -2725.001953125
+                    -2725.002
                   ]
                 },
                 "PRP_CV_watercave01b": {
@@ -6656,7 +6656,7 @@
                 },
                 "waterzone_000": {
                   "Min": [
-                    -23300.001953125,
+                    -23300.002,
                     -3750.0
                   ],
                   "Max": [
@@ -6666,7 +6666,7 @@
                 },
                 "waterzone_002": {
                   "Min": [
-                    -21600.001953125,
+                    -21600.002,
                     -3750.0
                   ],
                   "Max": [
@@ -9061,13 +9061,13 @@
               "Data": {
                 "strCheckpointID": "PRP_CV_CentralUnitCaves",
                 "vOffsetPos": [
-                  -5392.3681640625,
-                  -1823.3798828125,
+                  -5392.368,
+                  -1823.3799,
                   0.0
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -10298,7 +10298,7 @@
             "box_wide_cv_001:BEAMBOX:Pos": {
               "Class": "base::math::CVector2D",
               "Data": [
-                50.00006103515625,
+                50.00006,
                 -2000.0
               ]
             },
@@ -13413,13 +13413,13 @@
               "Data": {
                 "strCheckpointID": "centralunitmagmacontroller",
                 "vOffsetPos": [
-                  3713.88623046875,
-                  576.6201171875,
-                  -4.371140221337555e-06
+                  3713.8862,
+                  576.6201,
+                  -4.37114e-06
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -13937,7 +13937,7 @@
             "box_wide_cv_001:BEAMBOX:Pos": {
               "Class": "base::math::CVector2D",
               "Data": [
-                150.0001220703125,
+                150.00012,
                 6600.0
               ]
             },
@@ -16171,7 +16171,7 @@
                   ],
                   "Max": [
                     -2800.0,
-                    -6280.49169921875
+                    -6280.4917
                   ]
                 }
               }
@@ -18494,13 +18494,13 @@
               "Data": {
                 "strCheckpointID": "centralunitmagmacontroller",
                 "vOffsetPos": [
-                  -6986.11376953125,
-                  -1623.3798828125,
-                  -4.371140221337555e-06
+                  -6986.114,
+                  -1623.3799,
+                  -4.37114e-06
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -19699,7 +19699,7 @@
                 },
                 "waterzone_001": {
                   "Min": [
-                    1205.443603515625,
+                    1205.4436,
                     -2100.0
                   ],
                   "Max": [
@@ -19754,7 +19754,7 @@
                   ],
                   "Max": [
                     4100.0,
-                    -589.30224609375
+                    -589.30225
                   ]
                 },
                 "waterzone_005": {
@@ -24686,8 +24686,8 @@
             "NAVMESHITEM:ColliderOffset[box_grapple_cv_001]": {
               "Class": "base::math::CVector2D",
               "Data": [
-                -300.0001220703125,
-                -399.9999084472656
+                -300.00012,
+                -399.9999
               ]
             },
             "mapev_activator_planteater04:EVENTSCENARIO:EventFinished": {
@@ -24787,13 +24787,13 @@
               "Data": {
                 "strCheckpointID": "centralunitmagmacontroller",
                 "vOffsetPos": [
-                  1713.8857421875,
-                  1276.6201171875,
+                  1713.8857,
+                  1276.6201,
                   0.0
                 ],
                 "vOffsetAng": [
                   0.0,
-                  1.5707963705062866,
+                  1.5707964,
                   0.0
                 ]
               }
@@ -25432,8 +25432,8 @@
             "NAVMESHITEM:ColliderOffset[box_grapple_cv_002]": {
               "Class": "base::math::CVector2D",
               "Data": [
-                -300.0001220703125,
-                -399.9999084472656
+                -300.00012,
+                -399.9999
               ]
             },
             "SG_WarLotus_008:SPAWNGROUP:NumDeaths": {

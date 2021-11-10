@@ -18,7 +18,7 @@
     "sOnEnd": "CurrentScenario.ActivationTutoParasite",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 1.8600000143051147,
+    "fCamExitInterpTime": 1.86,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

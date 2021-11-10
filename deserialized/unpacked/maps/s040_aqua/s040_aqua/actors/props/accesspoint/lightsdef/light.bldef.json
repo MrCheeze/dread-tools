@@ -26,9 +26,9 @@
                   0.0
                 ],
                 "vColor": [
-                  0.550000011920929,
+                  0.55,
                   0.75,
-                  0.8500000238418579,
+                  0.85,
                   0.0
                 ],
                 "vAtt": [
@@ -38,7 +38,7 @@
                   0.0
                 ],
                 "fAttConstantFactor": 0.0,
-                "fAttQuadraticFactor": 1.100000023841858,
+                "fAttQuadraticFactor": 1.1,
                 "fIntensity": 200.0,
                 "bCastShadows": false,
                 "bUseSpecular": true,

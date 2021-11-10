@@ -6,17 +6,17 @@
     "sVarName": "Angle",
     "vTargets": [
       {
-        "fSample": 5.476747989654541,
+        "fSample": 5.476748,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/chozowarriorx/animations/attack_glaive-wallclimb_10_init2_left.bcskla"
       },
       {
-        "fSample": 24.357860565185547,
+        "fSample": 24.35786,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/chozowarriorx/animations/attack_glaive-wallclimb_45_init2_left.bcskla"
       },
       {
-        "fSample": 63.69588851928711,
+        "fSample": 63.69589,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/chozowarriorx/animations/attack_glaive-wallclimb_90_init2_left.bcskla"
       }

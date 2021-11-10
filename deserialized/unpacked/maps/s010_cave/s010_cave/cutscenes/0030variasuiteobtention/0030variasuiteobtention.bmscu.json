@@ -7,9 +7,9 @@
     "sId": "0030variasuiteobtention",
     "sActionSet": "cutscenes/0030variasuiteobtention/0030variasuiteobtention.bmsas",
     "vWorldOffset": [
-      -10210.400390625,
-      10326.900390625,
-      -42.200199127197266
+      -10210.4,
+      10326.9,
+      -42.2002
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",
@@ -18,7 +18,7 @@
     "sOnEnd": "PowerUpVariaSuit.ShowMessage",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 2.1600000858306885,
+    "fCamExitInterpTime": 2.16,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

@@ -108,7 +108,7 @@
                       ],
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
-                      "fDelay": 0.699999988079071,
+                      "fDelay": 0.7,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -136,7 +136,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 1.5,
-                      "fVol": 0.8999999761581421,
+                      "fVol": 0.9,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -215,8 +215,8 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.10000000149011612,
-                      "fFadeOut": 0.10000000149011612,
+                      "fFadeIn": 0.1,
+                      "fFadeOut": 0.1,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
@@ -242,8 +242,8 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.10000000149011612,
-                      "fFadeOut": 0.10000000149011612,
+                      "fFadeIn": 0.1,
+                      "fFadeOut": 0.1,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
@@ -276,10 +276,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 3.0,
                               "fDelay": 0.0,
-                              "fVol": 0.8500000238418579,
+                              "fVol": 0.85,
                               "eCrossFade": "CROSS_FADE",
                               "bPauseOnPop": true,
                               "fEnvFactor": 1.0

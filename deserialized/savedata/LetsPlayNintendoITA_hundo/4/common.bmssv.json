@@ -619,8 +619,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      14991.2861328125,
-                      4691.61474609375
+                      14991.286,
+                      4691.6147
                     ]
                   }
                 ]
@@ -721,11 +721,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 5872.91748046875
+              "Data": 5872.9175
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 6032.39111328125
+              "Data": 6032.391
             },
             "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
               "Class": "bool",

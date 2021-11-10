@@ -7,8 +7,8 @@
     "sId": "0063_hydrogiga-presentation",
     "sActionSet": "cutscenes/0063_hydrogiga-presentation/0063_hydrogiga-presentation.bmsas",
     "vWorldOffset": [
-      -459.9607849121094,
-      10686.1904296875,
+      -459.9608,
+      10686.19,
       0.0
     ],
     "sOnLoaded": "",

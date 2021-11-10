@@ -7,9 +7,9 @@
     "sId": "0037emmycaveappears",
     "sActionSet": "cutscenes/0037emmycaveappears/0037emmycaveappears.bmsas",
     "vWorldOffset": [
-      5652.7998046875,
-      -1478.0999755859375,
-      -17.200000762939453
+      5652.8,
+      -1478.1,
+      -17.2
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "s010_cave.EmmyCaveSpawnSequence",

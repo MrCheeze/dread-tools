@@ -18,7 +18,7 @@
     "sOnEnd": "s030_baselab.OnCutscene39End",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.10000000149011612,
+    "fCamExitInterpTime": 0.1,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

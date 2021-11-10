@@ -7,8 +7,8 @@
     "sId": "0049centralunitdetectsamus01",
     "sActionSet": "cutscenes/0049centralunitdetectsamus01/0049centralunitdetectsamus01.bmsas",
     "vWorldOffset": [
-      9344.6328125,
-      -4622.35498046875,
+      9344.633,
+      -4622.355,
       0.0
     ],
     "sOnLoaded": "",

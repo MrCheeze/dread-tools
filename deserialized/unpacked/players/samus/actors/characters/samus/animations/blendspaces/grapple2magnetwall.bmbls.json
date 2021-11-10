@@ -16,7 +16,7 @@
         "sAnimationResource": "actors/characters/samus/animations/grapple2magnetwallopp_front.bcskla"
       },
       {
-        "fSample": -9.989999771118164,
+        "fSample": -9.99,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/samus/animations/grapple2magnetwall_front.bcskla"
       },

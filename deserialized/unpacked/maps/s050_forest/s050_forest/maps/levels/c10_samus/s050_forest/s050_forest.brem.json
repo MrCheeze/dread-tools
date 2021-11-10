@@ -293,7 +293,7 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 3.0,
                               "fDelay": 0.0,
                               "fVol": 1.0,

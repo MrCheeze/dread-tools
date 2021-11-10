@@ -18,7 +18,7 @@
     "sOnEnd": "s020_magma.OnCutscene81Ended",
     "sOnSkip": "s020_magma.OnCutscene81Skipped",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 1.600000023841858,
+    "fCamExitInterpTime": 1.6,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

@@ -18,7 +18,7 @@
     "sOnEnd": "",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.800000011920929,
+    "fCamExitInterpTime": 0.8,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

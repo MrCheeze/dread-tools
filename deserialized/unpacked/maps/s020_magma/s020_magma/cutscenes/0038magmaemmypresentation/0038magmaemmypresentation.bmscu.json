@@ -7,8 +7,8 @@
     "sId": "0038magmaemmypresentation",
     "sActionSet": "cutscenes/0038magmaemmypresentation/0038magmaemmypresentation.bmsas",
     "vWorldOffset": [
-      -3670.756103515625,
-      -1044.89599609375,
+      -3670.756,
+      -1044.896,
       0.0
     ],
     "sOnLoaded": "",
@@ -18,7 +18,7 @@
     "sOnEnd": "s020_magma.OnCutscene38End",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.8999999761581421,
+    "fCamExitInterpTime": 0.9,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

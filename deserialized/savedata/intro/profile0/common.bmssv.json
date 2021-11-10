@@ -146,11 +146,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 21.329572677612305
+              "Data": 21.329573
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 21.329572677612305
+              "Data": 21.329573
             }
           }
         }

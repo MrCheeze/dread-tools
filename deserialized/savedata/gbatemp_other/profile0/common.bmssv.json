@@ -88,11 +88,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 292.1451416015625
+              "Data": 292.14514
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 292.1451416015625
+              "Data": 292.14514
             }
           }
         }
@@ -257,8 +257,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      7120.68505859375,
-                      -7412.99951171875
+                      7120.685,
+                      -7412.9995
                     ]
                   }
                 ]

@@ -82,8 +82,8 @@
             "sThigh": "L01_Thigh_SKN",
             "sCalf": "L01_Calf_SKN",
             "sFoot": "L01_Foot_SKN",
-            "fMaxRotationFootUp": 0.44999998807907104,
-            "fMaxRotationFootDown": 0.44999998807907104,
+            "fMaxRotationFootUp": 0.45,
+            "fMaxRotationFootDown": 0.45,
             "sMaxFootCorrectionDist": 80.0
           }
         },
@@ -94,8 +94,8 @@
             "sThigh": "R01_Thigh_SKN",
             "sCalf": "R01_Calf_SKN",
             "sFoot": "R01_Foot_SKN",
-            "fMaxRotationFootUp": 0.44999998807907104,
-            "fMaxRotationFootDown": 0.44999998807907104,
+            "fMaxRotationFootUp": 0.45,
+            "fMaxRotationFootDown": 0.45,
             "sMaxFootCorrectionDist": 80.0
           }
         }

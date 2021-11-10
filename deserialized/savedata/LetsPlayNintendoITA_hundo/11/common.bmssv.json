@@ -473,7 +473,7 @@
                   {
                     "sIconID": "UsableTeleportY",
                     "vIconPos": [
-                      -15446.79296875,
+                      -15446.793,
                       3100.0
                     ]
                   }
@@ -523,8 +523,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      -11438.3076171875,
-                      691.615966796875
+                      -11438.308,
+                      691.61597
                     ]
                   }
                 ],
@@ -1185,11 +1185,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 17619.693359375
+              "Data": 17619.693
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 18603.80859375
+              "Data": 18603.809
             },
             "AMIIBO:ITEM_RESERVE_TANK_LIFE_ACTIVE": {
               "Class": "bool",

@@ -218,11 +218,11 @@
             },
             "TotalPlayTime": {
               "Class": "float",
-              "Data": 1024.5379638671875
+              "Data": 1024.538
             },
             "TotalCummulativePlayTime": {
               "Class": "float",
-              "Data": 1125.1192626953125
+              "Data": 1125.1193
             },
             "NumTanksPickedUp": {
               "Class": "int",
@@ -461,8 +461,8 @@
                   {
                     "sIconID": "Samus",
                     "vIconPos": [
-                      -13156.8955078125,
-                      1091.615966796875
+                      -13156.8955,
+                      1091.616
                     ]
                   }
                 ]

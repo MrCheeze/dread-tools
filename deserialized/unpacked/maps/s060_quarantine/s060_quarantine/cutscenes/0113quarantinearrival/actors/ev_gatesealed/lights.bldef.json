@@ -22,8 +22,8 @@
                 ],
                 "vRotOffset": [
                   0.0,
-                  91.37000274658203,
-                  0.5899999737739563
+                  91.37,
+                  0.59
                 ],
                 "vColor": [
                   1.0,
@@ -38,7 +38,7 @@
                   90.0
                 ],
                 "fAttConstantFactor": 0.0,
-                "fAttQuadraticFactor": 0.024000000208616257,
+                "fAttQuadraticFactor": 0.024,
                 "fIntensity": 0.0,
                 "bCastShadows": true,
                 "bUseSpecular": true,

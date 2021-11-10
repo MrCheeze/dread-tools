@@ -7,9 +7,9 @@
     "sId": "0155scorpiusphase3",
     "sActionSet": "cutscenes/0155scorpiusphase3/0155scorpiusphase3.bmsas",
     "vWorldOffset": [
-      20150.599609375,
-      -361.8999938964844,
-      -11.800000190734863
+      20150.6,
+      -361.9,
+      -11.8
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",

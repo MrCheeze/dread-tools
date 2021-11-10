@@ -38,7 +38,7 @@
                   90.0
                 ],
                 "fAttConstantFactor": 0.0,
-                "fAttQuadraticFactor": 0.024000000208616257,
+                "fAttQuadraticFactor": 0.024,
                 "fIntensity": 0.0,
                 "bCastShadows": false,
                 "bUseSpecular": true,

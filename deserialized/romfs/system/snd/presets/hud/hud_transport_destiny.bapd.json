@@ -82,7 +82,7 @@
                 "fFadeIn": 0.0,
                 "fFadeOut": 0.0,
                 "fEmptyPercentage": 0.0,
-                "fStartDelayed": 0.6000000238418579,
+                "fStartDelayed": 0.6,
                 "bLoop": false,
                 "bAttachToActor": true,
                 "bStpChgAnim": false,
@@ -90,7 +90,7 @@
                 "bManaged": true,
                 "bRumbleSync": false,
                 "fRumbleGainOverride": -1.0,
-                "fDimRelativeVolume": 0.6000000238418579,
+                "fDimRelativeVolume": 0.6,
                 "fDimTime": 10.0,
                 "fDimFadeTime": 20.0,
                 "fDimRecoverTime": 10.0

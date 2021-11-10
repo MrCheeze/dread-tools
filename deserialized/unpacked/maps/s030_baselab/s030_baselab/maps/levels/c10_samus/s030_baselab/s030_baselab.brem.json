@@ -55,7 +55,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 1.100000023841858,
+                      "fVol": 1.1,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
                     }

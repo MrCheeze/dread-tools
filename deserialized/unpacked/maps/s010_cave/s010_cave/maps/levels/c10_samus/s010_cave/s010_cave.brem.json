@@ -28,7 +28,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -56,7 +56,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 0.8999999761581421,
+                      "fVol": 0.9,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -84,7 +84,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 0.8999999761581421,
+                      "fVol": 0.9,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -115,7 +115,7 @@
                       "fVol": 2.0,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
-                      "fEnvFactor": 0.8999999761581421
+                      "fEnvFactor": 0.9
                     }
                   ]
                 },
@@ -196,7 +196,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 1.5,
-                      "fVol": 0.8999999761581421,
+                      "fVol": 0.9,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -224,7 +224,7 @@
                       "fFadeIn": 0.0,
                       "fFadeOut": 0.0,
                       "fDelay": 0.0,
-                      "fVol": 0.949999988079071,
+                      "fVol": 0.95,
                       "iStartPos": 0,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
@@ -252,7 +252,7 @@
                       "fFadeIn": 0.0,
                       "fFadeOut": 0.0,
                       "fDelay": 0.0,
-                      "fVol": 0.699999988079071,
+                      "fVol": 0.7,
                       "iStartPos": 0,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -280,7 +280,7 @@
                       "fFadeIn": 0.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 0.949999988079071,
+                      "fVol": 0.95,
                       "iStartPos": 0,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -308,7 +308,7 @@
                       "fFadeIn": 0.0,
                       "fFadeOut": 0.0,
                       "fDelay": 0.0,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "iStartPos": 0,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -334,9 +334,9 @@
                         }
                       ],
                       "fFadeIn": 1.0,
-                      "fFadeOut": 0.20000000298023224,
+                      "fFadeOut": 0.2,
                       "fDelay": 0.0,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "iStartPos": 1704001,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -364,7 +364,7 @@
                       "fFadeIn": 0.0,
                       "fFadeOut": 0.0,
                       "fDelay": 0.0,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "iStartPos": 0,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -392,7 +392,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 0.0,
                       "fDelay": 0.0,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "iStartPos": 0,
                       "eCrossFade": "None",
                       "fEnvFactor": 1.0
@@ -424,10 +424,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
-                              "fVol": 0.8999999761581421,
+                              "fVol": 0.9,
                               "iStartPos": 0,
                               "eCrossFade": "CROSS_FADE",
                               "fEnvFactor": 1.0
@@ -445,10 +445,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
-                              "fVol": 0.949999988079071,
+                              "fVol": 0.95,
                               "iStartPos": 0,
                               "eCrossFade": "CROSS_FADE",
                               "fEnvFactor": 1.0
@@ -469,7 +469,7 @@
                               "fFadeIn": 1.0,
                               "fFadeOut": 0.0,
                               "fDelay": 0.0,
-                              "fVol": 0.800000011920929,
+                              "fVol": 0.8,
                               "iStartPos": 0,
                               "eCrossFade": "None",
                               "fEnvFactor": 1.0

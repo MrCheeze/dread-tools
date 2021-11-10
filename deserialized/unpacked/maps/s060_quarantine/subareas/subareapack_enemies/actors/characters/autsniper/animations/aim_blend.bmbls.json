@@ -6,17 +6,17 @@
     "sVarName": "Aim",
     "vTargets": [
       {
-        "fSample": -2.3561899662017822,
+        "fSample": -2.35619,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_back_down.bcskla"
       },
       {
-        "fSample": -1.5700000524520874,
+        "fSample": -1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_back.bcskla"
       },
       {
-        "fSample": -0.7900000214576721,
+        "fSample": -0.79,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_back_up.bcskla"
       },
@@ -26,17 +26,17 @@
         "sAnimationResource": "actors/characters/autsniper/animations/aim_up.bcskla"
       },
       {
-        "fSample": 0.7850000262260437,
+        "fSample": 0.785,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_front_up.bcskla"
       },
       {
-        "fSample": 1.5700000524520874,
+        "fSample": 1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_front.bcskla"
       },
       {
-        "fSample": 1.8325999975204468,
+        "fSample": 1.8326,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/autsniper/animations/aim_front_down_up.bcskla"
       }

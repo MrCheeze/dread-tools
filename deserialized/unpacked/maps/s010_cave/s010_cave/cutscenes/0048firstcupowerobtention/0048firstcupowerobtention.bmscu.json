@@ -7,8 +7,8 @@
     "sId": "0048firstcupowerobtention",
     "sActionSet": "cutscenes/0048firstcupowerobtention/0048firstcupowerobtention.bmsas",
     "vWorldOffset": [
-      21422.599609375,
-      -2378.800048828125,
+      21422.6,
+      -2378.8,
       -24.0
     ],
     "sOnLoaded": "",

@@ -7,8 +7,8 @@
     "sId": "0050firstcupresentation",
     "sActionSet": "cutscenes/0050firstcupresentation/0050firstcupresentation.bmsas",
     "vWorldOffset": [
-      8549.0302734375,
-      -4600.22412109375,
+      8549.03,
+      -4600.224,
       0.0
     ],
     "sOnLoaded": "",

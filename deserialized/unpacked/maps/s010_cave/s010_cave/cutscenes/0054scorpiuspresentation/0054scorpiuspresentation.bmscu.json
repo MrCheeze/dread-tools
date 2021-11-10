@@ -7,9 +7,9 @@
     "sId": "0054scorpiuspresentation",
     "sActionSet": "cutscenes/0054scorpiuspresentation/0054scorpiuspresentation.bmsas",
     "vWorldOffset": [
-      18074.900390625,
-      -344.70001220703125,
-      -12.800000190734863
+      18074.9,
+      -344.7,
+      -12.8
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",
@@ -18,7 +18,7 @@
     "sOnEnd": "CurrentScenario.OnScorpiusPresentationFinished",
     "sOnSkip": "CurrentScenario.OnScorpiusPresentationSkipped",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 0.30000001192092896,
+    "fCamExitInterpTime": 0.3,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [

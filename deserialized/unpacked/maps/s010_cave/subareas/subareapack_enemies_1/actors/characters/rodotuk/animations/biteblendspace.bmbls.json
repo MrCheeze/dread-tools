@@ -6,17 +6,17 @@
     "sVarName": "fAngle",
     "vTargets": [
       {
-        "fSample": -1.5700000524520874,
+        "fSample": -1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_back_down.bcskla"
       },
       {
-        "fSample": -1.2999999523162842,
+        "fSample": -1.3,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_back.bcskla"
       },
       {
-        "fSample": -0.800000011920929,
+        "fSample": -0.8,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_back_up.bcskla"
       },
@@ -26,17 +26,17 @@
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_up.bcskla"
       },
       {
-        "fSample": 0.800000011920929,
+        "fSample": 0.8,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_front_up.bcskla"
       },
       {
-        "fSample": 1.2999999523162842,
+        "fSample": 1.3,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_front.bcskla"
       },
       {
-        "fSample": 1.5700000524520874,
+        "fSample": 1.57,
         "fPlayRate": 1.0,
         "sAnimationResource": "actors/characters/rodotuk/animations/attack_bite_front_down.bcskla"
       }

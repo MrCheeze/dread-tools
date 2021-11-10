@@ -7,9 +7,9 @@
     "sId": "0043emmymetroidnization",
     "sActionSet": "cutscenes/0043emmymetroidnization/0043emmymetroidnization.bmsas",
     "vWorldOffset": [
-      9223.046875,
-      -2522.22705078125,
-      -0.00011402869859011844
+      9223.047,
+      -2522.227,
+      -0.0001140287
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "s080_shipyard.OnChozoWarriorActivated",

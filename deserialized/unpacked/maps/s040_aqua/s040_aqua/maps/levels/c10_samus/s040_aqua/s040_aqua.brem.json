@@ -140,10 +140,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
-                              "fVol": 0.8500000238418579,
+                              "fVol": 0.85,
                               "eCrossFade": "CROSS_FADE",
                               "fEnvFactor": 1.0
                             },
@@ -160,10 +160,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
-                              "fVol": 0.8500000238418579,
+                              "fVol": 0.85,
                               "eCrossFade": "CROSS_FADE",
                               "fEnvFactor": 1.0
                             },
@@ -195,10 +195,10 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 3.0,
                               "fDelay": 0.0,
-                              "fVol": 0.8500000238418579,
+                              "fVol": 0.85,
                               "eCrossFade": "CROSS_FADE",
                               "bPauseOnPop": true,
                               "fEnvFactor": 1.0

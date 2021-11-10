@@ -22,12 +22,12 @@
                 ],
                 "vRotOffset": [
                   0.0,
-                  -0.05000000074505806,
-                  180.6199951171875
+                  -0.05,
+                  180.62
                 ],
                 "vColor": [
-                  0.8080000281333923,
-                  0.9746559858322144,
+                  0.808,
+                  0.974656,
                   1.0,
                   1.0
                 ],
@@ -38,7 +38,7 @@
                   130.0
                 ],
                 "fAttConstantFactor": 0.0,
-                "fAttQuadraticFactor": 0.15000000596046448,
+                "fAttQuadraticFactor": 0.15,
                 "fIntensity": 400.0,
                 "bCastShadows": true,
                 "bUseSpecular": true,
@@ -56,11 +56,11 @@
                 ],
                 "vRotOffset": [
                   0.0,
-                  0.6000000238418579,
-                  1.5700000524520874
+                  0.6,
+                  1.57
                 ],
                 "vColor": [
-                  0.8019999861717224,
+                  0.802,
                   1.0,
                   1.0,
                   1.0
@@ -72,7 +72,7 @@
                   90.0
                 ],
                 "fAttConstantFactor": 0.0,
-                "fAttQuadraticFactor": 0.20000000298023224,
+                "fAttQuadraticFactor": 0.2,
                 "fIntensity": 100.0,
                 "bCastShadows": false,
                 "bUseSpecular": true,

@@ -16,9 +16,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.2901960015296936,
-                      0.5333330035209656,
-                      0.47058799862861633,
+                      0.290196,
+                      0.533333,
+                      0.470588,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -32,7 +32,7 @@
                     "fWaveFreq": 0.0,
                     "fWaveAmp": 0.0,
                     "fWaveVelocity": 0.0,
-                    "fWaveInterp": 0.05638600140810013
+                    "fWaveInterp": 0.056386
                   }
                 },
                 "tVerticalFog": {
@@ -87,8 +87,8 @@
                   "Class": "CEnvironmentData::SDepthTint",
                   "Data": {
                     "fTintInterp": 1.0,
-                    "fLight": 0.6700000166893005,
-                    "fCube": 0.25999999046325684,
+                    "fLight": 0.67,
+                    "fCube": 0.26,
                     "fDepth": -148.0,
                     "fSaturation": 1.0,
                     "fLightNear": 1.0,
@@ -259,9 +259,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.3889999985694885,
-                      0.49300000071525574,
-                      0.4620000123977661,
+                      0.389,
+                      0.493,
+                      0.462,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -283,7 +283,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.16699999570846558,
+                      0.167,
                       0.0,
                       0.0,
                       1.0
@@ -316,7 +316,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -331,7 +331,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.10999999940395355,
+                    "fCube": 0.11,
                     "fDepth": -500.0,
                     "fSaturation": 1130.0,
                     "fLightNear": 0.0,
@@ -420,9 +420,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -452,7 +452,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -472,7 +472,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -486,7 +486,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.30000001192092896,
+                    "fCubeAttFactor": 0.3,
                     "fZDistance": 800.0,
                     "fGradientSize": 200.0
                   }
@@ -502,9 +502,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.531000018119812,
-                      0.6600000262260437,
-                      0.7770000100135803,
+                      0.531,
+                      0.66,
+                      0.777,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -526,9 +526,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.2240000069141388,
+                      0.224,
                       0.0,
-                      0.18799999356269836,
+                      0.188,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -559,7 +559,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -574,7 +574,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.28999999165534973,
+                    "fCube": 0.29,
                     "fDepth": -650.0,
                     "fSaturation": 1130.0,
                     "fLightNear": 0.0,
@@ -663,9 +663,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -695,7 +695,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -714,8 +714,8 @@
                     "vColorTint": [
                       0.0,
                       0.0,
-                      0.5130000114440918,
-                      0.10000000149011612
+                      0.513,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -729,7 +729,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.20999999344348907,
+                    "fCubeAttFactor": 0.21,
                     "fZDistance": 200.0,
                     "fGradientSize": 2200.0
                   }
@@ -745,9 +745,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.3499999940395355,
-                      0.44999998807907104,
-                      0.4300000071525574,
+                      0.35,
+                      0.45,
+                      0.43,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -769,10 +769,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.2150000035762787,
+                      0.215,
                       0.0,
-                      0.2290000021457672,
-                      0.699999988079071
+                      0.229,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -802,7 +802,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -817,7 +817,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.07999999821186066,
+                    "fCube": 0.08,
                     "fDepth": -350.0,
                     "fSaturation": 900.0,
                     "fLightNear": 0.0,
@@ -906,9 +906,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -958,7 +958,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -972,7 +972,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.18000000715255737,
+                    "fCubeAttFactor": 0.18,
                     "fZDistance": 400.0,
                     "fGradientSize": 1400.0
                   }
@@ -988,9 +988,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.3880000114440918,
-                      0.5410000085830688,
-                      0.5559999942779541,
+                      0.388,
+                      0.541,
+                      0.556,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -1012,8 +1012,8 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.2329999953508377,
-                      0.0560000017285347,
+                      0.233,
+                      0.056,
                       0.0,
                       1.0
                     ],
@@ -1045,7 +1045,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -1060,7 +1060,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.1599999964237213,
+                    "fCube": 0.16,
                     "fDepth": -450.0,
                     "fSaturation": 850.0,
                     "fLightNear": 0.0,
@@ -1149,9 +1149,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -1181,7 +1181,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -1193,15 +1193,15 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fExposure": 0.0,
-                    "fGamma": 1.100000023841858,
+                    "fGamma": 1.1,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.0049999952316284,
+                    "fContrast": 1.005,
                     "fBrightness": 1.0,
                     "vColorTint": [
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -1215,7 +1215,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.30000001192092896,
+                    "fCubeAttFactor": 0.3,
                     "fZDistance": 800.0,
                     "fGradientSize": 200.0
                   }
@@ -1231,8 +1231,8 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.33000001311302185,
-                      0.5210000276565552,
+                      0.33,
+                      0.521,
                       0.5,
                       1.0
                     ],
@@ -1255,7 +1255,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.23100000619888306,
+                      0.231,
                       0.0,
                       0.0,
                       1.0
@@ -1288,7 +1288,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -1303,7 +1303,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.1899999976158142,
+                    "fCube": 0.19,
                     "fDepth": -470.0,
                     "fSaturation": 280.0,
                     "fLightNear": 0.0,
@@ -1392,9 +1392,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -1424,7 +1424,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -1435,7 +1435,7 @@
                   "Class": "CEnvironmentData::SToneMapping",
                   "Data": {
                     "fInterp": 1.0,
-                    "fExposure": 0.20000000298023224,
+                    "fExposure": 0.2,
                     "fGamma": 1.0,
                     "fSaturationColor": 1.0,
                     "fContrast": 1.0,
@@ -1444,7 +1444,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -1458,7 +1458,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.30000001192092896,
+                    "fCubeAttFactor": 0.3,
                     "fZDistance": 800.0,
                     "fGradientSize": 200.0
                   }
@@ -1474,9 +1474,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.9764710068702698,
+                      0.976471,
                       1.0,
-                      0.9450979828834534,
+                      0.945098,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -1500,7 +1500,7 @@
                     "tColor": [
                       1.0,
                       1.0,
-                      0.8349999785423279,
+                      0.835,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -1546,10 +1546,10 @@
                   "Data": {
                     "fTintInterp": 1.0,
                     "fLight": 1.0,
-                    "fCube": 0.30000001192092896,
+                    "fCube": 0.3,
                     "fDepth": -150.0,
                     "fSaturation": 80.0,
-                    "fLightNear": 0.6800000071525574,
+                    "fLightNear": 0.68,
                     "fCubeNear": 1.0,
                     "fDepthNear": 150.0,
                     "fSaturationNear": 0.0
@@ -1635,9 +1635,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -1666,8 +1666,8 @@
                   "Class": "CEnvironmentData::SSSAO",
                   "Data": {
                     "fInterp": 1.0,
-                    "fIntensityFactor": 0.14000000059604645,
-                    "fFogFactor": 0.36000001430511475
+                    "fIntensityFactor": 0.14,
+                    "fFogFactor": 0.36
                   }
                 },
                 "tSSAOTransitions": {
@@ -1678,16 +1678,16 @@
                   "Class": "CEnvironmentData::SToneMapping",
                   "Data": {
                     "fInterp": 1.0,
-                    "fExposure": 0.699999988079071,
-                    "fGamma": 1.2999999523162842,
+                    "fExposure": 0.7,
+                    "fGamma": 1.3,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.0800000429153442,
+                    "fContrast": 1.08,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.16500000655651093,
-                      0.2150000035762787,
-                      0.3109999895095825,
-                      0.20000000298023224
+                      0.165,
+                      0.215,
+                      0.311,
+                      0.2
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -1717,9 +1717,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.5199999809265137,
-                      0.5099999904632568,
+                      0.4,
+                      0.52,
+                      0.51,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -1741,7 +1741,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
+                      0.13,
                       0.0,
                       0.0,
                       1.0
@@ -1774,7 +1774,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -1789,7 +1789,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.2199999988079071,
+                    "fCube": 0.22,
                     "fDepth": -950.0,
                     "fSaturation": 80.0,
                     "fLightNear": 0.0,
@@ -1878,9 +1878,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -1910,7 +1910,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -1927,10 +1927,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.6000000238418579,
+                      0.6,
                       0.0,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -1944,7 +1944,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.2199999988079071,
+                    "fCubeAttFactor": 0.22,
                     "fZDistance": 130.0,
                     "fGradientSize": 250.0
                   }
@@ -1960,9 +1960,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.5230000019073486,
-                      0.6890000104904175,
-                      0.9649999737739563,
+                      0.523,
+                      0.689,
+                      0.965,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -1984,9 +1984,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.2590000033378601,
-                      0.20900000631809235,
-                      0.3440000116825104,
+                      0.259,
+                      0.209,
+                      0.344,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -2032,7 +2032,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.17000000178813934,
+                    "fCube": 0.17,
                     "fDepth": -850.0,
                     "fSaturation": 1440.0,
                     "fLightNear": 0.0,
@@ -2121,9 +2121,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -2167,13 +2167,13 @@
                     "fExposure": 0.0,
                     "fGamma": 1.0,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.100000023841858,
+                    "fContrast": 1.1,
                     "fBrightness": 1.0,
                     "vColorTint": [
                       1.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -2187,7 +2187,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.20000000298023224,
+                    "fCubeAttFactor": 0.2,
                     "fZDistance": 440.0,
                     "fGradientSize": 250.0
                   }
@@ -2203,9 +2203,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.8140000104904175,
-                      0.8330000042915344,
-                      0.7919999957084656,
+                      0.814,
+                      0.833,
+                      0.792,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -2219,7 +2219,7 @@
                     "fWaveFreq": 0.0,
                     "fWaveAmp": 0.0,
                     "fWaveVelocity": 0.0,
-                    "fWaveInterp": 0.05638600140810013
+                    "fWaveInterp": 0.056386
                   }
                 },
                 "tVerticalFog": {
@@ -2227,9 +2227,9 @@
                   "Data": {
                     "bEnabled": false,
                     "tColor": [
-                      0.8100000023841858,
+                      0.81,
                       1.0,
-                      0.9520000219345093,
+                      0.952,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -2364,9 +2364,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -2413,9 +2413,9 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.5320000052452087,
-                      0.5320000052452087,
-                      0.7860000133514404,
+                      0.532,
+                      0.532,
+                      0.786,
                       0.25
                     ],
                     "fColorVibrance": 0.0,
@@ -2430,7 +2430,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.30000001192092896,
+                    "fCubeAttFactor": 0.3,
                     "fZDistance": 150.0,
                     "fGradientSize": 25.0
                   }
@@ -2446,9 +2446,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.3499999940395355,
-                      0.4000000059604645,
+                      0.4,
+                      0.35,
+                      0.4,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -2470,9 +2470,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
-                      0.14499999582767487,
-                      0.10000000149011612,
+                      0.1,
+                      0.145,
+                      0.1,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -2503,7 +2503,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -2518,10 +2518,10 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.550000011920929,
+                    "fCube": 0.55,
                     "fDepth": -650.0,
                     "fSaturation": 80.0,
-                    "fLightNear": 0.2199999988079071,
+                    "fLightNear": 0.22,
                     "fCubeNear": 0.0,
                     "fDepthNear": 145.0,
                     "fSaturationNear": 0.0
@@ -2607,9 +2607,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -2656,7 +2656,7 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.10999999940395355,
+                      0.11,
                       0.0,
                       0.0,
                       0.25
@@ -2673,7 +2673,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.07000000029802322,
+                    "fCubeAttFactor": 0.07,
                     "fZDistance": 800.0,
                     "fGradientSize": 500.0
                   }
@@ -2689,9 +2689,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.9764710068702698,
+                      0.976471,
                       1.0,
-                      0.9450979828834534,
+                      0.945098,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -2715,7 +2715,7 @@
                     "tColor": [
                       1.0,
                       1.0,
-                      0.8349999785423279,
+                      0.835,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -2761,10 +2761,10 @@
                   "Data": {
                     "fTintInterp": 1.0,
                     "fLight": 1.0,
-                    "fCube": 0.3499999940395355,
+                    "fCube": 0.35,
                     "fDepth": -150.0,
                     "fSaturation": 80.0,
-                    "fLightNear": 0.6800000071525574,
+                    "fLightNear": 0.68,
                     "fCubeNear": 1.0,
                     "fDepthNear": 150.0,
                     "fSaturationNear": 0.0
@@ -2850,9 +2850,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -2881,8 +2881,8 @@
                   "Class": "CEnvironmentData::SSSAO",
                   "Data": {
                     "fInterp": 1.0,
-                    "fIntensityFactor": 0.14000000059604645,
-                    "fFogFactor": 0.36000001430511475
+                    "fIntensityFactor": 0.14,
+                    "fFogFactor": 0.36
                   }
                 },
                 "tSSAOTransitions": {
@@ -2896,13 +2896,13 @@
                     "fExposure": 1.0,
                     "fGamma": 1.5,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.0800000429153442,
+                    "fContrast": 1.08,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.16500000655651093,
-                      0.2150000035762787,
-                      0.3109999895095825,
-                      0.5249999761581421
+                      0.165,
+                      0.215,
+                      0.311,
+                      0.525
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -2933,7 +2933,7 @@
                   "Data": {
                     "tColor": [
                       1.0,
-                      0.4300000071525574,
+                      0.43,
                       0.0,
                       1.0
                     ],
@@ -2988,7 +2988,7 @@
                   "Data": {
                     "tColor": [
                       0.0,
-                      0.04600000008940697,
+                      0.046,
                       0.0,
                       1.0
                     ],
@@ -3004,7 +3004,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.7799999713897705,
+                    "fCube": 0.78,
                     "fDepth": -600.0,
                     "fSaturation": 870.0,
                     "fLightNear": 0.5,
@@ -3093,9 +3093,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -3136,16 +3136,16 @@
                   "Class": "CEnvironmentData::SToneMapping",
                   "Data": {
                     "fInterp": 1.0,
-                    "fExposure": 0.20000000298023224,
-                    "fGamma": 1.100000023841858,
+                    "fExposure": 0.2,
+                    "fGamma": 1.1,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.0010000467300415,
+                    "fContrast": 1.001,
                     "fBrightness": 1.0,
                     "vColorTint": [
                       1.0,
                       0.0,
                       0.0,
-                      0.4000000059604645
+                      0.4
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -3175,9 +3175,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.9700000286102295,
-                      0.8999999761581421,
-                      0.9399999976158142,
+                      0.97,
+                      0.9,
+                      0.94,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -3199,7 +3199,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.05999999865889549,
+                      0.06,
                       0.0,
                       0.125,
                       1.0
@@ -3247,11 +3247,11 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.23999999463558197,
+                    "fCube": 0.24,
                     "fDepth": -600.0,
                     "fSaturation": 210.0,
-                    "fLightNear": 0.800000011920929,
-                    "fCubeNear": 0.20000000298023224,
+                    "fLightNear": 0.8,
+                    "fCubeNear": 0.2,
                     "fDepthNear": 100.0,
                     "fSaturationNear": 200.0
                   }
@@ -3336,9 +3336,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 0.0
                   }
@@ -3388,7 +3388,7 @@
                       0.0,
                       0.0,
                       0.25,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 1.0,
                     "bEnabled": true
@@ -3402,7 +3402,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.23000000417232513,
+                    "fCubeAttFactor": 0.23,
                     "fZDistance": 550.0,
                     "fGradientSize": 110.0
                   }
@@ -3421,7 +3421,7 @@
                       1.0,
                       1.0,
                       1.0,
-                      0.9900000095367432
+                      0.99
                     ],
                     "fColorInterp": 1.0,
                     "fScale": 1.0,
@@ -3442,9 +3442,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15600000321865082,
-                      0.11800000071525574,
-                      0.04500000178813934,
+                      0.156,
+                      0.118,
+                      0.045,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -3475,7 +3475,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -3490,7 +3490,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.4099999964237213,
+                    "fCube": 0.41,
                     "fDepth": -850.0,
                     "fSaturation": 540.0,
                     "fLightNear": 0.0,
@@ -3579,9 +3579,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -3611,7 +3611,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -3628,8 +3628,8 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.15000000596046448,
-                      0.10000000149011612,
+                      0.15,
+                      0.1,
                       0.0,
                       0.0
                     ],
@@ -3645,7 +3645,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.5699999928474426,
+                    "fCubeAttFactor": 0.57,
                     "fZDistance": 700.0,
                     "fGradientSize": 800.0
                   }
@@ -3661,9 +3661,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.3499999940395355,
-                      0.5149999856948853,
-                      0.5170000195503235,
+                      0.35,
+                      0.515,
+                      0.517,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -3685,7 +3685,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.1599999964237213,
+                      0.16,
                       0.0,
                       0.0,
                       1.0
@@ -3718,7 +3718,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -3733,11 +3733,11 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.23999999463558197,
+                    "fCube": 0.24,
                     "fDepth": -200.0,
                     "fSaturation": 380.0,
                     "fLightNear": 0.0,
-                    "fCubeNear": 0.05000000074505806,
+                    "fCubeNear": 0.05,
                     "fDepthNear": 85.0,
                     "fSaturationNear": 0.0
                   }
@@ -3822,9 +3822,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -3871,10 +3871,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -3888,7 +3888,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.7099999785423279,
+                    "fCubeAttFactor": 0.71,
                     "fZDistance": 1500.0,
                     "fGradientSize": 100.0
                   }
@@ -4065,9 +4065,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -4147,9 +4147,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.5199999809265137,
-                      0.6100000143051147,
-                      0.7350000143051147,
+                      0.52,
+                      0.61,
+                      0.735,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4171,9 +4171,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.05000000074505806,
-                      0.07500000298023224,
-                      0.07500000298023224,
+                      0.05,
+                      0.075,
+                      0.075,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4219,7 +4219,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.6499999761581421,
+                    "fCube": 0.65,
                     "fDepth": -800.0,
                     "fSaturation": 100.0,
                     "fLightNear": 1.0,
@@ -4308,9 +4308,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -4340,7 +4340,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 0.5,
-                    "fFogFactor": 0.4000000059604645
+                    "fFogFactor": 0.4
                   }
                 },
                 "tSSAOTransitions": {
@@ -4357,10 +4357,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.30000001192092896,
+                      0.3,
                       0.0,
-                      0.20000000298023224,
-                      0.10000000149011612
+                      0.2,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -4374,7 +4374,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.4000000059604645,
+                    "fCubeAttFactor": 0.4,
                     "fZDistance": 150.0,
                     "fGradientSize": 400.0
                   }
@@ -4390,9 +4390,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.5199999809265137,
-                      0.6100000143051147,
-                      0.7350000143051147,
+                      0.52,
+                      0.61,
+                      0.735,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4414,9 +4414,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.05000000074505806,
-                      0.07500000298023224,
-                      0.07500000298023224,
+                      0.05,
+                      0.075,
+                      0.075,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4462,7 +4462,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.6499999761581421,
+                    "fCube": 0.65,
                     "fDepth": -800.0,
                     "fSaturation": 100.0,
                     "fLightNear": 1.0,
@@ -4551,9 +4551,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -4583,7 +4583,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 0.5,
-                    "fFogFactor": 0.4000000059604645
+                    "fFogFactor": 0.4
                   }
                 },
                 "tSSAOTransitions": {
@@ -4600,10 +4600,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.30000001192092896,
+                      0.3,
                       0.0,
-                      0.20000000298023224,
-                      0.10000000149011612
+                      0.2,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -4617,7 +4617,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.4000000059604645,
+                    "fCubeAttFactor": 0.4,
                     "fZDistance": 150.0,
                     "fGradientSize": 400.0
                   }
@@ -4633,9 +4633,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.6000000238418579,
-                      0.6800000071525574,
-                      0.7599999904632568,
+                      0.6,
+                      0.68,
+                      0.76,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4657,9 +4657,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
-                      0.12999999523162842,
-                      0.33500000834465027,
+                      0.13,
+                      0.13,
+                      0.335,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4794,9 +4794,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -4826,7 +4826,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 0.5,
-                    "fFogFactor": 0.4000000059604645
+                    "fFogFactor": 0.4
                   }
                 },
                 "tSSAOTransitions": {
@@ -4843,10 +4843,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3199999928474426,
+                      0.32,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -4860,7 +4860,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3499999940395355,
+                    "fCubeAttFactor": 0.35,
                     "fZDistance": 650.0,
                     "fGradientSize": 150.0
                   }
@@ -4876,9 +4876,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.5199999809265137,
-                      0.5099999904632568,
+                      0.4,
+                      0.52,
+                      0.51,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -4900,7 +4900,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
+                      0.13,
                       0.0,
                       0.0,
                       1.0
@@ -4933,7 +4933,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -5037,9 +5037,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -5069,7 +5069,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -5086,10 +5086,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.6000000238418579,
+                      0.6,
                       0.0,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -5103,7 +5103,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.12999999523162842,
+                    "fCubeAttFactor": 0.13,
                     "fZDistance": 130.0,
                     "fGradientSize": 250.0
                   }
@@ -5119,9 +5119,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.5199999809265137,
-                      0.5099999904632568,
+                      0.4,
+                      0.52,
+                      0.51,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -5143,7 +5143,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
+                      0.13,
                       0.0,
                       0.0,
                       1.0
@@ -5176,7 +5176,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -5191,7 +5191,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.4300000071525574,
+                    "fCube": 0.43,
                     "fDepth": -950.0,
                     "fSaturation": 1460.0,
                     "fLightNear": 0.0,
@@ -5280,9 +5280,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -5312,7 +5312,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -5329,10 +5329,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.6000000238418579,
+                      0.6,
                       0.0,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -5346,7 +5346,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.4300000071525574,
+                    "fCubeAttFactor": 0.43,
                     "fZDistance": 150.0,
                     "fGradientSize": 650.0
                   }
@@ -5362,9 +5362,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.5199999809265137,
-                      0.5099999904632568,
+                      0.4,
+                      0.52,
+                      0.51,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -5386,7 +5386,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
+                      0.13,
                       0.0,
                       0.0,
                       1.0
@@ -5419,7 +5419,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -5434,7 +5434,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.1599999964237213,
+                    "fCube": 0.16,
                     "fDepth": -950.0,
                     "fSaturation": 740.0,
                     "fLightNear": 0.0,
@@ -5523,9 +5523,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -5555,7 +5555,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -5572,10 +5572,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.6000000238418579,
+                      0.6,
                       0.0,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -5589,7 +5589,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.2800000011920929,
+                    "fCubeAttFactor": 0.28,
                     "fZDistance": 50.0,
                     "fGradientSize": 650.0
                   }
@@ -5605,9 +5605,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -5629,7 +5629,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
                       1.0
@@ -5662,7 +5662,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -5677,7 +5677,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.7300000190734863,
+                    "fCube": 0.73,
                     "fDepth": -450.0,
                     "fSaturation": 510.0,
                     "fLightNear": 0.0,
@@ -5766,9 +5766,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -5815,10 +5815,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -5832,7 +5832,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.4000000059604645,
+                    "fCubeAttFactor": 0.4,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -5849,8 +5849,8 @@
                   "Data": {
                     "tColor": [
                       0.75,
-                      0.8100000023841858,
-                      0.699999988079071,
+                      0.81,
+                      0.7,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -5873,8 +5873,8 @@
                     "bEnabled": true,
                     "tColor": [
                       0.0,
-                      0.03999999910593033,
-                      0.11999999731779099,
+                      0.04,
+                      0.12,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -5905,7 +5905,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -5920,7 +5920,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.2800000011920929,
+                    "fCube": 0.28,
                     "fDepth": -1250.0,
                     "fSaturation": 750.0,
                     "fLightNear": 0.0,
@@ -6009,9 +6009,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -6059,9 +6059,9 @@
                     "fBrightness": 1.0,
                     "vColorTint": [
                       0.0,
-                      0.15000000596046448,
+                      0.15,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -6091,9 +6091,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -6115,7 +6115,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
                       1.0
@@ -6148,7 +6148,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -6163,10 +6163,10 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.7300000190734863,
+                    "fCube": 0.73,
                     "fDepth": -450.0,
                     "fSaturation": 180.0,
-                    "fLightNear": 0.5600000023841858,
+                    "fLightNear": 0.56,
                     "fCubeNear": 0.0,
                     "fDepthNear": 110.0,
                     "fSaturationNear": 30.0
@@ -6252,9 +6252,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -6301,10 +6301,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -6318,7 +6318,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.36000001430511475,
+                    "fCubeAttFactor": 0.36,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -6334,9 +6334,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -6358,7 +6358,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
                       1.0
@@ -6391,7 +6391,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -6406,7 +6406,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.7599999904632568,
+                    "fCube": 0.76,
                     "fDepth": -450.0,
                     "fSaturation": 180.0,
                     "fLightNear": 0.0,
@@ -6495,9 +6495,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -6544,10 +6544,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -6577,9 +6577,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -6601,9 +6601,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
-                      0.07999999821186066,
-                      0.019999999552965164,
+                      0.1,
+                      0.08,
+                      0.02,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -6634,7 +6634,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -6649,7 +6649,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.23999999463558197,
+                    "fCube": 0.24,
                     "fDepth": -450.0,
                     "fSaturation": 260.0,
                     "fLightNear": 0.0,
@@ -6738,9 +6738,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -6787,10 +6787,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -6804,7 +6804,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.6000000238418579,
+                    "fCubeAttFactor": 0.6,
                     "fZDistance": 550.0,
                     "fGradientSize": 1050.0
                   }
@@ -6820,9 +6820,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -6844,7 +6844,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -6877,7 +6877,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -6892,7 +6892,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.4000000059604645,
+                    "fCube": 0.4,
                     "fDepth": -450.0,
                     "fSaturation": 180.0,
                     "fLightNear": 0.0,
@@ -6981,9 +6981,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -7030,10 +7030,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -7063,9 +7063,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -7087,7 +7087,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -7120,7 +7120,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -7135,7 +7135,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.4000000059604645,
+                    "fCube": 0.4,
                     "fDepth": -450.0,
                     "fSaturation": 180.0,
                     "fLightNear": 0.0,
@@ -7224,9 +7224,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -7273,10 +7273,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -7306,9 +7306,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -7330,7 +7330,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -7363,7 +7363,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -7378,7 +7378,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.30000001192092896,
+                    "fCube": 0.3,
                     "fDepth": -550.0,
                     "fSaturation": 900.0,
                     "fLightNear": 0.0,
@@ -7467,9 +7467,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -7516,10 +7516,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -7533,7 +7533,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.44999998807907104,
+                    "fCubeAttFactor": 0.45,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -7549,9 +7549,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -7573,7 +7573,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -7606,7 +7606,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -7621,7 +7621,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.4000000059604645,
+                    "fCube": 0.4,
                     "fDepth": -650.0,
                     "fSaturation": 680.0,
                     "fLightNear": 0.0,
@@ -7710,9 +7710,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -7759,10 +7759,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -7776,7 +7776,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.12999999523162842,
+                    "fCubeAttFactor": 0.13,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -7792,9 +7792,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -7816,7 +7816,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -7849,7 +7849,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -7864,7 +7864,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.5799999833106995,
+                    "fCube": 0.58,
                     "fDepth": -450.0,
                     "fSaturation": 230.0,
                     "fLightNear": 0.0,
@@ -7953,9 +7953,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -8002,10 +8002,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -8035,9 +8035,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -8059,7 +8059,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -8092,7 +8092,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -8107,7 +8107,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.6000000238418579,
+                    "fCube": 0.6,
                     "fDepth": -850.0,
                     "fSaturation": 0.0,
                     "fLightNear": 0.0,
@@ -8196,9 +8196,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -8245,10 +8245,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -8278,9 +8278,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -8302,7 +8302,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
                       1.0
@@ -8335,7 +8335,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -8350,7 +8350,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.699999988079071,
+                    "fCube": 0.7,
                     "fDepth": -280.0,
                     "fSaturation": 150.0,
                     "fLightNear": 0.0,
@@ -8439,9 +8439,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -8488,10 +8488,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -8505,7 +8505,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.17000000178813934,
+                    "fCubeAttFactor": 0.17,
                     "fZDistance": 380.0,
                     "fGradientSize": 350.0
                   }
@@ -8521,9 +8521,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -8545,7 +8545,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
+                      0.1,
                       0.0,
                       0.0,
                       1.0
@@ -8578,7 +8578,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -8593,7 +8593,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.5799999833106995,
+                    "fCube": 0.58,
                     "fDepth": -450.0,
                     "fSaturation": 230.0,
                     "fLightNear": 0.0,
@@ -8682,9 +8682,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -8731,10 +8731,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -8764,9 +8764,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.4000000059604645,
-                      0.5199999809265137,
-                      0.5099999904632568,
+                      0.4,
+                      0.52,
+                      0.51,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -8788,7 +8788,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.12999999523162842,
+                      0.13,
                       0.0,
                       0.0,
                       1.0
@@ -8821,7 +8821,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -8836,7 +8836,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.550000011920929,
+                    "fCube": 0.55,
                     "fDepth": -950.0,
                     "fSaturation": 870.0,
                     "fLightNear": 0.0,
@@ -8925,9 +8925,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -8957,7 +8957,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 1.0,
-                    "fFogFactor": 0.4399999976158142
+                    "fFogFactor": 0.44
                   }
                 },
                 "tSSAOTransitions": {
@@ -8974,10 +8974,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.6000000238418579,
+                      0.6,
                       0.0,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -9007,9 +9007,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -9031,8 +9031,8 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
-                      0.10000000149011612,
+                      0.1,
+                      0.1,
                       0.0,
                       1.0
                     ],
@@ -9064,7 +9064,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -9168,9 +9168,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -9217,10 +9217,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -9234,7 +9234,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.12999999523162842,
+                    "fCubeAttFactor": 0.13,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -9250,9 +9250,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -9274,10 +9274,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -9307,7 +9307,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -9322,7 +9322,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -9411,9 +9411,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -9463,7 +9463,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -9477,7 +9477,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -9493,10 +9493,10 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.8500000238418579,
-                      0.949999988079071,
+                      0.85,
+                      0.95,
                       1.0,
-                      0.15000000596046448
+                      0.15
                     ],
                     "fColorInterp": 1.0,
                     "fScale": 1.0,
@@ -9517,9 +9517,9 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.10000000149011612,
-                      0.10000000149011612,
-                      0.10000000149011612,
+                      0.1,
+                      0.1,
+                      0.1,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -9550,7 +9550,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -9565,7 +9565,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.3100000023841858,
+                    "fCube": 0.31,
                     "fDepth": -450.0,
                     "fSaturation": 440.0,
                     "fLightNear": 0.0,
@@ -9654,9 +9654,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -9686,7 +9686,7 @@
                   "Data": {
                     "fInterp": 1.0,
                     "fIntensityFactor": 0.5,
-                    "fFogFactor": 0.4000000059604645
+                    "fFogFactor": 0.4
                   }
                 },
                 "tSSAOTransitions": {
@@ -9705,8 +9705,8 @@
                     "vColorTint": [
                       0.0,
                       0.0,
-                      0.3499999940395355,
-                      0.10000000149011612
+                      0.35,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -9720,7 +9720,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.30000001192092896,
+                    "fCubeAttFactor": 0.3,
                     "fZDistance": 50.0,
                     "fGradientSize": 45550.0
                   }
@@ -9736,9 +9736,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -9760,10 +9760,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -9793,7 +9793,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -9808,7 +9808,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.10000000149011612,
+                    "fCube": 0.1,
                     "fDepth": -450.0,
                     "fSaturation": 890.0,
                     "fLightNear": 0.0,
@@ -9897,9 +9897,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -9949,7 +9949,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -9963,7 +9963,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -9979,9 +9979,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -10003,10 +10003,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -10036,7 +10036,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -10051,7 +10051,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -10140,9 +10140,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -10192,7 +10192,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -10206,7 +10206,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -10222,9 +10222,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -10246,10 +10246,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -10279,7 +10279,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -10294,7 +10294,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -10383,9 +10383,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -10435,7 +10435,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -10449,7 +10449,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -10465,9 +10465,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -10489,10 +10489,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -5500.0,
@@ -10522,7 +10522,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -10537,7 +10537,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -10626,9 +10626,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -10678,7 +10678,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -10692,7 +10692,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -10708,9 +10708,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -10732,10 +10732,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -2500.0,
@@ -10765,7 +10765,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -10780,7 +10780,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -10869,9 +10869,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -10921,7 +10921,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -10935,7 +10935,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -10951,9 +10951,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.8100000023841858,
-                      0.7799999713897705,
+                      0.7,
+                      0.81,
+                      0.78,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -10975,7 +10975,7 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.11999999731779099,
+                      0.12,
                       0.0,
                       0.0,
                       1.0
@@ -11008,7 +11008,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -11026,7 +11026,7 @@
                     "fCube": 0.5,
                     "fDepth": -250.0,
                     "fSaturation": 290.0,
-                    "fLightNear": 0.5600000023841858,
+                    "fLightNear": 0.56,
                     "fCubeNear": 0.0,
                     "fDepthNear": 110.0,
                     "fSaturationNear": 30.0
@@ -11112,9 +11112,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -11161,10 +11161,10 @@
                     "fContrast": 1.0,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.3499999940395355,
+                      0.35,
                       0.0,
-                      0.699999988079071,
-                      0.10000000149011612
+                      0.7,
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -11178,7 +11178,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.36000001430511475,
+                    "fCubeAttFactor": 0.36,
                     "fZDistance": 20.0,
                     "fGradientSize": 350.0
                   }
@@ -11194,9 +11194,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.699999988079071,
-                      0.699999988079071,
-                      0.699999988079071,
+                      0.7,
+                      0.7,
+                      0.7,
                       1.0
                     ],
                     "fColorInterp": 1.0,
@@ -11218,10 +11218,10 @@
                   "Data": {
                     "bEnabled": true,
                     "tColor": [
-                      0.15000000596046448,
-                      0.15299999713897705,
-                      0.15000000596046448,
-                      0.699999988079071
+                      0.15,
+                      0.153,
+                      0.15,
+                      0.7
                     ],
                     "fColorInterp": 0.0,
                     "fBase": -2500.0,
@@ -11251,7 +11251,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -11266,7 +11266,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.15000000596046448,
+                    "fCube": 0.15,
                     "fDepth": -450.0,
                     "fSaturation": 1170.0,
                     "fLightNear": 0.0,
@@ -11355,9 +11355,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -11407,7 +11407,7 @@
                       0.0,
                       0.0,
                       0.0,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -11421,7 +11421,7 @@
                   "Class": "CEnvironmentData::SIBLAttenuation",
                   "Data": {
                     "fInterp": 1.0,
-                    "fCubeAttFactor": 0.3799999952316284,
+                    "fCubeAttFactor": 0.38,
                     "fZDistance": 500.0,
                     "fGradientSize": 1200.0
                   }
@@ -11438,8 +11438,8 @@
                   "Data": {
                     "tColor": [
                       0.75,
-                      0.8100000023841858,
-                      0.699999988079071,
+                      0.81,
+                      0.7,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -11462,8 +11462,8 @@
                     "bEnabled": true,
                     "tColor": [
                       0.0,
-                      0.03999999910593033,
-                      0.11999999731779099,
+                      0.04,
+                      0.12,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -11494,7 +11494,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -11509,7 +11509,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.2800000011920929,
+                    "fCube": 0.28,
                     "fDepth": -1250.0,
                     "fSaturation": 750.0,
                     "fLightNear": 0.0,
@@ -11598,9 +11598,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -11648,9 +11648,9 @@
                     "fBrightness": 1.0,
                     "vColorTint": [
                       0.0,
-                      0.15000000596046448,
+                      0.15,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -11681,8 +11681,8 @@
                   "Data": {
                     "tColor": [
                       0.75,
-                      0.8100000023841858,
-                      0.699999988079071,
+                      0.81,
+                      0.7,
                       0.5
                     ],
                     "fColorInterp": 1.0,
@@ -11705,8 +11705,8 @@
                     "bEnabled": true,
                     "tColor": [
                       0.0,
-                      0.03999999910593033,
-                      0.11999999731779099,
+                      0.04,
+                      0.12,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -11737,7 +11737,7 @@
                     "tColor": [
                       0.0,
                       0.0,
-                      0.5979999899864197,
+                      0.598,
                       1.0
                     ],
                     "fColorInterp": 1.0
@@ -11752,7 +11752,7 @@
                   "Data": {
                     "fTintInterp": 0.0,
                     "fLight": 1.0,
-                    "fCube": 0.2800000011920929,
+                    "fCube": 0.28,
                     "fDepth": -1250.0,
                     "fSaturation": 750.0,
                     "fLightNear": 0.0,
@@ -11841,9 +11841,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -11891,9 +11891,9 @@
                     "fBrightness": 1.0,
                     "vColorTint": [
                       0.0,
-                      0.15000000596046448,
+                      0.15,
                       0.5,
-                      0.10000000149011612
+                      0.1
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false
@@ -11923,9 +11923,9 @@
                   "Class": "CEnvironmentData::SFog",
                   "Data": {
                     "tColor": [
-                      0.9764710068702698,
+                      0.976471,
                       1.0,
-                      0.9450979828834534,
+                      0.945098,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -11949,7 +11949,7 @@
                     "tColor": [
                       1.0,
                       1.0,
-                      0.8349999785423279,
+                      0.835,
                       1.0
                     ],
                     "fColorInterp": 0.0,
@@ -11995,10 +11995,10 @@
                   "Data": {
                     "fTintInterp": 1.0,
                     "fLight": 1.0,
-                    "fCube": 0.30000001192092896,
+                    "fCube": 0.3,
                     "fDepth": -600.0,
                     "fSaturation": 830.0,
-                    "fLightNear": 0.6800000071525574,
+                    "fLightNear": 0.68,
                     "fCubeNear": 1.0,
                     "fDepthNear": 150.0,
                     "fSaturationNear": 0.0
@@ -12084,9 +12084,9 @@
                   "Class": "CEnvironmentData::SBloom",
                   "Data": {
                     "tBloom": [
-                      0.11999999731779099,
-                      0.11999999731779099,
-                      0.11999999731779099
+                      0.12,
+                      0.12,
+                      0.12
                     ],
                     "fBloomInterp": 1.0
                   }
@@ -12115,8 +12115,8 @@
                   "Class": "CEnvironmentData::SSSAO",
                   "Data": {
                     "fInterp": 1.0,
-                    "fIntensityFactor": 0.14000000059604645,
-                    "fFogFactor": 0.36000001430511475
+                    "fIntensityFactor": 0.14,
+                    "fFogFactor": 0.36
                   }
                 },
                 "tSSAOTransitions": {
@@ -12127,16 +12127,16 @@
                   "Class": "CEnvironmentData::SToneMapping",
                   "Data": {
                     "fInterp": 1.0,
-                    "fExposure": 0.699999988079071,
-                    "fGamma": 1.2999999523162842,
+                    "fExposure": 0.7,
+                    "fGamma": 1.3,
                     "fSaturationColor": 1.0,
-                    "fContrast": 1.0800000429153442,
+                    "fContrast": 1.08,
                     "fBrightness": 1.0,
                     "vColorTint": [
-                      0.16500000655651093,
-                      0.2150000035762787,
-                      0.3109999895095825,
-                      0.20000000298023224
+                      0.165,
+                      0.215,
+                      0.311,
+                      0.2
                     ],
                     "fColorVibrance": 0.0,
                     "bEnabled": false

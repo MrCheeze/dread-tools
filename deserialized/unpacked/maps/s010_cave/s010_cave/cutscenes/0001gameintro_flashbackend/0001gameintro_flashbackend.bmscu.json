@@ -9,7 +9,7 @@
     "vWorldOffset": [
       -3500.0,
       -9600.0,
-      -0.0004380799946375191
+      -0.00043808
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "s010_cave.OnBeforeCutscene0001FlashbackEndStarted",

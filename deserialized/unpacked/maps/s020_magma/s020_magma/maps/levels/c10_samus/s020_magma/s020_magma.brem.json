@@ -55,7 +55,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 1.100000023841858,
+                      "fVol": 1.1,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
                     }
@@ -109,7 +109,7 @@
                       "fFadeIn": 1.0,
                       "fFadeOut": 1.0,
                       "fDelay": 1.5,
-                      "fVol": 0.800000011920929,
+                      "fVol": 0.8,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 1.0
                     }
@@ -134,11 +134,11 @@
                         }
                       ],
                       "fFadeIn": 1.0,
-                      "fFadeOut": 0.10000000149011612,
+                      "fFadeOut": 0.1,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
-                      "fEnvFactor": 0.800000011920929
+                      "fEnvFactor": 0.8
                     }
                   ]
                 },
@@ -160,10 +160,10 @@
                           "iLoopEnd": -1
                         }
                       ],
-                      "fFadeIn": 0.10000000149011612,
+                      "fFadeIn": 0.1,
                       "fFadeOut": 1.0,
                       "fDelay": 0.0,
-                      "fVol": 1.2000000476837158,
+                      "fVol": 1.2,
                       "eCrossFade": "CROSS_FADE",
                       "fEnvFactor": 2.0
                     }
@@ -188,7 +188,7 @@
                         }
                       ],
                       "fFadeIn": 1.0,
-                      "fFadeOut": 0.10000000149011612,
+                      "fFadeOut": 0.1,
                       "fDelay": 0.0,
                       "fVol": 1.0,
                       "eCrossFade": "CROSS_FADE",
@@ -221,7 +221,7 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
                               "fVol": 1.0,
@@ -242,7 +242,7 @@
                                   "iLoopEnd": -1
                                 }
                               ],
-                              "fFadeIn": 0.10000000149011612,
+                              "fFadeIn": 0.1,
                               "fFadeOut": 1.0,
                               "fDelay": 0.0,
                               "fVol": 1.0,

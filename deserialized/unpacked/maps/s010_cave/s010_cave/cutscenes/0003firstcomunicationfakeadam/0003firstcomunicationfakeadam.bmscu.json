@@ -7,9 +7,9 @@
     "sId": "0003firstcomunicationfakeadam",
     "sActionSet": "cutscenes/0003firstcomunicationfakeadam/0003firstcomunicationfakeadam.bmsas",
     "vWorldOffset": [
-      7011.60009765625,
-      -7278.2998046875,
-      -8.800000190734863
+      7011.6,
+      -7278.3,
+      -8.8
     ],
     "sOnLoaded": "",
     "sOnBeforeStart": "",

@@ -128,6 +128,55 @@
     "oPoolDefinitions": {
       "lPoolDefinitions": [
         {
+          "sFile": "cutscenes/0005meleetutorial/fx/step_dust01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 8
+        },
+        {
+          "sFile": "system/fx/combat/blockableattackwarning_loopinit.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/combat/blockableattackwarning_loopend.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0005meleetutorial/fx/dustrail01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "actors/weapons/powerbeam/fx/chargebeam.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "system/fx/hits/meleesuc.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/melee.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/particlemelee.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/characters/samus/fx/rays_trail.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        }
+      ]
+    },
+    "oPoolDefinitions_DUPE": {
+      "lPoolDefinitions": [
+        {
           "sFile": "system/fx/combat/blockableattackwarning.bcptl",
           "eType": "FXTYPE_PARTICLESYSTEM",
           "uSize": 12

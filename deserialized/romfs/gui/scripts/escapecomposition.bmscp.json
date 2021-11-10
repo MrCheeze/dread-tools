@@ -78,7 +78,8 @@
                         "ColorB": 0.02745098,
                         "ColorA": 0.572549,
                         "FlipX": false,
-                        "FlipY": false
+                        "FlipY": false,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -107,7 +108,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": false,
-                        "FlipY": false
+                        "FlipY": false,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -136,7 +138,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": true,
-                        "FlipY": false
+                        "FlipY": false,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -165,7 +168,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": false,
-                        "FlipY": true
+                        "FlipY": true,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -194,7 +198,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": true,
-                        "FlipY": true
+                        "FlipY": true,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -223,7 +228,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": false,
-                        "FlipY": false
+                        "FlipY": false,
+                        "Visible_DUPE": true
                       }
                     },
                     {
@@ -252,7 +258,8 @@
                         "ColorB": 0.2078431,
                         "ColorA": 1.0,
                         "FlipX": false,
-                        "FlipY": false
+                        "FlipY": false,
+                        "Visible_DUPE": true
                       }
                     }
                   ]

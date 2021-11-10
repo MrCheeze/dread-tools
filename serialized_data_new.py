@@ -1,5 +1,5 @@
 import glob
-from crc64 import crc64
+import crc64
 import json
 import pprint
 import struct
@@ -7,12 +7,16 @@ import random
 import re
 import os
 import numpy as np
+import io
 
 hashes = {}
 used_hashes = {}
 
+def crc64B(s):
+    return int.to_bytes(crc64.crc64(s), 8, 'little')
+
 def registerHash(s):
-    hashes[crc64(s)] = s
+    hashes[crc64B(s)] = s
 
 for line in open('exefs_strings.txt'):
     registerHash(line.strip())
@@ -648,14 +652,18 @@ for className in all_types:
         registerHash(fieldName)
 
 def readHash(f, hashType='misc'):
-    ret = hashes[int.from_bytes(f.read(8), 'little')]
+    ret = hashes[f.read(8)]
     if hashType not in used_hashes:
         used_hashes[hashType] = set()
     used_hashes[hashType].add(ret)
     return ret
+def writeHash(f, s, hashType='misc'):
+    f.write(crc64B(s))
 
 def readInt(f):
     return int.from_bytes(f.read(4), 'little', signed=True)
+def writeInt(f, val):
+    f.write(int.to_bytes(int(val), 4, 'little', signed=True))
 
 def readDict(f, readKey, readValue, *args):
     entryCount = readInt(f)
@@ -664,7 +672,13 @@ def readDict(f, readKey, readValue, *args):
         k = readKey(f)
         v = readValue(f, *args)
         obj[k] = v
+    assert len(obj) == entryCount
     return obj
+def writeDict(f, obj, writeKey, writeValue, *args):
+    writeInt(f, len(obj))
+    for k,v in obj.items():
+        writeKey(f, k)
+        writeValue(f, v, *args)
 
 def readStr(f):
     s = ''
@@ -675,50 +689,82 @@ def readStr(f):
         assert len(c) == 1, c
     #print(s)
     return s
+def writeStr(f, s):
+    f.write(s.encode('ascii'))
+    f.write(b'\x00')
 
 def readPtr(f):
     className = readHash(f, 'class')
     obj = {'Class': className}
     obj['Data'] = readObject(f, className)
     return obj
+def writePtr(f, obj):
+    writeHash(f, obj['Class'])
+    writeObject(f, obj['Data'], obj['Class'])
 
 def readList(f, readElement, *args):
     entryCount = readInt(f)
     obj = []
-    for _ in range(entryCount):
-        obj.append(readElement(f, *args))
+    for i in range(entryCount):
+        elem = readElement(f, *args)
+        obj.append(elem)
+        assert len(obj) == i+1
+    assert len(obj) == entryCount
     return obj
+def writeList(f, lst, writeElement, *args):
+    writeInt(f, len(lst))
+    for elem in lst:
+        writeElement(f, elem, *args)
 
 def fixFloats(floatList):
     return [float(str(np.float32(x))) for x in floatList]
 
 def readFloat(f):
     return fixFloats(struct.unpack('<f', f.read(4)))[0]
+def writeFloat(f, val):
+    f.write(struct.pack('<f', val))
 
 def readVec2D(f):
     return fixFloats(struct.unpack('<ff', f.read(8)))
+def writeVec2D(f, vals):
+    f.write(struct.pack('<ff', *vals))
 
 def readVec3D(f):
     return fixFloats(struct.unpack('<fff', f.read(12)))
+def writeVec3D(f, vals):
+    f.write(struct.pack('<fff', *vals))
 
 def readVec4D(f):
     return fixFloats(struct.unpack('<ffff', f.read(16)))
+def writeVec4D(f, vals):
+    f.write(struct.pack('<ffff', *vals))
 
 def readBool(f):
     return struct.unpack('<?', f.read(1))[0]
+def writeBool(f, val):
+    f.write(struct.pack('<?', val))
 
 def readUnsigned(f):
     return int.from_bytes(f.read(4), 'little', signed=False)
+def writeUnsigned(f, val):
+    f.write(int.to_bytes(int(val), 4, 'little', signed=False))
 
 def readUnsignedShort(f):
     return int.from_bytes(f.read(2), 'little', signed=False)
+def writeUnsignedShort(f, val):
+    f.write(int.to_bytes(int(val), 2, 'little', signed=False))
 
 def readUnsignedLong(f):
     return int.from_bytes(f.read(8), 'little', signed=False)
+def writeUnsignedLong(f, val):
+    f.write(int.to_bytes(int(val), 8, 'little', signed=False))
 
 def readBlob(f):
     blobLength = readInt(f)
     return list(f.read(blobLength))
+def writeBlob(f, lst):
+    writeInt(f, len(lst))
+    f.write(bytes(lst))
 
 def readInnerFile(f):
     fileLength = readInt(f)
@@ -730,6 +776,14 @@ def readInnerFile(f):
     assert fileLength == end - start, hex(fileLength)
     
     return val
+def writeInnerFile(f, obj):
+    innerfile = io.BytesIO()
+    writeStandardObject(innerfile, obj, 'CActor')
+    innerfile.seek(0)
+    innerdata = innerfile.read()
+    innerfile.close()
+    writeInt(f, len(innerdata))
+    f.write(innerdata)
 
 def enumValueToKey(enumName, value):
     dct = all_types[enumName]['values']
@@ -743,6 +797,8 @@ def enumValueToKey(enumName, value):
 def readEnum(f, enumName):
     value = readInt(f)
     return enumValueToKey(enumName, value)
+def writeEnum(f, val, enumName):
+    writeInt(f, all_types[enumName]['values'][val])
 
 def readEnumArray(f, className, enumName):
     entryCount = readInt(f)
@@ -761,10 +817,48 @@ def readEnumArray(f, className, enumName):
         
         for i in range(entryCount):
             obj[enumValueToKey(enumName, i)] = readObject(f, className)
-            
+
+    assert len(obj) == entryCount 
     return obj
+def writeEnumArray(f, obj, className, enumName):
+    writeInt(f, len(obj))
+
+    if enumName in all_types:
+        assert len(obj) == len(all_types[enumName]['values']) - 1, 'Enum array %s should have the keys %s'%(list(obj.keys()), list(all_types[enumName]['values'].keys())[:-1])
+
+    i = 0
+    for k, v in obj.items():
+        
+        if type(k) == int or k.isnumeric():
+            assert i == int(k), 'Enum array %s should be in order'%obj.keys()
+        else:
+            assert i == all_types[enumName]['values'][k], 'Enum array %s should have the keys %s'%(list(obj.keys()), list(all_types[enumName]['values'].keys())[:-1])
+            
+        writeObject(f, v, className)
+        i += 1
 
 re_basic_class = re.compile(r'^([A-Za-z<>]+::)*[A-Z][A-Za-z0-9]+$')
+
+def getFieldType(className, fieldName):
+    fieldType = None
+        
+    c = className
+    while fieldType is None:
+        if fieldName in all_types[c]['fields']:
+            fieldType = all_types[c]['fields'][fieldName]
+        else:
+            c = all_types[c]['parent']
+            assert c is not None, '%s not found in %s'%(fieldName, className)
+
+    fieldTypeWithNamespace = c+'::'+fieldType
+    if fieldType not in all_types and fieldTypeWithNamespace in all_types:
+        fieldType = fieldTypeWithNamespace
+        
+    fieldTypeWithNamespace2 = c.rsplit('::',1)[0]+'::'+fieldType
+    if fieldType not in all_types and fieldTypeWithNamespace2 in all_types:
+        fieldType = fieldTypeWithNamespace2
+
+    return fieldType
 
 def readStandardObject(f, className):
 
@@ -775,31 +869,31 @@ def readStandardObject(f, className):
 
     obj = {}
     
-    for _ in range(fieldCount):
+    for i in range(fieldCount):
         fieldName = readHash(f, 'field')
-        fieldType = None
-        
         #print(className, fieldName, hex(f.tell()))
         
-        c = className
-        while fieldType is None:
-            if fieldName in all_types[c]['fields']:
-                fieldType = all_types[c]['fields'][fieldName]
-            else:
-                c = all_types[c]['parent']
-                assert c is not None, '%s not found in %s'%(fieldName, className)
+        fieldType = getFieldType(className, fieldName)
 
-        fieldTypeWithNamespace = c+'::'+fieldType
-        if fieldType not in all_types and fieldTypeWithNamespace in all_types:
-            fieldType = fieldTypeWithNamespace
-            
-        fieldTypeWithNamespace2 = c.rsplit('::',1)[0]+'::'+fieldType
-        if fieldType not in all_types and fieldTypeWithNamespace2 in all_types:
-            fieldType = fieldTypeWithNamespace2
+        val = readObject(f, fieldType)
+        while fieldName in obj:
+            fieldName = fieldName + "_DUPE"
+        obj[fieldName] = val
+        assert len(obj) == i+1
 
-        obj[fieldName] = readObject(f, fieldType)
-        
+    assert len(obj) == fieldCount
     return obj
+def writeStandardObject(f, obj, className):
+    writeInt(f, len(obj))
+    
+    for fieldName, fieldValue in obj.items():
+
+        while fieldName.endswith('_DUPE'):
+            fieldName = fieldName[:-5]
+        
+        writeHash(f, fieldName)
+        fieldType = getFieldType(className, fieldName)
+        writeObject(f, fieldValue, fieldType)
 
 re_ptr = re.compile(r'^[a-z:]*(CTypedValue|.*\*|unique_ptr<.*>.*|CGameObjectRef<.*>)$')
 re_gamelink = re.compile(r'^[a-z:]*CGameLink<.*>$')
@@ -900,6 +994,94 @@ def readObject(f, className):
     #print(className, val, hex(f.tell()))
 
     return val
+def writeObject(f, val, className):
+
+    className = className.strip()
+
+    #print(className, hex(f.tell()))
+
+    while className in all_types and all_types[className]['parent'] and not all_types[className]['fields'] and not all_types[className]['values'] and (not re_typedef.match(className) or all_types[className]['parent']=='int'):
+        className = all_types[className]['parent']
+    
+    if className in ['float','float32']:
+        val = writeFloat(f, val)
+    elif className in ['base::global::CStrId','base::global::CRntString','base::global::TRntString256','base::global::CFilePathStrId','base::core::CAssetLink','base::global::TRntString64','base::global::TRntString128'] or re_gamelink.match(className):
+        val = writeStr(f, val)
+    elif className in ['base::math::CVector2D','math::CVector2D']:
+        val = writeVec2D(f, val)
+    elif className in ['base::math::CVector3D','math::CVector3D']:
+        val = writeVec3D(f, val)
+    elif className in ['base::math::CVector4D','math::CVector4D']:
+        val = writeVec4D(f, val)
+    elif className == 'bool':
+        val = writeBool(f, val)
+    elif className == 'int':
+        val = writeInt(f, val)
+    elif className == 'unsigned':
+        val = writeUnsigned(f, val)
+    elif className == 'unsigned_short':
+        val = writeUnsignedShort(f, val)
+    elif className == 'unsigned_long':
+        val = writeUnsignedLong(f, val)
+    elif className == 'SCustomData':
+        val = writeBlob(f, val)
+    elif className == 'base::global::CName':
+        val = writeHash(f, val, 'cname')
+    elif className == 'void':
+        val = None
+    elif className == 'base::global::CRntFile':
+        val = writeInnerFile(f, val)
+        
+    elif re_ptr.match(className):
+        val = writePtr(f, val)
+        
+    elif re_vector.match(className):
+        val = writeList(f, val, writeObject, re_vector.match(className).group(2))
+    elif re_dict.match(className):
+        val = writeDict(f, val, writeStr, writeObject, re_dict.match(className).group(2))
+    elif re_enumarray.match(className):
+        val = writeEnumArray(f, val, re_enumarray.match(className).group(1), re_enumarray.match(className).group(2))
+
+    elif re_typedef.match(className) and (className not in all_types or not all_types[className]['fields']):
+
+        if className == 'TSectionContainer':
+            val = writeDict(f, val, writeStr, writePtr)
+        elif className.endswith('FlagSet'):
+            val = writeInt(f, val)
+        elif className == 'CMinimapManager::TGlobalMapIcons':
+            val = writeDict(f, val, writeStr, writeList, writeStandardObject, 'CMinimapManager::SAreaIconInfo')
+        elif className == 'GUI::CMissionLog::TMissionLogEntries':
+            val = writeList(f, val, writeStandardObject, 'CGlobalEventManager::SMissionLogEntry')
+        elif className == 'TEnabledOccluderCollidersMap':
+            val = writeDict(f, val, writeStr, writeList, writeHash)
+        elif className == 'CBreakableTileGroupComponent::TActorTileStatesMap':
+            val = writeDict(f, val, writeStr, writeList, writeStandardObject, 'CBreakableTileGroupComponent::SMinimapTileState')
+        elif className == 'minimapGrid::TMinimapVisMap':
+            val = writeDict(f, val, writeInt, writeStr)
+        elif className == 'CMinimapManager::TCustomMarkerDataMap':
+            val = writeDict(f, val, writeInt, writeStandardObject, 'CMinimapManager::SMarkerData')
+        elif className == 'CMinimapData::TColliderGeoDatasMap':
+            val = writeDict(f, val, writeHash, writeStandardObject, 'SGeoData')
+        elif className == 'CMinimapData::TOccludedIcons':
+            val = writeList(f, val, writeStr)
+        elif className == 'CMinimapDef::TMapIconDefs':
+            val = writeDict(f, val, writeStr, writeStandardObject, 'SMapIconDef')
+        elif className == 'CMinimapDef::TMapLabelDefs':
+            val = writeDict(f, val, writeStr, writeStandardObject, 'SMapLabelDef')
+        elif className == 'CPlaythrough::TDictCheckpointDatas':
+            val = writeDict(f, val, writeStr, writePtr)
+        elif className == 'TSoundEventRules':
+            val = writeList(f, val, writePtr)
+            
+        else:
+            assert False, '--- Unknown typedef %s ---'%className
+        
+    elif className in all_types and all_types[className]['values']:
+        val = writeEnum(f, val, className)
+    else:
+        val = writeStandardObject(f, val, className)
+
+    #print(className, val, hex(f.tell()))
 
 fileTypeMap = {
     'CScenario'                 : 'gameeditor::CGameModelRoot',
@@ -932,6 +1114,11 @@ def parseFile(f):
     }
     assert f.read() == b''
     return fileData
+def writeFile(f, fileData):
+    writeHash(f, fileData['FileType'])
+    writeInt(f, fileData['Unk'])
+    writeHash(f, 'Root')
+    writeObject(f, fileData['Root'], fileData['RealFileType'])
 
 for line in sorted(list(open('fileintros2.txt'))):
     filename = line.strip().split(' ',6)[-1]
@@ -942,19 +1129,31 @@ for line in sorted(list(open('fileintros2.txt'))):
         full_filename = filename
 
     f=open(full_filename,'rb')
+    
     try:
         parsed = parseFile(f)
     finally:
         print(filename, hex(f.tell()))
-    f.close()
 
     #pprint.pprint(parsed)
+
+    json_data = json.dumps(parsed, sort_keys=False, indent=2)
+
+    #tempfile = io.BytesIO()
+    ##writeFile(tempfile, json.loads(json_data))
+    #writeFile(tempfile, parsed)
+    #tempfile.seek(0)
+    #f.seek(0)
+    #assert tempfile.read() == f.read()
+    #tempfile.close()
+    
+    f.close()
 
     outfilename = 'deserialized/'+filename+'.json'
     os.makedirs(os.path.dirname(outfilename), exist_ok=True)
     
     f2=open(outfilename,'w')
-    json.dump(parsed, f2, sort_keys=False, indent=2)
+    f2.write(json_data)
     f2.close()
 
 if True:

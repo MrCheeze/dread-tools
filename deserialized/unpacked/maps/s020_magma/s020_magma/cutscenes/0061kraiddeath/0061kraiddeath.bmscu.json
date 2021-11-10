@@ -239,6 +239,140 @@
     ],
     "aSounds": [],
     "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/airsparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/fx/escape_explosion/fx/sparks03.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "actors/characters/kraid/fx/mouthslime01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/mouth_hit.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0060kraidphase02/fx/dust01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/sparksloop02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 4
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/belly_loop.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_explosion01_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_impact_02.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 12
+        },
+        {
+          "sFile": "maps/fx/smokeparticles/smoke07.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_explosion00_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 9
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_drops.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 6
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/lava_explosion02_anim.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/clawimpact.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/sparksloop01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/bellyslime.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/kraidspike/fx/impactspike.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/impact_decal.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/impact_glow.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/magmaheatplane02.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0034protoemmyappears/fx/impact_dust01.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/powerbeam/fx/chargebeam.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0059kraidpresentation/fx/chargebeam_complete.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/weapons/widebeam/fx/burstcharge.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/kraid_decal.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0061kraiddeath/fx/imats/kraidgrab_trail2.bsmat",
+          "eType": "FXTYPE_TRAIL",
+          "uSize": 4
+        }
+      ]
+    },
+    "oPoolDefinitions_DUPE": {
       "lPoolDefinitions": []
     }
   }

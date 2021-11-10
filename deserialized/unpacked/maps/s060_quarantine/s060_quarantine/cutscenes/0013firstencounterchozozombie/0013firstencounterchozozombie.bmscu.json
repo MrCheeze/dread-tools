@@ -142,6 +142,65 @@
     ],
     "aSounds": [],
     "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "actors/weapons/powerbeam/fx/explosion.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 9
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/liquishthing.bcmdl",
+          "eType": "FXTYPE_CUSTOMMATERIAL",
+          "uSize": 1
+        },
+        {
+          "sFile": "timelines/x_transformation/fx/whirlwind.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/weapons/widebeam/fx/burst_grab.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        },
+        {
+          "sFile": "actors/weapons/powerbeam/models/powerbeamcharged_projectile.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 18
+        },
+        {
+          "sFile": "cutscenes/0013firstencounterchozozombie/fx/mudtrail.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/ghostdash_frontpose.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0013firstencounterchozozombie/fx/ring.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/ghostdash_floorsparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0078cooldownpresentation/fx/samus_splashenter.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/imats/ghostdash_trail.bsmat",
+          "eType": "FXTYPE_TRAIL",
+          "uSize": 3
+        }
+      ]
+    },
+    "oPoolDefinitions_DUPE": {
       "lPoolDefinitions": []
     }
   }

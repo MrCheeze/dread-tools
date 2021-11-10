@@ -327,6 +327,95 @@
     ],
     "aSounds": [],
     "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_final_01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_final_03.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_final_02.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_04.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/planet_atmos.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_05.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_final_04.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0112endgame/fx/starfield_01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 8
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/nebula_06.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 5
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/ship_propulsor.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 2
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/engine_sparks_2.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/engine_sparks.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/propulsor_circles.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "actors/characters/samus/fx/energy_chest_forest.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/imats/ship_trail_material.bsmat",
+          "eType": "FXTYPE_TRAIL",
+          "uSize": 1
+        },
+        {
+          "sFile": "cutscenes/0001gameintro_space/fx/imats/ship_trail_2_material.bsmat",
+          "eType": "FXTYPE_TRAIL",
+          "uSize": 2
+        },
+        {
+          "sFile": "actors/characters/samus/fx/imats/ghostdash_trail.bsmat",
+          "eType": "FXTYPE_TRAIL",
+          "uSize": 1
+        }
+      ]
+    },
+    "oPoolDefinitions_DUPE": {
       "lPoolDefinitions": []
     }
   }

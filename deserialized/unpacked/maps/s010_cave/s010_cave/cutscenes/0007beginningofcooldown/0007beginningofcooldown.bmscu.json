@@ -18,7 +18,7 @@
     "sOnEnd": "",
     "sOnSkip": "",
     "fCamInitInterpTime": -1.0,
-    "fCamExitInterpTime": 2.6,
+    "fCamExitInterpTime": -1.0,
     "fFps": 30,
     "bSkippable": true,
     "aTakes": [
@@ -66,6 +66,82 @@
     ],
     "aSounds": [],
     "oPoolDefinitions": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "maps/fx/cooldownevent/snowparticles01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "maps/fx/cooldownevent/icedust.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        }
+      ]
+    },
+    "oPoolDefinitions_DUPE": {
+      "lPoolDefinitions": [
+        {
+          "sFile": "maps/fx/cooldownevent/snowparticles01.bcmdl",
+          "eType": "FXTYPE_MODEL",
+          "uSize": 3
+        },
+        {
+          "sFile": "maps/fx/cooldownevent/icedust.bcptl",
+          "eType": "FXTYPE_PARTICLESYSTEM",
+          "uSize": 3
+        }
+      ]
+    },
+    "fCamExitInterpTime_DUPE": 4.0,
+    "fCamExitInterpTime_DUPE_DUPE": 2.6,
+    "fFps_DUPE": 30,
+    "bSkippable_DUPE": true,
+    "aTakes_DUPE": [
+      {
+        "sId": "4",
+        "iFrames": 551,
+        "sCamera": "cutscenes/0007beginningofcooldown/cameras/4.bccam",
+        "sOnStart": "",
+        "sOnExit": "",
+        "sOnSkip": "",
+        "fInitialDistanceListenerToTarget": 0.0,
+        "fMinimumDistanceListenerToTarget": -1.0,
+        "fMaximumDistanceListenerToTarget": -1.0
+      }
+    ],
+    "aActors_DUPE": [
+      {
+        "sId": "0007beginningofcooldown_samus",
+        "sCharClass": "actors/cutscene/samus.bmsad",
+        "sInGameEntityId": "Samus",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "relax",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      },
+      {
+        "sId": "0007beginningofcooldown_elevator",
+        "sCharClass": "cutscenes/0007beginningofcooldown/actors/elevator/actor.bmsad",
+        "sInGameEntityId": "elevator_with_cutscene_aqua_000",
+        "bInGameEntityVisibleOnEnd": true,
+        "bExitClearTags": false,
+        "fExitAnimTags": 0,
+        "dBlendSpaceVars": {},
+        "sExitAnim": "",
+        "sExitAnimChannel": "default",
+        "fExitAnimFrame": 0.0,
+        "dLayersExitAnim": {},
+        "sLightingDef": ""
+      }
+    ],
+    "aSounds_DUPE": [],
+    "oPoolDefinitions_DUPE_DUPE": {
       "lPoolDefinitions": [
         {
           "sFile": "maps/fx/cooldownevent/snowparticles01.bcmdl",

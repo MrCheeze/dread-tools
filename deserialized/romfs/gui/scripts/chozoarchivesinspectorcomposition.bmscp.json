@@ -58,7 +58,8 @@
                   "ColorB": 1.0,
                   "ColorA": 1.0,
                   "FlipX": false,
-                  "FlipY": false
+                  "FlipY": false,
+                  "Visible_DUPE": true
                 }
               },
               {
@@ -85,7 +86,8 @@
                   "ColorB": 0.3490566,
                   "ColorA": 0.5882353,
                   "FlipX": false,
-                  "FlipY": false
+                  "FlipY": false,
+                  "Visible_DUPE": true
                 }
               },
               {
@@ -112,7 +114,8 @@
                   "ColorB": 0.3490566,
                   "ColorA": 0.5882353,
                   "FlipX": false,
-                  "FlipY": false
+                  "FlipY": false,
+                  "Visible_DUPE": true
                 }
               },
               {

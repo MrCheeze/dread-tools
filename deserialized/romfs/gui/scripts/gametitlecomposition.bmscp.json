@@ -42,7 +42,8 @@
             "ColorB": 0.0,
             "ColorA": 0.2039216,
             "FlipX": false,
-            "FlipY": false
+            "FlipY": false,
+            "Visible_DUPE": true
           }
         },
         {

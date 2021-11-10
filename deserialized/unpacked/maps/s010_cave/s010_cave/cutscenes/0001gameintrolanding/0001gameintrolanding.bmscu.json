@@ -209,6 +209,9 @@
     "aSounds": [],
     "oPoolDefinitions": {
       "lPoolDefinitions": []
+    },
+    "oPoolDefinitions_DUPE": {
+      "lPoolDefinitions": []
     }
   }
 }

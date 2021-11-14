@@ -130,6 +130,29 @@ if scratch:
                 
         f.close()
 
+    for filename in ['_wav3.txt']:
+        print(filename)
+        f=open(filename,'r')
+        for i in range(5):
+            for j in range(5):
+                for line_ in f:
+                    line = line.strip()[i:-j]
+                    checksums[crc64(line)] = line, '(%s)'%filename
+                    line = 'vibrations/' + line
+                    checksums[crc64(line)] = line, '(%s)'%filename
+                    if line.endswith('wav'):
+                        line = line[:-4] + '.bnvib'
+                        checksums[crc64(line)] = line, '(%s)'%filename
+                    elif line.endswith('.nvib'):
+                        line = line[:-5] + '.bnvib'
+                        checksums[crc64(line)] = line, '(%s)'%filename
+                    
+                    while '_' in line:
+                        line = line.replace('_','/',1)
+                        checksums[crc64(line)] = line, '(%s)'%filename
+            
+        f.close()
+
 print()
 
 letters = [chr(x) for x in range(ord('a'),ord('z')+1)]

@@ -1,45 +1,81 @@
-Game.LogWarn(0, "Entering script msemenu_mainmenu.lc")
-Game.DoFile("rom:/gui/scripts/originals/msemenu_mainmenu.lc")
+-- Run the original file
 
-msemenu_mainmenu._ORIG_Create = msemenu_mainmenu.Create
+Game.DoFile("rom:/gui/scripts/msemenu_mainmenu_original.lc")
 
-function msemenu_mainmenu.Create(_ARG_0_)
-	Game.LogWarn(0, "Called msemenu_mainmenu.Create - "..tostring(_ARG_0_))
-	return msemenu_mainmenu._ORIG_Create(_ARG_0_)
+-- Custom stuff
+
+if already_replaced_functions == nil then
+	already_replaced_functions = {}
 end
 
-msemenu_mainmenu._ORIG_EnableAmiiboMenu = msemenu_mainmenu.EnableAmiiboMenu
+function print_table(t, depth, table_name)
 
-function msemenu_mainmenu.EnableAmiiboMenu()
-	Game.LogWarn(0, "Called msemenu_mainmenu.EnableAmiiboMenu")
-	return msemenu_mainmenu._ORIG_EnableAmiiboMenu()
+	for k,v in pairs(t) do
+
+		local full_name
+		if t == _G then
+			full_name = tostring(k)
+		else
+			full_name = table_name.."."..tostring(k)
+		end
+
+		local padding = ""
+
+		for i=1,depth do
+			padding=padding.."  "
+		end
+
+		Game.LogWarn(0, padding..tostring(k)..": "..tostring(v))
+
+		if type(v) == "table" and v ~= _G and v ~= t then
+			print_table(v, depth+1, full_name)
+		end
+
+		if type(v) == "function" and
+			t~=table and t~=string and t~=already_replaced_functions and
+			k ~= "LogWarn" and k ~= "__gc" and k ~= "tostring" and k ~= "print_table" and k ~= "pairs" and k ~= "ipairs" and k ~= "type" and
+			already_replaced_functions[v] == nil then
+
+			t[k] = function(...)
+
+				local str = "Called "..full_name.."("
+
+				for i, argument in ipairs{...} do
+					if i > 1 then
+						str=str..", "
+					end
+					str=str..tostring(argument)
+				end
+
+				str = str..")"
+
+				Game.LogWarn(0, str)
+				return v(...)
+
+			end
+
+			already_replaced_functions[t[k]] = true
+
+		end
+	end
 end
 
-msemenu_mainmenu._ORIG_LoadDebugScenario = msemenu_mainmenu.LoadDebugScenario
-
-function msemenu_mainmenu.LoadDebugScenario(_ARG_0_)
-	Game.LogWarn(0, "Called msemenu_mainmenu.LoadDebugScenario - "..tostring(_ARG_0_))
-	return msemenu_mainmenu._ORIG_LoadDebugScenario(_ARG_0_)
+function print_globals()
+	Game.LogWarn(0, "----------")
+	print_table(_G, 0, "")
+	Game.LogWarn(0, "----------")
 end
 
-msemenu_mainmenu._ORIG_LoadPresavedDebugScenario = msemenu_mainmenu.LoadPresavedDebugScenario
+function loadingscreen.HideLoadingScreen()
+	-- Original function contents
+	loadingscreen.oGUIRoot:FindChild("loadscreencomposition").Enabled = false
+	loadingscreen.oGUIRoot:FindChild("loadscreencomposition"):ForceRedraw()
+	loadingscreen.oGUIRoot:FindChild("loadscreencomposition"):ChangeSkinStateWithStrId("Default")
+	loadingscreen.oGUIRoot:ForceRedraw()
 
-function msemenu_mainmenu.LoadPresavedDebugScenario(_ARG_0_)
-	Game.LogWarn(0, "Called msemenu_mainmenu.LoadPresavedDebugScenario - "..tostring(_ARG_0_))
-	return msemenu_mainmenu._ORIG_LoadPresavedDebugScenario(_ARG_0_)
+	-- Custom
+	print_globals()
 end
 
-msemenu_mainmenu._ORIG_GenerateLoadArenaItems = msemenu_mainmenu.GenerateLoadArenaItems
-
-function msemenu_mainmenu.GenerateLoadArenaItems(_ARG_0_)
-	Game.LogWarn(0, "Called msemenu_mainmenu.GenerateLoadArenaItems - "..tostring(_ARG_0_))
-	return msemenu_mainmenu._ORIG_GenerateLoadArenaItems(_ARG_0_)
-end
-
-msemenu_mainmenu._ORIG_GenerateEmmyTunnelConfig = msemenu_mainmenu.GenerateEmmyTunnelConfig
-
-function msemenu_mainmenu.GenerateEmmyTunnelConfig(_ARG_0_)
-	Game.LogWarn(0, "Called msemenu_mainmenu.GenerateEmmyTunnelConfig - "..tostring(_ARG_0_))
-	return msemenu_mainmenu._ORIG_GenerateEmmyTunnelConfig(_ARG_0_)
-end
+print_globals()
 

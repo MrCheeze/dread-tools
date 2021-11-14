@@ -23,15 +23,19 @@ for line in f:
     if line.startswith('m_'):
         line = line[2:]
         guess(line)
+        line = line[1:]
+        guess(line)
 
 for c1 in guess_chars:
     guess(c1)
     for c2 in guess_chars:
-        guess(c1+c2)
+        if c1+c2 != 'YG':
+            guess(c1+c2)
         for c3 in guess_chars:
             guess(c1+c2+c3)
-all_hashes.pop(crc64('YG'))
 
+for i in range(100):
+    guess('Param%d'%i)
 
 f.close()
 
@@ -47,7 +51,7 @@ end_of_last_hash = 0
 #for filename in ['temp.bin']:
 #for filename in ['savedata/LetsPlayNintendoITA_hundo/1/common.bmssv']:
 #for filename in ['unpacked/maps/s010_cave/s010_cave/cutscenes/0005meleetutorial/0005meleetutorial.bmscu']:
-for filename in ['unpacked/maps/s010_cave/s010_cave/cutscenes/0001gameintro_fight/0001gameintro_fight.bmscu']:
+for filename in ['unpacked/players/samus/actors/characters/samus/charclasses/samus.bmsad']:
 
     if os.path.isdir(filename):
         continue
@@ -66,9 +70,9 @@ for filename in ['unpacked/maps/s010_cave/s010_cave/cutscenes/0001gameintro_figh
             good_hashes[testhash] = all_hashes[testhash]
             print(hex(i), hex(testhash), all_hashes[testhash])
             end_of_last_hash = i + 8
-        else:
-            if i == 0:
-                break
+        #else:
+        #    if i == 0:
+        #        break
     f.close()
     print(data[end_of_last_hash:])
 

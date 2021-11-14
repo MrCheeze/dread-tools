@@ -20,6 +20,8 @@ def registerHash(s):
 
 for line in open('exefs_strings.txt'):
     registerHash(line.strip())
+    registerHash(line.strip()[1:])
+    registerHash(line.strip()[2:])
 for line in open('bmscd_strings.txt'):
     registerHash(line.strip())
     registerHash(line.strip()[1:])
@@ -1120,47 +1122,50 @@ def writeFile(f, fileData):
     writeHash(f, 'Root')
     writeObject(f, fileData['Root'], fileData['RealFileType'])
 
-for line in sorted(list(open('fileintros2.txt'))):
-    filename = line.strip().split(' ',6)[-1]
 
-    if filename.startswith('romfs'):
-        full_filename = 'D:/Switch Homebrew/NSPs/dread_1.0.0/' + filename
-    else:
-        full_filename = filename
+if __name__ == '__main__':
 
-    f=open(full_filename,'rb')
-    
-    try:
-        parsed = parseFile(f)
-    finally:
-        print(filename, hex(f.tell()))
+    for line in sorted(list(open('fileintros2.txt'))):
+        filename = line.strip().split(' ',6)[-1]
 
-    #pprint.pprint(parsed)
+        if filename.startswith('romfs'):
+            full_filename = 'D:/Switch Homebrew/NSPs/dread_1.0.0/' + filename
+        else:
+            full_filename = filename
 
-    json_data = json.dumps(parsed, sort_keys=False, indent=2)
+        f=open(full_filename,'rb')
+        
+        try:
+            parsed = parseFile(f)
+        finally:
+            print(filename, hex(f.tell()))
 
-    #tempfile = io.BytesIO()
-    ##writeFile(tempfile, json.loads(json_data))
-    #writeFile(tempfile, parsed)
-    #tempfile.seek(0)
-    #f.seek(0)
-    #assert tempfile.read() == f.read()
-    #tempfile.close()
-    
-    f.close()
+        #pprint.pprint(parsed)
 
-    outfilename = 'deserialized/'+filename+'.json'
-    os.makedirs(os.path.dirname(outfilename), exist_ok=True)
-    
-    f2=open(outfilename,'w')
-    f2.write(json_data)
-    f2.close()
+        json_data = json.dumps(parsed, sort_keys=False, indent=2)
 
-if True:
-    for hashType in used_hashes:
-        used_hashes[hashType] = sorted(list(used_hashes[hashType]))
+        #tempfile = io.BytesIO()
+        ##writeFile(tempfile, json.loads(json_data))
+        #writeFile(tempfile, parsed)
+        #tempfile.seek(0)
+        #f.seek(0)
+        #assert tempfile.read() == f.read()
+        #tempfile.close()
+        
+        f.close()
 
-    f2=open('all_hashes.json','w')
-    json.dump(used_hashes, f2, indent='\t')
-    f2.close()
+        outfilename = 'deserialized/'+filename+'.json'
+        os.makedirs(os.path.dirname(outfilename), exist_ok=True)
+        
+        f2=open(outfilename,'w')
+        f2.write(json_data)
+        f2.close()
+
+    if False:
+        for hashType in used_hashes:
+            used_hashes[hashType] = sorted(list(used_hashes[hashType]))
+
+        f2=open('all_hashes.json','w')
+        json.dump(used_hashes, f2, indent='\t')
+        f2.close()
 

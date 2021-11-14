@@ -41,6 +41,9 @@ def crc64(string):
         checksum = QWORD_ARRAY_71015f7b28[(checksum & 0xff) ^ char] ^ (checksum >> 8)
     return checksum
 
+def crc64B(s):
+    return int.to_bytes(crc64(s), 8, 'little')
+
 crc32_array = [
     0x00000000, 0x77073096, 0xEE0E612C, 0x990951BA, 0x076DC419, 0x706AF48F, 0xE963A535, 0x9E6495A3,
     0x0EDB8832, 0x79DCB8A4, 0xE0D5E91E, 0x97D2D988, 0x09B64C2B, 0x7EB17CBD, 0xE7B82D07, 0x90BF1D91,
@@ -83,3 +86,6 @@ def crc32(string):
     for char in string:
         checksum = crc32_array[(checksum & 0xff) ^ char] ^ (checksum >> 8)
     return checksum
+
+def crc32B(s):
+    return int.to_bytes(crc32(s), 4, 'little')

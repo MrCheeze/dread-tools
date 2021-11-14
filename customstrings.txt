@@ -2909,3 +2909,4 @@ vibrations/actors/samus/screwattack_repel.bnvib
 system/scripts/difficultydefs.lc
 vibrations/actors/samus/opticalloop.bnvib
 actors/props/fan_cooldown/fx/mud_dissolve.bcptl
+vibrations/cutscenes/cutscene_0043_rumble_03c_samustension.bnvib

@@ -1,2 +1,0 @@
-Game.LogWarn(0, "Entering script gui_global_constants.lc")
-Game.DoFile("rom:/gui/scripts/originals/gui_global_constants.lc")

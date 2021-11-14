@@ -1,3 +1,5 @@
+import re
+
 QWORD_ARRAY_71015f7b28 = [
 0x0000000000000000, 0xB32E4CBE03A75F6F, 0xF4843657A840A05B, 0x47AA7AE9ABE7FF34, 0x7BD0C384FF8F5E33, 0xC8FE8F3AFC28015C, 0x8F54F5D357CFFE68, 0x3C7AB96D5468A107,
 0xF7A18709FF1EBC66, 0x448FCBB7FCB9E309, 0x0325B15E575E1C3D, 0xB00BFDE054F94352, 0x8C71448D0091E255, 0x3F5F08330336BD3A, 0x78F572DAA8D1420E, 0xCBDB3E64AB761D61,
@@ -54,6 +56,8 @@ def remove_suffix(checksum, suffix):
     return checksum
 
 for goal_checksum in [crc64('vibrations/weapons/powerbomb_03.bnvib')]:
+
+    break
 
     prefix = 'vibrations/weapons/'
     prefix_checksum = crc64(prefix)
@@ -147,3 +151,73 @@ for goal_checksum in [crc64('vibrations/weapons/powerbomb_03.bnvib')]:
     #for i in range(20):
     #    print(i, hex((noextension_checksum^prefix_checksum) & 0x8080808080808080))
     #    noextension_checksum = remove_suffix(noextension_checksum, 'a')
+
+'''
+words = []
+for line in open('../words.txt'):
+    words.append(line.strip().lower())
+
+part1 = range(120)
+part1b = ['']
+part2 = range(1,6)
+part2b= ['']
+part3 = ['','accelerate','aim','appear','approach','arm','attack','autool','back','barrel','beam','bigfist','bite','body','break','bridge','cable','cannon','cannonhits','cell','charge','charged','chargedbeam','chargedfire','check','chozo','close','collar','commander','controls','cooldow','cooldown','counter','cube','dead','death','dissolution','dodge','door','elevator','emmy','end','energy','engine','entrance','explosion','eye','eyes','fainting','fall','falling','fight','fire','flash','floor','fly','free','frustration','fury','grab','ground','hand','head','hidro','hidrogiga','hit','hyper','impact','in','jump','jumps','klaida','kraid','lance','land','lava','lever','locks','m','melee','missile','moves','neck','on','open','out','pillar','planet','power','professor','push','reaction','release','resistance','roar','roll','run','samus','scorpius','scream','seat','sentinels','sequence','shield','ship','shot','sky','slide','smash','sphere','spike','splash','stairs','steam','step','steps','stomp','stop','struggle','suffering','tail','tension','thunder','trans','travel','turbulences','turn','wake','wall','weapon','wings','x']
+
+for p1 in part1:
+  print(p1)
+  for p1b in part1b:
+    for p2 in part2:
+      for p2b in part2b:
+        for p3 in ['emmy']:
+            for p4 in words:#['step','steps']:
+                s = 'vibrations/cutscenes/cutscene_%04d%s_rumble_%02d%s_%s%s.bnvib'%(p1,p1b,p2,p2b,p3,p4)
+                checksum = crc64(s)
+                if checksum == 0xb020c7f089fc57fe:
+                    print(s)
+                    1/0
+'''
+
+def crc64B(s, start_checksum=0xFFFFFFFFFFFFFFFF):
+    return int.to_bytes(crc64(s, start_checksum), 8, 'little')
+
+def xor(first,second):
+    while len(first) < len(second):
+        first += b'\x00'
+    while len(second) < len(first):
+        second += b'\x00'
+    return bytes([a ^ b for (a,b) in zip(first,second)])
+
+def avg(long):
+    bstr = int.to_bytes(long, 8, 'little')
+
+    vals = [[],[],[],[],[],[],[],[]]
+    for x in bstr:
+        for i in range(8):
+            vals[i].append(x & 1)
+            x >>= 1
+
+    avgs = [sum(l) for l in vals]
+    return avgs
+
+c = remove_suffix(crc64('vibrations/actors/samus/opticalloop.bnvib'), '.bnvib')
+
+a = crc64('vibrations/actors/samus/')
+
+print(hex(a))
+print(hex(c))
+
+print()
+
+print(hex(remove_suffix(c, 'opticalloop')))
+print(hex(remove_suffix(c, 'apticalloop')))
+print(hex(remove_suffix(c, 'zpticalloop')))
+print(hex(remove_suffix(c, 'opticallooa')))
+print(hex(remove_suffix(c, 'opticallooz')))
+
+print()
+
+print(hex(crc64('opticalloop', start_checksum=a)))
+print(hex(crc64('apticalloop', start_checksum=a)))
+print(hex(crc64('zpticalloop', start_checksum=a)))
+print(hex(crc64('opticallooa', start_checksum=a)))
+print(hex(crc64('opticallooz', start_checksum=a)))

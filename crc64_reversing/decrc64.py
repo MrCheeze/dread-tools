@@ -37,7 +37,7 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
             c = z3.Extract(8*(i+1)-1, 8*i, full)
 
             if len(prefixstr) <= i < len(prefixstr)+unklen:
-                
+
                 s.add(z3.simplify(z3.Or(
                     z3.And(
                         c >= z3.BitVecVal(ord('a'), 8),
@@ -46,24 +46,28 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
                     z3.And(
                         c >= z3.BitVecVal(ord('A'), 8),
                         c <= z3.BitVecVal(ord('Z'), 8),
-                        unklen <= 12,
+                        unklen <= 8,
                     ),
                     z3.And(
                         c == z3.BitVecVal(ord('_'), 8),
-                        unklen <= 12,
+                        unklen <= 14,
                     ),
                     z3.And(
                         c >= z3.BitVecVal(ord('0'), 8),
                         c <= z3.BitVecVal(ord('9'), 8),
-                        unklen <= 10,
+                        unklen <= 8,
                     ),
                     z3.And(
                         c == z3.BitVecVal(ord('-'), 8),
-                        unklen <= 10,
+                        unklen <= 8,
                     ),
                     z3.And(
                         c == z3.BitVecVal(ord(' '), 8),
-                        unklen <= 10,
+                        unklen <= 8,
+                    ),
+                    z3.And(
+                        c == z3.BitVecVal(ord('.'), 8),
+                        unklen <= 14,
                     ),
                 )))
                 
@@ -87,6 +91,7 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
 
             print(prefixstr+("".join(chr((r.as_long() >> 8*i) & 0xff)for i in range(unklen)))+suffixstr)
 
+'''
 def solveCutscene(goalchecksum):
 
  for unklen3 in range(8,15):
@@ -204,6 +209,7 @@ def solveCutscene(goalchecksum):
                   knownstr3 + \
                   ("".join(chr((r3.as_long() >> 8*i) & 0xff)for i in range(unklen3))) + \
                   knownstr4)
+'''
 
 if __name__ == '__main__':
 
@@ -224,7 +230,14 @@ if __name__ == '__main__':
 
     solve(0x9843EBECFB936F68, '', '_EXP', 10)
     solve(0xC22022339048C250, '', '_EXP', 10)
-    '''
     
     solve(0xb020c7f089fc57fe, 'vibrations/cutscenes/cutscene_0043_rumble_03c_samus', '.bnvib', 14)
-    
+    '''
+
+    #for line in open('../unknowns.txt'):
+    #    csum, prefix, suffix, missing, _, _ = line.split('\t')
+    #    csum = int(csum, 16)
+    #    missing = int(missing)
+    #    solve(csum, prefix, suffix, missing+1)
+
+    solve(0xd6dce1a701a27a0c, 'actors/characters/samus/c', '', 14)

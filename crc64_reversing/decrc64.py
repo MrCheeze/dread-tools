@@ -5,11 +5,11 @@ from crc64 import crc64
 # Slightly tweaked by chz
 # Prerequisite: z3-solver
 
-def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
+def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13, minunklen=1):
 
     #print(prefixstr)
 
-    for unklen in range(1,maxunklen+1):
+    for unklen in range(minunklen,maxunklen+1):
 
         print("Solving %s for string %s{?x%d}%s" % (hex(goalchecksum), prefixstr, unklen, suffixstr))
 
@@ -55,7 +55,7 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
                     z3.And(
                         c >= z3.BitVecVal(ord('0'), 8),
                         c <= z3.BitVecVal(ord('9'), 8),
-                        unklen <= 8,
+                        unklen <= 14,
                     ),
                     z3.And(
                         c == z3.BitVecVal(ord('-'), 8),
@@ -68,6 +68,10 @@ def solve(goalchecksum, prefixstr, suffixstr, maxunklen=13):
                     z3.And(
                         c == z3.BitVecVal(ord('.'), 8),
                         unklen <= 14,
+                    ),
+                    z3.And(
+                        c == z3.BitVecVal(ord('/'), 8),
+                        unklen <= 8,
                     ),
                 )))
                 
@@ -240,4 +244,16 @@ if __name__ == '__main__':
     #    missing = int(missing)
     #    solve(csum, prefix, suffix, missing+1)
 
-    solve(0xd6dce1a701a27a0c, 'actors/characters/samus/c', '', 14)
+
+    #for i in range(14,15):
+    #    for csum in [0x1e32450aa77c6f5a,0x385f5608373c4cd9,0x4b1c774f21d3cbc2,0x62a3b1c29f37d950,0x7257047ccc46d250]:
+    #        for suffix in ['/curves/anamorphicbloomfactor.bcurv','/curves/anamorphic bloom.bcurv','/curves/anamorphicbloom.bcurv']:
+    #            solve(csum, 'cutscenes/00', suffix, i, i)
+
+    #solve(0xba36aadfbb7800a8, 'cutscenes/0108shipyard/','',13)
+    #solve(0xba36aadfbb7800a8, 'cutscenes/0108shipyard/0108shipyard','',13)
+    #solve(0xba36aadfbb7800a8, 'cutscenes/0108fallofskybase/','',13)
+
+    for i in range(1,15):
+        for csum in []:
+            solve(csum, '', '', i,i)

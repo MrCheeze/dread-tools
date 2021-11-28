@@ -1,0 +1,14 @@
+0x331cb654	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bms	d	1	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bmsld	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bmssd
+0xcd483a95	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bms	d	1	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bmsld	maps/levels/c50_gui/s000_mainmenu/s000_mainmenu.bmssd
+0x76a37a8f	packs/maps/s911_swarmgym/subareas/subarearp	.pkg	1	packs/maps/s911_swarmgym/subareas/subarearp0.pkg	packs/maps/s911_swarmgym/subareas/subarearp1.pkg
+0x8bd5a34f	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp0.pkg	packs/maps/s920_traininggallery/subareas/subarearp1.pkg
+0x8e01c8cc	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp2.pkg	packs/maps/s920_traininggallery/subareas/subarearp3.pkg
+0x61537e2d	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp3.pkg	packs/maps/s920_traininggallery/subareas/subarearp4.pkg
+0x807d7449	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp4.pkg	packs/maps/s920_traininggallery/subareas/subarearp5.pkg
+0x6f2fc2a8	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp5.pkg	packs/maps/s920_traininggallery/subareas/subarearp6.pkg
+0x85a91fca	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp6.pkg	packs/maps/s920_traininggallery/subareas/subarearp7.pkg
+0x6afba92b	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp7.pkg	packs/maps/s920_traininggallery/subareas/subarearp8.pkg
+0x9c840d43	packs/maps/s920_traininggallery/subareas/subarearp	.pkg	1	packs/maps/s920_traininggallery/subareas/subarearp8.pkg	packs/maps/s920_traininggallery/subareas/subarearp9.pkg
+0xc4d06fa8	system/fx/textures/fireball	l.bctex	1	system/fx/textures/fireball.bctex	system/fx/textures/fireball_l.bctex
+0xe2953df1	system/fx/textures/fireball	l.bctex	1	system/fx/textures/fireball.bctex	system/fx/textures/fireball_l.bctex
+0x857940f8	system/fx/textures/stones	_la.bctex	1	system/fx/textures/stones4_la.bctex	system/fx/textures/stones_la.bctex

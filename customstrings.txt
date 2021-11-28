@@ -3450,3 +3450,21 @@ maps/levels/c10_samus/s060_quarantine/models/vignette_part03_n3_vignette002.bcmd
 maps/levels/c10_samus/s060_quarantine/models/vignette_part03_n3_vignette003.bcmdl
 maps/levels/c10_samus/s060_quarantine/models/vignette_part03_n3_vignette006.bcmdl
 maps/levels/c10_samus/s070_basesanc/models/part012_e11_mapmodel05b.bcmdl
+cutscenes/0006capsuleloop/curves/anamorphic bloom.bcurv
+cutscenes/0034protoemmyappears/fx/corridor_steam03slow.bcptl
+maps/levels/c10_samus/s080_shipyard/models/imats/part002_o4_mapmodel32_mp_opaquemaps_simple_200.bsmat
+actors/props/db_reg_b1_001/models/imats/db_reg_b1_001_mp_opaquemaps_simple_06.bsmat
+maps/levels/c10_samus/s010_cave/models/imats/part028_s5_mapmodel_34_mp_opaquemaps_simple_034.bsmat
+maps/levels/c10_samus/s020_magma/models/part001_r12_breakables00.bcmdl
+maps/levels/c10_samus/s040_aqua/models/imats/part002_jp2_planereflect01_part002_jp2_reflection.bsmat
+maps/levels/c10_samus/s040_aqua/models/imats/part004_m6_lshaft01_lights.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part003_n3_mapmodel16_mapmodel.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part003_n3_mapmodel17_mapmodel.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part03_n3_mapmodel02_mp_opaquemaps_simple.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part03_n3_mapmodel14_mp_opaquemaps_simple.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part03_n3_mapmodel15_mp_opaquemaps_simple.bsmat
+maps/levels/c10_samus/s060_quarantine/models/imats/part03_n3_mapmodel18_mp_opaquemaps_simple.bsmat
+maps/levels/c10_samus/s020_magma/models/part001_r12_breakables00.bcmdl
+maps/levels/c10_samus/s040_aqua/models/imats/part002_jp2_planereflect01_part002_jp2_reflection.bsmat
+maps/levels/c10_samus/s040_aqua/models/imats/part004_m6_lshaft01_lights.bsmat
+actors/props/wagontrain/models/imats/wagontrain_fluorescente.bsmat
